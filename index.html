@@ -35,6 +35,7 @@
             --cyan: #06B6D4;
             --cyan-dim: rgba(6,182,212,0.12);
             --red: #EF4444;
+            --gold: #F59E0B;
             --radius-sm: 8px;
             --radius: 12px;
             --radius-lg: 16px;
@@ -51,7 +52,6 @@
             -webkit-font-smoothing: antialiased;
         }
 
-        /* === Background Effects === */
         .bg-grid {
             position: fixed;
             inset: 0;
@@ -239,6 +239,124 @@
         }
         .search-stats strong { color: var(--accent); }
 
+        /* === Recommendations Section === */
+        .recommendations {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 2rem 2.5rem;
+            position: relative;
+            z-index: 1;
+        }
+        .rec-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .rec-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 0.8rem;
+        }
+        .rec-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 1.3rem;
+            transition: all 0.25s;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+        .rec-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--accent), var(--cyan));
+            opacity: 0;
+            transition: opacity 0.25s;
+        }
+        .rec-card:hover {
+            border-color: var(--accent);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+        }
+        .rec-card:hover::before { opacity: 1; }
+        .rec-card-top {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            margin-bottom: 0.7rem;
+        }
+        .rec-logo {
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.1rem;
+            border: 1px solid var(--border);
+            overflow: hidden;
+            background: var(--bg-primary);
+            flex-shrink: 0;
+        }
+        .rec-logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .rec-name {
+            font-size: 0.95rem;
+            font-weight: 600;
+        }
+        .rec-badge {
+            margin-right: auto;
+            font-size: 0.68rem;
+            padding: 0.15rem 0.45rem;
+            border-radius: 4px;
+            background: var(--orange-dim);
+            color: var(--orange);
+            font-weight: 600;
+        }
+        .rec-best-for {
+            font-size: 0.82rem;
+            color: var(--text-secondary);
+            margin-bottom: 0.8rem;
+            line-height: 1.5;
+        }
+        .rec-cta {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.3rem;
+            padding: 0.5rem 1rem;
+            background: var(--accent);
+            color: white;
+            border: none;
+            border-radius: var(--radius-sm);
+            font-family: inherit;
+            font-size: 0.82rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+            text-decoration: none;
+        }
+        .rec-cta:hover {
+            background: var(--accent-hover);
+            transform: scale(1.03);
+        }
+        .rec-price {
+            float: left;
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            line-height: 2.2;
+        }
+
         /* === Categories === */
         .categories {
             max-width: 1280px;
@@ -303,7 +421,7 @@
         .agents-grid {
             max-width: 1280px;
             margin: 0 auto;
-            padding: 0 2rem 4rem;
+            padding: 0 2rem 3rem;
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             gap: 1px;
@@ -330,12 +448,17 @@
             background: var(--bg-card-hover);
             z-index: 2;
         }
-
         .agent-card.featured {
             background: var(--bg-card);
         }
         .agent-card.featured:hover {
             background: var(--bg-card-hover);
+        }
+        .agent-card.has-affiliate {
+            border-right: 2px solid transparent;
+        }
+        .agent-card.has-affiliate:hover {
+            border-right-color: var(--accent);
         }
 
         .card-top {
@@ -440,8 +563,83 @@
             color: var(--accent);
             background: var(--accent-dim);
         }
+        /* Affiliate CTA - more prominent */
+        .visit-btn.affiliate-cta {
+            background: var(--accent);
+            color: white;
+            border-color: var(--accent);
+            font-weight: 600;
+        }
+        .visit-btn.affiliate-cta:hover {
+            background: var(--accent-hover);
+            border-color: var(--accent-hover);
+            color: white;
+            transform: scale(1.05);
+        }
 
-        /* === Category Section on Homepage === */
+        /* === Comparison Table === */
+        .comparison-section {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 1rem 2rem 3rem;
+            position: relative;
+            z-index: 1;
+        }
+        .comp-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+        .comp-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: var(--bg-card);
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            border: 1px solid var(--border);
+        }
+        .comp-table th {
+            background: var(--bg-primary);
+            padding: 0.8rem 1rem;
+            text-align: right;
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--text-secondary);
+            border-bottom: 1px solid var(--border);
+        }
+        .comp-table td {
+            padding: 0.75rem 1rem;
+            font-size: 0.85rem;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-secondary);
+        }
+        .comp-table tr:hover td {
+            background: var(--bg-card-hover);
+        }
+        .comp-table .comp-name {
+            font-weight: 600;
+            color: var(--text-primary);
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+        }
+        .comp-table .comp-cta {
+            display: inline-flex;
+            padding: 0.3rem 0.7rem;
+            background: var(--accent);
+            color: white;
+            border-radius: 6px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .comp-table .comp-cta:hover {
+            background: var(--accent-hover);
+            transform: scale(1.05);
+        }
+
+        /* === Category Section === */
         .cat-section {
             max-width: 1280px;
             margin: 0 auto;
@@ -503,6 +701,27 @@
         }
         .empty-state .emoji { font-size: 2.5rem; margin-bottom: 0.8rem; }
 
+        /* === Affiliate Disclosure === */
+        .affiliate-disclosure {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 2rem 2rem;
+            position: relative;
+            z-index: 1;
+        }
+        .disclosure-box {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 1rem 1.2rem;
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            line-height: 1.6;
+        }
+        .disclosure-box strong {
+            color: var(--text-secondary);
+        }
+
         /* === Footer === */
         footer {
             position: relative;
@@ -523,6 +742,7 @@
         /* === Responsive === */
         @media (max-width: 1024px) {
             .agents-grid { grid-template-columns: repeat(2, 1fr); }
+            .comp-table { font-size: 0.8rem; }
         }
         @media (max-width: 768px) {
             .agents-grid { grid-template-columns: 1fr; }
@@ -530,12 +750,16 @@
             .nav-links { display: none; }
             .categories { padding: 0 1.2rem 1.5rem; }
             .cat-section { padding: 0 1.2rem 2rem; }
+            .recommendations { padding: 0 1.2rem 2rem; }
+            .comparison-section { padding: 1rem 1.2rem 2rem; }
+            .affiliate-disclosure { padding: 0 1.2rem 2rem; }
             footer { flex-direction: column; gap: 0.5rem; text-align: center; }
             .section-header { padding: 1rem 1.2rem; }
-            .agents-grid { margin: 0 1.2rem 3rem; }
+            .agents-grid { margin: 0 1.2rem 3rem; padding: 0; border-radius: var(--radius); }
+            .rec-grid { grid-template-columns: 1fr; }
+            .comp-table th, .comp-table td { padding: 0.5rem 0.6rem; font-size: 0.78rem; }
         }
 
-        /* === Animations === */
         .agent-card {
             opacity: 0;
             animation: fadeIn 0.3s ease forwards;
@@ -544,7 +768,6 @@
             to { opacity: 1; }
         }
 
-        /* === Scrollbar === */
         ::-webkit-scrollbar { width: 6px; }
         ::-webkit-scrollbar-track { background: var(--bg-primary); }
         ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
@@ -563,8 +786,9 @@
             </a>
             <div class="nav-links">
                 <a href="#" class="nav-link active">الرئيسية</a>
+                <a href="#recommendations" class="nav-link">⭐ الأفضل</a>
                 <a href="#all" class="nav-link">تصفح الكل</a>
-                <a href="#categories" class="nav-link">التصنيفات</a>
+                <a href="#compare" class="nav-link">مقارنة</a>
                 <span class="nav-badge">
                     <span class="dot"></span>
                     <span id="nav-count">0</span> وكيل
@@ -579,7 +803,7 @@
             <span>يُحدَّث تلقائياً بواسطة AI</span>
         </div>
         <h1>اكتشف <span class="gradient">وكلاء الذكاء الاصطناعي</span> الأفضل لعملك</h1>
-        <p>أشمل دليل عربي لوكلاء AI. من البرمجة المستقلة إلى خدمة العملاء — اعثر على الوكيل المثالي لسير عملك.</p>
+        <p>أشمل دليل عربي لوكلاء AI. من البرمجة المستقلة إلى خدمة العملاء — اعثر على الوكيل المثالي وابدأ مجاناً.</p>
         <div class="search-wrapper">
             <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
             <input type="text" class="search-input" id="search" placeholder="ابحث عن وكيل AI... (مثال: برمجة، بحث، مساعد)" autocomplete="off">
@@ -587,6 +811,12 @@
         <div class="search-stats">
             عرض <strong id="showing-count">0</strong> من أصل <strong id="total-count">0</strong> وكيل ذكي
         </div>
+    </section>
+
+    <!-- Recommendations (affiliate-optimized) -->
+    <section class="recommendations" id="recommendations">
+        <div class="rec-title">⭐ الأكثر شعبية — جرّبها الآن</div>
+        <div class="rec-grid" id="rec-grid"></div>
     </section>
 
     <div class="categories" id="filters"></div>
@@ -600,10 +830,23 @@
 
     <div class="agents-grid" id="agents-grid"></div>
 
+    <!-- Comparison Table (affiliate-optimized) -->
+    <section class="comparison-section" id="compare">
+        <div class="comp-title">📊 مقارنة أفضل وكلاء AI</div>
+        <table class="comp-table" id="comp-table"></table>
+    </section>
+
     <section class="cat-section" id="categories">
         <div class="cat-section-title">تصفح حسب التصنيف</div>
         <div class="cat-cards" id="cat-cards"></div>
     </section>
+
+    <!-- Affiliate Disclosure -->
+    <div class="affiliate-disclosure">
+        <div class="disclosure-box">
+            <strong>📋 إفصاح:</strong> بعض الروابط في هذا الموقع هي روابط إحالة (Affiliate). عند التسجيل من خلالها، قد نحصل على عمولة صغيرة بدون أي تكلفة إضافية عليك. هذا يساعدنا على الاستمرار في تحديث الدليل. جميع التقييمات والتوصيات مبنية على تجربتنا الفعلية وليست مدفوعة.
+        </div>
+    </div>
 
     <footer>
         <div>دليل وكلاء الذكاء الاصطناعي © 2026 — يُحدَّث تلقائياً بواسطة <a href="#">Tony AI Agent</a> 🤖</div>
@@ -644,11 +887,23 @@
     let agents = [];
     let currentFilter = 'all';
 
+    function getLink(agent) {
+        // Use affiliate URL if available, otherwise regular URL with UTM
+        if (agent.affiliate_url) return agent.affiliate_url;
+        return agent.url + (agent.url.includes('?') ? '&' : '?') + 'utm_source=ai-agents-ar&utm_medium=directory';
+    }
+
+    function getLogoHTML(agent) {
+        if (agent.logo) {
+            return `<img src="${agent.logo}" alt="${agent.name}" onerror="this.parentElement.innerHTML='${CAT_LOGOS[agent.category] || '🤖'}'">`;
+        }
+        return CAT_LOGOS[agent.category] || '🤖';
+    }
+
     async function loadAgents() {
         try {
             const res = await fetch('agents.json?v=' + Date.now());
             agents = await res.json();
-            // Featured first, then alphabetical
             agents.sort((a, b) => {
                 if (a.featured && !b.featured) return -1;
                 if (!a.featured && b.featured) return 1;
@@ -656,12 +911,77 @@
             });
             document.getElementById('total-count').textContent = agents.length;
             document.getElementById('nav-count').textContent = agents.length;
+            buildRecommendations();
+            buildComparison();
             buildFilters();
             buildCategoryCards();
             renderAgents();
         } catch(e) {
             console.error('Error:', e);
         }
+    }
+
+    function buildRecommendations() {
+        const container = document.getElementById('rec-grid');
+        // Show featured agents with best_for as recommendations
+        const recs = agents.filter(a => a.featured && a.best_for);
+        
+        container.innerHTML = recs.map(a => `
+            <div class="rec-card" onclick="window.open('${getLink(a)}','_blank')">
+                <div class="rec-card-top">
+                    <div class="rec-logo">${getLogoHTML(a)}</div>
+                    <div class="rec-name">${a.name}</div>
+                    ${a.affiliate_url ? '<span class="rec-badge">⭐ مُوصى به</span>' : ''}
+                </div>
+                <div class="rec-best-for">✨ ${a.best_for}</div>
+                <div>
+                    <a href="${getLink(a)}" target="_blank" class="rec-cta" onclick="event.stopPropagation()">
+                        جرّب الآن ←
+                    </a>
+                    <span class="rec-price">${a.pricing}</span>
+                </div>
+            </div>
+        `).join('');
+    }
+
+    function buildComparison() {
+        const table = document.getElementById('comp-table');
+        // Top agents for comparison
+        const topNames = ['ChatGPT / Operator', 'Claude / Cowork', 'Manus AI', 'Cursor', 'Perplexity', 'Devin', 'Bolt.new', 'Lovable'];
+        const tops = topNames.map(n => agents.find(a => a.name === n)).filter(Boolean);
+        
+        let html = `
+            <thead>
+                <tr>
+                    <th>الوكيل</th>
+                    <th>التصنيف</th>
+                    <th>السعر</th>
+                    <th>مفتوح المصدر</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+        `;
+        
+        tops.forEach(a => {
+            const pricing = PRICING_TAGS[a.pricing_type] || PRICING_TAGS.paid;
+            html += `
+                <tr>
+                    <td>
+                        <span class="comp-name">
+                            ${a.featured ? '⭐' : ''} ${a.name}
+                        </span>
+                    </td>
+                    <td>${a.category_ar}</td>
+                    <td><span class="tag ${pricing.class}">${a.pricing}</span></td>
+                    <td>${a.open_source ? '✅' : '—'}</td>
+                    <td><a href="${getLink(a)}" target="_blank" class="comp-cta">جرّب ←</a></td>
+                </tr>
+            `;
+        });
+        
+        html += '</tbody>';
+        table.innerHTML = html;
     }
 
     function buildFilters() {
@@ -718,13 +1038,6 @@
         document.getElementById('all').scrollIntoView({ behavior: 'smooth' });
     }
 
-    function getLogoHTML(agent) {
-        if (agent.logo) {
-            return `<img src="${agent.logo}" alt="${agent.name}" onerror="this.parentElement.innerHTML='${CAT_LOGOS[agent.category] || '🤖'}'">`;
-        }
-        return CAT_LOGOS[agent.category] || '🤖';
-    }
-
     function renderAgents() {
         const grid = document.getElementById('agents-grid');
         const search = document.getElementById('search').value.toLowerCase();
@@ -756,8 +1069,10 @@
 
         grid.innerHTML = filtered.map((a, i) => {
             const pricing = PRICING_TAGS[a.pricing_type] || PRICING_TAGS.paid;
+            const hasAffiliate = !!a.affiliate_url;
+            const link = getLink(a);
             return `
-                <div class="agent-card ${a.featured ? 'featured' : ''}" style="animation-delay:${i * 0.03}s" onclick="window.open('${a.url}','_blank')">
+                <div class="agent-card ${a.featured ? 'featured' : ''} ${hasAffiliate ? 'has-affiliate' : ''}" style="animation-delay:${i * 0.03}s" onclick="window.open('${link}','_blank')">
                     <div class="card-top">
                         <div class="agent-logo">${getLogoHTML(a)}</div>
                         <div class="card-title-area">
@@ -774,8 +1089,8 @@
                             <span class="tag ${pricing.class}">${a.pricing}</span>
                             ${a.open_source ? '<span class="tag tag-oss">مفتوح المصدر</span>' : ''}
                         </div>
-                        <a href="${a.url}" target="_blank" class="visit-btn" onclick="event.stopPropagation()">
-                            زيارة ←
+                        <a href="${link}" target="_blank" class="visit-btn ${hasAffiliate ? 'affiliate-cta' : ''}" onclick="event.stopPropagation()">
+                            ${hasAffiliate ? 'جرّب الآن ←' : 'زيارة ←'}
                         </a>
                     </div>
                 </div>
@@ -783,10 +1098,7 @@
         }).join('');
     }
 
-    // Search
     document.getElementById('search').addEventListener('input', renderAgents);
-
-    // Init
     loadAgents();
     </script>
 </body>
