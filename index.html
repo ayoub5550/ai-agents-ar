@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دليل وكلاء الذكاء الاصطناعي — اكتشف أفضل AI Agents</title>
+    <meta name="description" content="أشمل دليل عربي لوكلاء الذكاء الاصطناعي. اكتشف أفضل AI Agents للبرمجة، البحث، الإنتاجية، وخدمة العملاء.">
+    <meta name="keywords" content="AI Agents, وكلاء ذكاء اصطناعي, ChatGPT, Claude, Manus, Devin, Viktor, برمجة AI">
+    <meta property="og:title" content="دليل وكلاء الذكاء الاصطناعي">
+    <meta property="og:description" content="أشمل دليل عربي لوكلاء AI — اكتشف، قارن، واختر الأفضل لعملك">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #09090B;
+            --bg-secondary: #111113;
+            --bg-card: #18181B;
+            --bg-card-hover: #1F1F23;
+            --border: #27272A;
+            --border-hover: #3F3F46;
+            --text-primary: #FAFAFA;
+            --text-secondary: #A1A1AA;
+            --text-muted: #71717A;
+            --accent: #10B981;
+            --accent-hover: #34D399;
+            --accent-dim: rgba(16,185,129,0.12);
+            --purple: #8B5CF6;
+            --purple-dim: rgba(139,92,246,0.12);
+            --blue: #3B82F6;
+            --blue-dim: rgba(59,130,246,0.12);
+            --orange: #F59E0B;
+            --orange-dim: rgba(245,158,11,0.12);
+            --pink: #EC4899;
+            --pink-dim: rgba(236,72,153,0.12);
+            --cyan: #06B6D4;
+            --cyan-dim: rgba(6,182,212,0.12);
+            --red: #EF4444;
+            --radius-sm: 8px;
+            --radius: 12px;
+            --radius-lg: 16px;
+            --radius-xl: 20px;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'IBM Plex Sans Arabic', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            min-height: 100vh;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* === Background Effects === */
+        .bg-grid {
+            position: fixed;
+            inset: 0;
+            background-image: 
+                linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px);
+            background-size: 60px 60px;
+            pointer-events: none;
+            z-index: 0;
+        }
+        .bg-radial {
+            position: fixed;
+            top: -300px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 1000px;
+            height: 600px;
+            background: radial-gradient(ellipse, rgba(16,185,129,0.08), transparent 70%);
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        /* === Navigation === */
+        nav {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(9,9,11,0.8);
+            backdrop-filter: blur(16px);
+            border-bottom: 1px solid var(--border);
+        }
+        .nav-inner {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            height: 64px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .nav-logo {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            text-decoration: none;
+            color: var(--text-primary);
+        }
+        .nav-logo-icon {
+            width: 36px;
+            height: 36px;
+            background: linear-gradient(135deg, var(--accent), #059669);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: white;
+        }
+        .nav-logo-text {
+            font-size: 1.15rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+        }
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+        }
+        .nav-link {
+            padding: 0.45rem 0.9rem;
+            border-radius: var(--radius-sm);
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.88rem;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+        .nav-link:hover { color: var(--text-primary); background: rgba(255,255,255,0.05); }
+        .nav-link.active { color: var(--accent); }
+        .nav-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.3rem;
+            padding: 0.4rem 0.85rem;
+            background: var(--accent-dim);
+            border: 1px solid rgba(16,185,129,0.2);
+            border-radius: 20px;
+            color: var(--accent);
+            font-size: 0.78rem;
+            font-weight: 600;
+        }
+
+        /* === Hero === */
+        .hero {
+            position: relative;
+            z-index: 1;
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 5rem 2rem 3rem;
+            text-align: center;
+        }
+        .hero-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            padding: 0.4rem 1rem;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 50px;
+            font-size: 0.82rem;
+            color: var(--text-secondary);
+            margin-bottom: 1.5rem;
+        }
+        .hero-pill .dot {
+            width: 6px;
+            height: 6px;
+            background: var(--accent);
+            border-radius: 50%;
+            animation: pulse 2s ease-in-out infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.4; }
+        }
+        .hero h1 {
+            font-size: clamp(2.2rem, 5vw, 3.5rem);
+            font-weight: 700;
+            line-height: 1.2;
+            letter-spacing: -0.02em;
+            margin-bottom: 1.2rem;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .hero h1 .gradient {
+            background: linear-gradient(135deg, var(--accent), var(--cyan));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .hero p {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+            max-width: 580px;
+            margin: 0 auto 2rem;
+            line-height: 1.7;
+        }
+
+        /* === Search === */
+        .search-wrapper {
+            max-width: 640px;
+            margin: 0 auto 1rem;
+            position: relative;
+        }
+        .search-input {
+            width: 100%;
+            padding: 0.85rem 1.2rem;
+            padding-right: 2.8rem;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            color: var(--text-primary);
+            font-family: inherit;
+            font-size: 0.95rem;
+            outline: none;
+            transition: all 0.2s;
+        }
+        .search-input:focus {
+            border-color: var(--accent);
+            box-shadow: 0 0 0 3px var(--accent-dim);
+        }
+        .search-input::placeholder { color: var(--text-muted); }
+        .search-icon {
+            position: absolute;
+            right: 1rem;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-muted);
+        }
+        .search-stats {
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.82rem;
+            margin-bottom: 2rem;
+        }
+        .search-stats strong { color: var(--accent); }
+
+        /* === Categories === */
+        .categories {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 2rem 2rem;
+            display: flex;
+            gap: 0.4rem;
+            flex-wrap: wrap;
+            justify-content: center;
+            position: relative;
+            z-index: 1;
+        }
+        .cat-btn {
+            padding: 0.45rem 0.95rem;
+            border-radius: 50px;
+            border: 1px solid var(--border);
+            background: transparent;
+            color: var(--text-secondary);
+            cursor: pointer;
+            font-family: inherit;
+            font-size: 0.82rem;
+            font-weight: 500;
+            transition: all 0.2s;
+            white-space: nowrap;
+        }
+        .cat-btn:hover {
+            border-color: var(--border-hover);
+            color: var(--text-primary);
+            background: var(--bg-card);
+        }
+        .cat-btn.active {
+            background: var(--accent);
+            color: white;
+            border-color: var(--accent);
+        }
+
+        /* === Section Headers === */
+        .section-header {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 1rem 2rem 1.2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+            z-index: 1;
+        }
+        .section-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .section-count {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            font-weight: 400;
+        }
+
+        /* === Grid === */
+        .agents-grid {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 2rem 4rem;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1px;
+            background: var(--border);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* === Agent Card === */
+        .agent-card {
+            background: var(--bg-secondary);
+            padding: 1.4rem;
+            transition: all 0.25s;
+            cursor: pointer;
+            position: relative;
+            min-height: 200px;
+            display: flex;
+            flex-direction: column;
+        }
+        .agent-card:hover {
+            background: var(--bg-card-hover);
+            z-index: 2;
+        }
+
+        .agent-card.featured {
+            background: var(--bg-card);
+        }
+        .agent-card.featured:hover {
+            background: var(--bg-card-hover);
+        }
+
+        .card-top {
+            display: flex;
+            gap: 0.7rem;
+            align-items: flex-start;
+            margin-bottom: 0.8rem;
+        }
+        .agent-logo {
+            width: 44px;
+            height: 44px;
+            border-radius: var(--radius);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            flex-shrink: 0;
+            border: 1px solid var(--border);
+            overflow: hidden;
+            background: var(--bg-primary);
+        }
+        .agent-logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .card-title-area {
+            flex: 1;
+            min-width: 0;
+        }
+        .agent-name {
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 0.15rem;
+            display: flex;
+            align-items: center;
+            gap: 0.35rem;
+        }
+        .agent-name .featured-star {
+            color: var(--orange);
+            font-size: 0.85rem;
+        }
+        .agent-cat {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            font-weight: 400;
+        }
+
+        .card-desc {
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            line-height: 1.65;
+            margin-bottom: auto;
+            flex: 1;
+        }
+
+        .card-bottom {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 1rem;
+            padding-top: 0.8rem;
+            border-top: 1px solid var(--border);
+        }
+        .card-tags {
+            display: flex;
+            gap: 0.3rem;
+            flex-wrap: wrap;
+            flex: 1;
+        }
+        .tag {
+            font-size: 0.68rem;
+            padding: 0.18rem 0.45rem;
+            border-radius: 4px;
+            font-weight: 500;
+        }
+        .tag-free { background: var(--accent-dim); color: var(--accent); }
+        .tag-freemium { background: var(--blue-dim); color: var(--blue); }
+        .tag-paid { background: var(--purple-dim); color: var(--purple); }
+        .tag-enterprise { background: var(--orange-dim); color: var(--orange); }
+        .tag-oss { background: var(--cyan-dim); color: var(--cyan); }
+
+        .visit-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.25rem;
+            padding: 0.35rem 0.7rem;
+            background: transparent;
+            border: 1px solid var(--border);
+            border-radius: var(--radius-sm);
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.75rem;
+            font-family: inherit;
+            font-weight: 500;
+            transition: all 0.2s;
+            white-space: nowrap;
+            flex-shrink: 0;
+        }
+        .visit-btn:hover {
+            border-color: var(--accent);
+            color: var(--accent);
+            background: var(--accent-dim);
+        }
+
+        /* === Category Section on Homepage === */
+        .cat-section {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 2rem 3rem;
+            position: relative;
+            z-index: 1;
+        }
+        .cat-section-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 1.2rem;
+        }
+        .cat-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 0.8rem;
+        }
+        .cat-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 1.2rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .cat-card:hover {
+            border-color: var(--accent);
+            transform: translateY(-2px);
+        }
+        .cat-card-icon {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .cat-card-name {
+            font-size: 0.95rem;
+            font-weight: 600;
+            margin-bottom: 0.3rem;
+        }
+        .cat-card-desc {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            line-height: 1.5;
+        }
+        .cat-card-count {
+            display: inline-block;
+            margin-top: 0.6rem;
+            font-size: 0.72rem;
+            color: var(--accent);
+            font-weight: 600;
+        }
+
+        /* === Empty State === */
+        .empty-state {
+            grid-column: 1 / -1;
+            text-align: center;
+            padding: 3rem;
+            color: var(--text-muted);
+            background: var(--bg-secondary);
+        }
+        .empty-state .emoji { font-size: 2.5rem; margin-bottom: 0.8rem; }
+
+        /* === Footer === */
+        footer {
+            position: relative;
+            z-index: 1;
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: var(--text-muted);
+            font-size: 0.82rem;
+        }
+        footer a { color: var(--accent); text-decoration: none; }
+        footer a:hover { color: var(--accent-hover); }
+
+        /* === Responsive === */
+        @media (max-width: 1024px) {
+            .agents-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+        @media (max-width: 768px) {
+            .agents-grid { grid-template-columns: 1fr; }
+            .hero { padding: 3rem 1.2rem 2rem; }
+            .nav-links { display: none; }
+            .categories { padding: 0 1.2rem 1.5rem; }
+            .cat-section { padding: 0 1.2rem 2rem; }
+            footer { flex-direction: column; gap: 0.5rem; text-align: center; }
+            .section-header { padding: 1rem 1.2rem; }
+            .agents-grid { margin: 0 1.2rem 3rem; }
+        }
+
+        /* === Animations === */
+        .agent-card {
+            opacity: 0;
+            animation: fadeIn 0.3s ease forwards;
+        }
+        @keyframes fadeIn {
+            to { opacity: 1; }
+        }
+
+        /* === Scrollbar === */
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: var(--bg-primary); }
+        ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+        ::-webkit-scrollbar-thumb:hover { background: var(--border-hover); }
+    </style>
+</head>
+<body>
+    <div class="bg-grid"></div>
+    <div class="bg-radial"></div>
+
+    <nav>
+        <div class="nav-inner">
+            <a href="/" class="nav-logo">
+                <div class="nav-logo-icon">⚡</div>
+                <span class="nav-logo-text">دليل الوكلاء</span>
+            </a>
+            <div class="nav-links">
+                <a href="#" class="nav-link active">الرئيسية</a>
+                <a href="#all" class="nav-link">تصفح الكل</a>
+                <a href="#categories" class="nav-link">التصنيفات</a>
+                <span class="nav-badge">
+                    <span class="dot"></span>
+                    <span id="nav-count">0</span> وكيل
+                </span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-pill">
+            <span class="dot"></span>
+            <span>يُحدَّث تلقائياً بواسطة AI</span>
+        </div>
+        <h1>اكتشف <span class="gradient">وكلاء الذكاء الاصطناعي</span> الأفضل لعملك</h1>
+        <p>أشمل دليل عربي لوكلاء AI. من البرمجة المستقلة إلى خدمة العملاء — اعثر على الوكيل المثالي لسير عملك.</p>
+        <div class="search-wrapper">
+            <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+            <input type="text" class="search-input" id="search" placeholder="ابحث عن وكيل AI... (مثال: برمجة، بحث، مساعد)" autocomplete="off">
+        </div>
+        <div class="search-stats">
+            عرض <strong id="showing-count">0</strong> من أصل <strong id="total-count">0</strong> وكيل ذكي
+        </div>
+    </section>
+
+    <div class="categories" id="filters"></div>
+
+    <div class="section-header" id="all">
+        <div class="section-title">
+            كل الوكلاء
+            <span class="section-count" id="grid-count"></span>
+        </div>
+    </div>
+
+    <div class="agents-grid" id="agents-grid"></div>
+
+    <section class="cat-section" id="categories">
+        <div class="cat-section-title">تصفح حسب التصنيف</div>
+        <div class="cat-cards" id="cat-cards"></div>
+    </section>
+
+    <footer>
+        <div>دليل وكلاء الذكاء الاصطناعي © 2026 — يُحدَّث تلقائياً بواسطة <a href="#">Tony AI Agent</a> 🤖</div>
+        <div>صُنع بواسطة <a href="https://viktor.com">Viktor AI</a> لـ Ayoub</div>
+    </footer>
+
+    <script>
+    const CATEGORY_MAP = {
+        'all': { name: 'الكل', icon: '🔥', desc: 'جميع وكلاء AI المتاحة' },
+        'general-assistant': { name: 'مساعد عام', icon: '🤖', desc: 'وكلاء متعددي المهام للاستخدام العام', color: 'var(--accent)' },
+        'coding': { name: 'برمجة', icon: '💻', desc: 'وكلاء متخصصون في كتابة ومراجعة الكود', color: 'var(--purple)' },
+        'research': { name: 'بحث وتحليل', icon: '🔍', desc: 'أدوات بحث وتحليل بيانات متقدمة', color: 'var(--blue)' },
+        'productivity': { name: 'إنتاجية', icon: '⚡', desc: 'تعزيز الإنتاجية وإدارة المهام', color: 'var(--orange)' },
+        'no-code': { name: 'بدون كود', icon: '🎨', desc: 'بناء تطبيقات بدون برمجة', color: 'var(--pink)' },
+        'customer-support': { name: 'خدمة عملاء', icon: '💬', desc: 'أتمتة خدمة العملاء والدعم الفني', color: 'var(--cyan)' },
+        'framework': { name: 'أطر عمل', icon: '🔧', desc: 'أدوات ومنصات لبناء وكلاء AI', color: 'var(--purple)' },
+        'infrastructure': { name: 'بنية تحتية', icon: '🏗️', desc: 'نماذج محلية، APIs، وبنية تحتية AI', color: 'var(--cyan)' }
+    };
+
+    const PRICING_TAGS = {
+        'free': { label: 'مجاني', class: 'tag-free' },
+        'freemium': { label: 'مجاني+', class: 'tag-freemium' },
+        'paid': { label: 'مدفوع', class: 'tag-paid' },
+        'enterprise': { label: 'مؤسسات', class: 'tag-enterprise' }
+    };
+
+    const CAT_LOGOS = {
+        'general-assistant': '🤖',
+        'coding': '💻',
+        'research': '🔍',
+        'productivity': '⚡',
+        'no-code': '🎨',
+        'customer-support': '💬',
+        'framework': '🔧',
+        'infrastructure': '🏗️'
+    };
+
+    let agents = [];
+    let currentFilter = 'all';
+
+    async function loadAgents() {
+        try {
+            const res = await fetch('agents.json?v=' + Date.now());
+            agents = await res.json();
+            // Featured first, then alphabetical
+            agents.sort((a, b) => {
+                if (a.featured && !b.featured) return -1;
+                if (!a.featured && b.featured) return 1;
+                return a.name.localeCompare(b.name);
+            });
+            document.getElementById('total-count').textContent = agents.length;
+            document.getElementById('nav-count').textContent = agents.length;
+            buildFilters();
+            buildCategoryCards();
+            renderAgents();
+        } catch(e) {
+            console.error('Error:', e);
+        }
+    }
+
+    function buildFilters() {
+        const container = document.getElementById('filters');
+        const cats = new Set(agents.map(a => a.category));
+        
+        let html = `<button class="cat-btn active" data-cat="all">${CATEGORY_MAP.all.icon} ${CATEGORY_MAP.all.name}</button>`;
+        for (const cat of Object.keys(CATEGORY_MAP)) {
+            if (cat === 'all') continue;
+            if (!cats.has(cat)) continue;
+            const count = agents.filter(a => a.category === cat).length;
+            const info = CATEGORY_MAP[cat];
+            html += `<button class="cat-btn" data-cat="${cat}">${info.icon} ${info.name} (${count})</button>`;
+        }
+        container.innerHTML = html;
+
+        container.addEventListener('click', e => {
+            const btn = e.target.closest('.cat-btn');
+            if (!btn) return;
+            document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            currentFilter = btn.dataset.cat;
+            renderAgents();
+        });
+    }
+
+    function buildCategoryCards() {
+        const container = document.getElementById('cat-cards');
+        const cats = new Set(agents.map(a => a.category));
+        
+        let html = '';
+        for (const cat of Object.keys(CATEGORY_MAP)) {
+            if (cat === 'all' || !cats.has(cat)) continue;
+            const count = agents.filter(a => a.category === cat).length;
+            const info = CATEGORY_MAP[cat];
+            html += `
+                <div class="cat-card" onclick="selectCategory('${cat}')">
+                    <div class="cat-card-icon">${info.icon}</div>
+                    <div class="cat-card-name">${info.name}</div>
+                    <div class="cat-card-desc">${info.desc}</div>
+                    <span class="cat-card-count">${count} وكيل ←</span>
+                </div>
+            `;
+        }
+        container.innerHTML = html;
+    }
+
+    function selectCategory(cat) {
+        currentFilter = cat;
+        document.querySelectorAll('.cat-btn').forEach(b => {
+            b.classList.toggle('active', b.dataset.cat === cat);
+        });
+        renderAgents();
+        document.getElementById('all').scrollIntoView({ behavior: 'smooth' });
+    }
+
+    function getLogoHTML(agent) {
+        if (agent.logo) {
+            return `<img src="${agent.logo}" alt="${agent.name}" onerror="this.parentElement.innerHTML='${CAT_LOGOS[agent.category] || '🤖'}'">`;
+        }
+        return CAT_LOGOS[agent.category] || '🤖';
+    }
+
+    function renderAgents() {
+        const grid = document.getElementById('agents-grid');
+        const search = document.getElementById('search').value.toLowerCase();
+
+        let filtered = agents.filter(a => {
+            const matchCat = currentFilter === 'all' || a.category === currentFilter;
+            const matchSearch = !search ||
+                a.name.toLowerCase().includes(search) ||
+                a.name_ar.includes(search) ||
+                a.description.includes(search) ||
+                a.description_en.toLowerCase().includes(search) ||
+                a.category_ar.includes(search) ||
+                a.tags.some(t => t.includes(search));
+            return matchCat && matchSearch;
+        });
+
+        document.getElementById('showing-count').textContent = filtered.length;
+        document.getElementById('grid-count').textContent = `(${filtered.length})`;
+
+        if (filtered.length === 0) {
+            grid.innerHTML = `
+                <div class="empty-state">
+                    <div class="emoji">🔍</div>
+                    <h3>لا توجد نتائج</h3>
+                    <p>جرب البحث بكلمة أخرى أو اختر تصنيفاً مختلفاً</p>
+                </div>`;
+            return;
+        }
+
+        grid.innerHTML = filtered.map((a, i) => {
+            const pricing = PRICING_TAGS[a.pricing_type] || PRICING_TAGS.paid;
+            return `
+                <div class="agent-card ${a.featured ? 'featured' : ''}" style="animation-delay:${i * 0.03}s" onclick="window.open('${a.url}','_blank')">
+                    <div class="card-top">
+                        <div class="agent-logo">${getLogoHTML(a)}</div>
+                        <div class="card-title-area">
+                            <div class="agent-name">
+                                ${a.name}
+                                ${a.featured ? '<span class="featured-star">⭐</span>' : ''}
+                            </div>
+                            <div class="agent-cat">${a.category_ar}</div>
+                        </div>
+                    </div>
+                    <div class="card-desc">${a.description}</div>
+                    <div class="card-bottom">
+                        <div class="card-tags">
+                            <span class="tag ${pricing.class}">${a.pricing}</span>
+                            ${a.open_source ? '<span class="tag tag-oss">مفتوح المصدر</span>' : ''}
+                        </div>
+                        <a href="${a.url}" target="_blank" class="visit-btn" onclick="event.stopPropagation()">
+                            زيارة ←
+                        </a>
+                    </div>
+                </div>
+            `;
+        }).join('');
+    }
+
+    // Search
+    document.getElementById('search').addEventListener('input', renderAgents);
+
+    // Init
+    loadAgents();
+    </script>
+</body>
+</html>
