@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تحميل...</title>
+    <meta name="description" content="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #09090B;
+            --bg-secondary: #111113;
+            --bg-card: #18181B;
+            --bg-card-hover: #1F1F23;
+            --border: #27272A;
+            --border-hover: #3F3F46;
+            --text-primary: #FAFAFA;
+            --text-secondary: #A1A1AA;
+            --text-muted: #71717A;
+            --accent: #10B981;
+            --accent-hover: #34D399;
+            --accent-dim: rgba(16,185,129,0.12);
+            --purple: #8B5CF6;
+            --purple-dim: rgba(139,92,246,0.12);
+            --blue: #3B82F6;
+            --blue-dim: rgba(59,130,246,0.12);
+            --orange: #F59E0B;
+            --orange-dim: rgba(245,158,11,0.12);
+            --pink: #EC4899;
+            --pink-dim: rgba(236,72,153,0.12);
+            --cyan: #06B6D4;
+            --cyan-dim: rgba(6,182,212,0.12);
+            --red: #EF4444;
+            --gold: #F59E0B;
+            --radius-sm: 8px;
+            --radius: 12px;
+            --radius-lg: 16px;
+            --radius-xl: 20px;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'IBM Plex Sans Arabic', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            min-height: 100vh;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .bg-grid {
+            position: fixed;
+            inset: 0;
+            background-image: 
+                linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px);
+            background-size: 60px 60px;
+            pointer-events: none;
+            z-index: 0;
+        }
+        .bg-radial {
+            position: fixed;
+            top: -300px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 1000px;
+            height: 600px;
+            background: radial-gradient(ellipse, rgba(16,185,129,0.08), transparent 70%);
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        /* Nav */
+        nav {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(9,9,11,0.8);
+            backdrop-filter: blur(16px);
+            border-bottom: 1px solid var(--border);
+        }
+        .nav-inner {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            height: 64px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .nav-logo {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            text-decoration: none;
+            color: var(--text-primary);
+        }
+        .nav-logo-icon {
+            width: 36px;
+            height: 36px;
+            background: linear-gradient(135deg, var(--accent), #059669);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: white;
+        }
+        .nav-logo-text {
+            font-size: 1.15rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+        }
+        .back-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            padding: 0.5rem 1rem;
+            border-radius: var(--radius-sm);
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-family: inherit;
+            font-size: 0.85rem;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+        .back-btn:hover {
+            border-color: var(--accent);
+            color: var(--accent);
+            background: var(--accent-dim);
+        }
+
+        /* Content */
+        .content {
+            position: relative;
+            z-index: 1;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem 4rem;
+        }
+
+        /* Breadcrumb */
+        .breadcrumb {
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+            margin-bottom: 2rem;
+            font-size: 0.82rem;
+            color: var(--text-muted);
+        }
+        .breadcrumb a {
+            color: var(--text-muted);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        .breadcrumb a:hover { color: var(--accent); }
+        .breadcrumb .sep { opacity: 0.4; }
+        .breadcrumb .current { color: var(--text-secondary); }
+
+        /* Hero Card */
+        .agent-hero {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-xl);
+            padding: 2.5rem;
+            margin-bottom: 1.5rem;
+            position: relative;
+            overflow: hidden;
+        }
+        .agent-hero::before {
+            content: '';
+            position: absolute;
+            top: 0; right: 0; left: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--accent), var(--cyan), var(--purple));
+        }
+        .hero-top {
+            display: flex;
+            align-items: flex-start;
+            gap: 1.5rem;
+            margin-bottom: 1.8rem;
+        }
+        .hero-logo {
+            width: 80px;
+            height: 80px;
+            border-radius: var(--radius-lg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.2rem;
+            flex-shrink: 0;
+            border: 2px solid var(--border);
+            overflow: hidden;
+            background: var(--bg-primary);
+        }
+        .hero-logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .hero-info { flex: 1; min-width: 0; }
+        .hero-name {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 0.2rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+        .hero-name .featured-star {
+            color: var(--orange);
+            font-size: 1.2rem;
+        }
+        .hero-meta {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            flex-wrap: wrap;
+            margin-top: 0.5rem;
+        }
+        .meta-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.25rem;
+            padding: 0.25rem 0.6rem;
+            border-radius: 6px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+        .meta-badge.cat {
+            background: var(--bg-primary);
+            border: 1px solid var(--border);
+            color: var(--text-secondary);
+        }
+        .meta-badge.price-free { background: var(--accent-dim); color: var(--accent); }
+        .meta-badge.price-freemium { background: var(--blue-dim); color: var(--blue); }
+        .meta-badge.price-paid { background: var(--purple-dim); color: var(--purple); }
+        .meta-badge.price-enterprise { background: var(--orange-dim); color: var(--orange); }
+        .meta-badge.oss { background: var(--cyan-dim); color: var(--cyan); }
+
+        .hero-actions {
+            display: flex;
+            gap: 0.6rem;
+            flex-wrap: wrap;
+        }
+        .hero-cta {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            padding: 0.75rem 1.6rem;
+            background: var(--accent);
+            color: white;
+            border: none;
+            border-radius: var(--radius);
+            font-family: inherit;
+            font-size: 0.95rem;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .hero-cta:hover {
+            background: var(--accent-hover);
+            transform: translateY(-1px);
+            box-shadow: 0 6px 20px rgba(16,185,129,0.3);
+        }
+        .hero-cta-secondary {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            padding: 0.75rem 1.6rem;
+            background: transparent;
+            color: var(--text-secondary);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            font-family: inherit;
+            font-size: 0.95rem;
+            font-weight: 500;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .hero-cta-secondary:hover {
+            border-color: var(--border-hover);
+            color: var(--text-primary);
+            background: var(--bg-card-hover);
+        }
+
+        /* Description Section */
+        .section-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            padding: 2rem;
+            margin-bottom: 1.5rem;
+        }
+        .section-title {
+            font-size: 1.15rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .description-text {
+            color: var(--text-secondary);
+            font-size: 1rem;
+            line-height: 1.85;
+        }
+
+        /* Features Grid */
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 0.6rem;
+        }
+        .feature-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.75rem 1rem;
+            background: var(--bg-primary);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-sm);
+            font-size: 0.88rem;
+            color: var(--text-secondary);
+            transition: all 0.2s;
+        }
+        .feature-item:hover {
+            border-color: var(--accent);
+            color: var(--text-primary);
+        }
+        .feature-check {
+            color: var(--accent);
+            font-size: 0.9rem;
+            flex-shrink: 0;
+        }
+
+        /* Info Grid */
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 1rem;
+        }
+        .info-item {
+            text-align: center;
+            padding: 1.2rem;
+            background: var(--bg-primary);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+        }
+        .info-label {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.4rem;
+        }
+        .info-value {
+            font-size: 1.05rem;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        /* Tags */
+        .tags-container {
+            display: flex;
+            gap: 0.4rem;
+            flex-wrap: wrap;
+        }
+        .tag-pill {
+            padding: 0.35rem 0.8rem;
+            background: var(--bg-primary);
+            border: 1px solid var(--border);
+            border-radius: 50px;
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            transition: all 0.2s;
+        }
+        .tag-pill:hover {
+            border-color: var(--accent);
+            color: var(--accent);
+            cursor: pointer;
+        }
+
+        /* Related Agents */
+        .related-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+            gap: 0.8rem;
+        }
+        .related-card {
+            background: var(--bg-primary);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 1.2rem;
+            transition: all 0.25s;
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+        .related-card:hover {
+            border-color: var(--accent);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+        }
+        .related-top {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            margin-bottom: 0.5rem;
+        }
+        .related-logo {
+            width: 36px;
+            height: 36px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1rem;
+            border: 1px solid var(--border);
+            overflow: hidden;
+            background: var(--bg-card);
+            flex-shrink: 0;
+        }
+        .related-logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .related-name {
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+        .related-desc {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            line-height: 1.5;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        /* Loading */
+        .loading {
+            text-align: center;
+            padding: 6rem 2rem;
+            color: var(--text-muted);
+        }
+        .loading .spinner {
+            width: 40px;
+            height: 40px;
+            border: 3px solid var(--border);
+            border-top-color: var(--accent);
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            margin: 0 auto 1rem;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        /* 404 */
+        .not-found {
+            text-align: center;
+            padding: 6rem 2rem;
+        }
+        .not-found .emoji { font-size: 4rem; margin-bottom: 1rem; }
+        .not-found h2 {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .not-found p {
+            color: var(--text-muted);
+            margin-bottom: 1.5rem;
+        }
+        .not-found a {
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        /* Footer */
+        footer {
+            position: relative;
+            z-index: 1;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: var(--text-muted);
+            font-size: 0.82rem;
+        }
+        footer a { color: var(--accent); text-decoration: none; }
+        footer a:hover { color: var(--accent-hover); }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .content { padding: 2rem 1.2rem 3rem; }
+            .agent-hero { padding: 1.5rem; }
+            .hero-top { flex-direction: column; align-items: center; text-align: center; gap: 1rem; }
+            .hero-name { justify-content: center; font-size: 1.4rem; }
+            .hero-meta { justify-content: center; }
+            .hero-actions { justify-content: center; }
+            .section-card { padding: 1.2rem; }
+            .features-grid { grid-template-columns: 1fr; }
+            .info-grid { grid-template-columns: repeat(2, 1fr); }
+            .related-grid { grid-template-columns: 1fr; }
+            footer { flex-direction: column; gap: 0.5rem; text-align: center; }
+        }
+
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: var(--bg-primary); }
+        ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+        ::-webkit-scrollbar-thumb:hover { background: var(--border-hover); }
+    </style>
+</head>
+<body>
+    <div class="bg-grid"></div>
+    <div class="bg-radial"></div>
+
+    <nav>
+        <div class="nav-inner">
+            <a href="index.html" class="nav-logo">
+                <div class="nav-logo-icon">⚡</div>
+                <span class="nav-logo-text">دليل الوكلاء</span>
+            </a>
+            <a href="index.html" class="back-btn">→ العودة للدليل</a>
+        </div>
+    </nav>
+
+    <div class="content" id="page-content">
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <div>جاري التحميل...</div>
+        </div>
+    </div>
+
+    <footer>
+        <div>دليل وكلاء الذكاء الاصطناعي © 2026 — يُحدَّث تلقائياً بواسطة <a href="#">Tony AI Agent</a> 🤖</div>
+        <div>صُنع بواسطة <a href="https://viktor.com">Viktor AI</a> لـ Ayoub</div>
+    </footer>
+
+    <script>
+    const CAT_ICONS = {
+        'general-assistant': '🤖',
+        'coding': '💻',
+        'research': '🔍',
+        'productivity': '⚡',
+        'no-code': '🎨',
+        'customer-support': '💬',
+        'framework': '🔧',
+        'infrastructure': '🏗️'
+    };
+
+    const PRICING_CLASSES = {
+        'free': 'price-free',
+        'freemium': 'price-freemium',
+        'paid': 'price-paid',
+        'enterprise': 'price-enterprise'
+    };
+
+    const PRICING_LABELS = {
+        'free': 'مجاني',
+        'freemium': 'مجاني+',
+        'paid': 'مدفوع',
+        'enterprise': 'مؤسسات'
+    };
+
+    function getLink(agent) {
+        if (agent.affiliate_url) return agent.affiliate_url;
+        return agent.url + (agent.url.includes('?') ? '&' : '?') + 'utm_source=ai-agents-ar&utm_medium=directory';
+    }
+
+    function getLogoHTML(agent, large) {
+        if (agent.logo) {
+            return `<img src="${agent.logo}" alt="${agent.name}" onerror="this.parentElement.innerHTML='${CAT_ICONS[agent.category] || '🤖'}'">`;
+        }
+        return CAT_ICONS[agent.category] || '🤖';
+    }
+
+    function copyURL() {
+        navigator.clipboard.writeText(window.location.href);
+        const btn = document.querySelector('.hero-cta-secondary');
+        if (btn) {
+            const orig = btn.innerHTML;
+            btn.innerHTML = '✅ تم النسخ!';
+            setTimeout(() => btn.innerHTML = orig, 2000);
+        }
+    }
+
+    async function loadPage() {
+        const params = new URLSearchParams(window.location.search);
+        const id = params.get('id');
+        const container = document.getElementById('page-content');
+
+        if (!id) {
+            showNotFound(container);
+            return;
+        }
+
+        try {
+            const res = await fetch('agents.json?v=' + Date.now());
+            const agents = await res.json();
+            const agent = agents.find(a => a.id === id);
+
+            if (!agent) {
+                showNotFound(container);
+                return;
+            }
+
+            // Update page title
+            document.title = `${agent.name} — ${agent.name_ar} | دليل وكلاء AI`;
+            document.querySelector('meta[name="description"]').content = agent.official_description || agent.description;
+
+            // Find related agents (same category, excluding current)
+            const related = agents.filter(a => a.category === agent.category && a.id !== agent.id).slice(0, 4);
+
+            const link = getLink(agent);
+            const pricingClass = PRICING_CLASSES[agent.pricing_type] || 'price-paid';
+            const catIcon = CAT_ICONS[agent.category] || '🤖';
+
+            container.innerHTML = `
+                <!-- Breadcrumb -->
+                <div class="breadcrumb">
+                    <a href="index.html">🏠 الرئيسية</a>
+                    <span class="sep">/</span>
+                    <a href="index.html#${agent.category}">${catIcon} ${agent.category_ar}</a>
+                    <span class="sep">/</span>
+                    <span class="current">${agent.name}</span>
+                </div>
+
+                <!-- Hero Card -->
+                <div class="agent-hero">
+                    <div class="hero-top">
+                        <div class="hero-logo">${getLogoHTML(agent, true)}</div>
+                        <div class="hero-info">
+                            <div class="hero-name">
+                                ${agent.name}
+                                ${agent.name_ar !== agent.name ? `<span style="color:var(--text-muted);font-size:1rem;font-weight:400">(${agent.name_ar})</span>` : ''}
+                                ${agent.featured ? '<span class="featured-star">⭐</span>' : ''}
+                            </div>
+                            <div class="hero-meta">
+                                <span class="meta-badge cat">${catIcon} ${agent.category_ar}</span>
+                                <span class="meta-badge ${pricingClass}">${agent.pricing}</span>
+                                ${agent.open_source ? '<span class="meta-badge oss">🔓 مفتوح المصدر</span>' : ''}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero-actions">
+                        <a href="${link}" target="_blank" class="hero-cta">
+                            ${agent.affiliate_url ? '⭐ جرّب الآن مجاناً' : '🔗 زيارة الموقع الرسمي'} ←
+                        </a>
+                        <button class="hero-cta-secondary" onclick="copyURL()">
+                            📋 نسخ الرابط
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Official Description -->
+                <div class="section-card">
+                    <div class="section-title">📖 عن ${agent.name}</div>
+                    <div class="description-text">
+                        ${agent.official_description || agent.description}
+                    </div>
+                </div>
+
+                <!-- Features -->
+                ${agent.features && agent.features.length > 0 ? `
+                <div class="section-card">
+                    <div class="section-title">✨ المميزات الرئيسية</div>
+                    <div class="features-grid">
+                        ${agent.features.map(f => `
+                            <div class="feature-item">
+                                <span class="feature-check">✓</span>
+                                ${f}
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+                ` : ''}
+
+                <!-- Info Grid -->
+                <div class="section-card">
+                    <div class="section-title">📊 معلومات سريعة</div>
+                    <div class="info-grid">
+                        <div class="info-item">
+                            <div class="info-label">التصنيف</div>
+                            <div class="info-value">${catIcon} ${agent.category_ar}</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">السعر</div>
+                            <div class="info-value">${agent.pricing}</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">مفتوح المصدر</div>
+                            <div class="info-value">${agent.open_source ? '✅ نعم' : '❌ لا'}</div>
+                        </div>
+                        ${agent.best_for ? `
+                        <div class="info-item">
+                            <div class="info-label">الأفضل لـ</div>
+                            <div class="info-value" style="font-size:0.85rem">${agent.best_for}</div>
+                        </div>
+                        ` : ''}
+                    </div>
+                </div>
+
+                <!-- Tags -->
+                ${agent.tags && agent.tags.length > 0 ? `
+                <div class="section-card">
+                    <div class="section-title">🏷️ الوسوم</div>
+                    <div class="tags-container">
+                        ${agent.tags.map(t => `<span class="tag-pill" onclick="window.location='index.html?search=${encodeURIComponent(t)}'">${t}</span>`).join('')}
+                    </div>
+                </div>
+                ` : ''}
+
+                <!-- CTA -->
+                <div class="section-card" style="text-align:center;background:linear-gradient(135deg, var(--bg-card), var(--bg-card-hover))">
+                    <div style="font-size:2rem;margin-bottom:0.8rem">${catIcon}</div>
+                    <div style="font-size:1.2rem;font-weight:700;margin-bottom:0.5rem">هل أعجبك ${agent.name}؟</div>
+                    <div style="color:var(--text-secondary);margin-bottom:1.2rem;font-size:0.9rem">جرّبه الآن واكتشف كيف يمكنه مساعدتك</div>
+                    <a href="${link}" target="_blank" class="hero-cta" style="font-size:1rem;padding:0.85rem 2rem">
+                        ${agent.affiliate_url ? '⭐ ابدأ مجاناً' : '🔗 زيارة الموقع'} ←
+                    </a>
+                </div>
+
+                <!-- Related -->
+                ${related.length > 0 ? `
+                <div class="section-card">
+                    <div class="section-title">🔗 وكلاء مشابهون في ${agent.category_ar}</div>
+                    <div class="related-grid">
+                        ${related.map(r => `
+                            <a href="agent.html?id=${r.id}" class="related-card">
+                                <div class="related-top">
+                                    <div class="related-logo">${getLogoHTML(r)}</div>
+                                    <div class="related-name">${r.name}</div>
+                                </div>
+                                <div class="related-desc">${r.description}</div>
+                            </a>
+                        `).join('')}
+                    </div>
+                </div>
+                ` : ''}
+            `;
+
+        } catch(e) {
+            console.error('Error:', e);
+            showNotFound(container);
+        }
+    }
+
+    function showNotFound(container) {
+        document.title = 'غير موجود — دليل وكلاء AI';
+        container.innerHTML = `
+            <div class="not-found">
+                <div class="emoji">🤔</div>
+                <h2>هذا الوكيل غير موجود</h2>
+                <p>ربما تم حذفه أو الرابط غير صحيح</p>
+                <a href="index.html">→ العودة للدليل الرئيسي</a>
+            </div>
+        `;
+    }
+
+    loadPage();
+    </script>
+</body>
+</html>

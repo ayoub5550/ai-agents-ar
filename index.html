@@ -887,10 +887,14 @@
     let agents = [];
     let currentFilter = 'all';
 
-    function getLink(agent) {
+    function getExternalLink(agent) {
         // Use affiliate URL if available, otherwise regular URL with UTM
         if (agent.affiliate_url) return agent.affiliate_url;
         return agent.url + (agent.url.includes('?') ? '&' : '?') + 'utm_source=ai-agents-ar&utm_medium=directory';
+    }
+
+    function getDetailLink(agent) {
+        return 'agent.html?id=' + agent.id;
     }
 
     function getLogoHTML(agent) {
@@ -927,7 +931,7 @@
         const recs = agents.filter(a => a.featured && a.best_for);
         
         container.innerHTML = recs.map(a => `
-            <div class="rec-card" onclick="window.open('${getLink(a)}','_blank')">
+            <div class="rec-card" onclick="window.location='${getDetailLink(a)}'">
                 <div class="rec-card-top">
                     <div class="rec-logo">${getLogoHTML(a)}</div>
                     <div class="rec-name">${a.name}</div>
@@ -935,7 +939,7 @@
                 </div>
                 <div class="rec-best-for">✨ ${a.best_for}</div>
                 <div>
-                    <a href="${getLink(a)}" target="_blank" class="rec-cta" onclick="event.stopPropagation()">
+                    <a href="${getExternalLink(a)}" target="_blank" class="rec-cta" onclick="event.stopPropagation()">
                         جرّب الآن ←
                     </a>
                     <span class="rec-price">${a.pricing}</span>
@@ -975,7 +979,7 @@
                     <td>${a.category_ar}</td>
                     <td><span class="tag ${pricing.class}">${a.pricing}</span></td>
                     <td>${a.open_source ? '✅' : '—'}</td>
-                    <td><a href="${getLink(a)}" target="_blank" class="comp-cta">جرّب ←</a></td>
+                    <td><a href="${getDetailLink(a)}" class="comp-cta">التفاصيل ←</a></td>
                 </tr>
             `;
         });
@@ -1048,7 +1052,7 @@
                 a.name.toLowerCase().includes(search) ||
                 a.name_ar.includes(search) ||
                 a.description.includes(search) ||
-                a.description_en.toLowerCase().includes(search) ||
+                (a.official_description || '').includes(search) ||
                 a.category_ar.includes(search) ||
                 a.tags.some(t => t.includes(search));
             return matchCat && matchSearch;
@@ -1070,9 +1074,10 @@
         grid.innerHTML = filtered.map((a, i) => {
             const pricing = PRICING_TAGS[a.pricing_type] || PRICING_TAGS.paid;
             const hasAffiliate = !!a.affiliate_url;
-            const link = getLink(a);
+            const detailLink = getDetailLink(a);
+            const externalLink = getExternalLink(a);
             return `
-                <div class="agent-card ${a.featured ? 'featured' : ''} ${hasAffiliate ? 'has-affiliate' : ''}" style="animation-delay:${i * 0.03}s" onclick="window.open('${link}','_blank')">
+                <div class="agent-card ${a.featured ? 'featured' : ''} ${hasAffiliate ? 'has-affiliate' : ''}" style="animation-delay:${i * 0.03}s" onclick="window.location='${detailLink}'">
                     <div class="card-top">
                         <div class="agent-logo">${getLogoHTML(a)}</div>
                         <div class="card-title-area">
@@ -1089,7 +1094,7 @@
                             <span class="tag ${pricing.class}">${a.pricing}</span>
                             ${a.open_source ? '<span class="tag tag-oss">مفتوح المصدر</span>' : ''}
                         </div>
-                        <a href="${link}" target="_blank" class="visit-btn ${hasAffiliate ? 'affiliate-cta' : ''}" onclick="event.stopPropagation()">
+                        <a href="${externalLink}" target="_blank" class="visit-btn ${hasAffiliate ? 'affiliate-cta' : ''}" onclick="event.stopPropagation()">
                             ${hasAffiliate ? 'جرّب الآن ←' : 'زيارة ←'}
                         </a>
                     </div>
@@ -1099,6 +1104,12 @@
     }
 
     document.getElementById('search').addEventListener('input', renderAgents);
+    // Support ?search= parameter from tag links
+    const urlParams = new URLSearchParams(window.location.search);
+    const searchParam = urlParams.get('search');
+    if (searchParam) {
+        document.getElementById('search').value = searchParam;
+    }
     loadAgents();
     </script>
 </body>
