@@ -47,6 +47,7 @@
         .ab-price { background:var(--accent-light); color:var(--accent); }
         .ab-free { background:var(--green-bg); color:var(--green); }
         .ab-oss { background:var(--green-bg); color:var(--green); }
+        .ab-trial { background:#FFF7ED; color:#EA580C; }
         .visit-btn {
             display:inline-flex; align-items:center; gap:6px; padding:12px 28px;
             background:var(--accent); color:white; border-radius:var(--r);
@@ -134,6 +135,7 @@
         .ab-price { background:var(--accent-light); color:var(--accent); }
         .ab-free { background:var(--green-bg); color:var(--green); }
         .ab-oss { background:var(--green-bg); color:var(--green); }
+        .ab-trial { background:#FFF7ED; color:#EA580C; }
         .visit-btn {
             display:inline-flex; align-items:center; gap:6px; padding:12px 28px;
             background:var(--accent); color:white; border-radius:var(--r);
@@ -217,7 +219,7 @@ fetch('agents.json')
         
         document.title = name + ' — AI Agents Directory';
         
-        const priceLabels = { free: lang==='ar'?'مجاني':'Free', freemium: lang==='ar'?'مجاني+مدفوع':'Freemium', paid: lang==='ar'?'مدفوع':'Paid', 'open-source': lang==='ar'?'مفتوح المصدر':'Open Source' };
+        const priceLabels = { free: lang==='ar'?'مجاني':'Free', freemium: lang==='ar'?'مجاني+مدفوع':'Freemium', paid: lang==='ar'?'مدفوع':'Paid', 'open-source': lang==='ar'?'مفتوح المصدر':'Open Source', 'free-trial': lang==='ar'?'فترة تجريبية':'Free Trial' };
         
         const reviews = getReviews(a.id);
         const avgRating = reviews.length ? (reviews.reduce((s,r)=>s+r.r,0)/reviews.length).toFixed(1) : '—';

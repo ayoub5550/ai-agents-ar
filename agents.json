@@ -18,7 +18,7 @@
       "عمل 24/7"
     ],
     "pricing": "مدفوع",
-    "pricing_type": "paid",
+    "pricing_type": "free-trial",
     "has_free_trial": true,
     "free_trial_details": "تجربة مجانية متاحة",
     "url": "https://viktor.com",
@@ -582,7 +582,7 @@
       "بحث معمق"
     ],
     "pricing": "مدفوع (بدعوة)",
-    "pricing_type": "paid",
+    "pricing_type": "free-trial",
     "has_free_trial": true,
     "free_trial_details": "رصيد مجاني عند الانضمام",
     "url": "https://manus.im",
@@ -728,7 +728,7 @@
       "أمان عالي"
     ],
     "pricing": "مدفوع",
-    "pricing_type": "paid",
+    "pricing_type": "free-trial",
     "has_free_trial": true,
     "free_trial_details": "تجربة مجانية محدودة",
     "url": "https://cohere.com",
@@ -826,7 +826,7 @@
       "SSO"
     ],
     "pricing": "مدفوع",
-    "pricing_type": "paid",
+    "pricing_type": "free-trial",
     "has_free_trial": true,
     "free_trial_details": "تجربة مجانية للفرق",
     "url": "https://claude.ai/work",
@@ -1040,7 +1040,7 @@
       "اختبارات"
     ],
     "pricing": "مدفوع",
-    "pricing_type": "paid",
+    "pricing_type": "free-trial",
     "has_free_trial": true,
     "free_trial_details": "تجربة مجانية متاحة",
     "url": "https://devin.ai",
@@ -1670,7 +1670,7 @@
       "توثيق"
     ],
     "pricing": "مدفوع",
-    "pricing_type": "paid",
+    "pricing_type": "free-trial",
     "has_free_trial": true,
     "free_trial_details": "تجربة مجانية 7 أيام",
     "url": "https://jetbrains.com/ai/",
@@ -2132,7 +2132,7 @@
       "مؤسسات"
     ],
     "pricing": "مدفوع",
-    "pricing_type": "paid",
+    "pricing_type": "free-trial",
     "has_free_trial": true,
     "free_trial_details": "تجربة مجانية للمطورين",
     "url": "https://poolside.ai",
@@ -2860,7 +2860,7 @@
       "Chrome extension"
     ],
     "pricing": "تجريبي (بدعوة)",
-    "pricing_type": "paid",
+    "pricing_type": "free-trial",
     "has_free_trial": true,
     "free_trial_details": "مجاني في المرحلة التجريبية",
     "url": "https://deepmind.google",
@@ -3378,7 +3378,7 @@
       "تحليلات"
     ],
     "pricing": "مدفوع",
-    "pricing_type": "paid",
+    "pricing_type": "free-trial",
     "has_free_trial": true,
     "free_trial_details": "تجربة مجانية 7 أيام",
     "url": "https://jasper.ai",
@@ -3642,7 +3642,7 @@
       "Blend"
     ],
     "pricing": "مدفوع",
-    "pricing_type": "paid",
+    "pricing_type": "free-trial",
     "has_free_trial": true,
     "free_trial_details": "تجربة محدودة مجانية",
     "url": "https://midjourney.com",
@@ -5932,7 +5932,7 @@
       "Omnichannel"
     ],
     "pricing": "مدفوع",
-    "pricing_type": "paid",
+    "pricing_type": "free-trial",
     "has_free_trial": true,
     "free_trial_details": "تجربة مجانية 14 يوم",
     "url": "https://intercom.com/fin",
@@ -5984,7 +5984,7 @@
       "Omnichannel"
     ],
     "pricing": "مدفوع",
-    "pricing_type": "paid",
+    "pricing_type": "free-trial",
     "has_free_trial": true,
     "free_trial_details": "تجربة مجانية",
     "url": "https://zendesk.com/ai",
@@ -6194,7 +6194,7 @@
       "No-code builder"
     ],
     "pricing": "مدفوع",
-    "pricing_type": "paid",
+    "pricing_type": "free-trial",
     "has_free_trial": true,
     "free_trial_details": "تجربة مجانية",
     "url": "https://kore.ai",
@@ -6405,7 +6405,7 @@
       "PRs تلقائية"
     ],
     "pricing": "مدفوع (Copilot)",
-    "pricing_type": "paid",
+    "pricing_type": "free-trial",
     "has_free_trial": true,
     "free_trial_details": "ضمن تجربة Copilot",
     "url": "https://github.com/features/copilot",
@@ -6666,7 +6666,7 @@
       "Brand kit"
     ],
     "pricing": "مدفوع",
-    "pricing_type": "paid",
+    "pricing_type": "free-trial",
     "has_free_trial": true,
     "free_trial_details": "فيديو مجاني واحد",
     "url": "https://synthesia.io",
@@ -6880,7 +6880,7 @@
       "تعديل"
     ],
     "pricing": "مدفوع",
-    "pricing_type": "paid",
+    "pricing_type": "free-trial",
     "has_free_trial": true,
     "free_trial_details": "تجربة مجانية",
     "url": "https://durable.co",
@@ -6986,7 +6986,7 @@
       "Unity Catalog"
     ],
     "pricing": "مدفوع",
-    "pricing_type": "paid",
+    "pricing_type": "free-trial",
     "has_free_trial": true,
     "free_trial_details": "تجربة مجانية 14 يوم",
     "url": "https://databricks.com",
@@ -7566,7 +7566,7 @@
       "تكاملات"
     ],
     "pricing": "مدفوع",
-    "pricing_type": "paid",
+    "pricing_type": "free-trial",
     "has_free_trial": true,
     "free_trial_details": "تجربة مجانية 30 يوم",
     "url": "https://docusign.com",
@@ -7670,7 +7670,7 @@
       "Presenter tools"
     ],
     "pricing": "مدفوع",
-    "pricing_type": "paid",
+    "pricing_type": "free-trial",
     "has_free_trial": true,
     "free_trial_details": "تجربة مجانية",
     "url": "https://beautiful.ai",
@@ -8952,7 +8952,7 @@
       "سريع"
     ],
     "pricing": "مدفوع",
-    "pricing_type": "paid",
+    "pricing_type": "free-trial",
     "has_free_trial": true,
     "free_trial_details": "تجربة مجانية",
     "url": "https://obviously.ai",
@@ -9220,7 +9220,7 @@
       "متاح على الموبايل"
     ],
     "pricing": "مدفوع",
-    "pricing_type": "paid",
+    "pricing_type": "free-trial",
     "has_free_trial": true,
     "free_trial_details": "تجربة مجانية متاحة",
     "url": "https://duolingo.com",
@@ -9381,7 +9381,7 @@
       "عدة لغات"
     ],
     "pricing": "مدفوع (مع اشتراك)",
-    "pricing_type": "paid",
+    "pricing_type": "free-trial",
     "has_free_trial": true,
     "free_trial_details": "تجربة مجانية 7 أيام",
     "url": "https://coursera.org",
@@ -9650,7 +9650,7 @@
       "Analytics"
     ],
     "pricing": "مدفوع",
-    "pricing_type": "paid",
+    "pricing_type": "free-trial",
     "has_free_trial": true,
     "free_trial_details": "تجربة مجانية 14 يوم",
     "url": "https://instantly.ai",
@@ -9758,7 +9758,7 @@
       "API"
     ],
     "pricing": "مدفوع",
-    "pricing_type": "paid",
+    "pricing_type": "free-trial",
     "has_free_trial": true,
     "free_trial_details": "فيديو تجريبي مجاني",
     "url": "https://synthesia.io",
@@ -9812,7 +9812,7 @@
       "API"
     ],
     "pricing": "مدفوع",
-    "pricing_type": "paid",
+    "pricing_type": "free-trial",
     "has_free_trial": true,
     "free_trial_details": "تجربة مجانية 7 أيام",
     "url": "https://surferseo.com",
@@ -10784,7 +10784,7 @@
       "AI Visibility"
     ],
     "pricing": "مدفوع",
-    "pricing_type": "paid",
+    "pricing_type": "free-trial",
     "has_free_trial": true,
     "free_trial_details": "تجربة مجانية 5 أيام",
     "url": "https://www.frase.io",
