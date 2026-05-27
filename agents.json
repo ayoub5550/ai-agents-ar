@@ -153,7 +153,7 @@
     ],
     "features_en": [
       "Autonomous web browsing",
-      "Book appointments",
+      "Appointments",
       "Fill forms",
       "Online shopping",
       "Advanced search",
@@ -204,14 +204,14 @@
       "Long Context"
     ],
     "features_en": [
-      "نافذة 200K توكن",
-      "كتابة احترافية",
-      "برمجة متقدمة",
+      "200K &",
+      "writing Professional",
+      "Advanced coding",
       "File analysis",
-      "استدلال منطقي",
+      "inference logic",
       "Projects",
       "Artifacts",
-      "تحليل صور"
+      "analysis images"
     ],
     "best_for_en": "Everyday tasks and versatile use"
   },
@@ -258,14 +258,14 @@
       "Research"
     ],
     "features_en": [
-      "تكامل مع Google",
-      "تحليل فيديو",
-      "نافذة سياق 1M",
+      "integration with Google",
+      "analysis video",
+      "context 1M",
       "Image generation",
-      "بحث محدّث",
-      "Gems مخصصة",
+      "search",
+      "Gems Custom",
       "File analysis",
-      "صوت حي"
+      "voice"
     ],
     "best_for_en": "Everyday tasks and versatile use"
   },
@@ -305,16 +305,16 @@
     "description_en": "xAI's AI assistant with real-time X (Twitter) integration — great for current events, humor, and unfiltered conversations.",
     "tags_en": [
       "X",
-      "تويتر",
-      "أخبار",
+      "Twitter/X",
+      "News",
       "Images"
     ],
     "features_en": [
-      "تحديث لحظي من X",
+      "from X",
       "Image generation",
-      "أسلوب صريح",
-      "بحث الإنترنت",
-      "تحليل بيانات",
+      "&",
+      "search internet",
+      "Data analysis",
       "DeepSearch"
     ],
     "best_for_en": "Everyday tasks and versatile use"
@@ -356,16 +356,16 @@
     "tags_en": [
       "Free",
       "Open Source",
-      "صيني",
-      "استدلال"
+      "Chinese",
+      "Reasoning"
     ],
     "features_en": [
-      "مجاني بالكامل",
-      "مفتوح المصدر",
-      "استدلال متقدم R1",
-      "API رخيص جداً",
-      "برمجة ممتازة",
-      "رياضيات متقدمة"
+      "Free theFull",
+      "Open source",
+      "inference Advanced R1",
+      "API",
+      "coding Excellent",
+      "Advanced"
     ],
     "best_for_en": "Everyday tasks and versatile use"
   },
@@ -410,12 +410,12 @@
       "Research"
     ],
     "features_en": [
-      "مدمج في Windows",
-      "تكامل Office 365",
-      "بحث Bing",
+      "in Windows",
+      "integration Office 365",
+      "search Bing",
       "Image generation",
-      "تلخيص اجتماعات",
-      "تحليل Excel"
+      "meetings",
+      "analysis Excel"
     ],
     "best_for_en": "Everyday tasks and versatile use"
   },
@@ -453,17 +453,17 @@
     "best_for": "تجربة عدة نماذج AI في مكان واحد",
     "description_en": "Quora's AI platform offering access to multiple models (GPT-4, Claude, Gemini, Llama) in one interface with custom bot creation.",
     "tags_en": [
-      "عدة نماذج",
-      "بوتات",
+      "Multi-Model",
+      "Bots",
       "Quora"
     ],
     "features_en": [
-      "عدة نماذج في مكان",
-      "بوتات مخصصة",
-      "مشاركة بوتات",
-      "API موحد",
-      "سريع جداً",
-      "متاح على الموبايل"
+      "models in",
+      "Custom bots",
+      "bots",
+      "API &",
+      "Fast",
+      "on &"
     ],
     "best_for_en": "Everyday tasks and versatile use"
   },
@@ -503,17 +503,17 @@
     "description_en": "Create and chat with AI characters — roleplay, entertainment, language practice, and creative storytelling with personality-rich AI.",
     "tags_en": [
       "Characters",
-      "ترفيه",
+      "Entertainment",
       "Chat",
       "Learning"
     ],
     "features_en": [
-      "شخصيات متنوعة",
-      "إنشاء شخصيات",
-      "محادثة جماعية",
-      "تعلم لغات",
-      "ترفيه",
-      "صوت"
+      "Personal &",
+      "Personal",
+      "chat",
+      "languages",
+      "in",
+      "voice"
     ],
     "best_for_en": "Everyday tasks and versatile use"
   },
@@ -553,15 +553,15 @@
     "tags_en": [
       "Free",
       "Open Source",
-      "خصوصية"
+      "Privacy"
     ],
     "features_en": [
-      "مجاني بالكامل",
-      "مفتوح المصدر",
-      "عدة نماذج",
-      "بحث الإنترنت",
-      "بدون تسجيل",
-      "خصوصية عالية"
+      "Free theFull",
+      "Open source",
+      "models",
+      "search internet",
+      "without",
+      "privacy High"
     ],
     "best_for_en": "Everyday tasks and versatile use"
   },
@@ -599,17 +599,17 @@
     "best_for": "تنفيذ مهام معقدة بدون تدخل",
     "description_en": "Autonomous AI agent that completes complex multi-step tasks — research, coding, data analysis, and web browsing independently.",
     "tags_en": [
-      "وكيل مستقل",
-      "تنفيذ مهام",
-      "صيني"
+      "Autonomous Agent",
+      "Task Execution",
+      "Chinese"
     ],
     "features_en": [
-      "تنفيذ مهام مستقل",
-      "تصفح ويب",
-      "تحليل بيانات",
-      "كتابة تقارير",
-      "خطط عمل",
-      "بحث معمق"
+      "in tasks Autonomous",
+      "&",
+      "Data analysis",
+      "writing reports",
+      "Action plans",
+      "Deep research"
     ],
     "best_for_en": "Everyday tasks and versatile use"
   },
@@ -648,18 +648,18 @@
     "best_for": "من يبحث عن مساعد شخصي ودود",
     "description_en": "Inflection AI's personal assistant designed for natural, empathetic conversations — remembers context and adapts to your style.",
     "tags_en": [
-      "شخصي",
-      "ودود",
+      "Personal",
+      "Friendly",
       "Chat",
       "Free"
     ],
     "features_en": [
-      "محادثة طبيعية",
-      "أسلوب ودود",
-      "صوت واقعي",
-      "نصائح شخصية",
+      "Natural conversation",
+      "& &&",
+      "voice &",
+      "text Personal",
       "Continuous learning",
-      "متاح 24/7"
+      "24/7"
     ],
     "best_for_en": "Everyday tasks and versatile use"
   },
@@ -698,16 +698,16 @@
     "description_en": "AI search engine combining web results with AI chat — get sourced answers, code, and research without ads.",
     "tags_en": [
       "Research",
-      "مصادر",
-      "خصوصية"
+      "Sources",
+      "Privacy"
     ],
     "features_en": [
-      "بحث + AI",
-      "مصادر موثوقة",
-      "أوضاع متعددة",
-      "بحث أكاديمي",
-      "إنشاء محتوى",
-      "خصوصية"
+      "search + AI",
+      "sources &&",
+      "or Multiple",
+      "search",
+      "&",
+      "privacy"
     ],
     "best_for_en": "Everyday tasks and versatile use"
   },
@@ -752,12 +752,12 @@
       "API"
     ],
     "features_en": [
-      "RAG متقدم",
-      "10+ لغات",
-      "تكامل مؤسسي",
-      "بحث دلالي",
-      "تنصيب محلي",
-      "أمان عالي"
+      "RAG Advanced",
+      "10+ languages",
+      "integration",
+      "search",
+      "text Local",
+      "security High"
     ],
     "best_for_en": "Everyday tasks and versatile use"
   },
@@ -795,17 +795,17 @@
     "best_for": "من يريد مساعد سريع ومجاني",
     "description_en": "Mistral's free AI chatbot — powered by top European open-weight models with strong multilingual and coding capabilities.",
     "tags_en": [
-      "سريع",
-      "فرنسي",
+      "Fast",
+      "French",
       "Open Source"
     ],
     "features_en": [
-      "سريع جداً",
-      "Canvas للكتابة",
-      "بحث الإنترنت",
+      "Fast",
+      "Canvas writing",
+      "search internet",
       "Image generation",
-      "توليد كود",
-      "عدة نماذج"
+      "& code",
+      "models"
     ],
     "best_for_en": "Everyday tasks and versatile use"
   },
@@ -845,16 +845,16 @@
     "description_en": "Claude for enterprise teams — secure, private AI workspace with admin controls, SSO, and usage analytics.",
     "tags_en": [
       "Enterprise",
-      "عمل",
-      "فرق",
+      "Business",
+      "Teams",
       "Safety"
     ],
     "features_en": [
-      "وكيل عمل",
-      "تكامل أدوات",
-      "إدارة مشاريع",
-      "تعاون فريقي",
-      "أمان مؤسسي",
+      "agent",
+      "integration tools",
+      "projects",
+      "& team",
+      "security",
       "SSO"
     ],
     "best_for_en": "Everyday tasks and versatile use"
@@ -896,20 +896,20 @@
     "best_for": "المبرمجين الذين يريدون AI مدمج في محررهم",
     "description_en": "AI-first code editor built on VS Code — understands your entire codebase, makes multi-file edits, and generates code from natural language.",
     "tags_en": [
-      "محرر كود",
-      "إكمال ذكي",
+      "Code Editor",
+      "Smart Completion",
       "VS Code",
       "AI IDE"
     ],
     "features_en": [
       "Tab autocomplete",
-      "تعديل عدة ملفات",
-      "فهم المشروع",
-      "Chat مع الكود",
-      "تصحيح أخطاء",
+      "files",
+      "project",
+      "Chat with code",
+      "Bug fixing",
       "Composer",
-      "استيراد ملفات",
-      "مبني على VS Code"
+      "files",
+      "on VS Code"
     ],
     "best_for_en": "Software development and programming"
   },
@@ -956,14 +956,14 @@
       "JetBrains"
     ],
     "features_en": [
-      "إكمال كود لحظي",
-      "Chat برمجي",
-      "كتابة اختبارات",
-      "شرح الكود",
+      "code",
+      "Chat",
+      "Writing tests",
+      "code",
       "Multi-file edits",
       "Agent mode",
       "CLI assistant",
-      "عدة IDEs"
+      "IDEs"
     ],
     "best_for_en": "Software development and programming"
   },
@@ -1010,14 +1010,14 @@
       "Anthropic"
     ],
     "features_en": [
-      "يعمل في Terminal",
-      "قراءة وكتابة ملفات",
-      "تشغيل أوامر",
+      "Works in Terminal",
+      "&writing files",
+      "or",
       "Git integration",
-      "فهم مشاريع كبيرة",
-      "تصحيح أخطاء",
-      "إنشاء PRs",
-      "اختبارات تلقائية"
+      "projects",
+      "Bug fixing",
+      "PRs",
+      "tests Auto"
     ],
     "best_for_en": "Software development and programming"
   },
@@ -1057,19 +1057,19 @@
     "best_for": "المشاريع التي تحتاج مهندس AI مستقل",
     "description_en": "The first fully autonomous AI software engineer — takes issues, plans solutions, writes code, tests, and submits PRs independently.",
     "tags_en": [
-      "مهندس AI",
+      "AI Engineer",
       "Autonomous",
-      "مشاريع كاملة"
+      "Full Projects"
     ],
     "features_en": [
-      "مهندس مستقل",
-      "بيئة تطوير كاملة",
-      "تنفيذ مشاريع",
-      "تصحيح أخطاء",
-      "نشر تلقائي",
-      "تعلم من المشاريع",
+      "Autonomous",
+      "& Full",
+      "in projects",
+      "Bug fixing",
+      "Auto deploy",
+      "from projects",
       "Slack integration",
-      "اختبارات"
+      "tests"
     ],
     "best_for_en": "Software development and programming"
   },
@@ -1110,7 +1110,7 @@
     "best_for": "بديل مجاني ممتاز لـ Cursor",
     "description_en": "AI-native code editor (by Codeium) with Cascade feature for multi-step coding tasks — generous free tier for developers.",
     "tags_en": [
-      "محرر كود",
+      "Code Editor",
       "Codeium",
       "VS Code",
       "Agent"
@@ -1118,12 +1118,12 @@
     "features_en": [
       "Cascade Agent",
       "Supercomplete",
-      "Chat مع المشروع",
-      "تعديل عدة ملفات",
+      "Chat with project",
+      "files",
       "Terminal AI",
-      "مبني على VS Code",
-      "سريع جداً",
-      "خطة مجانية"
+      "on VS Code",
+      "Fast",
+      "Free"
     ],
     "best_for_en": "Software development and programming"
   },
@@ -1161,17 +1161,17 @@
     "best_for": "مهام البرمجة المتوازية",
     "description_en": "OpenAI's cloud-based coding agent — runs in a sandbox, writes and tests code, creates PRs from natural language instructions.",
     "tags_en": [
-      "سحابي",
+      "Cloud-based",
       "OpenAI",
-      "وكيل برمجة"
+      "Coding Agent"
     ],
     "features_en": [
-      "بيئة سحابية",
-      "مهام متوازية",
+      "Cloud environment",
+      "tasks &",
       "Pull Requests",
-      "تشغيل اختبارات",
-      "قراءة ريبو",
-      "أمان عالي"
+      "tests",
+      "&",
+      "security High"
     ],
     "best_for_en": "Software development and programming"
   },
@@ -1217,13 +1217,13 @@
       "CLI"
     ],
     "features_en": [
-      "مجاني للأفراد",
-      "60 طلب/دقيقة",
-      "يعمل في Terminal",
-      "فهم المشروع",
-      "MCP دعم",
-      "توليد كود",
-      "مفتوح المصدر"
+      "Free",
+      "60 /minute",
+      "Works in Terminal",
+      "project",
+      "MCP",
+      "& code",
+      "Open source"
     ],
     "best_for_en": "Software development and programming"
   },
@@ -1267,14 +1267,14 @@
       "Open Source",
       "VS Code",
       "Agent",
-      "مرن"
+      "Flexible"
     ],
     "features_en": [
-      "مفتوح المصدر",
-      "أي نموذج AI",
+      "Open source",
+      "model AI",
       "VS Code extension",
-      "تشغيل أوامر",
-      "تصفح ويب",
+      "or",
+      "&",
       "Human-in-loop",
       "Plan mode",
       "MCP support"
@@ -1326,11 +1326,11 @@
     "features_en": [
       "Pair programming",
       "Git auto-commit",
-      "عدة نماذج",
-      "مفتوح المصدر",
-      "خريطة ريبو",
-      "تعديل ملفات",
-      "سريع",
+      "models",
+      "Open source",
+      "map &",
+      "files",
+      "Fast",
       "Voice mode"
     ],
     "best_for_en": "Software development and programming"
@@ -1373,19 +1373,19 @@
     "description_en": "Privacy-first AI code completion — runs on-premises or in the cloud with zero data retention. Enterprise-grade security.",
     "tags_en": [
       "Code Completion",
-      "خصوصية",
-      "محلي",
+      "Privacy",
+      "Local/On-device",
       "Safety"
     ],
     "features_en": [
-      "إكمال كود",
-      "خصوصية عالية",
-      "تشغيل محلي",
-      "30+ لغة",
-      "تعلم من الفريق",
+      "code",
+      "privacy High",
+      "Run locally",
+      "30+ language",
+      "from team",
       "Zero data retention",
-      "IDE متعددة",
-      "سريع"
+      "IDE Multiple",
+      "Fast"
     ],
     "best_for_en": "Software development and programming"
   },
@@ -1425,14 +1425,14 @@
     "best_for": "الفرق الكبيرة مع مشاريع ضخمة",
     "description_en": "AI coding assistant specialized for large codebases — indexes millions of lines for context-aware suggestions.",
     "tags_en": [
-      "فرق",
-      "codebases كبيرة",
+      "Teams",
+      "Large Codebases",
       "Enterprise"
     ],
     "features_en": [
-      "فهم codebases ضخمة",
-      "مخصص للفرق",
-      "أنماط الفريق",
+      "codebases Large",
+      "Custom teams",
+      "team",
       "VS Code",
       "JetBrains",
       "Context engine",
@@ -1479,19 +1479,19 @@
     "description_en": "AWS's AI assistant for developers — understands CloudFormation, CDK, Lambda, and the entire AWS ecosystem.",
     "tags_en": [
       "AWS",
-      "سحابي",
-      "أمازون",
+      "Cloud-based",
+      "Amazon",
       "Free"
     ],
     "features_en": [
-      "مجاني بحد سخي",
-      "AWS متخصص",
-      "إكمال كود",
-      "مسح أمني",
-      "تحويل كود",
-      "تصحيح أخطاء",
+      "Free",
+      "AWS",
+      "code",
+      "from",
+      "& code",
+      "Bug fixing",
       "CLI assistant",
-      "15+ لغة"
+      "15+ language"
     ],
     "best_for_en": "Software development and programming"
   },
@@ -1532,18 +1532,18 @@
     "description_en": "AI-powered code quality platform — generates tests, reviews code, and improves software quality automatically.",
     "tags_en": [
       "Testing",
-      "مراجعة كود",
-      "جودة"
+      "Code Review",
+      "Quality"
     ],
     "features_en": [
-      "توليد اختبارات",
-      "مراجعة PRs",
-      "تحليل كود",
-      "اكتشاف أخطاء",
+      "Test generation",
+      "review PRs",
+      "analysis code",
+      "Bug detection",
       "VS Code",
       "JetBrains",
       "GitHub App",
-      "حالات حدية"
+      "Edge cases"
     ],
     "best_for_en": "Software development and programming"
   },
@@ -1585,19 +1585,19 @@
     "description_en": "Open-source AI coding assistant for VS Code and JetBrains — connect any LLM model for autocomplete and chat.",
     "tags_en": [
       "Open Source",
-      "مرن",
+      "Flexible",
       "VS Code",
-      "محلي"
+      "Local/On-device"
     ],
     "features_en": [
-      "مفتوح المصدر",
-      "أي نموذج",
+      "Open source",
+      "model",
       "VS Code",
       "JetBrains",
       "Tab autocomplete",
       "Chat",
       "Edit",
-      "نماذج محلية"
+      "models Local"
     ],
     "best_for_en": "Software development and programming"
   },
@@ -1642,12 +1642,12 @@
       "issues"
     ],
     "features_en": [
-      "حل issues تلقائي",
-      "SWE-bench متقدم",
-      "مفتوح المصدر",
+      "solution issues Automatic",
+      "SWE-bench Advanced",
+      "Open source",
       "GitHub integration",
-      "بحث في الكود",
-      "إصلاح أخطاء"
+      "search in code",
+      "Bug fixes"
     ],
     "best_for_en": "Software development and programming"
   },
@@ -1694,14 +1694,14 @@
       "IDE"
     ],
     "features_en": [
-      "مدمج في JetBrains",
-      "إكمال ذكي",
+      "in JetBrains",
+      "Smart completion",
       "Chat",
-      "توليد اختبارات",
-      "شرح الكود",
+      "Test generation",
+      "code",
       "Refactoring",
       "Git messages",
-      "توثيق"
+      "&"
     ],
     "best_for_en": "Software development and programming"
   },
@@ -1740,17 +1740,17 @@
     "best_for": "بحث برمجي سريع ودقيق",
     "description_en": "AI search engine for developers — get instant code answers with real-time web sources and runnable examples.",
     "tags_en": [
-      "بحث برمجي",
-      "مبرمجين",
-      "كود"
+      "Code Search",
+      "Developers",
+      "Code"
     ],
     "features_en": [
-      "بحث برمجي",
-      "إجابات مع كود",
-      "مصادر موثوقة",
-      "سريع جداً",
+      "search",
+      "answers with code",
+      "sources &&",
+      "Fast",
       "VS Code extension",
-      "مجاني",
+      "Free",
       "Pair programmer"
     ],
     "best_for_en": "Software development and programming"
@@ -1795,13 +1795,13 @@
       "VS Code"
     ],
     "features_en": [
-      "إكمال كود مجاني",
-      "Chat برمجي",
-      "استخراج كود من صور",
-      "70+ لغة",
+      "code Free",
+      "Chat",
+      "code from images",
+      "70+ languages",
       "VS Code",
-      "بحث في الكود",
-      "سريع"
+      "search in code",
+      "Fast"
     ],
     "best_for_en": "Software development and programming"
   },
@@ -1842,18 +1842,18 @@
     "description_en": "Sourcegraph's AI coding assistant — understands your entire codebase graph for accurate, context-aware completions.",
     "tags_en": [
       "Sourcegraph",
-      "فهم كود",
+      "Code Understanding",
       "IDE"
     ],
     "features_en": [
-      "فهم كامل للكود",
+      "Full code",
       "Sourcegraph context",
-      "إكمال ذكي",
+      "Smart completion",
       "Chat",
-      "عدة IDEs",
-      "بحث في الكود",
-      "شرح الكود",
-      "توليد اختبارات"
+      "IDEs",
+      "search in code",
+      "code",
+      "Test generation"
     ],
     "best_for_en": "Software development and programming"
   },
@@ -1893,19 +1893,19 @@
     "best_for": "حفظ وتنظيم الكود مع AI",
     "description_en": "AI-powered developer productivity tool — save, search, and reuse code snippets with intelligent context.",
     "tags_en": [
-      "تنظيم كود",
+      "Code Organization",
       "Memory",
-      "محلي"
+      "Local/On-device"
     ],
     "features_en": [
-      "حفظ مقتطفات",
+      "Save snippets",
       "Long-Term Memory",
-      "يعمل محلياً",
-      "عدة IDEs",
-      "تنظيم كود",
-      "بحث ذكي",
-      "مشاركة كود",
-      "سياق تلقائي"
+      "Works Local",
+      "IDEs",
+      "code",
+      "Smart search",
+      "code",
+      "context Automatic"
     ],
     "best_for_en": "Software development and programming"
   },
@@ -1945,16 +1945,16 @@
     "best_for": "بناء تطبيقات سريعة في المتصفح",
     "description_en": "AI agent that builds full-stack apps from descriptions — sets up databases, APIs, frontend, and deploys automatically.",
     "tags_en": [
-      "سحابي",
-      "بناء تطبيقات",
-      "نشر فوري"
+      "Cloud-based",
+      "App Building",
+      "Instant Deploy"
     ],
     "features_en": [
-      "بناء تطبيقات كاملة",
-      "نشر فوري",
-      "بيئة سحابية",
-      "قاعدة بيانات",
-      "من وصف بسيط",
+      "Build full-stack apps",
+      "Instant deploy",
+      "Cloud environment",
+      "database data",
+      "from &",
       "Deployments",
       "Multiplayer",
       "Mobile app"
@@ -2004,13 +2004,13 @@
       "GitHub"
     ],
     "features_en": [
-      "مفتوح المصدر",
+      "Open source",
       "Docker sandbox",
       "GitHub integration",
-      "تصفح ويب",
-      "عدة نماذج",
+      "&",
+      "models",
       "REST API",
-      "قابل للتوسيع",
+      "&",
       "SWE-bench"
     ],
     "best_for_en": "Software development and programming"
@@ -2050,16 +2050,16 @@
     "description_en": "xAI's coding-focused tool for building and debugging with Grok's reasoning capabilities.",
     "tags_en": [
       "xAI",
-      "بناء",
+      "Building",
       "Apps"
     ],
     "features_en": [
-      "بناء تطبيقات",
-      "معاينة فورية",
-      "من وصف بسيط",
+      "apps",
+      "with Instant",
+      "from &",
       "HTML/CSS/JS",
       "React",
-      "تعديل تفاعلي"
+      "Interactive"
     ],
     "best_for_en": "Software development and programming"
   },
@@ -2099,17 +2099,17 @@
     "best_for": "من يبحث عن أسرع إكمال كود",
     "description_en": "Ultra-fast AI code completion — 300K token context window with near-zero latency autocomplete.",
     "tags_en": [
-      "سرعة",
+      "Speed",
       "Code Completion",
-      "سياق كبير"
+      "Large Context"
     ],
     "features_en": [
-      "سرعة فائقة <10ms",
-      "300K سياق",
+      "<10ms",
+      "300K context",
       "VS Code",
       "JetBrains",
       "Neovim",
-      "خطة مجانية",
+      "Free",
       "Chat",
       "Multi-line"
     ],
@@ -2149,17 +2149,17 @@
     "best_for": "مؤسسات تحتاج AI متخصص بالبرمجة فقط",
     "description_en": "AI coding assistant trained specifically on code — deep understanding of software engineering patterns.",
     "tags_en": [
-      "متخصص بالكود",
-      "نموذج",
+      "Code-Specialized",
+      "Model",
       "API"
     ],
     "features_en": [
-      "مدرب على كود فقط",
-      "دقة عالية",
-      "فهم عميق",
-      "تصحيح أخطاء",
+      "on code",
+      "High resolution",
+      "Feature",
+      "Bug fixing",
       "API",
-      "مؤسسات"
+      "Feature"
     ],
     "best_for_en": "Software development and programming"
   },
@@ -2199,19 +2199,19 @@
     "best_for": "بناء تطبيقات ويب بسرعة بدون خبرة",
     "description_en": "Build full-stack web apps in your browser with AI — describe what you want and get a working app instantly.",
     "tags_en": [
-      "بناء تطبيقات",
-      "نشر فوري",
+      "App Building",
+      "Instant Deploy",
       "No-Code"
     ],
     "features_en": [
-      "بناء تطبيقات كاملة",
-      "نشر بنقرة",
+      "Build full-stack apps",
+      "deploy",
       "WebContainer",
       "React/Next.js",
-      "من وصف بسيط",
-      "تعديل مباشر",
-      "قاعدة بيانات",
-      "مصادقة"
+      "from &",
+      "Direct editing",
+      "database data",
+      "Feature"
     ],
     "best_for_en": "Building apps without coding"
   },
@@ -2251,19 +2251,19 @@
     "best_for": "بناء MVP احترافي بسرعة",
     "description_en": "AI-powered app builder — create beautiful web applications from natural language descriptions in minutes.",
     "tags_en": [
-      "بناء تطبيقات",
+      "App Building",
       "Supabase",
       "Design"
     ],
     "features_en": [
-      "بناء تطبيقات",
-      "Supabase مدمج",
-      "Stripe مدمج",
+      "apps",
+      "Supabase",
+      "Stripe",
       "GitHub sync",
-      "تصميم احترافي",
-      "نشر بنقرة",
-      "كود نظيف",
-      "تعاون فريقي"
+      "design Professional",
+      "deploy",
+      "code",
+      "& team"
     ],
     "best_for_en": "Building apps without coding"
   },
@@ -2313,9 +2313,9 @@
       "React/Next.js",
       "Tailwind CSS",
       "shadcn/ui",
-      "من صور إلى كود",
-      "نشر Vercel",
-      "معاينة فورية",
+      "from images to code",
+      "deploy Vercel",
+      "with Instant",
       "TypeScript",
       "Responsive"
     ],
@@ -2357,18 +2357,18 @@
     "best_for": "بناء منتجات AI بدون كود",
     "description_en": "Build web apps and tools with AI — no coding required. From idea to deployed app in minutes.",
     "tags_en": [
-      "بناء تطبيقات",
+      "App Building",
       "AI",
       "No-Code"
     ],
     "features_en": [
-      "بناء تطبيقات",
-      "AI مدمج",
+      "apps",
+      "AI",
       "APIs",
-      "قواعد بيانات",
-      "نشر فوري",
-      "قوالب",
-      "بدون كود",
+      "Databases",
+      "Instant deploy",
+      "templates",
+      "No-code",
       "Custom domains"
     ],
     "best_for_en": "Building apps without coding"
@@ -2413,17 +2413,17 @@
       "Websites",
       "Design",
       "CMS",
-      "أنيميشن"
+      "Animation"
     ],
     "features_en": [
-      "تصميم بصري",
+      "design Visual",
       "AI website builder",
-      "CMS مدمج",
-      "أنيميشن",
+      "CMS",
+      "Feature",
       "SEO",
       "Custom code",
       "Responsive",
-      "قوالب احترافية"
+      "templates Professional"
     ],
     "best_for_en": "Building apps without coding"
   },
@@ -2463,19 +2463,19 @@
     "best_for": "بناء بوابات عملاء بسرعة",
     "description_en": "Build apps from Airtable or Google Sheets data without coding — AI-powered templates and customization.",
     "tags_en": [
-      "بوابات",
+      "Gateways",
       "Airtable",
-      "لوحات تحكم"
+      "Dashboards"
     ],
     "features_en": [
-      "بدون كود",
+      "No-code",
       "Airtable integration",
       "Google Sheets",
-      "مصادقة جاهزة",
-      "صلاحيات",
-      "بوابات عملاء",
-      "لوحات تحكم",
-      "قوالب"
+      "Ready",
+      "Feature",
+      "& customers",
+      "&",
+      "templates"
     ],
     "best_for_en": "Building apps without coding"
   },
@@ -2516,18 +2516,18 @@
     "description_en": "Turn spreadsheets into mobile apps — AI-powered no-code platform for business applications.",
     "tags_en": [
       "Google Sheets",
-      "تطبيقات أعمال",
+      "Business Apps",
       "No-Code"
     ],
     "features_en": [
-      "من Sheets إلى تطبيق",
+      "from Sheets to app",
       "AI columns",
       "Workflows",
       "CRM",
-      "بدون كود",
-      "قوالب",
+      "No-code",
+      "templates",
       "API",
-      "مصادقة"
+      "Feature"
     ],
     "best_for_en": "Building apps without coding"
   },
@@ -2568,16 +2568,16 @@
     "description_en": "The most powerful no-code platform — build complex web apps with visual programming and AI features.",
     "tags_en": [
       "SaaS",
-      "بصري",
-      "تطبيقات كاملة"
+      "Visual",
+      "Full-Stack Apps"
     ],
     "features_en": [
-      "تطبيقات SaaS كاملة",
-      "محرر بصري",
-      "قاعدة بيانات",
+      "apps SaaS Full",
+      "Visual",
+      "database data",
       "Workflows",
       "API",
-      "مصادقة",
+      "Feature",
       "Plugins",
       "Responsive"
     ],
@@ -2621,19 +2621,19 @@
     "description_en": "AI answer engine with citations — get research-grade answers with clickable sources. The best AI for factual research.",
     "tags_en": [
       "Research",
-      "مصادر",
-      "محدّث",
+      "Sources",
+      "Updated",
       "Academic"
     ],
     "features_en": [
-      "بحث مع مصادر",
-      "Pro Search معمق",
-      "Spaces تعاوني",
+      "search with sources",
+      "Pro Search with",
+      "Spaces &",
       "File analysis",
       "Image generation",
       "API",
-      "متاح على الموبايل",
-      "بحث أكاديمي"
+      "on &",
+      "search"
     ],
     "best_for_en": "Academic research and fact-finding"
   },
@@ -2677,13 +2677,13 @@
       "Papers"
     ],
     "features_en": [
-      "بحث أوراق علمية",
-      "تلخيص أبحاث",
-      "استخلاص بيانات",
-      "مقارنة دراسات",
-      "125M+ ورقة",
-      "تصدير نتائج",
-      "فلترة متقدمة"
+      "search papers",
+      "Feature",
+      "data",
+      "Feature",
+      "125M+ paper",
+      "Feature",
+      "Advanced"
     ],
     "best_for_en": "Academic research and fact-finding"
   },
@@ -2722,17 +2722,17 @@
     "best_for": "إيجاد الإجماع العلمي حول أي موضوع",
     "description_en": "AI-powered academic search — find and synthesize scientific research with evidence-based answers.",
     "tags_en": [
-      "إجماع علمي",
+      "Scientific Consensus",
       "Research",
-      "أدلة"
+      "Guides"
     ],
     "features_en": [
-      "إجماع علمي",
-      "تحليل أبحاث",
-      "إجابات مبنية على أدلة",
+      "Feature",
+      "analysis",
+      "answers on",
       "Copilot",
-      "200M+ ورقة",
-      "تصدير",
+      "200M+ paper",
+      "Feature",
       "GPT integration"
     ],
     "best_for_en": "Academic research and fact-finding"
@@ -2774,20 +2774,20 @@
     "best_for": "تحليل المستندات والأبحاث",
     "description_en": "NotebookLM — research AI tool for Academic research and fact-finding.",
     "tags_en": [
-      "مستندات",
+      "Documents",
       "Podcast",
       "Google",
       "Free"
     ],
     "features_en": [
-      "تحليل مستندات",
-      "بودكاست صوتي",
-      "ملخصات",
-      "أسئلة اختبار",
-      "مصادر موثوقة",
-      "مجاني",
+      "Document analysis",
+      "& voice",
+      "summaries",
+      "questions test",
+      "sources &&",
+      "Free",
       "Google integration",
-      "جداول زمنية"
+      "spreadsheets from"
     ],
     "best_for_en": "Academic research and fact-finding"
   },
@@ -2830,16 +2830,16 @@
       "API",
       "Research",
       "Agents",
-      "مطورين"
+      "Developers"
     ],
     "features_en": [
-      "API للوكلاء",
-      "نتائج نظيفة",
-      "استخلاص محتوى",
-      "سريع",
+      "API agents",
+      "Feature",
+      "&",
+      "Fast",
       "Python SDK",
       "REST API",
-      "عدة لغات"
+      "languages"
     ],
     "best_for_en": "Academic research and fact-finding"
   },
@@ -2879,14 +2879,14 @@
     "tags_en": [
       "Google",
       "Browsing",
-      "بحث معمق"
+      "Deep Research"
     ],
     "features_en": [
       "Autonomous web browsing",
-      "بحث معمق",
-      "جمع معلومات",
-      "تلخيص",
-      "مهام معقدة",
+      "Deep research",
+      "with with&",
+      "Summarization",
+      "Complex tasks",
       "Chrome extension"
     ],
     "best_for_en": "Academic research and fact-finding"
@@ -2929,19 +2929,19 @@
     "description_en": "AI data analysis — upload any spreadsheet and ask questions in plain English. Creates charts and insights automatically.",
     "tags_en": [
       "Data",
-      "رسوم بيانية",
+      "Charts",
       "Analysis",
       "Excel"
     ],
     "features_en": [
-      "تحليل بيانات",
-      "رسوم بيانية",
+      "Data analysis",
+      "Charts",
       "CSV/Excel",
-      "لغة طبيعية",
-      "Python تلقائي",
-      "تقارير",
-      "تصدير",
-      "سريع"
+      "language Natural",
+      "Python Automatic",
+      "reports",
+      "Feature",
+      "Fast"
     ],
     "best_for_en": "Academic research and fact-finding"
   },
@@ -2981,17 +2981,17 @@
     "description_en": "SciSpace — research AI tool for Academic research and fact-finding.",
     "tags_en": [
       "Papers",
-      "شرح",
+      "Explanations",
       "Academic"
     ],
     "features_en": [
-      "شرح أوراق علمية",
-      "تلخيص",
-      "مقارنة أبحاث",
-      "270M+ ورقة",
+      "papers",
+      "Summarization",
+      "Feature",
+      "270M+ paper",
       "Chrome extension",
       "Copilot",
-      "استشهادات"
+      "Feature"
     ],
     "best_for_en": "Academic research and fact-finding"
   },
@@ -3032,15 +3032,15 @@
     "tags_en": [
       "Free",
       "Academic",
-      "استشهادات"
+      "Citations"
     ],
     "features_en": [
-      "مجاني بالكامل",
-      "TLDR تلقائي",
-      "200M+ ورقة",
-      "شبكة استشهادات",
-      "توصيات ذكية",
-      "API مفتوح",
+      "Free theFull",
+      "TLDR Automatic",
+      "200M+ paper",
+      "Feature",
+      "Smart recommendations",
+      "API Open",
       "Research feeds"
     ],
     "best_for_en": "Academic research and fact-finding"
@@ -3079,17 +3079,17 @@
     "best_for": "اكتشاف الأوراق العلمية المرتبطة",
     "description_en": "Connected Papers — research AI tool for Academic research and fact-finding.",
     "tags_en": [
-      "خريطة",
-      "أوراق مرتبطة",
-      "اكتشاف"
+      "Map",
+      "Related Papers",
+      "Discovery"
     ],
     "features_en": [
-      "خريطة بصرية",
-      "اكتشاف أبحاث",
-      "أوراق مرتبطة",
+      "map Visual",
+      "Feature",
+      "papers",
       "Prior works",
       "Derivative works",
-      "مجاني جزئياً"
+      "Free"
     ],
     "best_for_en": "Academic research and fact-finding"
   },
@@ -3132,18 +3132,18 @@
     "tags_en": [
       "Notion",
       "Writing",
-      "تنظيم",
+      "Organization",
       "Notes"
     ],
     "features_en": [
-      "مدمج في Notion",
-      "كتابة محتوى",
-      "تلخيص",
-      "ترجمة",
-      "ملء بيانات",
+      "in Notion",
+      "writing &",
+      "Summarization",
+      "translation",
+      "data",
       "Q&A",
-      "أتمتة",
-      "بحث في الملاحظات"
+      "Feature",
+      "search in"
     ],
     "best_for_en": "Task management and efficiency"
   },
@@ -3186,18 +3186,18 @@
     "tags_en": [
       "Meetings",
       "Transcription",
-      "ملخصات",
+      "Summaries",
       "Voice"
     ],
     "features_en": [
-      "تفريغ اجتماعات",
-      "ملخصات تلقائية",
-      "نقاط عمل",
+      "transcription meetings",
+      "summaries Auto",
+      "Feature",
       "Zoom integration",
       "Teams integration",
       "Google Meet",
       "OtterPilot",
-      "بحث صوتي"
+      "search voice"
     ],
     "best_for_en": "Task management and efficiency"
   },
@@ -3238,18 +3238,18 @@
     "description_en": "Fireflies.ai — productivity AI tool for Task management and efficiency.",
     "tags_en": [
       "Meetings",
-      "تسجيل",
+      "Recording",
       "Transcription"
     ],
     "features_en": [
-      "تسجيل اجتماعات",
-      "تفريغ تلقائي",
-      "ملخصات",
-      "بحث في المحادثات",
-      "تحليل مشاعر",
-      "30+ تكامل",
+      "meetings",
+      "Auto transcription",
+      "summaries",
+      "search in conversations",
+      "analysis",
+      "30+ integration",
       "API",
-      "مهام تلقائية"
+      "tasks Auto"
     ],
     "best_for_en": "Task management and efficiency"
   },
@@ -3291,17 +3291,17 @@
     "tags_en": [
       "Presentations",
       "Design",
-      "مستندات"
+      "Documents"
     ],
     "features_en": [
-      "عروض تقديمية",
-      "مستندات",
-      "صفحات ويب",
-      "تصميم AI",
-      "أنيميشن",
-      "تحليلات",
-      "مشاركة",
-      "تصدير PDF"
+      "Presentations",
+      "documents",
+      "&",
+      "design AI",
+      "Feature",
+      "analysis",
+      "Feature",
+      "PDF"
     ],
     "best_for_en": "Task management and efficiency"
   },
@@ -3348,13 +3348,13 @@
       "Content"
     ],
     "features_en": [
-      "كتابة تسويقية",
-      "إعلانات",
-      "إيميلات",
-      "سوشيال ميديا",
+      "writing &",
+      "Ads",
+      "Emails",
+      "&",
       "Workflows",
-      "قوالب",
-      "25+ لغة",
+      "templates",
+      "25+ language",
       "Brand Voice"
     ],
     "best_for_en": "Task management and efficiency"
@@ -3397,17 +3397,17 @@
     "tags_en": [
       "Marketing",
       "Brand Voice",
-      "شركات"
+      "Enterprise"
     ],
     "features_en": [
       "Brand Voice",
-      "حملات تسويقية",
-      "كتابة محتوى",
+      "&",
+      "writing &",
       "SEO",
-      "قوالب",
-      "تكاملات",
-      "فرق",
-      "تحليلات"
+      "templates",
+      "integrations",
+      "teams",
+      "analysis"
     ],
     "best_for_en": "Task management and efficiency"
   },
@@ -3449,15 +3449,15 @@
     "tags_en": [
       "Writing",
       "Debugging",
-      "إنجليزي"
+      "English"
     ],
     "features_en": [
-      "تصحيح لغوي",
-      "تحسين أسلوب",
+      "&",
+      "optimization &",
       "GrammarlyGO",
       "Tone detector",
       "Plagiarism check",
-      "عدة منصات",
+      "text",
       "Chrome extension",
       "API"
     ],
@@ -3500,19 +3500,19 @@
     "best_for": "تنظيم الجدول وحماية وقت التركيز",
     "description_en": "AI calendar management — automatically schedules tasks, habits, and meetings to optimize your week.",
     "tags_en": [
-      "جدول",
+      "Schedule",
       "Calendar",
       "Productivity",
-      "وقت"
+      "Time"
     ],
     "features_en": [
-      "تنظيم جدول تلقائي",
-      "حماية وقت التركيز",
+      "schedule Automatic",
+      "protection &",
       "Smart meetings",
-      "عادات ذكية",
+      "Smart",
       "Google Calendar",
       "Slack integration",
-      "تحليلات",
+      "analysis",
       "Buffer time"
     ],
     "best_for_en": "Task management and efficiency"
@@ -3554,15 +3554,15 @@
     "description_en": "AI-powered note-taking — automatically organizes, connects, and surfaces relevant information from your notes.",
     "tags_en": [
       "Notes",
-      "تنظيم",
-      "أفكار"
+      "Organization",
+      "Ideas"
     ],
     "features_en": [
-      "تنظيم تلقائي",
-      "ربط أفكار",
-      "بحث ذكي",
-      "من اجتماعات",
-      "Chat مع الملاحظات",
+      "Auto organization",
+      "connect",
+      "Smart search",
+      "from meetings",
+      "Chat with",
       "Smart Write",
       "Collections",
       "Timeline"
@@ -3609,16 +3609,16 @@
       "Meetings",
       "Free",
       "Transcription",
-      "تسجيل"
+      "Recording"
     ],
     "features_en": [
-      "تسجيل مجاني",
-      "تفريغ 30+ لغة",
-      "ملخصات AI",
-      "نقاط عمل",
-      "مشاركة clips",
+      "Free",
+      "transcription 30+ language",
+      "summaries AI",
+      "Feature",
+      "clips",
       "CRM integration",
-      "بحث",
+      "search",
       "Timestamps"
     ],
     "best_for_en": "Task management and efficiency"
@@ -3661,14 +3661,14 @@
     "description_en": "The leading AI art generator — create stunning photorealistic images and artwork from text prompts.",
     "tags_en": [
       "Images",
-      "فن",
+      "Art",
       "Design",
-      "توليد"
+      "Generation"
     ],
     "features_en": [
-      "جودة صور عالية",
-      "أسلوب فني مميز",
-      "من نص إلى صورة",
+      "& images High",
+      "&",
+      "from text to image",
       "Variations",
       "Upscale",
       "Style tuning",
@@ -3718,14 +3718,14 @@
       "ChatGPT"
     ],
     "features_en": [
-      "مدمج في ChatGPT",
-      "فهم نص دقيق",
-      "نص في الصور",
-      "تعديل",
+      "in ChatGPT",
+      "text Accurate",
+      "text in images",
+      "Feature",
       "Inpainting",
-      "أنماط متعددة",
+      "Multiple styles",
       "API",
-      "سهل الاستخدام"
+      "Feature"
     ],
     "best_for_en": "Design, art, and creative content"
   },
@@ -3768,18 +3768,18 @@
     "tags_en": [
       "Open Source",
       "Free",
-      "محلي",
+      "Local/On-device",
       "Images"
     ],
     "features_en": [
-      "مفتوح المصدر",
-      "يعمل محلياً",
-      "مجاني",
+      "Open source",
+      "Works Local",
+      "Free",
       "ControlNet",
       "LoRA",
       "Inpainting",
-      "مجتمع ضخم",
-      "إضافات"
+      "with Large",
+      "Feature"
     ],
     "best_for_en": "Design, art, and creative content"
   },
@@ -3821,16 +3821,16 @@
     "tags_en": [
       "Open Source",
       "Images",
-      "جودة عالية"
+      "High Quality"
     ],
     "features_en": [
-      "جودة فائقة",
-      "مفتوح المصدر",
-      "سريع",
-      "نسخة Schnell مجانية",
+      "&",
+      "Open source",
+      "Fast",
+      "Schnell Free",
       "API",
-      "تنوع أنماط",
-      "نص في الصور",
+      "&",
+      "text in images",
       "ControlNet"
     ],
     "best_for_en": "Design, art, and creative content"
@@ -3871,16 +3871,16 @@
     "best_for": "صور تحتوي نصوص دقيقة",
     "description_en": "AI image generator with the best text rendering — perfect for logos, posters, and typography-heavy designs.",
     "tags_en": [
-      "نص في صور",
-      "شعارات",
+      "Text in Images",
+      "Logos",
       "Free"
     ],
     "features_en": [
-      "نص دقيق في الصور",
-      "شعارات",
-      "بوسترات",
-      "حصة مجانية",
-      "أنماط متنوعة",
+      "text Accurate in images",
+      "Feature",
+      "Posters",
+      "Free",
+      "&",
       "Magic Prompt",
       "Remix",
       "API"
@@ -3927,17 +3927,17 @@
       "Images",
       "Video",
       "3D",
-      "تعديل"
+      "Editing"
     ],
     "features_en": [
-      "نماذج متخصصة",
-      "حصة مجانية",
+      "models",
+      "Free",
       "Image to Video",
       "Canvas Editor",
       "Realtime Gen",
       "3D textures",
       "API",
-      "تدريب نماذج"
+      "training models"
     ],
     "best_for_en": "Design, art, and creative content"
   },
@@ -3981,16 +3981,16 @@
       "Adobe",
       "Design",
       "Photoshop",
-      "تجاري"
+      "Commercial"
     ],
     "features_en": [
-      "مدمج في Adobe",
+      "in Adobe",
       "Generative Fill",
       "Text to Image",
-      "حقوق تجارية",
+      "&",
       "Recolor",
       "Expand",
-      "أنماط",
+      "Feature",
       "API"
     ],
     "best_for_en": "Design, art, and creative content"
@@ -4034,8 +4034,8 @@
     "tags_en": [
       "Design",
       "Templates",
-      "سهل",
-      "فرق"
+      "Easy",
+      "Teams"
     ],
     "features_en": [
       "Magic Design",
@@ -4043,8 +4043,8 @@
       "Magic Eraser",
       "Text to Image",
       "Magic Animate",
-      "قوالب ضخمة",
-      "فرق",
+      "templates Large",
+      "teams",
       "Brand Kit"
     ],
     "best_for_en": "Design, art, and creative content"
@@ -4087,15 +4087,15 @@
     "description_en": "AI video generation and editing — text-to-video, image-to-video, and professional video effects powered by Gen-3.",
     "tags_en": [
       "Video",
-      "توليد",
-      "تعديل",
-      "احترافي"
+      "Generation",
+      "Editing",
+      "Professional"
     ],
     "features_en": [
       "Gen-3 Alpha",
       "Text to Video",
       "Image to Video",
-      "تعديل فيديو",
+      "video",
       "Motion Brush",
       "Green Screen AI",
       "Inpainting",
@@ -4142,18 +4142,18 @@
     "tags_en": [
       "Video",
       "Free",
-      "صيني",
+      "Chinese",
       "1080p"
     ],
     "features_en": [
-      "فيديو 1080p",
-      "حتى 30 ثانية",
-      "حصة مجانية",
-      "من نص لفيديو",
-      "من صورة لفيديو",
+      "video 1080p",
+      "30",
+      "Free",
+      "from text video",
+      "from image video",
       "Lip sync",
       "Motion brush",
-      "سريع"
+      "Fast"
     ],
     "best_for_en": "Design, art, and creative content"
   },
@@ -4194,18 +4194,18 @@
     "description_en": "AI music generation — create full songs with vocals, instruments, and lyrics from text descriptions in any genre.",
     "tags_en": [
       "Music",
-      "غناء",
-      "أغاني"
+      "Singing",
+      "Songs"
     ],
     "features_en": [
-      "أغاني كاملة",
-      "غناء AI",
-      "جميع الأنماط",
-      "من كلمات",
-      "من وصف",
-      "جودة عالية",
-      "تعديل",
-      "مشاركة"
+      "Full songs",
+      "AI vocals",
+      "Feature",
+      "from",
+      "from &",
+      "& High",
+      "Feature",
+      "Feature"
     ],
     "best_for_en": "Design, art, and creative content"
   },
@@ -4248,15 +4248,15 @@
     "tags_en": [
       "Voice",
       "TTS",
-      "دبلجة",
-      "واقعي"
+      "Dubbing",
+      "Realistic"
     ],
     "features_en": [
-      "أصوات واقعية",
-      "30+ لغة",
-      "استنساخ صوت",
-      "دبلجة فيديو",
-      "كتب صوتية",
+      "& &",
+      "30+ language",
+      "Voice cloning",
+      "video",
+      "Audiobooks",
       "API",
       "Dubbing Studio",
       "Voice Library"
@@ -4300,16 +4300,16 @@
     "description_en": "AI 3D and video generation — create 3D models from photos and generate stunning video content.",
     "tags_en": [
       "Video",
-      "واقعي",
+      "Realistic",
       "Free"
     ],
     "features_en": [
       "Dream Machine",
-      "من نص لفيديو",
-      "من صور لفيديو",
-      "حركة واقعية",
-      "حصة مجانية",
-      "سريع",
+      "from text video",
+      "from images video",
+      "&",
+      "Free",
+      "Fast",
       "API",
       "Keyframes"
     ],
@@ -4358,11 +4358,11 @@
       "Marketing"
     ],
     "features_en": [
-      "أفاتار AI",
-      "175+ لغة",
-      "استنساخ صوت",
-      "ترجمة فيديو",
-      "قوالب",
+      "AI avatars",
+      "175+ languages",
+      "Voice cloning",
+      "translation video",
+      "templates",
       "API",
       "Streaming Avatar",
       "Brand kit"
@@ -4406,18 +4406,18 @@
     "description_en": "D-ID — creative & design AI tool for Design, art, and creative content.",
     "tags_en": [
       "Avatar",
-      "صور متحركة",
+      "Animated Images",
       "Education"
     ],
     "features_en": [
-      "من صورة لفيديو",
-      "أفاتار متحرك",
-      "عدة لغات",
+      "from image video",
+      "Feature",
+      "languages",
       "API",
       "Creative Reality",
       "Agents",
       "Streaming",
-      "تعليم"
+      "Feature"
     ],
     "best_for_en": "Design, art, and creative content"
   },
@@ -4458,8 +4458,8 @@
     "description_en": "AI video generation — create and edit cinematic videos from text, images, or existing clips.",
     "tags_en": [
       "Video",
-      "سهل",
-      "تعديل"
+      "Easy",
+      "Editing"
     ],
     "features_en": [
       "Text to Video",
@@ -4467,9 +4467,9 @@
       "Modify Region",
       "Expand Canvas",
       "Lip Sync",
-      "أنماط متنوعة",
-      "سهل",
-      "حصة مجانية"
+      "&",
+      "Feature",
+      "Free"
     ],
     "best_for_en": "Design, art, and creative content"
   },
@@ -4511,7 +4511,7 @@
     "tags_en": [
       "Images",
       "realtime",
-      "تحسين"
+      "Optimization"
     ],
     "features_en": [
       "Realtime generation",
@@ -4519,9 +4519,9 @@
       "Enhancement",
       "Logo illusions",
       "Video generation",
-      "أنماط متنوعة",
+      "&",
       "API",
-      "سريع"
+      "Fast"
     ],
     "best_for_en": "Design, art, and creative content"
   },
@@ -4561,17 +4561,17 @@
     "best_for": "صور منتجات احترافية للتجارة",
     "description_en": "AI photo editor — remove backgrounds, create product photos, and design visuals instantly.",
     "tags_en": [
-      "صور منتجات",
-      "خلفية",
-      "تجارة"
+      "Product Photos",
+      "Background",
+      "Commerce"
     ],
     "features_en": [
-      "إزالة خلفية",
-      "صور منتجات",
+      "in",
+      "Product photos",
       "AI Photo Editor",
       "Batch editing",
       "API",
-      "قوالب",
+      "templates",
       "Background generation",
       "Resize"
     ],
@@ -4615,12 +4615,12 @@
     "description_en": "Connect 7000+ apps with AI-powered automation — build workflows without code. The largest integration platform.",
     "tags_en": [
       "Automation",
-      "تكامل",
+      "Integration",
       "workflows",
       "No-Code"
     ],
     "features_en": [
-      "7000+ تطبيق",
+      "7000+ apps",
       "AI Actions",
       "Chatbots",
       "Tables",
@@ -4668,12 +4668,12 @@
     "description_en": "Visual automation platform — build complex workflows connecting hundreds of apps with drag-and-drop interface.",
     "tags_en": [
       "Automation",
-      "بصري",
+      "Visual",
       "workflows"
     ],
     "features_en": [
-      "أتمتة بصرية",
-      "1500+ تطبيق",
+      "Visual",
+      "1500+ app",
       "Branching",
       "Looping",
       "Error handling",
@@ -4726,10 +4726,10 @@
       "AI"
     ],
     "features_en": [
-      "مفتوح المصدر",
+      "Open source",
       "Self-hosted",
       "AI agents",
-      "400+ تكامل",
+      "400+ integration",
       "Code nodes",
       "Webhooks",
       "Error handling",
@@ -4775,17 +4775,17 @@
     "tags_en": [
       "Open Source",
       "Automation",
-      "بديل Zapier"
+      "Zapier Alternative"
     ],
     "features_en": [
-      "مفتوح المصدر",
-      "200+ تكامل",
-      "بدون كود",
+      "Open source",
+      "200+ integration",
+      "No-code",
       "Self-hosted",
       "AI pieces",
       "Branching",
       "Webhooks",
-      "مجتمع"
+      "with"
     ],
     "best_for_en": "Workflow automation"
   },
@@ -4825,19 +4825,19 @@
     "best_for": "أتمتة مهام المتصفح",
     "description_en": "AI browser automation — automate repetitive tasks across web apps without code. Scrape, connect, and automate.",
     "tags_en": [
-      "متصفح",
-      "سحب بيانات",
+      "Browser",
+      "Data Extraction",
       "Automation"
     ],
     "features_en": [
-      "أتمتة متصفح",
-      "سحب بيانات",
+      "Browser automation",
+      "data",
       "Fill forms",
       "AI builder",
-      "500+ تكامل",
+      "500+ integration",
       "Scraper",
       "Magic Box",
-      "قوالب"
+      "templates"
     ],
     "best_for_en": "Workflow automation"
   },
@@ -4878,14 +4878,14 @@
     "best_for": "بناء تطبيقات AI متقدمة",
     "description_en": "Open-source framework for building LLM-powered applications — chains, agents, RAG, and tool integration.",
     "tags_en": [
-      "إطار عمل",
+      "Framework",
       "Agents",
       "RAG",
       "Open Source"
     ],
     "features_en": [
-      "سلاسل ذكية",
-      "وكلاء",
+      "Smart",
+      "agents",
       "RAG",
       "Tools",
       "Memory",
@@ -4931,19 +4931,19 @@
     "best_for": "بناء فرق من وكلاء AI",
     "description_en": "Multi-agent AI framework — orchestrate teams of AI agents that collaborate to complete complex tasks.",
     "tags_en": [
-      "فرق وكلاء",
-      "أدوار",
+      "Agent Teams",
+      "Roles",
       "Open Source"
     ],
     "features_en": [
-      "فرق وكلاء",
-      "أدوار محددة",
+      "teams agents",
+      "&",
       "Tools",
       "Process management",
-      "مفتوح المصدر",
+      "Open source",
       "Python",
       "Enterprise",
-      "سهل"
+      "Feature"
     ],
     "best_for_en": "Developers building AI applications"
   },
@@ -4984,18 +4984,18 @@
     "description_en": "Microsoft's multi-agent framework — build conversational AI systems with multiple cooperating agents.",
     "tags_en": [
       "Microsoft",
-      "وكلاء متعددة",
+      "Multi-Agent",
       "Open Source"
     ],
     "features_en": [
-      "وكلاء متعددة",
-      "محادثات بين وكلاء",
+      "agents Multiple",
+      "conversations agents",
       "Human-in-loop",
       "Code execution",
-      "مفتوح المصدر",
+      "Open source",
       "Python",
       "Flexible",
-      "مجتمع كبير"
+      "with"
     ],
     "best_for_en": "Developers building AI applications"
   },
@@ -5037,16 +5037,16 @@
     "description_en": "Open-source LLM app development platform — build chatbots, agents, and AI workflows visually.",
     "tags_en": [
       "Open Source",
-      "بصري",
+      "Visual",
       "RAG",
       "workflows"
     ],
     "features_en": [
-      "بناء بصري",
+      "Visual",
       "RAG",
       "Workflows",
-      "وكلاء",
-      "500+ نموذج",
+      "agents",
+      "500+ model",
       "Self-hosted",
       "API",
       "Plugins"
@@ -5091,13 +5091,13 @@
     "description_en": "Open-source no-code LLM app builder — drag-and-drop interface for creating AI chains and agents.",
     "tags_en": [
       "Open Source",
-      "بصري",
+      "Visual",
       "LangChain",
       "No-Code"
     ],
     "features_en": [
-      "سحب وإفلات",
-      "مفتوح المصدر",
+      "&",
+      "Open source",
       "LangChain",
       "RAG",
       "Agents",
@@ -5145,12 +5145,12 @@
     "tags_en": [
       "Integrations",
       "Agents",
-      "أدوات"
+      "Tools"
     ],
     "features_en": [
-      "250+ تكامل",
-      "جاهز للوكلاء",
-      "Auth مدمج",
+      "250+ integration",
+      "Ready agents",
+      "Auth",
       "LangChain",
       "CrewAI",
       "AutoGen",
@@ -5202,14 +5202,14 @@
       "ByteDance"
     ],
     "features_en": [
-      "مجاني مع GPT-4",
+      "Free with GPT-4",
       "Plugins",
       "Knowledge bases",
       "Workflows",
-      "نشر متعدد",
-      "بدون كود",
+      "deploy Multiple",
+      "No-code",
       "API",
-      "مجتمع"
+      "with"
     ],
     "best_for_en": "Developers building AI applications"
   },
@@ -5252,18 +5252,18 @@
     "tags_en": [
       "chatbots",
       "voice",
-      "بصري",
+      "Visual",
       "Enterprise"
     ],
     "features_en": [
-      "بناء بصري",
+      "Visual",
       "Chatbots",
       "Voice bots",
       "Knowledge base",
       "NLU",
       "API",
-      "تحليلات",
-      "فرق"
+      "analysis",
+      "teams"
     ],
     "best_for_en": "Developers building AI applications"
   },
@@ -5303,19 +5303,19 @@
     "best_for": "بناء وكلاء AI بدون كود بلغة طبيعية",
     "description_en": "Wordware — ai frameworks AI tool for Developers building AI applications.",
     "tags_en": [
-      "لغة طبيعية",
+      "Natural Language",
       "IDE",
       "Agents"
     ],
     "features_en": [
-      "لغة طبيعية",
+      "language Natural",
       "IDE",
       "Loops",
       "Branching",
       "Tools",
       "API deployment",
-      "عدة نماذج",
-      "تعاون"
+      "models",
+      "&"
     ],
     "best_for_en": "Developers building AI applications"
   },
@@ -5358,14 +5358,14 @@
     "tags_en": [
       "API",
       "Models",
-      "بوابة",
-      "أسعار"
+      "Gateway",
+      "Pricing"
     ],
     "features_en": [
-      "200+ نموذج",
-      "API موحد",
-      "أسعار شفافة",
-      "مقارنة نماذج",
+      "200+ model",
+      "API &",
+      "Feature",
+      "models",
       "Fallbacks",
       "Rate limits",
       "Usage tracking",
@@ -5410,16 +5410,16 @@
     "best_for": "تشغيل نماذج مفتوحة المصدر بسرعة",
     "description_en": "Cloud platform for running open-source AI models — fast inference, fine-tuning, and custom deployments.",
     "tags_en": [
-      "استضافة",
-      "نماذج مفتوحة",
+      "Hosting",
+      "Open Models",
       "inference",
       "GPU"
     ],
     "features_en": [
-      "نماذج مفتوحة",
-      "Inference سريع",
+      "Open models",
+      "Inference Fast",
       "Fine-tuning",
-      "أسعار تنافسية",
+      "Feature",
       "GPU clusters",
       "API",
       "Serverless",
@@ -5464,15 +5464,15 @@
     "best_for": "أسرع inference لنماذج AI",
     "description_en": "Ultra-fast AI inference — run LLMs at unprecedented speed with custom LPU hardware. Free API available.",
     "tags_en": [
-      "سرعة",
+      "Speed",
       "inference",
       "LPU",
       "Free"
     ],
     "features_en": [
-      "أسرع inference",
+      "inference",
       "LPU chip",
-      "API مجاني",
+      "Free API",
       "Llama",
       "Mistral",
       "100+ tokens/sec",
@@ -5518,19 +5518,19 @@
     "best_for": "تشغيل نماذج AI محلياً مجاناً",
     "description_en": "Ollama — infrastructure AI tool for AI deployment and scaling.",
     "tags_en": [
-      "محلي",
+      "Local/On-device",
       "Free",
       "Open Source",
-      "خصوصية"
+      "Privacy"
     ],
     "features_en": [
-      "تشغيل محلي",
-      "سطر واحد",
-      "مجاني",
-      "مفتوح المصدر",
-      "خصوصية كاملة",
-      "50+ نموذج",
-      "API محلي",
+      "Run locally",
+      "&",
+      "Free",
+      "Open source",
+      "privacy Full",
+      "50+ model",
+      "API Local",
       "macOS/Linux/Windows"
     ],
     "best_for_en": "AI deployment and scaling"
@@ -5572,20 +5572,20 @@
     "best_for": "تجربة نماذج AI محلياً بسهولة",
     "description_en": "LM Studio — infrastructure AI tool for AI deployment and scaling.",
     "tags_en": [
-      "محلي",
-      "واجهة رسومية",
+      "Local/On-device",
+      "Visual UI",
       "Free",
       "GGUF"
     ],
     "features_en": [
-      "واجهة رسومية",
-      "تحميل بنقرة",
-      "API محلي",
+      "interface &",
+      "Feature",
+      "API Local",
       "Hugging Face",
       "GGUF",
-      "مجاني",
-      "خصوصية",
-      "عدة نماذج"
+      "Free",
+      "privacy",
+      "models"
     ],
     "best_for_en": "AI deployment and scaling"
   },
@@ -5627,15 +5627,15 @@
     "description_en": "Jan — infrastructure AI tool for AI deployment and scaling.",
     "tags_en": [
       "Open Source",
-      "محلي",
-      "خصوصية",
+      "Local/On-device",
+      "Privacy",
       "Free"
     ],
     "features_en": [
-      "مفتوح المصدر",
-      "محلي بالكامل",
-      "خصوصية",
-      "واجهة ChatGPT",
+      "Open source",
+      "Local theFull",
+      "privacy",
+      "interface ChatGPT",
       "OpenAI API",
       "GPU/CPU",
       "Extensions",
@@ -5682,18 +5682,18 @@
     "tags_en": [
       "Models",
       "Open Source",
-      "منصة",
+      "Platform",
       "datasets"
     ],
     "features_en": [
-      "500K+ نموذج",
+      "500K+ models",
       "Spaces",
       "Inference API",
       "Datasets",
       "Transformers",
-      "تدريب",
-      "مجتمع ضخم",
-      "مجاني"
+      "training",
+      "with Large",
+      "Free"
     ],
     "best_for_en": "AI deployment and scaling"
   },
@@ -5735,15 +5735,15 @@
     "description_en": "Run AI models via API — access thousands of open-source models without managing infrastructure.",
     "tags_en": [
       "API",
-      "سحابي",
+      "Cloud-based",
       "Models",
-      "ادفع للاستخدام"
+      "Pay-per-use"
     ],
     "features_en": [
-      "API سهل",
-      "آلاف النماذج",
-      "ادفع للاستخدام",
-      "صور/فيديو/نص",
+      "API",
+      "Thousands of models",
+      "Feature",
+      "images/video/text",
       "Fine-tuning",
       "Predictions",
       "Webhooks",
@@ -5788,20 +5788,20 @@
     "best_for": "تشغيل jobs AI في السحابة بسهولة",
     "description_en": "Serverless cloud for AI/ML — run GPU workloads, deploy models, and scale inference effortlessly.",
     "tags_en": [
-      "سحابي",
+      "Cloud-based",
       "serverless",
       "GPU",
       "Python"
     ],
     "features_en": [
       "Serverless Python",
-      "GPU عند الطلب",
+      "GPU",
       "Fine-tuning",
       "Cron jobs",
       "Web endpoints",
-      "ادفع للاستخدام",
+      "Feature",
       "Container",
-      "سريع"
+      "Fast"
     ],
     "best_for_en": "AI deployment and scaling"
   },
@@ -5844,13 +5844,13 @@
     "tags_en": [
       "inference",
       "Open Source",
-      "سرعة",
+      "Speed",
       "GPU"
     ],
     "features_en": [
       "PagedAttention",
-      "24x أسرع",
-      "مفتوح المصدر",
+      "24x",
+      "Open source",
       "Continuous batching",
       "CUDA/ROCm",
       "OpenAI API",
@@ -5897,19 +5897,19 @@
     "description_en": "Unsloth — infrastructure AI tool for AI deployment and scaling.",
     "tags_en": [
       "fine-tuning",
-      "سرعة",
+      "Speed",
       "Open Source",
       "Free"
     ],
     "features_en": [
-      "2x أسرع",
-      "60% ذاكرة أقل",
-      "مفتوح المصدر",
+      "2x",
+      "60% memory",
+      "Open source",
       "Llama/Mistral",
       "Colab notebooks",
       "QLoRA",
       "GGUF export",
-      "مجاني"
+      "Free"
     ],
     "best_for_en": "AI deployment and scaling"
   },
@@ -5949,18 +5949,18 @@
     "best_for": "أتمتة خدمة العملاء للشركات",
     "description_en": "AI customer support agent — resolves 50-80% of queries automatically by learning from your help docs.",
     "tags_en": [
-      "خدمة عملاء",
+      "Customer Service",
       "Support",
       "chatbot"
     ],
     "features_en": [
-      "حل تلقائي 50%+",
-      "يتعلم من المحتوى",
-      "مصادر موثوقة",
-      "Handoff ذكي",
-      "عدة لغات",
-      "تحليلات",
-      "تخصيص",
+      "solution Automatic 50%+",
+      "Learns from &",
+      "sources &&",
+      "Handoff Smart",
+      "languages",
+      "analysis",
+      "Feature",
       "Omnichannel"
     ],
     "best_for_en": "Customer service automation"
@@ -6001,17 +6001,17 @@
     "best_for": "فرق الدعم التي تستخدم Zendesk",
     "description_en": "AI-powered customer service — intelligent ticket routing, automated responses, and predictive analytics.",
     "tags_en": [
-      "خدمة عملاء",
+      "Customer Service",
       "Tickets",
       "Zendesk"
     ],
     "features_en": [
       "AI agents",
-      "تصنيف تلقائي",
-      "Copilot للوكلاء",
-      "Routing ذكي",
-      "تحليلات",
-      "عدة لغات",
+      "Auto classification",
+      "Copilot agents",
+      "Routing Smart",
+      "analysis",
+      "languages",
       "Knowledge base",
       "Omnichannel"
     ],
@@ -6053,7 +6053,7 @@
     "best_for": "خدمة عملاء شاملة مع AI",
     "description_en": "Freshdesk Freddy AI — customer support AI tool for Customer service automation.",
     "tags_en": [
-      "خدمة عملاء",
+      "Customer Service",
       "Freshworks",
       "Tickets"
     ],
@@ -6061,10 +6061,10 @@
       "Self Service",
       "Copilot",
       "Insights",
-      "تلخيص تذاكر",
-      "اقتراح ردود",
-      "تحليل مشاعر",
-      "عدة لغات",
+      "tickets",
+      "&",
+      "analysis",
+      "languages",
       "Omnichannel"
     ],
     "best_for_en": "Customer service automation"
@@ -6108,18 +6108,18 @@
     "tags_en": [
       "chatbot",
       "live chat",
-      "سهل",
+      "Easy",
       "e-commerce"
     ],
     "features_en": [
       "Lyro AI chatbot",
       "Live chat",
-      "سهل التثبيت",
+      "Feature",
       "Shopify",
       "WooCommerce",
       "Email",
-      "تحليلات",
-      "قوالب"
+      "analysis",
+      "templates"
     ],
     "best_for_en": "Customer service automation"
   },
@@ -6160,15 +6160,15 @@
     "description_en": "Sierra — customer support AI tool for Customer service automation.",
     "tags_en": [
       "Enterprise",
-      "خدمة عملاء",
+      "Customer Service",
       "enterprise"
     ],
     "features_en": [
-      "مؤسسات كبرى",
-      "أمان عالي",
-      "تكامل أنظمة",
-      "وكلاء ذكية",
-      "عدة لغات",
+      "Feature",
+      "security High",
+      "integration",
+      "agents Smart",
+      "languages",
       "Analytics",
       "Compliance",
       "Enterprise"
@@ -6220,11 +6220,11 @@
     "features_en": [
       "Gartner Leader",
       "Voice + Chat",
-      "عدة قنوات",
-      "أمان مؤسسي",
-      "NLU متقدم",
-      "تحليلات",
-      "تكاملات",
+      "&",
+      "security",
+      "NLU Advanced",
+      "analysis",
+      "integrations",
       "No-code builder"
     ],
     "best_for_en": "Customer service automation"
@@ -6267,19 +6267,19 @@
     "description_en": "Open Interpreter — general assistant AI tool for Everyday tasks and versatile use.",
     "tags_en": [
       "Open Source",
-      "محلي",
-      "كود",
-      "خصوصية"
+      "Local/On-device",
+      "Code",
+      "Privacy"
     ],
     "features_en": [
-      "مفتوح المصدر",
-      "يعمل محلياً",
+      "Open source",
+      "Works Local",
       "Python/JS/Shell",
-      "تحليل بيانات",
-      "إنشاء ملفات",
-      "تصفح ويب",
-      "أي نموذج",
-      "خصوصية"
+      "Data analysis",
+      "files",
+      "&",
+      "model",
+      "privacy"
     ],
     "best_for_en": "Everyday tasks and versatile use"
   },
@@ -6324,10 +6324,10 @@
       "Automation"
     ],
     "features_en": [
-      "تصفح ذاتي",
-      "حجز",
-      "شراء",
-      "بحث",
+      "Feature",
+      "Feature",
+      "Feature",
+      "search",
       "Fill forms",
       "API",
       "Chrome extension",
@@ -6372,18 +6372,18 @@
     "description_en": "HyperWrite — general assistant AI tool for Everyday tasks and versatile use.",
     "tags_en": [
       "Writing",
-      "متصفح",
+      "Browser",
       "Agent"
     ],
     "features_en": [
-      "كتابة AI",
+      "AI writing",
       "Browse Agent",
       "Chrome extension",
       "AutoWrite",
-      "تلخيص",
-      "إعادة صياغة",
-      "عدة لغات",
-      "قوالب"
+      "Summarization",
+      "Feature",
+      "languages",
+      "templates"
     ],
     "best_for_en": "Everyday tasks and versatile use"
   },
@@ -6429,13 +6429,13 @@
       "IDE"
     ],
     "features_en": [
-      "من issue إلى كود",
-      "فهم الريبو",
-      "خطة عمل",
-      "مراجعة تفاعلية",
+      "from issue to code",
+      "&",
+      "Feature",
+      "review Interactive",
       "GitHub integration",
       "Testing",
-      "PRs تلقائية"
+      "PRs Auto"
     ],
     "best_for_en": "Software development and programming"
   },
@@ -6476,18 +6476,18 @@
     "description_en": "Sourcery — coding & dev AI tool for Software development and programming.",
     "tags_en": [
       "Python",
-      "جودة كود",
-      "مراجعة"
+      "Code Quality",
+      "Review"
     ],
     "features_en": [
-      "تحسين Python",
-      "مراجعة تلقائية",
+      "optimization Python",
+      "review Auto",
       "VS Code",
       "GitHub App",
       "Refactoring",
       "Code quality",
       "Rules",
-      "فرق"
+      "teams"
     ],
     "best_for_en": "Software development and programming"
   },
@@ -6527,19 +6527,19 @@
     "best_for": "إزالة خلفية الصور بسرعة",
     "description_en": "AI background removal — remove image backgrounds in seconds with one click. Free for basic use.",
     "tags_en": [
-      "خلفية",
+      "Background",
       "Images",
-      "سريع"
+      "Fast"
     ],
     "features_en": [
-      "إزالة خلفية فورية",
+      "in Instant",
       "API",
       "Photoshop plugin",
       "Batch processing",
       "HD quality",
-      "صور منتجات",
-      "تطبيق موبايل",
-      "مجاني جزئياً"
+      "Product photos",
+      "app &",
+      "Free"
     ],
     "best_for_en": "Design, art, and creative content"
   },
@@ -6579,19 +6579,19 @@
     "best_for": "أدوات تعديل صور AI متنوعة",
     "description_en": "Clipdrop — creative & design AI tool for Design, art, and creative content.",
     "tags_en": [
-      "تعديل صور",
+      "Photo Editing",
       "Stability",
-      "أدوات"
+      "Tools"
     ],
     "features_en": [
-      "إزالة خلفية",
-      "إزالة عناصر",
+      "in",
+      "Feature",
       "Upscale",
-      "إضاءة AI",
+      "AI",
       "Stable Diffusion",
       "API",
       "Batch",
-      "مجاني جزئياً"
+      "Free"
     ],
     "best_for_en": "Design, art, and creative content"
   },
@@ -6632,17 +6632,17 @@
     "description_en": "AI music creation platform — compose original songs with realistic vocals and instrumentals from text prompts.",
     "tags_en": [
       "Music",
-      "أغاني",
-      "غناء"
+      "Songs",
+      "Singing"
     ],
     "features_en": [
-      "جودة استوديو",
-      "غناء واقعي",
-      "أنماط متنوعة",
-      "تعديل",
+      "& &&",
+      "&",
+      "&",
+      "Feature",
       "Inpainting",
       "Extensions",
-      "مجتمع",
+      "with",
       "API"
     ],
     "best_for_en": "Design, art, and creative content"
@@ -6686,16 +6686,16 @@
     "tags_en": [
       "Video",
       "Avatar",
-      "تدريب",
+      "Training",
       "Enterprise"
     ],
     "features_en": [
-      "230+ أفاتار",
-      "140+ لغة",
-      "أفاتار مخصص",
-      "قوالب",
-      "تدريب",
-      "تسويق",
+      "230+",
+      "140+ language",
+      "Custom",
+      "templates",
+      "training",
+      "&",
       "API",
       "Brand kit"
     ],
@@ -6737,14 +6737,14 @@
     "best_for": "إدارة مشاريع للفرق التقنية",
     "description_en": "Linear — productivity AI tool for Task management and efficiency.",
     "tags_en": [
-      "إدارة مشاريع",
+      "Project Management",
       "issues",
-      "فرق تقنية"
+      "Tech Teams"
     ],
     "features_en": [
-      "سريعة جداً",
-      "AI تصنيف",
-      "واجهة نظيفة",
+      "Fast",
+      "AI",
+      "interface",
       "Cycles",
       "Roadmaps",
       "GitHub sync",
@@ -6792,18 +6792,18 @@
     "tags_en": [
       "Tasks",
       "Agents",
-      "تعاون",
-      "خرائط ذهنية"
+      "Collaboration",
+      "Mind Maps"
     ],
     "features_en": [
       "AI agents",
-      "مهام",
-      "ملاحظات",
-      "خرائط ذهنية",
+      "tasks",
+      "Feature",
+      "Feature",
       "Chat",
-      "وكلاء مخصصين",
-      "قوالب",
-      "تعاون فوري"
+      "agents Custom",
+      "templates",
+      "& Instant"
     ],
     "best_for_en": "Task management and efficiency"
   },
@@ -6844,19 +6844,19 @@
     "best_for": "توثيق إجراءات العمل تلقائياً",
     "description_en": "Scribe — productivity AI tool for Task management and efficiency.",
     "tags_en": [
-      "توثيق",
-      "تدريب",
-      "أدلة",
-      "إجراءات"
+      "Documentation",
+      "Training",
+      "Guides",
+      "Actions"
     ],
     "features_en": [
-      "توثيق تلقائي",
-      "أدلة مصورة",
+      "Auto documentation",
+      "image",
       "Chrome extension",
       "Desktop app",
-      "تعديل",
-      "مشاركة",
-      "قوالب",
+      "Feature",
+      "Feature",
+      "templates",
       "AI suggestions"
     ],
     "best_for_en": "Task management and efficiency"
@@ -6898,20 +6898,20 @@
     "best_for": "أصحاب الأعمال الصغيرة",
     "description_en": "Durable — productivity AI tool for Task management and efficiency.",
     "tags_en": [
-      "موقع",
+      "Website",
       "CRM",
-      "فواتير",
-      "أعمال صغيرة"
+      "Invoices",
+      "Small Business"
     ],
     "features_en": [
-      "موقع في 30 ثانية",
-      "CRM مدمج",
-      "فواتير",
-      "مدونة AI",
-      "SEO تلقائي",
-      "نطاق مخصص",
-      "قوالب",
-      "تعديل"
+      "website in 30",
+      "CRM",
+      "&",
+      "& AI",
+      "SEO Automatic",
+      "Custom",
+      "templates",
+      "Feature"
     ],
     "best_for_en": "Task management and efficiency"
   },
@@ -6953,17 +6953,17 @@
     "tags_en": [
       "Presentations",
       "Design",
-      "تفاعلي"
+      "Interactive"
     ],
     "features_en": [
-      "عروض تقديمية",
-      "صفحات تفاعلية",
-      "تصميم AI",
-      "أنيميشن",
-      "AI كتابة",
-      "AI صور",
-      "قوالب",
-      "تعاون"
+      "Presentations",
+      "Interactive",
+      "design AI",
+      "Feature",
+      "AI writing",
+      "AI images",
+      "templates",
+      "&"
     ],
     "best_for_en": "Task management and efficiency"
   },
@@ -7058,17 +7058,17 @@
     "description_en": "Brave Search AI — research AI tool for Academic research and fact-finding.",
     "tags_en": [
       "Research",
-      "خصوصية",
+      "Privacy",
       "Free"
     ],
     "features_en": [
-      "خصوصية كاملة",
+      "privacy Full",
       "AI Answers",
-      "بدون تتبع",
+      "without",
       "API",
       "Goggles",
-      "بحث مستقل",
-      "مجاني",
+      "search Autonomous",
+      "Free",
       "Summarizer"
     ],
     "best_for_en": "Academic research and fact-finding"
@@ -7114,14 +7114,14 @@
       "Students"
     ],
     "features_en": [
-      "تعليم تفاعلي",
-      "لا يعطي إجابات",
-      "رياضيات",
-      "علوم",
-      "برمجة",
-      "كتابة",
-      "مدمج في KA",
-      "معلمين"
+      "Interactive",
+      "answers",
+      "Feature",
+      "&",
+      "coding",
+      "writing",
+      "in KA",
+      "with"
     ],
     "best_for_en": "Task management and efficiency"
   },
@@ -7162,12 +7162,12 @@
     "description_en": "Snyk — coding & dev AI tool for Software development and programming.",
     "tags_en": [
       "Safety",
-      "ثغرات",
+      "Vulnerabilities",
       "DevSecOps"
     ],
     "features_en": [
-      "كشف ثغرات",
-      "إصلاح تلقائي",
+      "vulnerabilities",
+      "Automatic",
       "Code",
       "Dependencies",
       "Containers",
@@ -7218,13 +7218,13 @@
       "Marketing"
     ],
     "features_en": [
-      "مقالات SEO",
-      "إعلانات",
+      "articles SEO",
+      "Ads",
       "Chatsonic",
-      "أوصاف منتجات",
-      "سوشيال ميديا",
-      "25+ لغة",
-      "قوالب",
+      "or from",
+      "&",
+      "25+ language",
+      "templates",
       "Brand Voice"
     ],
     "best_for_en": "Task management and efficiency"
@@ -7265,19 +7265,19 @@
     "best_for": "إعادة صياغة وتحسين النصوص",
     "description_en": "AI paraphrasing and writing tool — rephrase, summarize, and check grammar to improve your writing.",
     "tags_en": [
-      "إعادة صياغة",
+      "Paraphrasing",
       "Writing",
-      "تدقيق"
+      "Proofreading"
     ],
     "features_en": [
-      "إعادة صياغة",
-      "7 أوضاع",
-      "ملخص AI",
-      "تدقيق نحوي",
-      "ترجمة",
+      "Feature",
+      "7 or",
+      "summary AI",
+      "Accurate &",
+      "translation",
       "Chrome extension",
       "Word plugin",
-      "مجاني جزئياً"
+      "Free"
     ],
     "best_for_en": "Task management and efficiency"
   },
@@ -7322,12 +7322,12 @@
       "Agent"
     ],
     "features_en": [
-      "تحكم بالكمبيوتر",
-      "نقر وكتابة",
-      "مفتوح المصدر",
+      "the&",
+      "&writing",
+      "Open source",
       "GPT-4V",
       "Claude Vision",
-      "أي تطبيق",
+      "app",
       "Python",
       "macOS/Windows"
     ],
@@ -7369,19 +7369,19 @@
     "best_for": "تجربة وكلاء AI المستقلين",
     "description_en": "AutoGPT — general assistant AI tool for Everyday tasks and versatile use.",
     "tags_en": [
-      "وكيل مستقل",
+      "Autonomous Agent",
       "Open Source",
-      "أهداف"
+      "Goals"
     ],
     "features_en": [
-      "وكيل مستقل",
-      "مفتوح المصدر",
-      "أهداف ذاتية",
-      "بحث إنترنت",
-      "ملفات",
+      "Autonomous agent",
+      "Open source",
+      "Feature",
+      "search",
+      "files",
       "AutoGPT Platform",
-      "بصري",
-      "مجتمع كبير"
+      "Visual",
+      "with"
     ],
     "best_for_en": "Everyday tasks and versatile use"
   },
@@ -7425,17 +7425,17 @@
       "Design",
       "Free",
       "Microsoft",
-      "سوشيال"
+      "Social Media"
     ],
     "features_en": [
-      "مجاني",
-      "منشورات سوشيال",
-      "DALL-E مدمج",
-      "قوالب",
-      "بوسترات",
-      "دعوات",
-      "إزالة خلفية",
-      "تعديل AI"
+      "Free",
+      "from& &",
+      "DALL-E",
+      "templates",
+      "Posters",
+      "&",
+      "in",
+      "AI"
     ],
     "best_for_en": "Design, art, and creative content"
   },
@@ -7478,18 +7478,18 @@
     "tags_en": [
       "Agent",
       "Open Source",
-      "متصفح",
+      "Browser",
       "Free"
     ],
     "features_en": [
-      "يعمل في المتصفح",
-      "مفتوح المصدر",
-      "أهداف تلقائية",
-      "بحث",
-      "كتابة",
-      "تحليل",
-      "مجاني",
-      "سهل"
+      "Works in browser",
+      "Open source",
+      "Auto",
+      "search",
+      "writing",
+      "analysis",
+      "Free",
+      "Feature"
     ],
     "best_for_en": "Everyday tasks and versatile use"
   },
@@ -7531,18 +7531,18 @@
     "description_en": "MindsDB — infrastructure AI tool for AI deployment and scaling.",
     "tags_en": [
       "SQL",
-      "قاعدة بيانات",
+      "Database",
       "AI",
       "Open Source"
     ],
     "features_en": [
-      "AI في SQL",
-      "200+ مصدر",
+      "AI in SQL",
+      "200+ source",
       "LLMs",
       "AutoML",
       "Forecasting",
       "Anomaly detection",
-      "مفتوح المصدر",
+      "Open source",
       "Integrations"
     ],
     "best_for_en": "AI deployment and scaling"
@@ -7583,19 +7583,19 @@
     "best_for": "إدارة العقود والتوقيعات",
     "description_en": "Docusign IAM — productivity AI tool for Task management and efficiency.",
     "tags_en": [
-      "عقود",
-      "توقيع",
-      "قانوني"
+      "Contracts",
+      "Signature",
+      "Legal"
     ],
     "features_en": [
-      "استخلاص بيانات",
-      "مراجعة عقود",
-      "اقتراح تعديلات",
-      "توقيع إلكتروني",
-      "تحليل مخاطر",
+      "data",
+      "Contract review",
+      "Feature",
+      "& &",
+      "analysis",
       "Templates",
       "API",
-      "تكاملات"
+      "integrations"
     ],
     "best_for_en": "Task management and efficiency"
   },
@@ -7636,18 +7636,18 @@
     "description_en": "Typeform — productivity AI tool for Task management and efficiency.",
     "tags_en": [
       "Models",
-      "استبيانات",
-      "تفاعلي"
+      "Surveys",
+      "Interactive"
     ],
     "features_en": [
-      "نماذج تفاعلية",
+      "models Interactive",
       "AI builder",
-      "تحليل إجابات",
+      "analysis answers",
       "Videoask",
       "Logic jumps",
-      "تكاملات",
-      "قوالب",
-      "تصميم جميل"
+      "integrations",
+      "templates",
+      "design"
     ],
     "best_for_en": "Task management and efficiency"
   },
@@ -7686,17 +7686,17 @@
     "best_for": "عروض تقديمية بتصميم تلقائي",
     "description_en": "AI-powered presentation software — smart templates that auto-adjust layout as you add content.",
     "tags_en": [
-      "عروض تقديمية",
-      "تصميم ذكي"
+      "Presentations",
+      "Smart Design"
     ],
     "features_en": [
-      "تنسيق تلقائي",
+      "Automatic",
       "DesignerBot",
-      "قوالب ذكية",
+      "Smart templates",
       "Team workspaces",
       "Brand controls",
-      "تصدير",
-      "تحليلات",
+      "Feature",
+      "analysis",
       "Presenter tools"
     ],
     "best_for_en": "Task management and efficiency"
@@ -7739,13 +7739,13 @@
     "description_en": "Recraft — creative & design AI tool for Design, art, and creative content.",
     "tags_en": [
       "Images",
-      "مصممين",
-      "تحكم",
+      "Designers",
+      "Control",
       "vector"
     ],
     "features_en": [
-      "تحكم دقيق",
-      "أنماط متعددة",
+      "Accurate",
+      "Multiple styles",
       "Vector",
       "Mockups",
       "Brand colors",
@@ -7793,19 +7793,19 @@
     "description_en": "AI video creation — generate professional videos from text prompts with stock footage and templates.",
     "tags_en": [
       "Video",
-      "سوشيال",
+      "Social Media",
       "YouTube",
       "Marketing"
     ],
     "features_en": [
-      "من نص لفيديو",
-      "سكريبت AI",
-      "صوت AI",
-      "مكتبة مشاهد",
-      "موسيقى",
-      "تعديل",
-      "قوالب",
-      "متعدد اللغات"
+      "from text video",
+      "AI",
+      "voice AI",
+      "Feature",
+      "&",
+      "Feature",
+      "templates",
+      "Multilingual"
     ],
     "best_for_en": "Design, art, and creative content"
   },
@@ -7848,17 +7848,17 @@
     "tags_en": [
       "clips",
       "Short Video",
-      "سوشيال",
+      "Social Media",
       "viral"
     ],
     "features_en": [
-      "تقطيع ذكي",
+      "Smart",
       "Virality Score",
-      "ترجمة تلقائية",
-      "إعادة تأطير",
+      "translation Auto",
+      "Feature",
       "1080p",
       "B-roll AI",
-      "فلاتر",
+      "Feature",
       "Batch"
     ],
     "best_for_en": "Design, art, and creative content"
@@ -7900,20 +7900,20 @@
     "best_for": "ربط AI بالأدوات والبيانات",
     "description_en": "Model Context Protocol — open standard for connecting AI models to external data sources and tools.",
     "tags_en": [
-      "بروتوكول",
-      "أدوات",
-      "معيار",
+      "Protocol",
+      "Tools",
+      "Standard",
       "Anthropic"
     ],
     "features_en": [
-      "بروتوكول مفتوح",
-      "أدوات وبيانات",
-      "معيار موحد",
+      "&&& Open",
+      "tools &data",
+      "with &",
       "Claude integration",
       "Python/TS SDKs",
-      "مجتمع",
-      "Servers جاهزة",
-      "أمان"
+      "with",
+      "Servers Ready",
+      "security"
     ],
     "best_for_en": "Developers building AI applications"
   },
@@ -7955,17 +7955,17 @@
     "tags_en": [
       "Open Source",
       "chatbot",
-      "عدة نماذج"
+      "Multi-Model"
     ],
     "features_en": [
-      "عدة نماذج",
-      "واجهة ويب",
+      "models",
+      "interface &",
       "Telegram bot",
       "NVIDIA API",
-      "مفتوح المصدر",
+      "Open source",
       "Docker",
-      "سهل النشر",
-      "مخصص"
+      "deploy",
+      "Custom"
     ],
     "best_for_en": "Software development and programming"
   },
@@ -8011,11 +8011,11 @@
     ],
     "features_en": [
       "Telegram bot",
-      "عدة نماذج",
+      "models",
       "Smart chat",
-      "سهل",
-      "سريع",
-      "مجاني"
+      "Feature",
+      "Fast",
+      "Free"
     ],
     "best_for_en": "Everyday tasks and versatile use"
   },
@@ -8059,7 +8059,7 @@
       "API",
       "GPT-4o",
       "Models",
-      "الأكثر استخداماً"
+      "Most Popular"
     ],
     "features_en": [
       "GPT-4o",
@@ -8117,11 +8117,11 @@
     ],
     "features_en": [
       "Claude models",
-      "200K سياق",
+      "200K context",
       "Computer Use",
       "Tool Use",
       "Batches",
-      "أمان عالي",
+      "security High",
       "Fine-tuning",
       "Python/TS SDKs"
     ],
@@ -8228,10 +8228,10 @@
       "Streaming",
       "Tool calling",
       "Structured output",
-      "عدة providers",
+      "providers",
       "TypeScript",
-      "مفتوح المصدر",
-      "سهل"
+      "Open source",
+      "Feature"
     ],
     "best_for_en": "Developers building AI applications"
   },
@@ -8274,18 +8274,18 @@
     "tags_en": [
       "Memory",
       "Agents",
-      "سياق",
+      "Context",
       "Open Source"
     ],
     "features_en": [
-      "ذاكرة وكلاء",
-      "تفضيلات",
-      "سياق",
-      "مفتوح المصدر",
-      "سحابي",
+      "memory agents",
+      "Feature",
+      "context",
+      "Open source",
+      "Feature",
       "Python",
       "REST API",
-      "عدة providers"
+      "providers"
     ],
     "best_for_en": "Developers building AI applications"
   },
@@ -8327,17 +8327,17 @@
     "description_en": "Firecrawl — infrastructure AI tool for AI deployment and scaling.",
     "tags_en": [
       "scraping",
-      "ويب",
+      "Web",
       "Data",
       "API"
     ],
     "features_en": [
-      "Scraping ذكي",
+      "Scraping Smart",
       "Markdown output",
       "JavaScript rendering",
       "Crawling",
       "API",
-      "مفتوح المصدر",
+      "Open source",
       "Python/Node",
       "LLM-ready"
     ],
@@ -8383,17 +8383,17 @@
       "RAG",
       "Data",
       "Open Source",
-      "إطار عمل"
+      "Framework"
     ],
     "features_en": [
       "RAG",
-      "160+ مصدر بيانات",
+      "160+ source data",
       "LlamaCloud",
       "LlamaParse",
       "Agents",
       "Workflows",
       "Python",
-      "مفتوح المصدر"
+      "Open source"
     ],
     "best_for_en": "Developers building AI applications"
   },
@@ -8437,17 +8437,17 @@
       "terminal",
       "CLI",
       "AI",
-      "حديث"
+      "Modern"
     ],
     "features_en": [
-      "Terminal حديث",
-      "AI مدمج",
-      "اقتراح أوامر",
+      "Terminal",
+      "AI",
+      "or",
       "Notebooks",
       "Block editing",
-      "سريع",
-      "فرق",
-      "مجاني"
+      "Fast",
+      "teams",
+      "Free"
     ],
     "best_for_en": "Software development and programming"
   },
@@ -8501,7 +8501,7 @@
       "Snippets",
       "Window management",
       "Clipboard history",
-      "مجاني"
+      "Free"
     ],
     "best_for_en": "Task management and efficiency"
   },
@@ -8543,19 +8543,19 @@
     "description_en": "Mistral AI API — infrastructure AI tool for AI deployment and scaling.",
     "tags_en": [
       "API",
-      "فرنسي",
-      "سريع",
-      "رخيص"
+      "French",
+      "Fast",
+      "Affordable"
     ],
     "features_en": [
-      "نماذج متنوعة",
-      "سريع",
-      "رخيص",
+      "models &",
+      "Fast",
+      "Feature",
       "Function calling",
       "JSON mode",
       "Embeddings",
       "Fine-tuning",
-      "مفتوح جزئياً"
+      "Open"
     ],
     "best_for_en": "AI deployment and scaling"
   },
@@ -8599,17 +8599,17 @@
       "Open Source",
       "IDE",
       "VS Code",
-      "بديل Cursor"
+      "Cursor Alternative"
     ],
     "features_en": [
-      "مفتوح المصدر",
+      "Open source",
       "VS Code fork",
-      "أي نموذج",
+      "model",
       "Multi-file edits",
       "Inline editing",
       "Proactive",
       "Terminal AI",
-      "سريع"
+      "Fast"
     ],
     "best_for_en": "Software development and programming"
   },
@@ -8650,20 +8650,20 @@
     "best_for": "تحويل النص إلى رسومات بصرية",
     "description_en": "Napkin AI — productivity AI tool for Task management and efficiency.",
     "tags_en": [
-      "رسومات",
-      "مخططات",
-      "بصري",
+      "Graphics",
+      "Diagrams",
+      "Visual",
       "Presentations"
     ],
     "features_en": [
-      "من نص لرسومات",
-      "مخططات",
-      "رسوم توضيحية",
-      "تخصيص",
-      "ألوان",
-      "تصدير",
-      "عروض",
-      "مدونات"
+      "from text &",
+      "Feature",
+      "& &",
+      "Feature",
+      "&",
+      "Feature",
+      "presentations",
+      "&"
     ],
     "best_for_en": "Task management and efficiency"
   },
@@ -8704,18 +8704,18 @@
     "description_en": "Bolt.diy — no-code AI tool for Building apps without coding.",
     "tags_en": [
       "Open Source",
-      "بناء تطبيقات",
-      "بديل Bolt"
+      "App Building",
+      "Bolt Alternative"
     ],
     "features_en": [
-      "مفتوح المصدر",
-      "أي نموذج AI",
-      "نماذج محلية",
+      "Open source",
+      "model AI",
+      "models Local",
       "Git integration",
       "Docker",
-      "مجتمع ضخم",
+      "with Large",
       "Self-hosted",
-      "مجاني"
+      "Free"
     ],
     "best_for_en": "Building apps without coding"
   },
@@ -8757,14 +8757,14 @@
     "tags_en": [
       "OpenAI",
       "Video",
-      "واقعي"
+      "Realistic"
     ],
     "features_en": [
-      "فيديو 60 ثانية",
-      "واقعي جداً",
-      "من نص لفيديو",
-      "من صور لفيديو",
-      "تعديل",
+      "video 60",
+      "&",
+      "from text video",
+      "from images video",
+      "Feature",
       "Remix",
       "Storyboard",
       "Blend"
@@ -8809,19 +8809,19 @@
     "description_en": "ChatPDF — research AI tool for Academic research and fact-finding.",
     "tags_en": [
       "PDF",
-      "مستندات",
+      "Documents",
       "Research",
       "Free"
     ],
     "features_en": [
-      "Chat مع PDF",
-      "مصادر بالصفحة",
-      "أوراق علمية",
-      "عقود",
-      "كتب",
-      "عدة ملفات",
-      "مجاني",
-      "سريع"
+      "Chat with PDF",
+      "sources the",
+      "papers",
+      "&",
+      "Feature",
+      "files",
+      "Free",
+      "Fast"
     ],
     "best_for_en": "Academic research and fact-finding"
   },
@@ -8863,19 +8863,19 @@
     "description_en": "MagicSchool — productivity AI tool for Task management and efficiency.",
     "tags_en": [
       "Education",
-      "معلمين",
-      "دروس",
+      "Teachers",
+      "Lessons",
       "Testing"
     ],
     "features_en": [
-      "60+ أداة",
-      "تخطيط دروس",
-      "تصميم اختبارات",
-      "تقارير",
-      "تخصيص تعلم",
-      "عدة لغات",
-      "مجاني للمعلمين",
-      "أمان"
+      "60+ tool",
+      "&",
+      "design tests",
+      "reports",
+      "Feature",
+      "languages",
+      "Free with",
+      "security"
     ],
     "best_for_en": "Task management and efficiency"
   },
@@ -8918,17 +8918,17 @@
     "tags_en": [
       "Coding",
       "Mistral",
-      "سريع",
-      "80+ لغة"
+      "Fast",
+      "80+ Languages"
     ],
     "features_en": [
-      "80+ لغة برمجة",
-      "سريع جداً",
+      "80+ language coding",
+      "Fast",
       "Fill-in-middle",
       "API",
       "Le Chat",
       "VS Code",
-      "مجاني جزئياً",
+      "Free",
       "Code completion"
     ],
     "best_for_en": "Software development and programming"
@@ -8970,20 +8970,20 @@
     "best_for": "تنبؤات سريعة من البيانات بدون كود",
     "description_en": "No-code machine learning — build predictive models from your data without any coding or data science knowledge.",
     "tags_en": [
-      "تعلم آلي",
-      "تنبؤات",
+      "Machine Learning",
+      "Predictions",
       "No-Code",
       "Data"
     ],
     "features_en": [
-      "بدون كود",
-      "تنبؤات",
-      "تصنيف",
-      "من CSV",
-      "تفسيرات",
+      "No-code",
+      "Feature",
+      "Feature",
+      "from CSV",
+      "Feature",
       "API",
-      "تكاملات",
-      "سريع"
+      "integrations",
+      "Fast"
     ],
     "best_for_en": "Data analysis and insights"
   },
@@ -9027,17 +9027,17 @@
       "Data",
       "SQL",
       "Analysis",
-      "تعاوني"
+      "Collaborative"
     ],
     "features_en": [
       "Magic AI",
       "SQL + Python",
-      "رسوم بيانية",
-      "تعاوني",
+      "Charts",
+      "&",
       "Notebooks",
       "Apps",
-      "من لغة طبيعية",
-      "تكاملات"
+      "from language Natural",
+      "integrations"
     ],
     "best_for_en": "Data analysis and insights"
   },
@@ -9078,20 +9078,20 @@
     "best_for": "تحليل بيانات في جداول ذكية",
     "description_en": "Rows — data & analytics AI tool for Data analysis and insights.",
     "tags_en": [
-      "جداول",
+      "Spreadsheets",
       "Data",
       "AI",
       "Analysis"
     ],
     "features_en": [
       "AI Analyst",
-      "50+ مصدر بيانات",
-      "تصنيف",
-      "تلخيص",
+      "50+ source data",
+      "Feature",
+      "Summarization",
       "Charts",
       "API connector",
-      "استخراج بيانات",
-      "تعاوني"
+      "data",
+      "&"
     ],
     "best_for_en": "Data analysis and insights"
   },
@@ -9137,11 +9137,11 @@
       "Pandas"
     ],
     "features_en": [
-      "مفتوح المصدر",
+      "Open source",
       "Python",
-      "لغة طبيعية",
-      "رسوم بيانية",
-      "عدة مصادر",
+      "language Natural",
+      "Charts",
+      "sources",
       "Privacy-first",
       "Smart DataFrames"
     ],
@@ -9190,14 +9190,14 @@
       "Khan Academy"
     ],
     "features_en": [
-      "مدرس شخصي",
-      "لا يعطي الإجابة",
-      "شرح خطوة بخطوة",
-      "رياضيات",
-      "علوم",
-      "برمجة",
-      "كتابة",
-      "مجاني للطلاب"
+      "Personal",
+      "answer",
+      "& &",
+      "Feature",
+      "&",
+      "coding",
+      "writing",
+      "Free"
     ],
     "best_for_en": "Students and educators"
   },
@@ -9244,14 +9244,14 @@
       "Duolingo"
     ],
     "features_en": [
-      "Roleplay محادثات",
-      "شرح أخطاء",
+      "Roleplay conversations",
+      "Feature",
       "GPT-4",
-      "سياقات واقعية",
-      "مخصص لك",
-      "عدة لغات",
-      "ممتع",
-      "متاح على الموبايل"
+      "context &",
+      "Custom",
+      "languages",
+      "Feature",
+      "on &"
     ],
     "best_for_en": "Students and educators"
   },
@@ -9292,20 +9292,20 @@
     "best_for": "المذاكرة والاستعداد للاختبارات",
     "description_en": "Quizlet Q-Chat — education AI tool for Students and educators.",
     "tags_en": [
-      "دراسة",
-      "بطاقات",
+      "Study",
+      "Cards",
       "Testing",
       "Students"
     ],
     "features_en": [
-      "بطاقات تعليمية",
-      "اختبارات AI",
-      "من ملاحظاتك",
-      "نقاط الضعف",
+      "Feature",
+      "tests AI",
+      "from",
+      "Feature",
       "Practice tests",
-      "مكتبة ضخمة",
-      "عدة لغات",
-      "موبايل"
+      "Large",
+      "languages",
+      "&"
     ],
     "best_for_en": "Students and educators"
   },
@@ -9347,19 +9347,19 @@
     "description_en": "AI math solver — snap a photo of any math problem and get step-by-step solutions instantly.",
     "tags_en": [
       "Math",
-      "تصوير",
-      "حل مسائل",
+      "Photography",
+      "Problem Solving",
       "Students"
     ],
     "features_en": [
-      "حل بالتصوير",
-      "خطوة بخطوة",
-      "شرح مفصل",
-      "جبر",
-      "هندسة",
-      "تفاضل",
-      "مجاني",
-      "أوفلاين"
+      "solution the&",
+      "& &",
+      "Feature",
+      "Feature",
+      "Feature",
+      "Feature",
+      "Free",
+      "or"
     ],
     "best_for_en": "Students and educators"
   },
@@ -9400,18 +9400,18 @@
     "description_en": "Coursera Coach — education AI tool for Students and educators.",
     "tags_en": [
       "Learning",
-      "دورات",
-      "جامعات",
-      "واجبات"
+      "Courses",
+      "Universities",
+      "Homework"
     ],
     "features_en": [
-      "شرح مفاهيم",
-      "ملخصات",
-      "مساعدة واجبات",
-      "آلاف الدورات",
-      "مخصص للدورة",
-      "تفاعلي",
-      "عدة لغات"
+      "Feature",
+      "summaries",
+      "&",
+      "&",
+      "Custom &",
+      "Interactive",
+      "languages"
     ],
     "best_for_en": "Students and educators"
   },
@@ -9453,16 +9453,16 @@
     "description_en": "AI-powered security scanning — find and fix vulnerabilities in code, dependencies, containers, and infrastructure.",
     "tags_en": [
       "Safety",
-      "ثغرات",
-      "كود",
+      "Vulnerabilities",
+      "Code",
       "DevSecOps"
     ],
     "features_en": [
-      "مسح الكود",
-      "مسح المكتبات",
-      "أمان حاويات",
+      "code",
+      "Feature",
+      "security &",
       "IaC security",
-      "إصلاحات تلقائية",
+      "Auto",
       "CI/CD",
       "IDE",
       "GitHub"
@@ -9507,19 +9507,19 @@
     "description_en": "Socket — security AI tool for Cybersecurity and protection.",
     "tags_en": [
       "Safety",
-      "سلسلة توريد",
-      "مكتبات",
+      "Supply Chain",
+      "Libraries",
       "npm"
     ],
     "features_en": [
-      "كشف مكتبات خبيثة",
-      "تحليل سلوك",
+      "Feature",
+      "analysis &",
       "npm/PyPI/Go",
       "GitHub App",
       "PR checks",
       "AI analysis",
-      "الخصوصية",
-      "تنبيهات"
+      "privacy",
+      "Feature"
     ],
     "best_for_en": "Cybersecurity and protection"
   },
@@ -9560,18 +9560,18 @@
     "best_for": "تحليل أمان الكود الثابت",
     "description_en": "Semgrep — security AI tool for Cybersecurity and protection.",
     "tags_en": [
-      "تحليل كود",
+      "Code Analysis",
       "Safety",
       "Open Source",
       "SAST"
     ],
     "features_en": [
-      "مفتوح المصدر",
-      "30+ لغة",
-      "قواعد مخصصة",
+      "Open source",
+      "30+ language",
+      "& Custom",
       "AI Assistant",
       "CI/CD",
-      "سريع",
+      "Fast",
       "IDE",
       "GitHub"
     ],
@@ -9620,10 +9620,10 @@
       "CRM"
     ],
     "features_en": [
-      "270M+ جهات اتصال",
-      "أتمتة إيميل",
+      "270M+",
+      "email",
       "LinkedIn",
-      "تسجيل نقاط AI",
+      "AI",
       "Sequences",
       "CRM",
       "Analytics",
@@ -9670,16 +9670,16 @@
     "tags_en": [
       "Email",
       "Sales",
-      "باردة",
+      "Cold Outreach",
       "Automation"
     ],
     "features_en": [
-      "إيميلات باردة",
+      "Cold emails",
       "Deliverability",
       "AI copywriting",
-      "حملات ضخمة",
+      "Large",
       "Warmup",
-      "متابعة تلقائية",
+      "Auto",
       "A/B testing",
       "Analytics"
     ],
@@ -9725,13 +9725,13 @@
       "Email",
       "Sales",
       "Writing",
-      "تحسين"
+      "Optimization"
     ],
     "features_en": [
-      "تحليل إيميل",
-      "درجة Email Score",
-      "اقتراحات AI",
-      "بيانات المستلم",
+      "analysis email",
+      "Email Score",
+      "AI",
+      "data",
       "Gmail",
       "Outlook",
       "Salesforce",
@@ -9778,16 +9778,16 @@
     "tags_en": [
       "Video",
       "Avatar",
-      "تدريب",
+      "Training",
       "Marketing"
     ],
     "features_en": [
-      "230+ أفاتار",
-      "130+ لغة",
-      "بدون كاميرا",
-      "تدريب",
-      "تسويق",
-      "قوالب",
+      "230+",
+      "130+ language",
+      "without",
+      "training",
+      "&",
+      "templates",
       "Brand kit",
       "API"
     ],
@@ -9833,16 +9833,16 @@
       "SEO",
       "Content",
       "Google",
-      "كلمات مفتاحية"
+      "Keywords"
     ],
     "features_en": [
       "Content Editor",
       "SERP Analyzer",
       "AI Writer",
-      "كلمات مفتاحية",
-      "تحليل منافسين",
+      "Feature",
+      "analysis from",
       "Content Score",
-      "عدة لغات",
+      "languages",
       "API"
     ],
     "best_for_en": "Marketing and sales teams"
@@ -9884,20 +9884,20 @@
     "best_for": "دعم عملاء المتاجر الإلكترونية",
     "description_en": "AI chatbot for e-commerce and support — automate customer conversations with smart, customizable chat widgets.",
     "tags_en": [
-      "شات بوت",
+      "Chatbot",
       "Support",
-      "متاجر",
+      "Stores",
       "Chat"
     ],
     "features_en": [
-      "شات بوت AI",
-      "دردشة حية",
+      "chat bot AI",
+      "Feature",
       "Shopify",
       "WordPress",
-      "إيميل",
+      "email",
       "Messenger",
       "24/7",
-      "قوالب"
+      "templates"
     ],
     "best_for_en": "Customer service automation"
   },
@@ -9941,17 +9941,17 @@
       "Support",
       "Chat",
       "CRM",
-      "متعدد القنوات"
+      "Omnichannel"
     ],
     "features_en": [
-      "دردشة حية",
-      "شات بوت AI",
-      "قاعدة معرفة",
+      "Feature",
+      "chat bot AI",
+      "database with",
       "CRM",
-      "ترجمة فورية",
-      "تلخيص",
+      "translation Instant",
+      "Summarization",
       "Campaigns",
-      "متعدد القنوات"
+      "Multiple &"
     ],
     "best_for_en": "Customer service automation"
   },
@@ -9993,18 +9993,18 @@
     "description_en": "AI fraud detection for payments — machine learning that adapts to new fraud patterns in real-time.",
     "tags_en": [
       "Fraud",
-      "مدفوعات",
+      "Payments",
       "Stripe",
       "Safety"
     ],
     "features_en": [
-      "كشف احتيال",
-      "تعلم آلي",
-      "مدمج في Stripe",
-      "قواعد مخصصة",
+      "Feature",
+      "Automated",
+      "in Stripe",
+      "& Custom",
       "3D Secure",
       "Risk scores",
-      "مليارات معاملات",
+      "with",
       "API"
     ],
     "best_for_en": "Financial analysis and research"
@@ -10047,19 +10047,19 @@
     "description_en": "Ramp — finance AI tool for Financial analysis and research.",
     "tags_en": [
       "Finance",
-      "مصاريف",
-      "بطاقات",
-      "شركات"
+      "Expenses",
+      "Cards",
+      "Enterprise"
     ],
     "features_en": [
-      "بطاقات شركات",
-      "تتبع مصاريف",
-      "اكتشاف توفير",
-      "أتمتة محاسبة",
+      "Feature",
+      "Feature",
+      "&in",
+      "Feature",
       "AI categorization",
-      "فواتير",
-      "سياسات ذكية",
-      "تكاملات"
+      "&",
+      "Smart",
+      "integrations"
     ],
     "best_for_en": "Financial analysis and research"
   },
@@ -10101,17 +10101,17 @@
     "description_en": "Loom AI — productivity AI tool for Task management and efficiency.",
     "tags_en": [
       "Video",
-      "شاشة",
-      "تواصل",
+      "Screen",
+      "Communication",
       "Summary"
     ],
     "features_en": [
-      "تسجيل شاشة",
-      "تلخيص AI",
-      "عناوين تلقائية",
-      "إزالة توقفات",
+      "Feature",
+      "AI",
+      "& Auto",
+      "&",
       "CTA",
-      "تعليقات",
+      "Feature",
       "Analytics",
       "Slack integration"
     ],
@@ -10154,20 +10154,20 @@
     "best_for": "مكالمات نظيفة بدون ضوضاء",
     "description_en": "Krisp — productivity AI tool for Task management and efficiency.",
     "tags_en": [
-      "ضوضاء",
-      "مكالمات",
+      "Noise",
+      "Calls",
       "Meetings",
       "Voice"
     ],
     "features_en": [
-      "إلغاء ضوضاء",
-      "أي تطبيق",
-      "تفريغ",
-      "ملخصات",
-      "ملاحظات",
-      "يعمل محلياً",
-      "خصوصية",
-      "مجاني"
+      "&",
+      "app",
+      "transcription",
+      "summaries",
+      "Feature",
+      "Works Local",
+      "privacy",
+      "Free"
     ],
     "best_for_en": "Task management and efficiency"
   },
@@ -10208,18 +10208,18 @@
     "best_for": "بناء شات بوتات AI متقدمة",
     "description_en": "Botpress — automation AI tool for Workflow automation.",
     "tags_en": [
-      "شات بوت",
+      "Chatbot",
       "NLU",
       "No-Code",
       "Chat"
     ],
     "features_en": [
-      "بدون كود",
+      "No-code",
       "NLU",
       "RAG",
-      "عدة قنوات",
+      "&",
       "API",
-      "مفتوح المصدر",
+      "Open source",
       "Knowledge Base",
       "Analytics"
     ],
@@ -10262,17 +10262,17 @@
     "best_for": "بناء وكلاء محادثة بصرياً",
     "description_en": "Voiceflow — automation AI tool for Workflow automation.",
     "tags_en": [
-      "شات بوت",
+      "Chatbot",
       "Chat",
-      "بصري",
+      "Visual",
       "Agents"
     ],
     "features_en": [
-      "محرر بصري",
+      "Visual",
       "Knowledge Base",
       "API integration",
-      "عدة قنوات",
-      "تعاوني",
+      "&",
+      "&",
       "Analytics",
       "NLU",
       "Webhooks"
@@ -10322,11 +10322,11 @@
       "workflows"
     ],
     "features_en": [
-      "أتمتة بدون كود",
+      "without code",
       "Chrome extension",
       "AI actions",
       "Scraping",
-      "100+ تكامل",
+      "100+ integration",
       "Workflows",
       "Magic Box",
       "Scheduling"
@@ -10371,19 +10371,19 @@
     "description_en": "Ada Health — health AI tool for Health and wellness.",
     "tags_en": [
       "Health",
-      "أعراض",
-      "تشخيص",
-      "طب"
+      "Symptoms",
+      "Diagnostics",
+      "Medical"
     ],
     "features_en": [
-      "تقييم أعراض",
-      "AI معتمد طبياً",
-      "تقرير مفصل",
-      "13M+ مستخدم",
-      "عدة لغات",
-      "خصوصية",
-      "مجاني",
-      "دقيق"
+      "Feature",
+      "AI with",
+      "report",
+      "13M+ user",
+      "languages",
+      "privacy",
+      "Free",
+      "Accurate"
     ],
     "best_for_en": "Health and wellness"
   },
@@ -10426,17 +10426,17 @@
     "tags_en": [
       "Writing",
       "Marketing",
-      "مقالات",
+      "Articles",
       "SEO"
     ],
     "features_en": [
-      "مقالات",
-      "إعلانات",
+      "Articles",
+      "Ads",
       "Chatsonic",
       "Botsonic",
       "SEO",
-      "25+ لغة",
-      "قوالب",
+      "25+ language",
+      "templates",
       "Brand Voice"
     ],
     "best_for_en": "Task management and efficiency"
@@ -10479,19 +10479,19 @@
     "description_en": "Wordtune — productivity AI tool for Task management and efficiency.",
     "tags_en": [
       "Writing",
-      "إعادة صياغة",
-      "تحسين",
+      "Paraphrasing",
+      "Optimization",
       "Summary"
     ],
     "features_en": [
-      "إعادة صياغة",
-      "تغيير أسلوب",
-      "تلخيص مستندات",
+      "Feature",
+      "&",
+      "Document summarization",
       "Chrome extension",
-      "عدة لغات",
+      "languages",
       "AI Write",
-      "اقتراحات",
-      "مجاني جزئياً"
+      "Feature",
+      "Free"
     ],
     "best_for_en": "Task management and efficiency"
   },
@@ -10535,17 +10535,17 @@
       "Translation",
       "Languages",
       "Writing",
-      "دقيق"
+      "Accurate"
     ],
     "features_en": [
-      "ترجمة دقيقة",
-      "30+ لغة",
+      "translation minute",
+      "30+ language",
       "DeepL Write",
-      "ملفات PDF/Word",
+      "files PDF/Word",
       "API",
       "Glossary",
       "Chrome extension",
-      "خصوصية"
+      "privacy"
     ],
     "best_for_en": "Task management and efficiency"
   },
@@ -10587,18 +10587,18 @@
     "description_en": "Harvey AI — legal AI tool for Legal professionals.",
     "tags_en": [
       "Legal",
-      "عقود",
-      "محاماة",
-      "بحث قانوني"
+      "Contracts",
+      "Law",
+      "Legal Research"
     ],
     "features_en": [
-      "تحليل عقود",
-      "بحث قانوني",
-      "صياغة مستندات",
-      "مراجعة",
-      "سوابق قضائية",
-      "أمان عالي",
-      "تخصيص",
+      "analysis &",
+      "Legal research",
+      "documents",
+      "review",
+      "&",
+      "security High",
+      "Feature",
       "Enterprise"
     ],
     "best_for_en": "Legal professionals"
@@ -10643,17 +10643,17 @@
       "Open Source",
       "Meta",
       "Free",
-      "نموذج كبير"
+      "Large Model"
     ],
     "features_en": [
-      "مفتوح المصدر",
-      "عدة أحجام",
-      "405B معلمة",
-      "مجاني",
-      "تعديل حر",
-      "عدة لغات",
+      "Open source",
+      "Feature",
+      "405B parameters",
+      "Free",
+      "Feature",
+      "languages",
       "Context 128K",
-      "تجاري"
+      "Feature"
     ],
     "best_for_en": "Everyday tasks and versatile use"
   },
@@ -10695,16 +10695,16 @@
     "description_en": "Qwen — general assistant AI tool for Everyday tasks and versatile use.",
     "tags_en": [
       "Open Source",
-      "عربي",
+      "Arabic",
       "Alibaba",
       "Free"
     ],
     "features_en": [
-      "مفتوح المصدر",
-      "عربي ممتاز",
-      "عدة أحجام",
-      "مجاني",
-      "128K سياق",
+      "Open source",
+      "Excellent",
+      "Feature",
+      "Free",
+      "128K context",
       "Code",
       "Math",
       "Vision"
@@ -10754,12 +10754,12 @@
       "SEO"
     ],
     "features_en": [
-      "40+ حالة استخدام",
-      "30+ لغة",
-      "مقالات مدونة",
-      "إيميلات تسويق",
-      "إعلانات",
-      "أوصاف منتجات",
+      "40+",
+      "30+ language",
+      "articles &",
+      "email &",
+      "Ads",
+      "or from",
       "SEO Analyzer",
       "Plagiarism Checker"
     ],
@@ -10805,15 +10805,15 @@
       "SEO",
       "Content",
       "Marketing",
-      "كلمات مفتاحية"
+      "Keywords"
     ],
     "features_en": [
-      "بحث كلمات مفتاحية",
-      "تحليل SERP",
-      "كتابة محتوى AI",
+      "search",
+      "analysis SERP",
+      "writing & AI",
       "Content Brief",
-      "تحسين SEO",
-      "مراقبة أداء",
+      "optimization SEO",
+      "performance",
       "95+ API endpoint",
       "AI Visibility"
     ],
