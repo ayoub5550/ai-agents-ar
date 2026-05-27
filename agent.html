@@ -1,561 +1,211 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>تفاصيل الأداة — دليل وكلاء الذكاء الاصطناعي</title>
-    <meta name="description" content="تفاصيل كاملة عن أداة الذكاء الاصطناعي — الميزات والأسعار والتقييم">
+    <title>AI Tool Details — AI Agents Directory</title>
+    <meta name="description" content="Detailed information, features, pricing, and reviews for this AI tool.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8708847484545349" crossorigin="anonymous"></script>
     <style>
         :root {
-            --bg-primary: #F8FAFC;
-            --bg-secondary: #FFFFFF;
-            --text-primary: #0F172A;
-            --text-secondary: #475569;
-            --text-muted: #94A3B8;
-            --border: #E2E8F0;
-            --border-hover: #CBD5E1;
-            --accent: #6366F1;
-            --accent-light: #EEF2FF;
-            --accent-dark: #4F46E5;
-            --green: #10B981;
-            --green-light: #ECFDF5;
-            --orange: #F59E0B;
-            --orange-light: #FFFBEB;
-            --red: #EF4444;
-            --red-light: #FEF2F2;
-            --blue: #3B82F6;
-            --blue-light: #EFF6FF;
-            --shadow-sm: 0 1px 2px rgba(0,0,0,0.04);
-            --shadow-md: 0 4px 12px rgba(0,0,0,0.06);
-            --shadow-lg: 0 8px 30px rgba(0,0,0,0.08);
-            --radius: 12px;
-            --radius-sm: 8px;
-            --radius-lg: 16px;
+            --bg:#F8FAFC; --bg-card:#FFFFFF; --bg-hover:#F1F5F9;
+            --text:#0F172A; --text-2:#475569; --text-3:#94A3B8;
+            --border:#E2E8F0; --accent:#6366F1; --accent-light:#EEF2FF;
+            --accent-dark:#4F46E5; --green:#10B981; --green-bg:#ECFDF5;
+            --orange:#F59E0B; --orange-bg:#FFFBEB; --gold:#F59E0B;
+            --r:12px; --r-sm:8px;
         }
         * { margin:0; padding:0; box-sizing:border-box; }
         body {
-            font-family: 'IBM Plex Sans Arabic', sans-serif;
-            background: var(--bg-primary);
-            color: var(--text-primary);
-            line-height: 1.7;
-            -webkit-font-smoothing: antialiased;
+            font-family:'Inter',-apple-system,sans-serif;
+            background:var(--bg); color:var(--text); line-height:1.7;
         }
-        a { text-decoration: none; color: inherit; }
-
+        body[dir="rtl"] { font-family:'IBM Plex Sans Arabic','Inter',sans-serif; }
+        a { text-decoration:none; color:inherit; }
         .nav {
-            position: sticky; top: 0; z-index: 100;
-            background: rgba(255,255,255,0.85);
-            backdrop-filter: blur(20px);
-            border-bottom: 1px solid var(--border);
-            padding: 0 24px;
+            position:sticky; top:0; z-index:100;
+            background:rgba(255,255,255,0.88); backdrop-filter:blur(20px);
+            border-bottom:1px solid var(--border); padding:0 24px;
         }
-        .nav-inner {
-            max-width: 1280px; margin: 0 auto;
-            display: flex; align-items: center; justify-content: space-between;
-            height: 64px;
+        .nav-inner { max-width:900px; margin:0 auto; display:flex; align-items:center; justify-content:space-between; height:64px; }
+        .nav-brand { display:flex; align-items:center; gap:10px; font-weight:700; font-size:1.1rem; }
+        .logo-icon { width:32px; height:32px; background:linear-gradient(135deg,var(--accent),#8B5CF6); border-radius:8px; display:flex; align-items:center; justify-content:center; color:white; font-size:14px; font-weight:800; }
+        .back-btn { display:flex; align-items:center; gap:6px; padding:6px 14px; border-radius:var(--r-sm); font-size:0.88rem; color:var(--text-2); }
+        .back-btn:hover { background:var(--bg-hover); }
+        
+        .agent-page { max-width:900px; margin:0 auto; padding:32px 24px; }
+        .agent-header { display:flex; align-items:flex-start; gap:20px; margin-bottom:32px; }
+        .agent-logo { width:72px; height:72px; border-radius:16px; border:1px solid var(--border); object-fit:cover; }
+        .agent-meta { flex:1; }
+        .agent-name { font-size:1.8rem; font-weight:800; margin-bottom:4px; }
+        .agent-cat { color:var(--text-3); font-size:0.9rem; margin-bottom:8px; }
+        .agent-badges { display:flex; gap:8px; flex-wrap:wrap; }
+        .ab { padding:4px 12px; border-radius:6px; font-size:0.78rem; font-weight:600; }
+        .ab-price { background:var(--accent-light); color:var(--accent); }
+        .ab-free { background:var(--green-bg); color:var(--green); }
+        .ab-oss { background:var(--green-bg); color:var(--green); }
+        .visit-btn {
+            display:inline-flex; align-items:center; gap:6px; padding:12px 28px;
+            background:var(--accent); color:white; border-radius:var(--r);
+            font-weight:700; font-size:1rem; transition:all 0.2s;
         }
-        .nav-brand {
-            display: flex; align-items: center; gap: 10px;
-            font-weight: 700; font-size: 1.15rem;
+        .visit-btn:hover { background:var(--accent-dark); transform:translateY(-1px); }
+        
+        .section { margin-bottom:28px; }
+        .section h2 { font-size:1.15rem; font-weight:700; margin-bottom:12px; color:var(--text); }
+        .section p { color:var(--text-2); }
+        .features-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(200px,1fr)); gap:8px; }
+        .feature-item { display:flex; align-items:center; gap:8px; padding:8px 12px; background:var(--bg); border-radius:var(--r-sm); font-size:0.88rem; color:var(--text-2); }
+        .feature-item::before { content:"✓"; color:var(--green); font-weight:700; }
+        .tags-list { display:flex; gap:6px; flex-wrap:wrap; }
+        .tag-item { padding:4px 12px; background:var(--accent-light); color:var(--accent); border-radius:20px; font-size:0.8rem; font-weight:500; }
+        
+        .rating-section { background:var(--bg-card); border:1px solid var(--border); border-radius:var(--r); padding:24px; }
+        .big-stars { font-size:2rem; color:var(--gold); cursor:pointer; user-select:none; }
+        .big-stars span { color:var(--border); transition:color 0.1s; }
+        .big-stars span.lit { color:var(--gold); }
+        .review-list { margin-top:16px; }
+        .review { padding:12px 0; border-top:1px solid var(--border); }
+        .review-stars { color:var(--gold); font-size:0.85rem; }
+        .review-text { color:var(--text-2); font-size:0.88rem; margin-top:4px; }
+        .review-date { color:var(--text-3); font-size:0.75rem; }
+        
+        .footer { text-align:center; padding:24px; border-top:1px solid var(--border); color:var(--text-3); font-size:0.82rem; margin-top:40px; }
+        .footer a { color:var(--accent); }
+        
+        @media(max-width:768px) {
+            .agent-header { flex-direction:column; align-items:center; text-align:center; }
+            .features-grid { grid-template-columns:1fr; }
         }
-        .nav-brand .logo-icon {
-            width: 36px; height: 36px;
-            background: linear-gradient(135deg, var(--accent), #8B5CF6);
-            border-radius: 10px;
-            display: flex; align-items: center; justify-content: center;
-            color: white; font-size: 18px; font-weight: 800;
-        }
-        .nav-links { display: flex; align-items: center; gap: 8px; }
-        .nav-links a {
-            padding: 6px 14px; border-radius: var(--radius-sm);
-            font-size: 0.88rem; font-weight: 500;
-            color: var(--text-secondary);
-            transition: all 0.2s;
-        }
-        .nav-links a:hover { background: #F1F5F9; color: var(--text-primary); }
-        .nav-cta {
-            background: var(--accent) !important; color: white !important;
-            padding: 8px 18px !important; border-radius: var(--radius-sm) !important;
-            font-weight: 600 !important; font-size: 0.85rem !important;
-        }
-        .nav-cta:hover { background: var(--accent-dark) !important; }
-
-        .container { max-width: 900px; margin: 0 auto; padding: 0 24px; }
-
-        .breadcrumb {
-            padding: 20px 0 8px;
-            font-size: 0.85rem; color: var(--text-muted);
-        }
-        .breadcrumb a { color: var(--accent); font-weight: 500; }
-
-        /* AGENT HEADER */
-        .agent-header {
-            background: var(--bg-secondary);
-            border: 1.5px solid var(--border);
-            border-radius: var(--radius-lg);
-            padding: 32px;
-            margin: 16px 0 24px;
-        }
-        .agent-top {
-            display: flex; align-items: flex-start; gap: 20px;
-            margin-bottom: 20px;
-        }
-        .agent-logo {
-            width: 72px; height: 72px;
-            border-radius: 16px;
-            border: 1.5px solid var(--border);
-            overflow: hidden;
-            flex-shrink: 0;
-            background: var(--bg-primary);
-            display: flex; align-items: center; justify-content: center;
-        }
-        .agent-logo img { width: 100%; height: 100%; object-fit: contain; }
-        .agent-logo .fallback { font-size: 32px; font-weight: 700; color: var(--accent); }
-        .agent-info { flex: 1; }
-        .agent-name {
-            font-size: 1.6rem; font-weight: 800;
-            display: flex; align-items: center; gap: 10px;
-            flex-wrap: wrap;
-            margin-bottom: 6px;
-        }
-        .badge {
-            font-size: 0.7rem; padding: 3px 10px; border-radius: 50px; font-weight: 600;
-        }
-        .badge.os { background: var(--green-light); color: var(--green); }
-        .badge.featured { background: var(--accent-light); color: var(--accent); }
-        .agent-cat {
-            font-size: 0.95rem; color: var(--text-secondary); font-weight: 500;
-        }
-        .agent-desc {
-            font-size: 1.05rem; line-height: 1.8;
-            color: var(--text-secondary);
-            margin-bottom: 20px;
-        }
-        .agent-actions {
-            display: flex; gap: 12px; flex-wrap: wrap;
-        }
-        .btn {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 12px 24px;
-            border-radius: var(--radius-sm);
-            font-size: 0.95rem;
-            font-weight: 600;
-            border: 2px solid var(--border);
-            background: var(--bg-secondary);
-            color: var(--text-primary);
-            cursor: pointer;
-            transition: all 0.2s;
-            font-family: 'IBM Plex Sans Arabic', sans-serif;
-        }
-        .btn:hover { border-color: var(--accent); color: var(--accent); }
-        .btn.primary {
-            background: var(--accent); color: white; border-color: var(--accent);
-        }
-        .btn.primary:hover { background: var(--accent-dark); border-color: var(--accent-dark); }
-
-        /* SECTIONS */
-        .section {
-            background: var(--bg-secondary);
-            border: 1.5px solid var(--border);
-            border-radius: var(--radius-lg);
-            padding: 24px;
-            margin-bottom: 16px;
-        }
-        .section-title {
-            font-size: 1.1rem; font-weight: 700;
-            margin-bottom: 16px;
-            display: flex; align-items: center; gap: 8px;
-        }
-        .features-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-            gap: 8px;
-        }
-        .feature-item {
-            display: flex; align-items: center; gap: 8px;
-            padding: 10px 14px;
-            background: var(--bg-primary);
-            border-radius: var(--radius-sm);
-            font-size: 0.9rem;
-            font-weight: 500;
-            color: var(--text-secondary);
-        }
-        .feature-item::before {
-            content: '✓';
-            color: var(--green);
-            font-weight: 700;
-            font-size: 0.85rem;
-        }
-
-        /* PRICING INFO */
-        .pricing-card {
-            display: flex; align-items: center; gap: 16px;
-            padding: 16px;
-            background: var(--bg-primary);
-            border-radius: var(--radius);
-        }
-        .pricing-icon {
-            width: 48px; height: 48px;
-            border-radius: 12px;
-            display: flex; align-items: center; justify-content: center;
-            font-size: 24px; flex-shrink: 0;
-        }
-        .pricing-icon.free { background: var(--green-light); }
-        .pricing-icon.freemium { background: var(--blue-light); }
-        .pricing-icon.paid { background: var(--orange-light); }
-        .pricing-icon.enterprise { background: var(--red-light); }
-        .pricing-details h4 { font-size: 1rem; font-weight: 700; margin-bottom: 2px; }
-        .pricing-details p { font-size: 0.88rem; color: var(--text-secondary); }
-
-        /* TAGS */
-        .tags-list {
-            display: flex; gap: 8px; flex-wrap: wrap;
-        }
-        .tag {
-            padding: 6px 14px;
-            background: var(--bg-primary);
-            border: 1px solid var(--border);
-            border-radius: 50px;
-            font-size: 0.82rem;
-            font-weight: 500;
-            color: var(--text-secondary);
-        }
-
-        /* RELATED */
-        .related-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-            gap: 12px;
-        }
-        .related-card {
-            display: flex; align-items: center; gap: 12px;
-            padding: 14px;
-            background: var(--bg-primary);
-            border-radius: var(--radius);
-            transition: all 0.2s;
-        }
-        .related-card:hover { background: #EEF2FF; }
-        .related-logo {
-            width: 40px; height: 40px;
-            border-radius: 10px;
-            border: 1px solid var(--border);
-            overflow: hidden;
-            flex-shrink: 0;
-            background: white;
-            display: flex; align-items: center; justify-content: center;
-        }
-        .related-logo img { width: 100%; height: 100%; object-fit: contain; }
-        .related-name { font-weight: 600; font-size: 0.9rem; }
-        .related-desc { font-size: 0.78rem; color: var(--text-muted); display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; overflow: hidden; }
-
-        /* SPONSOR */
-        .sponsor-card {
-            background: linear-gradient(135deg, #4F46E5, #7C3AED);
-            border-radius: var(--radius-lg);
-            padding: 28px;
-            color: white;
-            margin-bottom: 16px;
-        }
-        .sponsor-card h3 { font-size: 1.1rem; margin-bottom: 6px; }
-        .sponsor-card p { font-size: 0.9rem; opacity: 0.85; margin-bottom: 14px; }
-        .sponsor-card .sponsor-btn {
-            display: inline-block;
-            padding: 10px 24px;
-            background: white;
-            color: #4F46E5;
-            border-radius: var(--radius-sm);
-            font-weight: 700;
-            font-size: 0.88rem;
-            transition: all 0.2s;
-        }
-        .sponsor-card .sponsor-btn:hover { transform: translateY(-1px); box-shadow: var(--shadow-md); }
-
-        .footer {
-            background: var(--bg-secondary);
-            border-top: 1px solid var(--border);
-            padding: 32px 24px;
-            text-align: center;
-            margin-top: 40px;
-        }
-        .footer p { color: var(--text-muted); font-size: 0.88rem; }
-        .footer a { color: var(--accent); font-weight: 600; }
-
-        @media (max-width: 768px) {
-            .nav-links { display: none; }
-            .agent-top { flex-direction: column; align-items: center; text-align: center; }
-            .agent-name { justify-content: center; }
-            .agent-actions { justify-content: center; }
-            .features-grid { grid-template-columns: 1fr 1fr; }
-        }
-        @media (max-width: 480px) {
-            .agent-header { padding: 20px; }
-            .features-grid { grid-template-columns: 1fr; }
-        }
-
-        /* LOADING */
-        .loading {
-            text-align: center; padding: 80px 24px;
-            color: var(--text-muted);
-        }
-        .loading .spinner {
-            width: 40px; height: 40px;
-            border: 3px solid var(--border);
-            border-top-color: var(--accent);
-            border-radius: 50%;
-            animation: spin 0.7s linear infinite;
-            margin: 0 auto 16px;
-        }
-        @keyframes spin { to { transform: rotate(360deg); } }
-    
-        .breadcrumb {
-            max-width: 900px; margin: 20px auto 0; padding: 0 24px;
-            font-size: 0.85rem; color: var(--text-muted);
-        }
-        .breadcrumb a {
-            color: var(--accent); transition: color 0.2s;
-        }
-        .breadcrumb a:hover { color: var(--accent-dark); }
-        .related-tools {
-            max-width: 900px; margin: 40px auto; padding: 0 24px;
-        }
-        .related-tools h2 {
-            font-size: 1.2rem; margin-bottom: 16px; color: var(--text-primary);
-        }
-        .related-grid {
-            display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-            gap: 12px;
-        }
-        .related-card {
-            background: var(--bg-card); border: 1px solid var(--border);
-            border-radius: var(--radius); padding: 16px;
-            transition: all 0.2s;
-        }
-        .related-card:hover {
-            border-color: var(--accent); transform: translateY(-2px);
-            box-shadow: var(--shadow-md);
-        }
-        .related-card h3 { font-size: 0.95rem; margin-bottom: 4px; }
-        .related-card p { font-size: 0.8rem; color: var(--text-muted); }
-    
     </style>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "الرئيسية", "item": "https://ayoub5550.github.io/ai-agents-ar/"},
-            {"@type": "ListItem", "position": 2, "name": "تفاصيل الأداة"}
-        ]
-    }
-    </script>
 </head>
 <body>
-
-<nav class="nav">
-    <div class="nav-inner">
-        <a href="/" class="nav-brand">
-            <div class="logo-icon">AI</div>
-            <span>دليل AI</span>
-        </a>
-        <div class="nav-links">
-            <a href="/">الرئيسية</a>
-            <a href="https://app.viktor.com/signin?ref=3XCqvEfwaT2TEAbizz7Bxt" target="_blank" class="nav-cta">جرّب Viktor AI ⚡</a>
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="https://ayoub5550.github.io/ai-agents-ar/" class="nav-brand"><div class="logo-icon">AI</div> <span id="brandText">AI Agents Directory</span></a>
+            <a href="https://ayoub5550.github.io/ai-agents-ar/" class="back-btn" id="backBtn">← Back to Directory</a>
         </div>
+    </nav>
+    <div class="agent-page" id="page">
+        <p style="text-align:center;color:var(--text-3);padding:40px;">Loading...</p>
     </div>
-</nav>
-
-<nav class="breadcrumb">
-    <a href="index.html">🏠 الرئيسية</a> ← <span id="breadcrumbCat"></span> ← <span id="breadcrumbName"></span>
-</nav>
-
-<div class="container">
-    <div class="loading" id="loading">
-        <div class="spinner"></div>
-        <p>جاري التحميل...</p>
-    </div>
-    <div id="content" style="display:none;"></div>
-</div>
-
-<footer class="footer" id="footer" style="display:none;">
-    <p>© 2026 دليل وكلاء الذكاء الاصطناعي — <a href="https://app.viktor.com/signin?ref=3XCqvEfwaT2TEAbizz7Bxt" target="_blank">Viktor AI</a></p>
-</footer>
-
+    <footer class="footer">
+        <p>AI Agents Directory © 2026 — <a href="https://ayoub5550.github.io/ai-agents-ar/">Home</a> | <a href="https://ayoub5550.github.io/ai-agents-ar/blog/">Blog</a></p>
+    </footer>
 <script>
-const CATEGORY_MAP = {
-    'general-assistant': { ar: 'مساعد عام', icon: '💬' },
-    'coding': { ar: 'برمجة', icon: '💻' },
-    'creative': { ar: 'إبداع وتصميم', icon: '🎨' },
-    'productivity': { ar: 'إنتاجية', icon: '⚡' },
-    'research': { ar: 'بحث وتحليل', icon: '🔬' },
-    'no-code': { ar: 'بدون كود', icon: '🧩' },
-    'automation': { ar: 'أتمتة', icon: '🔄' },
-    'infrastructure': { ar: 'بنية تحتية', icon: '☁️' },
-    'framework': { ar: 'أطر عمل', icon: '🏗️' },
-    'customer-support': { ar: 'دعم عملاء', icon: '🎧' },
-    'sales-marketing': { ar: 'مبيعات وتسويق', icon: '📈' },
-    'data-analytics': { ar: 'بيانات وتحليل', icon: '📊' },
-    'education': { ar: 'تعليم', icon: '📚' },
-    'security': { ar: 'أمن سيبراني', icon: '🛡️' },
-    'finance': { ar: 'مالية', icon: '💰' },
-    'health': { ar: 'صحة', icon: '🏥' },
-    'legal': { ar: 'قانون', icon: '⚖️' },
-};
-
-const PRICING_LABELS = {
-    'free': { label: 'مجاني', icon: '🆓', desc: 'هذه الأداة متاحة مجاناً بالكامل' },
-    'freemium': { label: 'مجاني + مدفوع', icon: '✨', desc: 'باقة مجانية متاحة مع ميزات إضافية مدفوعة' },
-    'paid': { label: 'مدفوع', icon: '💎', desc: 'هذه الأداة تتطلب اشتراك مدفوع' },
-    'enterprise': { label: 'مؤسسات', icon: '🏢', desc: 'أسعار مخصصة حسب حجم المؤسسة' },
-};
-
-async function init() {
-    const id = new URLSearchParams(location.search).get('id');
-    if (!id) { location.href = '/'; return; }
-
-    const resp = await fetch('agents.json');
-    const agents = await resp.json();
-    const agent = agents.find(a => a.id === id);
-
-    if (!agent) {
-        document.getElementById('loading').innerHTML = '<h3>الأداة غير موجودة</h3><p><a href="/" style="color:#6366F1">← العودة للرئيسية</a></p>';
-        return;
-    }
-
-    document.title = `${agent.name_ar} (${agent.name}) — دليل وكلاء AI`;
-    const metaDesc = document.querySelector('meta[name="description"]');
-    if (metaDesc) metaDesc.content = agent.official_description || agent.description;
-
-    const cat = CATEGORY_MAP[agent.category] || { ar: agent.category_ar, icon: '📦' };
-    const pricing = PRICING_LABELS[agent.pricing_type] || PRICING_LABELS.freemium;
-    const visitUrl = agent.affiliate_url || agent.url;
-
-    // Related agents (same category)
-    const related = agents.filter(a => a.category === agent.category && a.id !== agent.id).slice(0, 6);
-
-    let relatedHTML = '';
-    if (related.length > 0) {
-        relatedHTML = `
-        <div class="section">
-            <h3 class="section-title">🔗 أدوات مشابهة</h3>
-            <div class="related-grid">
-                ${related.map(r => `
-                    <a href="agent.html?id=${r.id}" class="related-card">
-                        <div class="related-logo">
-                            <img src="${r.logo}" alt="${r.name}" onerror="this.parentElement.innerHTML='<span style=font-weight:700;color:#6366F1>${r.name.charAt(0)}</span>'">
-                        </div>
-                        <div>
-                            <div class="related-name">${r.name_ar}</div>
-                            <div class="related-desc">${r.description}</div>
-                        </div>
-                    </a>
-                `).join('')}
-            </div>
-        </div>`;
-    }
-
-    const content = document.getElementById('content');
-    content.innerHTML = `
-        <div class="breadcrumb">
-            <a href="/">الرئيسية</a> / <a href="/?cat=${agent.category}">${cat.icon} ${cat.ar}</a> / ${agent.name_ar}
-        </div>
-
-        <div class="agent-header">
-            <div class="agent-top">
-                <div class="agent-logo">
-                    <img src="${agent.logo}" alt="${agent.name}" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-                    <div class="fallback" style="display:none">${agent.name.charAt(0)}</div>
-                </div>
-                <div class="agent-info">
-                    <h1 class="agent-name">
-                        ${agent.name_ar}
-                        <span style="font-weight:400;font-size:0.85rem;color:var(--text-muted)">(${agent.name})</span>
-                        ${agent.open_source ? '<span class="badge os">مفتوح المصدر</span>' : ''}
-                        ${agent.featured ? '<span class="badge featured">⭐ مميز</span>' : ''}
-                    </h1>
-                    <div class="agent-cat">${cat.icon} ${cat.ar}${agent.best_for ? ' — ' + agent.best_for : ''}</div>
-                </div>
-            </div>
-            <p class="agent-desc">${agent.official_description || agent.description}</p>
-            <div class="agent-actions">
-                <a href="${visitUrl}" target="_blank" class="btn primary">زيارة ${agent.name} ←</a>
-                <a href="/" class="btn">← العودة للدليل</a>
-            </div>
-        </div>
-
-        ${agent.features && agent.features.length > 0 ? `
-        <div class="section">
-            <h3 class="section-title">✨ المميزات</h3>
-            <div class="features-grid">
-                ${agent.features.map(f => `<div class="feature-item">${f}</div>`).join('')}
-            </div>
-        </div>` : ''}
-
-        <div class="section">
-            <h3 class="section-title">💰 التسعير</h3>
-            <div class="pricing-card">
-                <div class="pricing-icon ${agent.pricing_type}">${pricing.icon}</div>
-                <div class="pricing-details">
-                    <h4>${agent.pricing}</h4>
-                    <p>${pricing.desc}${agent.has_free_trial ? ' • ' + (agent.free_trial_details || 'تجربة مجانية متاحة') : ''}</p>
-                </div>
-            </div>
-        </div>
-
-        ${agent.tags && agent.tags.length > 0 ? `
-        <div class="section">
-            <h3 class="section-title">🏷️ الوسوم</h3>
-            <div class="tags-list">
-                ${agent.tags.map(t => `<span class="tag">${t}</span>`).join('')}
-            </div>
-        </div>` : ''}
-
-        <div class="sponsor-card">
-            <h3>🤖 Viktor AI — زميلك الذكي في العمل</h3>
-            <p>وكيل AI مستقل يكتب الكود، يبني المواقع، يرسل الإيميلات وينجز المهام 24/7</p>
-            <a href="https://app.viktor.com/signin?ref=3XCqvEfwaT2TEAbizz7Bxt" target="_blank" class="sponsor-btn">جرّب Viktor مجاناً ←</a>
-        </div>
-
-        ${relatedHTML}
-    `;
-
-    document.getElementById('loading').style.display = 'none';
-    content.style.display = 'block';
-    document.getElementById('footer').style.display = 'block';
+const lang = localStorage.getItem('lang') || 'en';
+document.documentElement.lang = lang;
+document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
+document.body.setAttribute('dir', lang === 'ar' ? 'rtl' : 'ltr');
+if (lang === 'ar') {
+    document.getElementById('brandText').textContent = 'دليل وكلاء AI';
+    document.getElementById('backBtn').textContent = '→ العودة للدليل';
 }
 
-init();
+const catEN = {"general-assistant": "General Assistant", "coding": "Coding & Dev", "creative": "Creative & Design", "research": "Research", "productivity": "Productivity", "automation": "Automation", "sales-marketing": "Sales & Marketing", "customer-support": "Customer Support", "education": "Education", "data-analytics": "Data & Analytics", "finance": "Finance", "health": "Health", "legal": "Legal", "security": "Security", "no-code": "No-Code", "framework": "AI Frameworks", "infrastructure": "Infrastructure"};
+const catAR = {"general-assistant":"مساعد عام","coding":"برمجة وتطوير","creative":"إبداع وتصميم","research":"بحث","productivity":"إنتاجية","automation":"أتمتة","sales-marketing":"تسويق ومبيعات","customer-support":"دعم العملاء","education":"تعليم","data-analytics":"بيانات وتحليلات","finance":"مالية","health":"صحة","legal":"قانون","security":"أمن سيبراني","no-code":"بدون كود","framework":"أطر عمل AI","infrastructure":"بنية تحتية"};
 
-    // Breadcrumb
-    if (agent) {
-        const bcCat = document.getElementById('breadcrumbCat');
-        const bcName = document.getElementById('breadcrumbName');
-        if (bcCat) bcCat.innerHTML = `<a href="index.html#categories">${agent.category_ar}</a>`;
-        if (bcName) bcName.textContent = agent.name_ar || agent.name;
-    }
-    
-    // Related tools
-    if (agent && allAgents) {
-        const related = allAgents
-            .filter(a => a.category === agent.category && a.id !== agent.id)
-            .slice(0, 4);
-        if (related.length > 0) {
-            document.getElementById('relatedTools').style.display = 'block';
-            const grid = document.getElementById('relatedGrid');
-            related.forEach(r => {
-                const card = document.createElement('a');
-                card.href = `agent.html?id=${r.id}`;
-                card.className = 'related-card';
-                card.innerHTML = `<h3>${r.name_ar || r.name}</h3><p>${r.description}</p>`;
-                grid.appendChild(card);
-            });
-        }
-    }
+const params = new URLSearchParams(location.search);
+const agentId = params.get('id');
 
+function getReviews(id) {{
+    try {{ return JSON.parse(localStorage.getItem('rv_'+id) || '[]'); }} catch {{ return []; }}
+}}
+
+fetch('agents.json')
+    .then(r => r.json())
+    .then(data => {{
+        const a = data.find(x => x.id === agentId);
+        if (!a) {{ document.getElementById('page').innerHTML = '<p style="text-align:center;padding:40px;">Tool not found.</p>'; return; }}
+        
+        const name = lang === 'ar' ? (a.name_ar || a.name) : a.name;
+        const desc = lang === 'ar' ? (a.official_description || a.description) : (a.description_en || a.description);
+        const cat = lang === 'ar' ? (catAR[a.category] || a.category) : (catEN[a.category] || a.category);
+        const features = lang === 'ar' ? (a.features || []) : (a.features_en || a.features || []);
+        const tags = lang === 'ar' ? (a.tags || []) : (a.tags_en || a.tags || []);
+        const bestFor = lang === 'ar' ? (a.best_for || '') : (a.best_for_en || '');
+        
+        document.title = name + ' — AI Agents Directory';
+        
+        const priceLabels = {{ free: lang==='ar'?'مجاني':'Free', freemium: lang==='ar'?'مجاني+مدفوع':'Freemium', paid: lang==='ar'?'مدفوع':'Paid', 'open-source': lang==='ar'?'مفتوح المصدر':'Open Source' }};
+        
+        const reviews = getReviews(a.id);
+        const avgRating = reviews.length ? (reviews.reduce((s,r)=>s+r.r,0)/reviews.length).toFixed(1) : '—';
+        
+        const fallback = `data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 72 72%22><rect fill=%22%236366F1%22 width=%2272%22 height=%2272%22 rx=%2216%22/><text x=%2236%22 y=%2246%22 text-anchor=%22middle%22 fill=%22white%22 font-size=%2228%22 font-weight=%22bold%22>${{a.name[0]}}</text></svg>`;
+        
+        document.getElementById('page').innerHTML = `
+            <div class="agent-header">
+                <img class="agent-logo" src="${{a.logo}}" alt="${{name}}" onerror="this.src='${{fallback}}'">
+                <div class="agent-meta">
+                    <div class="agent-name">${{name}}</div>
+                    <div class="agent-cat">${{cat}}</div>
+                    <div class="agent-badges">
+                        <span class="ab ab-price">${{priceLabels[a.pricing_type] || a.pricing_type}}</span>
+                        ${{a.has_free_trial ? `<span class="ab ab-free">${{lang==='ar'?'تجربة مجانية':'Free Trial'}}</span>` : ''}}
+                        ${{a.open_source ? `<span class="ab ab-oss">${{lang==='ar'?'مفتوح المصدر':'Open Source'}}</span>` : ''}}
+                    </div>
+                </div>
+                <a href="${{a.affiliate_url || a.url}}" target="_blank" class="visit-btn">${{lang==='ar'?'زيارة الموقع ←':'Visit Website →'}}</a>
+            </div>
+            
+            <div class="section">
+                <h2>${{lang==='ar'?'نبذة':'About'}}</h2>
+                <p>${{desc}}</p>
+            </div>
+            
+            ${{bestFor ? `<div class="section"><h2>${{lang==='ar'?'الأفضل لـ':'Best For'}}</h2><p>${{bestFor}}</p></div>` : ''}}
+            
+            ${{features.length ? `<div class="section"><h2>${{lang==='ar'?'الميزات':'Features'}}</h2><div class="features-grid">${{features.map(f=>`<div class="feature-item">${{f}}</div>`).join('')}}</div></div>` : ''}}
+            
+            ${{tags.length ? `<div class="section"><h2>${{lang==='ar'?'العلامات':'Tags'}}</h2><div class="tags-list">${{tags.map(t=>`<span class="tag-item">${{t}}</span>`).join('')}}</div></div>` : ''}}
+            
+            <div class="section">
+                <h2>${{lang==='ar'?'السعر':'Pricing'}}</h2>
+                <p>${{a.pricing || priceLabels[a.pricing_type]}}</p>
+                ${{a.free_trial_details ? `<p style="margin-top:4px;font-size:0.9rem;color:var(--green)">${{a.free_trial_details}}</p>` : ''}}
+            </div>
+            
+            <div class="rating-section">
+                <h2 style="margin-bottom:12px">${{lang==='ar'?'التقييمات':'Ratings & Reviews'}} (${{reviews.length}}) — ${{avgRating}} ★</h2>
+                <div class="big-stars" id="bigStars">
+                    <span data-v="1">★</span><span data-v="2">★</span><span data-v="3">★</span><span data-v="4">★</span><span data-v="5">★</span>
+                </div>
+                <p style="font-size:0.85rem;color:var(--text-3);margin-top:4px">${{lang==='ar'?'انقر لإضافة تقييمك':'Click to add your rating'}}</p>
+                <div class="review-list">
+                    ${{reviews.slice(-10).reverse().map(r => `
+                        <div class="review">
+                            <div class="review-stars">${{'★'.repeat(r.r)+'☆'.repeat(5-r.r)}}</div>
+                            ${{r.t ? `<div class="review-text">${{r.t}}</div>` : ''}}
+                            <div class="review-date">${{new Date(r.d).toLocaleDateString()}}</div>
+                        </div>
+                    `).join('')}}
+                </div>
+            </div>
+        `;
+        
+        // Rating interaction
+        let myRating = 0;
+        document.querySelectorAll('#bigStars span').forEach(sp => {{
+            sp.addEventListener('mouseenter', () => {{
+                const v = parseInt(sp.dataset.v);
+                document.querySelectorAll('#bigStars span').forEach(s => {{
+                    s.classList.toggle('lit', parseInt(s.dataset.v) <= v);
+                }});
+            }});
+            sp.addEventListener('click', () => {{
+                myRating = parseInt(sp.dataset.v);
+                const text = prompt(lang==='ar'?'اكتب مراجعة (اختياري):':'Write a review (optional):') || '';
+                const reviews2 = getReviews(a.id);
+                reviews2.push({{ r: myRating, t: text, d: new Date().toISOString() }});
+                localStorage.setItem('rv_'+a.id, JSON.stringify(reviews2));
+                location.reload();
+            }});
+        }});
+    }});
 </script>
-
 </body>
 </html>
