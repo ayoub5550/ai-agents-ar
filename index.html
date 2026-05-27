@@ -51,6 +51,78 @@
         ]
     }
     </script>
+    <script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "ما هو وكيل الذكاء الاصطناعي (AI Agent)؟",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "وكيل الذكاء الاصطناعي هو برنامج يستخدم نماذج AI متقدمة لتنفيذ مهام بشكل مستقل. يمكنه فهم الأوامر بلغة طبيعية، اتخاذ قرارات، والتفاعل مع أدوات وخدمات مختلفة لإنجاز العمل دون تدخل بشري مستمر."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "ما هي أفضل أدوات الذكاء الاصطناعي المجانية في 2026؟",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "أفضل أدوات AI المجانية تشمل: ChatGPT (محادثة وكتابة)، Claude (تحليل وبرمجة)، Gemini (بحث ومحادثة من Google)، GitHub Copilot (برمجة)، Canva AI (تصميم)، وNotebookLM (بحث). معظمها توفر خطط مجانية مع ميزات أساسية كافية."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "كيف أختار أداة الذكاء الاصطناعي المناسبة؟",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "لاختيار أداة AI المناسبة: 1) حدد المهمة (كتابة، برمجة، تصميم، بحث). 2) قارن الأسعار والخطط المجانية. 3) جرّب 2-3 أدوات في نفس الفئة. 4) تحقق من دعم اللغة العربية إن كنت تحتاجها. 5) اقرأ تقييمات المستخدمين."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "هل أدوات AI آمنة للاستخدام؟",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "معظم أدوات AI الكبرى آمنة للاستخدام العام. لكن يُنصح بعدم مشاركة بيانات حساسة مع أي أداة AI، مراجعة سياسة الخصوصية، واستخدام الإصدارات المدفوعة للشركات التي توفر حماية بيانات أقوى."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "ما الفرق بين ChatGPT وClaude وGemini؟",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "ChatGPT (OpenAI) الأشهر والأكثر تنوعاً مع GPT-4o. Claude (Anthropic) يتفوق في التحليل الطويل والبرمجة مع نافذة سياق 200K. Gemini (Google) مدمج مع خدمات Google ويتميز بالبحث المباشر. كل منهم مجاني مع خطط مدفوعة."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "ما هي أفضل أدوات AI للبرمجة؟",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "أفضل أدوات AI للبرمجة في 2026: Cursor (محرر كود ذكي)، GitHub Copilot (إكمال كود تلقائي)، Windsurf (بيئة تطوير AI)، Claude Code (برمجة من الطرفية)، وViktor AI (وكيل برمجة مستقل). تدعم أغلبها Python وJavaScript وعشرات اللغات."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "كم عدد أدوات AI في هذا الدليل؟",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "يضم هذا الدليل أكثر من 200 أداة ووكيل ذكاء اصطناعي مصنفة في 18 فئة تشمل: المساعدات العامة، البرمجة، الإنتاجية، الإبداع والتصميم، البحث، الأتمتة، وغيرها. يتم تحديث الدليل دورياً."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "هل يمكن استخدام أدوات AI باللغة العربية؟",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "نعم، العديد من أدوات AI تدعم العربية بشكل جيد مثل ChatGPT وClaude وGemini وJais (نموذج عربي متخصص). لكن بعض الأدوات المتخصصة في الكتابة أو SEO قد يكون دعمها للعربية محدوداً."
+            }
+        }
+    ]
+}
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -537,6 +609,101 @@
             .card-header { gap: 10px; }
             .card-logo { width: 38px; height: 38px; }
         }
+    
+        /* SEO CONTENT */
+        .seo-content {
+            max-width: 900px; margin: 40px auto; padding: 0 24px;
+        }
+        .tldr-box {
+            background: linear-gradient(135deg, var(--accent-light), #F0F0FF);
+            border: 1px solid var(--accent);
+            border-radius: var(--radius-lg);
+            padding: 32px; margin-bottom: 40px;
+        }
+        .tldr-box h2 { font-size: 1.3rem; margin-bottom: 12px; color: var(--accent-dark); }
+        .tldr-box p { color: var(--text-secondary); font-size: 1rem; line-height: 1.8; }
+        .tldr-stats {
+            display: flex; gap: 24px; margin-top: 20px; flex-wrap: wrap;
+        }
+        .tldr-stat {
+            display: flex; flex-direction: column; align-items: center;
+            background: white; border-radius: var(--radius); padding: 16px 24px;
+            box-shadow: var(--shadow-sm);
+        }
+        .stat-num { font-size: 1.8rem; font-weight: 700; color: var(--accent); }
+        .stat-label { font-size: 0.85rem; color: var(--text-muted); }
+        .seo-article {
+            margin-bottom: 36px; padding-bottom: 36px;
+            border-bottom: 1px solid var(--border);
+        }
+        .seo-article:last-child { border-bottom: none; }
+        .seo-article h2 {
+            font-size: 1.35rem; margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+        .seo-article h3 {
+            font-size: 1.1rem; margin: 20px 0 10px;
+            color: var(--accent-dark);
+        }
+        .seo-article p {
+            color: var(--text-secondary); line-height: 1.9;
+            margin-bottom: 12px; font-size: 0.95rem;
+        }
+        .seo-list {
+            padding-right: 24px; margin: 12px 0;
+            color: var(--text-secondary); line-height: 2;
+        }
+        .seo-list li { margin-bottom: 6px; }
+        .internal-link {
+            color: var(--accent); border-bottom: 1px dashed var(--accent);
+            transition: all 0.2s;
+        }
+        .internal-link:hover { color: var(--accent-dark); border-bottom-style: solid; }
+
+        /* FAQ */
+        .faq-section {
+            max-width: 900px; margin: 0 auto 60px; padding: 0 24px;
+        }
+        .faq-section h2 {
+            font-size: 1.4rem; margin-bottom: 24px;
+            text-align: center; color: var(--text-primary);
+        }
+        .faq-grid { display: flex; flex-direction: column; gap: 12px; }
+        .faq-item {
+            background: var(--bg-card); border: 1px solid var(--border);
+            border-radius: var(--radius); overflow: hidden;
+            transition: all 0.2s;
+        }
+        .faq-item:hover { border-color: var(--accent); }
+        .faq-question {
+            padding: 18px 24px; cursor: pointer;
+            display: flex; justify-content: space-between; align-items: center;
+            font-weight: 600; font-size: 0.95rem;
+            color: var(--text-primary);
+            user-select: none;
+        }
+        .faq-question .faq-arrow {
+            transition: transform 0.3s; font-size: 1.2rem; color: var(--text-muted);
+        }
+        .faq-item.open .faq-arrow { transform: rotate(180deg); }
+        .faq-answer {
+            max-height: 0; overflow: hidden;
+            transition: max-height 0.3s ease;
+            padding: 0 24px;
+        }
+        .faq-item.open .faq-answer {
+            max-height: 300px; padding: 0 24px 18px;
+        }
+        .faq-answer p {
+            color: var(--text-secondary); line-height: 1.8;
+            font-size: 0.9rem;
+        }
+        @media (max-width: 640px) {
+            .tldr-stats { gap: 12px; }
+            .tldr-stat { padding: 12px 16px; flex: 1; min-width: 80px; }
+            .stat-num { font-size: 1.4rem; }
+        }
+
     </style>
 </head>
 <body>
@@ -613,6 +780,77 @@
         <p>جرّب تغيير كلمات البحث أو الفلاتر</p>
     </div>
 </div>
+
+
+<!-- SEO CONTENT SECTION -->
+<section class="seo-content" id="about">
+    <!-- TL;DR Summary -->
+    <div class="tldr-box">
+        <h2>📋 ملخص سريع — ما هو دليل أدوات الذكاء الاصطناعي؟</h2>
+        <p><strong>هذا الدليل هو أكبر مرجع عربي شامل لأدوات الذكاء الاصطناعي.</strong> يضم <strong>204+ أداة AI</strong> مصنفة في <strong>18 فئة</strong>، مع معلومات الأسعار والميزات لكل أداة. سواء كنت مبرمجاً، كاتب محتوى، مصمماً، أو رائد أعمال — ستجد الأداة المناسبة هنا.</p>
+        <div class="tldr-stats">
+            <div class="tldr-stat"><span class="stat-num">204+</span><span class="stat-label">أداة AI</span></div>
+            <div class="tldr-stat"><span class="stat-num">18</span><span class="stat-label">فئة</span></div>
+            <div class="tldr-stat"><span class="stat-num">172+</span><span class="stat-label">أداة مجانية</span></div>
+        </div>
+    </div>
+
+    <!-- What are AI Agents -->
+    <article class="seo-article">
+        <h2>🤖 ما هي أدوات وكلاء الذكاء الاصطناعي؟</h2>
+        <p>أدوات الذكاء الاصطناعي هي برامج تستخدم نماذج AI متقدمة مثل GPT-4، Claude، وGemini لتنفيذ مهام متنوعة بشكل ذكي. تتراوح من المساعدات الشخصية البسيطة إلى وكلاء مستقلين يمكنهم كتابة الكود، تصميم الصور، تحليل البيانات، وإدارة المشاريع دون تدخل بشري مستمر.</p>
+        <p><strong>في عام 2026، أصبح سوق أدوات AI يضم آلاف الخيارات</strong>، مما يجعل اختيار الأداة المناسبة تحدياً. هذا الدليل يساعدك في المقارنة والاختيار بسهولة.</p>
+    </article>
+
+    <!-- How to choose -->
+    <article class="seo-article">
+        <h2>📊 كيف تختار أداة الذكاء الاصطناعي المناسبة؟</h2>
+        <p>اختيار أداة AI يعتمد على 5 معايير أساسية:</p>
+        <ol class="seo-list">
+            <li><strong>نوع المهمة:</strong> حدد هل تحتاج أداة <a href="#categories" class="internal-link">للبرمجة</a>، الكتابة، التصميم، أو البحث</li>
+            <li><strong>الميزانية:</strong> استخدم فلاتر الأسعار أعلاه — 172+ أداة توفر خططاً مجانية</li>
+            <li><strong>اللغة العربية:</strong> تحقق من دعم الأداة للعربية إذا كنت تحتاجها</li>
+            <li><strong>التكامل:</strong> هل تتكامل مع أدواتك الحالية (VS Code، Google Docs، Slack)؟</li>
+            <li><strong>الخصوصية:</strong> راجع سياسة البيانات خاصة للاستخدام المهني</li>
+        </ol>
+    </article>
+
+    <!-- Top categories breakdown -->
+    <article class="seo-article">
+        <h2>📂 أبرز فئات أدوات الذكاء الاصطناعي</h2>
+        
+        <h3>🖥️ أدوات AI للبرمجة والتطوير</h3>
+        <p>تشمل هذه الفئة 0 أداة مثل <a href="agent.html?id=cursor" class="internal-link">Cursor</a>، <a href="agent.html?id=github-copilot" class="internal-link">GitHub Copilot</a>، و<a href="agent.html?id=windsurf" class="internal-link">Windsurf</a>. تساعد المبرمجين في كتابة الكود، مراجعته، وإصلاح الأخطاء بسرعة فائقة.</p>
+        
+        <h3>✍️ أدوات AI للإنتاجية والكتابة</h3>
+        <p>تضم 30 أداة مثل <a href="agent.html?id=notion-ai" class="internal-link">Notion AI</a>، <a href="agent.html?id=writesonic" class="internal-link">Writesonic</a>، و<a href="agent.html?id=rytr" class="internal-link">Rytr</a>. مثالية لكتابة المقالات، الإيميلات، والمحتوى التسويقي.</p>
+        
+        <h3>🎨 أدوات AI للإبداع والتصميم</h3>
+        <p>تضم 27 أداة مثل <a href="agent.html?id=midjourney" class="internal-link">Midjourney</a>، <a href="agent.html?id=dall-e" class="internal-link">DALL·E</a>، و<a href="agent.html?id=elevenlabs" class="internal-link">ElevenLabs</a>. تُنشئ صوراً، فيديوهات، وأصواتاً بجودة احترافية.</p>
+        
+        <h3>🔍 أدوات AI للبحث والتحليل</h3>
+        <p>تضم 0 أداة مثل <a href="agent.html?id=perplexity" class="internal-link">Perplexity</a>، <a href="agent.html?id=semantic-scholar" class="internal-link">Semantic Scholar</a>، و<a href="agent.html?id=elicit" class="internal-link">Elicit</a>. تبحث في الإنترنت والأوراق البحثية وتلخص النتائج.</p>
+    </article>
+
+    <!-- Why this directory -->
+    <article class="seo-article">
+        <h2>🌟 لماذا هذا الدليل مختلف؟</h2>
+        <ul class="seo-list">
+            <li><strong>عربي بالكامل:</strong> أول دليل عربي شامل لأدوات AI مع أوصاف ومعلومات مفصلة</li>
+            <li><strong>محدّث:</strong> يتم تحديث الدليل دورياً بأحدث الأدوات والأسعار</li>
+            <li><strong>شامل:</strong> 204+ أداة في 18 فئة — من البرمجة إلى التصميم إلى التعليم</li>
+            <li><strong>معلومات الأسعار:</strong> نوضح لكل أداة هل هي مجانية، تجربة مجانية، أو مدفوعة</li>
+            <li><strong>سهل التصفح:</strong> بحث فوري، فلاتر بالفئة والسعر، وترتيب مخصص</li>
+        </ul>
+    </article>
+</section>
+
+<!-- FAQ SECTION -->
+<section class="faq-section" id="faq">
+    <h2>❓ الأسئلة الشائعة حول أدوات الذكاء الاصطناعي</h2>
+    <div class="faq-grid" id="faqGrid"></div>
+</section>
+
 
 <!-- FOOTER -->
 <footer class="footer">
@@ -870,6 +1108,25 @@ function setupListeners() {
 }
 
 init();
+
+    // FAQ
+    const faqs = [{"q": "ما هو وكيل الذكاء الاصطناعي (AI Agent)؟", "a": "وكيل الذكاء الاصطناعي هو برنامج يستخدم نماذج AI متقدمة لتنفيذ مهام بشكل مستقل. يمكنه فهم الأوامر بلغة طبيعية، اتخاذ قرارات، والتفاعل مع أدوات وخدمات مختلفة لإنجاز العمل دون تدخل بشري مستمر."}, {"q": "ما هي أفضل أدوات الذكاء الاصطناعي المجانية في 2026؟", "a": "أفضل أدوات AI المجانية تشمل: ChatGPT (محادثة وكتابة)، Claude (تحليل وبرمجة)، Gemini (بحث ومحادثة من Google)، GitHub Copilot (برمجة)، Canva AI (تصميم)، وNotebookLM (بحث). معظمها توفر خطط مجانية مع ميزات أساسية كافية."}, {"q": "كيف أختار أداة الذكاء الاصطناعي المناسبة؟", "a": "لاختيار أداة AI المناسبة: 1) حدد المهمة (كتابة، برمجة، تصميم، بحث). 2) قارن الأسعار والخطط المجانية. 3) جرّب 2-3 أدوات في نفس الفئة. 4) تحقق من دعم اللغة العربية إن كنت تحتاجها. 5) اقرأ تقييمات المستخدمين."}, {"q": "هل أدوات AI آمنة للاستخدام؟", "a": "معظم أدوات AI الكبرى آمنة للاستخدام العام. لكن يُنصح بعدم مشاركة بيانات حساسة مع أي أداة AI، مراجعة سياسة الخصوصية، واستخدام الإصدارات المدفوعة للشركات التي توفر حماية بيانات أقوى."}, {"q": "ما الفرق بين ChatGPT وClaude وGemini؟", "a": "ChatGPT (OpenAI) الأشهر والأكثر تنوعاً مع GPT-4o. Claude (Anthropic) يتفوق في التحليل الطويل والبرمجة مع نافذة سياق 200K. Gemini (Google) مدمج مع خدمات Google ويتميز بالبحث المباشر. كل منهم مجاني مع خطط مدفوعة."}, {"q": "ما هي أفضل أدوات AI للبرمجة؟", "a": "أفضل أدوات AI للبرمجة في 2026: Cursor (محرر كود ذكي)، GitHub Copilot (إكمال كود تلقائي)، Windsurf (بيئة تطوير AI)، Claude Code (برمجة من الطرفية)، وViktor AI (وكيل برمجة مستقل). تدعم أغلبها Python وJavaScript وعشرات اللغات."}, {"q": "كم عدد أدوات AI في هذا الدليل؟", "a": "يضم هذا الدليل أكثر من 200 أداة ووكيل ذكاء اصطناعي مصنفة في 18 فئة تشمل: المساعدات العامة، البرمجة، الإنتاجية، الإبداع والتصميم، البحث، الأتمتة، وغيرها. يتم تحديث الدليل دورياً."}, {"q": "هل يمكن استخدام أدوات AI باللغة العربية؟", "a": "نعم، العديد من أدوات AI تدعم العربية بشكل جيد مثل ChatGPT وClaude وGemini وJais (نموذج عربي متخصص). لكن بعض الأدوات المتخصصة في الكتابة أو SEO قد يكون دعمها للعربية محدوداً."}];
+    const faqGrid = document.getElementById('faqGrid');
+    if (faqGrid) {
+        faqs.forEach((faq, i) => {
+            const item = document.createElement('div');
+            item.className = 'faq-item';
+            item.innerHTML = `
+                <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">
+                    <span>${faq.q}</span>
+                    <span class="faq-arrow">▼</span>
+                </div>
+                <div class="faq-answer"><p>${faq.a}</p></div>
+            `;
+            faqGrid.appendChild(item);
+        });
+    }
+
 </script>
 
 </body>

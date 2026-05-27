@@ -310,7 +310,48 @@
             margin: 0 auto 16px;
         }
         @keyframes spin { to { transform: rotate(360deg); } }
+    
+        .breadcrumb {
+            max-width: 900px; margin: 20px auto 0; padding: 0 24px;
+            font-size: 0.85rem; color: var(--text-muted);
+        }
+        .breadcrumb a {
+            color: var(--accent); transition: color 0.2s;
+        }
+        .breadcrumb a:hover { color: var(--accent-dark); }
+        .related-tools {
+            max-width: 900px; margin: 40px auto; padding: 0 24px;
+        }
+        .related-tools h2 {
+            font-size: 1.2rem; margin-bottom: 16px; color: var(--text-primary);
+        }
+        .related-grid {
+            display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 12px;
+        }
+        .related-card {
+            background: var(--bg-card); border: 1px solid var(--border);
+            border-radius: var(--radius); padding: 16px;
+            transition: all 0.2s;
+        }
+        .related-card:hover {
+            border-color: var(--accent); transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+        .related-card h3 { font-size: 0.95rem; margin-bottom: 4px; }
+        .related-card p { font-size: 0.8rem; color: var(--text-muted); }
+    
     </style>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "الرئيسية", "item": "https://ayoub5550.github.io/ai-agents-ar/"},
+            {"@type": "ListItem", "position": 2, "name": "تفاصيل الأداة"}
+        ]
+    }
+    </script>
 </head>
 <body>
 
@@ -325,6 +366,10 @@
             <a href="https://app.viktor.com/signin?ref=3XCqvEfwaT2TEAbizz7Bxt" target="_blank" class="nav-cta">جرّب Viktor AI ⚡</a>
         </div>
     </div>
+</nav>
+
+<nav class="breadcrumb">
+    <a href="index.html">🏠 الرئيسية</a> ← <span id="breadcrumbCat"></span> ← <span id="breadcrumbName"></span>
 </nav>
 
 <div class="container">
@@ -483,6 +528,33 @@ async function init() {
 }
 
 init();
+
+    // Breadcrumb
+    if (agent) {
+        const bcCat = document.getElementById('breadcrumbCat');
+        const bcName = document.getElementById('breadcrumbName');
+        if (bcCat) bcCat.innerHTML = `<a href="index.html#categories">${agent.category_ar}</a>`;
+        if (bcName) bcName.textContent = agent.name_ar || agent.name;
+    }
+    
+    // Related tools
+    if (agent && allAgents) {
+        const related = allAgents
+            .filter(a => a.category === agent.category && a.id !== agent.id)
+            .slice(0, 4);
+        if (related.length > 0) {
+            document.getElementById('relatedTools').style.display = 'block';
+            const grid = document.getElementById('relatedGrid');
+            related.forEach(r => {
+                const card = document.createElement('a');
+                card.href = `agent.html?id=${r.id}`;
+                card.className = 'related-card';
+                card.innerHTML = `<h3>${r.name_ar || r.name}</h3><p>${r.description}</p>`;
+                grid.appendChild(card);
+            });
+        }
+    }
+
 </script>
 
 </body>

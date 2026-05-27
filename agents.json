@@ -7217,5 +7217,41 @@
     "open_source": false,
     "added_date": "2026-05-27",
     "best_for": "كتابة محتوى سريعة وبأسعار معقولة"
+  },
+  {
+    "id": "frase",
+    "name": "Frase",
+    "name_ar": "فريز",
+    "category": "sales-marketing",
+    "category_ar": "تسويق ومبيعات",
+    "description": "منصة SEO ذكية — بحث، كتابة، وتحسين المحتوى لتصدر Google",
+    "official_description": "Frase منصة SEO شاملة تستخدم AI للبحث عن الكلمات المفتاحية، تحليل المنافسين، إنشاء محتوى محسّن، ومراقبة الأداء. تتميز بتحليل SERP العميق وإنشاء Briefs تلقائية.",
+    "features": [
+      "بحث كلمات مفتاحية",
+      "تحليل SERP",
+      "كتابة محتوى AI",
+      "Content Brief",
+      "تحسين SEO",
+      "مراقبة أداء",
+      "95+ API endpoint",
+      "AI Visibility"
+    ],
+    "pricing": "مدفوع",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "تجربة مجانية 5 أيام",
+    "url": "https://www.frase.io",
+    "affiliate_url": "",
+    "logo": "https://www.frase.io/favicon.ico",
+    "tags": [
+      "SEO",
+      "محتوى",
+      "تسويق",
+      "كلمات مفتاحية"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-05-27",
+    "best_for": "تحسين المحتوى لتصدر نتائج البحث"
   }
 ]
