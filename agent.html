@@ -95,6 +95,93 @@
     <footer class="footer">
         <p>AI Agents Directory © 2026 — <a href="https://ayoub5550.github.io/ai-agents-ar/">Home</a> | <a href="https://ayoub5550.github.io/ai-agents-ar/blog/">Blog</a></p>
     </footer>
+
+    <style>
+        :root {
+            --bg:#F8FAFC; --bg-card:#FFFFFF; --bg-hover:#F1F5F9;
+            --text:#0F172A; --text-2:#475569; --text-3:#94A3B8;
+            --border:#E2E8F0; --accent:#6366F1; --accent-light:#EEF2FF;
+            --accent-dark:#4F46E5; --green:#10B981; --green-bg:#ECFDF5;
+            --orange:#F59E0B; --orange-bg:#FFFBEB; --gold:#F59E0B;
+            --r:12px; --r-sm:8px;
+        }
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body {
+            font-family:'Inter',-apple-system,sans-serif;
+            background:var(--bg); color:var(--text); line-height:1.7;
+        }
+        body[dir="rtl"] { font-family:'IBM Plex Sans Arabic','Inter',sans-serif; }
+        a { text-decoration:none; color:inherit; }
+        .nav {
+            position:sticky; top:0; z-index:100;
+            background:rgba(255,255,255,0.88); backdrop-filter:blur(20px);
+            border-bottom:1px solid var(--border); padding:0 24px;
+        }
+        .nav-inner { max-width:900px; margin:0 auto; display:flex; align-items:center; justify-content:space-between; height:64px; }
+        .nav-brand { display:flex; align-items:center; gap:10px; font-weight:700; font-size:1.1rem; }
+        .logo-icon { width:32px; height:32px; background:linear-gradient(135deg,var(--accent),#8B5CF6); border-radius:8px; display:flex; align-items:center; justify-content:center; color:white; font-size:14px; font-weight:800; }
+        .back-btn { display:flex; align-items:center; gap:6px; padding:6px 14px; border-radius:var(--r-sm); font-size:0.88rem; color:var(--text-2); }
+        .back-btn:hover { background:var(--bg-hover); }
+        
+        .agent-page { max-width:900px; margin:0 auto; padding:32px 24px; }
+        .agent-header { display:flex; align-items:flex-start; gap:20px; margin-bottom:32px; }
+        .agent-logo { width:72px; height:72px; border-radius:16px; border:1px solid var(--border); object-fit:cover; }
+        .agent-meta { flex:1; }
+        .agent-name { font-size:1.8rem; font-weight:800; margin-bottom:4px; }
+        .agent-cat { color:var(--text-3); font-size:0.9rem; margin-bottom:8px; }
+        .agent-badges { display:flex; gap:8px; flex-wrap:wrap; }
+        .ab { padding:4px 12px; border-radius:6px; font-size:0.78rem; font-weight:600; }
+        .ab-price { background:var(--accent-light); color:var(--accent); }
+        .ab-free { background:var(--green-bg); color:var(--green); }
+        .ab-oss { background:var(--green-bg); color:var(--green); }
+        .visit-btn {
+            display:inline-flex; align-items:center; gap:6px; padding:12px 28px;
+            background:var(--accent); color:white; border-radius:var(--r);
+            font-weight:700; font-size:1rem; transition:all 0.2s;
+        }
+        .visit-btn:hover { background:var(--accent-dark); transform:translateY(-1px); }
+        
+        .section { margin-bottom:28px; }
+        .section h2 { font-size:1.15rem; font-weight:700; margin-bottom:12px; color:var(--text); }
+        .section p { color:var(--text-2); }
+        .features-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(200px,1fr)); gap:8px; }
+        .feature-item { display:flex; align-items:center; gap:8px; padding:8px 12px; background:var(--bg); border-radius:var(--r-sm); font-size:0.88rem; color:var(--text-2); }
+        .feature-item::before { content:"✓"; color:var(--green); font-weight:700; }
+        .tags-list { display:flex; gap:6px; flex-wrap:wrap; }
+        .tag-item { padding:4px 12px; background:var(--accent-light); color:var(--accent); border-radius:20px; font-size:0.8rem; font-weight:500; }
+        
+        .rating-section { background:var(--bg-card); border:1px solid var(--border); border-radius:var(--r); padding:24px; }
+        .big-stars { font-size:2rem; color:var(--gold); cursor:pointer; user-select:none; }
+        .big-stars span { color:var(--border); transition:color 0.1s; }
+        .big-stars span.lit { color:var(--gold); }
+        .review-list { margin-top:16px; }
+        .review { padding:12px 0; border-top:1px solid var(--border); }
+        .review-stars { color:var(--gold); font-size:0.85rem; }
+        .review-text { color:var(--text-2); font-size:0.88rem; margin-top:4px; }
+        .review-date { color:var(--text-3); font-size:0.75rem; }
+        
+        .footer { text-align:center; padding:24px; border-top:1px solid var(--border); color:var(--text-3); font-size:0.82rem; margin-top:40px; }
+        .footer a { color:var(--accent); }
+        
+        @media(max-width:768px) {
+            .agent-header { flex-direction:column; align-items:center; text-align:center; }
+            .features-grid { grid-template-columns:1fr; }
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="https://ayoub5550.github.io/ai-agents-ar/" class="nav-brand"><div class="logo-icon">AI</div> <span id="brandText">AI Agents Directory</span></a>
+            <a href="https://ayoub5550.github.io/ai-agents-ar/" class="back-btn" id="backBtn">← Back to Directory</a>
+        </div>
+    </nav>
+    <div class="agent-page" id="page">
+        <p style="text-align:center;color:var(--text-3);padding:40px;">Loading...</p>
+    </div>
+    <footer class="footer">
+        <p>AI Agents Directory © 2026 — <a href="https://ayoub5550.github.io/ai-agents-ar/">Home</a> | <a href="https://ayoub5550.github.io/ai-agents-ar/blog/">Blog</a></p>
+    </footer>
 <script>
 const lang = localStorage.getItem('lang') || 'en';
 document.documentElement.lang = lang;
@@ -111,15 +198,15 @@ const catAR = {"general-assistant":"مساعد عام","coding":"برمجة وت
 const params = new URLSearchParams(location.search);
 const agentId = params.get('id');
 
-function getReviews(id) {{
-    try {{ return JSON.parse(localStorage.getItem('rv_'+id) || '[]'); }} catch {{ return []; }}
-}}
+function getReviews(id) {
+    try { return JSON.parse(localStorage.getItem('rv_'+id) || '[]'); } catch { return []; }
+}
 
 fetch('agents.json')
     .then(r => r.json())
-    .then(data => {{
+    .then(data => {
         const a = data.find(x => x.id === agentId);
-        if (!a) {{ document.getElementById('page').innerHTML = '<p style="text-align:center;padding:40px;">Tool not found.</p>'; return; }}
+        if (!a) { document.getElementById('page').innerHTML = '<p style="text-align:center;padding:40px;">Tool not found.</p>'; return; }
         
         const name = lang === 'ar' ? (a.name_ar || a.name) : a.name;
         const desc = lang === 'ar' ? (a.official_description || a.description) : (a.description_en || a.description);
@@ -130,82 +217,82 @@ fetch('agents.json')
         
         document.title = name + ' — AI Agents Directory';
         
-        const priceLabels = {{ free: lang==='ar'?'مجاني':'Free', freemium: lang==='ar'?'مجاني+مدفوع':'Freemium', paid: lang==='ar'?'مدفوع':'Paid', 'open-source': lang==='ar'?'مفتوح المصدر':'Open Source' }};
+        const priceLabels = { free: lang==='ar'?'مجاني':'Free', freemium: lang==='ar'?'مجاني+مدفوع':'Freemium', paid: lang==='ar'?'مدفوع':'Paid', 'open-source': lang==='ar'?'مفتوح المصدر':'Open Source' };
         
         const reviews = getReviews(a.id);
         const avgRating = reviews.length ? (reviews.reduce((s,r)=>s+r.r,0)/reviews.length).toFixed(1) : '—';
         
-        const fallback = `data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 72 72%22><rect fill=%22%236366F1%22 width=%2272%22 height=%2272%22 rx=%2216%22/><text x=%2236%22 y=%2246%22 text-anchor=%22middle%22 fill=%22white%22 font-size=%2228%22 font-weight=%22bold%22>${{a.name[0]}}</text></svg>`;
+        const fallback = `data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 72 72%22><rect fill=%22%236366F1%22 width=%2272%22 height=%2272%22 rx=%2216%22/><text x=%2236%22 y=%2246%22 text-anchor=%22middle%22 fill=%22white%22 font-size=%2228%22 font-weight=%22bold%22>${a.name[0]}</text></svg>`;
         
         document.getElementById('page').innerHTML = `
             <div class="agent-header">
-                <img class="agent-logo" src="${{a.logo}}" alt="${{name}}" onerror="this.src='${{fallback}}'">
+                <img class="agent-logo" src="${a.logo}" alt="${name}" onerror="this.src='${fallback}'">
                 <div class="agent-meta">
-                    <div class="agent-name">${{name}}</div>
-                    <div class="agent-cat">${{cat}}</div>
+                    <div class="agent-name">${name}</div>
+                    <div class="agent-cat">${cat}</div>
                     <div class="agent-badges">
-                        <span class="ab ab-price">${{priceLabels[a.pricing_type] || a.pricing_type}}</span>
-                        ${{a.has_free_trial ? `<span class="ab ab-free">${{lang==='ar'?'تجربة مجانية':'Free Trial'}}</span>` : ''}}
-                        ${{a.open_source ? `<span class="ab ab-oss">${{lang==='ar'?'مفتوح المصدر':'Open Source'}}</span>` : ''}}
+                        <span class="ab ab-price">${priceLabels[a.pricing_type] || a.pricing_type}</span>
+                        ${a.has_free_trial ? `<span class="ab ab-free">${lang==='ar'?'تجربة مجانية':'Free Trial'}</span>` : ''}
+                        ${a.open_source ? `<span class="ab ab-oss">${lang==='ar'?'مفتوح المصدر':'Open Source'}</span>` : ''}
                     </div>
                 </div>
-                <a href="${{a.affiliate_url || a.url}}" target="_blank" class="visit-btn">${{lang==='ar'?'زيارة الموقع ←':'Visit Website →'}}</a>
+                <a href="${a.affiliate_url || a.url}" target="_blank" class="visit-btn">${lang==='ar'?'زيارة الموقع ←':'Visit Website →'}</a>
             </div>
             
             <div class="section">
-                <h2>${{lang==='ar'?'نبذة':'About'}}</h2>
-                <p>${{desc}}</p>
+                <h2>${lang==='ar'?'نبذة':'About'}</h2>
+                <p>${desc}</p>
             </div>
             
-            ${{bestFor ? `<div class="section"><h2>${{lang==='ar'?'الأفضل لـ':'Best For'}}</h2><p>${{bestFor}}</p></div>` : ''}}
+            ${bestFor ? `<div class="section"><h2>${lang==='ar'?'الأفضل لـ':'Best For'}</h2><p>${bestFor}</p></div>` : ''}
             
-            ${{features.length ? `<div class="section"><h2>${{lang==='ar'?'الميزات':'Features'}}</h2><div class="features-grid">${{features.map(f=>`<div class="feature-item">${{f}}</div>`).join('')}}</div></div>` : ''}}
+            ${features.length ? `<div class="section"><h2>${lang==='ar'?'الميزات':'Features'}</h2><div class="features-grid">${features.map(f=>`<div class="feature-item">${f}</div>`).join('')}</div></div>` : ''}
             
-            ${{tags.length ? `<div class="section"><h2>${{lang==='ar'?'العلامات':'Tags'}}</h2><div class="tags-list">${{tags.map(t=>`<span class="tag-item">${{t}}</span>`).join('')}}</div></div>` : ''}}
+            ${tags.length ? `<div class="section"><h2>${lang==='ar'?'العلامات':'Tags'}</h2><div class="tags-list">${tags.map(t=>`<span class="tag-item">${t}</span>`).join('')}</div></div>` : ''}
             
             <div class="section">
-                <h2>${{lang==='ar'?'السعر':'Pricing'}}</h2>
-                <p>${{a.pricing || priceLabels[a.pricing_type]}}</p>
-                ${{a.free_trial_details ? `<p style="margin-top:4px;font-size:0.9rem;color:var(--green)">${{a.free_trial_details}}</p>` : ''}}
+                <h2>${lang==='ar'?'السعر':'Pricing'}</h2>
+                <p>${a.pricing || priceLabels[a.pricing_type]}</p>
+                ${a.free_trial_details ? `<p style="margin-top:4px;font-size:0.9rem;color:var(--green)">${a.free_trial_details}</p>` : ''}
             </div>
             
             <div class="rating-section">
-                <h2 style="margin-bottom:12px">${{lang==='ar'?'التقييمات':'Ratings & Reviews'}} (${{reviews.length}}) — ${{avgRating}} ★</h2>
+                <h2 style="margin-bottom:12px">${lang==='ar'?'التقييمات':'Ratings & Reviews'} (${reviews.length}) — ${avgRating} ★</h2>
                 <div class="big-stars" id="bigStars">
                     <span data-v="1">★</span><span data-v="2">★</span><span data-v="3">★</span><span data-v="4">★</span><span data-v="5">★</span>
                 </div>
-                <p style="font-size:0.85rem;color:var(--text-3);margin-top:4px">${{lang==='ar'?'انقر لإضافة تقييمك':'Click to add your rating'}}</p>
+                <p style="font-size:0.85rem;color:var(--text-3);margin-top:4px">${lang==='ar'?'انقر لإضافة تقييمك':'Click to add your rating'}</p>
                 <div class="review-list">
-                    ${{reviews.slice(-10).reverse().map(r => `
+                    ${reviews.slice(-10).reverse().map(r => `
                         <div class="review">
-                            <div class="review-stars">${{'★'.repeat(r.r)+'☆'.repeat(5-r.r)}}</div>
-                            ${{r.t ? `<div class="review-text">${{r.t}}</div>` : ''}}
-                            <div class="review-date">${{new Date(r.d).toLocaleDateString()}}</div>
+                            <div class="review-stars">${'★'.repeat(r.r)+'☆'.repeat(5-r.r)}</div>
+                            ${r.t ? `<div class="review-text">${r.t}</div>` : ''}
+                            <div class="review-date">${new Date(r.d).toLocaleDateString()}</div>
                         </div>
-                    `).join('')}}
+                    `).join('')}
                 </div>
             </div>
         `;
         
         // Rating interaction
         let myRating = 0;
-        document.querySelectorAll('#bigStars span').forEach(sp => {{
-            sp.addEventListener('mouseenter', () => {{
+        document.querySelectorAll('#bigStars span').forEach(sp => {
+            sp.addEventListener('mouseenter', () => {
                 const v = parseInt(sp.dataset.v);
-                document.querySelectorAll('#bigStars span').forEach(s => {{
+                document.querySelectorAll('#bigStars span').forEach(s => {
                     s.classList.toggle('lit', parseInt(s.dataset.v) <= v);
-                }});
-            }});
-            sp.addEventListener('click', () => {{
+                });
+            });
+            sp.addEventListener('click', () => {
                 myRating = parseInt(sp.dataset.v);
                 const text = prompt(lang==='ar'?'اكتب مراجعة (اختياري):':'Write a review (optional):') || '';
                 const reviews2 = getReviews(a.id);
-                reviews2.push({{ r: myRating, t: text, d: new Date().toISOString() }});
+                reviews2.push({ r: myRating, t: text, d: new Date().toISOString() });
                 localStorage.setItem('rv_'+a.id, JSON.stringify(reviews2));
                 location.reload();
-            }});
-        }});
-    }});
+            });
+        });
+    });
 </script>
 </body>
 </html>
