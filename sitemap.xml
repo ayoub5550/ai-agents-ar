@@ -1025,4 +1025,34 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://ayoub5550.github.io/ai-agents-ar/blog/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://ayoub5550.github.io/ai-agents-ar/blog/ai-agents-2026.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ayoub5550.github.io/ai-agents-ar/blog/best-ai-writing-agents-2026.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ayoub5550.github.io/ai-agents-ar/blog/best-ai-coding-tools.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ayoub5550.github.io/ai-agents-ar/blog/best-ai-writing-tools.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ayoub5550.github.io/ai-agents-ar/blog/free-ai-tools.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
