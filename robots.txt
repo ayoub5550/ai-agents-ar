@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ayoub5550.github.io/ai-agents-ar/sitemap.xml

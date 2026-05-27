@@ -7,13 +7,28 @@
     "category_ar": "مساعد عام",
     "description": "وكيل AI مستقل يعمل كزميل عمل حقيقي. يكتب الكود، يبني المواقع، يبحث، يرسل الإيميلات، يدير Slack، وينشئ التقارير.",
     "official_description": "Viktor هو وكيل ذكاء اصطناعي مستقل بالكامل يعمل كزميل عمل حقيقي في فريقك. يتصل بـ Slack ويعمل بشكل مستمر — يكتب الكود، يبني المواقع والتطبيقات، يجري الأبحاث المعمّقة، يرسل الإيميلات، يدير المشاريع، وينشئ التقارير والعروض التقديمية. يتعلم من تفاعلاتك ويبني مهارات قابلة لإعادة الاستخدام. يدعم أكثر من 50 تكاملاً مع أدوات العمل مثل GitHub وGoogle وSlack وأكثر. يعمل 24/7 بدون توقف ويتحسن باستمرار مع كل مهمة ينجزها.",
-    "features": ["برمجة مستقلة", "بناء مواقع", "إرسال إيميلات", "إدارة Slack", "تقارير وعروض", "50+ تكامل", "تعلم مستمر", "عمل 24/7"],
+    "features": [
+      "برمجة مستقلة",
+      "بناء مواقع",
+      "إرسال إيميلات",
+      "إدارة Slack",
+      "تقارير وعروض",
+      "50+ تكامل",
+      "تعلم مستمر",
+      "عمل 24/7"
+    ],
     "pricing": "مدفوع",
     "pricing_type": "paid",
     "url": "https://viktor.com",
     "affiliate_url": "",
     "logo": "https://viktor.com/favicon.ico",
-    "tags": ["مستقل", "برمجة", "أتمتة", "تقارير", "بحث"],
+    "tags": [
+      "مستقل",
+      "برمجة",
+      "أتمتة",
+      "تقارير",
+      "بحث"
+    ],
     "featured": true,
     "open_source": false,
     "added_date": "2026-05-27",
@@ -27,13 +42,26 @@
     "category_ar": "مساعد عام",
     "description": "وكيل AI متعدد المهام يتصفح الويب ويجمع البيانات وينشئ التقارير والعروض التقديمية.",
     "official_description": "Manus هو وكيل ذكاء اصطناعي للأغراض العامة يسد الفجوة بين التفكير والفعل. لا يكتفي بالتفكير — بل ينجز المهام. يعمل بنظام متعدد الوكلاء حيث يقوم بتصفح الويب، جمع البيانات، تحليلها، وإنشاء تقارير احترافية مع مصادر موثقة. يمكنه إنشاء مواقع ويب، ملفات Excel، عروض PowerPoint، وتطبيقات كاملة من مجرد وصف نصي. يدعم مهام معقدة متعددة الخطوات مع تخطيط ذكي وتنفيذ مستقل.",
-    "features": ["بحث معمّق", "تصفح الويب", "إنشاء تقارير", "عروض تقديمية", "تحليل بيانات", "متعدد الوكلاء", "مصادر موثقة"],
+    "features": [
+      "بحث معمّق",
+      "تصفح الويب",
+      "إنشاء تقارير",
+      "عروض تقديمية",
+      "تحليل بيانات",
+      "متعدد الوكلاء",
+      "مصادر موثقة"
+    ],
     "pricing": "مجاني+ | من $39/شهر",
     "pricing_type": "freemium",
     "url": "https://manus.im",
     "affiliate_url": "https://manus.im/?ref=ai-agents-ar",
     "logo": "https://manus.im/favicon.ico",
-    "tags": ["بحث", "تقارير", "تصفح ويب", "عروض تقديمية"],
+    "tags": [
+      "بحث",
+      "تقارير",
+      "تصفح ويب",
+      "عروض تقديمية"
+    ],
     "featured": true,
     "open_source": false,
     "added_date": "2026-05-27",
@@ -47,13 +75,26 @@
     "category_ar": "برمجة",
     "description": "مهندس برمجيات AI مستقل بالكامل من Cognition Labs.",
     "official_description": "Devin هو أول مهندس برمجيات AI مستقل بالكامل في العالم، من تطوير Cognition Labs. يمتلك بيئة تطوير سحابية خاصة به مع محرر أكواد وترمينال ومتصفح. يمكنه تحليل المتطلبات، التخطيط لتنفيذ المشروع، كتابة الكود من الصفر، تشغيل الاختبارات، إصلاح الأخطاء، وإنشاء Pull Requests تلقائياً على GitHub. حقق نتائج استثنائية في SWE-bench وهو قادر على حل مشاكل هندسية معقدة بشكل مستقل تماماً.",
-    "features": ["بيئة تطوير كاملة", "تخطيط مشاريع", "كتابة كود من الصفر", "اختبار تلقائي", "Pull Requests", "إصلاح أخطاء", "SWE-bench"],
+    "features": [
+      "بيئة تطوير كاملة",
+      "تخطيط مشاريع",
+      "كتابة كود من الصفر",
+      "اختبار تلقائي",
+      "Pull Requests",
+      "إصلاح أخطاء",
+      "SWE-bench"
+    ],
     "pricing": "من $20/شهر",
     "pricing_type": "paid",
     "url": "https://devin.ai",
     "affiliate_url": "",
     "logo": "https://devin.ai/favicon.ico",
-    "tags": ["برمجة مستقلة", "GitHub", "اختبار", "مراجعة كود"],
+    "tags": [
+      "برمجة مستقلة",
+      "GitHub",
+      "اختبار",
+      "مراجعة كود"
+    ],
     "featured": true,
     "open_source": false,
     "added_date": "2026-05-27",
@@ -67,13 +108,26 @@
     "category_ar": "مساعد عام",
     "description": "وكيل OpenAI الذكي مع ميزة Operator للتحكم بالمتصفح.",
     "official_description": "ChatGPT هو نموذج محادثة AI من OpenAI وأكثر أدوات الذكاء الاصطناعي استخداماً في العالم مع أكثر من 300 مليون مستخدم أسبوعياً. مع ميزة Operator، يتحول إلى وكيل قادر على التحكم بالمتصفح وتنفيذ مهام حقيقية — حجز رحلات، تسوق عبر الإنترنت، ملء نماذج، والتفاعل مع أي موقع. يدعم GPT-4o وo3 مع رؤية حاسوبية، توليد صور، تحليل بيانات، وكتابة كود. متوفر على الويب والموبايل وسطح المكتب.",
-    "features": ["التحكم بالمتصفح", "تحليل صور", "توليد صور", "كتابة كود", "تحليل بيانات", "300M+ مستخدم", "متعدد المنصات"],
+    "features": [
+      "التحكم بالمتصفح",
+      "تحليل صور",
+      "توليد صور",
+      "كتابة كود",
+      "تحليل بيانات",
+      "300M+ مستخدم",
+      "متعدد المنصات"
+    ],
     "pricing": "مجاني+ | من $20/شهر",
     "pricing_type": "freemium",
     "url": "https://chat.openai.com",
     "affiliate_url": "https://chat.openai.com/?ref=ai-agents-ar",
     "logo": "https://chat.openai.com/favicon.ico",
-    "tags": ["محادثة", "تصفح ويب", "أتمتة", "متعدد المهام"],
+    "tags": [
+      "محادثة",
+      "تصفح ويب",
+      "أتمتة",
+      "متعدد المهام"
+    ],
     "featured": true,
     "open_source": false,
     "added_date": "2026-05-27",
@@ -87,13 +141,26 @@
     "category_ar": "مساعد عام",
     "description": "وكيل Anthropic للإنتاجية والتحليل العميق.",
     "official_description": "Claude هو مساعد AI من Anthropic، مصمم ليكون مفيداً وآمناً وصادقاً. يتميز بنافذة سياق ضخمة تصل إلى 200K توكن، مما يسمح بتحليل مستندات كاملة ومشاريع كبيرة. مع ميزة Cowork، يتحول إلى وكيل مستقل يعمل في الخلفية — يكتب الكود، يبحث في الويب، يحلل البيانات، وينشئ المستندات. Claude 4 Opus هو أذكى نموذج متاح مع قدرات تفكير معمّقة وبرمجة على مستوى الخبراء.",
-    "features": ["200K سياق", "تفكير معمّق", "وكيل Cowork", "تحليل مستندات", "برمجة متقدمة", "آمن وصادق", "Computer Use"],
+    "features": [
+      "200K سياق",
+      "تفكير معمّق",
+      "وكيل Cowork",
+      "تحليل مستندات",
+      "برمجة متقدمة",
+      "آمن وصادق",
+      "Computer Use"
+    ],
     "pricing": "من $17/شهر",
     "pricing_type": "paid",
     "url": "https://claude.ai",
     "affiliate_url": "",
     "logo": "https://claude.ai/favicon.ico",
-    "tags": ["إنتاجية", "تحليل", "مستندات", "بحث"],
+    "tags": [
+      "إنتاجية",
+      "تحليل",
+      "مستندات",
+      "بحث"
+    ],
     "featured": true,
     "open_source": false,
     "added_date": "2026-05-27",
@@ -107,13 +174,25 @@
     "category_ar": "برمجة",
     "description": "وكيل Anthropic للبرمجة في الترمينال. أفضل أداء في SWE-bench.",
     "official_description": "Claude Code هو أداة برمجة وكيلية (agentic) من Anthropic تعمل في الترمينال. تفهم قاعدة الكود بالكامل، تنفذ الأوامر، تعدل الملفات، وتنشئ commits و Pull Requests. حققت أفضل أداء في SWE-bench بنسبة 80.9%. تدعم ميزة Agent Teams لتقسيم المهام الكبيرة إلى فرق من الوكلاء المتوازيين. متكاملة مع Git و GitHub وتدعم MCP للتوسع بأدوات خارجية.",
-    "features": ["SWE-bench 80.9%", "Agent Teams", "Git متكامل", "MCP Protocol", "تعديل ملفات", "ترمينال مباشر"],
+    "features": [
+      "SWE-bench 80.9%",
+      "Agent Teams",
+      "Git متكامل",
+      "MCP Protocol",
+      "تعديل ملفات",
+      "ترمينال مباشر"
+    ],
     "pricing": "من $20/شهر + API",
     "pricing_type": "paid",
     "url": "https://docs.anthropic.com/en/docs/claude-code",
     "affiliate_url": "",
     "logo": "https://claude.ai/favicon.ico",
-    "tags": ["ترمينال", "Git", "SWE-bench", "فرق وكلاء"],
+    "tags": [
+      "ترمينال",
+      "Git",
+      "SWE-bench",
+      "فرق وكلاء"
+    ],
     "featured": false,
     "open_source": false,
     "added_date": "2026-05-27"
@@ -126,13 +205,25 @@
     "category_ar": "برمجة",
     "description": "محرر أكواد ذكي مبني على VS Code مع AI مدمج.",
     "official_description": "Cursor هو محرر أكواد مبني على VS Code مع AI أصلي مدمج في كل جزء من تجربة البرمجة. يوفر إكمال تلقائي فائق الذكاء يتنبأ بتعديلاتك التالية، محادثة مع الكود تفهم مشروعك بالكامل، وتعديلات متعددة الملفات بأمر واحد. يدعم عدة نماذج AI (Claude, GPT-4o, وأكثر). أصبح المحرر المفضل لأكثر من مليون مبرمج حول العالم. يتميز بوضع Agent الذي يكتب كوداً كاملاً ويشغل الأوامر بشكل مستقل.",
-    "features": ["إكمال ذكي", "محادثة مع الكود", "تعديل متعدد الملفات", "وضع Agent", "نماذج متعددة", "1M+ مبرمج"],
+    "features": [
+      "إكمال ذكي",
+      "محادثة مع الكود",
+      "تعديل متعدد الملفات",
+      "وضع Agent",
+      "نماذج متعددة",
+      "1M+ مبرمج"
+    ],
     "pricing": "مجاني+ | من $20/شهر",
     "pricing_type": "freemium",
     "url": "https://cursor.com",
     "affiliate_url": "https://cursor.com/?ref=ai-agents-ar",
     "logo": "https://cursor.com/favicon.ico",
-    "tags": ["محرر أكواد", "VS Code", "إكمال تلقائي", "Agent"],
+    "tags": [
+      "محرر أكواد",
+      "VS Code",
+      "إكمال تلقائي",
+      "Agent"
+    ],
     "featured": true,
     "open_source": false,
     "added_date": "2026-05-27",
@@ -146,13 +237,25 @@
     "category_ar": "برمجة",
     "description": "مساعد AI للبرمجة من GitHub — المساعد الذي يبني معك.",
     "official_description": "GitHub Copilot هو مساعد البرمجة الأشهر بالذكاء الاصطناعي، مدمج مباشرة في VS Code وJetBrains وNeovim. شعاره 'The AI assistant that builds with you'. يوفر إكمال تلقائي للكود في الوقت الحقيقي، شرح الكود، إنشاء اختبارات، ومحادثة ذكية عن المشروع. Copilot Workspace يتيح التخطيط وتنفيذ المهام بالكامل من issue إلى Pull Request. يدعم عشرات لغات البرمجة ويستخدمه أكثر من 1.8 مليون مطور.",
-    "features": ["إكمال كود فوري", "Copilot Workspace", "محادثة ذكية", "اختبارات تلقائية", "1.8M+ مطور", "متعدد المحررات"],
+    "features": [
+      "إكمال كود فوري",
+      "Copilot Workspace",
+      "محادثة ذكية",
+      "اختبارات تلقائية",
+      "1.8M+ مطور",
+      "متعدد المحررات"
+    ],
     "pricing": "مجاني+ | من $10/شهر",
     "pricing_type": "freemium",
     "url": "https://github.com/copilot",
     "affiliate_url": "",
     "logo": "https://github.githubassets.com/favicons/favicon.svg",
-    "tags": ["VS Code", "إكمال كود", "GitHub", "متعدد اللغات"],
+    "tags": [
+      "VS Code",
+      "إكمال كود",
+      "GitHub",
+      "متعدد اللغات"
+    ],
     "featured": true,
     "open_source": false,
     "added_date": "2026-06-01",
@@ -166,13 +269,25 @@
     "category_ar": "برمجة",
     "description": "محرر أكواد AI من Codeium — يفهم نيّتك ويكتب الكود بدلاً عنك.",
     "official_description": "Windsurf (سابقاً Codeium) هو محرر أكواد ذكي يعمل بالذكاء الاصطناعي مع ميزة Cascade الفريدة — نظام وكيلي يفهم نيّتك ويكتب الكود بالكامل. يتميز بالقدرة على التفكير المعمّق وتنفيذ مهام برمجية معقدة متعددة الخطوات. يدعم تعديل عدة ملفات في وقت واحد، تشغيل أوامر الترمينال، والبحث في الكود. مبني على VS Code مع تكامل أصلي لأقوى نماذج AI. أكثر من 2 مليون مطور يستخدمونه.",
-    "features": ["Cascade Agent", "تفكير معمّق", "تعديل متعدد الملفات", "ترمينال مدمج", "2M+ مطور", "مبني على VS Code"],
+    "features": [
+      "Cascade Agent",
+      "تفكير معمّق",
+      "تعديل متعدد الملفات",
+      "ترمينال مدمج",
+      "2M+ مطور",
+      "مبني على VS Code"
+    ],
     "pricing": "مجاني+ | من $15/شهر",
     "pricing_type": "freemium",
     "url": "https://windsurf.com",
     "affiliate_url": "",
     "logo": "https://windsurf.com/favicon.ico",
-    "tags": ["محرر أكواد", "Cascade", "وكيل برمجي", "VS Code"],
+    "tags": [
+      "محرر أكواد",
+      "Cascade",
+      "وكيل برمجي",
+      "VS Code"
+    ],
     "featured": false,
     "open_source": false,
     "added_date": "2026-06-01"
@@ -185,13 +300,25 @@
     "category_ar": "برمجة",
     "description": "مهندس برمجيات AI مفتوح المصدر (سابقاً OpenDevin).",
     "official_description": "OpenHands (سابقاً OpenDevin) هو منصة مفتوحة المصدر لوكلاء البرمجة الذين يفعلون ما يفعله المطور البشري تماماً — تعديل الكود، تشغيل الأوامر، تصفح الويب، واستدعاء APIs. مصمم لحل مشاكل GitHub الحقيقية وبناء مشاريع كاملة بشكل مستقل. يعمل في بيئة Docker معزولة للأمان. يدعم أي نموذج LLM كـ backend ويمكن تشغيله محلياً أو سحابياً.",
-    "features": ["مفتوح المصدر", "Docker معزول", "أي نموذج LLM", "تعديل كود", "تصفح ويب", "استدعاء APIs"],
+    "features": [
+      "مفتوح المصدر",
+      "Docker معزول",
+      "أي نموذج LLM",
+      "تعديل كود",
+      "تصفح ويب",
+      "استدعاء APIs"
+    ],
     "pricing": "مجاني (مفتوح المصدر)",
     "pricing_type": "free",
     "url": "https://github.com/All-Hands-AI/OpenHands",
     "affiliate_url": "",
     "logo": "",
-    "tags": ["مفتوح المصدر", "GitHub", "مستقل", "Docker"],
+    "tags": [
+      "مفتوح المصدر",
+      "GitHub",
+      "مستقل",
+      "Docker"
+    ],
     "featured": false,
     "open_source": true,
     "added_date": "2026-05-27"
@@ -204,13 +331,25 @@
     "category_ar": "بدون كود",
     "description": "حوّل وصفك النصي إلى تطبيق ويب كامل في المتصفح.",
     "official_description": "Bolt.new من StackBlitz هو أداة ثورية تحوّل أي وصف نصي إلى تطبيق ويب كامل يعمل في المتصفح مباشرة. لا حاجة لإعداد محلي أو ترمينال — اكتب ما تريد وسيقوم ببناء التطبيق بالكامل مع واجهة أمامية وخلفية وقاعدة بيانات. يدعم React, Next.js, Vue, Svelte, وأكثر. يمكنك معاينة التطبيق فوراً ونشره بنقرة واحدة على Netlify أو Vercel. مثالي للنماذج الأولية والمشاريع الصغيرة.",
-    "features": ["بناء في المتصفح", "نشر بنقرة", "React/Next.js/Vue", "بدون إعداد", "معاينة فورية", "قاعدة بيانات"],
+    "features": [
+      "بناء في المتصفح",
+      "نشر بنقرة",
+      "React/Next.js/Vue",
+      "بدون إعداد",
+      "معاينة فورية",
+      "قاعدة بيانات"
+    ],
     "pricing": "مجاني+ | مدفوع",
     "pricing_type": "freemium",
     "url": "https://bolt.new",
     "affiliate_url": "https://bolt.new/?ref=ai-agents-ar",
     "logo": "https://bolt.new/favicon.ico",
-    "tags": ["بدون كود", "تطبيقات ويب", "نشر فوري", "متصفح"],
+    "tags": [
+      "بدون كود",
+      "تطبيقات ويب",
+      "نشر فوري",
+      "متصفح"
+    ],
     "featured": false,
     "open_source": false,
     "added_date": "2026-05-27"
@@ -223,13 +362,26 @@
     "category_ar": "بدون كود",
     "description": "بناء تطبيقات بالمحادثة — اوصف ما تريد وسيبنيه لك.",
     "official_description": "Lovable (سابقاً GPT Engineer) هو منصة بناء تطبيقات بالذكاء الاصطناعي حيث تصف ما تريد بالكلام العادي وتحصل على تطبيق كامل جاهز للنشر. يولّد كود React + TypeScript + Tailwind نظيف وقابل للصيانة. يدعم Supabase للمصادقة وقواعد البيانات، Stripe للدفع، وربط API خارجي. كل تطبيق يُنشر تلقائياً على رابط lovable.app ويمكن تصديره إلى GitHub. أكثر من 2 مليون تطبيق تم إنشاؤه.",
-    "features": ["بناء بالمحادثة", "React + TypeScript", "Supabase مدمج", "Stripe مدمج", "نشر تلقائي", "تصدير GitHub", "2M+ تطبيق"],
+    "features": [
+      "بناء بالمحادثة",
+      "React + TypeScript",
+      "Supabase مدمج",
+      "Stripe مدمج",
+      "نشر تلقائي",
+      "تصدير GitHub",
+      "2M+ تطبيق"
+    ],
     "pricing": "مجاني+ | من $20/شهر",
     "pricing_type": "freemium",
     "url": "https://lovable.dev",
     "affiliate_url": "https://lovable.dev/?ref=ai-agents-ar",
     "logo": "https://lovable.dev/favicon.ico",
-    "tags": ["بدون كود", "بناء تطبيقات", "نشر", "محادثة"],
+    "tags": [
+      "بدون كود",
+      "بناء تطبيقات",
+      "نشر",
+      "محادثة"
+    ],
     "featured": false,
     "open_source": false,
     "added_date": "2026-05-27"
@@ -242,13 +394,25 @@
     "category_ar": "بدون كود",
     "description": "أنشئ واجهات React + Tailwind من وصف نصي بجودة إنتاجية.",
     "official_description": "v0 هو أداة من Vercel لتوليد واجهات مستخدم (UI) بالذكاء الاصطناعي. اكتب وصفاً لما تريده — زر، نموذج، صفحة كاملة — وسيولّد كود React + Tailwind CSS + shadcn/ui جاهز للإنتاج. يمكنك تعديل النتيجة بالمحادثة حتى تصل للتصميم المثالي. يدعم التصدير المباشر إلى مشاريع Next.js ونشرها على Vercel بنقرة. مثالي للمصممين والمطورين الذين يريدون تحويل أفكارهم إلى واقع بسرعة.",
-    "features": ["توليد UI", "React + Tailwind", "shadcn/ui", "تعديل بالمحادثة", "نشر على Vercel", "تصدير مباشر"],
+    "features": [
+      "توليد UI",
+      "React + Tailwind",
+      "shadcn/ui",
+      "تعديل بالمحادثة",
+      "نشر على Vercel",
+      "تصدير مباشر"
+    ],
     "pricing": "مجاني+ | Pro",
     "pricing_type": "freemium",
     "url": "https://v0.dev",
     "affiliate_url": "",
     "logo": "https://v0.dev/favicon.ico",
-    "tags": ["React", "Tailwind", "واجهات", "تصميم"],
+    "tags": [
+      "React",
+      "Tailwind",
+      "واجهات",
+      "تصميم"
+    ],
     "featured": false,
     "open_source": false,
     "added_date": "2026-05-27"
@@ -261,13 +425,25 @@
     "category_ar": "بدون كود",
     "description": "وكيل AI يبني تطبيقات كاملة من وصف نصي وينشرها تلقائياً.",
     "official_description": "Replit Agent هو وكيل AI مدمج في بيئة تطوير Replit السحابية. اوصف تطبيقك بالكلام العادي وسيقوم ببنائه بالكامل — frontend, backend, database — ونشره تلقائياً على رابط .replit.app. يعمل في بيئة سحابية كاملة مع ترمينال وقاعدة بيانات وحزم npm/pip. يمكنه تصحيح الأخطاء، إضافة ميزات، وتعديل التصميم بالتكرار. مثالي لمن يريد بناء تطبيقات بدون خبرة برمجية.",
-    "features": ["بناء كامل", "نشر تلقائي", "بيئة سحابية", "قاعدة بيانات", "تصحيح أخطاء", "تصميم تفاعلي"],
+    "features": [
+      "بناء كامل",
+      "نشر تلقائي",
+      "بيئة سحابية",
+      "قاعدة بيانات",
+      "تصحيح أخطاء",
+      "تصميم تفاعلي"
+    ],
     "pricing": "مجاني+ | من $25/شهر",
     "pricing_type": "freemium",
     "url": "https://replit.com",
     "affiliate_url": "https://replit.com/?ref=ai-agents-ar",
     "logo": "https://replit.com/favicon.ico",
-    "tags": ["بناء تطبيقات", "نشر تلقائي", "سحابي", "Full-stack"],
+    "tags": [
+      "بناء تطبيقات",
+      "نشر تلقائي",
+      "سحابي",
+      "Full-stack"
+    ],
     "featured": false,
     "open_source": false,
     "added_date": "2026-05-27"
@@ -280,13 +456,25 @@
     "category_ar": "بحث وتحليل",
     "description": "محرك بحث AI متقدم مع إجابات موثقة المصادر.",
     "official_description": "Perplexity هو محرك إجابات AI يجمع بين قوة نماذج اللغة الكبيرة والبحث في الإنترنت في الوقت الحقيقي. كل إجابة مدعومة بمصادر موثقة يمكنك التحقق منها. يدعم وضع Pro Search للأبحاث المعقدة متعددة الخطوات، وSonar API للمطورين. مع اشتراك $200/شهر يتيح Deep Research الذي يجري أبحاثاً شاملة ويكتب تقارير مفصلة. يدعم تحليل الصور والملفات والرسوم البيانية.",
-    "features": ["مصادر موثقة", "بحث وقت حقيقي", "Pro Search", "Deep Research", "تحليل صور", "Sonar API"],
+    "features": [
+      "مصادر موثقة",
+      "بحث وقت حقيقي",
+      "Pro Search",
+      "Deep Research",
+      "تحليل صور",
+      "Sonar API"
+    ],
     "pricing": "مجاني+ | $200/شهر",
     "pricing_type": "freemium",
     "url": "https://perplexity.ai",
     "affiliate_url": "https://perplexity.ai/?ref=ai-agents-ar",
     "logo": "https://perplexity.ai/favicon.ico",
-    "tags": ["بحث", "مصادر", "تحليل", "وقت حقيقي"],
+    "tags": [
+      "بحث",
+      "مصادر",
+      "تحليل",
+      "وقت حقيقي"
+    ],
     "featured": true,
     "open_source": false,
     "added_date": "2026-05-27",
@@ -300,13 +488,24 @@
     "category_ar": "مساعد عام",
     "description": "وكيل جوجل للتحكم بالمتصفح مع Gemini.",
     "official_description": "Project Mariner هو وكيل AI من Google DeepMind مبني على Gemini 2.0. يعمل كإضافة Chrome قادرة على فهم محتوى صفحات الويب (نصوص، صور، نماذج) والتفاعل معها — النقر، الكتابة، التمرير، والتنقل. ينفذ مهام الويب البسيطة والمعقدة داخل نظام Google البيئي. حقق نسبة نجاح 83.5% في معيار WebVoyager. يعمل مع إشراف المستخدم لضمان الأمان.",
-    "features": ["تحكم بالمتصفح", "Gemini 2.0", "83.5% نجاح", "إضافة Chrome", "أمان مع إشراف"],
+    "features": [
+      "تحكم بالمتصفح",
+      "Gemini 2.0",
+      "83.5% نجاح",
+      "إضافة Chrome",
+      "أمان مع إشراف"
+    ],
     "pricing": "$249.99/شهر (Ultra)",
     "pricing_type": "paid",
     "url": "https://deepmind.google/technologies/project-mariner/",
     "affiliate_url": "",
     "logo": "https://www.google.com/favicon.ico",
-    "tags": ["جوجل", "متصفح", "أتمتة ويب", "Gemini"],
+    "tags": [
+      "جوجل",
+      "متصفح",
+      "أتمتة ويب",
+      "Gemini"
+    ],
     "featured": false,
     "open_source": false,
     "added_date": "2026-05-27"
@@ -319,13 +518,25 @@
     "category_ar": "إنتاجية",
     "description": "مساعد AI مدمج في Microsoft 365 لإنتاجية فائقة.",
     "official_description": "Microsoft Copilot هو مساعد AI مدمج في جميع تطبيقات Microsoft 365. في Word يكتب المسودات ويلخص المستندات، في Excel يحلل البيانات ويولّد صيغ ورسوم بيانية، في PowerPoint ينشئ عروضاً كاملة من مستند أو فكرة، في Teams يلخص الاجتماعات ويكتب الردود. يعمل مع Copilot Studio لبناء وكلاء مخصصين. متوفر كتطبيق مستقل مجاني مع Bing وDALL-E مدمجين.",
-    "features": ["Word AI", "Excel AI", "PowerPoint AI", "Teams AI", "Copilot Studio", "DALL-E مدمج"],
+    "features": [
+      "Word AI",
+      "Excel AI",
+      "PowerPoint AI",
+      "Teams AI",
+      "Copilot Studio",
+      "DALL-E مدمج"
+    ],
     "pricing": "مجاني+ | $15/مستخدم/شهر",
     "pricing_type": "freemium",
     "url": "https://copilot.microsoft.com",
     "affiliate_url": "",
     "logo": "https://copilot.microsoft.com/favicon.ico",
-    "tags": ["مايكروسوفت", "Office", "إنتاجية", "Excel"],
+    "tags": [
+      "مايكروسوفت",
+      "Office",
+      "إنتاجية",
+      "Excel"
+    ],
     "featured": false,
     "open_source": false,
     "added_date": "2026-05-27"
@@ -338,13 +549,26 @@
     "category_ar": "مساعد عام",
     "description": "وكيل AI مفتوح المصدر قابل للاستضافة الذاتية مع Telegram.",
     "official_description": "OpenClaw هو منصة وكيل AI مفتوحة المصدر قابلة للاستضافة الذاتية. يتصل بـ Telegram وWhatsApp ويعمل كموظف AI شخصي. يدعم أدوات مخصصة (tools)، متصفح مدمج، نظام ملفات، وتنفيذ أوامر. يعمل مع أي نموذج LLM عبر OpenAI API. يمكن نشره على Docker أو HuggingFace Spaces. مثالي للمطورين الذين يريدون بناء وكيل مخصص بالكامل تحت سيطرتهم.",
-    "features": ["مفتوح المصدر", "استضافة ذاتية", "Telegram", "WhatsApp", "أدوات مخصصة", "متصفح مدمج", "أي نموذج LLM"],
+    "features": [
+      "مفتوح المصدر",
+      "استضافة ذاتية",
+      "Telegram",
+      "WhatsApp",
+      "أدوات مخصصة",
+      "متصفح مدمج",
+      "أي نموذج LLM"
+    ],
     "pricing": "مجاني (استضافة ذاتية)",
     "pricing_type": "free",
     "url": "https://openclaw.ai",
     "affiliate_url": "",
     "logo": "",
-    "tags": ["مفتوح المصدر", "استضافة ذاتية", "Telegram", "أدوات مخصصة"],
+    "tags": [
+      "مفتوح المصدر",
+      "استضافة ذاتية",
+      "Telegram",
+      "أدوات مخصصة"
+    ],
     "featured": false,
     "open_source": true,
     "added_date": "2026-05-27"
@@ -357,13 +581,27 @@
     "category_ar": "مساعد عام",
     "description": "وكيل AI شخصي على Telegram مع 20 أداة مخصصة.",
     "official_description": "Tony Agent هو وكيل AI شخصي مبني على OpenClaw ومصمم خصيصاً للعمل عبر Telegram. مجهز بـ 20 أداة مخصصة تشمل: إرسال وقراءة البريد الإلكتروني، بحث الويب، GitHub، توليد صور، معالجة PDF، ترجمة، OCR، معالجة بيانات، حاسبة، طقس، QR codes، والمزيد. يعمل بنموذج Qwen 3.5 397B مع نظام تخطيط مستوحى من Manus AI. يعمل 24/7 على HuggingFace Spaces مع ذاكرة SQLite.",
-    "features": ["20 أداة", "Telegram", "بريد إلكتروني", "GitHub", "توليد صور", "OCR", "تخطيط Manus", "24/7"],
+    "features": [
+      "20 أداة",
+      "Telegram",
+      "بريد إلكتروني",
+      "GitHub",
+      "توليد صور",
+      "OCR",
+      "تخطيط Manus",
+      "24/7"
+    ],
     "pricing": "مجاني (استضافة ذاتية)",
     "pricing_type": "free",
     "url": "https://ayoub5550-huggingclaw.hf.space",
     "affiliate_url": "",
     "logo": "",
-    "tags": ["Telegram", "أدوات مخصصة", "بريد", "استضافة ذاتية"],
+    "tags": [
+      "Telegram",
+      "أدوات مخصصة",
+      "بريد",
+      "استضافة ذاتية"
+    ],
     "featured": true,
     "open_source": true,
     "added_date": "2026-05-27",
@@ -377,13 +615,24 @@
     "category_ar": "بحث وتحليل",
     "description": "محرك بحث AI مخصص للمبرمجين مع إجابات تقنية دقيقة.",
     "official_description": "Phind هو محرك بحث AI مصمم خصيصاً للمطورين. يجيب على الأسئلة التقنية بدقة عالية مع أمثلة كود جاهزة للاستخدام ومصادر موثقة. يدعم البحث في الإنترنت والوثائق التقنية في نفس الوقت. يمكنه فهم سياق المشروع وتقديم حلول مخصصة. يتميز بسرعة الاستجابة ودقة الإجابات التقنية مقارنة بمحركات البحث العامة. متوفر مجاناً مع خيارات Pro.",
-    "features": ["بحث تقني", "أمثلة كود", "مصادر موثقة", "سريع", "سياق المشروع"],
+    "features": [
+      "بحث تقني",
+      "أمثلة كود",
+      "مصادر موثقة",
+      "سريع",
+      "سياق المشروع"
+    ],
     "pricing": "مجاني+ | Pro",
     "pricing_type": "freemium",
     "url": "https://phind.com",
     "affiliate_url": "",
     "logo": "https://phind.com/favicon.ico",
-    "tags": ["بحث تقني", "برمجة", "مصادر", "مطورين"],
+    "tags": [
+      "بحث تقني",
+      "برمجة",
+      "مصادر",
+      "مطورين"
+    ],
     "featured": false,
     "open_source": false,
     "added_date": "2026-06-01"
@@ -396,13 +645,25 @@
     "category_ar": "برمجة",
     "description": "إكمال كود AI يعمل على خوادمك الخاصة مع خصوصية كاملة.",
     "official_description": "Tabnine هو مساعد برمجة AI يركز على الخصوصية والأمان. على عكس الحلول الأخرى، يمكن تشغيله بالكامل على خوادمك الخاصة (on-premise) مع ضمان عدم مشاركة الكود مع أطراف خارجية. يوفر إكمال تلقائي ذكي، توليد كود من تعليقات، محادثة مع الكود، وإنشاء اختبارات. يتعلم من أنماط فريقك ويقترح كوداً متوافقاً مع معاييركم. يدعم 30+ لغة برمجة و15+ محرر أكواد.",
-    "features": ["خصوصية كاملة", "استضافة ذاتية", "30+ لغة", "15+ محرر", "تعلم من الفريق", "اختبارات تلقائية"],
+    "features": [
+      "خصوصية كاملة",
+      "استضافة ذاتية",
+      "30+ لغة",
+      "15+ محرر",
+      "تعلم من الفريق",
+      "اختبارات تلقائية"
+    ],
     "pricing": "مجاني+ | من $12/شهر",
     "pricing_type": "freemium",
     "url": "https://tabnine.com",
     "affiliate_url": "",
     "logo": "https://tabnine.com/favicon.ico",
-    "tags": ["خصوصية", "إكمال كود", "استضافة ذاتية", "مؤسسات"],
+    "tags": [
+      "خصوصية",
+      "إكمال كود",
+      "استضافة ذاتية",
+      "مؤسسات"
+    ],
     "featured": false,
     "open_source": false,
     "added_date": "2026-06-01"
@@ -415,13 +676,26 @@
     "category_ar": "برمجة",
     "description": "إضافة VS Code تمنح AI وصولاً كاملاً للترمينال والمتصفح.",
     "official_description": "Cline هي إضافة VS Code مفتوحة المصدر تمنح وكيل AI وصولاً كاملاً لبيئة التطوير — إنشاء وتعديل الملفات، تشغيل أوامر الترمينال، واستخدام المتصفح. تعمل مع أي نموذج (Claude, GPT, Gemini, محلي). تتميز بشفافية كاملة حيث يعرض كل خطوة قبل التنفيذ ويطلب الموافقة. تدعم MCP للتكامل مع أدوات خارجية. أكثر من 1.2 مليون تثبيت على VS Code Marketplace.",
-    "features": ["VS Code", "ترمينال كامل", "متصفح مدمج", "أي نموذج", "MCP", "موافقة خطوة بخطوة", "1.2M تثبيت"],
+    "features": [
+      "VS Code",
+      "ترمينال كامل",
+      "متصفح مدمج",
+      "أي نموذج",
+      "MCP",
+      "موافقة خطوة بخطوة",
+      "1.2M تثبيت"
+    ],
     "pricing": "مجاني + API",
     "pricing_type": "free",
     "url": "https://cline.bot",
     "affiliate_url": "",
     "logo": "",
-    "tags": ["VS Code", "ترمينال", "متصفح", "مفتوح المصدر"],
+    "tags": [
+      "VS Code",
+      "ترمينال",
+      "متصفح",
+      "مفتوح المصدر"
+    ],
     "featured": false,
     "open_source": true,
     "added_date": "2026-05-27"
@@ -434,13 +708,25 @@
     "category_ar": "برمجة",
     "description": "شريك البرمجة AI في الترمينال — يعرف Git ويدعم أي نموذج.",
     "official_description": "Aider هو أداة برمجة زوجية (pair programming) مع AI في الترمينال. يفهم Git بشكل أصلي — يُنشئ commits ذكية مع رسائل واضحة. يعمل مع أي نموذج LLM (Claude, GPT, Gemini, DeepSeek, محلي). يمكنه تعديل عدة ملفات في وقت واحد، إضافة ملفات جديدة، وإنشاء اختبارات. يتميز ببساطة الاستخدام — أمر واحد `aider` في مجلد المشروع ويبدأ العمل. حقق أداءً ممتازاً في SWE-bench Lite.",
-    "features": ["Git أصلي", "أي نموذج LLM", "تعديل متعدد الملفات", "commits ذكية", "SWE-bench", "بسيط الاستخدام"],
+    "features": [
+      "Git أصلي",
+      "أي نموذج LLM",
+      "تعديل متعدد الملفات",
+      "commits ذكية",
+      "SWE-bench",
+      "بسيط الاستخدام"
+    ],
     "pricing": "مجاني (مفتوح المصدر) + API",
     "pricing_type": "free",
     "url": "https://aider.chat",
     "affiliate_url": "",
     "logo": "",
-    "tags": ["ترمينال", "Git", "مفتوح المصدر", "Pair Programming"],
+    "tags": [
+      "ترمينال",
+      "Git",
+      "مفتوح المصدر",
+      "Pair Programming"
+    ],
     "featured": false,
     "open_source": true,
     "added_date": "2026-05-27"
@@ -453,13 +739,25 @@
     "category_ar": "برمجة",
     "description": "وكيل جوجل المفتوح المصدر للترمينال — مجاني بحساب جوجل.",
     "official_description": "Gemini CLI هو وكيل برمجة مفتوح المصدر من Google يعمل في الترمينال. يستخدم حلقة ReAct (تفكير → فعل → ملاحظة) لحل المهام البرمجية. يدعم Model Context Protocol (MCP) للتكامل مع أدوات خارجية. يوفر سياق يصل إلى مليون توكن لفهم مشاريع كبيرة بالكامل. مجاني تماماً بحساب Google — 60 طلب/دقيقة مع Gemini 2.5 Pro. يعمل على Linux, macOS, وWindows.",
-    "features": ["مجاني 100%", "مليون توكن سياق", "MCP Protocol", "حلقة ReAct", "60 طلب/دقيقة", "مفتوح المصدر"],
+    "features": [
+      "مجاني 100%",
+      "مليون توكن سياق",
+      "MCP Protocol",
+      "حلقة ReAct",
+      "60 طلب/دقيقة",
+      "مفتوح المصدر"
+    ],
     "pricing": "مجاني",
     "pricing_type": "free",
     "url": "https://github.com/google-gemini/gemini-cli",
     "affiliate_url": "",
     "logo": "https://www.google.com/favicon.ico",
-    "tags": ["جوجل", "ترمينال", "مفتوح المصدر", "مجاني"],
+    "tags": [
+      "جوجل",
+      "ترمينال",
+      "مفتوح المصدر",
+      "مجاني"
+    ],
     "featured": false,
     "open_source": true,
     "added_date": "2026-05-27"
@@ -472,13 +770,25 @@
     "category_ar": "برمجة",
     "description": "محرر أكواد AI مع توليد وشرح وتحويل الكود بين اللغات.",
     "official_description": "Blackbox AI هو مساعد برمجة AI يوفر إكمال تلقائي للكود، توليد كود من وصف نصي، شرح الكود، تحويل الكود بين لغات البرمجة، وبحث في الكود عبر ملايين المستودعات. يعمل كإضافة VS Code وتطبيق ويب. يدعم أكثر من 20 لغة برمجة ويتميز بسرعة الاستجابة. متوفر بخطة مجانية سخية ومناسب للمبتدئين.",
-    "features": ["إكمال كود", "توليد كود", "شرح كود", "تحويل بين اللغات", "بحث في المستودعات", "20+ لغة"],
+    "features": [
+      "إكمال كود",
+      "توليد كود",
+      "شرح كود",
+      "تحويل بين اللغات",
+      "بحث في المستودعات",
+      "20+ لغة"
+    ],
     "pricing": "مجاني+ | مدفوع",
     "pricing_type": "freemium",
     "url": "https://blackbox.ai",
     "affiliate_url": "",
     "logo": "https://www.blackbox.ai/favicon.ico",
-    "tags": ["إكمال كود", "توليد", "شرح", "تحويل لغات"],
+    "tags": [
+      "إكمال كود",
+      "توليد",
+      "شرح",
+      "تحويل لغات"
+    ],
     "featured": false,
     "open_source": false,
     "added_date": "2026-06-01"
@@ -491,13 +801,25 @@
     "category_ar": "أطر عمل",
     "description": "رؤية AI المتاح للجميع — أول وكيل AI مستقل في العالم.",
     "official_description": "AutoGPT هو مشروع رائد أطلق ثورة وكلاء AI المستقلين. رؤيته 'AI المتاح للجميع — للاستخدام والبناء عليه'. يوفر منصة لبناء ونشر وكلاء AI يعملون بشكل مستقل لتحقيق أهداف محددة. يقسّم المهام الكبيرة إلى خطوات صغيرة وينفذها تلقائياً. يدعم الذاكرة طويلة المدى، تصفح الويب، وتنفيذ الأوامر. أكثر من 170,000 نجمة على GitHub مما يجعله من أشهر المشاريع المفتوحة المصدر.",
-    "features": ["170K+ نجمة GitHub", "وكيل مستقل", "تقسيم مهام", "ذاكرة طويلة", "تصفح ويب", "مفتوح المصدر"],
+    "features": [
+      "170K+ نجمة GitHub",
+      "وكيل مستقل",
+      "تقسيم مهام",
+      "ذاكرة طويلة",
+      "تصفح ويب",
+      "مفتوح المصدر"
+    ],
     "pricing": "مجاني+ | مدفوع",
     "pricing_type": "freemium",
     "url": "https://autogpt.net",
     "affiliate_url": "",
     "logo": "",
-    "tags": ["مفتوح المصدر", "مستقل", "تقسيم مهام", "رائد"],
+    "tags": [
+      "مفتوح المصدر",
+      "مستقل",
+      "تقسيم مهام",
+      "رائد"
+    ],
     "featured": false,
     "open_source": true,
     "added_date": "2026-06-01"
@@ -510,13 +832,25 @@
     "category_ar": "أطر عمل",
     "description": "منصة لبناء فرق وكلاء AI يعملون معاً.",
     "official_description": "CrewAI هو إطار عمل Python لبناء فرق (crews) من وكلاء AI يعملون معاً لأتمتة المهام المعقدة. كل وكيل له دور محدد (باحث، كاتب، محلل...) وأدوات خاصة ومهام معينة. يدعم التعاون الهرمي والتتابعي بين الوكلاء. يتكامل مع أي نموذج LLM ويوفر أدوات جاهزة للبحث والتصفح وتحليل البيانات. يدعم CrewAI Enterprise للشركات مع واجهة بدون كود.",
-    "features": ["فرق وكلاء", "أدوار محددة", "أي نموذج LLM", "أدوات جاهزة", "Enterprise", "Python"],
+    "features": [
+      "فرق وكلاء",
+      "أدوار محددة",
+      "أي نموذج LLM",
+      "أدوات جاهزة",
+      "Enterprise",
+      "Python"
+    ],
     "pricing": "مجاني+ | مدفوع",
     "pricing_type": "freemium",
     "url": "https://crewai.com",
     "affiliate_url": "",
     "logo": "https://crewai.com/favicon.ico",
-    "tags": ["فرق وكلاء", "أتمتة", "Python", "أوركسترا"],
+    "tags": [
+      "فرق وكلاء",
+      "أتمتة",
+      "Python",
+      "أوركسترا"
+    ],
     "featured": false,
     "open_source": true,
     "added_date": "2026-05-27"
@@ -529,13 +863,25 @@
     "category_ar": "أطر عمل",
     "description": "أكثر إطار عمل اعتماداً لبناء تطبيقات AI.",
     "official_description": "LangChain هو إطار العمل الأكثر اعتماداً لبناء تطبيقات الذكاء الاصطناعي. يوفر بنية معيارية لربط نماذج اللغة بمصادر البيانات والأدوات الخارجية. يدعم سلاسل المعالجة (chains)، وكلاء AI، ذاكرة محادثة، RAG (توليد معزز بالاسترجاع)، وأدوات متعددة. LangGraph يتيح بناء وكلاء stateful معقدين. LangSmith يوفر مراقبة وتتبع الأداء. يعمل مع Python وJavaScript.",
-    "features": ["سلاسل معالجة", "RAG", "LangGraph", "LangSmith", "ذاكرة محادثة", "Python + JS"],
+    "features": [
+      "سلاسل معالجة",
+      "RAG",
+      "LangGraph",
+      "LangSmith",
+      "ذاكرة محادثة",
+      "Python + JS"
+    ],
     "pricing": "مجاني (مفتوح المصدر)",
     "pricing_type": "free",
     "url": "https://langchain.com",
     "affiliate_url": "",
     "logo": "https://langchain.com/favicon.ico",
-    "tags": ["إطار عمل", "Python", "JavaScript", "RAG"],
+    "tags": [
+      "إطار عمل",
+      "Python",
+      "JavaScript",
+      "RAG"
+    ],
     "featured": false,
     "open_source": true,
     "added_date": "2026-05-27"
@@ -548,13 +894,25 @@
     "category_ar": "أطر عمل",
     "description": "منصة بناء تطبيقات AI بواجهة سحب وإفلات — بدون كود.",
     "official_description": "Dify هو منصة مفتوحة المصدر لبناء تطبيقات AI الوكيلية بواجهة مرئية سهلة. شعاره 'Leading Agentic Workflow Builder'. يتيح بناء chatbots، وكلاء AI، وسلاسل عمل معقدة بالسحب والإفلات. يدعم RAG مع تحميل المستندات، أكثر من 100 نموذج LLM، وأدوات مخصصة. يمكن نشره ذاتياً أو استخدام السحابة. أكثر من 142,000 نجمة على GitHub ويستخدمه أكثر من 500,000 فريق.",
-    "features": ["سحب وإفلات", "142K نجمة GitHub", "RAG مدمج", "100+ نموذج", "500K+ فريق", "استضافة ذاتية"],
+    "features": [
+      "سحب وإفلات",
+      "142K نجمة GitHub",
+      "RAG مدمج",
+      "100+ نموذج",
+      "500K+ فريق",
+      "استضافة ذاتية"
+    ],
     "pricing": "مجاني+ | مدفوع",
     "pricing_type": "freemium",
     "url": "https://dify.ai",
     "affiliate_url": "",
     "logo": "https://dify.ai/favicon.ico",
-    "tags": ["بصري", "سحب وإفلات", "RAG", "مفتوح المصدر"],
+    "tags": [
+      "بصري",
+      "سحب وإفلات",
+      "RAG",
+      "مفتوح المصدر"
+    ],
     "featured": false,
     "open_source": true,
     "added_date": "2026-06-01"
@@ -567,13 +925,25 @@
     "category_ar": "أطر عمل",
     "description": "منصة أتمتة سير عمل AI مع 400+ تكامل.",
     "official_description": "n8n هو منصة أتمتة سير عمل مفتوحة المصدر مع تركيز على AI. شعاره 'AI agents and workflows you can see and control'. يوفر واجهة مرئية لربط التطبيقات والخدمات مع أكثر من 400 تكامل جاهز. يدعم بناء وكلاء AI مع ذاكرة وأدوات، سلاسل عمل معقدة، ومعالجة بيانات. يمكن استضافته ذاتياً للخصوصية الكاملة. أكثر من 189,000 نجمة على GitHub.",
-    "features": ["400+ تكامل", "واجهة مرئية", "189K نجمة", "وكلاء AI", "استضافة ذاتية", "مفتوح المصدر"],
+    "features": [
+      "400+ تكامل",
+      "واجهة مرئية",
+      "189K نجمة",
+      "وكلاء AI",
+      "استضافة ذاتية",
+      "مفتوح المصدر"
+    ],
     "pricing": "مجاني+ | من $20/شهر",
     "pricing_type": "freemium",
     "url": "https://n8n.io",
     "affiliate_url": "",
     "logo": "https://n8n.io/favicon.ico",
-    "tags": ["أتمتة", "400+ تكامل", "بصري", "مفتوح المصدر"],
+    "tags": [
+      "أتمتة",
+      "400+ تكامل",
+      "بصري",
+      "مفتوح المصدر"
+    ],
     "featured": false,
     "open_source": true,
     "added_date": "2026-06-01"
@@ -586,13 +956,25 @@
     "category_ar": "أطر عمل",
     "description": "منصة ByteDance لبناء وكلاء AI ونشرها بدون كود.",
     "official_description": "Coze هي منصة تطوير تطبيقات AI من الجيل التالي من ByteDance. شعارها 'Connect AI to Your Apps'. تتيح بناء وكلاء AI وروبوتات محادثة بدون كود ونشرها عبر منصات متعددة (Discord, Telegram, Slack, وأكثر). توفر أدوات plugins جاهزة، قاعدة معرفة، ذاكرة محادثة، وسير عمل مرئية. يمكن بناء تطبيقات معقدة مع قوالب جاهزة وmagic assistant.",
-    "features": ["بدون كود", "نشر متعدد المنصات", "Plugins جاهزة", "قاعدة معرفة", "سير عمل مرئي", "قوالب جاهزة"],
+    "features": [
+      "بدون كود",
+      "نشر متعدد المنصات",
+      "Plugins جاهزة",
+      "قاعدة معرفة",
+      "سير عمل مرئي",
+      "قوالب جاهزة"
+    ],
     "pricing": "مجاني+ | مدفوع",
     "pricing_type": "freemium",
     "url": "https://coze.com",
     "affiliate_url": "",
     "logo": "https://www.coze.com/favicon.ico",
-    "tags": ["بدون كود", "ByteDance", "متعدد المنصات", "Plugins"],
+    "tags": [
+      "بدون كود",
+      "ByteDance",
+      "متعدد المنصات",
+      "Plugins"
+    ],
     "featured": false,
     "open_source": false,
     "added_date": "2026-06-01"
@@ -605,13 +987,25 @@
     "category_ar": "بنية تحتية",
     "description": "API بحث مصمم خصيصاً لوكلاء AI.",
     "official_description": "Tavily هو محرك بحث ومنصة استخراج محتوى مصممة خصيصاً لوكلاء AI وتطبيقات RAG. يوفر API بسيط يربط وكلاء AI بالويب للحصول على معلومات دقيقة في الوقت الحقيقي. يقوم بتصفية المحتوى غير المفيد ويعيد فقط المعلومات ذات الصلة. يدعم بحث عادي وبحث معمّق (Deep Research). يستخدمه LangChain, CrewAI, OpenAI وأكثر كأداة بحث افتراضية.",
-    "features": ["API بحث", "مصمم لـ AI", "وقت حقيقي", "تصفية ذكية", "Deep Research", "RAG"],
+    "features": [
+      "API بحث",
+      "مصمم لـ AI",
+      "وقت حقيقي",
+      "تصفية ذكية",
+      "Deep Research",
+      "RAG"
+    ],
     "pricing": "مجاني+ | مدفوع",
     "pricing_type": "freemium",
     "url": "https://tavily.com",
     "affiliate_url": "",
     "logo": "https://tavily.com/favicon.ico",
-    "tags": ["بحث API", "وقت حقيقي", "وكلاء AI", "RAG"],
+    "tags": [
+      "بحث API",
+      "وقت حقيقي",
+      "وكلاء AI",
+      "RAG"
+    ],
     "featured": false,
     "open_source": false,
     "added_date": "2026-05-27"
@@ -624,13 +1018,25 @@
     "category_ar": "بنية تحتية",
     "description": "شغّل نماذج AI على جهازك بخصوصية كاملة وبدون إنترنت.",
     "official_description": "Jan هو تطبيق مفتوح المصدر يتيح تشغيل نماذج AI محلياً على جهازك بخصوصية كاملة. يدعم تحميل وتشغيل نماذج من Hugging Face (Llama, Mistral, Phi, وأكثر) بنقرة واحدة. يعمل بدون إنترنت ولا يرسل بياناتك لأي سيرفر خارجي. يوفر واجهة محادثة أنيقة مع دعم لعدة محادثات وتخصيص النماذج. متوفر على Windows, macOS, وLinux.",
-    "features": ["خصوصية 100%", "بدون إنترنت", "Hugging Face", "واجهة أنيقة", "متعدد المنصات", "مفتوح المصدر"],
+    "features": [
+      "خصوصية 100%",
+      "بدون إنترنت",
+      "Hugging Face",
+      "واجهة أنيقة",
+      "متعدد المنصات",
+      "مفتوح المصدر"
+    ],
     "pricing": "مجاني",
     "pricing_type": "free",
     "url": "https://jan.ai",
     "affiliate_url": "",
     "logo": "https://jan.ai/favicon.ico",
-    "tags": ["خصوصية", "محلي", "مفتوح المصدر", "بدون إنترنت"],
+    "tags": [
+      "خصوصية",
+      "محلي",
+      "مفتوح المصدر",
+      "بدون إنترنت"
+    ],
     "featured": false,
     "open_source": true,
     "added_date": "2026-05-27"
@@ -643,13 +1049,24 @@
     "category_ar": "بنية تحتية",
     "description": "شغّل أي نموذج AI محلياً مع واجهة سهلة وAPI محلي.",
     "official_description": "LM Studio هو تطبيق لتشغيل نماذج AI المفتوحة محلياً على جهازك. يوفر واجهة سهلة الاستخدام لتحميل وتشغيل أي نموذج من Hugging Face — Llama, Qwen, Phi, Gemma, Mistral وأكثر. يحوّل جهازك إلى سيرفر AI محلي مع API متوافقة مع OpenAI. يدعم GPU و CPU مع تحسينات للأداء. مثالي للمطورين الذين يريدون اختبار النماذج محلياً والحفاظ على خصوصية البيانات.",
-    "features": ["واجهة سهلة", "API OpenAI محلي", "GPU + CPU", "آلاف النماذج", "خصوصية كاملة"],
+    "features": [
+      "واجهة سهلة",
+      "API OpenAI محلي",
+      "GPU + CPU",
+      "آلاف النماذج",
+      "خصوصية كاملة"
+    ],
     "pricing": "مجاني",
     "pricing_type": "free",
     "url": "https://lmstudio.ai",
     "affiliate_url": "",
     "logo": "https://lmstudio.ai/favicon.ico",
-    "tags": ["محلي", "مجاني", "خصوصية", "نماذج مفتوحة"],
+    "tags": [
+      "محلي",
+      "مجاني",
+      "خصوصية",
+      "نماذج مفتوحة"
+    ],
     "featured": false,
     "open_source": false,
     "added_date": "2026-05-27"
@@ -662,13 +1079,24 @@
     "category_ar": "بنية تحتية",
     "description": "بوابة واحدة للوصول لعشرات نماذج AI بأسعار أفضل.",
     "official_description": "OpenRouter هو بوابة API موحدة تتيح الوصول لعشرات نماذج AI من مزودين مختلفين (OpenAI, Anthropic, Google, Meta, وأكثر) عبر API واحد. يوفر أسعاراً تنافسية مع توجيه ذكي يختار أفضل مزود من حيث السرعة والتكلفة. يدعم fallback تلقائي ومقارنة بين النماذج. مثالي للمطورين الذين يريدون المرونة في اختيار النماذج بدون تغيير الكود.",
-    "features": ["API موحد", "عشرات النماذج", "أسعار تنافسية", "توجيه ذكي", "Fallback تلقائي"],
+    "features": [
+      "API موحد",
+      "عشرات النماذج",
+      "أسعار تنافسية",
+      "توجيه ذكي",
+      "Fallback تلقائي"
+    ],
     "pricing": "حسب الاستخدام",
     "pricing_type": "freemium",
     "url": "https://openrouter.ai",
     "affiliate_url": "",
     "logo": "https://openrouter.ai/favicon.ico",
-    "tags": ["API موحد", "نماذج متعددة", "أسعار أفضل", "توجيه ذكي"],
+    "tags": [
+      "API موحد",
+      "نماذج متعددة",
+      "أسعار أفضل",
+      "توجيه ذكي"
+    ],
     "featured": false,
     "open_source": false,
     "added_date": "2026-05-27"
@@ -681,13 +1109,24 @@
     "category_ar": "خدمة عملاء",
     "description": "وكيل AI لخدمة العملاء — $100M إيرادات في 21 شهر.",
     "official_description": "Sierra هي منصة وكلاء AI لخدمة العملاء أسسها Bret Taylor (رئيس OpenAI سابقاً). حققت $100M إيرادات سنوية في 21 شهراً فقط. تبني وكلاء AI يتعاملون مع استفسارات العملاء بلغة طبيعية — إرجاع المنتجات، تتبع الطلبات، تغيير الاشتراكات، والمزيد. تستخدمها شركات كبرى مثل Sonos وWeightWatchers. تتميز بفهم عميق للسياق والقدرة على اتخاذ إجراءات حقيقية.",
-    "features": ["$100M ARR", "لغة طبيعية", "إجراءات حقيقية", "تتبع طلبات", "شركات كبرى"],
+    "features": [
+      "$100M ARR",
+      "لغة طبيعية",
+      "إجراءات حقيقية",
+      "تتبع طلبات",
+      "شركات كبرى"
+    ],
     "pricing": "مؤسسات",
     "pricing_type": "enterprise",
     "url": "https://sierra.ai",
     "affiliate_url": "",
     "logo": "https://sierra.ai/favicon.ico",
-    "tags": ["خدمة عملاء", "مؤسسات", "محادثة", "$100M ARR"],
+    "tags": [
+      "خدمة عملاء",
+      "مؤسسات",
+      "محادثة",
+      "$100M ARR"
+    ],
     "featured": false,
     "open_source": false,
     "added_date": "2026-05-27"
@@ -700,13 +1139,25 @@
     "category_ar": "خدمة عملاء",
     "description": "منصة وكلاء AI للمؤسسات مع دعم صوتي ونصي متعدد القنوات.",
     "official_description": "Kore.ai هي منصة وكلاء AI للمؤسسات الكبرى توفر حلول أتمتة شاملة لخدمة العملاء. تدعم التفاعل الصوتي والنصي عبر قنوات متعددة (هاتف، ويب، تطبيقات، WhatsApp). توفر أوركسترا ذكية لتوزيع المحادثات بين الوكلاء AI والبشريين. تتميز بفهم اللغة الطبيعية بأكثر من 100 لغة ودعم صناعات متعددة (بنوك، اتصالات، تجارة).",
-    "features": ["أوركسترا ذكية", "صوت + نص", "100+ لغة", "متعدد القنوات", "WhatsApp", "بنوك واتصالات"],
+    "features": [
+      "أوركسترا ذكية",
+      "صوت + نص",
+      "100+ لغة",
+      "متعدد القنوات",
+      "WhatsApp",
+      "بنوك واتصالات"
+    ],
     "pricing": "مؤسسات",
     "pricing_type": "enterprise",
     "url": "https://kore.ai",
     "affiliate_url": "",
     "logo": "https://kore.ai/favicon.ico",
-    "tags": ["مؤسسات", "أوركسترا", "صوت", "متعدد القنوات"],
+    "tags": [
+      "مؤسسات",
+      "أوركسترا",
+      "صوت",
+      "متعدد القنوات"
+    ],
     "featured": false,
     "open_source": false,
     "added_date": "2026-05-27"
@@ -719,13 +1170,25 @@
     "category_ar": "مساعد عام",
     "description": "AI يتحكم بالكمبيوتر مثل إنسان — يرى الشاشة ويحرك الماوس.",
     "official_description": "Self-Operating Computer هو مشروع مفتوح المصدر من OthersideAI يمكّن نماذج AI المتعددة الوسائط من التحكم بالكمبيوتر كإنسان. يرى الشاشة من خلال لقطات الشاشة، يحرك الماوس، يضغط على الأزرار، ويكتب على لوحة المفاتيح. يدعم GPT-4V, Claude 3, وGemini للرؤية الحاسوبية. يمكنه تنفيذ أي مهمة يمكن لإنسان تنفيذها على الكمبيوتر — من فتح برامج إلى ملء نماذج.",
-    "features": ["تحكم بالكمبيوتر", "رؤية الشاشة", "ماوس ولوحة مفاتيح", "GPT-4V + Claude 3", "أي مهمة", "مفتوح المصدر"],
+    "features": [
+      "تحكم بالكمبيوتر",
+      "رؤية الشاشة",
+      "ماوس ولوحة مفاتيح",
+      "GPT-4V + Claude 3",
+      "أي مهمة",
+      "مفتوح المصدر"
+    ],
     "pricing": "مجاني (مفتوح المصدر)",
     "pricing_type": "free",
     "url": "https://github.com/OthersideAI/self-operating-computer",
     "affiliate_url": "",
     "logo": "",
-    "tags": ["تحكم بالكمبيوتر", "رؤية", "ماوس", "مفتوح المصدر"],
+    "tags": [
+      "تحكم بالكمبيوتر",
+      "رؤية",
+      "ماوس",
+      "مفتوح المصدر"
+    ],
     "featured": false,
     "open_source": true,
     "added_date": "2026-05-27"
@@ -738,13 +1201,24 @@
     "category_ar": "برمجة",
     "description": "8 وكلاء متوازيين لتوليد الكود من xAI.",
     "official_description": "Grok Build هو نظام برمجة AI من xAI (شركة Elon Musk) يستخدم بنية 'Society of Mind' مع 8 وكلاء يعملون متوازياً لتوليد الكود. كل وكيل يولّد حلاً مختلفاً ثم يتم اختيار الأفضل. يتميز بسرعة فائقة في توليد كود كامل ومعقد. متكامل مع Grok AI ويستفيد من نماذج xAI المتقدمة.",
-    "features": ["8 وكلاء متوازيين", "Society of Mind", "سرعة فائقة", "اختيار أفضل حل", "xAI"],
+    "features": [
+      "8 وكلاء متوازيين",
+      "Society of Mind",
+      "سرعة فائقة",
+      "اختيار أفضل حل",
+      "xAI"
+    ],
     "pricing": "اشتراك xAI",
     "pricing_type": "paid",
     "url": "https://x.ai",
     "affiliate_url": "",
     "logo": "https://x.ai/favicon.ico",
-    "tags": ["xAI", "متوازي", "متعدد الوكلاء", "سريع"],
+    "tags": [
+      "xAI",
+      "متوازي",
+      "متعدد الوكلاء",
+      "سريع"
+    ],
     "featured": false,
     "open_source": false,
     "added_date": "2026-05-27"
@@ -757,13 +1231,25 @@
     "category_ar": "مساعد عام",
     "description": "وكيل AI يتصفح الويب ويؤدي المهام نيابة عنك.",
     "official_description": "MultiOn هو وكيل AI قادر على استخدام الويب كإنسان. يتصفح المواقع، يملأ النماذج، يحجز المواعيد، يتسوق، ويقوم بأي مهمة تتطلب تفاعلاً مع مواقع الويب. يعمل كإضافة Chrome أو عبر API للمطورين. يتميز بقدرة عالية على فهم واجهات المستخدم المعقدة والتنقل فيها. مفيد لأتمتة المهام المتكررة على الويب.",
-    "features": ["تصفح ويب", "ملء نماذج", "حجز مواعيد", "تسوق", "إضافة Chrome", "API للمطورين"],
+    "features": [
+      "تصفح ويب",
+      "ملء نماذج",
+      "حجز مواعيد",
+      "تسوق",
+      "إضافة Chrome",
+      "API للمطورين"
+    ],
     "pricing": "مجاني+ | مدفوع",
     "pricing_type": "freemium",
     "url": "https://multion.ai",
     "affiliate_url": "",
     "logo": "https://www.multion.ai/favicon.ico",
-    "tags": ["تصفح ويب", "أتمتة", "Chrome", "حجز"],
+    "tags": [
+      "تصفح ويب",
+      "أتمتة",
+      "Chrome",
+      "حجز"
+    ],
     "featured": false,
     "open_source": false,
     "added_date": "2026-06-01"
@@ -776,13 +1262,25 @@
     "category_ar": "إنتاجية",
     "description": "مساعد كتابة AI شخصي مع وكيل ويب مدمج.",
     "official_description": "HyperWrite هو مساعد كتابة وإنتاجية AI شخصي. يساعد في كتابة الإيميلات، المقالات، التقارير، والمحتوى التسويقي بأسلوبك الشخصي. يتعلم من كتاباتك السابقة ليقدم اقتراحات مخصصة. يتضمن وكيل ويب يمكنه تصفح المواقع وتنفيذ المهام نيابة عنك. يعمل كإضافة Chrome في أي موقع — Gmail, Google Docs, LinkedIn, وأكثر.",
-    "features": ["كتابة ذكية", "يتعلم أسلوبك", "وكيل ويب", "إضافة Chrome", "إيميلات", "محتوى تسويقي"],
+    "features": [
+      "كتابة ذكية",
+      "يتعلم أسلوبك",
+      "وكيل ويب",
+      "إضافة Chrome",
+      "إيميلات",
+      "محتوى تسويقي"
+    ],
     "pricing": "مجاني+ | من $20/شهر",
     "pricing_type": "freemium",
     "url": "https://hyperwriteai.com",
     "affiliate_url": "",
     "logo": "https://www.hyperwriteai.com/favicon.ico",
-    "tags": ["كتابة", "إنتاجية", "Chrome", "إيميلات"],
+    "tags": [
+      "كتابة",
+      "إنتاجية",
+      "Chrome",
+      "إيميلات"
+    ],
     "featured": false,
     "open_source": false,
     "added_date": "2026-06-01"
@@ -795,13 +1293,25 @@
     "category_ar": "برمجة",
     "description": "مساعد AI للمطورين يحفظ ويبحث في مقاطع الكود.",
     "official_description": "Pieces for Developers هو أداة إنتاجية AI للمطورين تحفظ وتنظم وتبحث في مقاطع الكود (snippets) والموارد التقنية تلقائياً. تضيف سياقاً ذكياً لكل مقطع — اللغة، المصدر، الوصف، والعلاقات. تعمل كإضافة في VS Code, JetBrains, ومتصفحات الويب. يدعم Copilot مدمج للمحادثة عن الكود مع فهم كامل لسياق مشروعك. يعمل محلياً أو سحابياً.",
-    "features": ["حفظ مقاطع كود", "سياق ذكي", "بحث متقدم", "VS Code + JetBrains", "Copilot مدمج", "محلي أو سحابي"],
+    "features": [
+      "حفظ مقاطع كود",
+      "سياق ذكي",
+      "بحث متقدم",
+      "VS Code + JetBrains",
+      "Copilot مدمج",
+      "محلي أو سحابي"
+    ],
     "pricing": "مجاني+ | مدفوع",
     "pricing_type": "freemium",
     "url": "https://pieces.app",
     "affiliate_url": "",
     "logo": "https://pieces.app/favicon.ico",
-    "tags": ["مقاطع كود", "إنتاجية", "VS Code", "سياق ذكي"],
+    "tags": [
+      "مقاطع كود",
+      "إنتاجية",
+      "VS Code",
+      "سياق ذكي"
+    ],
     "featured": false,
     "open_source": false,
     "added_date": "2026-06-01"
@@ -814,13 +1324,25 @@
     "category_ar": "برمجة",
     "description": "مساعد برمجة AI يفهم قاعدة الكود بأكملها.",
     "official_description": "Cody من Sourcegraph هو مساعد برمجة AI يفهم قاعدة الكود بأكملها وليس فقط الملف المفتوح. يستخدم فهرسة Sourcegraph لتقديم إجابات دقيقة عن الكود الخاص بك. يوفر إكمال تلقائي، شرح الكود، توليد اختبارات، وإصلاح أخطاء مع سياق كامل للمشروع. يعمل مع VS Code و JetBrains ويدعم عدة نماذج AI (Claude, GPT, Gemini). مثالي للمشاريع الكبيرة.",
-    "features": ["فهم كامل للمشروع", "فهرسة Sourcegraph", "إكمال ذكي", "اختبارات", "VS Code + JetBrains", "نماذج متعددة"],
+    "features": [
+      "فهم كامل للمشروع",
+      "فهرسة Sourcegraph",
+      "إكمال ذكي",
+      "اختبارات",
+      "VS Code + JetBrains",
+      "نماذج متعددة"
+    ],
     "pricing": "مجاني+ | من $9/شهر",
     "pricing_type": "freemium",
     "url": "https://sourcegraph.com/cody",
     "affiliate_url": "",
     "logo": "https://sourcegraph.com/favicon.ico",
-    "tags": ["فهم المشروع", "Sourcegraph", "إكمال كود", "مشاريع كبيرة"],
+    "tags": [
+      "فهم المشروع",
+      "Sourcegraph",
+      "إكمال كود",
+      "مشاريع كبيرة"
+    ],
     "featured": false,
     "open_source": false,
     "added_date": "2026-06-01"
@@ -833,13 +1355,25 @@
     "category_ar": "إنتاجية",
     "description": "منصة GTM AI — أتمتة التسويق والمبيعات بالذكاء الاصطناعي.",
     "official_description": "Copy.ai هي أول منصة GTM (Go-To-Market) AI أصلية. بدلاً من عشرات الأدوات المنفصلة، توفر منصة واحدة لأتمتة التسويق والمبيعات — كتابة محتوى، إنشاء حملات، تحليل منافسين، وتوليد عملاء محتملين. تدعم سير عمل AI مخصصة لكل مرحلة من مراحل البيع والتسويق. تستخدمها آلاف الشركات لتوفير ساعات من العمل اليدوي.",
-    "features": ["GTM AI", "كتابة محتوى", "حملات تسويقية", "تحليل منافسين", "توليد عملاء", "سير عمل مخصص"],
+    "features": [
+      "GTM AI",
+      "كتابة محتوى",
+      "حملات تسويقية",
+      "تحليل منافسين",
+      "توليد عملاء",
+      "سير عمل مخصص"
+    ],
     "pricing": "مجاني+ | مدفوع",
     "pricing_type": "freemium",
     "url": "https://copy.ai",
     "affiliate_url": "",
     "logo": "https://www.copy.ai/favicon.ico",
-    "tags": ["تسويق", "مبيعات", "محتوى", "GTM"],
+    "tags": [
+      "تسويق",
+      "مبيعات",
+      "محتوى",
+      "GTM"
+    ],
     "featured": false,
     "open_source": false,
     "added_date": "2026-06-01"
@@ -852,13 +1386,25 @@
     "category_ar": "إنتاجية",
     "description": "وكلاء AI للتسويق — حملات، محتوى، وتحليل أداء.",
     "official_description": "Jasper هي منصة وكلاء AI مصممة خصيصاً للتسويق. شعارها 'Put AI agents to work for marketing'. توفر وكلاء متخصصين لكل جانب من التسويق: كتابة المقالات والمدونات، إنشاء محتوى وسائل التواصل، حملات البريد الإلكتروني، وتحليل أداء الحملات. تحافظ على صوت العلامة التجارية عبر كل المحتوى. تدعم أكثر من 30 لغة وتتكامل مع أدوات التسويق الشائعة.",
-    "features": ["وكلاء تسويق", "صوت العلامة التجارية", "30+ لغة", "مقالات ومدونات", "إيميل ماركتنج", "تحليل أداء"],
+    "features": [
+      "وكلاء تسويق",
+      "صوت العلامة التجارية",
+      "30+ لغة",
+      "مقالات ومدونات",
+      "إيميل ماركتنج",
+      "تحليل أداء"
+    ],
     "pricing": "من $39/شهر",
     "pricing_type": "paid",
     "url": "https://jasper.ai",
     "affiliate_url": "",
     "logo": "https://www.jasper.ai/favicon.ico",
-    "tags": ["تسويق", "محتوى", "علامة تجارية", "30+ لغة"],
+    "tags": [
+      "تسويق",
+      "محتوى",
+      "علامة تجارية",
+      "30+ لغة"
+    ],
     "featured": false,
     "open_source": false,
     "added_date": "2026-06-01"
@@ -871,13 +1417,25 @@
     "category_ar": "بنية تحتية",
     "description": "منصة صوت AI — توليد أصوات واقعية ووكلاء صوتيين.",
     "official_description": "ElevenLabs هي منصة رائدة في توليد الأصوات بالذكاء الاصطناعي. شعارها 'Bringing technology to life'. توفر: تحويل نص إلى كلام بأصوات واقعية بشكل مذهل، استنساخ صوتي (Voice Cloning) بدقيقة واحدة من الصوت، ترجمة صوتية مع الحفاظ على نبرة المتحدث، ووكلاء صوتيين (Voice Agents) للمحادثات الهاتفية. تدعم 32 لغة و API للمطورين. تُستخدم في البودكاست، الكتب الصوتية، الألعاب، وخدمة العملاء.",
-    "features": ["أصوات واقعية", "استنساخ صوتي", "ترجمة صوتية", "وكلاء صوتيون", "32 لغة", "API"],
+    "features": [
+      "أصوات واقعية",
+      "استنساخ صوتي",
+      "ترجمة صوتية",
+      "وكلاء صوتيون",
+      "32 لغة",
+      "API"
+    ],
     "pricing": "مجاني+ | من $5/شهر",
     "pricing_type": "freemium",
     "url": "https://elevenlabs.io",
     "affiliate_url": "",
     "logo": "https://elevenlabs.io/favicon.ico",
-    "tags": ["صوت", "استنساخ", "ترجمة صوتية", "وكلاء صوتيون"],
+    "tags": [
+      "صوت",
+      "استنساخ",
+      "ترجمة صوتية",
+      "وكلاء صوتيون"
+    ],
     "featured": false,
     "open_source": false,
     "added_date": "2026-06-01"
@@ -890,13 +1448,24 @@
     "category_ar": "بنية تحتية",
     "description": "مولّد موسيقى AI — اصنع أغنية كاملة من وصف نصي.",
     "official_description": "Suno هو مولّد موسيقى بالذكاء الاصطناعي يتيح لأي شخص صنع موسيقى احترافية من مجرد وصف نصي. اكتب 'أغنية حزينة عن الغروب' واحصل على أغنية كاملة مع غناء، آلات موسيقية، وإنتاج احترافي في ثوانٍ. يدعم أدوات تحرير متقدمة (Pro editing tools) للتحكم الدقيق بالنتيجة. يمكن تحديد النوع الموسيقي، المزاج، الآلات، وحتى كتابة الكلمات. أنتج ملايين الأغاني منذ إطلاقه.",
-    "features": ["موسيقى من نص", "غناء AI", "أنواع متعددة", "أدوات Pro", "إنتاج احترافي"],
+    "features": [
+      "موسيقى من نص",
+      "غناء AI",
+      "أنواع متعددة",
+      "أدوات Pro",
+      "إنتاج احترافي"
+    ],
     "pricing": "مجاني+ | من $10/شهر",
     "pricing_type": "freemium",
     "url": "https://suno.com",
     "affiliate_url": "",
     "logo": "https://suno.com/favicon.ico",
-    "tags": ["موسيقى", "غناء", "توليد صوت", "إبداعي"],
+    "tags": [
+      "موسيقى",
+      "غناء",
+      "توليد صوت",
+      "إبداعي"
+    ],
     "featured": false,
     "open_source": false,
     "added_date": "2026-06-01"
@@ -909,13 +1478,25 @@
     "category_ar": "بنية تحتية",
     "description": "منصة AI لتوليد وتحرير الفيديو — محاكاة العالم.",
     "official_description": "Runway هي شركة أبحاث AI متقدمة تبني أنظمة لمحاكاة العالم. شعارها 'Building AI to Simulate the World'. تقدم Gen-3 Alpha — أقوى نموذج لتوليد الفيديو من نص أو صورة. تدعم: توليد فيديو من وصف نصي، تحرير فيديو بالذكاء الاصطناعي، إزالة الخلفية، تتبع الحركة، إنشاء شخصيات AI ثابتة (Runway Characters). تُستخدم في السينما والإعلانات والمحتوى الإبداعي.",
-    "features": ["توليد فيديو", "Gen-3 Alpha", "تحرير AI", "إزالة خلفية", "Runway Characters", "سينما وإعلانات"],
+    "features": [
+      "توليد فيديو",
+      "Gen-3 Alpha",
+      "تحرير AI",
+      "إزالة خلفية",
+      "Runway Characters",
+      "سينما وإعلانات"
+    ],
     "pricing": "مجاني+ | من $12/شهر",
     "pricing_type": "freemium",
     "url": "https://runwayml.com",
     "affiliate_url": "",
     "logo": "https://runwayml.com/favicon.ico",
-    "tags": ["فيديو", "توليد", "تحرير", "سينما"],
+    "tags": [
+      "فيديو",
+      "توليد",
+      "تحرير",
+      "سينما"
+    ],
     "featured": false,
     "open_source": false,
     "added_date": "2026-06-01"
@@ -928,13 +1509,25 @@
     "category_ar": "بنية تحتية",
     "description": "أقوى مولّد صور AI — تصاميم فنية مذهلة من وصف نصي.",
     "official_description": "Midjourney هو مولّد صور AI الأكثر شهرة وتميزاً في جودة النتائج الفنية. يحوّل الأوصاف النصية إلى صور مذهلة بجودة فنية عالية. يتميز بأسلوب فني فريد ومتنوع — من الواقعية المفرطة إلى الرسم الرقمي والتصوير السينمائي. يدعم تخصيص الأنماط، تعديل الصور، upscaling، وvariations. يعمل عبر Discord وتطبيق ويب. أحدث إصدار v6 يقدم تفاصيل مذهلة وفهماً أعمق للنصوص.",
-    "features": ["جودة فنية عالية", "أنماط متنوعة", "v6 متقدم", "Discord + ويب", "upscaling", "variations"],
+    "features": [
+      "جودة فنية عالية",
+      "أنماط متنوعة",
+      "v6 متقدم",
+      "Discord + ويب",
+      "upscaling",
+      "variations"
+    ],
     "pricing": "من $10/شهر",
     "pricing_type": "paid",
     "url": "https://midjourney.com",
     "affiliate_url": "",
     "logo": "https://www.midjourney.com/favicon.ico",
-    "tags": ["صور", "فن", "تصميم", "Discord"],
+    "tags": [
+      "صور",
+      "فن",
+      "تصميم",
+      "Discord"
+    ],
     "featured": false,
     "open_source": false,
     "added_date": "2026-06-01"
@@ -947,13 +1540,25 @@
     "category_ar": "إنتاجية",
     "description": "أتمتة سير العمل بين 7000+ تطبيق مع وكلاء AI.",
     "official_description": "Zapier هي أكبر منصة أتمتة في العالم تربط بين أكثر من 7,000 تطبيق وخدمة. مع Zapier AI، يمكنك بناء وكلاء AI وسير عمل بالمحادثة العادية. ربط Gmail بـ Slack، تحويل نماذج Google إلى صفوف Excel، إرسال إشعارات تلقائية، والمزيد. لا حاجة للبرمجة — ابنِ أتمتة معقدة بالسحب والإفلات. يدعم AI Actions لربط وكلاء AI بآلاف التطبيقات.",
-    "features": ["7000+ تطبيق", "بدون كود", "AI Actions", "سحب وإفلات", "إشعارات تلقائية", "ربط تطبيقات"],
+    "features": [
+      "7000+ تطبيق",
+      "بدون كود",
+      "AI Actions",
+      "سحب وإفلات",
+      "إشعارات تلقائية",
+      "ربط تطبيقات"
+    ],
     "pricing": "مجاني+ | من $20/شهر",
     "pricing_type": "freemium",
     "url": "https://zapier.com",
     "affiliate_url": "",
     "logo": "https://zapier.com/favicon.ico",
-    "tags": ["أتمتة", "7000+ تطبيق", "بدون كود", "ربط"],
+    "tags": [
+      "أتمتة",
+      "7000+ تطبيق",
+      "بدون كود",
+      "ربط"
+    ],
     "featured": false,
     "open_source": false,
     "added_date": "2026-06-01"
@@ -966,15 +1571,954 @@
     "category_ar": "إنتاجية",
     "description": "منصة أتمتة بصرية متقدمة مع AI مدمج.",
     "official_description": "Make (سابقاً Integromat) هي منصة أتمتة سير عمل بصرية متقدمة. تتميز عن Zapier بمرونة أكبر وقدرة على بناء سير عمل معقدة مع تفرعات وحلقات وشروط. يدعم أكثر من 2,000 تطبيق وخدمة. مع تكامل AI، يمكن استخدام ChatGPT, Claude, وأي نموذج AI داخل سير العمل. مثالي للمهام المعقدة التي تتطلب منطقاً متقدماً.",
-    "features": ["أتمتة بصرية", "تفرعات وحلقات", "2000+ تطبيق", "AI مدمج", "منطق متقدم"],
+    "features": [
+      "أتمتة بصرية",
+      "تفرعات وحلقات",
+      "2000+ تطبيق",
+      "AI مدمج",
+      "منطق متقدم"
+    ],
     "pricing": "مجاني+ | من $9/شهر",
     "pricing_type": "freemium",
     "url": "https://make.com",
     "affiliate_url": "",
     "logo": "https://www.make.com/favicon.ico",
-    "tags": ["أتمتة", "بصري", "2000+ تطبيق", "منطق متقدم"],
+    "tags": [
+      "أتمتة",
+      "بصري",
+      "2000+ تطبيق",
+      "منطق متقدم"
+    ],
     "featured": false,
     "open_source": false,
     "added_date": "2026-06-01"
+  },
+  {
+    "id": "augment-code",
+    "name": "Augment Code",
+    "name_ar": "أوغمنت كود",
+    "category": "coding",
+    "category_ar": "برمجة",
+    "description": "مساعد برمجة AI يفهم قواعد الكود الكبيرة بالكامل ويقدم اقتراحات دقيقة.",
+    "official_description": "Augment Code هو مساعد برمجة بالذكاء الاصطناعي مصمم للفرق الكبيرة. يفهم قاعدة الكود بالكامل — الملفات، التبعيات، أنماط الكتابة — ويقدم اقتراحات دقيقة تراعي السياق الكامل للمشروع. يتكامل مع VS Code وJetBrains ويدعم Chat وAutocomplete وAgent Mode لتنفيذ المهام المعقدة.",
+    "features": [
+      "فهم كود كامل",
+      "Agent Mode",
+      "Chat ذكي",
+      "Autocomplete",
+      "دعم فرق"
+    ],
+    "pricing": "مجاني+ | من $30/شهر",
+    "pricing_type": "freemium",
+    "url": "https://www.augmentcode.com",
+    "affiliate_url": "",
+    "logo": "https://www.augmentcode.com/favicon.ico",
+    "tags": [
+      "برمجة",
+      "IDE",
+      "فرق",
+      "كود كبير"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-05-27",
+    "best_for": "الفرق التي تعمل على مشاريع كبيرة"
+  },
+  {
+    "id": "codex-openai",
+    "name": "Codex (OpenAI)",
+    "name_ar": "كودكس",
+    "category": "coding",
+    "category_ar": "برمجة",
+    "description": "وكيل برمجة سحابي من OpenAI يعمل بشكل مستقل في بيئة معزولة.",
+    "official_description": "Codex من OpenAI هو وكيل برمجة سحابي يعمل في بيئة sandbox معزولة. يمكنه قراءة وتعديل الكود، تشغيل الاختبارات، وإنشاء Pull Requests بشكل مستقل تماماً. يعمل بشكل متوازي على عدة مهام في نفس الوقت مع الحفاظ على أمان الكود. مدمج في ChatGPT Pro ويدعم مشاريع GitHub مباشرة.",
+    "features": [
+      "بيئة معزولة",
+      "تنفيذ متوازي",
+      "Pull Requests تلقائية",
+      "اختبارات",
+      "GitHub مباشر"
+    ],
+    "pricing": "ضمن ChatGPT Pro ($200/شهر)",
+    "pricing_type": "paid",
+    "url": "https://openai.com/index/introducing-codex/",
+    "affiliate_url": "",
+    "logo": "https://openai.com/favicon.ico",
+    "tags": [
+      "برمجة",
+      "سحابي",
+      "مستقل",
+      "OpenAI"
+    ],
+    "featured": true,
+    "open_source": false,
+    "added_date": "2026-05-27",
+    "best_for": "مطوري ChatGPT Pro الذين يحتاجون وكيل برمجة مستقل"
+  },
+  {
+    "id": "amazon-q",
+    "name": "Amazon Q Developer",
+    "name_ar": "أمازون كيو",
+    "category": "coding",
+    "category_ar": "برمجة",
+    "description": "مساعد برمجة من أمازون مع تكامل عميق مع خدمات AWS.",
+    "official_description": "Amazon Q Developer هو مساعد AI للمطورين من أمازون. يقدم اقتراحات كود ذكية، يحوّل التطبيقات بين لغات البرمجة، يرقّي إصدارات Java تلقائياً، ويساعد في تشخيص وإصلاح المشاكل. مع تكامل عميق مع خدمات AWS، يمكنه بناء ونشر تطبيقات سحابية كاملة.",
+    "features": [
+      "اقتراحات كود",
+      "ترقية Java تلقائية",
+      "تكامل AWS",
+      "تحويل لغات",
+      "أمان كود"
+    ],
+    "pricing": "مجاني+ | $19/شهر",
+    "pricing_type": "freemium",
+    "url": "https://aws.amazon.com/q/developer/",
+    "affiliate_url": "",
+    "logo": "https://a0.awsstatic.com/libra-css/images/site/fav/favicon.ico",
+    "tags": [
+      "برمجة",
+      "AWS",
+      "سحابي",
+      "أمازون"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-05-27",
+    "best_for": "مطوري AWS والتطبيقات السحابية"
+  },
+  {
+    "id": "qodo",
+    "name": "Qodo (Codium)",
+    "name_ar": "كودو",
+    "category": "coding",
+    "category_ar": "برمجة",
+    "description": "وكيل AI متخصص في كتابة الاختبارات ومراجعة الكود وضمان الجودة.",
+    "official_description": "Qodo (سابقاً CodiumAI) هو وكيل AI متخصص في جودة الكود. يولّد اختبارات وحدات ذكية تلقائياً، يراجع Pull Requests، يكتشف الأخطاء قبل النشر، ويقترح تحسينات. يدعم أكثر من 20 لغة برمجة ويتكامل مع VS Code وJetBrains وGitHub.",
+    "features": [
+      "توليد اختبارات",
+      "مراجعة PR",
+      "كشف أخطاء",
+      "20+ لغة",
+      "تكامل GitHub"
+    ],
+    "pricing": "مجاني+ | من $19/شهر",
+    "pricing_type": "freemium",
+    "url": "https://www.qodo.ai",
+    "affiliate_url": "",
+    "logo": "https://www.qodo.ai/favicon.ico",
+    "tags": [
+      "اختبارات",
+      "جودة كود",
+      "مراجعة"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-05-27",
+    "best_for": "ضمان جودة الكود والاختبارات التلقائية"
+  },
+  {
+    "id": "continue-dev",
+    "name": "Continue",
+    "name_ar": "كونتينيو",
+    "category": "coding",
+    "category_ar": "برمجة",
+    "description": "إضافة IDE مفتوحة المصدر تربط أي نموذج AI بمحرر الكود.",
+    "official_description": "Continue هو مساعد برمجة مفتوح المصدر يعمل كإضافة لـ VS Code وJetBrains. يتيح لك استخدام أي نموذج AI (GPT-4, Claude, Llama, إلخ) مع محرر الكود الخاص بك. يدعم Autocomplete وChat وEdit وAgent Mode. مرن بالكامل — يمكنك تشغيل نماذج محلية أو سحابية.",
+    "features": [
+      "مفتوح المصدر",
+      "أي نموذج AI",
+      "Chat + Edit",
+      "نماذج محلية",
+      "مرن"
+    ],
+    "pricing": "مجاني",
+    "pricing_type": "free",
+    "url": "https://continue.dev",
+    "affiliate_url": "",
+    "logo": "https://continue.dev/favicon.ico",
+    "tags": [
+      "مفتوح المصدر",
+      "IDE",
+      "مرن",
+      "نماذج محلية"
+    ],
+    "featured": false,
+    "open_source": true,
+    "added_date": "2026-05-27",
+    "best_for": "من يريد حرية اختيار نموذج AI مع IDE"
+  },
+  {
+    "id": "swe-agent",
+    "name": "SWE-agent",
+    "name_ar": "SWE-Agent",
+    "category": "coding",
+    "category_ar": "برمجة",
+    "description": "وكيل مفتوح المصدر من Princeton لحل مشاكل GitHub تلقائياً.",
+    "official_description": "SWE-agent من جامعة Princeton هو وكيل AI مفتوح المصدر متخصص في حل مشاكل البرمجيات على GitHub. يأخذ issue ويحللها، يتصفح الكود، يكتب الحل، ويقدم PR. حقق نتائج رائدة في SWE-bench (أقرب للأداء البشري). يمكن تشغيله محلياً مع أي نموذج LLM.",
+    "features": [
+      "حل issues تلقائي",
+      "SWE-bench",
+      "مفتوح المصدر",
+      "أي LLM",
+      "تصفح كود"
+    ],
+    "pricing": "مجاني",
+    "pricing_type": "free",
+    "url": "https://swe-agent.com",
+    "affiliate_url": "",
+    "logo": "https://swe-agent.com/favicon.ico",
+    "tags": [
+      "مفتوح المصدر",
+      "GitHub",
+      "أبحاث",
+      "SWE-bench"
+    ],
+    "featured": false,
+    "open_source": true,
+    "added_date": "2026-05-27",
+    "best_for": "إصلاح مشاكل GitHub تلقائياً"
+  },
+  {
+    "id": "jetbrains-ai",
+    "name": "JetBrains AI",
+    "name_ar": "جيت برينز AI",
+    "category": "coding",
+    "category_ar": "برمجة",
+    "description": "مساعد AI مدمج في جميع بيئات JetBrains (IntelliJ, PyCharm, إلخ).",
+    "official_description": "JetBrains AI Assistant مدمج في جميع IDEs من JetBrains (IntelliJ IDEA, PyCharm, WebStorm, إلخ). يقدم اقتراحات كود ذكية، Chat مع فهم كامل للمشروع، شرح الكود، إنشاء اختبارات، وتوثيق تلقائي. يستخدم نماذج متعددة بما فيها نموذج Mellum المخصص للكود.",
+    "features": [
+      "مدمج في IDE",
+      "Chat ذكي",
+      "توثيق تلقائي",
+      "اختبارات",
+      "Mellum model"
+    ],
+    "pricing": "من $8.33/شهر",
+    "pricing_type": "paid",
+    "url": "https://www.jetbrains.com/ai/",
+    "affiliate_url": "",
+    "logo": "https://www.jetbrains.com/favicon.ico",
+    "tags": [
+      "IDE",
+      "JetBrains",
+      "كود",
+      "توثيق"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-05-27",
+    "best_for": "مستخدمي بيئات JetBrains"
+  },
+  {
+    "id": "gemini",
+    "name": "Gemini",
+    "name_ar": "جيميناي",
+    "category": "general-assistant",
+    "category_ar": "مساعد عام",
+    "description": "مساعد AI من Google مع فهم متعدد الوسائط ونافذة سياق ضخمة.",
+    "official_description": "Gemini من Google هو مساعد AI متعدد الوسائط يفهم النصوص والصور والفيديو والصوت. مع نافذة سياق تصل لـ 2 مليون توكن (الأكبر في العالم)، يمكنه تحليل مستندات ضخمة وفيديوهات طويلة. يتكامل مع جميع خدمات Google (Gmail, Docs, Maps, YouTube) ويدعم Deep Research للبحث المعمّق.",
+    "features": [
+      "متعدد الوسائط",
+      "2M سياق",
+      "Deep Research",
+      "تكامل Google",
+      "فيديو وصوت"
+    ],
+    "pricing": "مجاني+ | من $19.99/شهر",
+    "pricing_type": "freemium",
+    "url": "https://gemini.google.com",
+    "affiliate_url": "",
+    "logo": "https://www.gstatic.com/lamda/images/gemini_favicon_f069958c85030456e93de685481c559f160ea06b.png",
+    "tags": [
+      "Google",
+      "متعدد الوسائط",
+      "بحث",
+      "مستندات"
+    ],
+    "featured": true,
+    "open_source": false,
+    "added_date": "2026-05-27",
+    "best_for": "البحث المعمّق وتحليل المستندات الكبيرة"
+  },
+  {
+    "id": "grok",
+    "name": "Grok",
+    "name_ar": "غروك",
+    "category": "general-assistant",
+    "category_ar": "مساعد عام",
+    "description": "مساعد AI من xAI مع وصول مباشر لبيانات X (تويتر) وأسلوب صريح.",
+    "official_description": "Grok من xAI (شركة إيلون ماسك) هو مساعد AI بأسلوب صريح وجريء. يتميز بالوصول المباشر لبيانات X (تويتر) في الوقت الفعلي، توليد الصور، تحليل الصور، وفهم متقدم. يعمل بنماذج Grok المتقدمة ويتكامل مع منصة X مباشرة.",
+    "features": [
+      "بيانات X مباشرة",
+      "توليد صور",
+      "أسلوب صريح",
+      "تحليل صور",
+      "وقت فعلي"
+    ],
+    "pricing": "مجاني+ | ضمن X Premium",
+    "pricing_type": "freemium",
+    "url": "https://grok.com",
+    "affiliate_url": "",
+    "logo": "https://grok.com/favicon.ico",
+    "tags": [
+      "xAI",
+      "تويتر",
+      "صريح",
+      "صور"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-05-27",
+    "best_for": "معلومات X المباشرة والأسلوب غير المقيّد"
+  },
+  {
+    "id": "open-interpreter",
+    "name": "Open Interpreter",
+    "name_ar": "أوبن إنتربريتر",
+    "category": "general-assistant",
+    "category_ar": "مساعد عام",
+    "description": "وكيل AI مفتوح المصدر ينفذ الأكواد على جهازك مباشرة.",
+    "official_description": "Open Interpreter يتيح لنماذج اللغة الكبيرة تشغيل الأكواد محلياً على جهازك. يعمل كـ ChatGPT Code Interpreter لكن بدون حدود — يصل لنظام الملفات، المتصفح، قاعدة البيانات، وأي أداة على جهازك. يدعم Python, JavaScript, Shell وأكثر. مفتوح المصدر بالكامل.",
+    "features": [
+      "تنفيذ محلي",
+      "وصول كامل للجهاز",
+      "مفتوح المصدر",
+      "متعدد اللغات",
+      "بلا حدود"
+    ],
+    "pricing": "مجاني",
+    "pricing_type": "free",
+    "url": "https://openinterpreter.com",
+    "affiliate_url": "",
+    "logo": "https://openinterpreter.com/favicon.ico",
+    "tags": [
+      "مفتوح المصدر",
+      "محلي",
+      "تنفيذ كود",
+      "بلا حدود"
+    ],
+    "featured": false,
+    "open_source": true,
+    "added_date": "2026-05-27",
+    "best_for": "تنفيذ مهام على الجهاز بدون قيود"
+  },
+  {
+    "id": "notebooklm",
+    "name": "NotebookLM",
+    "name_ar": "نوتبوك LM",
+    "category": "research",
+    "category_ar": "بحث",
+    "description": "مساعد بحث من Google يحلل مستنداتك ويحوّلها لبودكاست صوتي.",
+    "official_description": "NotebookLM من Google هو مساعد بحث يعمل على مستنداتك الخاصة. ارفع PDFs، مواقع، فيديوهات YouTube، وسيفهمها ويجيب عن أسئلتك بدقة مع اقتباسات. الميزة الفريدة: يحوّل أي محتوى لبودكاست صوتي بحوار طبيعي بين شخصين. مجاني بالكامل.",
+    "features": [
+      "تحليل مستندات",
+      "بودكاست صوتي",
+      "اقتباسات دقيقة",
+      "YouTube",
+      "مجاني"
+    ],
+    "pricing": "مجاني",
+    "pricing_type": "free",
+    "url": "https://notebooklm.google.com",
+    "affiliate_url": "",
+    "logo": "https://notebooklm.google.com/favicon.ico",
+    "tags": [
+      "Google",
+      "بحث",
+      "مستندات",
+      "بودكاست"
+    ],
+    "featured": true,
+    "open_source": false,
+    "added_date": "2026-05-27",
+    "best_for": "تحليل الأبحاث والمستندات وتحويلها لبودكاست"
+  },
+  {
+    "id": "elicit",
+    "name": "Elicit",
+    "name_ar": "إيليسيت",
+    "category": "research",
+    "category_ar": "بحث",
+    "description": "مساعد بحث أكاديمي يحلل ملايين الأوراق العلمية بالذكاء الاصطناعي.",
+    "official_description": "Elicit هو مساعد بحث أكاديمي بالذكاء الاصطناعي. يبحث في أكثر من 125 مليون ورقة علمية، يستخرج البيانات الرئيسية، يلخّص النتائج، ويساعد في المراجعة المنهجية. يمكنه تحليل جداول ورسوم بيانية من الأوراق واستخراج معلومات محددة بدقة عالية.",
+    "features": [
+      "125M+ ورقة",
+      "استخراج بيانات",
+      "مراجعة منهجية",
+      "تلخيص",
+      "جداول وأرقام"
+    ],
+    "pricing": "مجاني+ | من $10/شهر",
+    "pricing_type": "freemium",
+    "url": "https://elicit.com",
+    "affiliate_url": "",
+    "logo": "https://elicit.com/favicon.ico",
+    "tags": [
+      "أكاديمي",
+      "أوراق علمية",
+      "بحث",
+      "بيانات"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-05-27",
+    "best_for": "البحث الأكاديمي والمراجعة المنهجية"
+  },
+  {
+    "id": "consensus",
+    "name": "Consensus",
+    "name_ar": "كونسينسس",
+    "category": "research",
+    "category_ar": "بحث",
+    "description": "محرك بحث علمي يستخدم AI لتقديم إجابات مبنية على الأدلة.",
+    "official_description": "Consensus هو محرك بحث أكاديمي مدعوم بالذكاء الاصطناعي. يبحث في ملايين الأوراق العلمية ويقدم إجابات مباشرة مبنية على الأدلة والإجماع العلمي. يعرض مؤشر Consensus Meter الذي يوضح نسبة الاتفاق بين الباحثين حول موضوع معين. مثالي للتحقق من المعلومات.",
+    "features": [
+      "بحث علمي",
+      "Consensus Meter",
+      "إجابات مبنية على أدلة",
+      "أوراق محكّمة",
+      "تحقق"
+    ],
+    "pricing": "مجاني+ | من $6.99/شهر",
+    "pricing_type": "freemium",
+    "url": "https://consensus.app",
+    "affiliate_url": "",
+    "logo": "https://consensus.app/favicon.ico",
+    "tags": [
+      "علمي",
+      "أدلة",
+      "تحقق",
+      "أوراق محكّمة"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-05-27",
+    "best_for": "التحقق من المعلومات بالأدلة العلمية"
+  },
+  {
+    "id": "gamma",
+    "name": "Gamma",
+    "name_ar": "غاما",
+    "category": "no-code",
+    "category_ar": "بدون كود",
+    "description": "أداة AI لإنشاء عروض تقديمية ومواقع ومستندات بضغطة زر.",
+    "official_description": "Gamma هي أداة AI لإنشاء محتوى بصري احترافي. اكتب فكرتك وستحصل على عرض تقديمي أو موقع ويب أو مستند جميل في ثوانٍ. تدعم السحب والإفلات، تضمين فيديوهات وجداول، قوالب احترافية، وتصدير إلى PowerPoint وPDF. لا تحتاج خبرة تصميم.",
+    "features": [
+      "عروض تقديمية AI",
+      "مواقع ويب",
+      "مستندات",
+      "قوالب احترافية",
+      "تصدير PPT/PDF"
+    ],
+    "pricing": "مجاني+ | من $8/شهر",
+    "pricing_type": "freemium",
+    "url": "https://gamma.app",
+    "affiliate_url": "https://gamma.app/?ref=ai-agents-ar",
+    "logo": "https://gamma.app/favicon.ico",
+    "tags": [
+      "عروض",
+      "تصميم",
+      "مستندات",
+      "بدون كود"
+    ],
+    "featured": true,
+    "open_source": false,
+    "added_date": "2026-05-27",
+    "best_for": "إنشاء عروض تقديمية ومواقع بسرعة"
+  },
+  {
+    "id": "canva-ai",
+    "name": "Canva AI",
+    "name_ar": "كانفا AI",
+    "category": "no-code",
+    "category_ar": "بدون كود",
+    "description": "مساعد تصميم AI مدمج في Canva لتوليد وتعديل الصور والفيديو.",
+    "official_description": "Canva AI (Magic Studio) يدمج الذكاء الاصطناعي في أشهر أداة تصميم في العالم. يولّد صوراً من النص، يزيل الخلفيات، يوسّع الصور، ينشئ فيديوهات، ويصمم عروض تقديمية كاملة تلقائياً. مع Magic Write للكتابة وMagic Design للتصميم التلقائي.",
+    "features": [
+      "توليد صور",
+      "إزالة خلفية",
+      "Magic Write",
+      "فيديوهات AI",
+      "عروض تلقائية"
+    ],
+    "pricing": "مجاني+ | من $12/شهر",
+    "pricing_type": "freemium",
+    "url": "https://www.canva.com/ai-image-generator/",
+    "affiliate_url": "",
+    "logo": "https://www.canva.com/favicon.ico",
+    "tags": [
+      "تصميم",
+      "صور",
+      "فيديو",
+      "عروض"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-05-27",
+    "best_for": "التصميم السريع للمبتدئين والمحترفين"
+  },
+  {
+    "id": "ideogram",
+    "name": "Ideogram",
+    "name_ar": "إيديوغرام",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "مولّد صور AI متميز في النصوص داخل الصور والتصاميم الإبداعية.",
+    "official_description": "Ideogram هو مولّد صور بالذكاء الاصطناعي يتميز بقدرة فريدة على إدراج نصوص دقيقة وقابلة للقراءة داخل الصور — وهو ما تفشل فيه معظم الأدوات الأخرى. مثالي لتصميم الشعارات، البوسترات، منشورات السوشل ميديا، والتصاميم التي تحتوي نصوصاً.",
+    "features": [
+      "نصوص في الصور",
+      "شعارات",
+      "بوسترات",
+      "تصاميم سوشل",
+      "جودة عالية"
+    ],
+    "pricing": "مجاني+ | من $7/شهر",
+    "pricing_type": "freemium",
+    "url": "https://ideogram.ai",
+    "affiliate_url": "",
+    "logo": "https://ideogram.ai/favicon.ico",
+    "tags": [
+      "صور",
+      "تصميم",
+      "شعارات",
+      "نصوص"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-05-27",
+    "best_for": "تصميم صور تحتوي نصوصاً عربية أو إنجليزية"
+  },
+  {
+    "id": "leonardo-ai",
+    "name": "Leonardo AI",
+    "name_ar": "ليوناردو AI",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "منصة توليد صور AI احترافية مع أدوات تحكم متقدمة.",
+    "official_description": "Leonardo AI منصة متقدمة لتوليد وتعديل الصور بالذكاء الاصطناعي. تقدم نماذج متعددة (Phoenix, Flux)، أدوات تحكم دقيقة (ControlNet)، توليد فيديو من صور، تدريب نماذج مخصصة، وCanvas لتعديل الصور. مستخدمة من قبل أكثر من 20 مليون مستخدم حول العالم.",
+    "features": [
+      "نماذج متعددة",
+      "ControlNet",
+      "فيديو من صور",
+      "تدريب مخصص",
+      "Canvas"
+    ],
+    "pricing": "مجاني+ | من $9.99/شهر",
+    "pricing_type": "freemium",
+    "url": "https://leonardo.ai",
+    "affiliate_url": "",
+    "logo": "https://leonardo.ai/favicon.ico",
+    "tags": [
+      "صور",
+      "فيديو",
+      "تصميم",
+      "احترافي"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-05-27",
+    "best_for": "توليد صور احترافية مع تحكم دقيق"
+  },
+  {
+    "id": "kling-ai",
+    "name": "Kling AI",
+    "name_ar": "كلينغ AI",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "مولّد فيديو AI صيني ينافس Sora بجودة سينمائية.",
+    "official_description": "Kling AI من Kuaishou هو مولّد فيديو بالذكاء الاصطناعي ينتج مقاطع بجودة سينمائية من نص أو صورة. يدعم فيديو حتى دقيقتين بدقة 1080p مع حركة واقعية وفيزياء دقيقة. يمتلك أدوات Lip Sync لمزامنة الشفاه، Motion Brush للتحكم بالحركة، وVirtual Try-On لتجربة الملابس.",
+    "features": [
+      "فيديو 1080p",
+      "Lip Sync",
+      "Motion Brush",
+      "صورة → فيديو",
+      "Virtual Try-On"
+    ],
+    "pricing": "مجاني+ | من $5.99/شهر",
+    "pricing_type": "freemium",
+    "url": "https://klingai.com",
+    "affiliate_url": "",
+    "logo": "https://klingai.com/favicon.ico",
+    "tags": [
+      "فيديو",
+      "سينمائي",
+      "صور متحركة"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-05-27",
+    "best_for": "إنشاء فيديوهات سينمائية من نص أو صورة"
+  },
+  {
+    "id": "notion-ai",
+    "name": "Notion AI",
+    "name_ar": "نوشن AI",
+    "category": "productivity",
+    "category_ar": "إنتاجية",
+    "description": "مساعد AI مدمج في Notion يكتب ويلخّص ويحلل بياناتك.",
+    "official_description": "Notion AI مدمج في منصة Notion الشهيرة لإدارة المشاريع والملاحظات. يكتب المحتوى، يلخّص الصفحات الطويلة، يجيب عن أسئلة من قاعدة معارفك، يترجم، يحسّن الكتابة، وينشئ جداول ومهام تلقائياً. يعمل على جميع بيانات Notion الخاصة بك.",
+    "features": [
+      "كتابة محتوى",
+      "تلخيص",
+      "بحث في الملاحظات",
+      "ترجمة",
+      "أتمتة مهام"
+    ],
+    "pricing": "من $8/شهر (إضافة)",
+    "pricing_type": "paid",
+    "url": "https://www.notion.so/product/ai",
+    "affiliate_url": "",
+    "logo": "https://www.notion.so/favicon.ico",
+    "tags": [
+      "إنتاجية",
+      "ملاحظات",
+      "مشاريع",
+      "كتابة"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-05-27",
+    "best_for": "مستخدمي Notion الذين يريدون AI مدمج"
+  },
+  {
+    "id": "otter-ai",
+    "name": "Otter.ai",
+    "name_ar": "أوتر AI",
+    "category": "productivity",
+    "category_ar": "إنتاجية",
+    "description": "مساعد اجتماعات AI يسجّل ويُفرّغ ويلخّص المحادثات تلقائياً.",
+    "official_description": "Otter.ai هو مساعد اجتماعات بالذكاء الاصطناعي. يحضر اجتماعات Zoom وTeams وMeet تلقائياً، يسجّل الصوت، يُفرّغ النص في الوقت الفعلي، ويكتب ملخّصات مع نقاط العمل. يدعم البحث في جميع اجتماعاتك السابقة والدردشة مع محتوى الاجتماعات.",
+    "features": [
+      "تفريغ مباشر",
+      "ملخّص اجتماعات",
+      "نقاط عمل",
+      "بحث",
+      "Zoom/Teams/Meet"
+    ],
+    "pricing": "مجاني+ | من $8.33/شهر",
+    "pricing_type": "freemium",
+    "url": "https://otter.ai",
+    "affiliate_url": "",
+    "logo": "https://otter.ai/favicon.ico",
+    "tags": [
+      "اجتماعات",
+      "تفريغ",
+      "ملخّصات",
+      "إنتاجية"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-05-27",
+    "best_for": "تسجيل وتلخيص الاجتماعات تلقائياً"
+  },
+  {
+    "id": "fireflies",
+    "name": "Fireflies.ai",
+    "name_ar": "فايرفلايز",
+    "category": "productivity",
+    "category_ar": "إنتاجية",
+    "description": "مساعد اجتماعات AI مع تحليل المشاعر وتكاملات CRM.",
+    "official_description": "Fireflies.ai يسجّل ويُفرّغ ويحلل اجتماعاتك تلقائياً. يتميز بتحليل المشاعر، تصنيف المواضيع، اكتشاف الأسئلة ونقاط العمل، وتكامل مع أكثر من 40 أداة (Salesforce, HubSpot, Slack, إلخ). يدعم أكثر من 60 لغة ويعمل مع جميع منصات الاجتماعات.",
+    "features": [
+      "تحليل مشاعر",
+      "60+ لغة",
+      "40+ تكامل",
+      "CRM",
+      "تصنيف مواضيع"
+    ],
+    "pricing": "مجاني+ | من $10/شهر",
+    "pricing_type": "freemium",
+    "url": "https://fireflies.ai",
+    "affiliate_url": "",
+    "logo": "https://fireflies.ai/favicon.ico",
+    "tags": [
+      "اجتماعات",
+      "CRM",
+      "تحليل",
+      "إنتاجية"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-05-27",
+    "best_for": "فرق المبيعات والاجتماعات المتكررة"
+  },
+  {
+    "id": "julius-ai",
+    "name": "Julius AI",
+    "name_ar": "جوليوس AI",
+    "category": "research",
+    "category_ar": "بحث",
+    "description": "محلل بيانات AI — ارفع ملفات Excel/CSV واحصل على رؤى ورسوم بيانية.",
+    "official_description": "Julius AI هو محلل بيانات بالذكاء الاصطناعي. ارفع ملفات Excel أو CSV أو قاعدة بيانات، واسأل أسئلة بلغة طبيعية. يحلل البيانات، ينشئ رسوم بيانية تفاعلية، يكتشف الأنماط، ويقدم رؤى مع كود Python قابل للتعديل. يدعم العربية ولا يحتاج خبرة برمجة.",
+    "features": [
+      "تحليل بيانات",
+      "رسوم بيانية",
+      "Excel/CSV",
+      "كود Python",
+      "لغة طبيعية"
+    ],
+    "pricing": "مجاني+ | من $20/شهر",
+    "pricing_type": "freemium",
+    "url": "https://julius.ai",
+    "affiliate_url": "",
+    "logo": "https://julius.ai/favicon.ico",
+    "tags": [
+      "بيانات",
+      "تحليل",
+      "رسوم بيانية",
+      "Excel"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-05-27",
+    "best_for": "تحليل البيانات بدون برمجة"
+  },
+  {
+    "id": "character-ai",
+    "name": "Character.ai",
+    "name_ar": "كاراكتر AI",
+    "category": "general-assistant",
+    "category_ar": "مساعد عام",
+    "description": "منصة محادثة AI مع ملايين الشخصيات المختلفة.",
+    "official_description": "Character.ai منصة تتيح لك محادثة شخصيات AI متنوعة — معلّمين، مستشارين، شخصيات تاريخية، أبطال أنمي، ومساعدين متخصصين. يمكنك إنشاء شخصيتك الخاصة. أكثر من 20 مليون مستخدم نشط. مثالي للتعلم، الترفيه، ولعب الأدوار التفاعلي.",
+    "features": [
+      "ملايين الشخصيات",
+      "إنشاء شخصيات",
+      "تعلم تفاعلي",
+      "لعب أدوار",
+      "محادثات جماعية"
+    ],
+    "pricing": "مجاني+ | $9.99/شهر",
+    "pricing_type": "freemium",
+    "url": "https://character.ai",
+    "affiliate_url": "",
+    "logo": "https://character.ai/favicon.ico",
+    "tags": [
+      "محادثة",
+      "شخصيات",
+      "ترفيه",
+      "تعلم"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-05-27",
+    "best_for": "المحادثة الترفيهية والتعلم التفاعلي"
+  },
+  {
+    "id": "poe",
+    "name": "Poe",
+    "name_ar": "بو",
+    "category": "general-assistant",
+    "category_ar": "مساعد عام",
+    "description": "منصة موحّدة للوصول لجميع نماذج AI (GPT-4, Claude, Gemini, إلخ).",
+    "official_description": "Poe من Quora هي منصة موحّدة تجمع أفضل نماذج AI في مكان واحد. استخدم GPT-4o, Claude 3.5, Gemini Pro, Llama 3, وعشرات النماذج الأخرى باشتراك واحد. أنشئ بوتات مخصصة، شاركها مع الآخرين، وقارن بين النماذج. أفضل قيمة مقابل المال.",
+    "features": [
+      "جميع النماذج",
+      "بوتات مخصصة",
+      "مشاركة",
+      "مقارنة نماذج",
+      "اشتراك واحد"
+    ],
+    "pricing": "مجاني+ | $19.99/شهر",
+    "pricing_type": "freemium",
+    "url": "https://poe.com",
+    "affiliate_url": "",
+    "logo": "https://poe.com/favicon.ico",
+    "tags": [
+      "نماذج متعددة",
+      "بوتات",
+      "مقارنة",
+      "Quora"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-05-27",
+    "best_for": "الوصول لجميع نماذج AI باشتراك واحد"
+  },
+  {
+    "id": "huggingchat",
+    "name": "HuggingChat",
+    "name_ar": "هاغينغ شات",
+    "category": "general-assistant",
+    "category_ar": "مساعد عام",
+    "description": "بديل ChatGPT مجاني ومفتوح المصدر من HuggingFace.",
+    "official_description": "HuggingChat هو مساعد محادثة مجاني ومفتوح المصدر من Hugging Face. يعمل بأحدث النماذج المفتوحة (Llama, Mixtral, Qwen) ويقدم بحث ويب، أدوات، وتوليد صور. لا يحتاج اشتراك ولا يجمع بيانات. بديل ممتاز لـ ChatGPT للمهتمين بالخصوصية.",
+    "features": [
+      "مجاني بالكامل",
+      "مفتوح المصدر",
+      "بحث ويب",
+      "نماذج متعددة",
+      "خصوصية"
+    ],
+    "pricing": "مجاني",
+    "pricing_type": "free",
+    "url": "https://huggingface.co/chat/",
+    "affiliate_url": "",
+    "logo": "https://huggingface.co/favicon.ico",
+    "tags": [
+      "مجاني",
+      "مفتوح المصدر",
+      "محادثة",
+      "خصوصية"
+    ],
+    "featured": false,
+    "open_source": true,
+    "added_date": "2026-05-27",
+    "best_for": "محادثة AI مجانية مع خصوصية كاملة"
+  },
+  {
+    "id": "deepseek",
+    "name": "DeepSeek",
+    "name_ar": "ديب سيك",
+    "category": "general-assistant",
+    "category_ar": "مساعد عام",
+    "description": "مساعد AI صيني مجاني ينافس GPT-4 بجودة عالية.",
+    "official_description": "DeepSeek هو مساعد AI مجاني من الصين حقق ضجة كبيرة بتفوقه على GPT-4 في العديد من المعايير. يدعم DeepThink للتفكير العميق، بحث ويب، تحليل صور، وكتابة كود احترافي. النموذج مفتوح المصدر ويمكن تشغيله محلياً. مجاني بالكامل بدون حدود فعلية.",
+    "features": [
+      "مجاني",
+      "DeepThink",
+      "بحث ويب",
+      "كود",
+      "مفتوح المصدر"
+    ],
+    "pricing": "مجاني",
+    "pricing_type": "free",
+    "url": "https://chat.deepseek.com",
+    "affiliate_url": "",
+    "logo": "https://chat.deepseek.com/favicon.ico",
+    "tags": [
+      "مجاني",
+      "مفتوح المصدر",
+      "صيني",
+      "منافس GPT-4"
+    ],
+    "featured": true,
+    "open_source": true,
+    "added_date": "2026-05-27",
+    "best_for": "بديل مجاني قوي لـ ChatGPT"
+  },
+  {
+    "id": "adobe-firefly",
+    "name": "Adobe Firefly",
+    "name_ar": "أدوبي فايرفلاي",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "مولّد صور AI من Adobe آمن تجارياً ومدمج في Photoshop.",
+    "official_description": "Adobe Firefly هو نموذج AI لتوليد الصور من Adobe، مدرّب فقط على محتوى مرخّص — مما يجعله الأكثر أماناً للاستخدام التجاري. مدمج في Photoshop وIllustrator وExpress. يولّد صور، يوسّع صور (Generative Expand)، يزيل ويضيف عناصر، ويولّد تأثيرات نصية.",
+    "features": [
+      "آمن تجارياً",
+      "مدمج في Photoshop",
+      "Generative Fill",
+      "Expand",
+      "تأثيرات نصية"
+    ],
+    "pricing": "مجاني+ | من $4.99/شهر",
+    "pricing_type": "freemium",
+    "url": "https://firefly.adobe.com",
+    "affiliate_url": "",
+    "logo": "https://firefly.adobe.com/favicon.ico",
+    "tags": [
+      "Adobe",
+      "صور",
+      "تجاري",
+      "Photoshop"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-05-27",
+    "best_for": "توليد صور آمنة للاستخدام التجاري"
+  },
+  {
+    "id": "flux",
+    "name": "Flux (Black Forest Labs)",
+    "name_ar": "فلَكس",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "نموذج توليد صور مفتوح المصدر من صنّاع Stable Diffusion.",
+    "official_description": "Flux من Black Forest Labs (فريق Stable Diffusion الأصلي) هو أحدث وأقوى نموذج مفتوح لتوليد الصور. يتفوق على Midjourney وDALL-E في العديد من المعايير. يأتي بثلاثة أحجام (Schnell, Dev, Pro) ويمكن تشغيله محلياً مجاناً. يدعم نصوص دقيقة في الصور وجودة فوتوغرافية.",
+    "features": [
+      "مفتوح المصدر",
+      "جودة فائقة",
+      "تشغيل محلي",
+      "3 أحجام",
+      "نصوص في الصور"
+    ],
+    "pricing": "مجاني (المفتوح) | API مدفوع",
+    "pricing_type": "free",
+    "url": "https://blackforestlabs.ai",
+    "affiliate_url": "",
+    "logo": "https://blackforestlabs.ai/favicon.ico",
+    "tags": [
+      "مفتوح المصدر",
+      "صور",
+      "محلي",
+      "فوتوغرافي"
+    ],
+    "featured": false,
+    "open_source": true,
+    "added_date": "2026-05-27",
+    "best_for": "توليد صور عالية الجودة محلياً"
+  },
+  {
+    "id": "wordware",
+    "name": "Wordware",
+    "name_ar": "وورد وير",
+    "category": "framework",
+    "category_ar": "إطار عمل",
+    "description": "IDE لبناء وكلاء AI بلغة طبيعية بدون كود.",
+    "official_description": "Wordware هو IDE لبناء تطبيقات AI بلغة طبيعية. بدلاً من كتابة كود، تكتب التعليمات بالعربية أو الإنجليزية والمنصة تحوّلها لوكلاء عاملين. يدعم Loops, Branching, RAG, والتكامل مع APIs خارجية. مثالي للمنتج مديرين والمسوّقين الذين يريدون بناء AI بدون مبرمج.",
+    "features": [
+      "بدون كود",
+      "لغة طبيعية",
+      "Loops & Branching",
+      "RAG",
+      "APIs خارجية"
+    ],
+    "pricing": "مجاني+ | من $49/شهر",
+    "pricing_type": "freemium",
+    "url": "https://www.wordware.ai",
+    "affiliate_url": "",
+    "logo": "https://www.wordware.ai/favicon.ico",
+    "tags": [
+      "بدون كود",
+      "وكلاء",
+      "لغة طبيعية",
+      "إطار عمل"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-05-27",
+    "best_for": "بناء وكلاء AI بدون برمجة"
+  },
+  {
+    "id": "composio",
+    "name": "Composio",
+    "name_ar": "كومبوزيو",
+    "category": "framework",
+    "category_ar": "إطار عمل",
+    "description": "منصة تربط وكلاء AI بأكثر من 250 تطبيق وأداة.",
+    "official_description": "Composio يربط وكلاء AI بأكثر من 250 تطبيقاً (GitHub, Slack, Gmail, Jira, إلخ) بكود بسيط. يدير المصادقة (OAuth, API Keys) تلقائياً ويدعم LangChain, CrewAI, AutoGen وغيرها. يوفّر أسابيع من العمل في بناء التكاملات من الصفر.",
+    "features": [
+      "250+ تكامل",
+      "OAuth تلقائي",
+      "LangChain/CrewAI",
+      "مصادقة مُدارة",
+      "كود بسيط"
+    ],
+    "pricing": "مجاني+ | من $29/شهر",
+    "pricing_type": "freemium",
+    "url": "https://composio.dev",
+    "affiliate_url": "",
+    "logo": "https://composio.dev/favicon.ico",
+    "tags": [
+      "تكاملات",
+      "وكلاء",
+      "APIs",
+      "أتمتة"
+    ],
+    "featured": false,
+    "open_source": true,
+    "added_date": "2026-05-27",
+    "best_for": "ربط وكلاء AI بتطبيقات خارجية"
   }
 ]
