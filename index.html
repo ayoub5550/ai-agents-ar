@@ -705,6 +705,8 @@
         }
 
     </style>
+    <link rel="alternate" hreflang="ar" href="https://ayoub5550.github.io/ai-agents-ar/">
+    <link rel="alternate" hreflang="en" href="https://ayoub5550.github.io/ai-agents-ar/en/">
 </head>
 <body>
 
@@ -862,6 +864,35 @@
     </div>
     <p>© 2026 دليل وكلاء الذكاء الاصطناعي — صُنع بـ ❤️ و <a href="https://app.viktor.com/signin?ref=3XCqvEfwaT2TEAbizz7Bxt" target="_blank">Viktor AI</a></p>
 </footer>
+
+    <!-- Newsletter Section -->
+    <section id="newsletter" style="max-width:600px;margin:2rem auto;padding:2rem;background:linear-gradient(135deg,#1A1A2E,#16213E);border:1px solid #2A2A45;border-radius:16px;text-align:center;">
+        <h2 style="font-size:1.3rem;margin-bottom:0.5rem;">📬 النشرة الأسبوعية لأدوات AI</h2>
+        <p style="color:#9999B0;font-size:0.9rem;margin-bottom:1rem;">احصل على أحدث أدوات الذكاء الاصطناعي في بريدك كل أسبوع. بدون سبام.</p>
+        <form id="newsletter-form-ar" action="https://formspree.io/f/xwpkkdjk" method="POST" style="display:flex;gap:0.5rem;max-width:400px;margin:0 auto;flex-wrap:wrap;justify-content:center;">
+            <input type="email" name="email" placeholder="بريدك الإلكتروني" required style="flex:1;min-width:200px;padding:0.7rem 1rem;background:#0F0F1A;border:1px solid #2A2A45;border-radius:8px;color:#E8E8F0;font-size:0.9rem;direction:ltr;">
+            <input type="hidden" name="_subject" value="مشترك جديد - دليل وكلاء AI (AR)">
+            <input type="hidden" name="source" value="arabic">
+            <button type="submit" style="padding:0.7rem 1.5rem;background:#6C63FF;color:white;border:none;border-radius:8px;font-weight:600;cursor:pointer;">اشترك</button>
+        </form>
+        <p id="nl-success-ar" style="color:#00D68F;display:none;margin-top:0.5rem;">✅ تم الاشتراك! تفقد بريدك.</p>
+    </section>
+    <script>
+    document.getElementById('newsletter-form-ar').addEventListener('submit', function(e) {
+        e.preventDefault();
+        fetch(this.action, {
+            method: 'POST',
+            body: new FormData(this),
+            headers: {'Accept': 'application/json'}
+        }).then(r => {
+            if (r.ok) {
+                document.getElementById('nl-success-ar').style.display = 'block';
+                this.reset();
+            }
+        });
+    });
+    </script>
+
 
 <!-- SCROLL TOP -->
 <button class="scroll-top" id="scrollTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>

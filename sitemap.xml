@@ -1055,4 +1055,46 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+    <url>
+        <loc>https://ayoub5550.github.io/ai-agents-ar/en/</loc>
+        <lastmod>2026-05-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://ayoub5550.github.io/ai-agents-ar/en/blog/</loc>
+        <lastmod>2026-05-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://ayoub5550.github.io/ai-agents-ar/en/blog/chatgpt-alternatives-2026.html</loc>
+        <lastmod>2026-05-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://ayoub5550.github.io/ai-agents-ar/en/blog/best-ai-coding-assistants.html</loc>
+        <lastmod>2026-05-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://ayoub5550.github.io/ai-agents-ar/en/blog/free-ai-tools-students.html</loc>
+        <lastmod>2026-05-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://ayoub5550.github.io/ai-agents-ar/en/blog/ai-tools-for-business.html</loc>
+        <lastmod>2026-05-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://ayoub5550.github.io/ai-agents-ar/en/blog/ai-image-generators-compared.html</loc>
+        <lastmod>2026-05-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
 </urlset>
