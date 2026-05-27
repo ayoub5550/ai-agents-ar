@@ -7181,5 +7181,41 @@
     "open_source": true,
     "added_date": "2026-05-27",
     "best_for": "نموذج مفتوح المصدر ممتاز في العربية"
+  },
+  {
+    "id": "rytr",
+    "name": "Rytr",
+    "name_ar": "رايتر",
+    "category": "productivity",
+    "category_ar": "إنتاجية",
+    "description": "AI لكتابة المحتوى — مقالات، إيميلات، إعلانات بـ 30+ لغة",
+    "official_description": "Rytr مساعد كتابة AI يولّد محتوى عالي الجودة في ثوانٍ. يدعم 40+ حالة استخدام و30+ لغة. من مقالات المدونات إلى إيميلات التسويق وأوصاف المنتجات والمنشورات الاجتماعية.",
+    "features": [
+      "40+ حالة استخدام",
+      "30+ لغة",
+      "مقالات مدونة",
+      "إيميلات تسويق",
+      "إعلانات",
+      "أوصاف منتجات",
+      "SEO Analyzer",
+      "Plagiarism Checker"
+    ],
+    "pricing": "مجاني + مدفوع",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "10,000 حرف شهرياً مجاناً",
+    "url": "https://rytr.me",
+    "affiliate_url": "https://rytr.me/?via=ayoub-teke",
+    "logo": "https://rytr.me/favicon.ico",
+    "tags": [
+      "كتابة",
+      "محتوى",
+      "تسويق",
+      "SEO"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-05-27",
+    "best_for": "كتابة محتوى سريعة وبأسعار معقولة"
   }
 ]
