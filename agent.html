@@ -252,7 +252,7 @@ fetch('agents.json')
             
             <div class="section">
                 <h2>${lang==='ar'?'السعر':'Pricing'}</h2>
-                <p>${a.pricing || priceLabels[a.pricing_type]}</p>
+                <p>${lang==='ar' ? (a.pricing || priceLabels[a.pricing_type]) : (priceLabels[a.pricing_type] || a.pricing_type)}</p>
                 ${a.free_trial_details ? `<p style="margin-top:4px;font-size:0.9rem;color:var(--green)">${a.free_trial_details}</p>` : ''}
             </div>
             
