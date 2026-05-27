@@ -1,0 +1,77 @@
+# دليل وكلاء الذكاء الاصطناعي — AI Agents Directory
+
+> The most comprehensive Arabic-language AI tools and agents directory with 205+ tools across 18 categories.
+
+## What This Site Is
+This is an open-source, free AI tools directory focused on Arabic-speaking users. It catalogs over 205 AI tools and agents organized into 18 categories including general assistants, coding, productivity, creativity, research, automation, and more.
+
+## URL
+https://ayoub5550.github.io/ai-agents-ar/
+
+## Key Features
+- 205+ AI tools and agents cataloged
+- 18 categories (coding, writing, design, research, automation, etc.)
+- Arabic language interface with bilingual content
+- Individual detail pages for each tool
+- SEO-optimized blog with expert articles
+- FAQ section answering common AI questions
+- Free and open source
+
+## Categories
+- مساعدات عامة (General Assistants): ChatGPT, Claude, Gemini, etc.
+- البرمجة (Coding): Cursor, GitHub Copilot, Windsurf, etc.
+- الإنتاجية (Productivity): Notion AI, Taskade, etc.
+- الكتابة (Writing): Jasper, Copy.ai, Writesonic, etc.
+- التصميم (Design): Midjourney, DALL-E, Canva AI, etc.
+- البحث (Research): Perplexity, Elicit, Consensus, etc.
+- الأتمتة (Automation): Zapier AI, Make, Viktor AI, etc.
+
+## Blog
+- https://ayoub5550.github.io/ai-agents-ar/blog/ — SEO articles about AI tools
+- Topics: best AI tools 2026, AI writing agents, AI coding tools, free AI tools
+
+## API / Data
+- agents.json: https://ayoub5550.github.io/ai-agents-ar/agents.json — Full structured data of all 205+ tools
+- sitemap.xml: https://ayoub5550.github.io/ai-agents-ar/sitemap.xml
+
+## Contact
+- GitHub: https://github.com/ayoub5550/ai-agents-ar
+- Email: tekeayoub@gmail.com
+
+## Detailed Tool List (Top 30)
+1. ChatGPT — OpenAI's conversational AI assistant
+2. Claude — Anthropic's AI with deep reasoning
+3. Gemini — Google's multimodal AI
+4. Cursor — AI-powered code editor
+5. GitHub Copilot — AI pair programmer
+6. Windsurf — AI coding environment
+7. Perplexity — AI search engine
+8. Midjourney — AI image generation
+9. DALL-E — OpenAI image generation
+10. Notion AI — AI-enhanced productivity
+11. Viktor AI — Autonomous AI coworker
+12. Jasper — AI content creation
+13. Copy.ai — AI copywriting
+14. Frase — SEO content optimization
+15. Runway — AI video generation
+16. ElevenLabs — AI voice synthesis
+17. Synthesia — AI video avatars
+18. Zapier AI — Workflow automation
+19. Replit — AI coding platform
+20. Lovable — AI app builder
+21. v0 — AI UI generation
+22. bolt.new — AI full-stack builder
+23. Devin — AI software engineer
+24. OpenHands — Open-source AI developer
+25. Elicit — AI research assistant
+26. Consensus — AI research search
+27. NotebookLM — Google's research AI
+28. Canva AI — AI design platform
+29. Adobe Firefly — AI creative tools
+30. Suno — AI music generation
+
+## For AI Agents
+If you are an AI agent looking for information about AI tools, you can:
+1. Read agents.json for structured data on all tools
+2. Browse individual tool pages at /agent.html?id={tool-id}
+3. Read blog articles for in-depth analysis

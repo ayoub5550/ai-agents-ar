@@ -1,0 +1,39 @@
+# دليل وكلاء الذكاء الاصطناعي — AI Agents Directory
+
+> The most comprehensive Arabic-language AI tools and agents directory with 205+ tools across 18 categories.
+
+## What This Site Is
+This is an open-source, free AI tools directory focused on Arabic-speaking users. It catalogs over 205 AI tools and agents organized into 18 categories including general assistants, coding, productivity, creativity, research, automation, and more.
+
+## URL
+https://ayoub5550.github.io/ai-agents-ar/
+
+## Key Features
+- 205+ AI tools and agents cataloged
+- 18 categories (coding, writing, design, research, automation, etc.)
+- Arabic language interface with bilingual content
+- Individual detail pages for each tool
+- SEO-optimized blog with expert articles
+- FAQ section answering common AI questions
+- Free and open source
+
+## Categories
+- مساعدات عامة (General Assistants): ChatGPT, Claude, Gemini, etc.
+- البرمجة (Coding): Cursor, GitHub Copilot, Windsurf, etc.
+- الإنتاجية (Productivity): Notion AI, Taskade, etc.
+- الكتابة (Writing): Jasper, Copy.ai, Writesonic, etc.
+- التصميم (Design): Midjourney, DALL-E, Canva AI, etc.
+- البحث (Research): Perplexity, Elicit, Consensus, etc.
+- الأتمتة (Automation): Zapier AI, Make, Viktor AI, etc.
+
+## Blog
+- https://ayoub5550.github.io/ai-agents-ar/blog/ — SEO articles about AI tools
+- Topics: best AI tools 2026, AI writing agents, AI coding tools, free AI tools
+
+## API / Data
+- agents.json: https://ayoub5550.github.io/ai-agents-ar/agents.json — Full structured data of all 205+ tools
+- sitemap.xml: https://ayoub5550.github.io/ai-agents-ar/sitemap.xml
+
+## Contact
+- GitHub: https://github.com/ayoub5550/ai-agents-ar
+- Email: tekeayoub@gmail.com
