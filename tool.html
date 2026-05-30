@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Agent Finder — Find the Perfect AI Tool for Your Work | AgentVault</title>
+    <meta name="description" content="Free AI tool recommender — answer 3 quick questions and discover which AI agents can save you hours every week. Powered by AgentVault's database of 410+ tools.">
+    <meta name="keywords" content="AI tool finder, best AI for my work, AI agent recommender, which AI tool should I use, AI productivity calculator">
+    <link rel="canonical" href="https://ayoub5550.github.io/ai-agents-ar/tool.html">
+    <meta property="og:title" content="AI Agent Finder — Which AI Tool Is Best For You?">
+    <meta property="og:description" content="Answer 3 questions → get personalized AI tool recommendations. Free tool by AgentVault.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ayoub5550.github.io/ai-agents-ar/tool.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="AI Agent Finder — Which AI Tool Is Best For You?">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "AI Agent Finder",
+        "description": "Free AI tool recommender that helps you find the perfect AI agent for your work",
+        "url": "https://ayoub5550.github.io/ai-agents-ar/tool.html",
+        "applicationCategory": "UtilityApplication",
+        "operatingSystem": "Web",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+    }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #F8FAFC; --bg-card: #FFFFFF; --text: #0F172A; --text-2: #475569;
+            --text-3: #94A3B8; --border: #E2E8F0; --accent: #6366F1; --accent-light: #EEF2FF;
+            --accent-dark: #4F46E5; --green: #10B981; --green-bg: #ECFDF5;
+            --orange: #F59E0B; --orange-bg: #FFFBEB; --r: 12px; --r-sm: 8px;
+            --shadow-sm: 0 1px 2px rgba(0,0,0,0.04); --shadow-md: 0 4px 12px rgba(0,0,0,0.06);
+            --shadow-lg: 0 8px 30px rgba(0,0,0,0.08);
+        }
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            background: var(--bg); color: var(--text); line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+        a { text-decoration:none; color:inherit; }
+
+        /* NAV */
+        .nav {
+            position: sticky; top:0; z-index:100;
+            background: rgba(255,255,255,0.88); backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border); padding: 0 24px;
+        }
+        .nav-inner { max-width:1280px; margin:0 auto; display:flex; align-items:center; justify-content:space-between; height:64px; }
+        .nav-brand { display:flex; align-items:center; gap:10px; font-weight:700; font-size:1.15rem; }
+        .logo-icon {
+            width:36px; height:36px;
+            background: linear-gradient(135deg, #6366F1, #8B5CF6, #A855F7);
+            border-radius:10px; display:flex; align-items:center; justify-content:center;
+            color:white; font-size:16px; font-weight:800; letter-spacing:-0.5px;
+            box-shadow: 0 2px 8px rgba(99,102,241,0.3);
+        }
+        .nav-links { display:flex; gap:6px; }
+        .nav-links a { padding:6px 14px; border-radius:var(--r-sm); font-size:0.88rem; font-weight:500; color:var(--text-2); transition:all 0.2s; }
+        .nav-links a:hover { background:#F1F5F9; color:var(--text); }
+
+        /* HERO */
+        .hero {
+            text-align:center; padding:60px 24px 30px; max-width:700px; margin:0 auto;
+            position: relative;
+        }
+        .hero::before {
+            content:''; position:absolute; top:-60px; left:50%; transform:translateX(-50%);
+            width:500px; height:500px;
+            background: radial-gradient(circle, rgba(99,102,241,0.1) 0%, transparent 70%);
+            pointer-events:none; z-index:-1;
+        }
+        .hero-badge {
+            display:inline-flex; align-items:center; gap:8px;
+            background:var(--accent-light); color:var(--accent);
+            padding:6px 16px; border-radius:50px; font-size:0.85rem; font-weight:600; margin-bottom:16px;
+        }
+        .hero h1 { font-size:2.2rem; font-weight:800; line-height:1.2; margin-bottom:12px; }
+        .hero h1 span { color:var(--accent); }
+        .hero p { color:var(--text-2); font-size:1.05rem; max-width:550px; margin:0 auto; }
+
+        /* WIZARD */
+        .wizard-container {
+            max-width:680px; margin:30px auto 60px; padding:0 24px;
+        }
+        .wizard-card {
+            background:var(--bg-card); border:1px solid var(--border); border-radius:16px;
+            padding:40px; box-shadow: var(--shadow-lg);
+            transition: all 0.3s ease;
+        }
+        .step-indicator {
+            display:flex; gap:8px; margin-bottom:28px; justify-content:center;
+        }
+        .step-dot {
+            width:40px; height:5px; border-radius:3px; background:var(--border);
+            transition: all 0.3s;
+        }
+        .step-dot.active { background:var(--accent); width:60px; }
+        .step-dot.done { background:var(--green); }
+
+        .step-question {
+            font-size:1.2rem; font-weight:700; text-align:center; margin-bottom:8px;
+        }
+        .step-sub {
+            font-size:0.9rem; color:var(--text-2); text-align:center; margin-bottom:24px;
+        }
+
+        .options-grid {
+            display:grid; grid-template-columns:1fr 1fr; gap:12px;
+        }
+        @media(max-width:500px) { .options-grid { grid-template-columns:1fr; } }
+
+        .option-btn {
+            background:var(--bg); border:2px solid var(--border); border-radius:var(--r);
+            padding:16px; cursor:pointer; transition:all 0.2s; text-align:left;
+        }
+        .option-btn:hover { border-color:var(--accent); background:var(--accent-light); transform:translateY(-1px); }
+        .option-btn.selected { border-color:var(--accent); background:var(--accent-light); }
+        .option-icon { font-size:1.5rem; margin-bottom:6px; }
+        .option-label { font-weight:600; font-size:0.95rem; }
+        .option-desc { font-size:0.8rem; color:var(--text-2); margin-top:2px; }
+
+        /* RESULTS */
+        .results-section { display:none; }
+        .results-header {
+            text-align:center; margin-bottom:24px;
+        }
+        .results-header h2 { font-size:1.5rem; font-weight:800; margin-bottom:4px; }
+        .results-header p { color:var(--text-2); font-size:0.95rem; }
+        .time-saved {
+            display:inline-flex; align-items:center; gap:8px;
+            background: linear-gradient(135deg, var(--green-bg), #D1FAE5);
+            color:#059669; padding:10px 20px; border-radius:50px;
+            font-weight:700; font-size:1rem; margin:16px 0;
+        }
+
+        .result-card {
+            background:var(--bg-card); border:1px solid var(--border); border-radius:var(--r);
+            padding:20px; margin-bottom:12px; display:flex; gap:16px; align-items:flex-start;
+            transition: all 0.2s;
+        }
+        .result-card:hover { border-color:var(--accent); box-shadow:var(--shadow-md); }
+        .result-rank {
+            width:36px; height:36px; border-radius:50%;
+            background:var(--accent); color:white; display:flex; align-items:center; justify-content:center;
+            font-weight:800; font-size:0.95rem; flex-shrink:0;
+        }
+        .result-rank.r2 { background:#8B5CF6; }
+        .result-rank.r3 { background:#A855F7; }
+        .result-info { flex:1; }
+        .result-name { font-weight:700; font-size:1.05rem; }
+        .result-match { color:var(--green); font-weight:600; font-size:0.85rem; }
+        .result-why { color:var(--text-2); font-size:0.88rem; margin-top:4px; }
+        .result-tags { display:flex; gap:6px; margin-top:8px; flex-wrap:wrap; }
+        .result-tag {
+            background:var(--accent-light); color:var(--accent); padding:3px 10px;
+            border-radius:50px; font-size:0.75rem; font-weight:600;
+        }
+        .result-pricing {
+            padding:3px 10px; border-radius:50px; font-size:0.75rem; font-weight:600;
+        }
+        .result-pricing.free { background:var(--green-bg); color:var(--green); }
+        .result-pricing.freemium { background:var(--accent-light); color:var(--accent); }
+        .result-pricing.paid { background:var(--orange-bg); color:var(--orange); }
+
+        .result-cta {
+            display:inline-flex; align-items:center; gap:6px;
+            color:var(--accent); font-weight:600; font-size:0.85rem;
+            margin-top:8px; cursor:pointer;
+        }
+        .result-cta:hover { text-decoration:underline; }
+
+        /* SHARE BAR */
+        .share-bar {
+            text-align:center; margin-top:30px; padding:24px;
+            background:var(--accent-light); border-radius:var(--r);
+        }
+        .share-bar h3 { font-size:1rem; font-weight:700; margin-bottom:12px; }
+        .share-btns { display:flex; gap:10px; justify-content:center; flex-wrap:wrap; }
+        .share-btn {
+            padding:10px 20px; border-radius:var(--r-sm); border:none;
+            font-weight:600; font-size:0.88rem; cursor:pointer; transition:all 0.2s;
+            display:inline-flex; align-items:center; gap:6px; color:white;
+        }
+        .share-btn.twitter { background:#1DA1F2; }
+        .share-btn.linkedin { background:#0A66C2; }
+        .share-btn.reddit { background:#FF4500; }
+        .share-btn.copy { background:var(--text); }
+        .share-btn:hover { transform:translateY(-2px); box-shadow:var(--shadow-md); }
+
+        .restart-btn {
+            display:inline-flex; align-items:center; gap:6px;
+            margin-top:20px; padding:10px 24px; border-radius:var(--r-sm);
+            background:var(--bg); border:2px solid var(--border); font-weight:600;
+            font-size:0.88rem; cursor:pointer; transition:all 0.2s;
+        }
+        .restart-btn:hover { border-color:var(--accent); }
+
+        /* DIRECTORY BANNER */
+        .directory-banner {
+            max-width:680px; margin:0 auto 60px; padding:0 24px;
+        }
+        .directory-inner {
+            background: linear-gradient(135deg, #6366F1, #8B5CF6);
+            border-radius:16px; padding:32px; text-align:center; color:white;
+        }
+        .directory-inner h3 { font-size:1.3rem; font-weight:800; margin-bottom:8px; }
+        .directory-inner p { opacity:0.9; font-size:0.95rem; margin-bottom:16px; }
+        .directory-btn {
+            display:inline-flex; padding:12px 28px; background:white; color:var(--accent);
+            font-weight:700; border-radius:var(--r-sm); font-size:0.95rem; transition:all 0.2s;
+        }
+        .directory-btn:hover { transform:translateY(-2px); box-shadow:0 4px 16px rgba(0,0,0,0.2); }
+
+        /* FOOTER */
+        footer {
+            text-align:center; padding:30px 24px; border-top:1px solid var(--border);
+            color:var(--text-3); font-size:0.85rem;
+        }
+
+        /* ANIMATIONS */
+        @keyframes fadeInUp {
+            from { opacity:0; transform:translateY(20px); }
+            to { opacity:1; transform:translateY(0); }
+        }
+        .animate-in { animation: fadeInUp 0.4s ease forwards; }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="https://ayoub5550.github.io/ai-agents-ar/" class="nav-brand">
+                <div class="logo-icon">AV</div>
+                <span>AgentVault</span>
+            </a>
+            <div class="nav-links">
+                <a href="https://ayoub5550.github.io/ai-agents-ar/">← All 410+ Tools</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <div class="hero-badge">🔍 Free Tool — No signup needed</div>
+        <h1>Find the <span>Perfect AI Agent</span> for Your Work</h1>
+        <p>Answer 3 quick questions and discover which AI tools can save you hours every week</p>
+    </div>
+
+    <div class="wizard-container">
+        <div class="wizard-card" id="wizardCard">
+            <!-- Step indicators -->
+            <div class="step-indicator">
+                <div class="step-dot active" id="dot1"></div>
+                <div class="step-dot" id="dot2"></div>
+                <div class="step-dot" id="dot3"></div>
+            </div>
+
+            <!-- STEP 1 -->
+            <div id="step1" class="step animate-in">
+                <div class="step-question">What do you do most of the day?</div>
+                <div class="step-sub">Pick the one closest to your daily work</div>
+                <div class="options-grid">
+                    <div class="option-btn" onclick="selectOption(1,'coding')">
+                        <div class="option-icon">💻</div>
+                        <div class="option-label">Writing Code</div>
+                        <div class="option-desc">Software, web dev, debugging</div>
+                    </div>
+                    <div class="option-btn" onclick="selectOption(1,'writing')">
+                        <div class="option-icon">✍️</div>
+                        <div class="option-label">Writing & Content</div>
+                        <div class="option-desc">Articles, emails, marketing copy</div>
+                    </div>
+                    <div class="option-btn" onclick="selectOption(1,'design')">
+                        <div class="option-icon">🎨</div>
+                        <div class="option-label">Design & Creative</div>
+                        <div class="option-desc">Images, videos, graphics, UI</div>
+                    </div>
+                    <div class="option-btn" onclick="selectOption(1,'research')">
+                        <div class="option-icon">🔬</div>
+                        <div class="option-label">Research & Analysis</div>
+                        <div class="option-desc">Data, reports, academic work</div>
+                    </div>
+                    <div class="option-btn" onclick="selectOption(1,'business')">
+                        <div class="option-icon">📊</div>
+                        <div class="option-label">Business & Sales</div>
+                        <div class="option-desc">CRM, outreach, management</div>
+                    </div>
+                    <div class="option-btn" onclick="selectOption(1,'general')">
+                        <div class="option-icon">🤖</div>
+                        <div class="option-label">General / Everything</div>
+                        <div class="option-desc">A bit of everything, personal use</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- STEP 2 -->
+            <div id="step2" class="step" style="display:none">
+                <div class="step-question">What's most important to you?</div>
+                <div class="step-sub">What matters most when choosing a tool</div>
+                <div class="options-grid">
+                    <div class="option-btn" onclick="selectOption(2,'free')">
+                        <div class="option-icon">🆓</div>
+                        <div class="option-label">Must Be Free</div>
+                        <div class="option-desc">No budget, free tools only</div>
+                    </div>
+                    <div class="option-btn" onclick="selectOption(2,'quality')">
+                        <div class="option-icon">⭐</div>
+                        <div class="option-label">Best Quality</div>
+                        <div class="option-desc">I'll pay for the best results</div>
+                    </div>
+                    <div class="option-btn" onclick="selectOption(2,'speed')">
+                        <div class="option-icon">⚡</div>
+                        <div class="option-label">Speed & Ease</div>
+                        <div class="option-desc">Fastest to set up and use</div>
+                    </div>
+                    <div class="option-btn" onclick="selectOption(2,'privacy')">
+                        <div class="option-icon">🔒</div>
+                        <div class="option-label">Privacy & Control</div>
+                        <div class="option-desc">Self-hosted, open source</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- STEP 3 -->
+            <div id="step3" class="step" style="display:none">
+                <div class="step-question">How much time do you spend on this daily?</div>
+                <div class="step-sub">This helps us calculate your potential time savings</div>
+                <div class="options-grid">
+                    <div class="option-btn" onclick="selectOption(3,'1-2h')">
+                        <div class="option-icon">🕐</div>
+                        <div class="option-label">1–2 hours</div>
+                        <div class="option-desc">A small part of my day</div>
+                    </div>
+                    <div class="option-btn" onclick="selectOption(3,'3-4h')">
+                        <div class="option-icon">🕒</div>
+                        <div class="option-label">3–4 hours</div>
+                        <div class="option-desc">About half my workday</div>
+                    </div>
+                    <div class="option-btn" onclick="selectOption(3,'5-6h')">
+                        <div class="option-icon">🕔</div>
+                        <div class="option-label">5–6 hours</div>
+                        <div class="option-desc">Most of my workday</div>
+                    </div>
+                    <div class="option-btn" onclick="selectOption(3,'7h+')">
+                        <div class="option-icon">🕖</div>
+                        <div class="option-label">7+ hours</div>
+                        <div class="option-desc">It's basically my whole job</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- RESULTS -->
+            <div id="results" class="results-section">
+                <div class="results-header">
+                    <h2>🎯 Your Perfect AI Stack</h2>
+                    <p>Based on your answers, here are your top 3 recommendations</p>
+                    <div class="time-saved" id="timeSaved">⏱ You could save ~X hours/week</div>
+                </div>
+                <div id="resultsCards"></div>
+
+                <div class="share-bar">
+                    <h3>💡 Know someone who needs this?</h3>
+                    <div class="share-btns">
+                        <button class="share-btn twitter" onclick="shareTwitter()">𝕏 Tweet</button>
+                        <button class="share-btn linkedin" onclick="shareLinkedIn()">in LinkedIn</button>
+                        <button class="share-btn reddit" onclick="shareReddit()">◉ Reddit</button>
+                        <button class="share-btn copy" onclick="copyLink()">📋 Copy Link</button>
+                    </div>
+                </div>
+                <div style="text-align:center">
+                    <button class="restart-btn" onclick="restart()">🔄 Start Over</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- DIRECTORY BANNER -->
+    <div class="directory-banner">
+        <div class="directory-inner">
+            <h3>Explore All 410+ AI Tools</h3>
+            <p>Browse the full AgentVault directory — compare, filter, and find the right AI agent for any task</p>
+            <a href="https://ayoub5550.github.io/ai-agents-ar/" class="directory-btn">Browse Full Directory →</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>AgentVault © 2026 — <a href="https://ayoub5550.github.io/ai-agents-ar/" style="color:var(--accent)">Full Directory</a></p>
+    </footer>
+
+    <script>
+    const answers = {};
+
+    const RECOMMENDATIONS = {
+        coding: {
+            free: [
+                { name:"GitHub Copilot", match:97, why:"Industry-leading AI code completion — free for students and open source. Supports all major IDEs.", tags:["Code Completion","Multi-IDE"], pricing:"Free tier", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=github-copilot" },
+                { name:"DeepSeek Coder V3", match:94, why:"Open-source coding powerhouse — rivals GPT-4 level on coding benchmarks, completely free.", tags:["Open Source","Free"], pricing:"Free", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=deepseek" },
+                { name:"Cody by Sourcegraph", match:89, why:"AI coding assistant that understands your entire codebase with context-aware suggestions.", tags:["Codebase-aware","Free tier"], pricing:"Free tier", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=cody-sourcegraph" }
+            ],
+            quality: [
+                { name:"Claude Code", match:98, why:"Best-in-class coding AI — 200K context, handles complex multi-file refactoring and architecture.", tags:["200K Context","Best Quality"], pricing:"Paid", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=claude" },
+                { name:"Cursor", match:96, why:"The AI-first code editor — built on VS Code with native AI code generation and chat.", tags:["AI IDE","Smart Edit"], pricing:"Freemium", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=cursor" },
+                { name:"GitHub Copilot", match:93, why:"Most widely adopted coding assistant — autocomplete, chat, and multi-file editing.", tags:["Code Completion","Proven"], pricing:"Free tier", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=github-copilot" }
+            ],
+            speed: [
+                { name:"Cursor", match:97, why:"Instant setup — install and start coding with AI in under 2 minutes. Feels like magic.", tags:["Instant","AI IDE"], pricing:"Freemium", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=cursor" },
+                { name:"Replit Agent", match:93, why:"Describe what you want, get a full working app deployed in minutes — zero setup needed.", tags:["Zero Setup","Instant"], pricing:"Freemium", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=replit-agent" },
+                { name:"GitHub Copilot", match:90, why:"Tab-to-complete code as you type — seamless integration with your existing editor.", tags:["Autocomplete","Fast"], pricing:"Free tier", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=github-copilot" }
+            ],
+            privacy: [
+                { name:"Ollama", match:97, why:"Run LLMs 100% locally — no data leaves your machine. Supports CodeLlama, DeepSeek, and more.", tags:["100% Local","Private"], pricing:"Free", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=ollama" },
+                { name:"Jan AI", match:94, why:"Beautiful desktop app for offline AI — chat with local models privately.", tags:["Offline","Desktop"], pricing:"Free", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=jan-ai" },
+                { name:"Continue", match:90, why:"Open-source coding assistant — connect to any model including local ones via Ollama.", tags:["Open Source","Self-hosted"], pricing:"Free", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=continue" }
+            ]
+        },
+        writing: {
+            free: [
+                { name:"ChatGPT", match:96, why:"The most versatile AI writer — articles, emails, social posts, and creative writing. Free tier is generous.", tags:["Versatile","GPT-4o"], pricing:"Free tier", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=chatgpt" },
+                { name:"Gemini", match:93, why:"Google's AI with real-time search — perfect for writing content with up-to-date facts.", tags:["Search","Google"], pricing:"Free", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=gemini" },
+                { name:"Grammarly", match:90, why:"AI writing companion — fixes grammar, improves clarity, and adjusts tone across all your apps.", tags:["Grammar","Tone"], pricing:"Free tier", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=grammarly" }
+            ],
+            quality: [
+                { name:"Claude", match:98, why:"Produces the most natural, nuanced writing — editorial-quality articles and long-form content.", tags:["Best Writing","200K Context"], pricing:"Freemium", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=claude" },
+                { name:"Jasper", match:94, why:"Enterprise-grade AI writing platform — brand voice, templates, and marketing campaign tools.", tags:["Brand Voice","Marketing"], pricing:"Paid", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=jasper" },
+                { name:"Copy.ai", match:91, why:"AI marketing content at scale — blog posts, ad copy, product descriptions with workflow automation.", tags:["Scale","Marketing"], pricing:"Freemium", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=copy-ai" }
+            ],
+            speed: [
+                { name:"ChatGPT", match:97, why:"Start writing in seconds — no setup, just type and get instant drafts for anything.", tags:["Instant","No Setup"], pricing:"Free tier", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=chatgpt" },
+                { name:"Gamma AI", match:93, why:"One prompt → full presentation with slides and content. Fastest way to create decks.", tags:["Presentations","One Click"], pricing:"Freemium", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=gamma-ai" },
+                { name:"Notion AI", match:90, why:"AI built into your workspace — write, summarize, and brainstorm without switching apps.", tags:["Integrated","Workspace"], pricing:"Freemium", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=notion-ai" }
+            ],
+            privacy: [
+                { name:"Ollama", match:95, why:"Run writing models locally — your content never leaves your machine.", tags:["Local","Private"], pricing:"Free", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=ollama" },
+                { name:"Jan AI", match:92, why:"Private desktop AI — chat and write with local LLMs offline.", tags:["Offline","Desktop"], pricing:"Free", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=jan-ai" },
+                { name:"AnythingLLM", match:88, why:"Self-hosted AI workspace — write with any model including private local ones.", tags:["Self-hosted","Multi-model"], pricing:"Free", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=anythingllm" }
+            ]
+        },
+        design: {
+            free: [
+                { name:"Canva AI", match:96, why:"Free AI design suite — Magic Design generates social posts, logos, and presentations instantly.", tags:["Design","Templates"], pricing:"Free tier", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=canva-ai" },
+                { name:"Leonardo AI", match:93, why:"Free AI image generation — high-quality art, photos, and game assets with fine-tuned models.", tags:["Images","Free Credits"], pricing:"Free tier", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=leonardo-ai" },
+                { name:"Microsoft Designer", match:89, why:"Free AI design tool powered by DALL-E — social posts, invitations, and graphics.", tags:["DALL-E","Free"], pricing:"Free", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=microsoft-designer" }
+            ],
+            quality: [
+                { name:"Midjourney V7", match:98, why:"Highest quality AI images — unmatched photorealism and artistic detail.", tags:["Best Quality","Photorealistic"], pricing:"Paid", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=midjourney-v7" },
+                { name:"Adobe Firefly", match:95, why:"Professional-grade AI design — integrated into Photoshop and Illustrator. Commercially safe.", tags:["Professional","Adobe"], pricing:"Freemium", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=adobe-firefly" },
+                { name:"Recraft V3", match:91, why:"Best for brand design — vector art, icons, and illustrations with perfect consistency.", tags:["Vectors","Brand"], pricing:"Freemium", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=recraft-v3" }
+            ],
+            speed: [
+                { name:"Canva AI", match:97, why:"Fastest design workflow — pick a template, let AI customize it, done in 60 seconds.", tags:["Templates","Fast"], pricing:"Free tier", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=canva-ai" },
+                { name:"Napkin AI", match:93, why:"Paste text → get infographics instantly. Fastest way to make visual content.", tags:["Instant","Infographics"], pricing:"Freemium", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=napkin-ai" },
+                { name:"Lovart", match:90, why:"AI design agent — generates entire brand kits and social content automatically.", tags:["Agent","Brand Kits"], pricing:"Freemium", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=lovart" }
+            ],
+            privacy: [
+                { name:"Stable Diffusion", match:97, why:"Run locally — full image generation on your own GPU with no data sent anywhere.", tags:["Local","GPU"], pricing:"Free", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=stable-diffusion" },
+                { name:"ComfyUI", match:93, why:"Open-source visual workflow for Stable Diffusion — complete control over your image pipeline.", tags:["Open Source","Workflow"], pricing:"Free", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=comfyui" },
+                { name:"Fooocus", match:89, why:"One-click local image generation — simplest way to run Stable Diffusion privately.", tags:["Simple","Local"], pricing:"Free", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=fooocus" }
+            ]
+        },
+        research: {
+            free: [
+                { name:"Perplexity AI", match:97, why:"AI search engine with citations — get research-quality answers with verified sources, free.", tags:["Search","Citations"], pricing:"Free tier", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=perplexity" },
+                { name:"NotebookLM", match:94, why:"Google's research assistant — upload papers and documents, get AI summaries and connections.", tags:["Documents","Google"], pricing:"Free", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=notebooklm" },
+                { name:"Gemini", match:91, why:"Google AI with live search — fact-check and research with real-time web access.", tags:["Live Search","Free"], pricing:"Free", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=gemini" }
+            ],
+            quality: [
+                { name:"Perplexity Deep Research", match:98, why:"Multi-step AI research agent — reads 100+ sources and produces comprehensive analytical reports.", tags:["Deep Research","100+ Sources"], pricing:"Paid", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=perplexity-deep-research" },
+                { name:"Claude", match:95, why:"200K context for reading entire papers — best for deep analysis and synthesis.", tags:["200K Context","Analysis"], pricing:"Freemium", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=claude" },
+                { name:"Elicit", match:91, why:"AI research assistant — finds papers, extracts claims, and synthesizes findings across studies.", tags:["Academic","Papers"], pricing:"Freemium", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=elicit" }
+            ],
+            speed: [
+                { name:"Perplexity AI", match:97, why:"Ask a question → get sourced answer in seconds. Fastest path from question to answer.", tags:["Instant","Sourced"], pricing:"Free tier", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=perplexity" },
+                { name:"ChatGPT", match:92, why:"Quick answers and analysis for any topic — browse the web for current data.", tags:["Fast","Web Browse"], pricing:"Free tier", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=chatgpt" },
+                { name:"You.com", match:88, why:"AI search with code, images, and web results in one interface.", tags:["Multi-mode","Search"], pricing:"Free", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=you-com" }
+            ],
+            privacy: [
+                { name:"Ollama", match:95, why:"Run research models locally — analyze sensitive documents without cloud exposure.", tags:["Local","Private"], pricing:"Free", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=ollama" },
+                { name:"AnythingLLM", match:91, why:"Private document analysis — RAG on your own papers without sending data anywhere.", tags:["RAG","Self-hosted"], pricing:"Free", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=anythingllm" },
+                { name:"Jan AI", match:87, why:"Offline research assistant — chat with local models about your findings.", tags:["Offline","Desktop"], pricing:"Free", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=jan-ai" }
+            ]
+        },
+        business: {
+            free: [
+                { name:"ChatGPT", match:95, why:"Free AI for business tasks — write emails, analyze data, brainstorm strategies.", tags:["Versatile","Free"], pricing:"Free tier", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=chatgpt" },
+                { name:"HubSpot AI", match:92, why:"Free CRM with AI — manage contacts, emails, and sales pipeline with AI assistance.", tags:["CRM","Free"], pricing:"Free tier", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=hubspot-ai" },
+                { name:"Notion AI", match:89, why:"AI-powered workspace — organize projects, docs, and wikis with built-in AI.", tags:["Workspace","Organize"], pricing:"Freemium", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=notion-ai" }
+            ],
+            quality: [
+                { name:"Viktor AI", match:98, why:"Full AI coworker — handles emails, research, coding, design, and complex multi-step work autonomously.", tags:["Autonomous","Full Coworker"], pricing:"Freemium", url:"https://ref.viktor.com/ayoub-teke" },
+                { name:"Glean", match:94, why:"Enterprise AI search — find anything across all your company's tools and get contextual answers.", tags:["Enterprise","Search"], pricing:"Paid", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=glean" },
+                { name:"Salesforce Einstein", match:90, why:"AI built into the world's #1 CRM — predictive analytics, auto-responses, and deal scoring.", tags:["CRM","Predictive"], pricing:"Paid", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=salesforce-einstein" }
+            ],
+            speed: [
+                { name:"Zapier AI", match:96, why:"Connect 7000+ apps with AI — automate repetitive business tasks in minutes.", tags:["Automation","7000+ Apps"], pricing:"Freemium", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=zapier" },
+                { name:"Notion AI", match:92, why:"Instant AI inside your workspace — summarize meetings, draft docs, manage tasks.", tags:["Workspace","Instant"], pricing:"Freemium", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=notion-ai" },
+                { name:"Superhuman", match:88, why:"Fastest email client with AI — respond to emails 2x faster with AI triage and writing.", tags:["Email","Ultra-fast"], pricing:"Paid", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=superhuman" }
+            ],
+            privacy: [
+                { name:"Ollama", match:94, why:"Run business AI locally — analyze sensitive data without cloud exposure.", tags:["Local","Secure"], pricing:"Free", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=ollama" },
+                { name:"AnythingLLM", match:90, why:"Private AI workspace — chat with business documents using any model.", tags:["Self-hosted","Documents"], pricing:"Free", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=anythingllm" },
+                { name:"Dust", match:87, why:"Open-source team AI — create custom agents connected to your tools.", tags:["Open Source","Team"], pricing:"Freemium", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=dust" }
+            ]
+        },
+        general: {
+            free: [
+                { name:"ChatGPT", match:97, why:"The most popular AI assistant — writing, coding, analysis, and creative work. Free tier includes GPT-4o.", tags:["#1 AI","GPT-4o"], pricing:"Free tier", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=chatgpt" },
+                { name:"Claude", match:95, why:"Best for nuanced thinking — excels at analysis, writing, and complex reasoning.", tags:["Best Reasoning","200K"], pricing:"Free tier", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=claude" },
+                { name:"Gemini", match:92, why:"Google's AI with real-time search and multimodal input — images, docs, and code.", tags:["Google","Multimodal"], pricing:"Free", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=gemini" }
+            ],
+            quality: [
+                { name:"Viktor AI", match:98, why:"Autonomous AI coworker — goes beyond chat to actually execute complex tasks end-to-end.", tags:["Autonomous","Best-in-class"], pricing:"Freemium", url:"https://ref.viktor.com/ayoub-teke" },
+                { name:"Claude", match:96, why:"Most intelligent AI — 200K context, best reasoning, most natural responses.", tags:["200K Context","Best Writing"], pricing:"Freemium", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=claude" },
+                { name:"ChatGPT Plus", match:93, why:"GPT-4o + DALL-E + Code Interpreter + Browse — the complete AI package.", tags:["Complete","GPT-4o"], pricing:"$20/month", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=chatgpt" }
+            ],
+            speed: [
+                { name:"ChatGPT", match:97, why:"Fastest to start — open and type. No setup, instant answers for anything.", tags:["Zero Setup","Instant"], pricing:"Free tier", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=chatgpt" },
+                { name:"Perplexity AI", match:94, why:"Instant sourced answers — faster than searching Google for factual questions.", tags:["Search","Sourced"], pricing:"Free tier", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=perplexity" },
+                { name:"Gemini", match:91, why:"Quick multimodal AI — analyze images, summarize docs, and search the web instantly.", tags:["Multimodal","Quick"], pricing:"Free", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=gemini" }
+            ],
+            privacy: [
+                { name:"Ollama", match:97, why:"Run the best open-source LLMs locally — Llama 3, Mistral, DeepSeek, all offline.", tags:["100% Local","Free"], pricing:"Free", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=ollama" },
+                { name:"Jan AI", match:94, why:"Beautiful desktop AI that runs 100% offline — private conversations with local models.", tags:["Offline","Desktop"], pricing:"Free", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=jan-ai" },
+                { name:"AnythingLLM", match:90, why:"All-in-one private AI — documents, chat, agents with any model including local.", tags:["All-in-one","Self-hosted"], pricing:"Free", url:"https://ayoub5550.github.io/ai-agents-ar/agent.html?id=anythingllm" }
+            ]
+        }
+    };
+
+    const TIME_SAVINGS = {
+        '1-2h': { hours: 4, label: '~4 hours/week' },
+        '3-4h': { hours: 8, label: '~8 hours/week' },
+        '5-6h': { hours: 12, label: '~12 hours/week' },
+        '7h+': { hours: 18, label: '~18 hours/week' }
+    };
+
+    function selectOption(step, value) {
+        answers[step] = value;
+
+        // Highlight selected
+        document.querySelectorAll(`#step${step} .option-btn`).forEach(b => b.classList.remove('selected'));
+        event.currentTarget.classList.add('selected');
+
+        setTimeout(() => {
+            if (step < 3) {
+                document.getElementById(`step${step}`).style.display = 'none';
+                document.getElementById(`step${step+1}`).style.display = 'block';
+                document.getElementById(`step${step+1}`).classList.add('animate-in');
+                document.getElementById(`dot${step}`).classList.remove('active');
+                document.getElementById(`dot${step}`).classList.add('done');
+                document.getElementById(`dot${step+1}`).classList.add('active');
+            } else {
+                showResults();
+            }
+        }, 300);
+    }
+
+    function showResults() {
+        document.getElementById('step3').style.display = 'none';
+        document.getElementById('dot3').classList.remove('active');
+        document.getElementById('dot3').classList.add('done');
+
+        const work = answers[1];
+        const priority = answers[2];
+        const time = answers[3];
+
+        const recs = RECOMMENDATIONS[work]?.[priority] || RECOMMENDATIONS['general']['free'];
+        const savings = TIME_SAVINGS[time] || TIME_SAVINGS['3-4h'];
+
+        document.getElementById('timeSaved').textContent = `⏱ You could save ${savings.label} with AI`;
+
+        let html = '';
+        recs.forEach((r, i) => {
+            const pClass = r.pricing.toLowerCase().includes('free') ? 'free' : (r.pricing.toLowerCase().includes('paid') || r.pricing.includes('$') ? 'paid' : 'freemium');
+            html += `
+                <div class="result-card animate-in" style="animation-delay:${i*0.1}s">
+                    <div class="result-rank ${i===1?'r2':''} ${i===2?'r3':''}">${i+1}</div>
+                    <div class="result-info">
+                        <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+                            <span class="result-name">${r.name}</span>
+                            <span class="result-match">✓ ${r.match}% match</span>
+                        </div>
+                        <div class="result-why">${r.why}</div>
+                        <div class="result-tags">
+                            ${r.tags.map(t => `<span class="result-tag">${t}</span>`).join('')}
+                            <span class="result-pricing ${pClass}">${r.pricing}</span>
+                        </div>
+                        <a href="${r.url}" target="_blank" class="result-cta">View Details →</a>
+                    </div>
+                </div>
+            `;
+        });
+
+        document.getElementById('resultsCards').innerHTML = html;
+        document.getElementById('results').style.display = 'block';
+        document.getElementById('results').classList.add('animate-in');
+        document.querySelector('.step-indicator').style.display = 'none';
+    }
+
+    function restart() {
+        answers[1] = null; answers[2] = null; answers[3] = null;
+        document.getElementById('results').style.display = 'none';
+        document.getElementById('step1').style.display = 'block';
+        document.getElementById('step2').style.display = 'none';
+        document.getElementById('step3').style.display = 'none';
+        document.querySelector('.step-indicator').style.display = 'flex';
+        ['dot1','dot2','dot3'].forEach(d => {
+            document.getElementById(d).classList.remove('done','active');
+        });
+        document.getElementById('dot1').classList.add('active');
+        document.querySelectorAll('.option-btn').forEach(b => b.classList.remove('selected'));
+    }
+
+    const TOOL_URL = 'https://ayoub5550.github.io/ai-agents-ar/tool.html';
+    const SHARE_TEXT = "Just found the perfect AI tools for my work with this free quiz! 🤖 Find yours:";
+
+    function shareTwitter() {
+        window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(SHARE_TEXT)}&url=${encodeURIComponent(TOOL_URL)}`, '_blank');
+    }
+    function shareLinkedIn() {
+        window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(TOOL_URL)}`, '_blank');
+    }
+    function shareReddit() {
+        window.open(`https://www.reddit.com/submit?url=${encodeURIComponent(TOOL_URL)}&title=${encodeURIComponent("Free tool: Find the best AI agent for your work (quiz)")}`, '_blank');
+    }
+    function copyLink() {
+        navigator.clipboard.writeText(TOOL_URL).then(() => {
+            event.currentTarget.textContent = '✅ Copied!';
+            setTimeout(() => { event.currentTarget.textContent = '📋 Copy Link'; }, 2000);
+        });
+    }
+    </script>
+</body>
+</html>
