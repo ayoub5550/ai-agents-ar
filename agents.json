@@ -35854,5 +35854,1372 @@
     "added_date": "2026-07-14",
     "open_source": false,
     "featured": false
+  },
+  {
+    "id": "wiz-security",
+    "name": "Wiz",
+    "name_ar": "ويز",
+    "category": "security",
+    "category_ar": "أمن سيبراني",
+    "description": "منصة أمان سحابي شاملة تكتشف المخاطر عبر كل طبقات السحابة",
+    "description_en": "Comprehensive cloud security platform detecting risks across all cloud layers",
+    "features": [
+      "أمان سحابي",
+      "بدون وكيل",
+      "رؤية شاملة"
+    ],
+    "features_en": [
+      "Cloud security",
+      "Agentless",
+      "Full visibility"
+    ],
+    "pricing": "Enterprise pricing",
+    "pricing_type": "enterprise",
+    "has_free_trial": true,
+    "free_trial_details": "Demo available",
+    "url": "https://www.wiz.io",
+    "affiliate_url": "",
+    "logo": "https://www.wiz.io/favicon.ico",
+    "tags": [
+      "أمان سحابي",
+      "CNAPP"
+    ],
+    "tags_en": [
+      "cloud security",
+      "CNAPP"
+    ],
+    "best_for": "مؤسسات سحابية تحتاج أمان شامل",
+    "best_for_en": "Cloud-native enterprises needing comprehensive security",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "lacework",
+    "name": "Lacework",
+    "name_ar": "ليس وورك",
+    "category": "security",
+    "category_ar": "أمن سيبراني",
+    "description": "منصة أمان سحابي مع AI لكشف الشذوذ والتهديدات",
+    "description_en": "Cloud security platform with AI for anomaly and threat detection",
+    "features": [
+      "كشف شذوذ",
+      "AI",
+      "امتثال"
+    ],
+    "features_en": [
+      "Anomaly detection",
+      "AI",
+      "Compliance"
+    ],
+    "pricing": "Enterprise pricing",
+    "pricing_type": "enterprise",
+    "has_free_trial": true,
+    "free_trial_details": "Free trial",
+    "url": "https://www.lacework.com",
+    "affiliate_url": "",
+    "logo": "https://www.lacework.com/favicon.ico",
+    "tags": [
+      "أمان سحابي",
+      "كشف تهديدات"
+    ],
+    "tags_en": [
+      "cloud security",
+      "threat detection"
+    ],
+    "best_for": "فرق أمن سحابية تحتاج كشف تهديدات AI",
+    "best_for_en": "Cloud security teams needing AI threat detection",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "prisma-cloud",
+    "name": "Prisma Cloud",
+    "name_ar": "بريزما كلاود",
+    "category": "security",
+    "category_ar": "أمن سيبراني",
+    "description": "منصة أمان سحابي شاملة من Palo Alto Networks",
+    "description_en": "Comprehensive cloud security platform by Palo Alto Networks",
+    "features": [
+      "CSPM",
+      "CWPP",
+      "CIEM"
+    ],
+    "features_en": [
+      "CSPM",
+      "CWPP",
+      "CIEM"
+    ],
+    "pricing": "Enterprise pricing",
+    "pricing_type": "enterprise",
+    "has_free_trial": true,
+    "free_trial_details": "30-day trial",
+    "url": "https://www.paloaltonetworks.com/prisma/cloud",
+    "affiliate_url": "",
+    "logo": "https://www.paloaltonetworks.com/favicon.ico",
+    "tags": [
+      "أمان شامل",
+      "Palo Alto"
+    ],
+    "tags_en": [
+      "comprehensive security",
+      "Palo Alto"
+    ],
+    "best_for": "مؤسسات كبيرة تحتاج أمان سحابي متكامل",
+    "best_for_en": "Large enterprises needing integrated cloud security",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "aqua-security",
+    "name": "Aqua Security",
+    "name_ar": "أكوا سيكيورتي",
+    "category": "security",
+    "category_ar": "أمن سيبراني",
+    "description": "منصة أمان حاويات و Kubernetes مع فحص ثغرات وحماية وقت التشغيل",
+    "description_en": "Container and Kubernetes security platform with vulnerability scanning and runtime protection",
+    "features": [
+      "حاويات",
+      "Kubernetes",
+      "حماية وقت التشغيل"
+    ],
+    "features_en": [
+      "Containers",
+      "Kubernetes",
+      "Runtime protection"
+    ],
+    "pricing": "Enterprise pricing",
+    "pricing_type": "enterprise",
+    "has_free_trial": true,
+    "free_trial_details": "Free demo",
+    "url": "https://www.aquasec.com",
+    "affiliate_url": "",
+    "logo": "https://www.aquasec.com/favicon.ico",
+    "tags": [
+      "حاويات",
+      "Kubernetes"
+    ],
+    "tags_en": [
+      "containers",
+      "Kubernetes"
+    ],
+    "best_for": "فرق DevSecOps تستخدم حاويات",
+    "best_for_en": "DevSecOps teams using containers",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "trivy",
+    "name": "Trivy",
+    "name_ar": "تريفي",
+    "category": "security",
+    "category_ar": "أمن سيبراني",
+    "description": "فاحص ثغرات مفتوح المصدر للحاويات والكود والبنية التحتية",
+    "description_en": "Open-source vulnerability scanner for containers, code, and infrastructure",
+    "features": [
+      "فحص ثغرات",
+      "مفتوح المصدر",
+      "CI/CD"
+    ],
+    "features_en": [
+      "Vulnerability scanning",
+      "Open source",
+      "CI/CD"
+    ],
+    "pricing": "Free",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://trivy.dev",
+    "affiliate_url": "",
+    "logo": "https://trivy.dev/favicon.ico",
+    "tags": [
+      "فحص ثغرات",
+      "مفتوح المصدر"
+    ],
+    "tags_en": [
+      "vulnerability scanning",
+      "open source"
+    ],
+    "best_for": "فرق DevOps تحتاج فحص أمني مجاني",
+    "best_for_en": "DevOps teams needing free security scanning",
+    "added_date": "2026-07-14",
+    "open_source": true,
+    "featured": false
+  },
+  {
+    "id": "terraform-ai",
+    "name": "HashiCorp Terraform",
+    "name_ar": "تيرافورم",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "أداة بنية تحتية ككود الأشهر لإدارة السحابة مع AI assist",
+    "description_en": "Most popular Infrastructure as Code tool for cloud management with AI assist",
+    "features": [
+      "IaC",
+      "متعدد السحابات",
+      "AI assist"
+    ],
+    "features_en": [
+      "IaC",
+      "Multi-cloud",
+      "AI assist"
+    ],
+    "pricing": "Free OSS / Cloud from $0",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://www.terraform.io",
+    "affiliate_url": "",
+    "logo": "https://www.terraform.io/favicon.ico",
+    "tags": [
+      "IaC",
+      "سحابة"
+    ],
+    "tags_en": [
+      "IaC",
+      "cloud"
+    ],
+    "best_for": "فرق DevOps تدير بنية سحابية",
+    "best_for_en": "DevOps teams managing cloud infrastructure",
+    "added_date": "2026-07-14",
+    "open_source": true,
+    "featured": false
+  },
+  {
+    "id": "ansible-ai",
+    "name": "Ansible (Red Hat)",
+    "name_ar": "أنسيبل",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "أداة أتمتة IT مفتوحة المصدر مع Lightspeed AI لتوليد Playbooks",
+    "description_en": "Open-source IT automation tool with Lightspeed AI for generating Playbooks",
+    "features": [
+      "أتمتة IT",
+      "AI Lightspeed",
+      "بدون وكيل"
+    ],
+    "features_en": [
+      "IT automation",
+      "AI Lightspeed",
+      "Agentless"
+    ],
+    "pricing": "Free OSS / Enterprise",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://www.ansible.com",
+    "affiliate_url": "",
+    "logo": "https://www.ansible.com/favicon.ico",
+    "tags": [
+      "أتمتة IT",
+      "مفتوح المصدر"
+    ],
+    "tags_en": [
+      "IT automation",
+      "open source"
+    ],
+    "best_for": "فرق تدير خوادم وتكوينات",
+    "best_for_en": "Teams managing servers and configurations",
+    "added_date": "2026-07-14",
+    "open_source": true,
+    "featured": false
+  },
+  {
+    "id": "kubernetes-ai",
+    "name": "Kubernetes",
+    "name_ar": "كوبرنيتس",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "نظام إدارة حاويات مفتوح المصدر هو معيار الصناعة للنشر",
+    "description_en": "Open-source container orchestration system - the industry standard for deployment",
+    "features": [
+      "إدارة حاويات",
+      "توسع",
+      "معيار الصناعة"
+    ],
+    "features_en": [
+      "Container orchestration",
+      "Scaling",
+      "Industry standard"
+    ],
+    "pricing": "Free",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://kubernetes.io",
+    "affiliate_url": "",
+    "logo": "https://kubernetes.io/favicon.ico",
+    "tags": [
+      "Kubernetes",
+      "حاويات"
+    ],
+    "tags_en": [
+      "Kubernetes",
+      "containers"
+    ],
+    "best_for": "فرق تنشر تطبيقات على نطاق واسع",
+    "best_for_en": "Teams deploying applications at scale",
+    "added_date": "2026-07-14",
+    "open_source": true,
+    "featured": false
+  },
+  {
+    "id": "docker-ai",
+    "name": "Docker",
+    "name_ar": "دوكر",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "منصة حاويات التطبيقات الأشهر مع Docker Scout AI للأمان",
+    "description_en": "Most popular application container platform with Docker Scout AI for security",
+    "features": [
+      "حاويات",
+      "Scout AI",
+      "Hub"
+    ],
+    "features_en": [
+      "Containers",
+      "Scout AI",
+      "Hub"
+    ],
+    "pricing": "Free / $5/mo Pro",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://www.docker.com",
+    "affiliate_url": "",
+    "logo": "https://www.docker.com/favicon.ico",
+    "tags": [
+      "Docker",
+      "حاويات"
+    ],
+    "tags_en": [
+      "Docker",
+      "containers"
+    ],
+    "best_for": "أي مطور يستخدم حاويات",
+    "best_for_en": "Any developer using containers",
+    "added_date": "2026-07-14",
+    "open_source": true,
+    "featured": false
+  },
+  {
+    "id": "vercel",
+    "name": "Vercel",
+    "name_ar": "فيرسل",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "منصة نشر تطبيقات ويب سريعة مع AI SDK و Next.js",
+    "description_en": "Fast web app deployment platform with AI SDK and Next.js",
+    "features": [
+      "نشر سريع",
+      "Next.js",
+      "AI SDK"
+    ],
+    "features_en": [
+      "Fast deploy",
+      "Next.js",
+      "AI SDK"
+    ],
+    "pricing": "Free / $20/mo Pro",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://vercel.com",
+    "affiliate_url": "",
+    "logo": "https://vercel.com/favicon.ico",
+    "tags": [
+      "نشر",
+      "Next.js"
+    ],
+    "tags_en": [
+      "deployment",
+      "Next.js"
+    ],
+    "best_for": "مطوري React/Next.js",
+    "best_for_en": "React/Next.js developers",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "netlify",
+    "name": "Netlify",
+    "name_ar": "نتليفاي",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "منصة نشر مواقع ثابتة و serverless مع CI/CD تلقائي",
+    "description_en": "Static site and serverless deployment platform with automatic CI/CD",
+    "features": [
+      "نشر تلقائي",
+      "serverless",
+      "forms"
+    ],
+    "features_en": [
+      "Auto deploy",
+      "Serverless",
+      "Forms"
+    ],
+    "pricing": "Free / $19/mo Pro",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://www.netlify.com",
+    "affiliate_url": "",
+    "logo": "https://www.netlify.com/favicon.ico",
+    "tags": [
+      "نشر",
+      "JAMstack"
+    ],
+    "tags_en": [
+      "deployment",
+      "JAMstack"
+    ],
+    "best_for": "مطوري مواقع ثابتة و JAMstack",
+    "best_for_en": "Static site and JAMstack developers",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "cloudflare-ai",
+    "name": "Cloudflare AI",
+    "name_ar": "كلاود فلير AI",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "خدمات AI من Cloudflare تشمل Workers AI و Vectorize و AI Gateway",
+    "description_en": "Cloudflare AI services including Workers AI, Vectorize, and AI Gateway",
+    "features": [
+      "Workers AI",
+      "Vectorize",
+      "AI Gateway"
+    ],
+    "features_en": [
+      "Workers AI",
+      "Vectorize",
+      "AI Gateway"
+    ],
+    "pricing": "Free tier / Pay per use",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://ai.cloudflare.com",
+    "affiliate_url": "",
+    "logo": "https://ai.cloudflare.com/favicon.ico",
+    "tags": [
+      "Cloudflare",
+      "edge AI"
+    ],
+    "tags_en": [
+      "Cloudflare",
+      "edge AI"
+    ],
+    "best_for": "مطورين يستخدمون Cloudflare",
+    "best_for_en": "Developers using Cloudflare",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "fly-io",
+    "name": "Fly.io",
+    "name_ar": "فلاي",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "منصة نشر تطبيقات على edge قريبة من المستخدمين عالمياً",
+    "description_en": "Edge app deployment platform running close to users globally",
+    "features": [
+      "edge عالمي",
+      "Docker",
+      "GPU"
+    ],
+    "features_en": [
+      "Global edge",
+      "Docker",
+      "GPU"
+    ],
+    "pricing": "Free / Pay per use",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://fly.io",
+    "affiliate_url": "",
+    "logo": "https://fly.io/favicon.ico",
+    "tags": [
+      "edge",
+      "نشر"
+    ],
+    "tags_en": [
+      "edge",
+      "deployment"
+    ],
+    "best_for": "مطورين يريدون أداء عالمي سريع",
+    "best_for_en": "Developers wanting fast global performance",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "upstash",
+    "name": "Upstash",
+    "name_ar": "أبستاش",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "قاعدة بيانات Redis و Kafka بلا سيرفر للتطبيقات الحديثة",
+    "description_en": "Serverless Redis and Kafka database for modern applications",
+    "features": [
+      "Redis بلا سيرفر",
+      "Kafka",
+      "Vector"
+    ],
+    "features_en": [
+      "Serverless Redis",
+      "Kafka",
+      "Vector"
+    ],
+    "pricing": "Free / Pay per request",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://upstash.com",
+    "affiliate_url": "",
+    "logo": "https://upstash.com/favicon.ico",
+    "tags": [
+      "Redis",
+      "بلا سيرفر"
+    ],
+    "tags_en": [
+      "Redis",
+      "serverless"
+    ],
+    "best_for": "مطورين يحتاجون Redis سحابي بسيط",
+    "best_for_en": "Developers needing simple cloud Redis",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "turso",
+    "name": "Turso",
+    "name_ar": "تيرسو",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "قاعدة بيانات SQLite على edge بلا سيرفر لأداء فائق",
+    "description_en": "Edge SQLite database with serverless for blazing fast performance",
+    "features": [
+      "SQLite edge",
+      "سريع جداً",
+      "بلا سيرفر"
+    ],
+    "features_en": [
+      "Edge SQLite",
+      "Blazing fast",
+      "Serverless"
+    ],
+    "pricing": "Free / $29/mo Scaler",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://turso.tech",
+    "affiliate_url": "",
+    "logo": "https://turso.tech/favicon.ico",
+    "tags": [
+      "SQLite",
+      "edge"
+    ],
+    "tags_en": [
+      "SQLite",
+      "edge"
+    ],
+    "best_for": "مطورين يحتاجون قاعدة بيانات سريعة على edge",
+    "best_for_en": "Developers needing a fast edge database",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "pangea-security",
+    "name": "Pangea",
+    "name_ar": "بانجيا",
+    "category": "security",
+    "category_ar": "أمن سيبراني",
+    "description": "خدمات أمان API جاهزة للمطورين مثل التشفير والتحقق",
+    "description_en": "Ready-to-use security API services for developers including encryption and verification",
+    "features": [
+      "APIs أمنية",
+      "تشفير",
+      "تحقق"
+    ],
+    "features_en": [
+      "Security APIs",
+      "Encryption",
+      "Verification"
+    ],
+    "pricing": "Free / Pay per call",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://pangea.cloud",
+    "affiliate_url": "",
+    "logo": "https://pangea.cloud/favicon.ico",
+    "tags": [
+      "API أمني",
+      "مطورين"
+    ],
+    "tags_en": [
+      "security API",
+      "developers"
+    ],
+    "best_for": "مطورين يضيفون أمان لتطبيقاتهم",
+    "best_for_en": "Developers adding security to their apps",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "buffer-ai",
+    "name": "Buffer",
+    "name_ar": "بافر",
+    "category": "sales-marketing",
+    "category_ar": "مبيعات وتسويق",
+    "description": "أداة جدولة منشورات تواصل اجتماعي مع AI لتوليد المحتوى",
+    "description_en": "Social media post scheduling tool with AI for content generation",
+    "features": [
+      "جدولة",
+      "AI محتوى",
+      "تحليلات"
+    ],
+    "features_en": [
+      "Scheduling",
+      "AI content",
+      "Analytics"
+    ],
+    "pricing": "Free / $6/channel/mo",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://buffer.com",
+    "affiliate_url": "",
+    "logo": "https://buffer.com/favicon.ico",
+    "tags": [
+      "تواصل اجتماعي",
+      "جدولة"
+    ],
+    "tags_en": [
+      "social media",
+      "scheduling"
+    ],
+    "best_for": "صناع محتوى يجدولون منشوراتهم",
+    "best_for_en": "Content creators scheduling their posts",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "hootsuite-ai",
+    "name": "Hootsuite",
+    "name_ar": "هوت سويت",
+    "category": "sales-marketing",
+    "category_ar": "مبيعات وتسويق",
+    "description": "منصة إدارة تواصل اجتماعي شاملة مع AI للمحتوى والتحليل",
+    "description_en": "Comprehensive social media management platform with AI for content and analytics",
+    "features": [
+      "إدارة شاملة",
+      "AI محتوى",
+      "إعلانات"
+    ],
+    "features_en": [
+      "Full management",
+      "AI content",
+      "Ads"
+    ],
+    "pricing": "$99/mo Professional",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "30-day free trial",
+    "url": "https://www.hootsuite.com",
+    "affiliate_url": "",
+    "logo": "https://www.hootsuite.com/favicon.ico",
+    "tags": [
+      "تواصل اجتماعي",
+      "إدارة"
+    ],
+    "tags_en": [
+      "social media",
+      "management"
+    ],
+    "best_for": "فرق تسويق تدير حسابات متعددة",
+    "best_for_en": "Marketing teams managing multiple accounts",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "later-social",
+    "name": "Later",
+    "name_ar": "ليتر",
+    "category": "sales-marketing",
+    "category_ar": "مبيعات وتسويق",
+    "description": "أداة جدولة تواصل اجتماعي بصرية متخصصة في Instagram",
+    "description_en": "Visual social media scheduling tool specializing in Instagram",
+    "features": [
+      "جدولة بصرية",
+      "Instagram",
+      "Linkin.bio"
+    ],
+    "features_en": [
+      "Visual scheduling",
+      "Instagram",
+      "Linkin.bio"
+    ],
+    "pricing": "Free / $25/mo Starter",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://later.com",
+    "affiliate_url": "",
+    "logo": "https://later.com/favicon.ico",
+    "tags": [
+      "Instagram",
+      "جدولة"
+    ],
+    "tags_en": [
+      "Instagram",
+      "scheduling"
+    ],
+    "best_for": "مؤثرين وعلامات على Instagram",
+    "best_for_en": "Influencers and brands on Instagram",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "sprout-social",
+    "name": "Sprout Social",
+    "name_ar": "سبراوت سوشال",
+    "category": "sales-marketing",
+    "category_ar": "مبيعات وتسويق",
+    "description": "منصة إدارة تواصل اجتماعي مؤسسية مع AI للتحليلات والتقارير",
+    "description_en": "Enterprise social media management platform with AI for analytics and reports",
+    "features": [
+      "تحليلات متقدمة",
+      "AI",
+      "إدارة"
+    ],
+    "features_en": [
+      "Advanced analytics",
+      "AI",
+      "Management"
+    ],
+    "pricing": "$249/mo Standard",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "30-day free trial",
+    "url": "https://sproutsocial.com",
+    "affiliate_url": "",
+    "logo": "https://sproutsocial.com/favicon.ico",
+    "tags": [
+      "مؤسسي",
+      "تحليلات"
+    ],
+    "tags_en": [
+      "enterprise",
+      "analytics"
+    ],
+    "best_for": "مؤسسات تدير سمعة علامتها",
+    "best_for_en": "Enterprises managing brand reputation",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "canva-social",
+    "name": "Canva Content Planner",
+    "name_ar": "كانفا مخطط المحتوى",
+    "category": "sales-marketing",
+    "category_ar": "مبيعات وتسويق",
+    "description": "أداة تخطيط وجدولة محتوى تواصل اجتماعي مدمجة في Canva",
+    "description_en": "Social media content planning and scheduling tool built into Canva",
+    "features": [
+      "تصميم + جدولة",
+      "AI محتوى",
+      "متعدد المنصات"
+    ],
+    "features_en": [
+      "Design + scheduling",
+      "AI content",
+      "Multi-platform"
+    ],
+    "pricing": "Free / $12.99/mo Pro",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://www.canva.com/content-planner",
+    "affiliate_url": "",
+    "logo": "https://www.canva.com/favicon.ico",
+    "tags": [
+      "تصميم",
+      "جدولة"
+    ],
+    "tags_en": [
+      "design",
+      "scheduling"
+    ],
+    "best_for": "مستخدمي Canva يريدون جدولة مباشرة",
+    "best_for_en": "Canva users wanting direct scheduling",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "predis-ai",
+    "name": "Predis.ai",
+    "name_ar": "بريديس",
+    "category": "sales-marketing",
+    "category_ar": "مبيعات وتسويق",
+    "description": "أداة AI تُنشئ منشورات تواصل اجتماعي كاملة مع صور ونصوص",
+    "description_en": "AI tool creating complete social media posts with images and captions",
+    "features": [
+      "منشورات كاملة",
+      "صور + نص",
+      "جدولة"
+    ],
+    "features_en": [
+      "Complete posts",
+      "Images + text",
+      "Scheduling"
+    ],
+    "pricing": "Free / $32/mo Starter",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://predis.ai",
+    "affiliate_url": "",
+    "logo": "https://predis.ai/favicon.ico",
+    "tags": [
+      "محتوى اجتماعي",
+      "AI"
+    ],
+    "tags_en": [
+      "social content",
+      "AI"
+    ],
+    "best_for": "شركات صغيرة تحتاج محتوى اجتماعي سريع",
+    "best_for_en": "Small businesses needing quick social content",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "ocoya",
+    "name": "Ocoya",
+    "name_ar": "أوكويا",
+    "category": "sales-marketing",
+    "category_ar": "مبيعات وتسويق",
+    "description": "منصة تسويق محتوى AI تُنشئ وتجدول منشورات بلغات متعددة",
+    "description_en": "AI content marketing platform creating and scheduling posts in multiple languages",
+    "features": [
+      "AI محتوى",
+      "متعدد اللغات",
+      "جدولة"
+    ],
+    "features_en": [
+      "AI content",
+      "Multilingual",
+      "Scheduling"
+    ],
+    "pricing": "$15/mo Bronze",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "7-day free trial",
+    "url": "https://www.ocoya.com",
+    "affiliate_url": "",
+    "logo": "https://www.ocoya.com/favicon.ico",
+    "tags": [
+      "محتوى",
+      "متعدد اللغات"
+    ],
+    "tags_en": [
+      "content",
+      "multilingual"
+    ],
+    "best_for": "علامات تسوق بعدة لغات",
+    "best_for_en": "Brands marketing in multiple languages",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "zapier-tables",
+    "name": "Zapier Tables",
+    "name_ar": "زابير تيبلز",
+    "category": "no-code",
+    "category_ar": "بدون كود",
+    "description": "قاعدة بيانات بلا كود من Zapier متصلة مباشرة بالأتمتة",
+    "description_en": "Zapier's no-code database directly connected to automation workflows",
+    "features": [
+      "قاعدة بيانات",
+      "أتمتة مباشرة",
+      "بلا كود"
+    ],
+    "features_en": [
+      "Database",
+      "Direct automation",
+      "No-code"
+    ],
+    "pricing": "Free / included with Zapier",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://zapier.com/tables",
+    "affiliate_url": "",
+    "logo": "https://zapier.com/favicon.ico",
+    "tags": [
+      "قاعدة بيانات",
+      "Zapier"
+    ],
+    "tags_en": [
+      "database",
+      "Zapier"
+    ],
+    "best_for": "مستخدمي Zapier يحتاجون قاعدة بيانات بسيطة",
+    "best_for_en": "Zapier users needing a simple database",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "retool-ai",
+    "name": "Retool",
+    "name_ar": "ريتول",
+    "category": "no-code",
+    "category_ar": "بدون كود",
+    "description": "منصة بناء أدوات داخلية بسرعة مع AI وتكاملات قواعد بيانات",
+    "description_en": "Platform for quickly building internal tools with AI and database integrations",
+    "features": [
+      "أدوات داخلية",
+      "AI",
+      "قواعد بيانات"
+    ],
+    "features_en": [
+      "Internal tools",
+      "AI",
+      "Databases"
+    ],
+    "pricing": "Free / $10/user/mo Team",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://retool.com",
+    "affiliate_url": "",
+    "logo": "https://retool.com/favicon.ico",
+    "tags": [
+      "أدوات داخلية",
+      "بلا كود"
+    ],
+    "tags_en": [
+      "internal tools",
+      "no-code"
+    ],
+    "best_for": "فرق تبني أدوات إدارية داخلية",
+    "best_for_en": "Teams building internal admin tools",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "appsmith",
+    "name": "Appsmith",
+    "name_ar": "أب سميث",
+    "category": "no-code",
+    "category_ar": "بدون كود",
+    "description": "منصة بناء أدوات داخلية مفتوحة المصدر مع AI",
+    "description_en": "Open-source internal tool builder with AI capabilities",
+    "features": [
+      "مفتوح المصدر",
+      "سحب وإفلات",
+      "AI"
+    ],
+    "features_en": [
+      "Open source",
+      "Drag & drop",
+      "AI"
+    ],
+    "pricing": "Free OSS / Cloud from $0",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://www.appsmith.com",
+    "affiliate_url": "",
+    "logo": "https://www.appsmith.com/favicon.ico",
+    "tags": [
+      "أدوات داخلية",
+      "مفتوح المصدر"
+    ],
+    "tags_en": [
+      "internal tools",
+      "open source"
+    ],
+    "best_for": "فرق تريد بديل Retool مفتوح المصدر",
+    "best_for_en": "Teams wanting an open-source Retool alternative",
+    "added_date": "2026-07-14",
+    "open_source": true,
+    "featured": false
+  },
+  {
+    "id": "tooljet",
+    "name": "ToolJet",
+    "name_ar": "تول جيت",
+    "category": "no-code",
+    "category_ar": "بدون كود",
+    "description": "منصة بناء أدوات داخلية مفتوحة المصدر بسحب وإفلات",
+    "description_en": "Open-source internal tool builder with drag-and-drop interface",
+    "features": [
+      "مفتوح المصدر",
+      "50+ تكامل",
+      "سحب وإفلات"
+    ],
+    "features_en": [
+      "Open source",
+      "50+ integrations",
+      "Drag & drop"
+    ],
+    "pricing": "Free OSS / Cloud from $0",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://www.tooljet.com",
+    "affiliate_url": "",
+    "logo": "https://www.tooljet.com/favicon.ico",
+    "tags": [
+      "أدوات داخلية",
+      "مفتوح"
+    ],
+    "tags_en": [
+      "internal tools",
+      "open source"
+    ],
+    "best_for": "فرق تبني dashboards داخلية",
+    "best_for_en": "Teams building internal dashboards",
+    "added_date": "2026-07-14",
+    "open_source": true,
+    "featured": false
+  },
+  {
+    "id": "windmill-dev",
+    "name": "Windmill",
+    "name_ar": "ويند ميل",
+    "category": "automation",
+    "category_ar": "أتمتة",
+    "description": "منصة أتمتة مفتوحة المصدر للمطورين بديلة لـ Retool + Zapier",
+    "description_en": "Open-source developer automation platform as Retool + Zapier alternative",
+    "features": [
+      "مفتوح المصدر",
+      "scripts + flows",
+      "واجهات"
+    ],
+    "features_en": [
+      "Open source",
+      "Scripts + flows",
+      "UIs"
+    ],
+    "pricing": "Free OSS / Cloud from $0",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://www.windmill.dev",
+    "affiliate_url": "",
+    "logo": "https://www.windmill.dev/favicon.ico",
+    "tags": [
+      "أتمتة مفتوحة",
+      "مطورين"
+    ],
+    "tags_en": [
+      "open automation",
+      "developers"
+    ],
+    "best_for": "مطورين يريدون أتمتة مفتوحة المصدر",
+    "best_for_en": "Developers wanting open-source automation",
+    "added_date": "2026-07-14",
+    "open_source": true,
+    "featured": false
+  },
+  {
+    "id": "temporal-io",
+    "name": "Temporal",
+    "name_ar": "تيمبورال",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "منصة تنسيق مهام مفتوحة المصدر لبناء تطبيقات موثوقة",
+    "description_en": "Open-source task orchestration platform for building reliable applications",
+    "features": [
+      "تنسيق مهام",
+      "موثوقية",
+      "مفتوح المصدر"
+    ],
+    "features_en": [
+      "Task orchestration",
+      "Reliability",
+      "Open source"
+    ],
+    "pricing": "Free OSS / Cloud available",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://temporal.io",
+    "affiliate_url": "",
+    "logo": "https://temporal.io/favicon.ico",
+    "tags": [
+      "تنسيق",
+      "مفتوح المصدر"
+    ],
+    "tags_en": [
+      "orchestration",
+      "open source"
+    ],
+    "best_for": "فرق تبني سير عمل موثوقة ومعقدة",
+    "best_for_en": "Teams building reliable complex workflows",
+    "added_date": "2026-07-14",
+    "open_source": true,
+    "featured": false
+  },
+  {
+    "id": "prefect",
+    "name": "Prefect",
+    "name_ar": "بريفكت",
+    "category": "data-analytics",
+    "category_ar": "تحليل بيانات",
+    "description": "منصة تنسيق أنابيب بيانات Python الحديثة مع مراقبة",
+    "description_en": "Modern Python data pipeline orchestration platform with monitoring",
+    "features": [
+      "Python أصلي",
+      "مراقبة",
+      "مفتوح المصدر"
+    ],
+    "features_en": [
+      "Python native",
+      "Monitoring",
+      "Open source"
+    ],
+    "pricing": "Free OSS / Cloud from $0",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://www.prefect.io",
+    "affiliate_url": "",
+    "logo": "https://www.prefect.io/favicon.ico",
+    "tags": [
+      "أنابيب بيانات",
+      "Python"
+    ],
+    "tags_en": [
+      "data pipelines",
+      "Python"
+    ],
+    "best_for": "مهندسي بيانات يديرون أنابيب",
+    "best_for_en": "Data engineers managing pipelines",
+    "added_date": "2026-07-14",
+    "open_source": true,
+    "featured": false
+  },
+  {
+    "id": "dagster",
+    "name": "Dagster",
+    "name_ar": "داجستر",
+    "category": "data-analytics",
+    "category_ar": "تحليل بيانات",
+    "description": "منصة تنسيق بيانات مفتوحة المصدر مبنية على assets",
+    "description_en": "Open-source data orchestration platform built on software-defined assets",
+    "features": [
+      "assets",
+      "مراقبة",
+      "مفتوح المصدر"
+    ],
+    "features_en": [
+      "Assets",
+      "Monitoring",
+      "Open source"
+    ],
+    "pricing": "Free OSS / Cloud from $0",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://dagster.io",
+    "affiliate_url": "",
+    "logo": "https://dagster.io/favicon.ico",
+    "tags": [
+      "تنسيق بيانات",
+      "assets"
+    ],
+    "tags_en": [
+      "data orchestration",
+      "assets"
+    ],
+    "best_for": "فرق بيانات تبني أنابيب بيانات حديثة",
+    "best_for_en": "Data teams building modern data pipelines",
+    "added_date": "2026-07-14",
+    "open_source": true,
+    "featured": false
+  },
+  {
+    "id": "mage-ai",
+    "name": "Mage",
+    "name_ar": "ميج",
+    "category": "data-analytics",
+    "category_ar": "تحليل بيانات",
+    "description": "منصة أنابيب بيانات مفتوحة المصدر مع AI لتسريع ETL",
+    "description_en": "Open-source data pipeline platform with AI for accelerating ETL",
+    "features": [
+      "AI ETL",
+      "مفتوح المصدر",
+      "محرر بصري"
+    ],
+    "features_en": [
+      "AI ETL",
+      "Open source",
+      "Visual editor"
+    ],
+    "pricing": "Free OSS / Enterprise",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://www.mage.ai",
+    "affiliate_url": "",
+    "logo": "https://www.mage.ai/favicon.ico",
+    "tags": [
+      "ETL",
+      "AI",
+      "مفتوح المصدر"
+    ],
+    "tags_en": [
+      "ETL",
+      "AI",
+      "open source"
+    ],
+    "best_for": "مهندسي بيانات يريدون ETL سريع بـ AI",
+    "best_for_en": "Data engineers wanting fast ETL with AI",
+    "added_date": "2026-07-14",
+    "open_source": true,
+    "featured": false
+  },
+  {
+    "id": "evidence-dev",
+    "name": "Evidence",
+    "name_ar": "إيفيدنس",
+    "category": "data-analytics",
+    "category_ar": "تحليل بيانات",
+    "description": "أداة تقارير بيانات مفتوحة المصدر تُنشئ لوحات معلومات من SQL + Markdown",
+    "description_en": "Open-source data reporting tool creating dashboards from SQL + Markdown",
+    "features": [
+      "SQL + Markdown",
+      "تقارير جميلة",
+      "مفتوح"
+    ],
+    "features_en": [
+      "SQL + Markdown",
+      "Beautiful reports",
+      "Open source"
+    ],
+    "pricing": "Free OSS / Cloud from $0",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://evidence.dev",
+    "affiliate_url": "",
+    "logo": "https://evidence.dev/favicon.ico",
+    "tags": [
+      "تقارير",
+      "SQL"
+    ],
+    "tags_en": [
+      "reports",
+      "SQL"
+    ],
+    "best_for": "محللين يُنشئون تقارير جميلة بـ SQL",
+    "best_for_en": "Analysts creating beautiful reports with SQL",
+    "added_date": "2026-07-14",
+    "open_source": true,
+    "featured": false
+  },
+  {
+    "id": "cal-com",
+    "name": "Cal.com",
+    "name_ar": "كال دوت كوم",
+    "category": "productivity",
+    "category_ar": "إنتاجية",
+    "description": "أداة جدولة مواعيد مفتوحة المصدر بديلة لـ Calendly",
+    "description_en": "Open-source scheduling tool as a Calendly alternative",
+    "features": [
+      "مفتوح المصدر",
+      "جدولة",
+      "تكاملات"
+    ],
+    "features_en": [
+      "Open source",
+      "Scheduling",
+      "Integrations"
+    ],
+    "pricing": "Free / $12/user/mo Team",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://cal.com",
+    "affiliate_url": "",
+    "logo": "https://cal.com/favicon.ico",
+    "tags": [
+      "جدولة",
+      "مفتوح المصدر"
+    ],
+    "tags_en": [
+      "scheduling",
+      "open source"
+    ],
+    "best_for": "محترفين يريدون جدولة مفتوحة المصدر",
+    "best_for_en": "Professionals wanting open-source scheduling",
+    "added_date": "2026-07-14",
+    "open_source": true,
+    "featured": false
+  },
+  {
+    "id": "dify-ai",
+    "name": "Dify",
+    "name_ar": "ديفاي",
+    "category": "framework",
+    "category_ar": "أطر عمل",
+    "description": "منصة مفتوحة المصدر لبناء تطبيقات LLM بصرياً مع RAG و agents",
+    "description_en": "Open-source platform for visually building LLM apps with RAG and agents",
+    "features": [
+      "بناء بصري",
+      "RAG",
+      "agents"
+    ],
+    "features_en": [
+      "Visual building",
+      "RAG",
+      "Agents"
+    ],
+    "pricing": "Free OSS / Cloud from $0",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://dify.ai",
+    "affiliate_url": "",
+    "logo": "https://dify.ai/favicon.ico",
+    "tags": [
+      "LLM apps",
+      "مفتوح المصدر"
+    ],
+    "tags_en": [
+      "LLM apps",
+      "open source"
+    ],
+    "best_for": "فرق تبني تطبيقات AI بصرياً",
+    "best_for_en": "Teams building AI apps visually",
+    "added_date": "2026-07-14",
+    "open_source": true,
+    "featured": true
   }
 ]
