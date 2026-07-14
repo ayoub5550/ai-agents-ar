@@ -27020,5 +27020,3449 @@
       "AI analytics"
     ],
     "best_for_en": "Support teams wanting predictive and intelligent customer service"
+  },
+  {
+    "id": "cline-ai",
+    "name": "Cline",
+    "name_ar": "كلاين",
+    "category": "coding",
+    "category_ar": "برمجة",
+    "description": "وكيل برمجة مستقل في VS Code يمكنه إنشاء ملفات وتشغيل أوامر",
+    "description_en": "Autonomous AI coding agent in VS Code that creates files, runs commands, and browses",
+    "features": [
+      "إنشاء مشاريع",
+      "تنفيذ أوامر",
+      "تصفح ويب"
+    ],
+    "features_en": [
+      "Project creation",
+      "Command execution",
+      "Web browsing"
+    ],
+    "pricing": "Free (bring your API key)",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://github.com/cline/cline",
+    "affiliate_url": "",
+    "logo": "https://avatars.githubusercontent.com/u/cline",
+    "tags": [
+      "وكيل مستقل",
+      "VS Code"
+    ],
+    "tags_en": [
+      "autonomous agent",
+      "VS Code"
+    ],
+    "best_for": "مطورين يريدون وكيل AI كامل يبني مشاريع",
+    "best_for_en": "Developers wanting a full AI agent that builds projects",
+    "added_date": "2026-07-14",
+    "open_source": true,
+    "featured": false
+  },
+  {
+    "id": "pieces-dev",
+    "name": "Pieces for Developers",
+    "name_ar": "بيسز للمطورين",
+    "category": "coding",
+    "category_ar": "برمجة",
+    "description": "مدير مقاطع كود ذكي مع AI يفهم سياق مشروعك بالكامل",
+    "description_en": "AI-powered snippet manager that understands your full project context",
+    "features": [
+      "حفظ مقاطع كود",
+      "بحث ذكي",
+      "مشاركة"
+    ],
+    "features_en": [
+      "Snippet saving",
+      "Smart search",
+      "Sharing"
+    ],
+    "pricing": "Free / Pro available",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://pieces.app",
+    "affiliate_url": "",
+    "logo": "https://pieces.app/favicon.ico",
+    "tags": [
+      "مقاطع كود",
+      "إنتاجية"
+    ],
+    "tags_en": [
+      "snippets",
+      "productivity"
+    ],
+    "best_for": "مطورين يحتاجون تنظيم وإعادة استخدام الكود",
+    "best_for_en": "Developers needing to organize and reuse code",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "sonarcloud",
+    "name": "SonarCloud",
+    "name_ar": "سونار كلاود",
+    "category": "coding",
+    "category_ar": "برمجة",
+    "description": "خدمة سحابية لتحليل جودة الكود وكشف الثغرات الأمنية",
+    "description_en": "Cloud service for code quality analysis and security vulnerability detection",
+    "features": [
+      "تحليل ثابت",
+      "كشف ثغرات",
+      "تكامل CI/CD"
+    ],
+    "features_en": [
+      "Static analysis",
+      "Vulnerability detection",
+      "CI/CD integration"
+    ],
+    "pricing": "Free OSS / from $10/mo",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://sonarcloud.io",
+    "affiliate_url": "",
+    "logo": "https://sonarcloud.io/favicon.ico",
+    "tags": [
+      "جودة كود",
+      "أمان"
+    ],
+    "tags_en": [
+      "code quality",
+      "security"
+    ],
+    "best_for": "فرق تحتاج ضمان جودة الكود مستمر",
+    "best_for_en": "Teams needing continuous code quality assurance",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "testim-io",
+    "name": "Testim",
+    "name_ar": "تيستيم",
+    "category": "coding",
+    "category_ar": "برمجة",
+    "description": "منصة اختبار آلي بالذكاء الاصطناعي تُصلح الاختبارات المكسورة تلقائياً",
+    "description_en": "AI-powered test automation platform that auto-heals broken tests",
+    "features": [
+      "اختبار ذكي",
+      "إصلاح تلقائي",
+      "تسجيل بصري"
+    ],
+    "features_en": [
+      "Smart testing",
+      "Self-healing",
+      "Visual recording"
+    ],
+    "pricing": "Free tier / Enterprise",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "Free starter plan",
+    "url": "https://www.testim.io",
+    "affiliate_url": "",
+    "logo": "https://www.testim.io/favicon.ico",
+    "tags": [
+      "اختبار",
+      "أتمتة"
+    ],
+    "tags_en": [
+      "testing",
+      "automation"
+    ],
+    "best_for": "فرق QA تريد اختبارات مستقرة وسريعة",
+    "best_for_en": "QA teams wanting stable fast tests",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "applitools",
+    "name": "Applitools",
+    "name_ar": "أبلي تولز",
+    "category": "coding",
+    "category_ar": "برمجة",
+    "description": "اختبار بصري بالذكاء الاصطناعي يكتشف تغييرات واجهة المستخدم",
+    "description_en": "AI visual testing that detects UI changes across browsers and devices",
+    "features": [
+      "اختبار بصري",
+      "عبر متصفحات",
+      "تقارير ذكية"
+    ],
+    "features_en": [
+      "Visual testing",
+      "Cross-browser",
+      "Smart reports"
+    ],
+    "pricing": "Free tier / Enterprise",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "Free starter",
+    "url": "https://applitools.com",
+    "affiliate_url": "",
+    "logo": "https://applitools.com/favicon.ico",
+    "tags": [
+      "اختبار بصري",
+      "UI"
+    ],
+    "tags_en": [
+      "visual testing",
+      "UI"
+    ],
+    "best_for": "فرق تريد اختبار واجهات بصرياً عبر الأجهزة",
+    "best_for_en": "Teams wanting visual UI testing across devices",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "argocd",
+    "name": "Argo CD",
+    "name_ar": "أرجو سي دي",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "أداة GitOps مفتوحة المصدر لنشر التطبيقات على Kubernetes تلقائياً",
+    "description_en": "Open-source GitOps continuous delivery tool for Kubernetes",
+    "features": [
+      "GitOps",
+      "نشر تلقائي",
+      "واجهة ويب"
+    ],
+    "features_en": [
+      "GitOps",
+      "Auto-sync",
+      "Web UI"
+    ],
+    "pricing": "Free",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://argoproj.github.io/cd",
+    "affiliate_url": "",
+    "logo": "https://argoproj.github.io/favicon.ico",
+    "tags": [
+      "GitOps",
+      "Kubernetes",
+      "مفتوح المصدر"
+    ],
+    "tags_en": [
+      "GitOps",
+      "Kubernetes",
+      "open source"
+    ],
+    "best_for": "فرق DevOps تستخدم Kubernetes",
+    "best_for_en": "DevOps teams using Kubernetes",
+    "added_date": "2026-07-14",
+    "open_source": true,
+    "featured": false
+  },
+  {
+    "id": "harness-io",
+    "name": "Harness",
+    "name_ar": "هارنس",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "منصة CI/CD بالذكاء الاصطناعي تُسرّع النشر وتقلل الأعطال",
+    "description_en": "AI-powered CI/CD platform that accelerates deployments and reduces failures",
+    "features": [
+      "نشر ذكي",
+      "تحقق آلي",
+      "إدارة التكلفة"
+    ],
+    "features_en": [
+      "Smart deployment",
+      "Auto-verification",
+      "Cost management"
+    ],
+    "pricing": "Free tier / from $100/mo",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "Free forever plan",
+    "url": "https://harness.io",
+    "affiliate_url": "",
+    "logo": "https://harness.io/favicon.ico",
+    "tags": [
+      "CI/CD",
+      "DevOps"
+    ],
+    "tags_en": [
+      "CI/CD",
+      "DevOps"
+    ],
+    "best_for": "فرق DevOps الكبيرة",
+    "best_for_en": "Large DevOps teams",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "supabase",
+    "name": "Supabase",
+    "name_ar": "سوبابيز",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "بديل Firebase مفتوح المصدر مع قاعدة بيانات PostgreSQL وتوثيق وتخزين",
+    "description_en": "Open-source Firebase alternative with PostgreSQL, auth, storage, and real-time",
+    "features": [
+      "قاعدة بيانات",
+      "توثيق مستخدمين",
+      "تخزين ملفات"
+    ],
+    "features_en": [
+      "Database",
+      "Auth",
+      "File storage"
+    ],
+    "pricing": "Free / $25/mo Pro",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://supabase.com",
+    "affiliate_url": "",
+    "logo": "https://supabase.com/favicon.ico",
+    "tags": [
+      "قاعدة بيانات",
+      "باك إند",
+      "مفتوح المصدر"
+    ],
+    "tags_en": [
+      "database",
+      "backend",
+      "open source"
+    ],
+    "best_for": "مطورين يبنون تطبيقات ويب كاملة",
+    "best_for_en": "Developers building full-stack web apps",
+    "added_date": "2026-07-14",
+    "open_source": true,
+    "featured": true
+  },
+  {
+    "id": "planetscale",
+    "name": "PlanetScale",
+    "name_ar": "بلانت سكيل",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "قاعدة بيانات MySQL سحابية بلا سيرفر مع branching مثل Git",
+    "description_en": "Serverless MySQL database platform with Git-like branching workflow",
+    "features": [
+      "فروع قاعدة بيانات",
+      "بلا سيرفر",
+      "قابلية توسع"
+    ],
+    "features_en": [
+      "DB branching",
+      "Serverless",
+      "Scalability"
+    ],
+    "pricing": "From $39/mo",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "Free trial available",
+    "url": "https://planetscale.com",
+    "affiliate_url": "",
+    "logo": "https://planetscale.com/favicon.ico",
+    "tags": [
+      "MySQL",
+      "سيرفرلس"
+    ],
+    "tags_en": [
+      "MySQL",
+      "serverless"
+    ],
+    "best_for": "فرق تحتاج قاعدة بيانات قابلة للتوسع",
+    "best_for_en": "Teams needing a scalable database",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "neon-db",
+    "name": "Neon",
+    "name_ar": "نيون",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "قاعدة بيانات PostgreSQL سحابية بلا سيرفر مع فروع فورية",
+    "description_en": "Serverless PostgreSQL with instant branching and scale-to-zero",
+    "features": [
+      "بلا سيرفر",
+      "فروع فورية",
+      "توفير تلقائي"
+    ],
+    "features_en": [
+      "Serverless",
+      "Instant branching",
+      "Auto-scaling"
+    ],
+    "pricing": "Free / $19/mo Pro",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://neon.tech",
+    "affiliate_url": "",
+    "logo": "https://neon.tech/favicon.ico",
+    "tags": [
+      "PostgreSQL",
+      "سيرفرلس"
+    ],
+    "tags_en": [
+      "PostgreSQL",
+      "serverless"
+    ],
+    "best_for": "مطورين يحتاجون PostgreSQL سحابي مجاني",
+    "best_for_en": "Developers needing free cloud PostgreSQL",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "postman-ai",
+    "name": "Postman AI",
+    "name_ar": "بوستمان AI",
+    "category": "coding",
+    "category_ar": "برمجة",
+    "description": "منصة تطوير API مع مساعد AI لكتابة الاختبارات والوثائق",
+    "description_en": "API development platform with AI assistant for writing tests and documentation",
+    "features": [
+      "اختبار API",
+      "توليد وثائق",
+      "تعاون فريق"
+    ],
+    "features_en": [
+      "API testing",
+      "Doc generation",
+      "Team collaboration"
+    ],
+    "pricing": "Free / $14/user/mo",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://www.postman.com",
+    "affiliate_url": "",
+    "logo": "https://www.postman.com/favicon.ico",
+    "tags": [
+      "API",
+      "اختبار"
+    ],
+    "tags_en": [
+      "API",
+      "testing"
+    ],
+    "best_for": "مطورين يعملون مع APIs",
+    "best_for_en": "Developers working with APIs",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "chroma-db",
+    "name": "Chroma",
+    "name_ar": "كروما",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "قاعدة بيانات تضمينات مفتوحة المصدر بسيطة وسهلة الاستخدام",
+    "description_en": "Simple open-source embedding database for LLM applications",
+    "features": [
+      "سهل الاستخدام",
+      "Python أولاً",
+      "محلي أو سحابي"
+    ],
+    "features_en": [
+      "Easy to use",
+      "Python-first",
+      "Local or cloud"
+    ],
+    "pricing": "Free",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://www.trychroma.com",
+    "affiliate_url": "",
+    "logo": "https://www.trychroma.com/favicon.ico",
+    "tags": [
+      "تضمينات",
+      "Python",
+      "مفتوح المصدر"
+    ],
+    "tags_en": [
+      "embeddings",
+      "Python",
+      "open source"
+    ],
+    "best_for": "مطورين يبدأون مع بحث التضمينات",
+    "best_for_en": "Developers starting with embedding search",
+    "added_date": "2026-07-14",
+    "open_source": true,
+    "featured": false
+  },
+  {
+    "id": "modal-com",
+    "name": "Modal",
+    "name_ar": "مودال",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "بنية تحتية سحابية بلا سيرفر لتشغيل كود Python وأعمال AI",
+    "description_en": "Serverless cloud infrastructure for running Python code and AI workloads",
+    "features": [
+      "بلا سيرفر",
+      "GPU عند الطلب",
+      "Python أصلي"
+    ],
+    "features_en": [
+      "Serverless",
+      "On-demand GPU",
+      "Native Python"
+    ],
+    "pricing": "Pay per use / $30 free credits",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "$30 free monthly credits",
+    "url": "https://modal.com",
+    "affiliate_url": "",
+    "logo": "https://modal.com/favicon.ico",
+    "tags": [
+      "GPU",
+      "Python",
+      "سيرفرلس"
+    ],
+    "tags_en": [
+      "GPU",
+      "Python",
+      "serverless"
+    ],
+    "best_for": "مهندسي ML يحتاجون GPU بلا إعداد",
+    "best_for_en": "ML engineers needing GPU without setup",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "weights-biases",
+    "name": "Weights & Biases",
+    "name_ar": "وايتس آند بايسز",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "منصة تتبع تجارب ML مع تصور بيانات التدريب ومقارنة النماذج",
+    "description_en": "ML experiment tracking platform with training visualization and model comparison",
+    "features": [
+      "تتبع تجارب",
+      "تصور بيانات",
+      "مقارنة نماذج"
+    ],
+    "features_en": [
+      "Experiment tracking",
+      "Data visualization",
+      "Model comparison"
+    ],
+    "pricing": "Free / $50/user/mo Team",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://wandb.ai",
+    "affiliate_url": "",
+    "logo": "https://wandb.ai/favicon.ico",
+    "tags": [
+      "MLOps",
+      "تتبع"
+    ],
+    "tags_en": [
+      "MLOps",
+      "tracking"
+    ],
+    "best_for": "فرق ML تحتاج تتبع تجارب تفصيلي",
+    "best_for_en": "ML teams needing detailed experiment tracking",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "mlflow",
+    "name": "MLflow",
+    "name_ar": "ML فلو",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "منصة مفتوحة المصدر لدورة حياة ML الكاملة من التجارب للنشر",
+    "description_en": "Open-source platform for the complete ML lifecycle from experiments to deployment",
+    "features": [
+      "تتبع تجارب",
+      "إدارة نماذج",
+      "نشر"
+    ],
+    "features_en": [
+      "Experiment tracking",
+      "Model registry",
+      "Deployment"
+    ],
+    "pricing": "Free",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://mlflow.org",
+    "affiliate_url": "",
+    "logo": "https://mlflow.org/favicon.ico",
+    "tags": [
+      "MLOps",
+      "مفتوح المصدر"
+    ],
+    "tags_en": [
+      "MLOps",
+      "open source"
+    ],
+    "best_for": "فرق ML تحتاج إدارة دورة حياة النماذج",
+    "best_for_en": "ML teams needing model lifecycle management",
+    "added_date": "2026-07-14",
+    "open_source": true,
+    "featured": false
+  },
+  {
+    "id": "sentinelone-ai",
+    "name": "SentinelOne Purple AI",
+    "name_ar": "سنتينل وان",
+    "category": "security",
+    "category_ar": "أمن سيبراني",
+    "description": "محلل أمني AI يستفسر بلغة طبيعية ويحلل بيانات الأمان بثوانٍ",
+    "description_en": "AI security analyst that queries data in natural language and analyzes threats in seconds",
+    "features": [
+      "استفسار طبيعي",
+      "تحليل آلي",
+      "EDR متقدم"
+    ],
+    "features_en": [
+      "Natural language queries",
+      "Auto-analysis",
+      "Advanced EDR"
+    ],
+    "pricing": "Enterprise pricing",
+    "pricing_type": "enterprise",
+    "has_free_trial": true,
+    "free_trial_details": "Demo available",
+    "url": "https://www.sentinelone.com",
+    "affiliate_url": "",
+    "logo": "https://www.sentinelone.com/favicon.ico",
+    "tags": [
+      "EDR",
+      "أمن نقاط النهاية"
+    ],
+    "tags_en": [
+      "EDR",
+      "endpoint security"
+    ],
+    "best_for": "فرق SOC تحتاج تحليل تهديدات أسرع",
+    "best_for_en": "SOC teams needing faster threat analysis",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "vectra-ai",
+    "name": "Vectra AI",
+    "name_ar": "فيكترا AI",
+    "category": "security",
+    "category_ar": "أمن سيبراني",
+    "description": "منصة كشف تهديدات الشبكة بالذكاء الاصطناعي في السحابة والمحلي",
+    "description_en": "AI-driven network threat detection platform for cloud and on-premise environments",
+    "features": [
+      "كشف هجمات",
+      "سحابي ومحلي",
+      "تحليل سلوكي"
+    ],
+    "features_en": [
+      "Attack detection",
+      "Cloud & on-prem",
+      "Behavioral analysis"
+    ],
+    "pricing": "Enterprise pricing",
+    "pricing_type": "enterprise",
+    "has_free_trial": true,
+    "free_trial_details": "Assessment available",
+    "url": "https://www.vectra.ai",
+    "affiliate_url": "",
+    "logo": "https://www.vectra.ai/favicon.ico",
+    "tags": [
+      "NDR",
+      "كشف تهديدات"
+    ],
+    "tags_en": [
+      "NDR",
+      "threat detection"
+    ],
+    "best_for": "مؤسسات تحتاج رؤية شاملة للتهديدات",
+    "best_for_en": "Enterprises needing comprehensive threat visibility",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "orca-security",
+    "name": "Orca Security",
+    "name_ar": "أوركا سيكيوريتي",
+    "category": "security",
+    "category_ar": "أمن سيبراني",
+    "description": "منصة أمان سحابية بدون وكيل تفحص جميع أحمال العمل في دقائق",
+    "description_en": "Agentless cloud security platform that scans all workloads in minutes",
+    "features": [
+      "بدون وكيل",
+      "فحص شامل",
+      "رؤية كاملة"
+    ],
+    "features_en": [
+      "Agentless",
+      "Full scan",
+      "Complete visibility"
+    ],
+    "pricing": "Enterprise pricing",
+    "pricing_type": "enterprise",
+    "has_free_trial": true,
+    "free_trial_details": "Free risk assessment",
+    "url": "https://orca.security",
+    "affiliate_url": "",
+    "logo": "https://orca.security/favicon.ico",
+    "tags": [
+      "أمن سحابي",
+      "CSPM"
+    ],
+    "tags_en": [
+      "cloud security",
+      "CSPM"
+    ],
+    "best_for": "فرق تحتاج أمان سحابي بدون وكلاء",
+    "best_for_en": "Teams needing agentless cloud security",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "gitguardian",
+    "name": "GitGuardian",
+    "name_ar": "جيت جارديان",
+    "category": "security",
+    "category_ar": "أمن سيبراني",
+    "description": "أداة كشف الأسرار المسربة في الكود ومستودعات Git تلقائياً",
+    "description_en": "Automated secret detection in code and Git repositories to prevent credential leaks",
+    "features": [
+      "كشف أسرار",
+      "مراقبة مستمرة",
+      "تنبيهات فورية"
+    ],
+    "features_en": [
+      "Secret detection",
+      "Continuous monitoring",
+      "Instant alerts"
+    ],
+    "pricing": "Free for devs / Team from $40/user",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "Free for individual developers",
+    "url": "https://www.gitguardian.com",
+    "affiliate_url": "",
+    "logo": "https://www.gitguardian.com/favicon.ico",
+    "tags": [
+      "أسرار",
+      "Git",
+      "أمان"
+    ],
+    "tags_en": [
+      "secrets",
+      "Git",
+      "security"
+    ],
+    "best_for": "فرق تريد حماية الأسرار في الكود",
+    "best_for_en": "Teams wanting to protect secrets in code",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "katalon",
+    "name": "Katalon",
+    "name_ar": "كاتالون",
+    "category": "coding",
+    "category_ar": "برمجة",
+    "description": "منصة اختبار برمجيات شاملة بالذكاء الاصطناعي للويب والموبايل و API",
+    "description_en": "AI-powered comprehensive testing platform for web, mobile, API, and desktop",
+    "features": [
+      "اختبار شامل",
+      "بدون كود",
+      "AI ذكي"
+    ],
+    "features_en": [
+      "Comprehensive testing",
+      "No-code",
+      "Smart AI"
+    ],
+    "pricing": "Free / from $175/mo",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "Free forever plan",
+    "url": "https://katalon.com",
+    "affiliate_url": "",
+    "logo": "https://katalon.com/favicon.ico",
+    "tags": [
+      "اختبار",
+      "QA"
+    ],
+    "tags_en": [
+      "testing",
+      "QA"
+    ],
+    "best_for": "فرق QA تريد اختبار شامل بسهولة",
+    "best_for_en": "QA teams wanting easy comprehensive testing",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "lambda-labs",
+    "name": "Lambda",
+    "name_ar": "لامدا",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "سحابة GPU متخصصة لتدريب نماذج التعلم العميق بأسعار منافسة",
+    "description_en": "GPU cloud specialized for deep learning training at competitive prices",
+    "features": [
+      "GPU حسب الطلب",
+      "تسعير تنافسي",
+      "PyTorch جاهز"
+    ],
+    "features_en": [
+      "On-demand GPU",
+      "Competitive pricing",
+      "PyTorch ready"
+    ],
+    "pricing": "Pay per hour",
+    "pricing_type": "paid",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://lambdalabs.com",
+    "affiliate_url": "",
+    "logo": "https://lambdalabs.com/favicon.ico",
+    "tags": [
+      "GPU",
+      "تدريب عميق"
+    ],
+    "tags_en": [
+      "GPU",
+      "deep learning"
+    ],
+    "best_for": "باحثين يحتاجون GPU قوي للتدريب",
+    "best_for_en": "Researchers needing powerful GPU training",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "coreweave",
+    "name": "CoreWeave",
+    "name_ar": "كور ويف",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "سحابة GPU متخصصة بالذكاء الاصطناعي مع أحدث معالجات NVIDIA",
+    "description_en": "AI-specialized GPU cloud with latest NVIDIA hardware and fast networking",
+    "features": [
+      "NVIDIA H100",
+      "شبكة سريعة",
+      "Kubernetes"
+    ],
+    "features_en": [
+      "NVIDIA H100",
+      "Fast networking",
+      "Kubernetes"
+    ],
+    "pricing": "Enterprise / Pay per use",
+    "pricing_type": "paid",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://www.coreweave.com",
+    "affiliate_url": "",
+    "logo": "https://www.coreweave.com/favicon.ico",
+    "tags": [
+      "GPU سحابي",
+      "NVIDIA"
+    ],
+    "tags_en": [
+      "GPU cloud",
+      "NVIDIA"
+    ],
+    "best_for": "شركات AI تحتاج بنية تحتية GPU ضخمة",
+    "best_for_en": "AI companies needing massive GPU infrastructure",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "anyscale",
+    "name": "Anyscale",
+    "name_ar": "إني سكيل",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "منصة سحابية مبنية على Ray لتشغيل أعمال AI الموزعة",
+    "description_en": "Cloud platform built on Ray for running distributed AI workloads at scale",
+    "features": [
+      "حوسبة موزعة",
+      "مبني على Ray",
+      "تدريب ونشر"
+    ],
+    "features_en": [
+      "Distributed compute",
+      "Built on Ray",
+      "Training & serving"
+    ],
+    "pricing": "Pay per use",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "Free credits",
+    "url": "https://www.anyscale.com",
+    "affiliate_url": "",
+    "logo": "https://www.anyscale.com/favicon.ico",
+    "tags": [
+      "Ray",
+      "حوسبة موزعة"
+    ],
+    "tags_en": [
+      "Ray",
+      "distributed computing"
+    ],
+    "best_for": "فرق ML تحتاج حوسبة موزعة",
+    "best_for_en": "ML teams needing distributed computing",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "neptune-ai",
+    "name": "Neptune.ai",
+    "name_ar": "نبتون AI",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "منصة تتبع بيانات وصفية لتجارب ML مع تصور ومقارنة",
+    "description_en": "ML metadata tracking platform with visualization, comparison, and model registry",
+    "features": [
+      "تتبع",
+      "تصور",
+      "سجل نماذج"
+    ],
+    "features_en": [
+      "Tracking",
+      "Visualization",
+      "Model registry"
+    ],
+    "pricing": "Free / $49/user/mo",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://neptune.ai",
+    "affiliate_url": "",
+    "logo": "https://neptune.ai/favicon.ico",
+    "tags": [
+      "MLOps",
+      "تتبع"
+    ],
+    "tags_en": [
+      "MLOps",
+      "tracking"
+    ],
+    "best_for": "فرق ML تحتاج تتبع تجارب مفصل",
+    "best_for_en": "ML teams needing detailed experiment tracking",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "dvc-org",
+    "name": "DVC",
+    "name_ar": "دي في سي",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "أداة مفتوحة المصدر لإدارة إصدارات البيانات ونماذج ML مثل Git",
+    "description_en": "Open-source tool for data and ML model versioning, like Git for data science",
+    "features": [
+      "إصدارات بيانات",
+      "تجارب ML",
+      "أنابيب"
+    ],
+    "features_en": [
+      "Data versioning",
+      "ML experiments",
+      "Pipelines"
+    ],
+    "pricing": "Free",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://dvc.org",
+    "affiliate_url": "",
+    "logo": "https://dvc.org/favicon.ico",
+    "tags": [
+      "إصدارات بيانات",
+      "Git",
+      "مفتوح المصدر"
+    ],
+    "tags_en": [
+      "data versioning",
+      "Git",
+      "open source"
+    ],
+    "best_for": "علماء بيانات يحتاجون تتبع البيانات",
+    "best_for_en": "Data scientists needing data tracking",
+    "added_date": "2026-07-14",
+    "open_source": true,
+    "featured": false
+  },
+  {
+    "id": "elastic-security-ai",
+    "name": "Elastic Security AI",
+    "name_ar": "إلاستيك سيكيوريتي",
+    "category": "security",
+    "category_ar": "أمن سيبراني",
+    "description": "حل SIEM مع AI Assistant لتحليل التهديدات بلغة طبيعية",
+    "description_en": "SIEM solution with AI Assistant for natural language threat analysis and hunting",
+    "features": [
+      "SIEM",
+      "مساعد AI",
+      "صيد تهديدات"
+    ],
+    "features_en": [
+      "SIEM",
+      "AI Assistant",
+      "Threat hunting"
+    ],
+    "pricing": "Free tier / Enterprise",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "14-day free trial",
+    "url": "https://www.elastic.co/security",
+    "affiliate_url": "",
+    "logo": "https://www.elastic.co/favicon.ico",
+    "tags": [
+      "SIEM",
+      "أمن"
+    ],
+    "tags_en": [
+      "SIEM",
+      "security"
+    ],
+    "best_for": "فرق أمن تحتاج SIEM متقدم مع AI",
+    "best_for_en": "Security teams needing advanced SIEM with AI",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "palo-alto-cortex",
+    "name": "Palo Alto Cortex XSIAM",
+    "name_ar": "بالو ألتو كورتكس",
+    "category": "security",
+    "category_ar": "أمن سيبراني",
+    "description": "منصة عمليات أمنية مدعومة بالذكاء الاصطناعي تدمج SOC بالكامل",
+    "description_en": "AI-driven security operations platform that unifies the entire SOC",
+    "features": [
+      "SOC موحد",
+      "تحليل AI",
+      "استجابة آلية"
+    ],
+    "features_en": [
+      "Unified SOC",
+      "AI analytics",
+      "Auto-response"
+    ],
+    "pricing": "Enterprise pricing",
+    "pricing_type": "enterprise",
+    "has_free_trial": true,
+    "free_trial_details": "Demo available",
+    "url": "https://www.paloaltonetworks.com/cortex/cortex-xsiam",
+    "affiliate_url": "",
+    "logo": "https://www.paloaltonetworks.com/favicon.ico",
+    "tags": [
+      "SOC",
+      "XSIAM"
+    ],
+    "tags_en": [
+      "SOC",
+      "XSIAM"
+    ],
+    "best_for": "مؤسسات كبيرة تريد توحيد عمليات الأمن",
+    "best_for_en": "Large enterprises wanting unified security ops",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "hoppscotch",
+    "name": "Hoppscotch",
+    "name_ar": "هوبسكوتش",
+    "category": "coding",
+    "category_ar": "برمجة",
+    "description": "أداة تطوير API مفتوحة المصدر خفيفة وسريعة بديلة لـ Postman",
+    "description_en": "Open-source lightweight API development tool as a fast Postman alternative",
+    "features": [
+      "خفيفة",
+      "مفتوحة المصدر",
+      "تعاون"
+    ],
+    "features_en": [
+      "Lightweight",
+      "Open source",
+      "Collaboration"
+    ],
+    "pricing": "Free",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://hoppscotch.io",
+    "affiliate_url": "",
+    "logo": "https://hoppscotch.io/favicon.ico",
+    "tags": [
+      "API",
+      "مفتوح المصدر"
+    ],
+    "tags_en": [
+      "API",
+      "open source"
+    ],
+    "best_for": "مطورين يريدون أداة API مجانية وسريعة",
+    "best_for_en": "Developers wanting a free fast API tool",
+    "added_date": "2026-07-14",
+    "open_source": true,
+    "featured": false
+  },
+  {
+    "id": "codeball-ai",
+    "name": "Codeball",
+    "name_ar": "كود بول",
+    "category": "coding",
+    "category_ar": "برمجة",
+    "description": "أداة AI لمراجعة طلبات السحب تقيّم احتمالية الأخطاء تلقائياً",
+    "description_en": "AI-powered PR reviewer that predicts bug probability and auto-approves safe changes",
+    "features": [
+      "تقييم PR",
+      "موافقة آلية",
+      "كشف مخاطر"
+    ],
+    "features_en": [
+      "PR scoring",
+      "Auto-approve",
+      "Risk detection"
+    ],
+    "pricing": "Free OSS / from $20/mo",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "Free for open source",
+    "url": "https://codeball.ai",
+    "affiliate_url": "",
+    "logo": "https://codeball.ai/favicon.ico",
+    "tags": [
+      "مراجعة PR",
+      "GitHub"
+    ],
+    "tags_en": [
+      "PR review",
+      "GitHub"
+    ],
+    "best_for": "فرق تريد مراجعة PR تلقائية ذكية",
+    "best_for_en": "Teams wanting smart automated PR reviews",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "spacelift",
+    "name": "Spacelift",
+    "name_ar": "سبيس ليفت",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "منصة إدارة بنية تحتية ككود مع سياسات وامتثال مدمجة",
+    "description_en": "Infrastructure as Code management platform with built-in policies and compliance",
+    "features": [
+      "Terraform",
+      "سياسات",
+      "GitOps"
+    ],
+    "features_en": [
+      "Terraform",
+      "Policies",
+      "GitOps"
+    ],
+    "pricing": "Free tier / from $100/mo",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "Free trial",
+    "url": "https://spacelift.io",
+    "affiliate_url": "",
+    "logo": "https://spacelift.io/favicon.ico",
+    "tags": [
+      "IaC",
+      "Terraform"
+    ],
+    "tags_en": [
+      "IaC",
+      "Terraform"
+    ],
+    "best_for": "فرق DevOps تدير بنية تحتية ككود",
+    "best_for_en": "DevOps teams managing IaC",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "cerebras-ai",
+    "name": "Cerebras",
+    "name_ar": "سيريبراس",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "معالجات AI متخصصة فائقة السرعة للتدريب والاستدلال",
+    "description_en": "Specialized ultra-fast AI processors for training and inference at extreme speed",
+    "features": [
+      "سرعة فائقة",
+      "معالج WSE",
+      "استدلال سريع"
+    ],
+    "features_en": [
+      "Ultra-fast",
+      "WSE processor",
+      "Fast inference"
+    ],
+    "pricing": "Pay per token",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "Free API access",
+    "url": "https://cerebras.ai",
+    "affiliate_url": "",
+    "logo": "https://cerebras.ai/favicon.ico",
+    "tags": [
+      "معالجات AI",
+      "استدلال"
+    ],
+    "tags_en": [
+      "AI processors",
+      "inference"
+    ],
+    "best_for": "شركات تحتاج أداء AI فائق السرعة",
+    "best_for_en": "Companies needing ultra-fast AI performance",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "topaz-labs",
+    "name": "Topaz Labs",
+    "name_ar": "توباز لابز",
+    "category": "creative",
+    "category_ar": "إبداع",
+    "description": "برامج تحسين الصور والفيديو بالذكاء الاصطناعي لأعلى جودة",
+    "description_en": "AI photo and video enhancement software for maximum quality upscaling",
+    "features": [
+      "تكبير صور",
+      "إزالة ضوضاء",
+      "تحسين فيديو"
+    ],
+    "features_en": [
+      "Image upscaling",
+      "Noise removal",
+      "Video enhancement"
+    ],
+    "pricing": "$199 one-time",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "Free trial",
+    "url": "https://www.topazlabs.com",
+    "affiliate_url": "",
+    "logo": "https://www.topazlabs.com/favicon.ico",
+    "tags": [
+      "تحسين صور",
+      "فيديو"
+    ],
+    "tags_en": [
+      "image enhancement",
+      "video"
+    ],
+    "best_for": "مصورين ومحرري فيديو يريدون أعلى جودة",
+    "best_for_en": "Photographers and editors wanting highest quality",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "meshy-ai",
+    "name": "Meshy",
+    "name_ar": "ميشي",
+    "category": "creative",
+    "category_ar": "إبداع",
+    "description": "منصة AI لتوليد نماذج 3D وتلوينها من نص أو صور",
+    "description_en": "AI platform for 3D model generation and texturing from text or images",
+    "features": [
+      "توليد 3D",
+      "تلوين نماذج",
+      "تصدير متعدد"
+    ],
+    "features_en": [
+      "3D generation",
+      "Model texturing",
+      "Multi-format export"
+    ],
+    "pricing": "Free tier / $20/mo Pro",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://www.meshy.ai",
+    "affiliate_url": "",
+    "logo": "https://www.meshy.ai/favicon.ico",
+    "tags": [
+      "3D",
+      "تلوين"
+    ],
+    "tags_en": [
+      "3D",
+      "texturing"
+    ],
+    "best_for": "مطوري ألعاب يحتاجون assets ثلاثية الأبعاد",
+    "best_for_en": "Game developers needing 3D assets",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "capcut-ai",
+    "name": "CapCut",
+    "name_ar": "كاب كت",
+    "category": "creative",
+    "category_ar": "إبداع",
+    "description": "محرر فيديو مجاني من ByteDance مع أدوات AI للتحرير والتأثيرات",
+    "description_en": "Free video editor by ByteDance with AI editing tools and effects",
+    "features": [
+      "تحرير فيديو",
+      "تأثيرات AI",
+      "ترجمة تلقائية"
+    ],
+    "features_en": [
+      "Video editing",
+      "AI effects",
+      "Auto-captions"
+    ],
+    "pricing": "Free / $7.99/mo Pro",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://www.capcut.com",
+    "affiliate_url": "",
+    "logo": "https://www.capcut.com/favicon.ico",
+    "tags": [
+      "تحرير فيديو",
+      "تيك توك"
+    ],
+    "tags_en": [
+      "video editing",
+      "TikTok"
+    ],
+    "best_for": "منشئي محتوى على تيك توك وريلز",
+    "best_for_en": "TikTok and Reels content creators",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": true
+  },
+  {
+    "id": "fliki-ai",
+    "name": "Fliki",
+    "name_ar": "فليكي",
+    "category": "creative",
+    "category_ar": "إبداع",
+    "description": "منصة تحويل نص ومدونات لفيديوهات بأصوات AI طبيعية",
+    "description_en": "Platform that converts text and blogs into videos with natural AI voices",
+    "features": [
+      "نص إلى فيديو",
+      "أصوات طبيعية",
+      "75+ لغة"
+    ],
+    "features_en": [
+      "Text to video",
+      "Natural voices",
+      "75+ languages"
+    ],
+    "pricing": "Free / $28/mo Standard",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://fliki.ai",
+    "affiliate_url": "",
+    "logo": "https://fliki.ai/favicon.ico",
+    "tags": [
+      "نص إلى فيديو",
+      "أصوات"
+    ],
+    "tags_en": [
+      "text to video",
+      "voices"
+    ],
+    "best_for": "مسوقين يريدون فيديوهات من مدوناتهم",
+    "best_for_en": "Marketers wanting videos from their blog posts",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "play-ht",
+    "name": "Play.ht",
+    "name_ar": "بلاي HT",
+    "category": "creative",
+    "category_ar": "إبداع",
+    "description": "منصة تحويل نص لكلام بأصوات AI واقعية مع استنساخ صوت",
+    "description_en": "Text-to-speech platform with realistic AI voices and voice cloning capability",
+    "features": [
+      "نص لكلام",
+      "استنساخ صوت",
+      "API متاح"
+    ],
+    "features_en": [
+      "Text to speech",
+      "Voice cloning",
+      "API available"
+    ],
+    "pricing": "Free / $29/mo Pro",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://play.ht",
+    "affiliate_url": "",
+    "logo": "https://play.ht/favicon.ico",
+    "tags": [
+      "نص لكلام",
+      "استنساخ صوت"
+    ],
+    "tags_en": [
+      "TTS",
+      "voice cloning"
+    ],
+    "best_for": "مطورين يريدون دمج TTS في تطبيقاتهم",
+    "best_for_en": "Developers wanting to integrate TTS in apps",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "aiva-ai",
+    "name": "AIVA",
+    "name_ar": "آيفا",
+    "category": "creative",
+    "category_ar": "إبداع",
+    "description": "ملحن موسيقى AI يُنشئ موسيقى أصلية بمختلف الأنماط والمزاجات",
+    "description_en": "AI music composer that creates original soundtracks in various styles and moods",
+    "features": [
+      "تأليف موسيقى",
+      "أنماط متعددة",
+      "حقوق كاملة"
+    ],
+    "features_en": [
+      "Music composition",
+      "Multiple styles",
+      "Full rights"
+    ],
+    "pricing": "Free / $11/mo Standard",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://www.aiva.ai",
+    "affiliate_url": "",
+    "logo": "https://www.aiva.ai/favicon.ico",
+    "tags": [
+      "موسيقى",
+      "تأليف"
+    ],
+    "tags_en": [
+      "music",
+      "composition"
+    ],
+    "best_for": "صناع محتوى يحتاجون موسيقى خلفية أصلية",
+    "best_for_en": "Content creators needing original background music",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "tome-ai",
+    "name": "Tome",
+    "name_ar": "توم",
+    "category": "creative",
+    "category_ar": "إبداع",
+    "description": "منصة AI لإنشاء عروض تقديمية وصفحات ويب من نص بسيط",
+    "description_en": "AI platform for creating presentations and web pages from simple text prompts",
+    "features": [
+      "عروض تقديمية",
+      "صفحات ويب",
+      "تصميم تلقائي"
+    ],
+    "features_en": [
+      "Presentations",
+      "Web pages",
+      "Auto-design"
+    ],
+    "pricing": "Free / $16/mo Pro",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://tome.app",
+    "affiliate_url": "",
+    "logo": "https://tome.app/favicon.ico",
+    "tags": [
+      "عروض تقديمية",
+      "تصميم"
+    ],
+    "tags_en": [
+      "presentations",
+      "design"
+    ],
+    "best_for": "محترفين يحتاجون عروض جميلة بسرعة",
+    "best_for_en": "Professionals needing beautiful presentations fast",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "pictory-ai",
+    "name": "Pictory",
+    "name_ar": "بيكتوري",
+    "category": "creative",
+    "category_ar": "إبداع",
+    "description": "أداة AI تحول المقالات والنصوص الطويلة لفيديوهات جذابة قصيرة",
+    "description_en": "AI tool that transforms articles and long text into engaging short videos",
+    "features": [
+      "مقال لفيديو",
+      "ترجمة تلقائية",
+      "تلخيص"
+    ],
+    "features_en": [
+      "Article to video",
+      "Auto-subtitles",
+      "Summarization"
+    ],
+    "pricing": "$19/mo Starter",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "3 free videos",
+    "url": "https://pictory.ai",
+    "affiliate_url": "",
+    "logo": "https://pictory.ai/favicon.ico",
+    "tags": [
+      "مقال لفيديو",
+      "محتوى"
+    ],
+    "tags_en": [
+      "article to video",
+      "content"
+    ],
+    "best_for": "مدونين يريدون تحويل مقالاتهم لفيديو",
+    "best_for_en": "Bloggers wanting to turn articles into videos",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "speechify",
+    "name": "Speechify",
+    "name_ar": "سبيتشفاي",
+    "category": "education",
+    "category_ar": "تعليم",
+    "description": "تطبيق تحويل نص لكلام يقرأ أي محتوى بأصوات طبيعية",
+    "description_en": "Text-to-speech app that reads any content aloud with natural-sounding voices",
+    "features": [
+      "قراءة نصوص",
+      "أصوات طبيعية",
+      "OCR"
+    ],
+    "features_en": [
+      "Text reading",
+      "Natural voices",
+      "OCR"
+    ],
+    "pricing": "Free / $11.58/mo Premium",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://speechify.com",
+    "affiliate_url": "",
+    "logo": "https://speechify.com/favicon.ico",
+    "tags": [
+      "قراءة",
+      "نص لكلام"
+    ],
+    "tags_en": [
+      "reading",
+      "TTS"
+    ],
+    "best_for": "طلاب ومحترفين يريدون الاستماع للمحتوى",
+    "best_for_en": "Students and professionals wanting to listen to content",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "coursera-ai-tutor",
+    "name": "Coursera AI Tutor",
+    "name_ar": "مدرس كورسيرا AI",
+    "category": "education",
+    "category_ar": "تعليم",
+    "description": "مدرس AI شخصي في كورسيرا يساعد في فهم الدروس والمحتوى",
+    "description_en": "Personal AI tutor in Coursera helping students understand lessons and course content",
+    "features": [
+      "مدرس شخصي",
+      "شروحات",
+      "اختبارات"
+    ],
+    "features_en": [
+      "Personal tutor",
+      "Explanations",
+      "Quizzes"
+    ],
+    "pricing": "Included with Coursera Plus $49/mo",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "7-day free trial",
+    "url": "https://www.coursera.org",
+    "affiliate_url": "",
+    "logo": "https://www.coursera.org/favicon.ico",
+    "tags": [
+      "تعلم أونلاين",
+      "مدرس AI"
+    ],
+    "tags_en": [
+      "online learning",
+      "AI tutor"
+    ],
+    "best_for": "متعلمين يريدون مدرس شخصي في الدورات",
+    "best_for_en": "Learners wanting a personal tutor in courses",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "century-tech",
+    "name": "Century Tech",
+    "name_ar": "سينتشري تك",
+    "category": "education",
+    "category_ar": "تعليم",
+    "description": "منصة تعلم تكيفية بالذكاء الاصطناعي تخصص المحتوى لكل طالب",
+    "description_en": "Adaptive AI learning platform that personalizes content for each student",
+    "features": [
+      "تعلم تكيفي",
+      "تحليل أداء",
+      "مسارات مخصصة"
+    ],
+    "features_en": [
+      "Adaptive learning",
+      "Performance analytics",
+      "Custom paths"
+    ],
+    "pricing": "School licensing",
+    "pricing_type": "enterprise",
+    "has_free_trial": true,
+    "free_trial_details": "Demo available",
+    "url": "https://www.century.tech",
+    "affiliate_url": "",
+    "logo": "https://www.century.tech/favicon.ico",
+    "tags": [
+      "تعلم تكيفي",
+      "مدارس"
+    ],
+    "tags_en": [
+      "adaptive learning",
+      "schools"
+    ],
+    "best_for": "مدارس تريد تعليم مخصص لكل طالب",
+    "best_for_en": "Schools wanting personalized education for each student",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "mathway",
+    "name": "Mathway",
+    "name_ar": "ماثواي",
+    "category": "education",
+    "category_ar": "تعليم",
+    "description": "حاسبة رياضيات AI تحل أي مسألة رياضية مع خطوات الحل",
+    "description_en": "AI math calculator that solves any math problem with step-by-step solutions",
+    "features": [
+      "حل مسائل",
+      "خطوة بخطوة",
+      "كاميرا"
+    ],
+    "features_en": [
+      "Problem solving",
+      "Step-by-step",
+      "Camera input"
+    ],
+    "pricing": "Free (answers) / $9.99/mo (steps)",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://www.mathway.com",
+    "affiliate_url": "",
+    "logo": "https://www.mathway.com/favicon.ico",
+    "tags": [
+      "رياضيات",
+      "حل مسائل"
+    ],
+    "tags_en": [
+      "math",
+      "problem solving"
+    ],
+    "best_for": "طلاب يحتاجون حل مسائل رياضيات فوري",
+    "best_for_en": "Students needing instant math problem solving",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "planful",
+    "name": "Planful",
+    "name_ar": "بلانفول",
+    "category": "finance",
+    "category_ar": "مالية",
+    "description": "منصة تخطيط مالي بالذكاء الاصطناعي للميزانيات والتوقعات المالية",
+    "description_en": "AI financial planning platform for budgeting, forecasting, and consolidation",
+    "features": [
+      "تخطيط مالي",
+      "توقعات",
+      "تقارير"
+    ],
+    "features_en": [
+      "Financial planning",
+      "Forecasting",
+      "Reporting"
+    ],
+    "pricing": "Enterprise pricing",
+    "pricing_type": "enterprise",
+    "has_free_trial": true,
+    "free_trial_details": "Demo available",
+    "url": "https://planful.com",
+    "affiliate_url": "",
+    "logo": "https://planful.com/favicon.ico",
+    "tags": [
+      "تخطيط مالي",
+      "ميزانية"
+    ],
+    "tags_en": [
+      "financial planning",
+      "budgeting"
+    ],
+    "best_for": "CFOs وفرق مالية تحتاج تخطيط متقدم",
+    "best_for_en": "CFOs and finance teams needing advanced planning",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "vena-solutions",
+    "name": "Vena Solutions",
+    "name_ar": "فينا سولوشنز",
+    "category": "finance",
+    "category_ar": "مالية",
+    "description": "منصة تخطيط مؤسسي مبنية على Excel مع AI للتوقعات المالية",
+    "description_en": "Excel-native enterprise planning platform with AI-powered financial forecasting",
+    "features": [
+      "تكامل Excel",
+      "توقعات AI",
+      "إعداد تقارير"
+    ],
+    "features_en": [
+      "Excel integration",
+      "AI forecasting",
+      "Reporting"
+    ],
+    "pricing": "Enterprise pricing",
+    "pricing_type": "enterprise",
+    "has_free_trial": true,
+    "free_trial_details": "Demo available",
+    "url": "https://venasolutions.com",
+    "affiliate_url": "",
+    "logo": "https://venasolutions.com/favicon.ico",
+    "tags": [
+      "Excel",
+      "تخطيط مالي"
+    ],
+    "tags_en": [
+      "Excel",
+      "financial planning"
+    ],
+    "best_for": "فرق مالية تعتمد على Excel",
+    "best_for_en": "Finance teams that rely on Excel",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "ramp-finance",
+    "name": "Ramp",
+    "name_ar": "رامب",
+    "category": "finance",
+    "category_ar": "مالية",
+    "description": "منصة إدارة مصاريف الشركات بالذكاء الاصطناعي مع بطاقات ذكية",
+    "description_en": "AI-powered corporate expense management platform with smart cards",
+    "features": [
+      "بطاقات شركة",
+      "تتبع مصاريف",
+      "توفير تلقائي"
+    ],
+    "features_en": [
+      "Corporate cards",
+      "Expense tracking",
+      "Auto-savings"
+    ],
+    "pricing": "Free",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://ramp.com",
+    "affiliate_url": "",
+    "logo": "https://ramp.com/favicon.ico",
+    "tags": [
+      "مصاريف",
+      "بطاقات"
+    ],
+    "tags_en": [
+      "expenses",
+      "cards"
+    ],
+    "best_for": "شركات تريد تقليل مصاريفها تلقائياً",
+    "best_for_en": "Companies wanting to reduce expenses automatically",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "brex",
+    "name": "Brex",
+    "name_ar": "بريكس",
+    "category": "finance",
+    "category_ar": "مالية",
+    "description": "منصة مالية للشركات الناشئة مع بطاقات وإدارة مصاريف AI",
+    "description_en": "Financial platform for startups with cards and AI expense management",
+    "features": [
+      "بطاقات شركة",
+      "إدارة نفقات",
+      "تكاملات"
+    ],
+    "features_en": [
+      "Corporate cards",
+      "Expense management",
+      "Integrations"
+    ],
+    "pricing": "Free Essentials / Premium",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://www.brex.com",
+    "affiliate_url": "",
+    "logo": "https://www.brex.com/favicon.ico",
+    "tags": [
+      "شركات ناشئة",
+      "بطاقات"
+    ],
+    "tags_en": [
+      "startups",
+      "cards"
+    ],
+    "best_for": "شركات ناشئة تحتاج حلول مالية متكاملة",
+    "best_for_en": "Startups needing integrated financial solutions",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "babylon-health",
+    "name": "Babylon Health",
+    "name_ar": "بابيلون هيلث",
+    "category": "health",
+    "category_ar": "صحة",
+    "description": "خدمة طب عن بُعد مع AI للرعاية الصحية الأولية والاستشارات",
+    "description_en": "Telehealth service with AI for primary healthcare and consultations",
+    "features": [
+      "استشارة عن بعد",
+      "تقييم AI",
+      "وصفات"
+    ],
+    "features_en": [
+      "Telemedicine",
+      "AI assessment",
+      "Prescriptions"
+    ],
+    "pricing": "Varies by plan",
+    "pricing_type": "paid",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://www.babylonhealth.com",
+    "affiliate_url": "",
+    "logo": "https://www.babylonhealth.com/favicon.ico",
+    "tags": [
+      "طب عن بعد",
+      "استشارات"
+    ],
+    "tags_en": [
+      "telehealth",
+      "consultations"
+    ],
+    "best_for": "أشخاص يريدون استشارة طبية سريعة",
+    "best_for_en": "People wanting quick medical consultations",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "buoy-health",
+    "name": "Buoy Health",
+    "name_ar": "بوي هيلث",
+    "category": "health",
+    "category_ar": "صحة",
+    "description": "مساعد صحي AI يساعد في تحديد الأعراض والتوجه للرعاية المناسبة",
+    "description_en": "AI health assistant helping identify symptoms and navigate to the right care",
+    "features": [
+      "فحص أعراض",
+      "توجيه رعاية",
+      "معلومات صحية"
+    ],
+    "features_en": [
+      "Symptom checker",
+      "Care navigation",
+      "Health info"
+    ],
+    "pricing": "Free",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://www.buoyhealth.com",
+    "affiliate_url": "",
+    "logo": "https://www.buoyhealth.com/favicon.ico",
+    "tags": [
+      "أعراض",
+      "رعاية"
+    ],
+    "tags_en": [
+      "symptoms",
+      "care"
+    ],
+    "best_for": "أشخاص يحتاجون توجيه صحي سريع",
+    "best_for_en": "People needing quick health guidance",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "luminance-legal",
+    "name": "Luminance",
+    "name_ar": "لومينانس",
+    "category": "legal",
+    "category_ar": "قانوني",
+    "description": "منصة AI قانونية لمراجعة العقود والمستندات القانونية تلقائياً",
+    "description_en": "Legal AI platform for automated contract review and document analysis",
+    "features": [
+      "مراجعة عقود",
+      "كشف مخاطر",
+      "مقارنة مستندات"
+    ],
+    "features_en": [
+      "Contract review",
+      "Risk detection",
+      "Document comparison"
+    ],
+    "pricing": "Enterprise pricing",
+    "pricing_type": "enterprise",
+    "has_free_trial": true,
+    "free_trial_details": "Demo available",
+    "url": "https://www.luminance.com",
+    "affiliate_url": "",
+    "logo": "https://www.luminance.com/favicon.ico",
+    "tags": [
+      "عقود",
+      "مراجعة قانونية"
+    ],
+    "tags_en": [
+      "contracts",
+      "legal review"
+    ],
+    "best_for": "مكاتب محاماة تراجع عقود كثيرة",
+    "best_for_en": "Law firms reviewing many contracts",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "spellbook-legal",
+    "name": "Spellbook",
+    "name_ar": "سبيلبوك",
+    "category": "legal",
+    "category_ar": "قانوني",
+    "description": "مساعد AI لصياغة العقود مدمج مع Microsoft Word",
+    "description_en": "AI assistant for contract drafting integrated with Microsoft Word",
+    "features": [
+      "صياغة عقود",
+      "اقتراحات ذكية",
+      "تكامل Word"
+    ],
+    "features_en": [
+      "Contract drafting",
+      "Smart suggestions",
+      "Word integration"
+    ],
+    "pricing": "From $79/user/mo",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "Waitlist",
+    "url": "https://www.spellbook.legal",
+    "affiliate_url": "",
+    "logo": "https://www.spellbook.legal/favicon.ico",
+    "tags": [
+      "صياغة عقود",
+      "Word"
+    ],
+    "tags_en": [
+      "contract drafting",
+      "Word"
+    ],
+    "best_for": "محامين يصيغون عقود في Word",
+    "best_for_en": "Lawyers drafting contracts in Word",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "lexion-ai",
+    "name": "Lexion",
+    "name_ar": "لكسيون",
+    "category": "legal",
+    "category_ar": "قانوني",
+    "description": "منصة إدارة عقود AI تنظم وتتبع وتحلل العقود تلقائياً",
+    "description_en": "AI contract management platform that organizes, tracks, and analyzes contracts",
+    "features": [
+      "إدارة عقود",
+      "تتبع مواعيد",
+      "استخراج بيانات"
+    ],
+    "features_en": [
+      "Contract management",
+      "Deadline tracking",
+      "Data extraction"
+    ],
+    "pricing": "Enterprise pricing",
+    "pricing_type": "enterprise",
+    "has_free_trial": true,
+    "free_trial_details": "Demo available",
+    "url": "https://www.lexion.ai",
+    "affiliate_url": "",
+    "logo": "https://www.lexion.ai/favicon.ico",
+    "tags": [
+      "إدارة عقود",
+      "تتبع"
+    ],
+    "tags_en": [
+      "contract management",
+      "tracking"
+    ],
+    "best_for": "فرق قانونية تدير مئات العقود",
+    "best_for_en": "Legal teams managing hundreds of contracts",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "paradox-olivia",
+    "name": "Paradox (Olivia)",
+    "name_ar": "باراداكس (أوليفيا)",
+    "category": "automation",
+    "category_ar": "أتمتة",
+    "description": "مساعد توظيف AI يتحدث مع المرشحين ويجدول المقابلات تلقائياً",
+    "description_en": "AI recruiting assistant that chats with candidates and schedules interviews automatically",
+    "features": [
+      "محادثة مرشحين",
+      "جدولة مقابلات",
+      "فحص مبدئي"
+    ],
+    "features_en": [
+      "Candidate chat",
+      "Interview scheduling",
+      "Initial screening"
+    ],
+    "pricing": "Enterprise pricing",
+    "pricing_type": "enterprise",
+    "has_free_trial": true,
+    "free_trial_details": "Demo available",
+    "url": "https://www.paradox.ai",
+    "affiliate_url": "",
+    "logo": "https://www.paradox.ai/favicon.ico",
+    "tags": [
+      "توظيف",
+      "مقابلات"
+    ],
+    "tags_en": [
+      "recruiting",
+      "interviews"
+    ],
+    "best_for": "شركات توظف بكميات كبيرة",
+    "best_for_en": "Companies hiring at high volume",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "calendly-ai",
+    "name": "Calendly",
+    "name_ar": "كالندلي",
+    "category": "productivity",
+    "category_ar": "إنتاجية",
+    "description": "أداة جدولة مواعيد ذكية مع AI تتكامل مع التقويمات والأدوات",
+    "description_en": "Smart scheduling tool with AI that integrates with calendars and tools",
+    "features": [
+      "جدولة ذكية",
+      "تكاملات",
+      "صفحة حجز"
+    ],
+    "features_en": [
+      "Smart scheduling",
+      "Integrations",
+      "Booking page"
+    ],
+    "pricing": "Free / $10/mo Standard",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "14-day free trial",
+    "url": "https://calendly.com",
+    "affiliate_url": "",
+    "logo": "https://calendly.com/favicon.ico",
+    "tags": [
+      "جدولة",
+      "مواعيد"
+    ],
+    "tags_en": [
+      "scheduling",
+      "appointments"
+    ],
+    "best_for": "محترفين يحتاجون جدولة مواعيد سهلة",
+    "best_for_en": "Professionals needing easy appointment scheduling",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "tidycal",
+    "name": "TidyCal",
+    "name_ar": "تايدي كال",
+    "category": "productivity",
+    "category_ar": "إنتاجية",
+    "description": "أداة جدولة مواعيد بسيطة وبأسعار معقولة كبديل لـ Calendly",
+    "description_en": "Simple and affordable scheduling tool as a Calendly alternative",
+    "features": [
+      "جدولة بسيطة",
+      "دفعة واحدة",
+      "تكاملات"
+    ],
+    "features_en": [
+      "Simple scheduling",
+      "One-time payment",
+      "Integrations"
+    ],
+    "pricing": "$29 one-time",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "Free plan available",
+    "url": "https://tidycal.com",
+    "affiliate_url": "",
+    "logo": "https://tidycal.com/favicon.ico",
+    "tags": [
+      "جدولة",
+      "بديل Calendly"
+    ],
+    "tags_en": [
+      "scheduling",
+      "Calendly alternative"
+    ],
+    "best_for": "فريلانسرز يريدون جدولة رخيصة",
+    "best_for_en": "Freelancers wanting affordable scheduling",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "seamless-ai",
+    "name": "Seamless.AI",
+    "name_ar": "سيملس AI",
+    "category": "sales-marketing",
+    "category_ar": "مبيعات وتسويق",
+    "description": "محرك بحث AI للعثور على بيانات اتصال صناع القرار في الشركات",
+    "description_en": "AI search engine for finding decision-maker contact data in companies",
+    "features": [
+      "بيانات اتصال",
+      "بحث AI",
+      "تكامل CRM"
+    ],
+    "features_en": [
+      "Contact data",
+      "AI search",
+      "CRM integration"
+    ],
+    "pricing": "Free / Pro from $147/mo",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://seamless.ai",
+    "affiliate_url": "",
+    "logo": "https://seamless.ai/favicon.ico",
+    "tags": [
+      "بيانات B2B",
+      "مبيعات"
+    ],
+    "tags_en": [
+      "B2B data",
+      "sales"
+    ],
+    "best_for": "فرق مبيعات تبحث عن عملاء محتملين",
+    "best_for_en": "Sales teams searching for prospects",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "lusha",
+    "name": "Lusha",
+    "name_ar": "لوشا",
+    "category": "sales-marketing",
+    "category_ar": "مبيعات وتسويق",
+    "description": "منصة بيانات B2B للعثور على أرقام هواتف وبريد صناع القرار",
+    "description_en": "B2B data platform for finding phone numbers and emails of decision-makers",
+    "features": [
+      "بيانات اتصال",
+      "إضافة Chrome",
+      "API"
+    ],
+    "features_en": [
+      "Contact data",
+      "Chrome extension",
+      "API"
+    ],
+    "pricing": "Free / $36/mo Pro",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://www.lusha.com",
+    "affiliate_url": "",
+    "logo": "https://www.lusha.com/favicon.ico",
+    "tags": [
+      "بيانات B2B",
+      "بحث"
+    ],
+    "tags_en": [
+      "B2B data",
+      "search"
+    ],
+    "best_for": "مندوبي مبيعات يبحثون عن بيانات اتصال",
+    "best_for_en": "Sales reps searching for contact data",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "clearbit",
+    "name": "Clearbit",
+    "name_ar": "كلير بت",
+    "category": "sales-marketing",
+    "category_ar": "مبيعات وتسويق",
+    "description": "منصة إثراء بيانات B2B تكشف معلومات الشركات والزوار تلقائياً",
+    "description_en": "B2B data enrichment platform that reveals company and visitor data automatically",
+    "features": [
+      "إثراء بيانات",
+      "كشف زوار",
+      "تصنيف عملاء"
+    ],
+    "features_en": [
+      "Data enrichment",
+      "Visitor reveal",
+      "Lead scoring"
+    ],
+    "pricing": "Free tier / Enterprise",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://clearbit.com",
+    "affiliate_url": "",
+    "logo": "https://clearbit.com/favicon.ico",
+    "tags": [
+      "إثراء بيانات",
+      "B2B"
+    ],
+    "tags_en": [
+      "data enrichment",
+      "B2B"
+    ],
+    "best_for": "فرق تسويق تريد بيانات غنية عن العملاء",
+    "best_for_en": "Marketing teams wanting rich customer data",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "durable-ai",
+    "name": "Durable AI",
+    "name_ar": "ديورابل AI",
+    "category": "no-code",
+    "category_ar": "بدون كود",
+    "description": "منشئ مواقع AI يبني موقعاً كاملاً في 30 ثانية مع CRM مدمج",
+    "description_en": "AI website builder that creates a complete website in 30 seconds with built-in CRM",
+    "features": [
+      "موقع في 30 ثانية",
+      "CRM مدمج",
+      "SEO تلقائي"
+    ],
+    "features_en": [
+      "Website in 30 sec",
+      "Built-in CRM",
+      "Auto SEO"
+    ],
+    "pricing": "$12/mo Starter",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "Free plan",
+    "url": "https://durable.co",
+    "affiliate_url": "",
+    "logo": "https://durable.co/favicon.ico",
+    "tags": [
+      "بناء مواقع",
+      "AI"
+    ],
+    "tags_en": [
+      "website builder",
+      "AI"
+    ],
+    "best_for": "أصحاب أعمال صغيرة يريدون موقع سريع",
+    "best_for_en": "Small business owners wanting a quick website",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "hostinger-ai",
+    "name": "Hostinger AI Builder",
+    "name_ar": "هوستنجر AI",
+    "category": "no-code",
+    "category_ar": "بدون كود",
+    "description": "منشئ مواقع AI مع استضافة مدمجة يبني مواقع احترافية في دقائق",
+    "description_en": "AI website builder with integrated hosting that creates professional sites in minutes",
+    "features": [
+      "استضافة مدمجة",
+      "AI تصميم",
+      "متجر إلكتروني"
+    ],
+    "features_en": [
+      "Integrated hosting",
+      "AI design",
+      "E-commerce"
+    ],
+    "pricing": "$2.49/mo",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "30-day money-back",
+    "url": "https://www.hostinger.com",
+    "affiliate_url": "",
+    "logo": "https://www.hostinger.com/favicon.ico",
+    "tags": [
+      "استضافة",
+      "بناء مواقع"
+    ],
+    "tags_en": [
+      "hosting",
+      "website builder"
+    ],
+    "best_for": "مبتدئين يريدون موقع + استضافة بأقل سعر",
+    "best_for_en": "Beginners wanting a site + hosting at lowest price",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "tally-forms",
+    "name": "Tally",
+    "name_ar": "تالي",
+    "category": "no-code",
+    "category_ar": "بدون كود",
+    "description": "أداة إنشاء نماذج واستبيانات مجانية بلا حدود مع AI",
+    "description_en": "Free unlimited form builder with AI for creating surveys and forms",
+    "features": [
+      "نماذج غير محدودة",
+      "مجاني",
+      "AI مساعد"
+    ],
+    "features_en": [
+      "Unlimited forms",
+      "Free",
+      "AI helper"
+    ],
+    "pricing": "Free / $29/mo Pro",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://tally.so",
+    "affiliate_url": "",
+    "logo": "https://tally.so/favicon.ico",
+    "tags": [
+      "نماذج",
+      "استبيانات"
+    ],
+    "tags_en": [
+      "forms",
+      "surveys"
+    ],
+    "best_for": "أي شخص يحتاج نماذج واستبيانات مجانية",
+    "best_for_en": "Anyone needing free forms and surveys",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "pi-ai",
+    "name": "Pi",
+    "name_ar": "باي",
+    "category": "general-assistant",
+    "category_ar": "مساعد عام",
+    "description": "مساعد AI شخصي من Inflection يركز على المحادثات الودية والدعم العاطفي",
+    "description_en": "Personal AI assistant by Inflection focused on friendly conversations and emotional support",
+    "features": [
+      "محادثة ودية",
+      "دعم عاطفي",
+      "ذاكرة سياقية"
+    ],
+    "features_en": [
+      "Friendly chat",
+      "Emotional support",
+      "Context memory"
+    ],
+    "pricing": "Free",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://pi.ai",
+    "affiliate_url": "",
+    "logo": "https://pi.ai/favicon.ico",
+    "tags": [
+      "مساعد شخصي",
+      "محادثة"
+    ],
+    "tags_en": [
+      "personal assistant",
+      "chat"
+    ],
+    "best_for": "أشخاص يريدون مساعد AI ودود للمحادثة",
+    "best_for_en": "People wanting a friendly AI chat companion",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "poe-ai",
+    "name": "Poe",
+    "name_ar": "بو",
+    "category": "general-assistant",
+    "category_ar": "مساعد عام",
+    "description": "منصة من Quora توفر وصولاً لعدة نماذج AI في مكان واحد",
+    "description_en": "Quora's platform providing access to multiple AI models in one place",
+    "features": [
+      "نماذج متعددة",
+      "إنشاء بوتات",
+      "واجهة موحدة"
+    ],
+    "features_en": [
+      "Multiple models",
+      "Bot creation",
+      "Unified interface"
+    ],
+    "pricing": "Free / $16.67/mo",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://poe.com",
+    "affiliate_url": "",
+    "logo": "https://poe.com/favicon.ico",
+    "tags": [
+      "نماذج متعددة",
+      "محادثة"
+    ],
+    "tags_en": [
+      "multiple models",
+      "chat"
+    ],
+    "best_for": "مستخدمين يريدون تجربة نماذج AI مختلفة",
+    "best_for_en": "Users wanting to try different AI models",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "cohere-ai",
+    "name": "Cohere",
+    "name_ar": "كوهير",
+    "category": "general-assistant",
+    "category_ar": "مساعد عام",
+    "description": "منصة AI للمؤسسات مع نماذج لغة متقدمة للبحث والتصنيف والتوليد",
+    "description_en": "Enterprise AI platform with advanced language models for search, classification, and generation",
+    "features": [
+      "نماذج مؤسسات",
+      "بحث دلالي",
+      "RAG"
+    ],
+    "features_en": [
+      "Enterprise models",
+      "Semantic search",
+      "RAG"
+    ],
+    "pricing": "Free trial / Enterprise",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "Free trial API",
+    "url": "https://cohere.com",
+    "affiliate_url": "",
+    "logo": "https://cohere.com/favicon.ico",
+    "tags": [
+      "مؤسسات",
+      "نماذج لغة"
+    ],
+    "tags_en": [
+      "enterprise",
+      "language models"
+    ],
+    "best_for": "شركات تبني تطبيقات AI مخصصة",
+    "best_for_en": "Companies building custom AI applications",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "duckduckgo-ai",
+    "name": "DuckDuckGo AI Chat",
+    "name_ar": "داك داك جو AI",
+    "category": "general-assistant",
+    "category_ar": "مساعد عام",
+    "description": "محادثة AI مجانية وخاصة من DuckDuckGo بدون تتبع أو حفظ بيانات",
+    "description_en": "Free private AI chat from DuckDuckGo with no tracking or data storage",
+    "features": [
+      "خصوصية كاملة",
+      "بلا تتبع",
+      "مجاني"
+    ],
+    "features_en": [
+      "Full privacy",
+      "No tracking",
+      "Free"
+    ],
+    "pricing": "Free",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://duckduckgo.com/aichat",
+    "affiliate_url": "",
+    "logo": "https://duckduckgo.com/favicon.ico",
+    "tags": [
+      "خصوصية",
+      "مجاني"
+    ],
+    "tags_en": [
+      "privacy",
+      "free"
+    ],
+    "best_for": "مستخدمين يهتمون بالخصوصية",
+    "best_for_en": "Privacy-conscious users",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "scite-ai",
+    "name": "Scite.ai",
+    "name_ar": "سايت AI",
+    "category": "research",
+    "category_ar": "بحث",
+    "description": "منصة بحث أكاديمي AI تحلل كيف تم الاستشهاد بالأوراق وسياق الاقتباسات",
+    "description_en": "AI academic research platform analyzing how papers are cited and citation context",
+    "features": [
+      "تحليل استشهادات",
+      "سياق اقتباسات",
+      "بحث ذكي"
+    ],
+    "features_en": [
+      "Citation analysis",
+      "Citation context",
+      "Smart search"
+    ],
+    "pricing": "Free / $10/mo Student",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "7-day free trial",
+    "url": "https://scite.ai",
+    "affiliate_url": "",
+    "logo": "https://scite.ai/favicon.ico",
+    "tags": [
+      "بحث أكاديمي",
+      "استشهادات"
+    ],
+    "tags_en": [
+      "academic research",
+      "citations"
+    ],
+    "best_for": "باحثين يحتاجون فهم سياق الاستشهادات",
+    "best_for_en": "Researchers needing to understand citation context",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "research-rabbit",
+    "name": "ResearchRabbit",
+    "name_ar": "ريسيرش رابيت",
+    "category": "research",
+    "category_ar": "بحث",
+    "description": "أداة اكتشاف أوراق أكاديمية AI تعمل كـ Spotify للبحث العلمي",
+    "description_en": "AI paper discovery tool that works like Spotify for scientific research",
+    "features": [
+      "اكتشاف أوراق",
+      "توصيات",
+      "مجاني"
+    ],
+    "features_en": [
+      "Paper discovery",
+      "Recommendations",
+      "Free"
+    ],
+    "pricing": "Free",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://www.researchrabbit.ai",
+    "affiliate_url": "",
+    "logo": "https://www.researchrabbit.ai/favicon.ico",
+    "tags": [
+      "أبحاث",
+      "اكتشاف"
+    ],
+    "tags_en": [
+      "research",
+      "discovery"
+    ],
+    "best_for": "باحثين يريدون اكتشاف أوراق ذات صلة",
+    "best_for_en": "Researchers wanting to discover related papers",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "typeset-scispace",
+    "name": "SciSpace",
+    "name_ar": "ساي سبيس",
+    "category": "research",
+    "category_ar": "بحث",
+    "description": "منصة بحث أكاديمي AI تشرح الأوراق العلمية بلغة بسيطة",
+    "description_en": "AI academic platform that explains scientific papers in simple language",
+    "features": [
+      "شرح أوراق",
+      "تلخيص",
+      "أسئلة وأجوبة"
+    ],
+    "features_en": [
+      "Paper explanation",
+      "Summarization",
+      "Q&A"
+    ],
+    "pricing": "Free / $12/mo Premium",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://typeset.io",
+    "affiliate_url": "",
+    "logo": "https://typeset.io/favicon.ico",
+    "tags": [
+      "شرح أوراق",
+      "تلخيص"
+    ],
+    "tags_en": [
+      "paper explanation",
+      "summarization"
+    ],
+    "best_for": "طلاب يحتاجون فهم أوراق علمية معقدة",
+    "best_for_en": "Students needing to understand complex papers",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "inciteful",
+    "name": "Inciteful",
+    "name_ar": "إنسايتفول",
+    "category": "research",
+    "category_ar": "بحث",
+    "description": "أداة مجانية لتحليل شبكات الاستشهادات واكتشاف أهم الأوراق في مجال",
+    "description_en": "Free tool for citation network analysis and discovering key papers in a field",
+    "features": [
+      "تحليل شبكات",
+      "أوراق مهمة",
+      "مجاني"
+    ],
+    "features_en": [
+      "Network analysis",
+      "Key papers",
+      "Free"
+    ],
+    "pricing": "Free",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://inciteful.xyz",
+    "affiliate_url": "",
+    "logo": "https://inciteful.xyz/favicon.ico",
+    "tags": [
+      "استشهادات",
+      "تحليل"
+    ],
+    "tags_en": [
+      "citations",
+      "analysis"
+    ],
+    "best_for": "باحثين يحتاجون تحليل شبكات استشهادات",
+    "best_for_en": "Researchers needing citation network analysis",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "power-bi-copilot",
+    "name": "Power BI Copilot",
+    "name_ar": "باور بي آي كوبايلوت",
+    "category": "data-analytics",
+    "category_ar": "تحليل بيانات",
+    "description": "أداة تحليل بيانات Microsoft مع Copilot AI لتوليد تقارير بلغة طبيعية",
+    "description_en": "Microsoft data analytics tool with Copilot AI for natural language report generation",
+    "features": [
+      "تقارير AI",
+      "لغة طبيعية",
+      "تكامل Microsoft"
+    ],
+    "features_en": [
+      "AI reports",
+      "Natural language",
+      "Microsoft integration"
+    ],
+    "pricing": "$10/user/mo Pro",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "Free desktop version",
+    "url": "https://powerbi.microsoft.com",
+    "affiliate_url": "",
+    "logo": "https://powerbi.microsoft.com/favicon.ico",
+    "tags": [
+      "تحليل بيانات",
+      "Microsoft"
+    ],
+    "tags_en": [
+      "data analytics",
+      "Microsoft"
+    ],
+    "best_for": "فرق تستخدم Microsoft وتحتاج تحليل بيانات",
+    "best_for_en": "Teams using Microsoft needing data analytics",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "observable-hq",
+    "name": "Observable",
+    "name_ar": "أوبزيرفابل",
+    "category": "data-analytics",
+    "category_ar": "تحليل بيانات",
+    "description": "منصة تحليل بيانات تفاعلية مع notebooks و Framework لبناء لوحات",
+    "description_en": "Interactive data analytics platform with notebooks and Framework for building dashboards",
+    "features": [
+      "notebooks تفاعلية",
+      "D3.js",
+      "لوحات معلومات"
+    ],
+    "features_en": [
+      "Interactive notebooks",
+      "D3.js",
+      "Dashboards"
+    ],
+    "pricing": "Free / $15/user/mo Pro",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://observablehq.com",
+    "affiliate_url": "",
+    "logo": "https://observablehq.com/favicon.ico",
+    "tags": [
+      "تصور تفاعلي",
+      "JavaScript"
+    ],
+    "tags_en": [
+      "interactive viz",
+      "JavaScript"
+    ],
+    "best_for": "مطورين يبنون تصورات بيانات تفاعلية",
+    "best_for_en": "Developers building interactive data visualizations",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "metabase",
+    "name": "Metabase",
+    "name_ar": "ميتابيز",
+    "category": "data-analytics",
+    "category_ar": "تحليل بيانات",
+    "description": "أداة تحليل بيانات مفتوحة المصدر تتيح لأي شخص طرح أسئلة على البيانات",
+    "description_en": "Open-source analytics tool letting anyone ask questions about their data",
+    "features": [
+      "بدون SQL",
+      "لوحات معلومات",
+      "مفتوح المصدر"
+    ],
+    "features_en": [
+      "No SQL needed",
+      "Dashboards",
+      "Open source"
+    ],
+    "pricing": "Free OSS / $85/mo Pro",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "Free self-hosted",
+    "url": "https://www.metabase.com",
+    "affiliate_url": "",
+    "logo": "https://www.metabase.com/favicon.ico",
+    "tags": [
+      "تحليل بيانات",
+      "مفتوح المصدر"
+    ],
+    "tags_en": [
+      "data analytics",
+      "open source"
+    ],
+    "best_for": "فرق صغيرة تحتاج تحليل بيانات بسيط",
+    "best_for_en": "Small teams needing simple data analytics",
+    "added_date": "2026-07-14",
+    "open_source": true,
+    "featured": false
+  },
+  {
+    "id": "preset-io",
+    "name": "Preset (Apache Superset)",
+    "name_ar": "بريسيت",
+    "category": "data-analytics",
+    "category_ar": "تحليل بيانات",
+    "description": "خدمة سحابية لـ Apache Superset مع تصور بيانات مفتوح المصدر",
+    "description_en": "Cloud service for Apache Superset with open-source data visualization",
+    "features": [
+      "Superset سحابي",
+      "مفتوح المصدر",
+      "SQL Lab"
+    ],
+    "features_en": [
+      "Cloud Superset",
+      "Open source",
+      "SQL Lab"
+    ],
+    "pricing": "Free Starter / $20/user/mo",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "Free tier",
+    "url": "https://preset.io",
+    "affiliate_url": "",
+    "logo": "https://preset.io/favicon.ico",
+    "tags": [
+      "Superset",
+      "تحليل"
+    ],
+    "tags_en": [
+      "Superset",
+      "analytics"
+    ],
+    "best_for": "فرق تستخدم Apache Superset",
+    "best_for_en": "Teams using Apache Superset",
+    "added_date": "2026-07-14",
+    "open_source": true,
+    "featured": false
+  },
+  {
+    "id": "hex-analytics",
+    "name": "Hex",
+    "name_ar": "هيكس",
+    "category": "data-analytics",
+    "category_ar": "تحليل بيانات",
+    "description": "منصة تحليل بيانات تعاونية تجمع SQL و Python و AI في notebooks",
+    "description_en": "Collaborative analytics platform combining SQL, Python, and AI in notebooks",
+    "features": [
+      "SQL + Python",
+      "AI مساعد",
+      "تعاون"
+    ],
+    "features_en": [
+      "SQL + Python",
+      "AI assistant",
+      "Collaboration"
+    ],
+    "pricing": "Free / Team $28/user/mo",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://hex.tech",
+    "affiliate_url": "",
+    "logo": "https://hex.tech/favicon.ico",
+    "tags": [
+      "notebooks",
+      "AI تحليل"
+    ],
+    "tags_en": [
+      "notebooks",
+      "AI analytics"
+    ],
+    "best_for": "فرق بيانات تحتاج notebooks تعاونية",
+    "best_for_en": "Data teams needing collaborative notebooks",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "rows-ai",
+    "name": "Rows",
+    "name_ar": "روز",
+    "category": "data-analytics",
+    "category_ar": "تحليل بيانات",
+    "description": "جداول بيانات مع AI مدمج وتكاملات لسحب بيانات من APIs تلقائياً",
+    "description_en": "Spreadsheets with built-in AI and integrations for pulling data from APIs automatically",
+    "features": [
+      "جداول + AI",
+      "تكاملات API",
+      "تصور"
+    ],
+    "features_en": [
+      "Sheets + AI",
+      "API integrations",
+      "Visualization"
+    ],
+    "pricing": "Free / $59/mo Pro",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://rows.com",
+    "affiliate_url": "",
+    "logo": "https://rows.com/favicon.ico",
+    "tags": [
+      "جداول ذكية",
+      "API"
+    ],
+    "tags_en": [
+      "smart sheets",
+      "API"
+    ],
+    "best_for": "محللين يريدون سحب بيانات من APIs في جداول",
+    "best_for_en": "Analysts wanting to pull API data into spreadsheets",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "motion-app",
+    "name": "Motion",
+    "name_ar": "موشن",
+    "category": "productivity",
+    "category_ar": "إنتاجية",
+    "description": "مدير مهام AI يجدول يومك ويرتب أولوياتك تلقائياً مع تقويم ذكي",
+    "description_en": "AI task manager that schedules your day and prioritizes automatically with smart calendar",
+    "features": [
+      "جدولة AI",
+      "أولويات",
+      "إدارة مشاريع"
+    ],
+    "features_en": [
+      "AI scheduling",
+      "Prioritization",
+      "Project management"
+    ],
+    "pricing": "$19/mo Individual",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "7-day free trial",
+    "url": "https://www.usemotion.com",
+    "affiliate_url": "",
+    "logo": "https://www.usemotion.com/favicon.ico",
+    "tags": [
+      "إدارة مهام",
+      "تقويم"
+    ],
+    "tags_en": [
+      "task management",
+      "calendar"
+    ],
+    "best_for": "محترفين مشغولين يحتاجون تنظيم تلقائي",
+    "best_for_en": "Busy professionals needing automatic organization",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "sunsama",
+    "name": "Sunsama",
+    "name_ar": "صن ساما",
+    "category": "productivity",
+    "category_ar": "إنتاجية",
+    "description": "مخطط يومي ذكي يسحب مهامك من كل مكان ويساعدك في التخطيط اليومي",
+    "description_en": "Smart daily planner that pulls tasks from everywhere and helps with daily planning",
+    "features": [
+      "تخطيط يومي",
+      "تكاملات",
+      "تأمل يومي"
+    ],
+    "features_en": [
+      "Daily planning",
+      "Integrations",
+      "Daily reflection"
+    ],
+    "pricing": "$16/mo",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "14-day free trial",
+    "url": "https://sunsama.com",
+    "affiliate_url": "",
+    "logo": "https://sunsama.com/favicon.ico",
+    "tags": [
+      "تخطيط",
+      "مهام"
+    ],
+    "tags_en": [
+      "planning",
+      "tasks"
+    ],
+    "best_for": "محترفين يريدون روتين تخطيط يومي منظم",
+    "best_for_en": "Professionals wanting a structured daily planning routine",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "akiflow",
+    "name": "Akiflow",
+    "name_ar": "أكي فلو",
+    "category": "productivity",
+    "category_ar": "إنتاجية",
+    "description": "مدير مهام وتقويم موحد يجمع كل أدواتك في مكان واحد",
+    "description_en": "Unified task manager and calendar combining all your tools in one place",
+    "features": [
+      "مهام + تقويم",
+      "اختصارات",
+      "تكاملات"
+    ],
+    "features_en": [
+      "Tasks + calendar",
+      "Shortcuts",
+      "Integrations"
+    ],
+    "pricing": "$15/mo",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "7-day free trial",
+    "url": "https://akiflow.com",
+    "affiliate_url": "",
+    "logo": "https://akiflow.com/favicon.ico",
+    "tags": [
+      "مهام",
+      "تقويم موحد"
+    ],
+    "tags_en": [
+      "tasks",
+      "unified calendar"
+    ],
+    "best_for": "أشخاص يستخدمون أدوات متعددة يريدون توحيدها",
+    "best_for_en": "People using multiple tools wanting to unify them",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "craft-docs",
+    "name": "Craft",
+    "name_ar": "كرافت",
+    "category": "productivity",
+    "category_ar": "إنتاجية",
+    "description": "تطبيق مستندات جميل مع AI مساعد لنظام Apple ومتعدد المنصات",
+    "description_en": "Beautiful document app with AI assistant for Apple ecosystem and cross-platform",
+    "features": [
+      "مستندات جميلة",
+      "AI مساعد",
+      "Apple native"
+    ],
+    "features_en": [
+      "Beautiful docs",
+      "AI assistant",
+      "Apple native"
+    ],
+    "pricing": "Free / $5/mo Pro",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://www.craft.do",
+    "affiliate_url": "",
+    "logo": "https://www.craft.do/favicon.ico",
+    "tags": [
+      "مستندات",
+      "Apple"
+    ],
+    "tags_en": [
+      "documents",
+      "Apple"
+    ],
+    "best_for": "مستخدمي Apple يريدون تطبيق مستندات أنيق",
+    "best_for_en": "Apple users wanting an elegant document app",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "coda-io",
+    "name": "Coda",
+    "name_ar": "كودا",
+    "category": "productivity",
+    "category_ar": "إنتاجية",
+    "description": "مستند ذكي يجمع بين المستندات والجداول والأتمتة مع AI Bolt",
+    "description_en": "Smart doc combining documents, spreadsheets, and automation with AI Bolt",
+    "features": [
+      "مستندات + جداول",
+      "أتمتة",
+      "AI Bolt"
+    ],
+    "features_en": [
+      "Docs + sheets",
+      "Automation",
+      "AI Bolt"
+    ],
+    "pricing": "Free / $10/user/mo Pro",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://coda.io",
+    "affiliate_url": "",
+    "logo": "https://coda.io/favicon.ico",
+    "tags": [
+      "مستندات ذكية",
+      "أتمتة"
+    ],
+    "tags_en": [
+      "smart docs",
+      "automation"
+    ],
+    "best_for": "فرق تريد بديل ذكي لـ Google Docs + Sheets",
+    "best_for_en": "Teams wanting a smart alternative to Google Docs + Sheets",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "stack-ai",
+    "name": "Stack AI",
+    "name_ar": "ستاك AI",
+    "category": "no-code",
+    "category_ar": "بدون كود",
+    "description": "منصة بلا كود لبناء تطبيقات AI وأتمتة سير العمل بسهولة",
+    "description_en": "No-code platform for building AI apps and automating workflows easily",
+    "features": [
+      "بلا كود",
+      "بناء تطبيقات AI",
+      "أتمتة"
+    ],
+    "features_en": [
+      "No-code",
+      "AI app building",
+      "Automation"
+    ],
+    "pricing": "Free / $49/mo Starter",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://www.stack-ai.com",
+    "affiliate_url": "",
+    "logo": "https://www.stack-ai.com/favicon.ico",
+    "tags": [
+      "بلا كود",
+      "AI"
+    ],
+    "tags_en": [
+      "no-code",
+      "AI"
+    ],
+    "best_for": "غير مبرمجين يريدون بناء تطبيقات AI",
+    "best_for_en": "Non-developers wanting to build AI apps",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "n8n-cloud",
+    "name": "n8n",
+    "name_ar": "إن 8 إن",
+    "category": "automation",
+    "category_ar": "أتمتة",
+    "description": "منصة أتمتة سير العمل مفتوحة المصدر مع AI agents و 400+ تكامل",
+    "description_en": "Open-source workflow automation platform with AI agents and 400+ integrations",
+    "features": [
+      "AI agents",
+      "400+ تكامل",
+      "self-hosted"
+    ],
+    "features_en": [
+      "AI agents",
+      "400+ integrations",
+      "Self-hosted"
+    ],
+    "pricing": "Free OSS / $20/mo Cloud",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "Free self-hosted",
+    "url": "https://n8n.io",
+    "affiliate_url": "",
+    "logo": "https://n8n.io/favicon.ico",
+    "tags": [
+      "أتمتة",
+      "مفتوح المصدر"
+    ],
+    "tags_en": [
+      "automation",
+      "open source"
+    ],
+    "best_for": "مطورين يريدون أتمتة مفتوحة المصدر",
+    "best_for_en": "Developers wanting open-source automation",
+    "added_date": "2026-07-14",
+    "open_source": true,
+    "featured": true
+  },
+  {
+    "id": "tray-io",
+    "name": "Tray.io",
+    "name_ar": "تراي",
+    "category": "automation",
+    "category_ar": "أتمتة",
+    "description": "منصة أتمتة مؤسسية مع AI لبناء تكاملات معقدة بين الأنظمة",
+    "description_en": "Enterprise automation platform with AI for building complex system integrations",
+    "features": [
+      "أتمتة مؤسسية",
+      "AI builder",
+      "تكاملات"
+    ],
+    "features_en": [
+      "Enterprise automation",
+      "AI builder",
+      "Integrations"
+    ],
+    "pricing": "Enterprise pricing",
+    "pricing_type": "enterprise",
+    "has_free_trial": true,
+    "free_trial_details": "Demo available",
+    "url": "https://tray.io",
+    "affiliate_url": "",
+    "logo": "https://tray.io/favicon.ico",
+    "tags": [
+      "مؤسسات",
+      "تكاملات"
+    ],
+    "tags_en": [
+      "enterprise",
+      "integrations"
+    ],
+    "best_for": "مؤسسات كبيرة تحتاج أتمتة معقدة",
+    "best_for_en": "Large enterprises needing complex automation",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "workato",
+    "name": "Workato",
+    "name_ar": "ووركاتو",
+    "category": "automation",
+    "category_ar": "أتمتة",
+    "description": "منصة أتمتة وتكامل مؤسسية رائدة مع AI وأكثر من 1200 تكامل",
+    "description_en": "Leading enterprise automation and integration platform with AI and 1200+ integrations",
+    "features": [
+      "1200+ تكامل",
+      "AI أتمتة",
+      "حوكمة"
+    ],
+    "features_en": [
+      "1200+ integrations",
+      "AI automation",
+      "Governance"
+    ],
+    "pricing": "Enterprise pricing",
+    "pricing_type": "enterprise",
+    "has_free_trial": true,
+    "free_trial_details": "Free trial",
+    "url": "https://www.workato.com",
+    "affiliate_url": "",
+    "logo": "https://www.workato.com/favicon.ico",
+    "tags": [
+      "مؤسسات",
+      "تكامل"
+    ],
+    "tags_en": [
+      "enterprise",
+      "integration"
+    ],
+    "best_for": "مؤسسات تدير تكاملات متعددة بين الأنظمة",
+    "best_for_en": "Enterprises managing multiple system integrations",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "power-automate",
+    "name": "Power Automate",
+    "name_ar": "باور أوتوميت",
+    "category": "automation",
+    "category_ar": "أتمتة",
+    "description": "أداة أتمتة سير العمل من Microsoft مع AI وتكامل Office 365",
+    "description_en": "Microsoft workflow automation tool with AI and Office 365 integration",
+    "features": [
+      "تكامل Microsoft",
+      "AI flows",
+      "RPA"
+    ],
+    "features_en": [
+      "Microsoft integration",
+      "AI flows",
+      "RPA"
+    ],
+    "pricing": "$15/user/mo",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "Free trial",
+    "url": "https://powerautomate.microsoft.com",
+    "affiliate_url": "",
+    "logo": "https://powerautomate.microsoft.com/favicon.ico",
+    "tags": [
+      "Microsoft",
+      "RPA"
+    ],
+    "tags_en": [
+      "Microsoft",
+      "RPA"
+    ],
+    "best_for": "فرق Microsoft تريد أتمتة بسيطة",
+    "best_for_en": "Microsoft teams wanting simple automation",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "ifttt",
+    "name": "IFTTT",
+    "name_ar": "إف ذس ذن ذات",
+    "category": "automation",
+    "category_ar": "أتمتة",
+    "description": "منصة أتمتة بسيطة تربط بين التطبيقات والأجهزة الذكية",
+    "description_en": "Simple automation platform connecting apps and smart devices",
+    "features": [
+      "ربط تطبيقات",
+      "أجهزة ذكية",
+      "بسيطة"
+    ],
+    "features_en": [
+      "App connections",
+      "Smart devices",
+      "Simple"
+    ],
+    "pricing": "Free (2) / $3.49/mo Pro",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://ifttt.com",
+    "affiliate_url": "",
+    "logo": "https://ifttt.com/favicon.ico",
+    "tags": [
+      "أتمتة بسيطة",
+      "IoT"
+    ],
+    "tags_en": [
+      "simple automation",
+      "IoT"
+    ],
+    "best_for": "مبتدئين يريدون أتمتة بسيطة بين التطبيقات",
+    "best_for_en": "Beginners wanting simple automation between apps",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "nocodb",
+    "name": "NocoDB",
+    "name_ar": "نوكو دي بي",
+    "category": "no-code",
+    "category_ar": "بدون كود",
+    "description": "بديل Airtable مفتوح المصدر يحول أي قاعدة بيانات لجدول ذكي",
+    "description_en": "Open-source Airtable alternative that turns any database into a smart spreadsheet",
+    "features": [
+      "مفتوح المصدر",
+      "أي قاعدة بيانات",
+      "API تلقائي"
+    ],
+    "features_en": [
+      "Open source",
+      "Any database",
+      "Auto API"
+    ],
+    "pricing": "Free OSS / Cloud available",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://nocodb.com",
+    "affiliate_url": "",
+    "logo": "https://nocodb.com/favicon.ico",
+    "tags": [
+      "بديل Airtable",
+      "مفتوح المصدر"
+    ],
+    "tags_en": [
+      "Airtable alternative",
+      "open source"
+    ],
+    "best_for": "مطورين يريدون بديل Airtable مفتوح المصدر",
+    "best_for_en": "Developers wanting an open-source Airtable alternative",
+    "added_date": "2026-07-14",
+    "open_source": true,
+    "featured": false
+  },
+  {
+    "id": "baserow",
+    "name": "Baserow",
+    "name_ar": "بيز رو",
+    "category": "no-code",
+    "category_ar": "بدون كود",
+    "description": "قاعدة بيانات مفتوحة المصدر بلا كود مع واجهة جداول سهلة",
+    "description_en": "Open-source no-code database with an easy spreadsheet-like interface",
+    "features": [
+      "مفتوح المصدر",
+      "REST API",
+      "plugins"
+    ],
+    "features_en": [
+      "Open source",
+      "REST API",
+      "Plugins"
+    ],
+    "pricing": "Free / $5/user/mo Premium",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://baserow.io",
+    "affiliate_url": "",
+    "logo": "https://baserow.io/favicon.ico",
+    "tags": [
+      "قاعدة بيانات",
+      "مفتوح المصدر"
+    ],
+    "tags_en": [
+      "database",
+      "open source"
+    ],
+    "best_for": "فرق صغيرة تريد قاعدة بيانات مفتوحة ومجانية",
+    "best_for_en": "Small teams wanting a free open-source database",
+    "added_date": "2026-07-14",
+    "open_source": true,
+    "featured": false
   }
 ]
