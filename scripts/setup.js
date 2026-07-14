@@ -1,9 +1,10 @@
 #!/usr/bin/env node
 /**
- * AgentVault Setup Script v2
+ * AgentVault Setup Script v3
  * 1. Merges ALL new-agents*.json files into agents.json
  * 2. Updates tool count in index.html (title, meta, hero, i18n, stats)
  * 3. Injects enhancement CSS & JS references
+ * 4. Injects auth system CSS & JS references
  * Run: node scripts/setup.js
  */
 const fs = require('fs');
@@ -53,15 +54,21 @@ html = html.replace(/(hero_title:\s*'Discover\s*<span>)\d+\+?(<\/span>)/g, '$1' 
 html = html.replace(/(hero_title:\s*'[^']*<span>)\+?\d+(<\/span>)/g, '$1+' + count + '$2');
 html = html.replace(/(<span class="filter-count">\s*)\d+(\s*<\/span>)/g, '$1' + count + '$2');
 
-// Inject enhancements if missing
+// === 3. Inject enhancements if missing ===
 if (!html.includes('enhancements.css'))
   html = html.replace('</head>', '  <link rel="stylesheet" href="enhancements.css">\n</head>');
 if (!html.includes('enhancements.js'))
   html = html.replace('</body>', '  <script src="enhancements.js" defer></script>\n</body>');
 
+// === 4. Inject auth system if missing ===
+if (!html.includes('auth.css'))
+  html = html.replace('</head>', '  <link rel="stylesheet" href="auth.css">\n</head>');
+if (!html.includes('auth.js'))
+  html = html.replace('</body>', '  <script src="auth.js" defer></script>\n</body>');
+
 if (html !== orig) {
   fs.writeFileSync(idxPath, html, 'utf-8');
-  console.log('index.html updated with count: ' + count + '+');
+  console.log('index.html updated with count: ' + count + '+ and all enhancements');
 } else {
   console.log('index.html already up to date');
 }
