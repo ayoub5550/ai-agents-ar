@@ -1,10 +1,9 @@
 #!/usr/bin/env node
 /**
- * AgentVault Setup Script v3
+ * AgentVault Setup Script v4
  * 1. Merges ALL new-agents*.json files into agents.json
- * 2. Updates tool count in index.html (title, meta, hero, i18n, stats)
- * 3. Injects enhancement CSS & JS references
- * 4. Injects auth system CSS & JS references
+ * 2. Updates tool count in index.html
+ * 3. Injects enhancement, auth, and fixes CSS & JS
  * Run: node scripts/setup.js
  */
 const fs = require('fs');
@@ -43,7 +42,6 @@ try { html = fs.readFileSync(idxPath, 'utf-8'); }
 catch (e) { console.error('Cannot read index.html'); process.exit(1); }
 
 const orig = html;
-// Replace all static count references with actual count
 html = html.replace(/(AgentVault\s*[\u2014\u2013-]\s*)\d+\+?(\s*AI)/gi, '$1' + count + '+$2');
 html = html.replace(/(Compare\s+)\d+\+?(\s*AI)/gi, '$1' + count + '+$2');
 html = html.replace(/(directory\s*[\u2014\u2013-]\s*)\d+\+?(\s*AI)/gi, '$1' + count + '+$2');
@@ -54,21 +52,30 @@ html = html.replace(/(hero_title:\s*'Discover\s*<span>)\d+\+?(<\/span>)/g, '$1' 
 html = html.replace(/(hero_title:\s*'[^']*<span>)\+?\d+(<\/span>)/g, '$1+' + count + '$2');
 html = html.replace(/(<span class="filter-count">\s*)\d+(\s*<\/span>)/g, '$1' + count + '$2');
 
-// === 3. Inject enhancements if missing ===
-if (!html.includes('enhancements.css'))
-  html = html.replace('</head>', '  <link rel="stylesheet" href="enhancements.css">\n</head>');
-if (!html.includes('enhancements.js'))
-  html = html.replace('</body>', '  <script src="enhancements.js" defer></script>\n</body>');
+// === 3. Inject all enhancements if missing ===
+const injects = [
+  { file: 'enhancements.css', tag: 'link', attr: 'href', where: '</head>' },
+  { file: 'auth.css', tag: 'link', attr: 'href', where: '</head>' },
+  { file: 'fixes.css', tag: 'link', attr: 'href', where: '</head>' },
+  { file: 'enhancements.js', tag: 'script', attr: 'src', where: '</body>', defer: true },
+  { file: 'auth.js', tag: 'script', attr: 'src', where: '</body>', defer: true },
+  { file: 'fixes.js', tag: 'script', attr: 'src', where: '</body>', defer: true }
+];
 
-// === 4. Inject auth system if missing ===
-if (!html.includes('auth.css'))
-  html = html.replace('</head>', '  <link rel="stylesheet" href="auth.css">\n</head>');
-if (!html.includes('auth.js'))
-  html = html.replace('</body>', '  <script src="auth.js" defer></script>\n</body>');
+injects.forEach(inj => {
+  if (!html.includes(inj.file)) {
+    if (inj.tag === 'link') {
+      html = html.replace(inj.where, `  <link rel="stylesheet" href="${inj.file}">\n${inj.where}`);
+    } else {
+      html = html.replace(inj.where, `  <script src="${inj.file}" defer><\/script>\n${inj.where}`);
+    }
+    console.log('Injected ' + inj.file);
+  }
+});
 
 if (html !== orig) {
   fs.writeFileSync(idxPath, html, 'utf-8');
-  console.log('index.html updated with count: ' + count + '+ and all enhancements');
+  console.log('index.html updated: count=' + count + '+, all enhancements injected');
 } else {
   console.log('index.html already up to date');
 }
