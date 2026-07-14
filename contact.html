@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us — AgentVault</title>
+<meta name="description" content="Contact the AgentVault team. We'd love to hear from you about partnerships, suggestions, or questions.">
+<link rel="canonical" href="https://ayoub5550.github.io/ai-agents-ar/contact.html">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8708847484545349" crossorigin="anonymous"></script>
+<style>
+:root{--bg:#f8f9fa;--card:#fff;--text:#1a1a2e;--text2:#555;--accent:#6C63FF;--border:#e0e0e0}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Segoe UI',system-ui,sans-serif;background:var(--bg);color:var(--text);line-height:1.8}
+.container{max-width:700px;margin:0 auto;padding:40px 20px}
+nav.top-nav{background:var(--card);padding:16px 24px;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between}
+nav.top-nav a{color:var(--accent);text-decoration:none;font-weight:600}
+nav.top-nav .brand{font-size:1.3rem;font-weight:800}
+h1{font-size:2rem;margin:32px 0 8px}
+.subtitle{color:var(--text2);margin-bottom:32px;font-size:1rem}
+h2{font-size:1.3rem;margin:28px 0 16px}
+.contact-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:16px;margin-bottom:32px}
+.contact-card{background:var(--card);padding:20px;border-radius:14px;border:1px solid var(--border);text-align:center}
+.contact-card .icon{font-size:2rem;margin-bottom:8px}
+.contact-card h3{font-size:0.95rem;margin-bottom:4px}
+.contact-card p{font-size:0.85rem;color:var(--text2)}
+.contact-card a{color:var(--accent);text-decoration:none;font-weight:600}
+form{background:var(--card);padding:28px;border-radius:16px;border:1px solid var(--border)}
+label{display:block;font-weight:600;margin-bottom:6px;font-size:0.9rem}
+input,textarea,select{width:100%;padding:12px 16px;border:2px solid var(--border);border-radius:10px;font-size:0.95rem;font-family:inherit;margin-bottom:16px;background:var(--bg)}
+input:focus,textarea:focus,select:focus{outline:none;border-color:var(--accent)}
+textarea{min-height:120px;resize:vertical}
+.submit-btn{background:linear-gradient(135deg,var(--accent),#5a52e0);color:#fff;border:none;padding:14px 32px;border-radius:12px;font-size:1rem;font-weight:700;cursor:pointer;width:100%;transition:all 0.3s}
+.submit-btn:hover{transform:translateY(-2px);box-shadow:0 4px 15px rgba(108,99,255,0.4)}
+.success-msg{display:none;text-align:center;padding:20px;background:#10B98120;border-radius:12px;color:#059669;font-weight:600}
+.success-msg.show{display:block}
+footer{text-align:center;padding:32px;color:var(--text2);font-size:0.85rem;border-top:1px solid var(--border);margin-top:40px}
+</style>
+</head>
+<body>
+<nav class="top-nav">
+  <span class="brand">🤖 AgentVault</span>
+  <a href="index.html">← Back to Directory</a>
+</nav>
+<div class="container">
+<h1>Contact Us</h1>
+<p class="subtitle">We'd love to hear from you! Whether it's a question, suggestion, partnership inquiry, or feedback.</p>
+
+<div class="contact-grid">
+  <div class="contact-card">
+    <div class="icon">📧</div>
+    <h3>Email</h3>
+    <p><a href="mailto:contact@agentvault.dev">contact@agentvault.dev</a></p>
+  </div>
+  <div class="contact-card">
+    <div class="icon">🤝</div>
+    <h3>Partnerships</h3>
+    <p>Want to feature your tool? <a href="#form">Let us know</a></p>
+  </div>
+  <div class="contact-card">
+    <div class="icon">🐛</div>
+    <h3>Report a Bug</h3>
+    <p>Found an issue? <a href="#form">Tell us</a></p>
+  </div>
+</div>
+
+<h2 id="form">Send a Message</h2>
+<div class="success-msg" id="contactSuccess">✅ Message sent successfully! We'll get back to you soon.</div>
+<form id="contactForm" action="https://formspree.io/f/xnnqeqdo" method="POST">
+  <label for="name">Your Name *</label>
+  <input type="text" id="name" name="name" required placeholder="Enter your name">
+  
+  <label for="email">Email Address *</label>
+  <input type="email" id="email" name="email" required placeholder="your@email.com">
+  
+  <label for="subject">Subject</label>
+  <select id="subject" name="subject">
+    <option value="general">General Inquiry</option>
+    <option value="partnership">Partnership / Advertising</option>
+    <option value="suggestion">Tool Suggestion</option>
+    <option value="bug">Bug Report</option>
+    <option value="feedback">Feedback</option>
+  </select>
+  
+  <label for="message">Message *</label>
+  <textarea id="message" name="message" required placeholder="Write your message here..."></textarea>
+  
+  <input type="hidden" name="_source" value="contact_page">
+  <button type="submit" class="submit-btn">Send Message 📤</button>
+</form>
+</div>
+<footer>
+  &copy; 2026 AgentVault. All rights reserved. | <a href="index.html">Home</a> | <a href="privacy.html">Privacy</a> | <a href="terms.html">Terms</a>
+</footer>
+<script>
+document.getElementById('contactForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+  var form = this;
+  fetch(form.action, {
+    method: 'POST',
+    body: new FormData(form),
+    headers: { 'Accept': 'application/json' }
+  }).then(function(r) {
+    if (r.ok) {
+      document.getElementById('contactSuccess').classList.add('show');
+      form.reset();
+      form.style.display = 'none';
+    }
+  });
+});
+</script>
+</body>
+</html>

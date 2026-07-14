@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 /**
- * AgentVault Setup Script v5
+ * AgentVault Setup Script v6
  * 1. Merges ALL new-agents*.json files into agents.json
  * 2. Updates TOTAL count in index.html (title, meta, hero stats)
  * 3. Updates PER-CATEGORY counts on filter buttons
- * 4. Injects enhancement, auth, and fixes CSS & JS
+ * 4. Injects enhancement, auth, fixes, and ads CSS & JS
  */
 const fs = require('fs');
 const path = require('path');
@@ -62,7 +62,6 @@ html = html.replace(/(hero_title:\s*'Discover\s*<span>)\d+\+?(<\/span>)/g, '$1' 
 html = html.replace(/(hero_title:\s*'[^']*<span>)\+?\d+(<\/span>)/g, '$1+' + count + '$2');
 
 // 3b. Update PER-CATEGORY counts on filter buttons
-// Match: data-cat="X">...<span class="filter-count">NNN</span>
 html = html.replace(/data-cat="([^"]+)"([^>]*)>([\s\S]*?)<span class="filter-count">\s*\d+\s*<\/span>/g,
   function(match, cat, attrs, inner) {
     const c = cat === 'all' ? count : (catCounts[cat] || 0);
@@ -77,7 +76,8 @@ const injects = [
   { file: 'fixes.css', tag: 'link', where: '</head>' },
   { file: 'enhancements.js', tag: 'script', where: '</body>' },
   { file: 'auth.js', tag: 'script', where: '</body>' },
-  { file: 'fixes.js', tag: 'script', where: '</body>' }
+  { file: 'fixes.js', tag: 'script', where: '</body>' },
+  { file: 'ads.js', tag: 'script', where: '</body>' }
 ];
 
 injects.forEach(inj => {
@@ -91,9 +91,16 @@ injects.forEach(inj => {
   }
 });
 
+// === 5. Add AdSense script to head if missing ===
+if (!html.includes('adsbygoogle')) {
+  html = html.replace('</head>',
+    '  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8708847484545349" crossorigin="anonymous"><\/script>\n</head>');
+  console.log('Injected AdSense script');
+}
+
 if (html !== orig) {
   fs.writeFileSync(idxPath, html, 'utf-8');
-  console.log('index.html updated: count=' + count + '+, per-category counts fixed');
+  console.log('index.html updated: count=' + count + '+, per-category counts, AdSense injected');
 } else {
   console.log('index.html already up to date');
 }
