@@ -18,13 +18,23 @@ jobs:
         with:
           node-version: '20'
       
-      - name: Run setup & merge
+      - name: Inject enhancements into index.html
         run: node scripts/setup.js
+      
+      - name: Discover & add new AI agents
+        run: node scripts/discover-agents.js
       
       - name: Commit changes
         run: |
           git config user.name "AgentVault Bot"
           git config user.email "bot@agentvault.dev"
           git add -A
-          git diff --cached --quiet || git commit -m "🤖 Auto-update: enhance site & add new AI agents"
-          git push
+          CHANGES=$(git diff --cached --stat)
+          if [ -n "$CHANGES" ]; then
+            AGENT_COUNT=$(node -e "console.log(JSON.parse(require('fs').readFileSync('agents.json','utf-8')).length)")
+            git commit -m "🤖 Auto-update: ${AGENT_COUNT} AI agents in directory"
+            git push
+            echo "✅ Committed updates — ${AGENT_COUNT} agents total"
+          else
+            echo "ℹ️ No changes to commit"
+          fi
