@@ -1,78 +1,117 @@
-/* === BUG FIXES v1 === */
-
-/* 1. SMOOTH DARK MODE TRANSITION */
-*, *::before, *::after {
-  transition: background-color 0.3s ease, color 0.2s ease, border-color 0.3s ease, box-shadow 0.3s ease;
-}
-/* Exclude animations from transition override */
-.fade-in, [class*="animate"] {
-  transition: background-color 0.3s ease, color 0.2s ease, border-color 0.3s ease, opacity 0.5s ease, transform 0.5s ease;
-}
-
-/* 2. CATEGORY FILTER COUNTS */
-.filter-btn .cat-count,
-.price-btn .price-count {
+/* === CATEGORY COUNT BADGES === */
+.cat-count {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   background: rgba(108, 99, 255, 0.15);
   color: var(--accent, #6C63FF);
-  font-size: 0.7rem;
+  font-size: 0.65rem;
   font-weight: 700;
-  min-width: 22px;
+  min-width: 18px;
   height: 18px;
   padding: 0 5px;
   border-radius: 9px;
   margin-inline-start: 4px;
+  line-height: 1;
 }
 .filter-btn.active .cat-count,
-.price-btn.active .price-count {
-  background: rgba(255,255,255,0.3);
+.price-btn.active .cat-count {
+  background: rgba(255,255,255,0.25);
   color: #fff;
 }
-[data-theme="dark"] .filter-btn .cat-count,
-[data-theme="dark"] .price-btn .price-count {
-  background: rgba(108, 99, 255, 0.25);
+
+/* === DARK MODE PERFORMANCE FIX === */
+.theme-transitioning * {
+  transition-duration: 0.2s !important;
+}
+.theme-transitioning nav {
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}
+[data-theme="dark"] {
+  --bg: #0f0f1a;
+  --card-bg: #1a1a2e;
+  --nav-bg: rgba(15, 15, 26, 0.9);
+  --text-primary: #e8e8f0;
+  --text-secondary: #a0a0b8;
+  --border: #2a2a3e;
+  --hover-bg: #252540;
+  color-scheme: dark;
 }
 
-/* 3. MOBILE RESPONSIVENESS FIXES */
-@media (max-width: 768px) {
-  /* Force single column on mobile */
-  .grid, #grid {
+/* Smooth dark mode transition - use will-change for GPU */
+html {
+  transition: background-color 0.3s ease;
+  will-change: background-color;
+}
+body, .card, nav, .hero, .newsletter-section, footer {
+  transition: background-color 0.3s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+/* === MOBILE RESPONSIVE FIXES === */
+
+/* Force single column on phones */
+@media (max-width: 640px) {
+  /* Single column grid */
+  #grid, .tools-grid {
     grid-template-columns: 1fr !important;
     gap: 12px !important;
-    padding: 0 12px;
+    padding: 0 12px !important;
   }
 
-  /* Fix nav for mobile */
+  /* Fix hero section */
+  .hero h1, .hero-title {
+    font-size: 1.4rem !important;
+    line-height: 1.3 !important;
+  }
+  .hero-subtitle {
+    font-size: 0.85rem !important;
+  }
+  .hero-stats {
+    gap: 12px !important;
+  }
+  .hero-stat-num {
+    font-size: 1.3rem !important;
+  }
+
+  /* Fix nav */
   nav {
     padding: 8px 12px !important;
-    flex-wrap: wrap;
-    gap: 6px;
+    gap: 6px !important;
   }
-  nav .brand { font-size: 1rem !important; }
-  .nav-cta { gap: 4px !important; flex-wrap: wrap; }
-  .nav-cta a { font-size: 0.7rem !important; padding: 4px 8px !important; }
-
-  /* Hero section mobile */
-  .hero { padding: 20px 16px !important; }
-  .hero h1, .hero [data-i18n="hero_title"] {
-    font-size: 1.4rem !important;
-    line-height: 1.4 !important;
+  .nav-brand {
+    font-size: 1rem !important;
   }
-  .hero p { font-size: 0.85rem !important; }
-  .hero-stats { gap: 12px !important; flex-wrap: wrap; }
-  .hero-stat { min-width: 70px; }
-  .hero-stat-num { font-size: 1.2rem !important; }
-
-  /* Search bar mobile */
-  .search-bar, #search {
-    font-size: 0.9rem !important;
-    padding: 12px 16px !important;
+  .nav-links {
+    display: none !important;
+  }
+  .nav-cta {
+    gap: 4px !important;
+  }
+  .nav-cta a, .nav-cta button {
+    padding: 6px 10px !important;
+    font-size: 0.75rem !important;
+  }
+  .auth-btn {
+    padding: 6px 10px !important;
+    font-size: 0.75rem !important;
+  }
+  .theme-toggle {
+    font-size: 1rem !important;
+    padding: 4px !important;
   }
 
-  /* Filter buttons mobile - horizontal scroll */
-  .filters, #catFilters, #priceFilters {
+  /* Fix search bar */
+  .search-container {
+    padding: 0 12px !important;
+  }
+  #search, .search-bar input {
+    font-size: 0.85rem !important;
+    padding: 10px 14px !important;
+  }
+
+  /* Fix filter pills - horizontal scroll */
+  #catFilters, .cat-filters {
     display: flex !important;
     flex-wrap: nowrap !important;
     overflow-x: auto !important;
@@ -81,139 +120,149 @@
     gap: 6px !important;
     padding: 4px 12px !important;
   }
-  .filters::-webkit-scrollbar,
-  #catFilters::-webkit-scrollbar,
-  #priceFilters::-webkit-scrollbar {
-    display: none;
-  }
-  .filter-btn, .price-btn {
-    white-space: nowrap;
-    flex-shrink: 0;
-    font-size: 0.75rem !important;
+  #catFilters::-webkit-scrollbar { display: none; }
+  .filter-btn {
+    white-space: nowrap !important;
+    flex-shrink: 0 !important;
     padding: 6px 12px !important;
-    border-radius: 16px !important;
+    font-size: 0.75rem !important;
+  }
+  #priceFilters, .price-filters {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    gap: 6px !important;
+    padding: 4px 12px !important;
+  }
+  #priceFilters::-webkit-scrollbar { display: none; }
+  .price-btn {
+    white-space: nowrap !important;
+    flex-shrink: 0 !important;
+    padding: 5px 10px !important;
+    font-size: 0.7rem !important;
   }
 
-  /* Cards mobile */
+  /* Fix card content */
   .card {
-    padding: 16px !important;
-    border-radius: 14px !important;
+    padding: 14px !important;
+    border-radius: 12px !important;
   }
-  .card h3, .card .tool-name { font-size: 1rem !important; }
-  .card p, .card .tool-desc {
+  .card h3 {
+    font-size: 0.95rem !important;
+  }
+  .card p {
     font-size: 0.8rem !important;
     line-height: 1.4 !important;
-    -webkit-line-clamp: 2;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
   }
-  .card .tags { gap: 4px !important; }
-  .card .tag {
+  .card .tags span, .card .tag {
     font-size: 0.65rem !important;
-    padding: 2px 8px !important;
+    padding: 2px 6px !important;
   }
-  .card .actions {
-    flex-direction: row !important;
+  .card-actions {
     gap: 6px !important;
   }
-  .card .actions a, .card .actions button {
+  .card-actions a, .card-actions button {
     font-size: 0.75rem !important;
-    padding: 6px 12px !important;
-    flex: 1;
-    text-align: center;
+    padding: 6px 10px !important;
   }
 
-  /* Results info */
-  .results-info {
-    font-size: 0.8rem !important;
-    padding: 8px 12px !important;
-  }
-
-  /* Sort controls mobile */
+  /* Fix sort controls */
   .sort-controls {
-    flex-direction: row !important;
+    padding: 4px 12px !important;
     gap: 6px !important;
-    padding: 8px 12px !important;
-    flex-wrap: wrap;
   }
   .sort-select {
-    font-size: 0.8rem !important;
-    padding: 6px 10px !important;
+    font-size: 0.75rem !important;
+    padding: 5px 8px !important;
   }
   .fav-filter {
-    font-size: 0.8rem !important;
-    padding: 6px 10px !important;
-  }
-
-  /* Newsletter mobile */
-  .newsletter-section, .nl-box {
-    padding: 20px 16px !important;
-    margin: 12px !important;
-    border-radius: 14px !important;
-  }
-
-  /* News section mobile */
-  .news-section { padding: 20px 12px !important; }
-  .news-section h2 { font-size: 1.3rem !important; }
-  .news-grid { grid-template-columns: 1fr !important; gap: 10px !important; }
-
-  /* Auth button mobile */
-  .auth-btn {
     font-size: 0.75rem !important;
-    padding: 6px 12px !important;
-  }
-  .member-badge { font-size: 0.6rem !important; }
-
-  /* Promo banner mobile */
-  .promo-banner {
-    margin: 12px !important;
-    padding: 16px !important;
-    border-radius: 14px !important;
+    padding: 5px 10px !important;
   }
 
-  /* Footer mobile */
+  /* Fix results info */
+  .results-info {
+    font-size: 0.8rem !important;
+    padding: 4px 12px !important;
+  }
+
+  /* Fix promo/newsletter */
+  .promo-banner, .newsletter-section {
+    padding: 20px 12px !important;
+    margin: 16px 12px !important;
+    border-radius: 12px !important;
+  }
+
+  /* Fix news section */
+  .news-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .news-section h2 {
+    font-size: 1.3rem !important;
+  }
+
+  /* Fix footer */
   footer {
     padding: 16px 12px !important;
     font-size: 0.8rem !important;
   }
-
-  /* Theme toggle mobile */
-  .theme-toggle {
-    font-size: 1.2rem !important;
-    padding: 4px !important;
-  }
-
-  /* Rating modal mobile */
-  .rating-modal .modal-content {
-    width: 90% !important;
-    padding: 20px !important;
-  }
-
-  /* Scroll to top */
-  #scrollTop {
-    bottom: 16px !important;
-    right: 12px !important;
-    width: 40px !important;
-    height: 40px !important;
-    font-size: 1.2rem !important;
-  }
 }
 
-/* Small phones */
-@media (max-width: 380px) {
-  .hero h1, .hero [data-i18n="hero_title"] {
-    font-size: 1.2rem !important;
-  }
-  .hero-stat-num { font-size: 1rem !important; }
-  nav .brand { font-size: 0.9rem !important; }
-  .auth-btn { padding: 4px 8px !important; font-size: 0.7rem !important; }
-}
-
-/* Tablet */
-@media (min-width: 769px) and (max-width: 1024px) {
-  .grid, #grid {
+/* Tablet: 2 columns */
+@media (min-width: 641px) and (max-width: 1024px) {
+  #grid, .tools-grid {
     grid-template-columns: repeat(2, 1fr) !important;
     gap: 14px !important;
   }
+}
+
+/* === DARK MODE CARD FIXES === */
+[data-theme="dark"] .card {
+  background: var(--card-bg, #1a1a2e) !important;
+  border-color: var(--border, #2a2a3e) !important;
+  color: var(--text-primary, #e8e8f0) !important;
+}
+[data-theme="dark"] .card h3 {
+  color: var(--text-primary, #e8e8f0) !important;
+}
+[data-theme="dark"] .card p {
+  color: var(--text-secondary, #a0a0b8) !important;
+}
+[data-theme="dark"] .filter-btn,
+[data-theme="dark"] .price-btn {
+  background: var(--card-bg, #1a1a2e) !important;
+  color: var(--text-secondary, #a0a0b8) !important;
+  border-color: var(--border, #2a2a3e) !important;
+}
+[data-theme="dark"] .filter-btn.active,
+[data-theme="dark"] .price-btn.active {
+  background: var(--accent, #6C63FF) !important;
+  color: #fff !important;
+}
+[data-theme="dark"] #search,
+[data-theme="dark"] .search-bar input {
+  background: var(--card-bg, #1a1a2e) !important;
+  border-color: var(--border, #2a2a3e) !important;
+  color: var(--text-primary, #e8e8f0) !important;
+}
+[data-theme="dark"] .hero {
+  color: var(--text-primary, #e8e8f0) !important;
+}
+[data-theme="dark"] .promo-banner {
+  background: var(--card-bg, #1a1a2e) !important;
+  border-color: var(--border, #2a2a3e) !important;
+}
+[data-theme="dark"] .newsletter-section {
+  background: var(--card-bg, #1a1a2e) !important;
+}
+[data-theme="dark"] .cat-count {
+  background: rgba(108, 99, 255, 0.3) !important;
+  color: #a0a0ff !important;
+}
+[data-theme="dark"] .sort-select {
+  background: var(--card-bg, #1a1a2e) !important;
+  color: var(--text-primary, #e8e8f0) !important;
+  border-color: var(--border, #2a2a3e) !important;
 }

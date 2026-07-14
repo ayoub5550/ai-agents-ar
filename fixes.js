@@ -1,138 +1,157 @@
 (function(){
   'use strict';
 
-  // Inject CSS
-  var lk = document.createElement('link');
-  lk.rel = 'stylesheet'; lk.href = 'fixes.css';
-  document.head.appendChild(lk);
-
-  // === 1. ADD REAL COUNTS TO CATEGORY FILTERS ===
+  // === 1. ADD REAL COUNTS TO CATEGORY FILTER BUTTONS ===
   function updateCategoryCounts() {
     var agents = window.agents;
     if (!agents || !agents.length) return;
 
     // Count per category
     var catCounts = {};
-    var priceCounts = { all: agents.length };
     agents.forEach(function(a) {
       var cat = a.category || 'other';
       catCounts[cat] = (catCounts[cat] || 0) + 1;
+    });
+
+    // Count per pricing type
+    var priceCounts = { all: agents.length };
+    agents.forEach(function(a) {
       var pt = a.pricing_type || '';
-      priceCounts[pt] = (priceCounts[pt] || 0) + 1;
+      if (pt === 'free') priceCounts['free'] = (priceCounts['free'] || 0) + 1;
+      else if (pt === 'freemium') priceCounts['freemium'] = (priceCounts['freemium'] || 0) + 1;
+      else if (pt === 'paid') priceCounts['paid'] = (priceCounts['paid'] || 0) + 1;
+      else if (pt === 'enterprise') priceCounts['enterprise'] = (priceCounts['enterprise'] || 0) + 1;
+      if (a.open_source) priceCounts['open_source'] = (priceCounts['open_source'] || 0) + 1;
+      if (a.has_free_trial) priceCounts['free_trial'] = (priceCounts['free_trial'] || 0) + 1;
     });
-    catCounts['all'] = agents.length;
 
-    // Update category filter buttons
+    // Update category buttons
     document.querySelectorAll('#catFilters .filter-btn').forEach(function(btn) {
-      var cat = btn.dataset.cat || '';
-      var count = cat === 'all' || cat === '' ? agents.length : (catCounts[cat] || 0);
-      if (!btn.querySelector('.cat-count')) {
-        var span = document.createElement('span');
-        span.className = 'cat-count';
-        span.textContent = count;
-        btn.appendChild(span);
-      } else {
-        btn.querySelector('.cat-count').textContent = count;
-      }
+      var cat = btn.dataset.cat;
+      if (!cat) return;
+      var count = cat === 'all' ? agents.length : (catCounts[cat] || 0);
+      // Remove old count badge if exists
+      var oldBadge = btn.querySelector('.cat-count');
+      if (oldBadge) oldBadge.remove();
+      // Add count badge
+      var badge = document.createElement('span');
+      badge.className = 'cat-count';
+      badge.textContent = count;
+      btn.appendChild(badge);
     });
 
-    // Update price filter buttons
+    // Update price buttons
     document.querySelectorAll('#priceFilters .price-btn').forEach(function(btn) {
-      var price = btn.dataset.price || '';
-      var count;
-      if (price === 'all' || price === '') {
-        count = agents.length;
-      } else if (price === 'free') {
-        count = (priceCounts['free'] || 0);
-      } else if (price === 'freemium') {
-        count = (priceCounts['freemium'] || 0);
-      } else if (price === 'paid') {
-        count = (priceCounts['paid'] || 0);
-      } else if (price === 'open-source' || price === 'open_source') {
-        count = agents.filter(function(a) { return a.open_source; }).length;
-      } else if (price === 'free-trial' || price === 'free_trial') {
-        count = agents.filter(function(a) { return a.has_free_trial; }).length;
-      } else {
-        count = priceCounts[price] || 0;
-      }
-      if (!btn.querySelector('.price-count')) {
-        var span = document.createElement('span');
-        span.className = 'price-count';
-        span.textContent = count;
-        btn.appendChild(span);
-      } else {
-        btn.querySelector('.price-count').textContent = count;
-      }
+      var price = btn.dataset.price;
+      if (!price) return;
+      var count = price === 'all' ? agents.length : (priceCounts[price] || 0);
+      var oldBadge = btn.querySelector('.cat-count');
+      if (oldBadge) oldBadge.remove();
+      var badge = document.createElement('span');
+      badge.className = 'cat-count';
+      badge.textContent = count;
+      btn.appendChild(badge);
     });
 
-    // Update results counter text with total
-    var resultsInfo = document.querySelector('.results-info span, [data-i18n="showing_tools"]');
-    if (resultsInfo && resultsInfo.textContent.match(/\d+/)) {
-      // The main script handles this, but we make sure total is available
-    }
-  }
-
-  // === 2. FIX DARK MODE SMOOTHNESS ===
-  function fixDarkMode() {
-    // Find existing theme toggle and enhance it
-    var existing = document.querySelector('.theme-toggle');
-    if (existing) {
-      // Add will-change for GPU acceleration
-      document.documentElement.style.willChange = 'background-color, color';
-      // After transition, remove will-change
-      existing.addEventListener('click', function() {
-        setTimeout(function() {
-          document.documentElement.style.willChange = 'auto';
-        }, 400);
-      });
-    }
-  }
-
-  // === 3. FIX MOBILE CARD COUNT DISPLAY ===
-  function fixResultsCounter() {
-    // Watch for renderCards and update the count display
-    var grid = document.getElementById('grid');
-    if (!grid) return;
-
-    new MutationObserver(function() {
-      var visible = Array.from(grid.children).filter(function(c) {
-        return c.style.display !== 'none';
-      }).length;
-      var info = document.querySelector('.results-info');
-      if (info) {
+    // Update the results counter text to show real total
+    var resultsInfo = document.querySelector('.results-info span, .results-info');
+    if (resultsInfo) {
+      var grid = document.getElementById('grid');
+      if (grid) {
+        var visible = Array.from(grid.children).filter(function(c) {
+          return c.style.display !== 'none';
+        }).length;
         var lang = localStorage.getItem('rvl_lang') || document.documentElement.lang || 'en';
-        var total = window.agents ? window.agents.length : visible;
         if (lang === 'ar') {
-          info.innerHTML = 'عرض <strong>' + visible + '</strong> من <strong>' + total + '</strong> أداة';
+          resultsInfo.textContent = '\u0639\u0631\u0636 ' + visible + ' \u0623\u062f\u0627\u0629 \u0645\u0646 ' + agents.length;
         } else {
-          info.innerHTML = 'Showing <strong>' + visible + '</strong> of <strong>' + total + '</strong> tools';
+          resultsInfo.textContent = 'Showing ' + visible + ' of ' + agents.length + ' tools';
         }
       }
-    }).observe(grid, { childList: true, subtree: true });
+    }
+  }
+
+  // Re-run counts when cards re-render
+  var _origRC = window.renderCards;
+  if (typeof _origRC === 'function') {
+    window.renderCards = function() {
+      _origRC.apply(this, arguments);
+      setTimeout(updateCategoryCounts, 100);
+    };
+  }
+
+  // === 2. FIX DARK MODE PERFORMANCE ===
+  // The issue: backdrop-filter: blur() on nav causes lag during theme transitions
+  // Fix: disable blur during transition, re-enable after
+  function fixDarkModePerformance() {
+    var root = document.documentElement;
+    var nav = document.querySelector('nav');
+    
+    // Override theme toggle to add transition optimization
+    var allToggles = document.querySelectorAll('.theme-toggle, [aria-label="Toggle theme"]');
+    allToggles.forEach(function(btn) {
+      var origClick = btn.onclick;
+      btn.onclick = function(e) {
+        // Disable expensive effects during transition
+        root.style.setProperty('--nav-blur', 'none');
+        if (nav) nav.style.backdropFilter = 'none';
+        if (nav) nav.style.webkitBackdropFilter = 'none';
+        root.classList.add('theme-transitioning');
+        
+        // Run original toggle
+        if (origClick) origClick.call(this, e);
+        
+        // Re-enable after transition
+        requestAnimationFrame(function() {
+          setTimeout(function() {
+            root.classList.remove('theme-transitioning');
+            if (nav) nav.style.backdropFilter = '';
+            if (nav) nav.style.webkitBackdropFilter = '';
+            root.style.removeProperty('--nav-blur');
+          }, 350);
+        });
+      };
+    });
+  }
+
+  // === 3. OBSERVE GRID CHANGES TO UPDATE COUNTER ===
+  function observeGrid() {
+    var grid = document.getElementById('grid');
+    if (!grid) return;
+    var observer = new MutationObserver(function() {
+      setTimeout(function() {
+        var agents = window.agents;
+        if (!agents) return;
+        var visible = Array.from(grid.children).filter(function(c) {
+          return c.style.display !== 'none';
+        }).length;
+        var lang = localStorage.getItem('rvl_lang') || document.documentElement.lang || 'en';
+        var info = document.querySelector('.results-info span') || document.querySelector('.results-info');
+        if (info) {
+          if (lang === 'ar') {
+            info.textContent = '\u0639\u0631\u0636 ' + visible + ' \u0623\u062f\u0627\u0629 \u0645\u0646 ' + agents.length;
+          } else {
+            info.textContent = 'Showing ' + visible + ' of ' + agents.length + ' tools';
+          }
+        }
+      }, 150);
+    });
+    observer.observe(grid, { childList: true, subtree: false });
   }
 
   // === INIT ===
   function init() {
-    fixDarkMode();
-    fixResultsCounter();
-
-    // Wait for agents to load then add counts
+    // Wait for agents to load
     var checkAgents = setInterval(function() {
       if (window.agents && window.agents.length > 0) {
         clearInterval(checkAgents);
         updateCategoryCounts();
-        // Re-update on language change
-        var langBtn = document.getElementById('langToggle');
-        if (langBtn) {
-          langBtn.addEventListener('click', function() {
-            setTimeout(updateCategoryCounts, 300);
-          });
-        }
+        fixDarkModePerformance();
+        observeGrid();
       }
     }, 500);
-
-    // Timeout after 10s
-    setTimeout(function() { clearInterval(checkAgents); }, 10000);
+    // Timeout after 15s
+    setTimeout(function() { clearInterval(checkAgents); }, 15000);
   }
 
   if (document.readyState === 'loading') {
