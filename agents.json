@@ -22220,5 +22220,4805 @@
       "Notion doc search",
       "Team Q&A"
     ]
+  },
+  {
+    "id": 501,
+    "name": "Cursor",
+    "name_ar": "كيرسور",
+    "category": "coding",
+    "category_ar": "برمجة",
+    "description": "محرر كود ذكي مبني على VS Code مع ذكاء اصطناعي متكامل للإكمال التلقائي والدردشة وتعديل الكود بأوامر طبيعية",
+    "official_description": "The AI Code Editor — built to make you extraordinarily productive with AI-powered completion, chat & multi-line edits.",
+    "features": [
+      "إكمال كود ذكي بالسياق الكامل",
+      "دردشة AI داخل المحرر",
+      "تعديل متعدد الأسطر بأمر واحد",
+      "دعم جميع لغات البرمجة",
+      "مبني على VS Code"
+    ],
+    "pricing": "$0 - $40/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "500 إكمال + 50 طلب بطيء شهرياً مجاناً",
+    "url": "https://cursor.com",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "محرر كود",
+      "ذكاء اصطناعي",
+      "برمجة",
+      "VS Code"
+    ],
+    "featured": true,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "المبرمجين الذين يريدون أسرع تجربة كتابة كود بمساعدة الذكاء الاصطناعي",
+    "description_en": "AI-powered code editor built on VS Code with integrated AI completion, chat, and multi-line editing capabilities",
+    "tags_en": [
+      "code editor",
+      "AI coding",
+      "VS Code",
+      "autocomplete"
+    ],
+    "features_en": [
+      "Context-aware AI code completion",
+      "In-editor AI chat",
+      "Multi-line edit with single command",
+      "All languages supported",
+      "Built on VS Code"
+    ],
+    "best_for_en": "Developers wanting the fastest AI-assisted coding experience"
+  },
+  {
+    "id": 502,
+    "name": "Windsurf",
+    "name_ar": "ويندسيرف",
+    "category": "coding",
+    "category_ar": "برمجة",
+    "description": "محرر كود AI من Codeium مع وكيل Cascade الذي يفهم قاعدة الكود كاملة ويقترح تعديلات ذكية",
+    "official_description": "Windsurf Editor by Codeium — the first agentic IDE with Cascade, an AI that understands your entire codebase.",
+    "features": [
+      "وكيل Cascade يفهم المشروع كاملاً",
+      "إكمال تلقائي فائق السرعة",
+      "تعديل ملفات متعددة تلقائياً",
+      "تكامل مع Git",
+      "دعم 70+ لغة برمجة"
+    ],
+    "pricing": "$0 - $60/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "باقة مجانية مع إكمالات غير محدودة",
+    "url": "https://windsurf.com",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "محرر كود",
+      "وكيل AI",
+      "Codeium",
+      "برمجة"
+    ],
+    "featured": true,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "المبرمجين الباحثين عن وكيل ذكي يفهم المشروع بالكامل",
+    "description_en": "AI code editor from Codeium with Cascade agent that understands your entire codebase and suggests intelligent edits",
+    "tags_en": [
+      "code editor",
+      "AI agent",
+      "Codeium",
+      "coding"
+    ],
+    "features_en": [
+      "Cascade agent understands full project",
+      "Ultra-fast autocomplete",
+      "Multi-file auto-edits",
+      "Git integration",
+      "70+ languages"
+    ],
+    "best_for_en": "Developers seeking an agentic IDE that understands the full project"
+  },
+  {
+    "id": 503,
+    "name": "Tabnine",
+    "name_ar": "تابناين",
+    "category": "coding",
+    "category_ar": "برمجة",
+    "description": "مساعد كود AI يركز على الخصوصية مع نماذج تعمل محلياً ودعم جميع بيئات التطوير الرئيسية",
+    "official_description": "AI assistant for software developers — personalized code completions with privacy-first, locally-running models.",
+    "features": [
+      "نماذج تعمل محلياً للخصوصية",
+      "إكمال كود شخصي",
+      "دعم 30+ لغة",
+      "يعمل مع VS Code وJetBrains",
+      "تدريب على كود الفريق"
+    ],
+    "pricing": "$0 - $39/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "باقة مجانية للمطور الفردي",
+    "url": "https://www.tabnine.com",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "إكمال كود",
+      "خصوصية",
+      "محلي",
+      "برمجة"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "الفرق التي تحتاج مساعد كود AI مع أقصى خصوصية للبيانات",
+    "description_en": "Privacy-first AI code assistant with locally-running models and support for all major IDEs",
+    "tags_en": [
+      "code completion",
+      "privacy",
+      "local",
+      "coding"
+    ],
+    "features_en": [
+      "Locally-running models for privacy",
+      "Personalized completions",
+      "30+ languages",
+      "VS Code & JetBrains support",
+      "Team model training"
+    ],
+    "best_for_en": "Teams needing AI code assistance with maximum data privacy"
+  },
+  {
+    "id": 504,
+    "name": "Amazon Q Developer",
+    "name_ar": "أمازون كيو للمطورين",
+    "category": "coding",
+    "category_ar": "برمجة",
+    "description": "مساعد برمجة AI من أمازون متخصص في خدمات AWS مع إكمال كود وتحليل أمني وترقية تطبيقات",
+    "official_description": "Amazon Q Developer — AI-powered assistant for building, operating, and transforming applications on AWS.",
+    "features": [
+      "إكمال كود متقدم",
+      "تحليل أمني للكود",
+      "ترقية تطبيقات Java تلقائياً",
+      "تكامل عميق مع AWS",
+      "دردشة AI للمساعدة"
+    ],
+    "pricing": "$0 - $19/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "باقة مجانية مع إكمالات وفحوصات أمنية",
+    "url": "https://aws.amazon.com/q/developer/",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "AWS",
+      "أمازون",
+      "برمجة",
+      "سحابة"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "المطورين العاملين على خدمات AWS",
+    "description_en": "Amazon's AI coding assistant specialized in AWS services with code completion, security scanning, and app upgrades",
+    "tags_en": [
+      "AWS",
+      "Amazon",
+      "coding",
+      "cloud"
+    ],
+    "features_en": [
+      "Advanced code completion",
+      "Security scanning",
+      "Automatic Java app upgrades",
+      "Deep AWS integration",
+      "AI chat assistance"
+    ],
+    "best_for_en": "Developers building on AWS services"
+  },
+  {
+    "id": 505,
+    "name": "Sourcegraph Cody",
+    "name_ar": "كودي من سورسغراف",
+    "category": "coding",
+    "category_ar": "برمجة",
+    "description": "مساعد كود AI يبحث في قاعدة الكود بأكملها لتقديم إجابات وإكمالات دقيقة مع سياق كامل",
+    "official_description": "Cody by Sourcegraph — AI code assistant that uses your entire codebase as context for accurate answers and completions.",
+    "features": [
+      "بحث في كامل قاعدة الكود",
+      "سياق غير محدود",
+      "إكمال ذكي",
+      "شرح كود معقد",
+      "دعم عدة نماذج AI"
+    ],
+    "pricing": "$0 - $19/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "باقة مجانية سخية للمطورين",
+    "url": "https://sourcegraph.com/cody",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "بحث كود",
+      "سياق كامل",
+      "مساعد AI",
+      "برمجة"
+    ],
+    "featured": false,
+    "open_source": true,
+    "added_date": "2026-07-14",
+    "best_for": "الفرق التي تعمل على مشاريع كبيرة وتحتاج سياق كامل من قاعدة الكود",
+    "description_en": "AI code assistant that searches your entire codebase to provide accurate answers and completions with full context",
+    "tags_en": [
+      "code search",
+      "full context",
+      "AI assistant",
+      "coding"
+    ],
+    "features_en": [
+      "Full codebase search",
+      "Unlimited context",
+      "Smart completions",
+      "Complex code explanation",
+      "Multi-model support"
+    ],
+    "best_for_en": "Teams with large codebases needing full-context AI assistance"
+  },
+  {
+    "id": 506,
+    "name": "Claude Code",
+    "name_ar": "كلود كود",
+    "category": "coding",
+    "category_ar": "برمجة",
+    "description": "أداة برمجة من Anthropic تعمل من سطر الأوامر — وكيل AI يقرأ ويعدل ويختبر الكود مباشرة",
+    "official_description": "Claude Code — Anthropic's agentic CLI tool that reads, edits, tests, and commits code directly in your terminal.",
+    "features": [
+      "وكيل يعمل من Terminal",
+      "قراءة وتعديل ملفات مباشرة",
+      "تشغيل اختبارات تلقائياً",
+      "عمل Git commits",
+      "فهم المشروع كاملاً"
+    ],
+    "pricing": "$20/شهرياً",
+    "pricing_type": "paid",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://docs.anthropic.com/en/docs/claude-code",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "CLI",
+      "وكيل كود",
+      "Anthropic",
+      "Terminal"
+    ],
+    "featured": true,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "المبرمجين المتقدمين الذين يفضلون العمل من سطر الأوامر",
+    "description_en": "Anthropic's CLI coding agent that reads, edits, tests, and commits code directly in your terminal",
+    "tags_en": [
+      "CLI",
+      "code agent",
+      "Anthropic",
+      "terminal"
+    ],
+    "features_en": [
+      "Terminal-based agent",
+      "Direct file read/edit",
+      "Auto-run tests",
+      "Git commits",
+      "Full project understanding"
+    ],
+    "best_for_en": "Advanced developers who prefer command-line AI coding agents"
+  },
+  {
+    "id": 507,
+    "name": "Aider",
+    "name_ar": "إيدر",
+    "category": "coding",
+    "category_ar": "برمجة",
+    "description": "أداة برمجة ثنائية مفتوحة المصدر تعمل من Terminal مع دعم عدة نماذج AI وتكامل Git تلقائي",
+    "official_description": "Aider — open-source AI pair programming in your terminal. Works with GPT-4, Claude, and local models.",
+    "features": [
+      "مفتوح المصدر بالكامل",
+      "دعم GPT-4 وClaude ونماذج محلية",
+      "Git تلقائي",
+      "تعديل ملفات متعددة",
+      "خريطة مستودع ذكية"
+    ],
+    "pricing": "مجاني (تحتاج مفتاح API)",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://aider.chat",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "مفتوح المصدر",
+      "Terminal",
+      "برمجة ثنائية",
+      "Git"
+    ],
+    "featured": false,
+    "open_source": true,
+    "added_date": "2026-07-14",
+    "best_for": "المبرمجين الذين يريدون أداة AI مفتوحة المصدر من Terminal",
+    "description_en": "Open-source AI pair programming tool in the terminal with multi-model support and automatic Git integration",
+    "tags_en": [
+      "open source",
+      "terminal",
+      "pair programming",
+      "Git"
+    ],
+    "features_en": [
+      "Fully open source",
+      "GPT-4, Claude & local models",
+      "Automatic Git",
+      "Multi-file edits",
+      "Smart repo map"
+    ],
+    "best_for_en": "Developers wanting an open-source terminal-based AI coding tool"
+  },
+  {
+    "id": 508,
+    "name": "Devin",
+    "name_ar": "ديفين",
+    "category": "coding",
+    "category_ar": "برمجة",
+    "description": "أول مهندس برمجيات AI مستقل — يخطط وينفذ ويختبر مهام برمجية كاملة بشكل ذاتي",
+    "official_description": "Devin by Cognition — the first AI software engineer that autonomously plans, codes, tests, and deploys.",
+    "features": [
+      "تنفيذ مهام برمجية كاملة",
+      "تخطيط وتحليل ذاتي",
+      "بيئة تطوير مدمجة",
+      "تصحيح أخطاء تلقائي",
+      "تعلم من التوثيق"
+    ],
+    "pricing": "$500/شهرياً",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "تجربة محدودة متاحة",
+    "url": "https://devin.ai",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "مهندس AI",
+      "وكيل مستقل",
+      "برمجة ذاتية",
+      "Cognition"
+    ],
+    "featured": true,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "الفرق التي تريد أتمتة مهام البرمجة الروتينية بالكامل",
+    "description_en": "First autonomous AI software engineer — plans, codes, tests, and deploys complete programming tasks",
+    "tags_en": [
+      "AI engineer",
+      "autonomous agent",
+      "auto-coding",
+      "Cognition"
+    ],
+    "features_en": [
+      "Full task execution",
+      "Autonomous planning",
+      "Built-in dev environment",
+      "Auto debugging",
+      "Learns from docs"
+    ],
+    "best_for_en": "Teams wanting to fully automate routine programming tasks"
+  },
+  {
+    "id": 509,
+    "name": "Augment Code",
+    "name_ar": "أوغمنت كود",
+    "category": "coding",
+    "category_ar": "برمجة",
+    "description": "مساعد برمجة AI للشركات مع فهم عميق لقواعد الكود الكبيرة وتكامل مع أنظمة المؤسسات",
+    "official_description": "Augment Code — enterprise AI coding assistant with deep codebase understanding for large-scale software teams.",
+    "features": [
+      "فهم قواعد كود ضخمة",
+      "سياق على مستوى المؤسسة",
+      "أمان وخصوصية متقدمة",
+      "تكامل مع CI/CD",
+      "دعم فرق كبيرة"
+    ],
+    "pricing": "$20 - اتصل للتسعير",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "باقة Indie مجانية للمطورين الأفراد",
+    "url": "https://www.augmentcode.com",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "مؤسسات",
+      "كود كبير",
+      "أمان",
+      "فرق"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "فرق البرمجة في المؤسسات الكبيرة",
+    "description_en": "Enterprise AI coding assistant with deep understanding of large codebases and enterprise system integration",
+    "tags_en": [
+      "enterprise",
+      "large codebase",
+      "security",
+      "teams"
+    ],
+    "features_en": [
+      "Massive codebase understanding",
+      "Enterprise-level context",
+      "Advanced security",
+      "CI/CD integration",
+      "Large team support"
+    ],
+    "best_for_en": "Engineering teams at large enterprises"
+  },
+  {
+    "id": 510,
+    "name": "Qodo (CodiumAI)",
+    "name_ar": "كودو",
+    "category": "coding",
+    "category_ar": "برمجة",
+    "description": "أداة AI لجودة الكود تكتب اختبارات تلقائية وتراجع الكود وتقترح تحسينات",
+    "official_description": "Qodo — AI-powered code quality platform that auto-generates tests, reviews code, and suggests improvements.",
+    "features": [
+      "توليد اختبارات تلقائية",
+      "مراجعة كود ذكية",
+      "اقتراحات تحسين",
+      "تكامل مع PR",
+      "دعم معظم اللغات"
+    ],
+    "pricing": "$0 - $19/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "باقة مجانية للمطور الفردي",
+    "url": "https://www.qodo.ai",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "اختبارات",
+      "جودة كود",
+      "مراجعة",
+      "تحسين"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "المبرمجين الذين يريدون تحسين جودة الكود والاختبارات تلقائياً",
+    "description_en": "AI code quality tool that auto-generates tests, reviews code, and suggests improvements",
+    "tags_en": [
+      "testing",
+      "code quality",
+      "review",
+      "improvement"
+    ],
+    "features_en": [
+      "Auto test generation",
+      "Smart code review",
+      "Improvement suggestions",
+      "PR integration",
+      "Most languages supported"
+    ],
+    "best_for_en": "Developers wanting to improve code quality and testing automatically"
+  },
+  {
+    "id": 511,
+    "name": "Bolt.new",
+    "name_ar": "بولت",
+    "category": "no-code",
+    "category_ar": "بدون كود",
+    "description": "منصة بناء تطبيقات AI فورية — صف ما تريد بالكلام واحصل على تطبيق كامل في دقائق",
+    "official_description": "Bolt.new — prompt, run, edit, and deploy full-stack web apps directly in the browser with AI.",
+    "features": [
+      "بناء تطبيقات كاملة بالأوامر",
+      "معاينة فورية في المتصفح",
+      "نشر بنقرة واحدة",
+      "تعديل مباشر",
+      "دعم React وNext.js"
+    ],
+    "pricing": "$0 - $99/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "رصيد مجاني للتجربة",
+    "url": "https://bolt.new",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "بناء تطبيقات",
+      "بدون كود",
+      "نشر فوري",
+      "ويب"
+    ],
+    "featured": true,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "أي شخص يريد بناء تطبيق ويب سريعاً بدون خبرة برمجية",
+    "description_en": "Instant AI app builder — describe what you want and get a full-stack app in minutes",
+    "tags_en": [
+      "app builder",
+      "no-code",
+      "instant deploy",
+      "web"
+    ],
+    "features_en": [
+      "Build full apps with prompts",
+      "Instant browser preview",
+      "One-click deploy",
+      "Live editing",
+      "React & Next.js support"
+    ],
+    "best_for_en": "Anyone wanting to build web apps quickly without coding experience"
+  },
+  {
+    "id": 512,
+    "name": "Lovable",
+    "name_ar": "لوفابل",
+    "category": "no-code",
+    "category_ar": "بدون كود",
+    "description": "أفضل منصة AI لبناء تطبيقات جاهزة للإنتاج — من الفكرة إلى تطبيق يعمل بأوامر نصية",
+    "official_description": "Lovable — the AI full-stack engineer that ships production-ready apps from natural language prompts.",
+    "features": [
+      "تطبيقات جاهزة للإنتاج",
+      "قاعدة بيانات مدمجة",
+      "مصادقة مستخدمين",
+      "تصميم UI احترافي",
+      "تصدير الكود كاملاً"
+    ],
+    "pricing": "$0 - $100/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "5 رسائل مجانية يومياً",
+    "url": "https://lovable.dev",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "بناء تطبيقات",
+      "full-stack",
+      "إنتاج",
+      "تصميم"
+    ],
+    "featured": true,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "رواد الأعمال والمصممين الذين يريدون تطبيقات حقيقية جاهزة للإطلاق",
+    "description_en": "Best AI platform for building production-ready apps — from idea to working app with natural language",
+    "tags_en": [
+      "app builder",
+      "full-stack",
+      "production",
+      "design"
+    ],
+    "features_en": [
+      "Production-ready apps",
+      "Built-in database",
+      "User authentication",
+      "Professional UI design",
+      "Full code export"
+    ],
+    "best_for_en": "Entrepreneurs and designers wanting real production-ready apps"
+  },
+  {
+    "id": 513,
+    "name": "v0 by Vercel",
+    "name_ar": "في زيرو",
+    "category": "no-code",
+    "category_ar": "بدون كود",
+    "description": "أداة AI من Vercel لتوليد واجهات مستخدم جميلة بـ React وTailwind من وصف نصي",
+    "official_description": "v0 by Vercel — AI-powered UI generator that creates React and Tailwind CSS components from text descriptions.",
+    "features": [
+      "توليد UI من النص",
+      "كود React نظيف",
+      "Tailwind CSS",
+      "معاينة فورية",
+      "نشر على Vercel"
+    ],
+    "pricing": "$0 - $20/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "200 رسالة مجانية شهرياً",
+    "url": "https://v0.dev",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "واجهات",
+      "React",
+      "Tailwind",
+      "Vercel"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "المصممين والمطورين الذين يريدون واجهات React جاهزة بسرعة",
+    "description_en": "Vercel's AI tool for generating beautiful React and Tailwind UI components from text descriptions",
+    "tags_en": [
+      "UI",
+      "React",
+      "Tailwind",
+      "Vercel"
+    ],
+    "features_en": [
+      "Generate UI from text",
+      "Clean React code",
+      "Tailwind CSS",
+      "Instant preview",
+      "Deploy to Vercel"
+    ],
+    "best_for_en": "Designers and developers wanting quick React UI generation"
+  },
+  {
+    "id": 514,
+    "name": "Midjourney",
+    "name_ar": "ميدجورني",
+    "category": "creative",
+    "category_ar": "إبداعي",
+    "description": "أقوى أداة AI لتوليد الصور الفنية والواقعية من أوصاف نصية بجودة استثنائية",
+    "official_description": "Midjourney — AI image generation that creates stunning artistic and photorealistic images from text prompts.",
+    "features": [
+      "جودة صور استثنائية",
+      "أنماط فنية متنوعة",
+      "صور واقعية مذهلة",
+      "إصدار v6 متقدم",
+      "محرر ويب مدمج"
+    ],
+    "pricing": "$10 - $120/شهرياً",
+    "pricing_type": "paid",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://www.midjourney.com",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "توليد صور",
+      "فن AI",
+      "تصميم",
+      "صور واقعية"
+    ],
+    "featured": true,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "الفنانين والمصممين ومنشئي المحتوى الباحثين عن أفضل جودة صور AI",
+    "description_en": "Most powerful AI image generation tool for artistic and photorealistic images from text descriptions",
+    "tags_en": [
+      "image generation",
+      "AI art",
+      "design",
+      "photorealistic"
+    ],
+    "features_en": [
+      "Exceptional image quality",
+      "Diverse art styles",
+      "Stunning photorealism",
+      "Advanced v6",
+      "Built-in web editor"
+    ],
+    "best_for_en": "Artists, designers, and content creators seeking best AI image quality"
+  },
+  {
+    "id": 515,
+    "name": "DALL-E 3",
+    "name_ar": "دال-إي 3",
+    "category": "creative",
+    "category_ar": "إبداعي",
+    "description": "نموذج توليد الصور من OpenAI مدمج في ChatGPT — يفهم الأوصاف بدقة وينتج صوراً متقنة",
+    "official_description": "DALL-E 3 by OpenAI — integrated into ChatGPT for accurate, detailed image generation from natural language.",
+    "features": [
+      "مدمج في ChatGPT",
+      "فهم دقيق للأوصاف",
+      "نص داخل الصور",
+      "أنماط متنوعة",
+      "تعديل بالمحادثة"
+    ],
+    "pricing": "$20/شهرياً (ضمن ChatGPT Plus)",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "صور محدودة مع ChatGPT المجاني",
+    "url": "https://openai.com/dall-e-3",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "OpenAI",
+      "توليد صور",
+      "ChatGPT",
+      "تصميم"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "مستخدمي ChatGPT الذين يحتاجون توليد صور مدمج مع المحادثة",
+    "description_en": "OpenAI's image generation model integrated into ChatGPT — understands descriptions accurately and produces refined images",
+    "tags_en": [
+      "OpenAI",
+      "image generation",
+      "ChatGPT",
+      "design"
+    ],
+    "features_en": [
+      "Integrated in ChatGPT",
+      "Accurate prompt understanding",
+      "Text in images",
+      "Multiple styles",
+      "Conversational editing"
+    ],
+    "best_for_en": "ChatGPT users needing integrated image generation with conversation"
+  },
+  {
+    "id": 516,
+    "name": "Stable Diffusion",
+    "name_ar": "ستايبل ديفيوجن",
+    "category": "creative",
+    "category_ar": "إبداعي",
+    "description": "نموذج توليد صور مفتوح المصدر يمكن تشغيله محلياً مع تحكم كامل وبدون قيود",
+    "official_description": "Stable Diffusion — open-source image generation model that runs locally with full control and customization.",
+    "features": [
+      "مفتوح المصدر بالكامل",
+      "يعمل محلياً",
+      "تحكم كامل بالنتائج",
+      "آلاف الإضافات",
+      "تدريب نماذج مخصصة"
+    ],
+    "pricing": "مجاني",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://stability.ai",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "مفتوح المصدر",
+      "محلي",
+      "توليد صور",
+      "تخصيص"
+    ],
+    "featured": true,
+    "open_source": true,
+    "added_date": "2026-07-14",
+    "best_for": "المطورين والفنانين الذين يريدون تحكماً كاملاً في توليد الصور",
+    "description_en": "Open-source image generation model that runs locally with full control and no restrictions",
+    "tags_en": [
+      "open source",
+      "local",
+      "image generation",
+      "customization"
+    ],
+    "features_en": [
+      "Fully open source",
+      "Runs locally",
+      "Full output control",
+      "Thousands of extensions",
+      "Custom model training"
+    ],
+    "best_for_en": "Developers and artists wanting full control over image generation"
+  },
+  {
+    "id": 517,
+    "name": "Leonardo AI",
+    "name_ar": "ليوناردو AI",
+    "category": "creative",
+    "category_ar": "إبداعي",
+    "description": "منصة إبداعية AI لتوليد صور عالية الجودة وأصول ألعاب وتصميمات بأنماط متعددة",
+    "official_description": "Leonardo AI — creative platform for generating high-quality images, game assets, and designs with multiple AI models.",
+    "features": [
+      "نماذج متعددة للاختيار",
+      "توليد أصول ألعاب",
+      "تدريب نماذج مخصصة",
+      "محرر Canvas",
+      "توليد مجمّع"
+    ],
+    "pricing": "$0 - $60/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "150 رصيد يومي مجاني",
+    "url": "https://leonardo.ai",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "توليد صور",
+      "ألعاب",
+      "أصول رقمية",
+      "تصميم"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "مصممي الألعاب ومنشئي المحتوى البصري",
+    "description_en": "Creative AI platform for generating high-quality images, game assets, and designs with multiple styles",
+    "tags_en": [
+      "image generation",
+      "game assets",
+      "digital assets",
+      "design"
+    ],
+    "features_en": [
+      "Multiple models to choose",
+      "Game asset generation",
+      "Custom model training",
+      "Canvas editor",
+      "Batch generation"
+    ],
+    "best_for_en": "Game designers and visual content creators"
+  },
+  {
+    "id": 518,
+    "name": "Adobe Firefly",
+    "name_ar": "أدوبي فايرفلاي",
+    "category": "creative",
+    "category_ar": "إبداعي",
+    "description": "نموذج AI إبداعي من Adobe مدمج في Photoshop وIllustrator لتوليد وتعديل الصور بأمان تجاري",
+    "official_description": "Adobe Firefly — commercially safe generative AI integrated into Photoshop, Illustrator, and Adobe Express.",
+    "features": [
+      "آمن تجارياً",
+      "مدمج في Photoshop",
+      "توليد ملء ذكي",
+      "توسيع خلفيات",
+      "تأثيرات نصية"
+    ],
+    "pricing": "$0 - $9.99/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "25 رصيد مجاني شهرياً",
+    "url": "https://firefly.adobe.com",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "Adobe",
+      "تصميم",
+      "تجاري",
+      "Photoshop"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "المصممين المحترفين الذين يحتاجون صور AI آمنة تجارياً",
+    "description_en": "Adobe's creative AI model integrated into Photoshop and Illustrator for commercially safe image generation",
+    "tags_en": [
+      "Adobe",
+      "design",
+      "commercial",
+      "Photoshop"
+    ],
+    "features_en": [
+      "Commercially safe",
+      "Photoshop integrated",
+      "Generative fill",
+      "Background expand",
+      "Text effects"
+    ],
+    "best_for_en": "Professional designers needing commercially safe AI images"
+  },
+  {
+    "id": 519,
+    "name": "Runway Gen-3",
+    "name_ar": "رانواي",
+    "category": "creative",
+    "category_ar": "إبداعي",
+    "description": "أفضل منصة AI لتوليد وتحرير الفيديو للمحترفين مع أدوات متقدمة للإنتاج السينمائي",
+    "official_description": "Runway — the leading AI video generation and editing platform for professional filmmakers and creators.",
+    "features": [
+      "توليد فيديو من نص",
+      "تحويل صورة لفيديو",
+      "إزالة خلفيات فيديو",
+      "تتبع حركة",
+      "أدوات تحرير AI"
+    ],
+    "pricing": "$12 - $76/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "125 رصيد مجاني للتجربة",
+    "url": "https://runwayml.com",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "فيديو AI",
+      "تحرير",
+      "سينما",
+      "إبداع"
+    ],
+    "featured": true,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "صناع الأفلام ومنشئي الفيديو المحترفين",
+    "description_en": "Best AI platform for video generation and editing for professionals with advanced cinematic tools",
+    "tags_en": [
+      "AI video",
+      "editing",
+      "cinema",
+      "creative"
+    ],
+    "features_en": [
+      "Text-to-video",
+      "Image-to-video",
+      "Video background removal",
+      "Motion tracking",
+      "AI editing tools"
+    ],
+    "best_for_en": "Professional filmmakers and video creators"
+  },
+  {
+    "id": 520,
+    "name": "Pika",
+    "name_ar": "بيكا",
+    "category": "creative",
+    "category_ar": "إبداعي",
+    "description": "أداة AI سهلة لتوليد وتحرير مقاطع فيديو قصيرة بجودة عالية من نص أو صورة",
+    "official_description": "Pika — easy AI video creation and editing platform for generating short, high-quality video clips.",
+    "features": [
+      "توليد فيديو من نص",
+      "تحرير فيديو بالأوامر",
+      "تغيير ملابس/خلفيات",
+      "إضافة حركة للصور",
+      "تصدير 1080p"
+    ],
+    "pricing": "$0 - $58/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "250 رصيد مجاني شهرياً",
+    "url": "https://pika.art",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "فيديو",
+      "تحرير",
+      "سهل",
+      "قصير"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "منشئي المحتوى الذين يريدون فيديوهات قصيرة سريعة",
+    "description_en": "Easy AI tool for generating and editing short high-quality video clips from text or image",
+    "tags_en": [
+      "video",
+      "editing",
+      "easy",
+      "short-form"
+    ],
+    "features_en": [
+      "Text-to-video",
+      "Command-based editing",
+      "Change clothes/backgrounds",
+      "Animate images",
+      "1080p export"
+    ],
+    "best_for_en": "Content creators wanting quick short-form videos"
+  },
+  {
+    "id": 521,
+    "name": "Kling AI",
+    "name_ar": "كلينغ AI",
+    "category": "creative",
+    "category_ar": "إبداعي",
+    "description": "أداة توليد فيديو AI صينية متقدمة تنتج مقاطع طويلة بجودة سينمائية مع رصيد يومي مجاني سخي",
+    "official_description": "Kling AI — advanced video generation with cinematic quality, longer clips, and generous free daily credits.",
+    "features": [
+      "66 رصيد مجاني يومياً",
+      "فيديو حتى 10 ثوانٍ",
+      "جودة سينمائية",
+      "تحكم بالكاميرا",
+      "وضع احترافي"
+    ],
+    "pricing": "$0 - $66/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "66 رصيد مجاني يومياً",
+    "url": "https://klingai.com",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "فيديو AI",
+      "سينمائي",
+      "مجاني",
+      "صيني"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "منشئي المحتوى الباحثين عن فيديو AI مجاني بجودة عالية",
+    "description_en": "Advanced Chinese AI video generation tool with cinematic quality and generous free daily credits",
+    "tags_en": [
+      "AI video",
+      "cinematic",
+      "free",
+      "Chinese"
+    ],
+    "features_en": [
+      "66 free daily credits",
+      "Up to 10s videos",
+      "Cinematic quality",
+      "Camera control",
+      "Professional mode"
+    ],
+    "best_for_en": "Content creators seeking free high-quality AI video generation"
+  },
+  {
+    "id": 522,
+    "name": "Sora",
+    "name_ar": "سورا",
+    "category": "creative",
+    "category_ar": "إبداعي",
+    "description": "نموذج توليد فيديو من OpenAI ينتج مقاطع واقعية مذهلة من أوصاف نصية",
+    "official_description": "Sora by OpenAI — world-model video generation that creates stunning realistic videos from text descriptions.",
+    "features": [
+      "فيديوهات واقعية جداً",
+      "فهم فيزيائي للعالم",
+      "حتى 60 ثانية",
+      "عدة زوايا كاميرا",
+      "مدمج مع ChatGPT Plus"
+    ],
+    "pricing": "$20 - $200/شهرياً",
+    "pricing_type": "paid",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://sora.com",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "OpenAI",
+      "فيديو",
+      "واقعي",
+      "نموذج عالم"
+    ],
+    "featured": true,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "المحترفين الذين يحتاجون أكثر الفيديوهات واقعية من AI",
+    "description_en": "OpenAI's world-model video generation creating stunningly realistic videos from text descriptions",
+    "tags_en": [
+      "OpenAI",
+      "video",
+      "realistic",
+      "world model"
+    ],
+    "features_en": [
+      "Ultra-realistic videos",
+      "Physical world understanding",
+      "Up to 60 seconds",
+      "Multiple camera angles",
+      "ChatGPT Plus integrated"
+    ],
+    "best_for_en": "Professionals needing the most realistic AI-generated videos"
+  },
+  {
+    "id": 523,
+    "name": "HeyGen",
+    "name_ar": "هاي جين",
+    "category": "creative",
+    "category_ar": "إبداعي",
+    "description": "منصة AI لإنشاء فيديوهات بشخصيات رقمية ناطقة — مثالية للتسويق والتعليم والعروض",
+    "official_description": "HeyGen — AI video platform with talking avatars for marketing, education, training, and presentations.",
+    "features": [
+      "100+ شخصية رقمية",
+      "استنساخ صوتك",
+      "ترجمة فيديو تلقائية",
+      "تزامن شفاه مثالي",
+      "قوالب جاهزة"
+    ],
+    "pricing": "$0 - $89/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "دقيقة واحدة مجانية للتجربة",
+    "url": "https://www.heygen.com",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "شخصيات رقمية",
+      "فيديو",
+      "تسويق",
+      "تعليم"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "فرق التسويق والتعليم التي تحتاج فيديوهات بشخصيات AI",
+    "description_en": "AI video platform with digital talking avatars — perfect for marketing, education, and presentations",
+    "tags_en": [
+      "digital avatars",
+      "video",
+      "marketing",
+      "education"
+    ],
+    "features_en": [
+      "100+ digital avatars",
+      "Voice cloning",
+      "Auto video translation",
+      "Perfect lip sync",
+      "Ready templates"
+    ],
+    "best_for_en": "Marketing and education teams needing AI avatar videos"
+  },
+  {
+    "id": 524,
+    "name": "Synthesia",
+    "name_ar": "سينثيسيا",
+    "category": "creative",
+    "category_ar": "إبداعي",
+    "description": "منصة إنشاء فيديوهات تدريبية وتعليمية بشخصيات AI واقعية بـ 140+ لغة",
+    "official_description": "Synthesia — AI video creation platform with realistic avatars in 140+ languages for training and communication.",
+    "features": [
+      "230+ شخصية AI",
+      "140+ لغة",
+      "استنساخ شخصيتك",
+      "شرائح تفاعلية",
+      "تحليلات مشاهدة"
+    ],
+    "pricing": "$22 - $67/شهرياً",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "فيديو تجريبي مجاني",
+    "url": "https://www.synthesia.io",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "تدريب",
+      "فيديو",
+      "شخصيات",
+      "متعدد اللغات"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "الشركات لإنشاء فيديوهات تدريبية بعدة لغات",
+    "description_en": "Video creation platform with realistic AI avatars in 140+ languages for training and education",
+    "tags_en": [
+      "training",
+      "video",
+      "avatars",
+      "multilingual"
+    ],
+    "features_en": [
+      "230+ AI avatars",
+      "140+ languages",
+      "Clone yourself",
+      "Interactive slides",
+      "View analytics"
+    ],
+    "best_for_en": "Companies creating multilingual training videos"
+  },
+  {
+    "id": 525,
+    "name": "ElevenLabs",
+    "name_ar": "إيليفن لابز",
+    "category": "creative",
+    "category_ar": "إبداعي",
+    "description": "أفضل منصة AI لتوليد أصوات واقعية واستنساخ الصوت ودبلجة المحتوى بعشرات اللغات",
+    "official_description": "ElevenLabs — the most realistic AI voice generation, voice cloning, and dubbing platform in 32 languages.",
+    "features": [
+      "أصوات واقعية جداً",
+      "استنساخ صوتك",
+      "32 لغة",
+      "دبلجة تلقائية",
+      "API للمطورين"
+    ],
+    "pricing": "$0 - $99/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "10,000 حرف مجاني شهرياً",
+    "url": "https://elevenlabs.io",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "صوت AI",
+      "استنساخ صوت",
+      "دبلجة",
+      "نص لكلام"
+    ],
+    "featured": true,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "منشئي المحتوى والبودكاست الذين يحتاجون أصوات AI واقعية",
+    "description_en": "Best AI platform for realistic voice generation, voice cloning, and content dubbing in dozens of languages",
+    "tags_en": [
+      "AI voice",
+      "voice cloning",
+      "dubbing",
+      "text-to-speech"
+    ],
+    "features_en": [
+      "Ultra-realistic voices",
+      "Voice cloning",
+      "32 languages",
+      "Auto dubbing",
+      "Developer API"
+    ],
+    "best_for_en": "Content creators and podcasters needing realistic AI voices"
+  },
+  {
+    "id": 526,
+    "name": "Canva Magic Studio",
+    "name_ar": "كانفا ماجيك ستوديو",
+    "category": "creative",
+    "category_ar": "إبداعي",
+    "description": "مجموعة أدوات AI مدمجة في Canva لتوليد الصور والتصميمات والعروض والفيديوهات بسهولة",
+    "official_description": "Canva Magic Studio — AI-powered design suite integrated into Canva for images, presentations, and videos.",
+    "features": [
+      "توليد صور AI",
+      "إزالة خلفيات",
+      "تعديل بالأوامر",
+      "قوالب ذكية",
+      "عروض تقديمية AI"
+    ],
+    "pricing": "$0 - $12.99/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "50 استخدام مجاني لأدوات AI",
+    "url": "https://www.canva.com/magic",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "تصميم",
+      "Canva",
+      "عروض",
+      "سهل"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "أي شخص يريد تصميمات احترافية بسرعة بدون خبرة",
+    "description_en": "AI design tools integrated into Canva for generating images, designs, presentations, and videos easily",
+    "tags_en": [
+      "design",
+      "Canva",
+      "presentations",
+      "easy"
+    ],
+    "features_en": [
+      "AI image generation",
+      "Background removal",
+      "Command-based editing",
+      "Smart templates",
+      "AI presentations"
+    ],
+    "best_for_en": "Anyone wanting professional designs quickly without experience"
+  },
+  {
+    "id": 527,
+    "name": "Jasper AI",
+    "name_ar": "جاسبر AI",
+    "category": "creative",
+    "category_ar": "إبداعي",
+    "description": "منصة تسويق محتوى AI للفرق — تكتب مقالات وإعلانات ومنشورات بصوت العلامة التجارية",
+    "official_description": "Jasper AI — the enterprise AI content platform for marketing teams to create brand-consistent content at scale.",
+    "features": [
+      "تدريب على صوت العلامة التجارية",
+      "حملات تسويقية AI",
+      "50+ قالب محتوى",
+      "تكامل SEO",
+      "تعاون الفريق"
+    ],
+    "pricing": "$39 - $125/شهرياً",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "7 أيام تجربة مجانية",
+    "url": "https://www.jasper.ai",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "محتوى تسويقي",
+      "كتابة AI",
+      "علامة تجارية",
+      "فرق"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "فرق التسويق التي تنشر محتوى كثير بصوت موحد",
+    "description_en": "AI content marketing platform for teams — writes articles, ads, and posts in brand voice",
+    "tags_en": [
+      "marketing content",
+      "AI writing",
+      "brand voice",
+      "teams"
+    ],
+    "features_en": [
+      "Brand voice training",
+      "AI marketing campaigns",
+      "50+ templates",
+      "SEO integration",
+      "Team collaboration"
+    ],
+    "best_for_en": "Marketing teams publishing high volumes of brand-consistent content"
+  },
+  {
+    "id": 528,
+    "name": "Copy.ai",
+    "name_ar": "كوبي AI",
+    "category": "creative",
+    "category_ar": "إبداعي",
+    "description": "منصة أتمتة المحتوى التسويقي مع سير عمل AI للمبيعات والتسويق من التنقيب للإغلاق",
+    "official_description": "Copy.ai — GTM AI platform automating sales and marketing content workflows from prospecting to closing.",
+    "features": [
+      "سير عمل تسويقي آلي",
+      "توليد محتوى مبيعات",
+      "تكامل CRM",
+      "إثراء بيانات العملاء",
+      "باقة مجانية سخية"
+    ],
+    "pricing": "$0 - $3000/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "باقة مجانية مع 2,000 كلمة شهرياً",
+    "url": "https://www.copy.ai",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "تسويق",
+      "مبيعات",
+      "أتمتة محتوى",
+      "GTM"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "فرق المبيعات والتسويق التي تريد أتمتة كتابة المحتوى",
+    "description_en": "Marketing content automation platform with AI workflows for sales and marketing from prospecting to closing",
+    "tags_en": [
+      "marketing",
+      "sales",
+      "content automation",
+      "GTM"
+    ],
+    "features_en": [
+      "Automated marketing workflows",
+      "Sales content generation",
+      "CRM integration",
+      "Customer data enrichment",
+      "Generous free tier"
+    ],
+    "best_for_en": "Sales and marketing teams wanting to automate content creation"
+  },
+  {
+    "id": 529,
+    "name": "Writesonic",
+    "name_ar": "رايت سونيك",
+    "category": "creative",
+    "category_ar": "إبداعي",
+    "description": "منصة AI للكتابة والـ SEO تجمع بين توليد المحتوى وتحسين محركات البحث مع Chatsonic",
+    "official_description": "Writesonic — AI writing and SEO platform combining content generation, search optimization, and Chatsonic chat.",
+    "features": [
+      "كاتب مقالات AI",
+      "تكامل Surfer SEO",
+      "Chatsonic بمعلومات حية",
+      "أدوات إعادة صياغة",
+      "دعم 25+ لغة"
+    ],
+    "pricing": "$0 - $99/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "10,000 كلمة مجاناً",
+    "url": "https://writesonic.com",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "كتابة",
+      "SEO",
+      "محتوى",
+      "مقالات"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "كتاب المحتوى ومتخصصي SEO",
+    "description_en": "AI writing and SEO platform combining content generation and search optimization with Chatsonic",
+    "tags_en": [
+      "writing",
+      "SEO",
+      "content",
+      "articles"
+    ],
+    "features_en": [
+      "AI article writer",
+      "Surfer SEO integration",
+      "Chatsonic with live info",
+      "Rewriting tools",
+      "25+ languages"
+    ],
+    "best_for_en": "Content writers and SEO specialists"
+  },
+  {
+    "id": 530,
+    "name": "Grammarly",
+    "name_ar": "غرامارلي",
+    "category": "creative",
+    "category_ar": "إبداعي",
+    "description": "مساعد كتابة AI الأشهر عالمياً — يصحح القواعد والأسلوب ويعيد الصياغة بذكاء",
+    "official_description": "Grammarly — the world's most popular AI writing assistant for grammar, style, tone, and rewriting.",
+    "features": [
+      "تصحيح قواعد لغوية",
+      "اقتراحات أسلوبية",
+      "كشف الانتحال",
+      "إعادة صياغة AI",
+      "يعمل في كل مكان"
+    ],
+    "pricing": "$0 - $25/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "باقة مجانية مع تصحيحات أساسية",
+    "url": "https://www.grammarly.com",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "كتابة",
+      "قواعد",
+      "تصحيح",
+      "إنجليزي"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "أي شخص يكتب بالإنجليزية ويريد تحسين جودة كتابته",
+    "description_en": "World's most popular AI writing assistant for grammar, style, and intelligent rewriting",
+    "tags_en": [
+      "writing",
+      "grammar",
+      "correction",
+      "English"
+    ],
+    "features_en": [
+      "Grammar correction",
+      "Style suggestions",
+      "Plagiarism detection",
+      "AI rewriting",
+      "Works everywhere"
+    ],
+    "best_for_en": "Anyone writing in English who wants to improve writing quality"
+  },
+  {
+    "id": 531,
+    "name": "Rytr",
+    "name_ar": "رايتر",
+    "category": "creative",
+    "category_ar": "إبداعي",
+    "description": "أرخص أداة كتابة AI احترافية — ممتازة للنصوص القصيرة والإعلانات ومنشورات التواصل",
+    "official_description": "Rytr — the most affordable AI writing tool, excellent for short-form copy, ads, and social media posts.",
+    "features": [
+      "40+ قالب كتابة",
+      "20+ نبرة صوت",
+      "30+ لغة",
+      "كشف انتحال",
+      "إضافة Chrome"
+    ],
+    "pricing": "$0 - $9/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "10,000 حرف مجاناً شهرياً",
+    "url": "https://rytr.me",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "كتابة رخيصة",
+      "نصوص قصيرة",
+      "إعلانات",
+      "ميزانية"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "أصحاب الميزانية المحدودة الذين يحتاجون نصوص قصيرة متنوعة",
+    "description_en": "Most affordable professional AI writing tool — great for short copy, ads, and social posts",
+    "tags_en": [
+      "cheap writing",
+      "short-form",
+      "ads",
+      "budget"
+    ],
+    "features_en": [
+      "40+ writing templates",
+      "20+ tones",
+      "30+ languages",
+      "Plagiarism check",
+      "Chrome extension"
+    ],
+    "best_for_en": "Budget-conscious users needing diverse short-form content"
+  },
+  {
+    "id": 532,
+    "name": "Surfer SEO",
+    "name_ar": "سيرفر SEO",
+    "category": "creative",
+    "category_ar": "إبداعي",
+    "description": "أداة AI لتحسين المحتوى لمحركات البحث — تحلل المنافسين وتوجه كتابتك للمرتبة الأولى",
+    "official_description": "Surfer SEO — AI-powered content optimization tool that analyzes competitors and guides you to rank #1.",
+    "features": [
+      "تحليل SERP",
+      "محرر محتوى ذكي",
+      "كاتب AI مدمج",
+      "تدقيق SEO",
+      "بحث كلمات مفتاحية"
+    ],
+    "pricing": "$89 - $299/شهرياً",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "7 أيام تجربة مجانية",
+    "url": "https://surferseo.com",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "SEO",
+      "محتوى",
+      "تحسين",
+      "ترتيب جوجل"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "متخصصي SEO وكتاب المحتوى الباحثين عن تصدر نتائج البحث",
+    "description_en": "AI SEO content optimization tool — analyzes competitors and guides your writing to rank #1",
+    "tags_en": [
+      "SEO",
+      "content",
+      "optimization",
+      "Google ranking"
+    ],
+    "features_en": [
+      "SERP analysis",
+      "Smart content editor",
+      "Built-in AI writer",
+      "SEO audit",
+      "Keyword research"
+    ],
+    "best_for_en": "SEO specialists and content writers aiming for top search rankings"
+  },
+  {
+    "id": 533,
+    "name": "Otter.ai",
+    "name_ar": "أوتر AI",
+    "category": "productivity",
+    "category_ar": "إنتاجية",
+    "description": "أفضل أداة AI لتفريغ الاجتماعات تلقائياً مع ملخصات ذكية ومهام مستخرجة",
+    "official_description": "Otter.ai — AI meeting transcription with smart summaries, action items, and real-time notes.",
+    "features": [
+      "تفريغ اجتماعات فوري",
+      "ملخصات AI",
+      "استخراج المهام",
+      "تكامل Zoom وTeams",
+      "بحث في كل اجتماعاتك"
+    ],
+    "pricing": "$0 - $30/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "300 دقيقة تفريغ مجاناً شهرياً",
+    "url": "https://otter.ai",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "اجتماعات",
+      "تفريغ",
+      "ملاحظات",
+      "إنتاجية"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "المحترفين الذين يحضرون اجتماعات كثيرة ويحتاجون توثيقاً تلقائياً",
+    "description_en": "Best AI meeting transcription tool with smart summaries and extracted action items",
+    "tags_en": [
+      "meetings",
+      "transcription",
+      "notes",
+      "productivity"
+    ],
+    "features_en": [
+      "Real-time transcription",
+      "AI summaries",
+      "Action item extraction",
+      "Zoom & Teams integration",
+      "Search all meetings"
+    ],
+    "best_for_en": "Professionals in frequent meetings needing automatic documentation"
+  },
+  {
+    "id": 534,
+    "name": "Fireflies.ai",
+    "name_ar": "فاير فلايز",
+    "category": "productivity",
+    "category_ar": "إنتاجية",
+    "description": "مساعد اجتماعات AI يسجل ويفرغ ويلخص مع تكامل CRM وأدوات إدارة المشاريع",
+    "official_description": "Fireflies.ai — AI meeting assistant that records, transcribes, summarizes, and integrates with CRM and PM tools.",
+    "features": [
+      "تسجيل تلقائي",
+      "تفريغ دقيق",
+      "ملخصات ذكية",
+      "تكامل مع Salesforce وHubSpot",
+      "بحث بالذكاء الاصطناعي"
+    ],
+    "pricing": "$0 - $29/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "باقة مجانية مع تفريغات محدودة",
+    "url": "https://fireflies.ai",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "اجتماعات",
+      "تسجيل",
+      "CRM",
+      "ملخصات"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "فرق المبيعات التي تحتاج ربط ملاحظات الاجتماعات بـ CRM",
+    "description_en": "AI meeting assistant that records, transcribes, and summarizes with CRM and PM tool integration",
+    "tags_en": [
+      "meetings",
+      "recording",
+      "CRM",
+      "summaries"
+    ],
+    "features_en": [
+      "Auto recording",
+      "Accurate transcription",
+      "Smart summaries",
+      "Salesforce & HubSpot integration",
+      "AI-powered search"
+    ],
+    "best_for_en": "Sales teams needing meeting notes synced with CRM"
+  },
+  {
+    "id": 535,
+    "name": "Fathom",
+    "name_ar": "فاذوم",
+    "category": "productivity",
+    "category_ar": "إنتاجية",
+    "description": "أداة ملاحظات اجتماعات AI مجانية مع أفضل دقة تفريغ وملخصات فورية",
+    "official_description": "Fathom — free AI meeting noter with best-in-class transcription accuracy and instant summaries.",
+    "features": [
+      "مجاني بالكامل للأفراد",
+      "أعلى دقة تفريغ",
+      "ملخصات فورية",
+      "تسليط على اللحظات المهمة",
+      "مشاركة مقاطع"
+    ],
+    "pricing": "$0 - $32/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "مجاني بالكامل للاستخدام الفردي",
+    "url": "https://fathom.video",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "اجتماعات",
+      "مجاني",
+      "ملاحظات",
+      "مقاطع"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "الأفراد الذين يريدون أداة ملاحظات اجتماعات مجانية وممتازة",
+    "description_en": "Free AI meeting notes tool with best transcription accuracy and instant summaries",
+    "tags_en": [
+      "meetings",
+      "free",
+      "notes",
+      "clips"
+    ],
+    "features_en": [
+      "Fully free for individuals",
+      "Best transcription accuracy",
+      "Instant summaries",
+      "Highlight key moments",
+      "Share clips"
+    ],
+    "best_for_en": "Individuals wanting a free and excellent meeting notes tool"
+  },
+  {
+    "id": 536,
+    "name": "Motion",
+    "name_ar": "موشن",
+    "category": "productivity",
+    "category_ar": "إنتاجية",
+    "description": "تطبيق تقويم وإدارة مهام ذكي يستخدم AI لجدولة يومك تلقائياً بأفضل طريقة",
+    "official_description": "Motion — AI-powered calendar and task manager that automatically schedules your day for peak productivity.",
+    "features": [
+      "جدولة تلقائية بالـ AI",
+      "إدارة مهام ذكية",
+      "حماية وقت التركيز",
+      "إدارة مشاريع",
+      "تكامل تقويم"
+    ],
+    "pricing": "$19 - $34/شهرياً",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "7 أيام تجربة مجانية",
+    "url": "https://www.usemotion.com",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "تقويم",
+      "مهام",
+      "جدولة",
+      "إنتاجية"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "المحترفين المشغولين الذين يريدون أتمتة جدولة يومهم",
+    "description_en": "AI calendar and task manager that automatically schedules your day for peak productivity",
+    "tags_en": [
+      "calendar",
+      "tasks",
+      "scheduling",
+      "productivity"
+    ],
+    "features_en": [
+      "AI auto-scheduling",
+      "Smart task management",
+      "Focus time protection",
+      "Project management",
+      "Calendar integration"
+    ],
+    "best_for_en": "Busy professionals wanting to automate their daily scheduling"
+  },
+  {
+    "id": 537,
+    "name": "Reclaim AI",
+    "name_ar": "ريكلايم AI",
+    "category": "productivity",
+    "category_ar": "إنتاجية",
+    "description": "أداة AI لحماية وقتك تلقائياً — تجدول العادات ووقت التركيز والمهام حول اجتماعاتك",
+    "official_description": "Reclaim AI — smart scheduling that protects habits, focus time, and tasks around your meetings.",
+    "features": [
+      "حماية العادات اليومية",
+      "جدولة مهام ذكية",
+      "روابط حجز ذكية",
+      "تحليلات الوقت",
+      "تكامل Google Calendar"
+    ],
+    "pricing": "$0 - $18/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "باقة مجانية مع ميزات أساسية",
+    "url": "https://reclaim.ai",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "وقت",
+      "عادات",
+      "جدولة",
+      "تقويم"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "من يريد حماية وقته الشخصي وعاداته من كثرة الاجتماعات",
+    "description_en": "AI tool that automatically protects your time — schedules habits, focus time, and tasks around meetings",
+    "tags_en": [
+      "time",
+      "habits",
+      "scheduling",
+      "calendar"
+    ],
+    "features_en": [
+      "Daily habit protection",
+      "Smart task scheduling",
+      "Smart booking links",
+      "Time analytics",
+      "Google Calendar integration"
+    ],
+    "best_for_en": "Those wanting to protect personal time and habits from meeting overload"
+  },
+  {
+    "id": 538,
+    "name": "Notion AI",
+    "name_ar": "نوشن AI",
+    "category": "productivity",
+    "category_ar": "إنتاجية",
+    "description": "مساعد AI مدمج في Notion يلخص ويكتب ويبحث في مستنداتك ومساحة عملك",
+    "official_description": "Notion AI — built-in AI assistant that summarizes, writes, and searches across your Notion workspace.",
+    "features": [
+      "تلخيص مستندات",
+      "كتابة محتوى",
+      "بحث ذكي في Workspace",
+      "ترجمة",
+      "استخراج مهام"
+    ],
+    "pricing": "$10/عضو/شهرياً (إضافة)",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "عدد محدود من الاستجابات مجاناً",
+    "url": "https://www.notion.so/product/ai",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "Notion",
+      "مستندات",
+      "بحث",
+      "إدارة معرفة"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "مستخدمي Notion الذين يريدون استخلاص أقصى قيمة من مساحة عملهم",
+    "description_en": "AI assistant built into Notion that summarizes, writes, and searches across your workspace",
+    "tags_en": [
+      "Notion",
+      "documents",
+      "search",
+      "knowledge management"
+    ],
+    "features_en": [
+      "Document summaries",
+      "Content writing",
+      "Smart workspace search",
+      "Translation",
+      "Task extraction"
+    ],
+    "best_for_en": "Notion users wanting maximum value from their workspace"
+  },
+  {
+    "id": 539,
+    "name": "Perplexity",
+    "name_ar": "بيربلكستي",
+    "category": "research",
+    "category_ar": "بحث",
+    "description": "محرك بحث AI الأفضل — يجيب بمصادر موثقة ويبحث في الإنترنت مباشرة بدقة عالية",
+    "official_description": "Perplexity — the best AI search engine with cited sources, real-time web search, and high accuracy.",
+    "features": [
+      "إجابات بمصادر موثقة",
+      "بحث ويب حي",
+      "عدة نماذج AI",
+      "مجموعات بحثية",
+      "API للمطورين"
+    ],
+    "pricing": "$0 - $20/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "استخدام مجاني غير محدود للنموذج الأساسي",
+    "url": "https://www.perplexity.ai",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "بحث AI",
+      "مصادر",
+      "إنترنت",
+      "دقة"
+    ],
+    "featured": true,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "أي شخص يريد إجابات دقيقة وموثقة من الإنترنت",
+    "description_en": "Best AI search engine — answers with cited sources and real-time web search with high accuracy",
+    "tags_en": [
+      "AI search",
+      "sources",
+      "internet",
+      "accuracy"
+    ],
+    "features_en": [
+      "Cited answers",
+      "Live web search",
+      "Multiple AI models",
+      "Research collections",
+      "Developer API"
+    ],
+    "best_for_en": "Anyone wanting accurate and sourced answers from the internet"
+  },
+  {
+    "id": 540,
+    "name": "Elicit",
+    "name_ar": "إليسيت",
+    "category": "research",
+    "category_ar": "بحث",
+    "description": "مساعد بحث أكاديمي AI يبحث في ملايين الأوراق العلمية ويستخلص النتائج والبيانات",
+    "official_description": "Elicit — AI research assistant that searches millions of academic papers and extracts findings and data.",
+    "features": [
+      "بحث في 200+ مليون ورقة",
+      "استخلاص بيانات تلقائي",
+      "مقارنة دراسات",
+      "تقييم جودة",
+      "تلخيص أوراق"
+    ],
+    "pricing": "$0 - $12/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "5,000 رصيد مجاني",
+    "url": "https://elicit.com",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "بحث أكاديمي",
+      "أوراق علمية",
+      "استخلاص",
+      "جامعات"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "الباحثين والطلاب الذين يحتاجون مراجعة أدبيات منهجية",
+    "description_en": "AI academic research assistant that searches millions of papers and extracts findings and data",
+    "tags_en": [
+      "academic research",
+      "papers",
+      "extraction",
+      "universities"
+    ],
+    "features_en": [
+      "Search 200M+ papers",
+      "Auto data extraction",
+      "Study comparison",
+      "Quality assessment",
+      "Paper summaries"
+    ],
+    "best_for_en": "Researchers and students needing systematic literature reviews"
+  },
+  {
+    "id": 541,
+    "name": "Consensus",
+    "name_ar": "كونسينسس",
+    "category": "research",
+    "category_ar": "بحث",
+    "description": "محرك بحث أكاديمي AI يجيب عن الأسئلة العلمية من الأوراق المحكّمة مباشرة",
+    "official_description": "Consensus — AI search engine that answers scientific questions directly from peer-reviewed papers.",
+    "features": [
+      "إجابات من أوراق محكّمة",
+      "مقياس إجماع علمي",
+      "ملخصات دراسات",
+      "بحث بالأسئلة",
+      "تصفية بالموضوع"
+    ],
+    "pricing": "$0 - $8.99/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "20 بحث مجاني يومياً",
+    "url": "https://consensus.app",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "بحث علمي",
+      "أوراق",
+      "إجماع",
+      "صحة"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "الباحثين عن إجابات علمية موثقة لأسئلة محددة",
+    "description_en": "AI academic search engine answering scientific questions directly from peer-reviewed papers",
+    "tags_en": [
+      "scientific search",
+      "papers",
+      "consensus",
+      "health"
+    ],
+    "features_en": [
+      "Answers from peer-reviewed papers",
+      "Scientific consensus meter",
+      "Study summaries",
+      "Question-based search",
+      "Topic filtering"
+    ],
+    "best_for_en": "Those seeking scientifically verified answers to specific questions"
+  },
+  {
+    "id": 542,
+    "name": "Ideogram",
+    "name_ar": "آيديوغرام",
+    "category": "creative",
+    "category_ar": "إبداعي",
+    "description": "أداة AI لتوليد صور مع أفضل دعم للنصوص داخل الصور — ممتازة للشعارات والملصقات",
+    "official_description": "Ideogram — AI image generation with best-in-class text rendering, perfect for logos and posters.",
+    "features": [
+      "أفضل نص داخل الصور",
+      "شعارات وملصقات",
+      "أنماط متنوعة",
+      "دقة عالية",
+      "تحرير وتنقيح"
+    ],
+    "pricing": "$0 - $60/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "10 صور مجانية يومياً",
+    "url": "https://ideogram.ai",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "نص في صور",
+      "شعارات",
+      "توليد صور",
+      "تصميم"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "المصممين ومنشئي المحتوى الذين يحتاجون نصوص دقيقة في الصور",
+    "description_en": "AI image generation with best-in-class text rendering — excellent for logos and posters",
+    "tags_en": [
+      "text in images",
+      "logos",
+      "image generation",
+      "design"
+    ],
+    "features_en": [
+      "Best text-in-image",
+      "Logos and posters",
+      "Multiple styles",
+      "High resolution",
+      "Edit and refine"
+    ],
+    "best_for_en": "Designers and creators needing accurate text in generated images"
+  },
+  {
+    "id": 543,
+    "name": "Luma Dream Machine",
+    "name_ar": "لوما دريم ماشين",
+    "category": "creative",
+    "category_ar": "إبداعي",
+    "description": "أداة AI لتوليد فيديوهات واقعية بسرعة فائقة من نص أو صورة مع تحكم بالكاميرا",
+    "official_description": "Luma Dream Machine — fast AI video generation from text or image with realistic motion and camera control.",
+    "features": [
+      "توليد فيديو سريع",
+      "تحويل صورة لفيديو",
+      "تحكم بالكاميرا",
+      "حركة طبيعية",
+      "API متاح"
+    ],
+    "pricing": "$0 - $499/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "30 توليد مجاني شهرياً",
+    "url": "https://lumalabs.ai",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "فيديو",
+      "3D",
+      "واقعي",
+      "سريع"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "المبدعين الذين يحتاجون فيديوهات AI سريعة ومتنوعة",
+    "description_en": "Fast AI video generation from text or image with realistic motion and camera control",
+    "tags_en": [
+      "video",
+      "3D",
+      "realistic",
+      "fast"
+    ],
+    "features_en": [
+      "Fast video generation",
+      "Image-to-video",
+      "Camera control",
+      "Natural motion",
+      "API available"
+    ],
+    "best_for_en": "Creators needing fast and versatile AI videos"
+  },
+  {
+    "id": 544,
+    "name": "Descript",
+    "name_ar": "ديسكريبت",
+    "category": "creative",
+    "category_ar": "إبداعي",
+    "description": "محرر فيديو وبودكاست AI — عدّل الفيديو بتحرير النص كأنك تكتب مستنداً",
+    "official_description": "Descript — AI video and podcast editor where you edit media by editing text, like a document.",
+    "features": [
+      "تحرير فيديو بالنص",
+      "إزالة كلمات الحشو",
+      "استنساخ صوتك",
+      "تفريغ تلقائي",
+      "مشاركة مقاطع"
+    ],
+    "pricing": "$0 - $33/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "ساعة تفريغ مجانية شهرياً",
+    "url": "https://www.descript.com",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "تحرير فيديو",
+      "بودكاست",
+      "تفريغ",
+      "سهل"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "صناع البودكاست والفيديو الذين يريدون تحريراً سريعاً وسهلاً",
+    "description_en": "AI video and podcast editor — edit video by editing text like a document",
+    "tags_en": [
+      "video editing",
+      "podcast",
+      "transcription",
+      "easy"
+    ],
+    "features_en": [
+      "Text-based video editing",
+      "Filler word removal",
+      "Voice cloning",
+      "Auto transcription",
+      "Clip sharing"
+    ],
+    "best_for_en": "Podcasters and video creators wanting fast and easy editing"
+  },
+  {
+    "id": 545,
+    "name": "Suno",
+    "name_ar": "سونو",
+    "category": "creative",
+    "category_ar": "إبداعي",
+    "description": "أداة AI لتوليد أغانٍ كاملة بالموسيقى والغناء من وصف نصي بأي نمط موسيقي",
+    "official_description": "Suno — AI music generator that creates complete songs with vocals and instrumentals from text prompts.",
+    "features": [
+      "توليد أغانٍ كاملة",
+      "غناء AI واقعي",
+      "كل الأنماط الموسيقية",
+      "كلمات مخصصة",
+      "تحميل MP3"
+    ],
+    "pricing": "$0 - $30/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "50 رصيد مجاني يومياً",
+    "url": "https://suno.com",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "موسيقى AI",
+      "أغاني",
+      "غناء",
+      "إبداع"
+    ],
+    "featured": true,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "أي شخص يريد إنشاء موسيقى وأغانٍ أصلية بالذكاء الاصطناعي",
+    "description_en": "AI tool for generating complete songs with music and vocals from text descriptions in any style",
+    "tags_en": [
+      "AI music",
+      "songs",
+      "vocals",
+      "creative"
+    ],
+    "features_en": [
+      "Full song generation",
+      "Realistic AI vocals",
+      "All music genres",
+      "Custom lyrics",
+      "MP3 download"
+    ],
+    "best_for_en": "Anyone wanting to create original AI music and songs"
+  },
+  {
+    "id": 546,
+    "name": "Udio",
+    "name_ar": "يوديو",
+    "category": "creative",
+    "category_ar": "إبداعي",
+    "description": "منافس Suno لتوليد الموسيقى AI — ينتج مقاطع موسيقية بجودة استوديو من أوصاف نصية",
+    "official_description": "Udio — AI music creation platform generating studio-quality tracks from text prompts.",
+    "features": [
+      "جودة صوت استوديو",
+      "تحكم بالنمط",
+      "إطالة المقاطع",
+      "كلمات مخصصة",
+      "تنزيل بدون علامة مائية"
+    ],
+    "pricing": "$0 - $30/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "10 أغانٍ مجانية شهرياً",
+    "url": "https://www.udio.com",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "موسيقى",
+      "استوديو",
+      "AI",
+      "إبداع"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "الموسيقيين ومنشئي المحتوى الباحثين عن موسيقى AI بجودة احترافية",
+    "description_en": "Suno competitor for AI music generation — produces studio-quality tracks from text descriptions",
+    "tags_en": [
+      "music",
+      "studio",
+      "AI",
+      "creative"
+    ],
+    "features_en": [
+      "Studio audio quality",
+      "Style control",
+      "Track extension",
+      "Custom lyrics",
+      "Watermark-free download"
+    ],
+    "best_for_en": "Musicians and creators seeking professional-quality AI music"
+  },
+  {
+    "id": 547,
+    "name": "Gamma",
+    "name_ar": "غاما",
+    "category": "productivity",
+    "category_ar": "إنتاجية",
+    "description": "أداة AI لإنشاء عروض تقديمية ومستندات وصفحات ويب احترافية من وصف نصي في ثوانٍ",
+    "official_description": "Gamma — AI-powered tool for creating presentations, documents, and web pages from text in seconds.",
+    "features": [
+      "عروض تقديمية AI",
+      "مستندات تفاعلية",
+      "صفحات ويب",
+      "قوالب احترافية",
+      "تصدير PDF وPPTX"
+    ],
+    "pricing": "$0 - $20/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "400 رصيد AI مجاني",
+    "url": "https://gamma.app",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "عروض تقديمية",
+      "مستندات",
+      "AI",
+      "تصميم"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "المحترفين الذين يحتاجون عروض تقديمية سريعة واحترافية",
+    "description_en": "AI tool for creating professional presentations, documents, and web pages from text in seconds",
+    "tags_en": [
+      "presentations",
+      "documents",
+      "AI",
+      "design"
+    ],
+    "features_en": [
+      "AI presentations",
+      "Interactive documents",
+      "Web pages",
+      "Professional templates",
+      "PDF & PPTX export"
+    ],
+    "best_for_en": "Professionals needing quick professional presentations"
+  },
+  {
+    "id": 548,
+    "name": "tl;dv",
+    "name_ar": "تي إل دي في",
+    "category": "productivity",
+    "category_ar": "إنتاجية",
+    "description": "مسجل اجتماعات AI يوفر تفريغ وملخصات ومقاطع ذكية لـ Zoom وTeams وMeet",
+    "official_description": "tl;dv — AI meeting recorder with transcription, summaries, and smart clips for Zoom, Teams, and Meet.",
+    "features": [
+      "تسجيل تلقائي",
+      "ملخصات AI مخصصة",
+      "مقاطع ذكية",
+      "تكامل CRM",
+      "بحث عبر الاجتماعات"
+    ],
+    "pricing": "$0 - $30/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "تسجيلات غير محدودة + AI محدود مجاناً",
+    "url": "https://tldv.io",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "اجتماعات",
+      "تسجيل",
+      "ملخصات",
+      "Zoom"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "الفرق التي تريد مسجل اجتماعات مجاني مع ملخصات ذكية",
+    "description_en": "AI meeting recorder with transcription, summaries, and smart clips for Zoom, Teams, and Meet",
+    "tags_en": [
+      "meetings",
+      "recording",
+      "summaries",
+      "Zoom"
+    ],
+    "features_en": [
+      "Auto recording",
+      "Custom AI summaries",
+      "Smart clips",
+      "CRM integration",
+      "Cross-meeting search"
+    ],
+    "best_for_en": "Teams wanting a free meeting recorder with smart summaries"
+  },
+  {
+    "id": 549,
+    "name": "Replit Agent",
+    "name_ar": "ريبلت إيجنت",
+    "category": "coding",
+    "category_ar": "برمجة",
+    "description": "وكيل AI لبناء تطبيقات كاملة في المتصفح — يكتب الكود وينشره على الإنترنت فوراً",
+    "official_description": "Replit Agent — AI agent that builds and deploys complete applications in the browser instantly.",
+    "features": [
+      "بناء تطبيقات كاملة",
+      "نشر فوري",
+      "قاعدة بيانات مدمجة",
+      "استضافة مجانية",
+      "50+ لغة برمجة"
+    ],
+    "pricing": "$0 - $25/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "باقة مجانية مع وكيل محدود",
+    "url": "https://replit.com",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "بناء تطبيقات",
+      "نشر",
+      "متصفح",
+      "وكيل"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "المبتدئين والمطورين الذين يريدون بناء ونشر تطبيقات بسرعة",
+    "description_en": "AI agent for building complete applications in the browser — writes code and deploys instantly",
+    "tags_en": [
+      "app building",
+      "deploy",
+      "browser",
+      "agent"
+    ],
+    "features_en": [
+      "Build complete apps",
+      "Instant deploy",
+      "Built-in database",
+      "Free hosting",
+      "50+ languages"
+    ],
+    "best_for_en": "Beginners and developers wanting to build and deploy apps quickly"
+  },
+  {
+    "id": 550,
+    "name": "JetBrains AI",
+    "name_ar": "جيت براينز AI",
+    "category": "coding",
+    "category_ar": "برمجة",
+    "description": "مساعد AI مدمج في كل IDEs من JetBrains مع إكمال ذكي ودردشة وتحليل كود",
+    "official_description": "JetBrains AI — built-in AI assistant across all JetBrains IDEs with smart completion, chat, and code analysis.",
+    "features": [
+      "مدمج في كل JetBrains IDEs",
+      "إكمال كود متقدم",
+      "دردشة AI",
+      "إعادة هيكلة ذكية",
+      "شرح كود"
+    ],
+    "pricing": "$8.33/شهرياً",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "تجربة مجانية محدودة مع الاشتراك",
+    "url": "https://www.jetbrains.com/ai/",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "JetBrains",
+      "IDE",
+      "إكمال كود",
+      "مدمج"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "مطوري Java وKotlin وPython الذين يستخدمون JetBrains",
+    "description_en": "AI assistant built into all JetBrains IDEs with smart completion, chat, and code analysis",
+    "tags_en": [
+      "JetBrains",
+      "IDE",
+      "code completion",
+      "integrated"
+    ],
+    "features_en": [
+      "Built into all JetBrains IDEs",
+      "Advanced code completion",
+      "AI chat",
+      "Smart refactoring",
+      "Code explanation"
+    ],
+    "best_for_en": "Java, Kotlin, and Python developers using JetBrains IDEs"
+  },
+  {
+    "id": 551,
+    "name": "Intercom Fin",
+    "name_ar": "إنتركوم فين",
+    "category": "customer-support",
+    "category_ar": "دعم العملاء",
+    "description": "وكيل دعم عملاء AI من Intercom يحل 80% من الاستفسارات تلقائياً بتسعير لكل حل",
+    "official_description": "Intercom Fin — AI customer support agent that resolves 80% of queries automatically with per-resolution pricing.",
+    "features": [
+      "حل تلقائي 80% من الاستفسارات",
+      "تعلم من قاعدة معرفتك",
+      "تسليم سلس للبشر",
+      "دعم متعدد اللغات",
+      "تحليلات أداء"
+    ],
+    "pricing": "$0.99/لكل حل",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "14 يوم تجربة مجانية",
+    "url": "https://www.intercom.com/fin",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "دعم عملاء",
+      "وكيل AI",
+      "SaaS",
+      "تذاكر"
+    ],
+    "featured": true,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "شركات SaaS التي تريد أتمتة دعم العملاء بجودة عالية",
+    "description_en": "Intercom's AI support agent resolving 80% of queries automatically with per-resolution pricing",
+    "tags_en": [
+      "customer support",
+      "AI agent",
+      "SaaS",
+      "tickets"
+    ],
+    "features_en": [
+      "Auto-resolve 80% of queries",
+      "Learns from your knowledge base",
+      "Seamless human handoff",
+      "Multilingual support",
+      "Performance analytics"
+    ],
+    "best_for_en": "SaaS companies wanting high-quality automated customer support"
+  },
+  {
+    "id": 552,
+    "name": "Zendesk AI",
+    "name_ar": "زندسك AI",
+    "category": "customer-support",
+    "category_ar": "دعم العملاء",
+    "description": "وكلاء AI مدمجون في Zendesk لأتمتة التذاكر وتوجيه المحادثات وتحليل مشاعر العملاء",
+    "official_description": "Zendesk AI — built-in AI agents for ticket automation, conversation routing, and customer sentiment analysis.",
+    "features": [
+      "وكلاء AI للتذاكر",
+      "توجيه ذكي",
+      "تحليل مشاعر",
+      "ردود مقترحة",
+      "تكامل omnichannel"
+    ],
+    "pricing": "$55 - $115/وكيل/شهرياً",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "14 يوم تجربة مجانية",
+    "url": "https://www.zendesk.com/ai/",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "دعم عملاء",
+      "تذاكر",
+      "Zendesk",
+      "مؤسسات"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "الشركات الكبيرة التي تستخدم Zendesk وتريد أتمتة الدعم",
+    "description_en": "Built-in AI agents in Zendesk for ticket automation, routing, and sentiment analysis",
+    "tags_en": [
+      "customer support",
+      "tickets",
+      "Zendesk",
+      "enterprise"
+    ],
+    "features_en": [
+      "AI ticket agents",
+      "Smart routing",
+      "Sentiment analysis",
+      "Suggested replies",
+      "Omnichannel integration"
+    ],
+    "best_for_en": "Large companies using Zendesk wanting to automate support"
+  },
+  {
+    "id": 553,
+    "name": "Ada",
+    "name_ar": "أدا",
+    "category": "customer-support",
+    "category_ar": "دعم العملاء",
+    "description": "منصة خدمة عملاء AI مؤتمتة بالكامل تتحدث مع العملاء وتحل مشاكلهم بدون تدخل بشري",
+    "official_description": "Ada — fully automated AI customer service platform that resolves customer issues without human intervention.",
+    "features": [
+      "أتمتة كاملة",
+      "دعم صوتي ونصي",
+      "50+ لغة",
+      "تكامل مع أي نظام خلفي",
+      "تحليلات متقدمة"
+    ],
+    "pricing": "تسعير مخصص",
+    "pricing_type": "enterprise",
+    "has_free_trial": true,
+    "free_trial_details": "عرض تجريبي مخصص",
+    "url": "https://www.ada.cx",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "خدمة عملاء",
+      "أتمتة",
+      "صوتي",
+      "مؤسسات"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "المؤسسات الكبيرة التي تريد أتمتة خدمة العملاء بالكامل",
+    "description_en": "Fully automated AI customer service platform resolving issues without human intervention",
+    "tags_en": [
+      "customer service",
+      "automation",
+      "voice",
+      "enterprise"
+    ],
+    "features_en": [
+      "Full automation",
+      "Voice and text support",
+      "50+ languages",
+      "Any backend integration",
+      "Advanced analytics"
+    ],
+    "best_for_en": "Large enterprises wanting fully automated customer service"
+  },
+  {
+    "id": 554,
+    "name": "Tidio",
+    "name_ar": "تيديو",
+    "category": "customer-support",
+    "category_ar": "دعم العملاء",
+    "description": "منصة دعم عملاء AI مع وكيل Lyro للمتاجر الإلكترونية والمواقع — سهلة الإعداد وبأسعار معقولة",
+    "official_description": "Tidio — AI customer support with Lyro agent for e-commerce and websites, easy setup and affordable pricing.",
+    "features": [
+      "وكيل Lyro AI",
+      "دردشة مباشرة",
+      "روبوتات تدفق",
+      "تكامل Shopify",
+      "صندوق وارد موحد"
+    ],
+    "pricing": "$0 - $749/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "50 محادثة مجانية + دردشة مباشرة",
+    "url": "https://www.tidio.com",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "دردشة",
+      "متاجر",
+      "Shopify",
+      "دعم"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "المتاجر الإلكترونية الصغيرة والمتوسطة",
+    "description_en": "AI support platform with Lyro agent for e-commerce — easy setup and affordable",
+    "tags_en": [
+      "chat",
+      "e-commerce",
+      "Shopify",
+      "support"
+    ],
+    "features_en": [
+      "Lyro AI agent",
+      "Live chat",
+      "Flow bots",
+      "Shopify integration",
+      "Unified inbox"
+    ],
+    "best_for_en": "Small and medium e-commerce stores"
+  },
+  {
+    "id": 555,
+    "name": "Decagon",
+    "name_ar": "ديكاغون",
+    "category": "customer-support",
+    "category_ar": "دعم العملاء",
+    "description": "وكلاء دعم AI للمؤسسات بأعلى نسبة احتواء — يتعامل مع الحالات المعقدة بذكاء",
+    "official_description": "Decagon — enterprise AI support agents with highest containment rates for complex customer cases.",
+    "features": [
+      "أعلى نسبة احتواء",
+      "تعامل مع حالات معقدة",
+      "تكامل عميق مع الأنظمة",
+      "تحليلات مفصلة",
+      "أمان مؤسسي"
+    ],
+    "pricing": "تسعير مخصص",
+    "pricing_type": "enterprise",
+    "has_free_trial": true,
+    "free_trial_details": "عرض تجريبي وPOC مخصص",
+    "url": "https://decagon.ai",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "مؤسسات",
+      "دعم معقد",
+      "احتواء",
+      "AI"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "المؤسسات الكبيرة ذات حجم تذاكر عالي ومعقد",
+    "description_en": "Enterprise AI support agents with highest containment rates for complex cases",
+    "tags_en": [
+      "enterprise",
+      "complex support",
+      "containment",
+      "AI"
+    ],
+    "features_en": [
+      "Highest containment rate",
+      "Complex case handling",
+      "Deep system integration",
+      "Detailed analytics",
+      "Enterprise security"
+    ],
+    "best_for_en": "Large enterprises with high-volume complex support tickets"
+  },
+  {
+    "id": 556,
+    "name": "Sierra AI",
+    "name_ar": "سييرا AI",
+    "category": "customer-support",
+    "category_ar": "دعم العملاء",
+    "description": "وكيل AI للمحادثات الصوتية والنصية — يوحد تجربة دعم العملاء عبر كل القنوات",
+    "official_description": "Sierra AI — unified voice and chat AI agent for seamless customer experience across all channels.",
+    "features": [
+      "صوت + دردشة موحد",
+      "شخصية علامة تجارية",
+      "إجراءات حقيقية",
+      "تحليلات QA",
+      "تكامل شامل"
+    ],
+    "pricing": "تسعير مخصص",
+    "pricing_type": "enterprise",
+    "has_free_trial": true,
+    "free_trial_details": "عرض تجريبي مخصص",
+    "url": "https://sierra.ai",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "صوت",
+      "دردشة",
+      "omnichannel",
+      "علامة تجارية"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "الشركات التي تريد وكيل AI موحد للصوت والدردشة",
+    "description_en": "Unified voice and chat AI agent for seamless customer experience across all channels",
+    "tags_en": [
+      "voice",
+      "chat",
+      "omnichannel",
+      "brand"
+    ],
+    "features_en": [
+      "Unified voice + chat",
+      "Brand personality",
+      "Real actions",
+      "QA analytics",
+      "Full integration"
+    ],
+    "best_for_en": "Companies wanting a unified voice and chat AI agent"
+  },
+  {
+    "id": 557,
+    "name": "Clay",
+    "name_ar": "كلاي",
+    "category": "sales-marketing",
+    "category_ar": "مبيعات وتسويق",
+    "description": "منصة إثراء بيانات العملاء المحتملين بالـ AI — تجمع معلومات من 75+ مصدر وتكتب رسائل مخصصة",
+    "official_description": "Clay — AI-powered lead enrichment platform combining data from 75+ sources for personalized outreach.",
+    "features": [
+      "75+ مصدر بيانات",
+      "إثراء تلقائي",
+      "كتابة رسائل AI",
+      "تكامل CRM",
+      "تسجيل نقاط العملاء"
+    ],
+    "pricing": "$0 - $720/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "100 رصيد مجاني شهرياً",
+    "url": "https://www.clay.com",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "إثراء بيانات",
+      "تنقيب",
+      "مبيعات",
+      "تخصيص"
+    ],
+    "featured": true,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "فرق المبيعات التي تحتاج بيانات غنية ورسائل مخصصة لكل عميل",
+    "description_en": "AI lead enrichment platform combining data from 75+ sources for personalized outreach",
+    "tags_en": [
+      "data enrichment",
+      "prospecting",
+      "sales",
+      "personalization"
+    ],
+    "features_en": [
+      "75+ data sources",
+      "Auto enrichment",
+      "AI message writing",
+      "CRM integration",
+      "Lead scoring"
+    ],
+    "best_for_en": "Sales teams needing rich data and personalized messages for each lead"
+  },
+  {
+    "id": 558,
+    "name": "Apollo.io",
+    "name_ar": "أبولو",
+    "category": "sales-marketing",
+    "category_ar": "مبيعات وتسويق",
+    "description": "منصة ذكاء مبيعات AI شاملة مع قاعدة بيانات 275+ مليون جهة اتصال وأتمتة التواصل",
+    "official_description": "Apollo.io — all-in-one AI sales intelligence platform with 275M+ contacts and outreach automation.",
+    "features": [
+      "275+ مليون جهة اتصال",
+      "بحث متقدم",
+      "تسلسلات بريد آلية",
+      "تحليلات مكالمات",
+      "تكامل CRM"
+    ],
+    "pricing": "$0 - $119/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "باقة مجانية مع 60 رصيد شهرياً",
+    "url": "https://www.apollo.io",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "مبيعات",
+      "قاعدة بيانات",
+      "تواصل",
+      "CRM"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "فرق المبيعات الباحثة عن منصة شاملة للتنقيب والتواصل",
+    "description_en": "All-in-one AI sales intelligence with 275M+ contacts and outreach automation",
+    "tags_en": [
+      "sales",
+      "database",
+      "outreach",
+      "CRM"
+    ],
+    "features_en": [
+      "275M+ contacts",
+      "Advanced search",
+      "Auto email sequences",
+      "Call analytics",
+      "CRM integration"
+    ],
+    "best_for_en": "Sales teams seeking comprehensive prospecting and outreach platform"
+  },
+  {
+    "id": 559,
+    "name": "Gong",
+    "name_ar": "غونغ",
+    "category": "sales-marketing",
+    "category_ar": "مبيعات وتسويق",
+    "description": "منصة ذكاء إيرادات AI تحلل مكالمات المبيعات وتقدم رؤى لتحسين معدلات الإغلاق",
+    "official_description": "Gong — AI revenue intelligence platform analyzing sales calls and providing insights to improve close rates.",
+    "features": [
+      "تحليل مكالمات AI",
+      "توقع الصفقات",
+      "تدريب المندوبين",
+      "رؤى pipeline",
+      "تكامل CRM"
+    ],
+    "pricing": "تسعير مخصص (يبدأ ~$100/مستخدم)",
+    "pricing_type": "enterprise",
+    "has_free_trial": true,
+    "free_trial_details": "عرض تجريبي مخصص",
+    "url": "https://www.gong.io",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "ذكاء إيرادات",
+      "مكالمات",
+      "تدريب",
+      "مبيعات"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "فرق المبيعات الكبيرة التي تريد تحسين أداء المندوبين",
+    "description_en": "AI revenue intelligence analyzing sales calls to improve close rates",
+    "tags_en": [
+      "revenue intelligence",
+      "calls",
+      "coaching",
+      "sales"
+    ],
+    "features_en": [
+      "AI call analysis",
+      "Deal forecasting",
+      "Rep coaching",
+      "Pipeline insights",
+      "CRM integration"
+    ],
+    "best_for_en": "Large sales teams wanting to improve rep performance"
+  },
+  {
+    "id": 560,
+    "name": "HubSpot Breeze",
+    "name_ar": "هابسبوت بريز",
+    "category": "sales-marketing",
+    "category_ar": "مبيعات وتسويق",
+    "description": "وكلاء AI مدمجون في HubSpot للمحتوى والتنقيب وخدمة العملاء والتواصل الاجتماعي",
+    "official_description": "HubSpot Breeze — built-in AI agents for content, prospecting, customer service, and social media in HubSpot.",
+    "features": [
+      "وكيل محتوى",
+      "وكيل تنقيب",
+      "وكيل خدمة عملاء",
+      "وكيل تواصل اجتماعي",
+      "إثراء بيانات Breeze"
+    ],
+    "pricing": "مع اشتراك HubSpot",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "ضمن تجربة HubSpot المجانية",
+    "url": "https://www.hubspot.com/products/artificial-intelligence",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "HubSpot",
+      "CRM",
+      "تسويق",
+      "وكلاء AI"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "مستخدمي HubSpot الذين يريدون أتمتة AI مدمجة",
+    "description_en": "Built-in AI agents in HubSpot for content, prospecting, service, and social media",
+    "tags_en": [
+      "HubSpot",
+      "CRM",
+      "marketing",
+      "AI agents"
+    ],
+    "features_en": [
+      "Content agent",
+      "Prospecting agent",
+      "Service agent",
+      "Social agent",
+      "Breeze data enrichment"
+    ],
+    "best_for_en": "HubSpot users wanting integrated AI automation"
+  },
+  {
+    "id": 561,
+    "name": "Outreach",
+    "name_ar": "آوتريتش",
+    "category": "sales-marketing",
+    "category_ar": "مبيعات وتسويق",
+    "description": "منصة أتمتة المبيعات AI الرائدة — تدير التسلسلات وتحلل المحادثات وتتوقع الصفقات",
+    "official_description": "Outreach — leading AI sales execution platform managing sequences, analyzing conversations, and forecasting deals.",
+    "features": [
+      "تسلسلات بريد متقدمة",
+      "تحليل محادثات AI",
+      "توقع pipeline",
+      "أتمتة سير العمل",
+      "تقارير مفصلة"
+    ],
+    "pricing": "تسعير مخصص (يبدأ ~$100/مستخدم)",
+    "pricing_type": "enterprise",
+    "has_free_trial": true,
+    "free_trial_details": "عرض تجريبي مخصص",
+    "url": "https://www.outreach.io",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "أتمتة مبيعات",
+      "تسلسلات",
+      "توقع",
+      "مؤسسات"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "فرق مبيعات المؤسسات ذات حجم التواصل العالي",
+    "description_en": "Leading AI sales execution platform managing sequences, conversations, and deal forecasting",
+    "tags_en": [
+      "sales automation",
+      "sequences",
+      "forecasting",
+      "enterprise"
+    ],
+    "features_en": [
+      "Advanced email sequences",
+      "AI conversation analysis",
+      "Pipeline forecasting",
+      "Workflow automation",
+      "Detailed reports"
+    ],
+    "best_for_en": "Enterprise sales teams with high outreach volume"
+  },
+  {
+    "id": 562,
+    "name": "Lavender",
+    "name_ar": "لافندر",
+    "category": "sales-marketing",
+    "category_ar": "مبيعات وتسويق",
+    "description": "مساعد AI لكتابة رسائل بريد مبيعات أفضل — يحلل ويقيّم ويحسّن كل رسالة فوراً",
+    "official_description": "Lavender — AI email coach that analyzes, scores, and improves every sales email in real-time.",
+    "features": [
+      "تقييم البريد فوراً",
+      "اقتراحات تحسين",
+      "تحليل شخصية المستلم",
+      "تكامل Gmail وOutlook",
+      "تدريب الفرق"
+    ],
+    "pricing": "$0 - $49/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "5 رسائل مجانية يومياً",
+    "url": "https://www.lavender.ai",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "بريد مبيعات",
+      "كتابة",
+      "تحسين",
+      "تدريب"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "مندوبي المبيعات الذين يكتبون رسائل بريد كثيرة",
+    "description_en": "AI email coach that analyzes, scores, and improves every sales email in real-time",
+    "tags_en": [
+      "sales email",
+      "writing",
+      "optimization",
+      "coaching"
+    ],
+    "features_en": [
+      "Instant email scoring",
+      "Improvement suggestions",
+      "Recipient personality analysis",
+      "Gmail & Outlook integration",
+      "Team coaching"
+    ],
+    "best_for_en": "Sales reps writing lots of outbound emails"
+  },
+  {
+    "id": 563,
+    "name": "Julius AI",
+    "name_ar": "جوليوس AI",
+    "category": "data-analytics",
+    "category_ar": "تحليل بيانات",
+    "description": "أسهل منصة AI لتحليل البيانات — ارفع ملفك واسأل بالعربية وتحصل على رسوم بيانية فوراً",
+    "official_description": "Julius AI — the easiest AI data analysis platform. Upload files, ask in natural language, get charts instantly.",
+    "features": [
+      "تحليل بلغة طبيعية",
+      "رسوم بيانية تلقائية",
+      "تنظيف بيانات",
+      "دعم Excel وCSV",
+      "تصدير تقارير"
+    ],
+    "pricing": "$0 - $45/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "باقة مجانية مع ميزات أساسية",
+    "url": "https://julius.ai",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "تحليل بيانات",
+      "رسوم بيانية",
+      "Excel",
+      "سهل"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "غير التقنيين الذين يحتاجون تحليل بيانات سريع ومرئي",
+    "description_en": "Easiest AI data analysis — upload files, ask in natural language, get charts instantly",
+    "tags_en": [
+      "data analysis",
+      "charts",
+      "Excel",
+      "easy"
+    ],
+    "features_en": [
+      "Natural language analysis",
+      "Auto charts",
+      "Data cleaning",
+      "Excel & CSV support",
+      "Report export"
+    ],
+    "best_for_en": "Non-technical users needing quick visual data analysis"
+  },
+  {
+    "id": 564,
+    "name": "Hex",
+    "name_ar": "هيكس",
+    "category": "data-analytics",
+    "category_ar": "تحليل بيانات",
+    "description": "منصة تحليل بيانات تعاونية للفرق مع AI يساعد في كتابة SQL وPython وإنشاء لوحات",
+    "official_description": "Hex — collaborative data analytics platform with AI-assisted SQL, Python, and dashboard creation for teams.",
+    "features": [
+      "وكيل AI للتحليل",
+      "SQL وPython",
+      "لوحات تفاعلية",
+      "تعاون فريق",
+      "اتصال بأي مصدر بيانات"
+    ],
+    "pricing": "$0 - $28/مستخدم/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "باقة Community مجانية",
+    "url": "https://hex.tech",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "تحليل بيانات",
+      "SQL",
+      "Python",
+      "فرق"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "فرق البيانات التي تحتاج تحليل تعاوني مع AI",
+    "description_en": "Collaborative data analytics with AI-assisted SQL, Python, and dashboards for teams",
+    "tags_en": [
+      "data analytics",
+      "SQL",
+      "Python",
+      "teams"
+    ],
+    "features_en": [
+      "AI analysis agent",
+      "SQL & Python",
+      "Interactive dashboards",
+      "Team collaboration",
+      "Connect any data source"
+    ],
+    "best_for_en": "Data teams needing collaborative AI-assisted analytics"
+  },
+  {
+    "id": 565,
+    "name": "Akkio",
+    "name_ar": "أكيو",
+    "category": "data-analytics",
+    "category_ar": "تحليل بيانات",
+    "description": "منصة AI للتنبؤ وتحليل البيانات بدون كود — بناء نماذج تعلم آلي بسحب وإفلات",
+    "official_description": "Akkio — no-code AI prediction and analytics platform. Build ML models with drag and drop.",
+    "features": [
+      "تنبؤ بدون كود",
+      "نماذج تعلم آلي",
+      "لوحات بيانية",
+      "API للتكامل",
+      "بيانات حية"
+    ],
+    "pricing": "$49 - $999/شهرياً",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "14 يوم تجربة مجانية",
+    "url": "https://www.akkio.com",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "تنبؤ",
+      "تعلم آلي",
+      "بدون كود",
+      "بيانات"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "الشركات التي تريد تنبؤات AI بدون كتابة كود",
+    "description_en": "No-code AI prediction and analytics — build ML models with drag and drop",
+    "tags_en": [
+      "prediction",
+      "machine learning",
+      "no-code",
+      "data"
+    ],
+    "features_en": [
+      "No-code prediction",
+      "ML models",
+      "Data dashboards",
+      "API integration",
+      "Live data"
+    ],
+    "best_for_en": "Companies wanting AI predictions without writing code"
+  },
+  {
+    "id": 566,
+    "name": "Rows AI",
+    "name_ar": "روز AI",
+    "category": "data-analytics",
+    "category_ar": "تحليل بيانات",
+    "description": "جداول بيانات ذكية مع AI مدمج — حلل واستخلص ولخّص البيانات داخل الجدول مباشرة",
+    "official_description": "Rows AI — smart spreadsheets with built-in AI for analyzing, extracting, and summarizing data directly.",
+    "features": [
+      "AI داخل الجدول",
+      "تحليل تلقائي",
+      "استخلاص بيانات ويب",
+      "رسوم بيانية",
+      "تكامل APIs"
+    ],
+    "pricing": "$0 - $9/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "باقة مجانية مع 100 صف AI",
+    "url": "https://rows.com",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "جداول بيانات",
+      "AI",
+      "تحليل",
+      "رخيص"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "من يريد تحليل بيانات AI بأقل تكلفة في بيئة جداول مألوفة",
+    "description_en": "Smart spreadsheets with built-in AI for analysis, extraction, and summarization",
+    "tags_en": [
+      "spreadsheets",
+      "AI",
+      "analysis",
+      "affordable"
+    ],
+    "features_en": [
+      "In-spreadsheet AI",
+      "Auto analysis",
+      "Web data extraction",
+      "Charts",
+      "API integrations"
+    ],
+    "best_for_en": "Those wanting AI data analysis at lowest cost in a familiar spreadsheet"
+  },
+  {
+    "id": 567,
+    "name": "Snyk",
+    "name_ar": "سنيك",
+    "category": "security",
+    "category_ar": "أمن",
+    "description": "منصة أمان AI للمطورين — تفحص الكود والتبعيات والحاويات والبنية التحتية وتصلح الثغرات",
+    "official_description": "Snyk — AI security platform for developers scanning code, dependencies, containers, and infrastructure.",
+    "features": [
+      "فحص كود SAST",
+      "فحص تبعيات SCA",
+      "أمان الحاويات",
+      "أمان IaC",
+      "إصلاح تلقائي"
+    ],
+    "pricing": "$0 - $25/مطور/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "باقة مجانية مع فحوصات محدودة",
+    "url": "https://snyk.io",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "أمان",
+      "كود",
+      "ثغرات",
+      "DevSecOps"
+    ],
+    "featured": true,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "فرق التطوير التي تريد أمان مدمج في سير العمل",
+    "description_en": "AI security platform for devs scanning code, dependencies, containers, and infra for vulnerabilities",
+    "tags_en": [
+      "security",
+      "code",
+      "vulnerabilities",
+      "DevSecOps"
+    ],
+    "features_en": [
+      "SAST code scanning",
+      "SCA dependency scanning",
+      "Container security",
+      "IaC security",
+      "Auto-fix"
+    ],
+    "best_for_en": "Dev teams wanting security integrated into their workflow"
+  },
+  {
+    "id": 568,
+    "name": "Wiz",
+    "name_ar": "ويز",
+    "category": "security",
+    "category_ar": "أمن",
+    "description": "أقوى منصة أمان سحابي AI — ترسم خريطة كاملة لبيئتك السحابية وتكشف المخاطر",
+    "official_description": "Wiz — leading cloud security platform that maps your entire cloud environment and identifies risks with AI.",
+    "features": [
+      "خريطة سحابية كاملة",
+      "كشف مخاطر AI",
+      "أمان Kubernetes",
+      "فحص حاويات",
+      "امتثال تلقائي"
+    ],
+    "pricing": "تسعير مخصص",
+    "pricing_type": "enterprise",
+    "has_free_trial": true,
+    "free_trial_details": "عرض تجريبي وتقييم مجاني",
+    "url": "https://www.wiz.io",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "أمان سحابي",
+      "AWS",
+      "Azure",
+      "Kubernetes"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "المؤسسات ذات البنية السحابية الكبيرة والمعقدة",
+    "description_en": "Leading cloud security platform mapping your entire cloud and identifying risks with AI",
+    "tags_en": [
+      "cloud security",
+      "AWS",
+      "Azure",
+      "Kubernetes"
+    ],
+    "features_en": [
+      "Full cloud map",
+      "AI risk detection",
+      "Kubernetes security",
+      "Container scanning",
+      "Auto compliance"
+    ],
+    "best_for_en": "Enterprises with large complex cloud infrastructure"
+  },
+  {
+    "id": 569,
+    "name": "Datadog",
+    "name_ar": "داتادوغ",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "المنصة المعيارية لمراقبة البنية التحتية والتطبيقات مع Watchdog AI لكشف المشاكل",
+    "official_description": "Datadog — the standard infrastructure and APM monitoring platform with Watchdog AI for anomaly detection.",
+    "features": [
+      "مراقبة بنية تحتية",
+      "APM تطبيقات",
+      "Watchdog AI",
+      "سجلات",
+      "أمان"
+    ],
+    "pricing": "$0 - $150+/مضيف/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "14 يوم تجربة مجانية",
+    "url": "https://www.datadog.com",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "مراقبة",
+      "DevOps",
+      "APM",
+      "سجلات"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "فرق DevOps التي تحتاج مراقبة شاملة للبنية التحتية",
+    "description_en": "Standard infra and APM monitoring with Watchdog AI anomaly detection",
+    "tags_en": [
+      "monitoring",
+      "DevOps",
+      "APM",
+      "logs"
+    ],
+    "features_en": [
+      "Infrastructure monitoring",
+      "Application APM",
+      "Watchdog AI",
+      "Log management",
+      "Security"
+    ],
+    "best_for_en": "DevOps teams needing comprehensive infrastructure monitoring"
+  },
+  {
+    "id": 570,
+    "name": "Make.com",
+    "name_ar": "ميك",
+    "category": "automation",
+    "category_ar": "أتمتة",
+    "description": "أفضل منصة أتمتة مرئية مع AI — اربط 2000+ تطبيق بسيناريوهات سحب وإفلات بأقل سعر",
+    "official_description": "Make.com — best visual automation platform with AI, connecting 2000+ apps with drag-and-drop at lowest cost.",
+    "features": [
+      "منشئ سيناريوهات مرئي",
+      "2000+ تكامل",
+      "وكلاء AI",
+      "سيناريوهات معقدة",
+      "أرخص من Zapier"
+    ],
+    "pricing": "$0 - $99/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "1,000 عملية مجانية شهرياً",
+    "url": "https://www.make.com",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "أتمتة",
+      "تكامل",
+      "مرئي",
+      "سيناريوهات"
+    ],
+    "featured": true,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "أي شخص يريد أتمتة سير العمل بصرياً بأقل تكلفة",
+    "description_en": "Best visual automation with AI connecting 2000+ apps with drag-and-drop at lowest cost",
+    "tags_en": [
+      "automation",
+      "integration",
+      "visual",
+      "scenarios"
+    ],
+    "features_en": [
+      "Visual scenario builder",
+      "2000+ integrations",
+      "AI agents",
+      "Complex scenarios",
+      "Cheaper than Zapier"
+    ],
+    "best_for_en": "Anyone wanting visual workflow automation at lowest cost"
+  },
+  {
+    "id": 571,
+    "name": "n8n",
+    "name_ar": "إن 8 إن",
+    "category": "automation",
+    "category_ar": "أتمتة",
+    "description": "منصة أتمتة مفتوحة المصدر مع AI — استضفها على خادمك الخاص بتحكم كامل",
+    "official_description": "n8n — open-source automation platform with AI that you can self-host with full control.",
+    "features": [
+      "مفتوح المصدر",
+      "استضافة ذاتية",
+      "عُقد AI متعددة",
+      "400+ تكامل",
+      "Multi-agent workflows"
+    ],
+    "pricing": "$0 (مفتوح) - $50/شهرياً (سحابي)",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "مجاني بالكامل للاستضافة الذاتية",
+    "url": "https://n8n.io",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "مفتوح المصدر",
+      "أتمتة",
+      "استضافة ذاتية",
+      "AI"
+    ],
+    "featured": true,
+    "open_source": true,
+    "added_date": "2026-07-14",
+    "best_for": "المطورين والشركات التي تريد أتمتة AI بتحكم كامل",
+    "description_en": "Open-source automation with AI — self-host with full control",
+    "tags_en": [
+      "open source",
+      "automation",
+      "self-hosted",
+      "AI"
+    ],
+    "features_en": [
+      "Open source",
+      "Self-hosted",
+      "Multiple AI nodes",
+      "400+ integrations",
+      "Multi-agent workflows"
+    ],
+    "best_for_en": "Developers and companies wanting full-control AI automation"
+  },
+  {
+    "id": 572,
+    "name": "Lindy AI",
+    "name_ar": "ليندي AI",
+    "category": "automation",
+    "category_ar": "أتمتة",
+    "description": "منصة إنشاء وكلاء AI شخصيين بدون كود — وكيلك يقرأ البريد ويرد ويجدول ويبحث",
+    "official_description": "Lindy AI — no-code platform for building personal AI agents that read email, respond, schedule, and research.",
+    "features": [
+      "بناء وكلاء بدون كود",
+      "وكيل بريد",
+      "وكيل جدولة",
+      "وكيل بحث",
+      "80+ تكامل"
+    ],
+    "pricing": "$49 - $299/شهرياً",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "400 رصيد مجاني للتجربة",
+    "url": "https://www.lindy.ai",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "وكلاء شخصيين",
+      "بدون كود",
+      "بريد",
+      "جدولة"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "رواد الأعمال ذين يريدون وكيل AI شخصي يدير مهامهم",
+    "description_en": "No-code platform for personal AI agents that handle email, scheduling, and research",
+    "tags_en": [
+      "personal agents",
+      "no-code",
+      "email",
+      "scheduling"
+    ],
+    "features_en": [
+      "No-code agent builder",
+      "Email agent",
+      "Scheduling agent",
+      "Research agent",
+      "80+ integrations"
+    ],
+    "best_for_en": "Entrepreneurs wanting a personal AI agent to manage their tasks"
+  },
+  {
+    "id": 573,
+    "name": "Khanmigo",
+    "name_ar": "خان ميغو",
+    "category": "education",
+    "category_ar": "تعليم",
+    "description": "المعلم AI الأفضل من Khan Academy — يوجه الطلاب بأسلوب سقراطي ويساعد المعلمين مجاناً",
+    "official_description": "Khanmigo by Khan Academy — best AI tutor using Socratic method, free for teachers, $4/mo for learners.",
+    "features": [
+      "تدريس سقراطي",
+      "مجاني للمعلمين",
+      "كل المواد الدراسية",
+      "تدريب برمجة",
+      "ملخصات تقدم"
+    ],
+    "pricing": "$0 - $4/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "مجاني بالكامل للمعلمين",
+    "url": "https://khanmigo.ai",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "تعليم",
+      "معلم AI",
+      "طلاب",
+      "Khan Academy"
+    ],
+    "featured": true,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "الطلاب والمعلمين الباحثين عن معلم AI ذكي وميسور التكلفة",
+    "description_en": "Best AI tutor from Khan Academy — Socratic guidance for students, free for teachers",
+    "tags_en": [
+      "education",
+      "AI tutor",
+      "students",
+      "Khan Academy"
+    ],
+    "features_en": [
+      "Socratic teaching",
+      "Free for teachers",
+      "All subjects",
+      "Coding coaching",
+      "Progress summaries"
+    ],
+    "best_for_en": "Students and teachers seeking affordable intelligent AI tutoring"
+  },
+  {
+    "id": 574,
+    "name": "Duolingo Max",
+    "name_ar": "دوولينغو ماكس",
+    "category": "education",
+    "category_ar": "تعليم",
+    "description": "أفضل تطبيق لتعلم اللغات بالـ AI — محادثات ذكية وتمارين مخصصة وتصحيح فوري",
+    "official_description": "Duolingo Max — best AI language learning with smart conversations, personalized exercises, and instant feedback.",
+    "features": [
+      "محادثات AI",
+      "تمارين مخصصة",
+      "40+ لغة",
+      "تصحيح كتابة AI",
+      "شرح أخطاء"
+    ],
+    "pricing": "$0 - $30/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "باقة مجانية مع إعلانات",
+    "url": "https://www.duolingo.com",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "لغات",
+      "تعلم",
+      "محادثة",
+      "تطبيق"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "أي شخص يريد تعلم لغة جديدة بطريقة ممتعة وذكية",
+    "description_en": "Best AI language learning app with smart conversations and personalized exercises",
+    "tags_en": [
+      "languages",
+      "learning",
+      "conversation",
+      "app"
+    ],
+    "features_en": [
+      "AI conversations",
+      "Personalized exercises",
+      "40+ languages",
+      "AI writing correction",
+      "Error explanations"
+    ],
+    "best_for_en": "Anyone wanting to learn a new language in a fun and smart way"
+  },
+  {
+    "id": 575,
+    "name": "Quizlet AI",
+    "name_ar": "كويزلت AI",
+    "category": "education",
+    "category_ar": "تعليم",
+    "description": "منصة دراسة AI تحول ملاحظاتك إلى بطاقات واختبارات ذكية تتكيف مع مستواك",
+    "official_description": "Quizlet AI — study platform turning notes into smart flashcards and tests that adapt to your level.",
+    "features": [
+      "بطاقات ذكية",
+      "اختبارات تكيفية",
+      "Q-Chat معلم AI",
+      "ملخصات ذاتية",
+      "500+ مليون مجموعة"
+    ],
+    "pricing": "$0 - $7.99/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "باقة مجانية مع ميزات أساسية",
+    "url": "https://quizlet.com",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "دراسة",
+      "بطاقات",
+      "اختبارات",
+      "طلاب"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "الطلاب الذين يحتاجون أداة دراسة ذكية ومتكيفة",
+    "description_en": "AI study platform turning notes into smart flashcards and adaptive tests",
+    "tags_en": [
+      "study",
+      "flashcards",
+      "tests",
+      "students"
+    ],
+    "features_en": [
+      "Smart flashcards",
+      "Adaptive tests",
+      "Q-Chat AI tutor",
+      "Auto summaries",
+      "500M+ study sets"
+    ],
+    "best_for_en": "Students needing a smart adaptive study tool"
+  },
+  {
+    "id": 576,
+    "name": "Photomath",
+    "name_ar": "فوتو ماث",
+    "category": "education",
+    "category_ar": "تعليم",
+    "description": "تطبيق AI لحل مسائل الرياضيات — صوّر المسألة واحصل على الحل مع شرح خطوة بخطوة",
+    "official_description": "Photomath — AI math solver. Snap a photo of any math problem and get step-by-step solutions.",
+    "features": [
+      "مسح المسائل بالكاميرا",
+      "حل خطوة بخطوة",
+      "شروحات متعددة الطرق",
+      "رسوم بيانية",
+      "آلة حاسبة ذكية"
+    ],
+    "pricing": "$0 - $9.99/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "حلول أساسية مجانية",
+    "url": "https://photomath.com",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "رياضيات",
+      "كاميرا",
+      "حل",
+      "طلاب"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "الطلاب الذين يحتاجون مساعدة فورية في حل مسائل الرياضيات",
+    "description_en": "AI math solver — snap a photo of any problem and get step-by-step solutions",
+    "tags_en": [
+      "math",
+      "camera",
+      "solver",
+      "students"
+    ],
+    "features_en": [
+      "Camera problem scanning",
+      "Step-by-step solutions",
+      "Multiple methods",
+      "Graphs",
+      "Smart calculator"
+    ],
+    "best_for_en": "Students needing instant help solving math problems"
+  },
+  {
+    "id": 577,
+    "name": "Deepnote",
+    "name_ar": "ديبنوت",
+    "category": "data-analytics",
+    "category_ar": "تحليل بيانات",
+    "description": "دفتر ملاحظات بيانات تعاوني مع AI مدمج — بديل Jupyter الحديث للفرق",
+    "official_description": "Deepnote — collaborative data notebook with built-in AI. The modern Jupyter alternative for teams.",
+    "features": [
+      "AI copilot مدمج",
+      "تعاون حي",
+      "SQL وPython",
+      "مشاركة تفاعلية",
+      "اتصال بقواعد بيانات"
+    ],
+    "pricing": "$0 - $22/مستخدم/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "باقة مجانية للأفراد",
+    "url": "https://deepnote.com",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "Jupyter",
+      "بيانات",
+      "Python",
+      "تعاون"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "علماء البيانات والفرق القادمة من Jupyter",
+    "description_en": "Collaborative data notebook with built-in AI — modern Jupyter alternative for teams",
+    "tags_en": [
+      "Jupyter",
+      "data",
+      "Python",
+      "collaboration"
+    ],
+    "features_en": [
+      "Built-in AI copilot",
+      "Live collaboration",
+      "SQL & Python",
+      "Interactive sharing",
+      "Database connections"
+    ],
+    "best_for_en": "Data scientists and teams migrating from Jupyter"
+  },
+  {
+    "id": 578,
+    "name": "GitHub Copilot",
+    "name_ar": "غيت هاب كوبايلوت",
+    "category": "coding",
+    "category_ar": "برمجة",
+    "description": "مساعد الكود AI الأشهر من GitHub — إكمال ذكي ودردشة ومراجعة كود ووكيل برمجة",
+    "official_description": "GitHub Copilot — the most popular AI code assistant with smart completion, chat, code review, and coding agent.",
+    "features": [
+      "إكمال كود ذكي",
+      "دردشة في المحرر",
+      "مراجعة PR بالـ AI",
+      "وكيل Copilot",
+      "دعم كل اللغات"
+    ],
+    "pricing": "$0 - $39/مستخدم/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "باقة مجانية محدودة + 30 يوم تجربة Pro",
+    "url": "https://github.com/features/copilot",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "GitHub",
+      "إكمال كود",
+      "مراجعة",
+      "وكيل"
+    ],
+    "featured": true,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "أي مطور يريد أداة AI مدعومة من أكبر منصة كود في العالم",
+    "description_en": "Most popular AI code assistant with completion, chat, code review, and coding agent",
+    "tags_en": [
+      "GitHub",
+      "code completion",
+      "review",
+      "agent"
+    ],
+    "features_en": [
+      "Smart code completion",
+      "In-editor chat",
+      "AI PR review",
+      "Copilot agent",
+      "All languages"
+    ],
+    "best_for_en": "Any developer wanting AI backed by the world's largest code platform"
+  },
+  {
+    "id": 579,
+    "name": "Gemini",
+    "name_ar": "جيميني",
+    "category": "general-assistant",
+    "category_ar": "مساعد عام",
+    "description": "مساعد AI من Google بقدرات متعددة — يفهم النصوص والصور والصوت والفيديو والكود",
+    "official_description": "Google Gemini — multimodal AI assistant understanding text, images, audio, video, and code.",
+    "features": [
+      "متعدد الوسائط",
+      "نافذة سياق عملاقة",
+      "تكامل Google Workspace",
+      "بحث ويب مباشر",
+      "توليد صور"
+    ],
+    "pricing": "$0 - $19.99/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "باقة مجانية سخية",
+    "url": "https://gemini.google.com",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "Google",
+      "مساعد عام",
+      "متعدد الوسائط",
+      "بحث"
+    ],
+    "featured": true,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "مستخدمي Google الذين يريدون مساعد AI متكامل مع خدمات Google",
+    "description_en": "Google's multimodal AI assistant understanding text, images, audio, video, and code",
+    "tags_en": [
+      "Google",
+      "general assistant",
+      "multimodal",
+      "search"
+    ],
+    "features_en": [
+      "Multimodal",
+      "Massive context window",
+      "Google Workspace integration",
+      "Live web search",
+      "Image generation"
+    ],
+    "best_for_en": "Google users wanting an AI assistant integrated with Google services"
+  },
+  {
+    "id": 580,
+    "name": "Claude",
+    "name_ar": "كلود",
+    "category": "general-assistant",
+    "category_ar": "مساعد عام",
+    "description": "مساعد AI من Anthropic يتميز بالتفكير العميق والدقة والأمان — ممتاز للكتابة والتحليل والبرمجة",
+    "official_description": "Claude by Anthropic — AI assistant known for deep reasoning, accuracy, and safety. Excellent for writing, analysis, and coding.",
+    "features": [
+      "تفكير عميق ومنطقي",
+      "200K سياق",
+      "تحليل مستندات",
+      "كتابة متقنة",
+      "برمجة قوية"
+    ],
+    "pricing": "$0 - $20/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "باقة مجانية مع استخدام محدود",
+    "url": "https://claude.ai",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "Anthropic",
+      "تفكير عميق",
+      "دقة",
+      "أمان"
+    ],
+    "featured": true,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "المحترفين الباحثين عن AI دقيق للتفكير العميق والتحليل",
+    "description_en": "Anthropic's AI assistant known for deep reasoning, accuracy, and safety",
+    "tags_en": [
+      "Anthropic",
+      "deep reasoning",
+      "accuracy",
+      "safety"
+    ],
+    "features_en": [
+      "Deep logical reasoning",
+      "200K context",
+      "Document analysis",
+      "Polished writing",
+      "Strong coding"
+    ],
+    "best_for_en": "Professionals seeking accurate AI for deep reasoning and analysis"
+  },
+  {
+    "id": 581,
+    "name": "ChatGPT",
+    "name_ar": "شات جي بي تي",
+    "category": "general-assistant",
+    "category_ar": "مساعد عام",
+    "description": "المساعد AI الأشهر عالمياً من OpenAI — يتحدث ويرى ويولد صور وكود ويتصفح الإنترنت",
+    "official_description": "ChatGPT by OpenAI — the world's most popular AI assistant. Talks, sees, generates images, code, and browses the web.",
+    "features": [
+      "محادثة ذكية",
+      "رؤية حاسوبية",
+      "توليد صور DALL-E",
+      "تصفح إنترنت",
+      "وكلاء GPTs مخصصون"
+    ],
+    "pricing": "$0 - $200/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "باقة مجانية مع GPT-4o Mini",
+    "url": "https://chat.openai.com",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "OpenAI",
+      "محادثة",
+      "الأشهر",
+      "متعدد"
+    ],
+    "featured": true,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "أي شخص يريد مساعد AI متعدد الاستخدامات وسهل الاستخدام",
+    "description_en": "World's most popular AI assistant — talks, sees, generates images and code, browses the web",
+    "tags_en": [
+      "OpenAI",
+      "conversation",
+      "most popular",
+      "multimodal"
+    ],
+    "features_en": [
+      "Smart conversation",
+      "Computer vision",
+      "DALL-E image generation",
+      "Web browsing",
+      "Custom GPT agents"
+    ],
+    "best_for_en": "Anyone wanting a versatile and easy-to-use AI assistant"
+  },
+  {
+    "id": 582,
+    "name": "Llama (Meta)",
+    "name_ar": "لاما (ميتا)",
+    "category": "general-assistant",
+    "category_ar": "مساعد عام",
+    "description": "أقوى نموذج AI مفتوح المصدر من Meta — شغّله محلياً بتحكم كامل وبدون تكلفة",
+    "official_description": "Meta Llama — most powerful open-source AI model. Run locally with full control and zero cost.",
+    "features": [
+      "مفتوح المصدر بالكامل",
+      "تشغيل محلي",
+      "أداء منافس",
+      "تدريب مخصص",
+      "مجاني بالكامل"
+    ],
+    "pricing": "مجاني",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://llama.meta.com",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "مفتوح المصدر",
+      "Meta",
+      "محلي",
+      "مجاني"
+    ],
+    "featured": true,
+    "open_source": true,
+    "added_date": "2026-07-14",
+    "best_for": "المطورين والباحثين الذين يريدون AI مفتوح المصدر بأداء عالي",
+    "description_en": "Most powerful open-source AI model from Meta — run locally with full control at zero cost",
+    "tags_en": [
+      "open source",
+      "Meta",
+      "local",
+      "free"
+    ],
+    "features_en": [
+      "Fully open source",
+      "Local deployment",
+      "Competitive performance",
+      "Custom training",
+      "Completely free"
+    ],
+    "best_for_en": "Developers and researchers wanting high-performance open-source AI"
+  },
+  {
+    "id": 583,
+    "name": "Mistral AI",
+    "name_ar": "ميسترال AI",
+    "category": "general-assistant",
+    "category_ar": "مساعد عام",
+    "description": "نماذج AI أوروبية مفتوحة وعالية الأداء — Le Chat مجاني مع بحث ويب وتوليد صور",
+    "official_description": "Mistral AI — European open-weight AI models with free Le Chat assistant including web search and image generation.",
+    "features": [
+      "Le Chat مجاني",
+      "نماذج مفتوحة الأوزان",
+      "بحث ويب",
+      "توليد صور",
+      "API متقدم"
+    ],
+    "pricing": "$0 - مخصص للمؤسسات",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "Le Chat مجاني بالكامل",
+    "url": "https://mistral.ai",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "أوروبي",
+      "مفتوح",
+      "Le Chat",
+      "أداء عالي"
+    ],
+    "featured": false,
+    "open_source": true,
+    "added_date": "2026-07-14",
+    "best_for": "الشركات الأوروبية والمطورين الباحثين عن نماذج AI مفتوحة وعالية الأداء",
+    "description_en": "European open-weight AI models with free Le Chat and web search",
+    "tags_en": [
+      "European",
+      "open-weight",
+      "Le Chat",
+      "high performance"
+    ],
+    "features_en": [
+      "Free Le Chat",
+      "Open-weight models",
+      "Web search",
+      "Image generation",
+      "Advanced API"
+    ],
+    "best_for_en": "European companies and developers seeking open high-performance AI"
+  },
+  {
+    "id": 584,
+    "name": "Cohere",
+    "name_ar": "كوهير",
+    "category": "framework",
+    "category_ar": "إطار عمل",
+    "description": "منصة AI للمؤسسات تقدم نماذج للبحث والتلخيص والتصنيف مع أمان بيانات ممتاز",
+    "official_description": "Cohere — enterprise AI platform with models for search, summarization, and classification with excellent data security.",
+    "features": [
+      "بحث دلالي",
+      "توليد نصوص RAG",
+      "تصنيف تلقائي",
+      "أمان مؤسسي",
+      "نشر خاص"
+    ],
+    "pricing": "مجاني للتجربة - مخصص للإنتاج",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "باقة تجريبية مجانية",
+    "url": "https://cohere.com",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "مؤسسات",
+      "بحث",
+      "RAG",
+      "API"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "المؤسسات التي تبني تطبيقات AI مع متطلبات أمان عالية",
+    "description_en": "Enterprise AI platform with search, summarization, and classification models with excellent security",
+    "tags_en": [
+      "enterprise",
+      "search",
+      "RAG",
+      "API"
+    ],
+    "features_en": [
+      "Semantic search",
+      "RAG generation",
+      "Auto classification",
+      "Enterprise security",
+      "Private deployment"
+    ],
+    "best_for_en": "Enterprises building AI apps with high security requirements"
+  },
+  {
+    "id": 585,
+    "name": "LangChain",
+    "name_ar": "لانغ تشين",
+    "category": "framework",
+    "category_ar": "إطار عمل",
+    "description": "أشهر إطار عمل مفتوح المصدر لبناء تطبيقات AI — سلاسل وكلاء ومستندات RAG",
+    "official_description": "LangChain — most popular open-source framework for building AI apps with chains, agents, and RAG.",
+    "features": [
+      "سلاسل LLM",
+      "وكلاء ذكيون",
+      "RAG مع مستندات",
+      "ذاكرة محادثة",
+      "100+ تكامل"
+    ],
+    "pricing": "مجاني (مفتوح المصدر)",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://langchain.com",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "إطار عمل",
+      "مفتوح المصدر",
+      "وكلاء",
+      "RAG"
+    ],
+    "featured": true,
+    "open_source": true,
+    "added_date": "2026-07-14",
+    "best_for": "المطورين الذين يبنون تطبيقات AI مخصصة",
+    "description_en": "Most popular open-source framework for building AI apps with chains, agents, and RAG",
+    "tags_en": [
+      "framework",
+      "open source",
+      "agents",
+      "RAG"
+    ],
+    "features_en": [
+      "LLM chains",
+      "Smart agents",
+      "RAG with documents",
+      "Conversation memory",
+      "100+ integrations"
+    ],
+    "best_for_en": "Developers building custom AI applications"
+  },
+  {
+    "id": 586,
+    "name": "CrewAI",
+    "name_ar": "كرو AI",
+    "category": "framework",
+    "category_ar": "إطار عمل",
+    "description": "إطار عمل مفتوح المصدر لبناء فرق من وكلاء AI يتعاونون لإنجاز مهام معقدة",
+    "official_description": "CrewAI — open-source framework for building teams of AI agents that collaborate on complex tasks.",
+    "features": [
+      "فرق وكلاء",
+      "أدوار ومهام",
+      "تعاون تلقائي",
+      "أدوات مخصصة",
+      "تكامل LLM"
+    ],
+    "pricing": "مجاني (مفتوح المصدر)",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://crewai.com",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "وكلاء متعددون",
+      "تعاون",
+      "مفتوح المصدر",
+      "إطار عمل"
+    ],
+    "featured": false,
+    "open_source": true,
+    "added_date": "2026-07-14",
+    "best_for": "المطورين الذين يريدون بناء أنظمة وكلاء AI متعددة",
+    "description_en": "Open-source framework for building teams of AI agents collaborating on complex tasks",
+    "tags_en": [
+      "multi-agent",
+      "collaboration",
+      "open source",
+      "framework"
+    ],
+    "features_en": [
+      "Agent teams",
+      "Roles and tasks",
+      "Auto collaboration",
+      "Custom tools",
+      "LLM integration"
+    ],
+    "best_for_en": "Developers building multi-agent AI systems"
+  },
+  {
+    "id": 587,
+    "name": "AutoGen (Microsoft)",
+    "name_ar": "أوتوجين (مايكروسوفت)",
+    "category": "framework",
+    "category_ar": "إطار عمل",
+    "description": "إطار عمل من Microsoft لبناء أنظمة وكلاء AI تتحاور وتتعاون لحل المشاكل",
+    "official_description": "AutoGen by Microsoft — framework for building multi-agent AI systems that converse and collaborate.",
+    "features": [
+      "محادثات بين وكلاء",
+      "تدخل بشري مرن",
+      "تنفيذ كود",
+      "مجموعات وكلاء",
+      "مفتوح المصدر"
+    ],
+    "pricing": "مجاني",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://microsoft.github.io/autogen/",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "Microsoft",
+      "وكلاء",
+      "محادثة",
+      "مفتوح المصدر"
+    ],
+    "featured": false,
+    "open_source": true,
+    "added_date": "2026-07-14",
+    "best_for": "الباحثين والمطورين في الشركات الباحثين عن إطار وكلاء من Microsoft",
+    "description_en": "Microsoft's framework for multi-agent AI systems that converse and collaborate",
+    "tags_en": [
+      "Microsoft",
+      "agents",
+      "conversation",
+      "open source"
+    ],
+    "features_en": [
+      "Agent conversations",
+      "Flexible human-in-loop",
+      "Code execution",
+      "Agent groups",
+      "Open source"
+    ],
+    "best_for_en": "Enterprise researchers and developers seeking Microsoft-backed agent framework"
+  },
+  {
+    "id": 588,
+    "name": "Vercel AI SDK",
+    "name_ar": "فيرسل AI SDK",
+    "category": "framework",
+    "category_ar": "إطار عمل",
+    "description": "مكتبة TypeScript لبناء واجهات AI تفاعلية مع دعم streaming ووكلاء من Vercel",
+    "official_description": "Vercel AI SDK — TypeScript library for building interactive AI interfaces with streaming and agent support.",
+    "features": [
+      "Streaming UI",
+      "دعم عدة نماذج",
+      "وكلاء AI",
+      "React hooks",
+      "مفتوح المصدر"
+    ],
+    "pricing": "مجاني",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://sdk.vercel.ai",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "TypeScript",
+      "React",
+      "SDK",
+      "Vercel"
+    ],
+    "featured": false,
+    "open_source": true,
+    "added_date": "2026-07-14",
+    "best_for": "مطوري الويب الذين يبنون واجهات AI تفاعلية",
+    "description_en": "TypeScript library for building interactive AI UIs with streaming and agent support",
+    "tags_en": [
+      "TypeScript",
+      "React",
+      "SDK",
+      "Vercel"
+    ],
+    "features_en": [
+      "Streaming UI",
+      "Multi-model support",
+      "AI agents",
+      "React hooks",
+      "Open source"
+    ],
+    "best_for_en": "Web developers building interactive AI interfaces"
+  },
+  {
+    "id": 589,
+    "name": "Ollama",
+    "name_ar": "أولاما",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "أسهل أداة لتشغيل نماذج AI محلياً على جهازك — شغّل Llama وMistral وGemma بأمر واحد",
+    "official_description": "Ollama — easiest way to run AI models locally. Run Llama, Mistral, Gemma with a single command.",
+    "features": [
+      "تشغيل بأمر واحد",
+      "عشرات النماذج",
+      "API محلي",
+      "خصوصية كاملة",
+      "Mac وLinux وWindows"
+    ],
+    "pricing": "مجاني",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://ollama.com",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "محلي",
+      "نماذج",
+      "خصوصية",
+      "مجاني"
+    ],
+    "featured": true,
+    "open_source": true,
+    "added_date": "2026-07-14",
+    "best_for": "أي شخص يريد تشغيل AI محلياً بخصوصية كاملة",
+    "description_en": "Easiest way to run AI models locally — run Llama, Mistral, Gemma with one command",
+    "tags_en": [
+      "local",
+      "models",
+      "privacy",
+      "free"
+    ],
+    "features_en": [
+      "One-command setup",
+      "Dozens of models",
+      "Local API",
+      "Full privacy",
+      "Mac, Linux & Windows"
+    ],
+    "best_for_en": "Anyone wanting to run AI locally with full privacy"
+  },
+  {
+    "id": 590,
+    "name": "Hugging Face",
+    "name_ar": "هاغينغ فيس",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "أكبر منصة مجتمعية للـ AI في العالم — 500,000+ نموذج ومجموعة بيانات وتطبيقات مفتوحة",
+    "official_description": "Hugging Face — world's largest AI community platform with 500K+ models, datasets, and open-source apps.",
+    "features": [
+      "500,000+ نموذج",
+      "مستودع بيانات",
+      "Spaces لتشغيل التطبيقات",
+      "Transformers مكتبة",
+      "مجتمع ضخم"
+    ],
+    "pricing": "$0 - $9/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "مجاني بالكامل للاستخدام الأساسي",
+    "url": "https://huggingface.co",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "نماذج",
+      "مجتمع",
+      "مفتوح المصدر",
+      "بيانات"
+    ],
+    "featured": true,
+    "open_source": true,
+    "added_date": "2026-07-14",
+    "best_for": "المطورين والباحثين الذين يحتاجون الوصول لنماذج AI مفتوحة",
+    "description_en": "World's largest AI community with 500K+ models, datasets, and open-source apps",
+    "tags_en": [
+      "models",
+      "community",
+      "open source",
+      "datasets"
+    ],
+    "features_en": [
+      "500K+ models",
+      "Dataset repository",
+      "Spaces for apps",
+      "Transformers library",
+      "Huge community"
+    ],
+    "best_for_en": "Developers and researchers needing access to open-source AI models"
+  },
+  {
+    "id": 591,
+    "name": "Replicate",
+    "name_ar": "ريبليكيت",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "منصة سحابية لتشغيل نماذج AI بسطر واحد من الكود — ادفع فقط عند الاستخدام",
+    "official_description": "Replicate — cloud platform for running AI models with one line of code. Pay only when you use.",
+    "features": [
+      "تشغيل بسطر واحد",
+      "آلاف النماذج",
+      "دفع بالاستخدام",
+      "GPU سحابي",
+      "API بسيط"
+    ],
+    "pricing": "الدفع بالاستخدام",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "رصيد مجاني للبدء",
+    "url": "https://replicate.com",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "سحابي",
+      "نماذج",
+      "API",
+      "GPU"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "المطورين الذين يحتاجون تشغيل نماذج AI سحابياً بسرعة",
+    "description_en": "Cloud platform for running AI models with one line of code — pay only when used",
+    "tags_en": [
+      "cloud",
+      "models",
+      "API",
+      "GPU"
+    ],
+    "features_en": [
+      "One-line setup",
+      "Thousands of models",
+      "Pay-per-use",
+      "Cloud GPU",
+      "Simple API"
+    ],
+    "best_for_en": "Developers needing to run AI models in the cloud quickly"
+  },
+  {
+    "id": 592,
+    "name": "Pinecone",
+    "name_ar": "باين كون",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "أشهر قاعدة بيانات AI متجهة — تخزن وتبحث في البيانات بالمعنى للتطبيقات الذكية",
+    "official_description": "Pinecone — most popular vector database for AI. Store and search data by meaning for smart applications.",
+    "features": [
+      "بحث بالمعنى",
+      "أداء عالي",
+      "API بسيط",
+      "تحديثات حية",
+      "سحابي بالكامل"
+    ],
+    "pricing": "$0 - مخصص",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "باقة مجانية مع فهرس واحد",
+    "url": "https://www.pinecone.io",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "قاعدة بيانات",
+      "متجهات",
+      "بحث دلالي",
+      "RAG"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "مطوري تطبيقات AI الذين يحتاجون بحث دلالي سريع",
+    "description_en": "Most popular vector database — store and search data by meaning for smart AI apps",
+    "tags_en": [
+      "database",
+      "vectors",
+      "semantic search",
+      "RAG"
+    ],
+    "features_en": [
+      "Semantic search",
+      "High performance",
+      "Simple API",
+      "Live updates",
+      "Fully serverless"
+    ],
+    "best_for_en": "AI app developers needing fast semantic search"
+  },
+  {
+    "id": 593,
+    "name": "Terraform (HashiCorp)",
+    "name_ar": "تيرافورم",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "أداة البنية التحتية ككود الأشهر مع AI مدمج لتوليد وتحسين تكوينات السحابة",
+    "official_description": "Terraform — leading IaC tool with built-in AI for generating and optimizing cloud configurations.",
+    "features": [
+      "بنية تحتية ككود",
+      "AI لتوليد التكوينات",
+      "دعم كل السحابات",
+      "خطط تنفيذ",
+      "وحدات قابلة لإعادة الاستخدام"
+    ],
+    "pricing": "مجاني (مفتوح) - $0.00014/ساعة (سحابي)",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "مجاني بالكامل للمصدر المفتوح",
+    "url": "https://www.terraform.io",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "IaC",
+      "سحابة",
+      "DevOps",
+      "أتمتة"
+    ],
+    "featured": false,
+    "open_source": true,
+    "added_date": "2026-07-14",
+    "best_for": "مهندسي DevOps وفرق البنية التحتية السحابية",
+    "description_en": "Leading IaC tool with AI for generating and optimizing cloud configurations",
+    "tags_en": [
+      "IaC",
+      "cloud",
+      "DevOps",
+      "automation"
+    ],
+    "features_en": [
+      "Infrastructure as Code",
+      "AI config generation",
+      "All-cloud support",
+      "Execution plans",
+      "Reusable modules"
+    ],
+    "best_for_en": "DevOps engineers and cloud infrastructure teams"
+  },
+  {
+    "id": 594,
+    "name": "Stripe AI",
+    "name_ar": "سترايب AI",
+    "category": "finance",
+    "category_ar": "مالية",
+    "description": "أدوات AI مدمجة في Stripe لكشف الاحتيال وتحسين المدفوعات وأتمتة العمليات المالية",
+    "official_description": "Stripe AI — built-in AI tools for fraud detection, payment optimization, and financial workflow automation.",
+    "features": [
+      "كشف احتيال Radar AI",
+      "تحسين معدل القبول",
+      "أتمتة فواتير",
+      "تحليلات مالية",
+      "وكلاء دفع"
+    ],
+    "pricing": "ضمن رسوم Stripe",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "ضمن حساب Stripe",
+    "url": "https://stripe.com",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "مدفوعات",
+      "احتيال",
+      "مالية",
+      "SaaS"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "الشركات التي تستخدم Stripe وتريد أتمتة مالية ذكية",
+    "description_en": "Built-in AI for fraud detection, payment optimization, and financial automation in Stripe",
+    "tags_en": [
+      "payments",
+      "fraud",
+      "finance",
+      "SaaS"
+    ],
+    "features_en": [
+      "Radar AI fraud detection",
+      "Acceptance rate optimization",
+      "Invoice automation",
+      "Financial analytics",
+      "Payment agents"
+    ],
+    "best_for_en": "Companies using Stripe wanting smart financial automation"
+  },
+  {
+    "id": 595,
+    "name": "AlphaFold (DeepMind)",
+    "name_ar": "ألفا فولد",
+    "category": "health",
+    "category_ar": "صحة",
+    "description": "AI ثوري من DeepMind يتنبأ ببنية البروتينات — أحدث ثورة في علم الأحياء واكتشاف الأدوية",
+    "official_description": "AlphaFold by DeepMind — revolutionary AI predicting protein structures, transforming biology and drug discovery.",
+    "features": [
+      "تنبؤ ببنية البروتينات",
+      "200+ مليون بروتين",
+      "قاعدة بيانات مفتوحة",
+      "تسريع اكتشاف الأدوية",
+      "API للباحثين"
+    ],
+    "pricing": "مجاني",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://alphafold.ebi.ac.uk",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "بروتينات",
+      "أحياء",
+      "أدوية",
+      "DeepMind"
+    ],
+    "featured": true,
+    "open_source": true,
+    "added_date": "2026-07-14",
+    "best_for": "الباحثين في علم الأحياء والكيمياء الحيوية واكتشاف الأدوية",
+    "description_en": "Revolutionary AI predicting protein structures — transforming biology and drug discovery",
+    "tags_en": [
+      "proteins",
+      "biology",
+      "drugs",
+      "DeepMind"
+    ],
+    "features_en": [
+      "Protein structure prediction",
+      "200M+ proteins",
+      "Open database",
+      "Drug discovery acceleration",
+      "Researcher API"
+    ],
+    "best_for_en": "Researchers in biology, biochemistry, and drug discovery"
+  },
+  {
+    "id": 596,
+    "name": "Harvey AI",
+    "name_ar": "هارفي AI",
+    "category": "legal",
+    "category_ar": "قانوني",
+    "description": "وكيل AI متخصص في المجال القانوني — يراجع العقود ويبحث في السوابق ويصيغ المستندات",
+    "official_description": "Harvey AI — specialized legal AI agent for contract review, case research, and document drafting.",
+    "features": [
+      "مراجعة عقود AI",
+      "بحث سوابق قضائية",
+      "صياغة مستندات",
+      "تحليل مخاطر",
+      "أمان مؤسسي"
+    ],
+    "pricing": "تسعير مخصص",
+    "pricing_type": "enterprise",
+    "has_free_trial": true,
+    "free_trial_details": "عرض تجريبي مخصص",
+    "url": "https://www.harvey.ai",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "قانوني",
+      "عقود",
+      "محاماة",
+      "مستندات"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "مكاتب المحاماة والأقسام القانونية في الشركات",
+    "description_en": "Specialized legal AI for contract review, case research, and document drafting",
+    "tags_en": [
+      "legal",
+      "contracts",
+      "law",
+      "documents"
+    ],
+    "features_en": [
+      "AI contract review",
+      "Case law research",
+      "Document drafting",
+      "Risk analysis",
+      "Enterprise security"
+    ],
+    "best_for_en": "Law firms and corporate legal departments"
+  },
+  {
+    "id": 597,
+    "name": "Casetext (CoCounsel)",
+    "name_ar": "كيس تكست",
+    "category": "legal",
+    "category_ar": "قانوني",
+    "description": "مساعد بحث قانوني AI من Thomson Reuters — يبحث ويحلل السوابق القضائية بدقة فائقة",
+    "official_description": "CoCounsel by Thomson Reuters — AI legal research assistant with highly accurate case law analysis.",
+    "features": [
+      "بحث قانوني AI",
+      "تحليل سوابق",
+      "مراجعة مستندات",
+      "تحضير استجوابات",
+      "تلخيص أحكام"
+    ],
+    "pricing": "تسعير مخصص",
+    "pricing_type": "enterprise",
+    "has_free_trial": true,
+    "free_trial_details": "عرض تجريبي مجاني",
+    "url": "https://casetext.com",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "بحث قانوني",
+      "سوابق",
+      "Thomson Reuters",
+      "محاماة"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "المحامين الباحثين عن بحث قانوني دقيق ومدعوم بالـ AI",
+    "description_en": "Thomson Reuters AI legal research with highly accurate case law analysis",
+    "tags_en": [
+      "legal research",
+      "case law",
+      "Thomson Reuters",
+      "law"
+    ],
+    "features_en": [
+      "AI legal research",
+      "Case analysis",
+      "Document review",
+      "Deposition prep",
+      "Ruling summaries"
+    ],
+    "best_for_en": "Lawyers seeking accurate AI-powered legal research"
+  },
+  {
+    "id": 598,
+    "name": "Granola",
+    "name_ar": "غرانولا",
+    "category": "productivity",
+    "category_ar": "إنتاجية",
+    "description": "دفتر ملاحظات AI للاجتماعات — اكتب ملاحظاتك الخاصة والـ AI يكملها ويثريها",
+    "official_description": "Granola — AI meeting notepad that enriches your personal notes with meeting context automatically.",
+    "features": [
+      "ملاحظات شخصية + AI",
+      "إثراء تلقائي",
+      "قوالب مخصصة",
+      "تكامل Zoom وTeams",
+      "خصوصية عالية"
+    ],
+    "pricing": "$0 - $18/شهرياً",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "25 اجتماع مجاني",
+    "url": "https://granola.so",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "ملاحظات",
+      "اجتماعات",
+      "شخصي",
+      "خصوصية"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "من يريد الاحتفاظ بملاحظاته الشخصية مع إثراء AI",
+    "description_en": "AI meeting notepad that enriches your personal notes with meeting context",
+    "tags_en": [
+      "notes",
+      "meetings",
+      "personal",
+      "privacy"
+    ],
+    "features_en": [
+      "Personal notes + AI",
+      "Auto enrichment",
+      "Custom templates",
+      "Zoom & Teams integration",
+      "High privacy"
+    ],
+    "best_for_en": "Those wanting personal meeting notes enriched by AI"
+  },
+  {
+    "id": 599,
+    "name": "Semantic Scholar",
+    "name_ar": "سيمانتك سكولر",
+    "category": "research",
+    "category_ar": "بحث",
+    "description": "محرك بحث أكاديمي مجاني من Allen AI مع فهرسة 200+ مليون ورقة علمية وتحليل اقتباسات",
+    "official_description": "Semantic Scholar by Allen AI — free academic search engine indexing 200M+ papers with citation analysis.",
+    "features": [
+      "200+ مليون ورقة",
+      "تحليل اقتباسات",
+      "TLDR ملخصات",
+      "بحث دلالي",
+      "API مفتوح"
+    ],
+    "pricing": "مجاني",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://www.semanticscholar.org",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "أكاديمي",
+      "أوراق",
+      "اقتباسات",
+      "مجاني"
+    ],
+    "featured": false,
+    "open_source": true,
+    "added_date": "2026-07-14",
+    "best_for": "الباحثين والأكاديميين الذين يحتاجون بحث علمي مجاني ومتقدم",
+    "description_en": "Free academic search engine from Allen AI indexing 200M+ papers with citation analysis",
+    "tags_en": [
+      "academic",
+      "papers",
+      "citations",
+      "free"
+    ],
+    "features_en": [
+      "200M+ papers",
+      "Citation analysis",
+      "TLDR summaries",
+      "Semantic search",
+      "Open API"
+    ],
+    "best_for_en": "Researchers and academics needing free advanced scientific search"
+  },
+  {
+    "id": 600,
+    "name": "Forethought",
+    "name_ar": "فورثوت",
+    "category": "customer-support",
+    "category_ar": "دعم العملاء",
+    "description": "وكيل AI لخدمة العملاء يتنبأ بالمشاكل ويقترح الحلول ويوجه التذاكر تلقائياً",
+    "official_description": "Forethought — predictive AI customer service agent that anticipates issues and auto-routes tickets.",
+    "features": [
+      "تنبؤ بالمشاكل",
+      "توجيه تلقائي",
+      "اقتراح حلول",
+      "تكامل Zendesk وSalesforce",
+      "تحليلات AI"
+    ],
+    "pricing": "تسعير مخصص",
+    "pricing_type": "enterprise",
+    "has_free_trial": true,
+    "free_trial_details": "عرض تجريبي مخصص",
+    "url": "https://forethought.ai",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "تنبؤي",
+      "دعم",
+      "تذاكر",
+      "أتمتة"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "فرق خدمة العملاء التي تريد دعم تنبؤي وذكي",
+    "description_en": "Predictive AI customer service that anticipates issues and auto-routes tickets",
+    "tags_en": [
+      "predictive",
+      "support",
+      "tickets",
+      "automation"
+    ],
+    "features_en": [
+      "Issue prediction",
+      "Auto routing",
+      "Solution suggestions",
+      "Zendesk & Salesforce integration",
+      "AI analytics"
+    ],
+    "best_for_en": "Support teams wanting predictive and intelligent customer service"
   }
 ]
