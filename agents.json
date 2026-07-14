@@ -31127,5 +31127,1025 @@
     "added_date": "2026-07-14",
     "open_source": false,
     "featured": false
+  },
+  {
+    "id": "helpscout-ai",
+    "name": "Help Scout AI",
+    "name_ar": "هيلب سكاوت AI",
+    "category": "customer-support",
+    "category_ar": "دعم عملاء",
+    "description": "منصة دعم عملاء مع AI يلخص المحادثات ويقترح ردود",
+    "description_en": "Customer support platform with AI that summarizes conversations and suggests replies",
+    "features": [
+      "تلخيص محادثات",
+      "ردود مقترحة",
+      "قاعدة معرفة"
+    ],
+    "features_en": [
+      "Conversation summaries",
+      "Suggested replies",
+      "Knowledge base"
+    ],
+    "pricing": "$22/user/mo Standard",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "15-day free trial",
+    "url": "https://www.helpscout.com",
+    "affiliate_url": "",
+    "logo": "https://www.helpscout.com/favicon.ico",
+    "tags": [
+      "دعم",
+      "بريد مشترك"
+    ],
+    "tags_en": [
+      "support",
+      "shared inbox"
+    ],
+    "best_for": "شركات صغيرة تريد دعم شخصي",
+    "best_for_en": "Small companies wanting personal support",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "crisp-chat",
+    "name": "Crisp",
+    "name_ar": "كريسب",
+    "category": "customer-support",
+    "category_ar": "دعم عملاء",
+    "description": "منصة تواصل عملاء متعددة القنوات مع chatbot AI وقاعدة معرفة",
+    "description_en": "Multi-channel customer messaging platform with AI chatbot and knowledge base",
+    "features": [
+      "دردشة حية",
+      "chatbot AI",
+      "متعدد القنوات"
+    ],
+    "features_en": [
+      "Live chat",
+      "AI chatbot",
+      "Multi-channel"
+    ],
+    "pricing": "Free / $25/mo Essential",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "14-day free trial",
+    "url": "https://crisp.chat",
+    "affiliate_url": "",
+    "logo": "https://crisp.chat/favicon.ico",
+    "tags": [
+      "دردشة",
+      "متعدد القنوات"
+    ],
+    "tags_en": [
+      "chat",
+      "multi-channel"
+    ],
+    "best_for": "شركات ناشئة تحتاج دردشة حية مجانية",
+    "best_for_en": "Startups needing free live chat",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "tawk-to",
+    "name": "Tawk.to",
+    "name_ar": "توك تو",
+    "category": "customer-support",
+    "category_ar": "دعم عملاء",
+    "description": "أداة دردشة حية مجانية بالكامل مع AI مساعد وقاعدة معرفة",
+    "description_en": "Completely free live chat tool with AI assistant and knowledge base",
+    "features": [
+      "مجاني بالكامل",
+      "AI مساعد",
+      "قاعدة معرفة"
+    ],
+    "features_en": [
+      "Completely free",
+      "AI assistant",
+      "Knowledge base"
+    ],
+    "pricing": "Free",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://www.tawk.to",
+    "affiliate_url": "",
+    "logo": "https://www.tawk.to/favicon.ico",
+    "tags": [
+      "دردشة مجانية",
+      "دعم"
+    ],
+    "tags_en": [
+      "free chat",
+      "support"
+    ],
+    "best_for": "أي موقع يريد دردشة حية مجانية",
+    "best_for_en": "Any website wanting free live chat",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "kustomer-ai",
+    "name": "Kustomer",
+    "name_ar": "كاستمر",
+    "category": "customer-support",
+    "category_ar": "دعم عملاء",
+    "description": "منصة CRM لدعم العملاء مع AI لأتمتة التصنيف والردود",
+    "description_en": "Customer support CRM platform with AI for automating classification and responses",
+    "features": [
+      "CRM مدمج",
+      "AI أتمتة",
+      "رؤية 360°"
+    ],
+    "features_en": [
+      "Built-in CRM",
+      "AI automation",
+      "360° view"
+    ],
+    "pricing": "Enterprise pricing",
+    "pricing_type": "enterprise",
+    "has_free_trial": true,
+    "free_trial_details": "Demo available",
+    "url": "https://www.kustomer.com",
+    "affiliate_url": "",
+    "logo": "https://www.kustomer.com/favicon.ico",
+    "tags": [
+      "CRM",
+      "دعم"
+    ],
+    "tags_en": [
+      "CRM",
+      "support"
+    ],
+    "best_for": "مؤسسات تحتاج CRM + دعم عملاء",
+    "best_for_en": "Enterprises needing CRM + customer support",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "dixa",
+    "name": "Dixa",
+    "name_ar": "ديكسا",
+    "category": "customer-support",
+    "category_ar": "دعم عملاء",
+    "description": "منصة خدمة عملاء موحدة تجمع جميع قنوات التواصل في مكان واحد",
+    "description_en": "Unified customer service platform combining all communication channels in one place",
+    "features": [
+      "قنوات موحدة",
+      "توجيه ذكي",
+      "تحليلات"
+    ],
+    "features_en": [
+      "Unified channels",
+      "Smart routing",
+      "Analytics"
+    ],
+    "pricing": "$39/agent/mo Essential",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "Free trial",
+    "url": "https://www.dixa.com",
+    "affiliate_url": "",
+    "logo": "https://www.dixa.com/favicon.ico",
+    "tags": [
+      "خدمة عملاء",
+      "قنوات موحدة"
+    ],
+    "tags_en": [
+      "customer service",
+      "unified channels"
+    ],
+    "best_for": "فرق دعم تريد توحيد جميع القنوات",
+    "best_for_en": "Support teams wanting to unify all channels",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "galileo-ai",
+    "name": "Galileo AI",
+    "name_ar": "جاليليو AI",
+    "category": "creative",
+    "category_ar": "إبداع",
+    "description": "أداة AI تصمم واجهات مستخدم كاملة من وصف نصي بسيط",
+    "description_en": "AI tool that designs complete user interfaces from simple text descriptions",
+    "features": [
+      "نص لتصميم",
+      "واجهات كاملة",
+      "تصدير"
+    ],
+    "features_en": [
+      "Text to design",
+      "Complete UIs",
+      "Export"
+    ],
+    "pricing": "Early access",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "Waitlist",
+    "url": "https://www.usegalileo.ai",
+    "affiliate_url": "",
+    "logo": "https://www.usegalileo.ai/favicon.ico",
+    "tags": [
+      "تصميم UI",
+      "AI"
+    ],
+    "tags_en": [
+      "UI design",
+      "AI"
+    ],
+    "best_for": "مصممين يريدون تسريع تصميم الواجهات",
+    "best_for_en": "Designers wanting to speed up UI design",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "diagram-magician",
+    "name": "Diagram (Magician)",
+    "name_ar": "دايجرام ماجيشن",
+    "category": "creative",
+    "category_ar": "إبداع",
+    "description": "إضافة AI لـ Figma تُنشئ أيقونات وصور ونصوص من وصف نصي",
+    "description_en": "AI Figma plugin generating icons, images, and copy from text descriptions",
+    "features": [
+      "أيقونات AI",
+      "صور في Figma",
+      "نصوص"
+    ],
+    "features_en": [
+      "AI icons",
+      "Images in Figma",
+      "Copywriting"
+    ],
+    "pricing": "$5/mo",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "Free trial",
+    "url": "https://diagram.com",
+    "affiliate_url": "",
+    "logo": "https://diagram.com/favicon.ico",
+    "tags": [
+      "Figma",
+      "أيقونات"
+    ],
+    "tags_en": [
+      "Figma",
+      "icons"
+    ],
+    "best_for": "مصممي Figma يحتاجون أصول بصرية سريعة",
+    "best_for_en": "Figma designers needing quick visual assets",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "uizard",
+    "name": "Uizard",
+    "name_ar": "يو آي زارد",
+    "category": "creative",
+    "category_ar": "إبداع",
+    "description": "أداة تصميم AI تحول رسومات يدوية وسكرينشوتات لتصاميم واجهات",
+    "description_en": "AI design tool converting hand drawings and screenshots into UI designs",
+    "features": [
+      "رسم لتصميم",
+      "سكرينشوت لقالب",
+      "نماذج أولية"
+    ],
+    "features_en": [
+      "Sketch to design",
+      "Screenshot to template",
+      "Prototyping"
+    ],
+    "pricing": "Free / $12/mo Pro",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://uizard.io",
+    "affiliate_url": "",
+    "logo": "https://uizard.io/favicon.ico",
+    "tags": [
+      "تصميم",
+      "رسم لواجهة"
+    ],
+    "tags_en": [
+      "design",
+      "sketch to UI"
+    ],
+    "best_for": "مديري منتجات يريدون تصميم نماذج أولية سريعاً",
+    "best_for_en": "Product managers wanting to design mockups quickly",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "visily",
+    "name": "Visily",
+    "name_ar": "فيزلي",
+    "category": "creative",
+    "category_ar": "إبداع",
+    "description": "أداة تصميم AI تحول نص وسكرينشوتات لواجهات مستخدم عالية الدقة",
+    "description_en": "AI design tool converting text and screenshots into high-fidelity UI designs",
+    "features": [
+      "نص لواجهة",
+      "سكرينشوت لتصميم",
+      "تعاون"
+    ],
+    "features_en": [
+      "Text to UI",
+      "Screenshot to design",
+      "Collaboration"
+    ],
+    "pricing": "Free / $10/mo Pro",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://www.visily.ai",
+    "affiliate_url": "",
+    "logo": "https://www.visily.ai/favicon.ico",
+    "tags": [
+      "تصميم واجهات",
+      "AI"
+    ],
+    "tags_en": [
+      "UI design",
+      "AI"
+    ],
+    "best_for": "فرق منتجات تحتاج نماذج عالية الدقة بسرعة",
+    "best_for_en": "Product teams needing hi-fi mockups quickly",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "datadog-ai",
+    "name": "Datadog",
+    "name_ar": "داتادوج",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "منصة مراقبة سحابية شاملة مع AI لاكتشاف المشاكل والأداء",
+    "description_en": "Comprehensive cloud monitoring platform with AI for issue detection and performance",
+    "features": [
+      "مراقبة شاملة",
+      "AI alerts",
+      "APM"
+    ],
+    "features_en": [
+      "Full monitoring",
+      "AI alerts",
+      "APM"
+    ],
+    "pricing": "Free tier / from $15/host/mo",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "14-day free trial",
+    "url": "https://www.datadoghq.com",
+    "affiliate_url": "",
+    "logo": "https://www.datadoghq.com/favicon.ico",
+    "tags": [
+      "مراقبة",
+      "DevOps"
+    ],
+    "tags_en": [
+      "monitoring",
+      "DevOps"
+    ],
+    "best_for": "فرق DevOps تحتاج مراقبة شاملة",
+    "best_for_en": "DevOps teams needing comprehensive monitoring",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "new-relic",
+    "name": "New Relic",
+    "name_ar": "نيو ريلك",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "منصة مراقبة أداء تطبيقات مع AI Assistant للتحليل والاستكشاف",
+    "description_en": "Application performance monitoring platform with AI Assistant for analysis",
+    "features": [
+      "APM",
+      "AI Assistant",
+      "لوحات معلومات"
+    ],
+    "features_en": [
+      "APM",
+      "AI Assistant",
+      "Dashboards"
+    ],
+    "pricing": "Free 100GB / from $0.30/GB",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://newrelic.com",
+    "affiliate_url": "",
+    "logo": "https://newrelic.com/favicon.ico",
+    "tags": [
+      "APM",
+      "مراقبة"
+    ],
+    "tags_en": [
+      "APM",
+      "monitoring"
+    ],
+    "best_for": "فرق تطوير تراقب أداء تطبيقاتها",
+    "best_for_en": "Dev teams monitoring application performance",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "grafana",
+    "name": "Grafana",
+    "name_ar": "جرافانا",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "منصة تصور بيانات ومراقبة مفتوحة المصدر مع AI لتحليل السجلات",
+    "description_en": "Open-source data visualization and monitoring platform with AI for log analysis",
+    "features": [
+      "لوحات معلومات",
+      "مفتوح المصدر",
+      "تنبيهات"
+    ],
+    "features_en": [
+      "Dashboards",
+      "Open source",
+      "Alerts"
+    ],
+    "pricing": "Free OSS / Cloud from $0",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://grafana.com",
+    "affiliate_url": "",
+    "logo": "https://grafana.com/favicon.ico",
+    "tags": [
+      "مراقبة",
+      "مفتوح المصدر"
+    ],
+    "tags_en": [
+      "monitoring",
+      "open source"
+    ],
+    "best_for": "فرق DevOps تراقب البنية التحتية",
+    "best_for_en": "DevOps teams monitoring infrastructure",
+    "added_date": "2026-07-14",
+    "open_source": true,
+    "featured": false
+  },
+  {
+    "id": "pulumi",
+    "name": "Pulumi",
+    "name_ar": "بولومي",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "أداة بنية تحتية ككود بلغات برمجة حقيقية مع AI مساعد",
+    "description_en": "Infrastructure as Code tool using real programming languages with AI assistant",
+    "features": [
+      "لغات حقيقية",
+      "AI copilot",
+      "متعدد سحاب"
+    ],
+    "features_en": [
+      "Real languages",
+      "AI copilot",
+      "Multi-cloud"
+    ],
+    "pricing": "Free / $50/mo Team",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://www.pulumi.com",
+    "affiliate_url": "",
+    "logo": "https://www.pulumi.com/favicon.ico",
+    "tags": [
+      "IaC",
+      "DevOps"
+    ],
+    "tags_en": [
+      "IaC",
+      "DevOps"
+    ],
+    "best_for": "مطورين يفضلون IaC بلغات برمجة حقيقية",
+    "best_for_en": "Developers preferring IaC in real languages",
+    "added_date": "2026-07-14",
+    "open_source": true,
+    "featured": false
+  },
+  {
+    "id": "portainer",
+    "name": "Portainer",
+    "name_ar": "بورتينر",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "واجهة إدارة حاويات Docker و Kubernetes بسيطة مع لوحة تحكم ويب",
+    "description_en": "Simple Docker and Kubernetes container management UI with web dashboard",
+    "features": [
+      "إدارة Docker",
+      "واجهة ويب",
+      "Kubernetes"
+    ],
+    "features_en": [
+      "Docker management",
+      "Web UI",
+      "Kubernetes"
+    ],
+    "pricing": "Free CE / $120/yr Business",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "Free Community Edition",
+    "url": "https://www.portainer.io",
+    "affiliate_url": "",
+    "logo": "https://www.portainer.io/favicon.ico",
+    "tags": [
+      "Docker",
+      "Kubernetes"
+    ],
+    "tags_en": [
+      "Docker",
+      "Kubernetes"
+    ],
+    "best_for": "فرق تدير حاويات Docker بسهولة",
+    "best_for_en": "Teams managing Docker containers easily",
+    "added_date": "2026-07-14",
+    "open_source": true,
+    "featured": false
+  },
+  {
+    "id": "sentry-io",
+    "name": "Sentry",
+    "name_ar": "سينتري",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "منصة تتبع أخطاء التطبيقات مع AI لتحليل وإصلاح المشاكل",
+    "description_en": "Application error tracking platform with AI for analyzing and fixing issues",
+    "features": [
+      "تتبع أخطاء",
+      "AI إصلاح",
+      "أداء"
+    ],
+    "features_en": [
+      "Error tracking",
+      "AI fixes",
+      "Performance"
+    ],
+    "pricing": "Free / $26/mo Team",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://sentry.io",
+    "affiliate_url": "",
+    "logo": "https://sentry.io/favicon.ico",
+    "tags": [
+      "أخطاء",
+      "تتبع"
+    ],
+    "tags_en": [
+      "errors",
+      "tracking"
+    ],
+    "best_for": "فرق تطوير تحتاج تتبع أخطاء فعّال",
+    "best_for_en": "Dev teams needing effective error tracking",
+    "added_date": "2026-07-14",
+    "open_source": true,
+    "featured": false
+  },
+  {
+    "id": "linear-app",
+    "name": "Linear",
+    "name_ar": "لينيير",
+    "category": "productivity",
+    "category_ar": "إنتاجية",
+    "description": "أداة إدارة مشاريع للمطورين فائقة السرعة مع AI لتنظيم المهام",
+    "description_en": "Ultra-fast project management tool for developers with AI for task organization",
+    "features": [
+      "سريع جداً",
+      "AI تنظيم",
+      "تكامل GitHub"
+    ],
+    "features_en": [
+      "Ultra-fast",
+      "AI organization",
+      "GitHub integration"
+    ],
+    "pricing": "Free / $8/user/mo Standard",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://linear.app",
+    "affiliate_url": "",
+    "logo": "https://linear.app/favicon.ico",
+    "tags": [
+      "إدارة مشاريع",
+      "مطورين"
+    ],
+    "tags_en": [
+      "project management",
+      "developers"
+    ],
+    "best_for": "فرق تطوير تحتاج أداة مهام سريعة",
+    "best_for_en": "Dev teams needing a fast task tool",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": true
+  },
+  {
+    "id": "height-app",
+    "name": "Height",
+    "name_ar": "هايت",
+    "category": "productivity",
+    "category_ar": "إنتاجية",
+    "description": "أداة إدارة مشاريع AI تنظم وتصنف المهام تلقائياً",
+    "description_en": "AI project management tool that auto-organizes and categorizes tasks",
+    "features": [
+      "تنظيم AI",
+      "تصنيف آلي",
+      "تعاون"
+    ],
+    "features_en": [
+      "AI organization",
+      "Auto-categorization",
+      "Collaboration"
+    ],
+    "pricing": "Free / $6.99/user/mo Team",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://height.app",
+    "affiliate_url": "",
+    "logo": "https://height.app/favicon.ico",
+    "tags": [
+      "إدارة مشاريع",
+      "AI"
+    ],
+    "tags_en": [
+      "project management",
+      "AI"
+    ],
+    "best_for": "فرق صغيرة تريد إدارة مشاريع ذكية",
+    "best_for_en": "Small teams wanting smart project management",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "clickup-ai",
+    "name": "ClickUp AI",
+    "name_ar": "كليك أب AI",
+    "category": "productivity",
+    "category_ar": "إنتاجية",
+    "description": "منصة إنتاجية شاملة مع AI Brain لكتابة وتنظيم وأتمتة",
+    "description_en": "All-in-one productivity platform with AI Brain for writing, organization, and automation",
+    "features": [
+      "كل في واحد",
+      "AI Brain",
+      "أتمتة"
+    ],
+    "features_en": [
+      "All-in-one",
+      "AI Brain",
+      "Automation"
+    ],
+    "pricing": "Free / $7/user/mo Unlimited",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://clickup.com",
+    "affiliate_url": "",
+    "logo": "https://clickup.com/favicon.ico",
+    "tags": [
+      "إنتاجية",
+      "كل في واحد"
+    ],
+    "tags_en": [
+      "productivity",
+      "all-in-one"
+    ],
+    "best_for": "فرق تريد منصة واحدة لكل شيء",
+    "best_for_en": "Teams wanting one platform for everything",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "asana-ai",
+    "name": "Asana AI",
+    "name_ar": "أسانا AI",
+    "category": "productivity",
+    "category_ar": "إنتاجية",
+    "description": "منصة إدارة عمل مع AI Studio لأتمتة العمليات وتنظيم المهام",
+    "description_en": "Work management platform with AI Studio for process automation and task organization",
+    "features": [
+      "AI Studio",
+      "أتمتة",
+      "مشاريع"
+    ],
+    "features_en": [
+      "AI Studio",
+      "Automation",
+      "Projects"
+    ],
+    "pricing": "Free / $10.99/user/mo Starter",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "30-day free trial",
+    "url": "https://asana.com",
+    "affiliate_url": "",
+    "logo": "https://asana.com/favicon.ico",
+    "tags": [
+      "إدارة مشاريع",
+      "فرق"
+    ],
+    "tags_en": [
+      "project management",
+      "teams"
+    ],
+    "best_for": "فرق متوسطة وكبيرة تدير مشاريع معقدة",
+    "best_for_en": "Medium and large teams managing complex projects",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "dbt-labs",
+    "name": "dbt",
+    "name_ar": "دي بي تي",
+    "category": "data-analytics",
+    "category_ar": "تحليل بيانات",
+    "description": "أداة تحويل بيانات مفتوحة المصدر تمكّن الفرق من تحويل البيانات بـ SQL",
+    "description_en": "Open-source data transformation tool enabling teams to transform data with SQL",
+    "features": [
+      "تحويل SQL",
+      "اختبار بيانات",
+      "توثيق"
+    ],
+    "features_en": [
+      "SQL transformation",
+      "Data testing",
+      "Documentation"
+    ],
+    "pricing": "Free Core / Cloud from $100/mo",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "Free developer plan",
+    "url": "https://www.getdbt.com",
+    "affiliate_url": "",
+    "logo": "https://www.getdbt.com/favicon.ico",
+    "tags": [
+      "بيانات",
+      "SQL",
+      "مفتوح المصدر"
+    ],
+    "tags_en": [
+      "data",
+      "SQL",
+      "open source"
+    ],
+    "best_for": "فرق بيانات تحوّل وتنظف البيانات",
+    "best_for_en": "Data teams transforming and cleaning data",
+    "added_date": "2026-07-14",
+    "open_source": true,
+    "featured": false
+  },
+  {
+    "id": "airbyte",
+    "name": "Airbyte",
+    "name_ar": "إير بايت",
+    "category": "data-analytics",
+    "category_ar": "تحليل بيانات",
+    "description": "منصة ELT مفتوحة المصدر لنقل البيانات مع 300+ موصل",
+    "description_en": "Open-source ELT platform for data movement with 300+ connectors",
+    "features": [
+      "300+ موصل",
+      "مفتوح المصدر",
+      "CDC"
+    ],
+    "features_en": [
+      "300+ connectors",
+      "Open source",
+      "CDC"
+    ],
+    "pricing": "Free OSS / Cloud from $0",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://airbyte.com",
+    "affiliate_url": "",
+    "logo": "https://airbyte.com/favicon.ico",
+    "tags": [
+      "ETL",
+      "نقل بيانات",
+      "مفتوح المصدر"
+    ],
+    "tags_en": [
+      "ETL",
+      "data movement",
+      "open source"
+    ],
+    "best_for": "فرق بيانات تحتاج نقل بيانات من مصادر متعددة",
+    "best_for_en": "Data teams needing data movement from multiple sources",
+    "added_date": "2026-07-14",
+    "open_source": true,
+    "featured": false
+  },
+  {
+    "id": "fivetran",
+    "name": "Fivetran",
+    "name_ar": "فايف تران",
+    "category": "data-analytics",
+    "category_ar": "تحليل بيانات",
+    "description": "منصة ELT مُدارة بالكامل لمزامنة البيانات من 300+ مصدر تلقائياً",
+    "description_en": "Fully managed ELT platform for automatically syncing data from 300+ sources",
+    "features": [
+      "مُدار بالكامل",
+      "300+ مصدر",
+      "مزامنة تلقائية"
+    ],
+    "features_en": [
+      "Fully managed",
+      "300+ sources",
+      "Auto-sync"
+    ],
+    "pricing": "Free tier / Pay per row",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "Free tier",
+    "url": "https://www.fivetran.com",
+    "affiliate_url": "",
+    "logo": "https://www.fivetran.com/favicon.ico",
+    "tags": [
+      "ETL",
+      "مزامنة"
+    ],
+    "tags_en": [
+      "ETL",
+      "sync"
+    ],
+    "best_for": "فرق بيانات تحتاج مزامنة بيانات بلا صيانة",
+    "best_for_en": "Data teams needing maintenance-free data sync",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "snowflake-cortex",
+    "name": "Snowflake Cortex",
+    "name_ar": "سنوفليك كورتكس",
+    "category": "data-analytics",
+    "category_ar": "تحليل بيانات",
+    "description": "خدمة AI مدمجة في Snowflake لاستعلام البيانات بلغة طبيعية",
+    "description_en": "Built-in AI service in Snowflake for querying data with natural language",
+    "features": [
+      "لغة طبيعية",
+      "مدمج في Snowflake",
+      "ML بلا كود"
+    ],
+    "features_en": [
+      "Natural language",
+      "Built-in Snowflake",
+      "No-code ML"
+    ],
+    "pricing": "Included with Snowflake",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "30-day free trial",
+    "url": "https://www.snowflake.com/cortex",
+    "affiliate_url": "",
+    "logo": "https://www.snowflake.com/favicon.ico",
+    "tags": [
+      "Snowflake",
+      "AI بيانات"
+    ],
+    "tags_en": [
+      "Snowflake",
+      "data AI"
+    ],
+    "best_for": "فرق تستخدم Snowflake وتريد AI على بياناتها",
+    "best_for_en": "Teams using Snowflake wanting AI on their data",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "databricks-assistant",
+    "name": "Databricks Assistant",
+    "name_ar": "مساعد داتابريكس",
+    "category": "data-analytics",
+    "category_ar": "تحليل بيانات",
+    "description": "مساعد AI مدمج في Databricks لكتابة كود وتحليل بيانات بلغة طبيعية",
+    "description_en": "Built-in AI assistant in Databricks for writing code and analyzing data in natural language",
+    "features": [
+      "كتابة كود",
+      "لغة طبيعية",
+      "notebooks"
+    ],
+    "features_en": [
+      "Code writing",
+      "Natural language",
+      "Notebooks"
+    ],
+    "pricing": "Included with Databricks",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "14-day free trial",
+    "url": "https://www.databricks.com",
+    "affiliate_url": "",
+    "logo": "https://www.databricks.com/favicon.ico",
+    "tags": [
+      "Databricks",
+      "AI تحليل"
+    ],
+    "tags_en": [
+      "Databricks",
+      "AI analytics"
+    ],
+    "best_for": "فرق بيانات تستخدم Databricks",
+    "best_for_en": "Data teams using Databricks",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "streamlit",
+    "name": "Streamlit",
+    "name_ar": "ستريمليت",
+    "category": "data-analytics",
+    "category_ar": "تحليل بيانات",
+    "description": "إطار Python مفتوح المصدر لبناء تطبيقات بيانات تفاعلية بسرعة",
+    "description_en": "Open-source Python framework for building interactive data apps quickly",
+    "features": [
+      "Python أصلي",
+      "تطبيقات تفاعلية",
+      "نشر مجاني"
+    ],
+    "features_en": [
+      "Native Python",
+      "Interactive apps",
+      "Free hosting"
+    ],
+    "pricing": "Free / Cloud from $0",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://streamlit.io",
+    "affiliate_url": "",
+    "logo": "https://streamlit.io/favicon.ico",
+    "tags": [
+      "Python",
+      "تطبيقات بيانات"
+    ],
+    "tags_en": [
+      "Python",
+      "data apps"
+    ],
+    "best_for": "علماء بيانات يريدون مشاركة تحليلاتهم",
+    "best_for_en": "Data scientists wanting to share their analyses",
+    "added_date": "2026-07-14",
+    "open_source": true,
+    "featured": false
+  },
+  {
+    "id": "gradio",
+    "name": "Gradio",
+    "name_ar": "جراديو",
+    "category": "data-analytics",
+    "category_ar": "تحليل بيانات",
+    "description": "مكتبة Python مفتوحة المصدر لإنشاء واجهات لنماذج ML بأسطر قليلة",
+    "description_en": "Open-source Python library for creating ML model interfaces in a few lines",
+    "features": [
+      "واجهات ML",
+      "مشاركة سهلة",
+      "Hugging Face"
+    ],
+    "features_en": [
+      "ML interfaces",
+      "Easy sharing",
+      "Hugging Face"
+    ],
+    "pricing": "Free",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://gradio.app",
+    "affiliate_url": "",
+    "logo": "https://gradio.app/favicon.ico",
+    "tags": [
+      "ML واجهات",
+      "Python",
+      "مفتوح المصدر"
+    ],
+    "tags_en": [
+      "ML interfaces",
+      "Python",
+      "open source"
+    ],
+    "best_for": "باحثي ML يريدون عرض نماذجهم",
+    "best_for_en": "ML researchers wanting to demo their models",
+    "added_date": "2026-07-14",
+    "open_source": true,
+    "featured": false
   }
 ]
