@@ -35191,5 +35191,668 @@
     "added_date": "2026-07-14",
     "open_source": false,
     "featured": false
+  },
+  {
+    "id": "clarifai",
+    "name": "Clarifai",
+    "name_ar": "كلاريفاي",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "منصة AI لرؤية الحاسوب وNLP مع أدوات بناء ونشر نماذج",
+    "description_en": "AI platform for computer vision and NLP with model building and deployment tools",
+    "features": [
+      "رؤية حاسوب",
+      "NLP",
+      "نشر نماذج"
+    ],
+    "features_en": [
+      "Computer vision",
+      "NLP",
+      "Model deployment"
+    ],
+    "pricing": "Free / from $30/mo",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://www.clarifai.com",
+    "affiliate_url": "",
+    "logo": "https://www.clarifai.com/favicon.ico",
+    "tags": [
+      "رؤية",
+      "NLP"
+    ],
+    "tags_en": [
+      "vision",
+      "NLP"
+    ],
+    "best_for": "مطورين يبنون تطبيقات رؤية حاسوب",
+    "best_for_en": "Developers building computer vision apps",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "roboflow",
+    "name": "Roboflow",
+    "name_ar": "روبو فلو",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "منصة رؤية حاسوب تسهل بناء وتدريب ونشر نماذج الكشف",
+    "description_en": "Computer vision platform making it easy to build, train, and deploy detection models",
+    "features": [
+      "تعليق بيانات",
+      "تدريب",
+      "نشر"
+    ],
+    "features_en": [
+      "Data labeling",
+      "Training",
+      "Deployment"
+    ],
+    "pricing": "Free / $249/mo Starter",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://roboflow.com",
+    "affiliate_url": "",
+    "logo": "https://roboflow.com/favicon.ico",
+    "tags": [
+      "رؤية حاسوب",
+      "كشف"
+    ],
+    "tags_en": [
+      "computer vision",
+      "detection"
+    ],
+    "best_for": "مطورين يبنون نماذج كشف عناصر",
+    "best_for_en": "Developers building object detection models",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "v7-labs",
+    "name": "V7",
+    "name_ar": "في سبعة",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "منصة تعليق بيانات AI للصور والفيديو مع أتمتة ذكية",
+    "description_en": "AI data labeling platform for images and video with smart automation",
+    "features": [
+      "تعليق ذكي",
+      "صور + فيديو",
+      "workflows"
+    ],
+    "features_en": [
+      "Smart labeling",
+      "Image + video",
+      "Workflows"
+    ],
+    "pricing": "Free / Team from $300/mo",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "Free tier",
+    "url": "https://www.v7labs.com",
+    "affiliate_url": "",
+    "logo": "https://www.v7labs.com/favicon.ico",
+    "tags": [
+      "تعليق بيانات",
+      "AI"
+    ],
+    "tags_en": [
+      "data labeling",
+      "AI"
+    ],
+    "best_for": "فرق ML تحتاج تعليق بيانات دقيق",
+    "best_for_en": "ML teams needing accurate data labeling",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "scale-ai",
+    "name": "Scale AI",
+    "name_ar": "سكيل AI",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "منصة بيانات AI مؤسسية لتعليق وتقييم وتحسين نماذج AI",
+    "description_en": "Enterprise AI data platform for labeling, evaluating, and improving AI models",
+    "features": [
+      "تعليق مؤسسي",
+      "تقييم نماذج",
+      "RLHF"
+    ],
+    "features_en": [
+      "Enterprise labeling",
+      "Model evaluation",
+      "RLHF"
+    ],
+    "pricing": "Enterprise pricing",
+    "pricing_type": "enterprise",
+    "has_free_trial": true,
+    "free_trial_details": "Demo available",
+    "url": "https://scale.com",
+    "affiliate_url": "",
+    "logo": "https://scale.com/favicon.ico",
+    "tags": [
+      "بيانات",
+      "مؤسسات"
+    ],
+    "tags_en": [
+      "data",
+      "enterprise"
+    ],
+    "best_for": "شركات AI كبيرة تدرب نماذج",
+    "best_for_en": "Large AI companies training models",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "labelbox",
+    "name": "Labelbox",
+    "name_ar": "ليبل بوكس",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "منصة تعليق بيانات وإدارة دورة حياة بيانات AI",
+    "description_en": "Data labeling and AI data lifecycle management platform",
+    "features": [
+      "تعليق",
+      "جودة بيانات",
+      "أتمتة"
+    ],
+    "features_en": [
+      "Labeling",
+      "Data quality",
+      "Automation"
+    ],
+    "pricing": "Free / Enterprise",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "Free tier",
+    "url": "https://labelbox.com",
+    "affiliate_url": "",
+    "logo": "https://labelbox.com/favicon.ico",
+    "tags": [
+      "تعليق",
+      "جودة"
+    ],
+    "tags_en": [
+      "labeling",
+      "quality"
+    ],
+    "best_for": "فرق ML تدير بيانات التدريب",
+    "best_for_en": "ML teams managing training data",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "snorkel-ai",
+    "name": "Snorkel AI",
+    "name_ar": "سنوركل AI",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "منصة برمجة بيانات AI بدون تعليق يدوي مكثف",
+    "description_en": "AI data programming platform without intensive manual labeling",
+    "features": [
+      "برمجة بيانات",
+      "تعليق آلي",
+      "تحسين"
+    ],
+    "features_en": [
+      "Data programming",
+      "Auto-labeling",
+      "Optimization"
+    ],
+    "pricing": "Enterprise pricing",
+    "pricing_type": "enterprise",
+    "has_free_trial": true,
+    "free_trial_details": "Demo available",
+    "url": "https://snorkel.ai",
+    "affiliate_url": "",
+    "logo": "https://snorkel.ai/favicon.ico",
+    "tags": [
+      "بيانات",
+      "تعليق آلي"
+    ],
+    "tags_en": [
+      "data",
+      "auto-labeling"
+    ],
+    "best_for": "فرق ML لديها بيانات كثيرة غير معلقة",
+    "best_for_en": "ML teams with lots of unlabeled data",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "comet-ml",
+    "name": "Comet",
+    "name_ar": "كوميت",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "منصة تتبع تجارب ML وإدارة نماذج ومراقبة إنتاج",
+    "description_en": "ML experiment tracking, model management, and production monitoring platform",
+    "features": [
+      "تتبع تجارب",
+      "إدارة نماذج",
+      "مراقبة"
+    ],
+    "features_en": [
+      "Experiment tracking",
+      "Model management",
+      "Monitoring"
+    ],
+    "pricing": "Free / $39/user/mo",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://www.comet.com",
+    "affiliate_url": "",
+    "logo": "https://www.comet.com/favicon.ico",
+    "tags": [
+      "MLOps",
+      "تتبع"
+    ],
+    "tags_en": [
+      "MLOps",
+      "tracking"
+    ],
+    "best_for": "فرق ML تتبع تجاربها",
+    "best_for_en": "ML teams tracking experiments",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "deepgram",
+    "name": "Deepgram",
+    "name_ar": "ديب جرام",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "منصة تحويل كلام لنص ونص لكلام بـ API سريع ودقيق",
+    "description_en": "Speech-to-text and text-to-speech platform with fast and accurate API",
+    "features": [
+      "كلام لنص",
+      "نص لكلام",
+      "API سريع"
+    ],
+    "features_en": [
+      "Speech-to-text",
+      "Text-to-speech",
+      "Fast API"
+    ],
+    "pricing": "Free tier / Pay per hour",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "$200 free credits",
+    "url": "https://deepgram.com",
+    "affiliate_url": "",
+    "logo": "https://deepgram.com/favicon.ico",
+    "tags": [
+      "كلام",
+      "API"
+    ],
+    "tags_en": [
+      "speech",
+      "API"
+    ],
+    "best_for": "مطورين يحتاجون تحويل كلام لنص دقيق",
+    "best_for_en": "Developers needing accurate speech-to-text",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "assembly-ai",
+    "name": "AssemblyAI",
+    "name_ar": "أسيمبلي AI",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "منصة فهم كلام AI مع نسخ وتلخيص وكشف مواضيع",
+    "description_en": "AI speech understanding platform with transcription, summarization, and topic detection",
+    "features": [
+      "نسخ",
+      "تلخيص",
+      "كشف مواضيع"
+    ],
+    "features_en": [
+      "Transcription",
+      "Summarization",
+      "Topic detection"
+    ],
+    "pricing": "Free / Pay per hour",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "Free tier",
+    "url": "https://www.assemblyai.com",
+    "affiliate_url": "",
+    "logo": "https://www.assemblyai.com/favicon.ico",
+    "tags": [
+      "نسخ",
+      "فهم كلام"
+    ],
+    "tags_en": [
+      "transcription",
+      "speech understanding"
+    ],
+    "best_for": "مطورين يبنون تطبيقات صوتية",
+    "best_for_en": "Developers building audio applications",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "speechmatics",
+    "name": "Speechmatics",
+    "name_ar": "سبيتشماتكس",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "منصة تحويل كلام دقيقة تدعم 50+ لغة مع ترجمة فورية",
+    "description_en": "Accurate speech-to-text platform supporting 50+ languages with real-time translation",
+    "features": [
+      "50+ لغة",
+      "ترجمة فورية",
+      "دقة عالية"
+    ],
+    "features_en": [
+      "50+ languages",
+      "Real-time translation",
+      "High accuracy"
+    ],
+    "pricing": "Pay per hour",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "Free trial",
+    "url": "https://www.speechmatics.com",
+    "affiliate_url": "",
+    "logo": "https://www.speechmatics.com/favicon.ico",
+    "tags": [
+      "كلام",
+      "ترجمة"
+    ],
+    "tags_en": [
+      "speech",
+      "translation"
+    ],
+    "best_for": "شركات تحتاج نسخ كلام متعدد اللغات",
+    "best_for_en": "Companies needing multilingual transcription",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "black-forest-labs",
+    "name": "Black Forest Labs (FLUX)",
+    "name_ar": "بلاك فورست (FLUX)",
+    "category": "creative",
+    "category_ar": "إبداع",
+    "description": "نماذج FLUX المفتوحة لتوليد الصور بجودة عالية جداً",
+    "description_en": "FLUX open models for very high-quality image generation",
+    "features": [
+      "جودة عالية",
+      "مفتوح",
+      "API"
+    ],
+    "features_en": [
+      "High quality",
+      "Open",
+      "API"
+    ],
+    "pricing": "Free models / API pricing",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://blackforestlabs.ai",
+    "affiliate_url": "",
+    "logo": "https://blackforestlabs.ai/favicon.ico",
+    "tags": [
+      "FLUX",
+      "توليد صور"
+    ],
+    "tags_en": [
+      "FLUX",
+      "image generation"
+    ],
+    "best_for": "فنانين يريدون أفضل جودة صور AI",
+    "best_for_en": "Artists wanting best AI image quality",
+    "added_date": "2026-07-14",
+    "open_source": true,
+    "featured": false
+  },
+  {
+    "id": "runway-ml",
+    "name": "Runway",
+    "name_ar": "ران واي",
+    "category": "creative",
+    "category_ar": "إبداع",
+    "description": "منصة AI لإنشاء وتحرير فيديوهات مع Gen-3 Alpha لتوليد فيديو من نص",
+    "description_en": "AI platform for creating and editing videos with Gen-3 Alpha for text-to-video generation",
+    "features": [
+      "نص لفيديو",
+      "تحرير فيديو",
+      "Gen-3"
+    ],
+    "features_en": [
+      "Text to video",
+      "Video editing",
+      "Gen-3"
+    ],
+    "pricing": "Free / $12/mo Standard",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://runwayml.com",
+    "affiliate_url": "",
+    "logo": "https://runwayml.com/favicon.ico",
+    "tags": [
+      "فيديو AI",
+      "تحرير"
+    ],
+    "tags_en": [
+      "AI video",
+      "editing"
+    ],
+    "best_for": "صناع أفلام ومحرري فيديو",
+    "best_for_en": "Filmmakers and video editors",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": true
+  },
+  {
+    "id": "pika-labs",
+    "name": "Pika",
+    "name_ar": "بيكا",
+    "category": "creative",
+    "category_ar": "إبداع",
+    "description": "منصة توليد فيديو AI سهلة من نص أو صورة",
+    "description_en": "Easy AI video generation platform from text or image prompts",
+    "features": [
+      "نص/صورة لفيديو",
+      "سهل الاستخدام",
+      "تحرير"
+    ],
+    "features_en": [
+      "Text/image to video",
+      "Easy to use",
+      "Editing"
+    ],
+    "pricing": "Free / $8/mo Standard",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://pika.art",
+    "affiliate_url": "",
+    "logo": "https://pika.art/favicon.ico",
+    "tags": [
+      "فيديو AI",
+      "توليد"
+    ],
+    "tags_en": [
+      "AI video",
+      "generation"
+    ],
+    "best_for": "صناع محتوى يريدون فيديو AI سهل",
+    "best_for_en": "Content creators wanting easy AI video",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "minimax-hailuo",
+    "name": "Hailuo AI (MiniMax)",
+    "name_ar": "هايلو AI",
+    "category": "creative",
+    "category_ar": "إبداع",
+    "description": "منصة توليد فيديو AI مجانية من MiniMax بحركة سينمائية",
+    "description_en": "Free AI video generation platform by MiniMax with cinematic motion",
+    "features": [
+      "مجاني",
+      "سينمائي",
+      "طبيعي"
+    ],
+    "features_en": [
+      "Free",
+      "Cinematic",
+      "Natural"
+    ],
+    "pricing": "Free",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://hailuoai.video",
+    "affiliate_url": "",
+    "logo": "https://hailuoai.video/favicon.ico",
+    "tags": [
+      "فيديو",
+      "مجاني"
+    ],
+    "tags_en": [
+      "video",
+      "free"
+    ],
+    "best_for": "أي شخص يريد تجربة فيديو AI مجاناً",
+    "best_for_en": "Anyone wanting to try free AI video",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "veo-google",
+    "name": "Google Veo",
+    "name_ar": "جوجل فيو",
+    "category": "creative",
+    "category_ar": "إبداع",
+    "description": "نموذج توليد فيديو AI من Google بجودة 1080p وفهم فيزيائي متقدم",
+    "description_en": "Google's AI video generation model with 1080p quality and advanced physics understanding",
+    "features": [
+      "1080p",
+      "فيزياء متقدمة",
+      "دقيقة+"
+    ],
+    "features_en": [
+      "1080p",
+      "Advanced physics",
+      "1 min+"
+    ],
+    "pricing": "Via Vertex AI",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "Preview available",
+    "url": "https://deepmind.google/technologies/veo",
+    "affiliate_url": "",
+    "logo": "https://deepmind.google/favicon.ico",
+    "tags": [
+      "فيديو AI",
+      "Google"
+    ],
+    "tags_en": [
+      "AI video",
+      "Google"
+    ],
+    "best_for": "صناع أفلام يريدون أعلى جودة فيديو AI",
+    "best_for_en": "Filmmakers wanting highest quality AI video",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "openai-sora",
+    "name": "OpenAI Sora",
+    "name_ar": "أوبن AI سورا",
+    "category": "creative",
+    "category_ar": "إبداع",
+    "description": "نموذج توليد فيديو AI من OpenAI يُنشئ فيديوهات سينمائية من نص",
+    "description_en": "OpenAI video generation model creating cinematic videos from text prompts",
+    "features": [
+      "سينمائي",
+      "20 ثانية",
+      "1080p"
+    ],
+    "features_en": [
+      "Cinematic",
+      "20 seconds",
+      "1080p"
+    ],
+    "pricing": "Included with ChatGPT Plus",
+    "pricing_type": "paid",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://openai.com/sora",
+    "affiliate_url": "",
+    "logo": "https://openai.com/favicon.ico",
+    "tags": [
+      "فيديو AI",
+      "OpenAI"
+    ],
+    "tags_en": [
+      "AI video",
+      "OpenAI"
+    ],
+    "best_for": "مشتركي ChatGPT يريدون توليد فيديو",
+    "best_for_en": "ChatGPT subscribers wanting video generation",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": true
+  },
+  {
+    "id": "make-com",
+    "name": "Make (Integromat)",
+    "name_ar": "ميك",
+    "category": "automation",
+    "category_ar": "أتمتة",
+    "description": "منصة أتمتة بصرية قوية لسير عمل معقد بين التطبيقات",
+    "description_en": "Powerful visual automation platform for complex workflows between apps",
+    "features": [
+      "بصري",
+      "1500+ تكامل",
+      "قوي"
+    ],
+    "features_en": [
+      "Visual",
+      "1500+ integrations",
+      "Powerful"
+    ],
+    "pricing": "Free / $9/mo Core",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://www.make.com",
+    "affiliate_url": "",
+    "logo": "https://www.make.com/favicon.ico",
+    "tags": [
+      "أتمتة بصرية",
+      "سير عمل"
+    ],
+    "tags_en": [
+      "visual automation",
+      "workflows"
+    ],
+    "best_for": "مستخدمين يريدون أتمتة أقوى من Zapier",
+    "best_for_en": "Users wanting more powerful automation than Zapier",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
   }
 ]
