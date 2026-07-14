@@ -37221,5 +37221,1733 @@
     "added_date": "2026-07-14",
     "open_source": true,
     "featured": true
+  },
+  {
+    "id": "devin-cognition",
+    "name": "ديفين",
+    "name_ar": "ديفين",
+    "category": "coding",
+    "category_ar": "برمجة",
+    "description": "مهندس برمجيات ذكاء اصطناعي مستقل من Cognition، يقرأ الأكواد ويفهم المشاريع وينفذ المهام البرمجية بشكل كامل مع IDE سحابي وعملاء متوازين",
+    "description_en": "Cognition's autonomous AI software engineer that reads code, understands projects, and executes coding tasks with a cloud IDE and parallel agents",
+    "official_description": "Autonomous AI software engineer by Cognition",
+    "features": [
+      "مهندس برمجي مستقل",
+      "IDE سحابي تفاعلي",
+      "وكلاء متوازيون",
+      "إصلاح الأخطاء",
+      "كتابة الاختبارات",
+      "مراجعة الأكواد"
+    ],
+    "features_en": [
+      "Autonomous software engineer",
+      "Interactive cloud IDE",
+      "Parallel agents",
+      "Bug fixing",
+      "Test writing",
+      "Code review"
+    ],
+    "pricing": "Free / $20/mo Pro / $200/mo Max",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "Free tier with light quota",
+    "url": "https://devin.ai",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "مهندس برمجي",
+      "وكيل مستقل",
+      "IDE سحابي"
+    ],
+    "tags_en": [
+      "software engineer",
+      "autonomous agent",
+      "cloud IDE"
+    ],
+    "featured": true,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "تنفيذ المهام البرمجية المعقدة بشكل مستقل",
+    "best_for_en": "Autonomous complex coding task execution"
+  },
+  {
+    "id": "chatgpt-work",
+    "name": "ChatGPT Work",
+    "name_ar": "شات جي بي تي وورك",
+    "category": "productivity",
+    "category_ar": "إنتاجية",
+    "description": "منصة عمل متقدمة من OpenAI مدعومة بـ GPT-5.6، تجمع السياق من أدوات فريقك وتحول الأفكار إلى جداول بيانات ومستندات وعروض تقديمية مكتملة",
+    "description_en": "OpenAI's advanced work platform powered by GPT-5.6 that gathers context from team tools and turns ideas into finished spreadsheets, docs, and slides",
+    "official_description": "Take on your most ambitious work with ChatGPT, powered by GPT-5.6",
+    "features": [
+      "GPT-5.6 Sol/Terra/Luna",
+      "إنشاء الجداول والمستندات",
+      "تكامل مع أدوات الفريق",
+      "التخطيط والتنفيذ",
+      "لوحات معلومات",
+      "عروض تقديمية"
+    ],
+    "features_en": [
+      "GPT-5.6 Sol/Terra/Luna",
+      "Spreadsheet & doc creation",
+      "Team tool integration",
+      "Planning & execution",
+      "Dashboards",
+      "Presentations"
+    ],
+    "pricing": "Free / $20/mo Plus / $200/mo Pro",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "Free tier with limited access",
+    "url": "https://openai.com/chatgpt-work",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "GPT-5.6",
+      "إنتاجية",
+      "عمل جماعي"
+    ],
+    "tags_en": [
+      "GPT-5.6",
+      "productivity",
+      "teamwork"
+    ],
+    "featured": true,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "تحويل الأفكار إلى مخرجات عمل احترافية جاهزة",
+    "best_for_en": "Turning ideas into professional ready work outputs"
+  },
+  {
+    "id": "claude-tag",
+    "name": "Claude Tag",
+    "name_ar": "كلود تاغ",
+    "category": "productivity",
+    "category_ar": "إنتاجية",
+    "description": "وكيل ذكاء اصطناعي من Anthropic يعمل داخل قنوات Slack كعضو فريق حقيقي، يتذكر السياق ويستخدم أدوات المؤسسة وينفذ المهام بشكل مستقل عند الإشارة إليه بـ @Claude",
+    "description_en": "Anthropic's AI agent that works inside Slack channels as a real team member, remembers context, uses org tools, and executes tasks autonomously when tagged @Claude",
+    "official_description": "Tag @Claude into a conversation and it takes on real work",
+    "features": [
+      "تكامل Slack أصلي",
+      "ذاكرة سياقية",
+      "استخدام أدوات المؤسسة",
+      "تنفيذ مستقل",
+      "65% من أكواد فريق Anthropic",
+      "تخطيط المهام المستقبلية"
+    ],
+    "features_en": [
+      "Native Slack integration",
+      "Contextual memory",
+      "Org tool access",
+      "Autonomous execution",
+      "65% of Anthropic team code",
+      "Future task planning"
+    ],
+    "pricing": "Team & Enterprise plans",
+    "pricing_type": "paid",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://www.anthropic.com/news/introducing-claude-tag",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "Slack",
+      "عمل جماعي",
+      "وكيل مستقل"
+    ],
+    "tags_en": [
+      "Slack",
+      "teamwork",
+      "autonomous agent"
+    ],
+    "featured": true,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "العمل التعاوني مع الفرق داخل Slack",
+    "best_for_en": "Collaborative teamwork inside Slack"
+  },
+  {
+    "id": "jules-google",
+    "name": "جولز",
+    "name_ar": "جولز",
+    "category": "coding",
+    "category_ar": "برمجة",
+    "description": "وكيل برمجة مستقل من Google مدعوم بـ Gemini 3، يعمل بشكل غير متزامن في بيئة سحابية آمنة لقراءة الأكواد وإصلاح الأخطاء وكتابة الاختبارات مع تكامل GitHub",
+    "description_en": "Google's autonomous coding agent powered by Gemini 3 that works asynchronously in a secure cloud environment for reading code, fixing bugs, and writing tests with GitHub integration",
+    "official_description": "Google's always-on autonomous coding agent",
+    "features": [
+      "Gemini 3 Pro",
+      "عمل غير متزامن",
+      "بيئة سحابية آمنة",
+      "تكامل GitHub",
+      "سجلات تغيير صوتية",
+      "فهم المشاريع الكاملة"
+    ],
+    "features_en": [
+      "Gemini 3 Pro",
+      "Asynchronous work",
+      "Secure cloud environment",
+      "GitHub integration",
+      "Audio changelogs",
+      "Full project understanding"
+    ],
+    "pricing": "Google AI Pro/Ultra subscription",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "Available with Google AI subscription",
+    "url": "https://jules.google",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "Google",
+      "Gemini",
+      "برمجة مستقلة"
+    ],
+    "tags_en": [
+      "Google",
+      "Gemini",
+      "autonomous coding"
+    ],
+    "featured": true,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "إصلاح الأخطاء وكتابة الاختبارات بشكل مستقل",
+    "best_for_en": "Autonomous bug fixing and test writing"
+  },
+  {
+    "id": "11x-alice",
+    "name": "11x أليس",
+    "name_ar": "11x أليس",
+    "category": "sales-marketing",
+    "category_ar": "مبيعات وتسويق",
+    "description": "وكيل مبيعات ذكاء اصطناعي مستقل بالكامل يتولى دورة المبيعات الصادرة: البحث عن العملاء المحتملين، البحث، كتابة رسائل مخصصة، الإرسال، ومعالجة الردود",
+    "description_en": "Fully autonomous AI sales agent that owns the outbound sales cycle: prospecting, research, personalized outreach writing, sending, and reply handling",
+    "official_description": "AI SDR that automates outbound sales end-to-end",
+    "features": [
+      "وكيل SDR مستقل",
+      "البحث عن العملاء",
+      "رسائل مخصصة",
+      "إرسال تلقائي",
+      "معالجة الردود",
+      "حجز الاجتماعات"
+    ],
+    "features_en": [
+      "Autonomous SDR agent",
+      "Prospect research",
+      "Personalized messaging",
+      "Auto-sending",
+      "Reply handling",
+      "Meeting booking"
+    ],
+    "pricing": "Enterprise pricing",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "Demo available",
+    "url": "https://www.11x.ai",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "مبيعات",
+      "SDR",
+      "وكيل مستقل"
+    ],
+    "tags_en": [
+      "sales",
+      "SDR",
+      "autonomous agent"
+    ],
+    "featured": true,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "أتمتة دورة المبيعات الصادرة بالكامل",
+    "best_for_en": "Full outbound sales cycle automation"
+  },
+  {
+    "id": "artisan-ava",
+    "name": "Artisan Ava",
+    "name_ar": "أرتيزان آفا",
+    "category": "sales-marketing",
+    "category_ar": "مبيعات وتسويق",
+    "description": "وكيل مبيعات ذكاء اصطناعي مستقل يتولى البحث عن العملاء المحتملين وكتابة رسائل التواصل المخصصة وإرسالها ومتابعة الردود وحجز الاجتماعات",
+    "description_en": "Autonomous AI sales agent that handles prospecting, personalized outreach writing, sending, follow-ups, and meeting booking",
+    "official_description": "AI employee for outbound sales",
+    "features": [
+      "وكيل SDR كامل",
+      "بحث عن العملاء",
+      "رسائل مخصصة",
+      "متابعة تلقائية",
+      "حجز اجتماعات",
+      "تحليلات المبيعات"
+    ],
+    "features_en": [
+      "Full SDR agent",
+      "Prospect research",
+      "Personalized outreach",
+      "Auto follow-ups",
+      "Meeting booking",
+      "Sales analytics"
+    ],
+    "pricing": "Subscription-based",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "Demo available",
+    "url": "https://www.artisan.co",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "مبيعات",
+      "SDR",
+      "أتمتة"
+    ],
+    "tags_en": [
+      "sales",
+      "SDR",
+      "automation"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "أتمتة المبيعات الصادرة مع وكيل ذكي",
+    "best_for_en": "Outbound sales automation with intelligent agent"
+  },
+  {
+    "id": "sierra-ai",
+    "name": "سييرا AI",
+    "name_ar": "سييرا AI",
+    "category": "customer-support",
+    "category_ar": "دعم العملاء",
+    "description": "منصة وكلاء دعم العملاء بالذكاء الاصطناعي الرائدة في الصوت والدردشة الموحدة، تحل المحادثات بشكل مستقل مع تسعير قائم على النتائج",
+    "description_en": "Leading AI customer support agent platform for unified voice and chat, resolving conversations autonomously with outcome-based pricing",
+    "official_description": "Conversational AI platform for customer support",
+    "features": [
+      "صوت ودردشة موحدة",
+      "حل مستقل",
+      "تسعير حسب النتائج",
+      "تكامل CRM",
+      "تصعيد ذكي",
+      "تحليلات متقدمة"
+    ],
+    "features_en": [
+      "Unified voice & chat",
+      "Autonomous resolution",
+      "Outcome-based pricing",
+      "CRM integration",
+      "Smart escalation",
+      "Advanced analytics"
+    ],
+    "pricing": "Per-resolved-conversation pricing",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "Demo & pilot available",
+    "url": "https://sierra.ai",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "دعم العملاء",
+      "صوت",
+      "دردشة"
+    ],
+    "tags_en": [
+      "customer support",
+      "voice",
+      "chat"
+    ],
+    "featured": true,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "دعم العملاء الموحد بالصوت والدردشة",
+    "best_for_en": "Unified voice and chat customer support"
+  },
+  {
+    "id": "ada-support",
+    "name": "Ada",
+    "name_ar": "أدا",
+    "category": "customer-support",
+    "category_ar": "دعم العملاء",
+    "description": "منصة وكلاء دعم العملاء بالذكاء الاصطناعي مع أتمتة قائمة على المحادثات عبر قنوات متعددة وتكامل مع أنظمة الشركات",
+    "description_en": "AI customer support agent platform with conversation-based automation across multiple channels and enterprise system integrations",
+    "official_description": "AI-powered customer service automation",
+    "features": [
+      "أتمتة المحادثات",
+      "قنوات متعددة",
+      "تكامل مؤسسي",
+      "تخصيص متقدم",
+      "تحليلات",
+      "دعم 50+ لغة"
+    ],
+    "features_en": [
+      "Conversation automation",
+      "Multi-channel",
+      "Enterprise integration",
+      "Advanced customization",
+      "Analytics",
+      "50+ language support"
+    ],
+    "pricing": "Enterprise pricing",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "Demo available",
+    "url": "https://www.ada.cx",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "دعم العملاء",
+      "أتمتة",
+      "متعدد القنوات"
+    ],
+    "tags_en": [
+      "customer support",
+      "automation",
+      "multi-channel"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "أتمتة دعم العملاء على نطاق واسع",
+    "best_for_en": "Large-scale customer support automation"
+  },
+  {
+    "id": "decagon-ai",
+    "name": "Decagon",
+    "name_ar": "ديكاغون",
+    "category": "customer-support",
+    "category_ar": "دعم العملاء",
+    "description": "منصة وكلاء دعم العملاء بالذكاء الاصطناعي للمؤسسات الكبرى، تتفوق في نسبة الاحتواء القصوى على نطاق المؤسسات",
+    "description_en": "Enterprise AI customer support agent platform excelling at maximum containment rate at enterprise scale",
+    "official_description": "AI agents for enterprise customer support",
+    "features": [
+      "نسبة احتواء عالية",
+      "نطاق مؤسسي",
+      "تكامل عميق",
+      "تخصيص متقدم",
+      "تحليلات مفصلة",
+      "أمان مؤسسي"
+    ],
+    "features_en": [
+      "High containment rate",
+      "Enterprise scale",
+      "Deep integration",
+      "Advanced customization",
+      "Detailed analytics",
+      "Enterprise security"
+    ],
+    "pricing": "Enterprise pricing",
+    "pricing_type": "enterprise",
+    "has_free_trial": true,
+    "free_trial_details": "Pilot program available",
+    "url": "https://decagon.ai",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "دعم العملاء",
+      "مؤسسات",
+      "احتواء"
+    ],
+    "tags_en": [
+      "customer support",
+      "enterprise",
+      "containment"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "دعم العملاء للمؤسسات الكبرى",
+    "best_for_en": "Enterprise-scale customer support"
+  },
+  {
+    "id": "vapi-voice",
+    "name": "Vapi",
+    "name_ar": "فابي",
+    "category": "customer-support",
+    "category_ar": "دعم العملاء",
+    "description": "منصة بناء وكلاء صوت ذكاء اصطناعي للمكالمات الهاتفية، نموذج BYOK مع رسوم منصة $0.05/دقيقة، الأكثر مرونة في السوق",
+    "description_en": "Voice AI agent builder platform for phone calls with BYOK model at $0.05/min platform fee, most flexible in the market",
+    "official_description": "Build, test and deploy voice AI agents in minutes",
+    "features": [
+      "بناء وكلاء صوت",
+      "BYOK مرن",
+      "زمن استجابة منخفض",
+      "تكامل Twilio",
+      "نماذج متعددة",
+      "تخصيص كامل"
+    ],
+    "features_en": [
+      "Voice agent builder",
+      "Flexible BYOK",
+      "Low latency",
+      "Twilio integration",
+      "Multiple models",
+      "Full customization"
+    ],
+    "pricing": "$0.05/min platform + BYOK costs",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "Free credits to start",
+    "url": "https://vapi.ai",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "صوت",
+      "وكيل هاتفي",
+      "BYOK"
+    ],
+    "tags_en": [
+      "voice",
+      "phone agent",
+      "BYOK"
+    ],
+    "featured": true,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "بناء وكلاء صوت هاتفية مخصصة",
+    "best_for_en": "Building custom phone voice agents"
+  },
+  {
+    "id": "retell-ai",
+    "name": "Retell AI",
+    "name_ar": "ريتيل AI",
+    "category": "customer-support",
+    "category_ar": "دعم العملاء",
+    "description": "منصة وكلاء صوت ذكاء اصطناعي مُجمّعة مع أدنى زمن استجابة، نموذج تسعير شامل $0.07-0.12/دقيقة",
+    "description_en": "Bundled voice AI agent platform with lowest latency, all-inclusive pricing at $0.07-0.12/min",
+    "official_description": "Build human-like AI voice agents",
+    "features": [
+      "أدنى زمن استجابة",
+      "تسعير شامل",
+      "أصوات عالية الجودة",
+      "تكامل هاتفي",
+      "تحليلات المكالمات",
+      "HIPAA متوافق"
+    ],
+    "features_en": [
+      "Lowest latency",
+      "All-inclusive pricing",
+      "High-quality voices",
+      "Phone integration",
+      "Call analytics",
+      "HIPAA compliant"
+    ],
+    "pricing": "$0.07-0.12/min all-inclusive",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "Free tier available",
+    "url": "https://www.retellai.com",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "صوت",
+      "وكيل مكالمات",
+      "HIPAA"
+    ],
+    "tags_en": [
+      "voice",
+      "call agent",
+      "HIPAA"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "وكلاء مكالمات هاتفية بأدنى تأخير",
+    "best_for_en": "Phone call agents with lowest latency"
+  },
+  {
+    "id": "bland-ai",
+    "name": "Bland AI",
+    "name_ar": "بلاند AI",
+    "category": "customer-support",
+    "category_ar": "دعم العملاء",
+    "description": "منصة وكلاء صوت ذكاء اصطناعي مُجمّعة للمكالمات الهاتفية على نطاق واسع مع تسعير تنافسي",
+    "description_en": "Bundled voice AI agent platform for phone calls at scale with competitive pricing",
+    "official_description": "AI phone calling infrastructure",
+    "features": [
+      "مكالمات على نطاق واسع",
+      "تسعير مُجمّع",
+      "أصوات مخصصة",
+      "تكامل API",
+      "نقل مكالمات",
+      "تسجيل وتحليل"
+    ],
+    "features_en": [
+      "Calls at scale",
+      "Bundled pricing",
+      "Custom voices",
+      "API integration",
+      "Call transfer",
+      "Recording & analytics"
+    ],
+    "pricing": "$0.07-0.12/min bundled",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "Free credits to start",
+    "url": "https://www.bland.ai",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "صوت",
+      "مكالمات",
+      "بنية تحتية"
+    ],
+    "tags_en": [
+      "voice",
+      "calls",
+      "infrastructure"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "مكالمات هاتفية بالذكاء الاصطناعي على نطاق واسع",
+    "best_for_en": "AI phone calls at enterprise scale"
+  },
+  {
+    "id": "crewai-framework",
+    "name": "CrewAI",
+    "name_ar": "كرو AI",
+    "category": "framework",
+    "category_ar": "إطار عمل",
+    "description": "إطار عمل مفتوح المصدر لتنظيم وكلاء ذكاء اصطناعي مستقلين يلعبون أدواراً تعاونية، 55,000+ نجمة على GitHub، الأفضل للتعاون متعدد الوكلاء",
+    "description_en": "Open-source framework for orchestrating role-playing autonomous AI agents, 55K+ GitHub stars, best for multi-agent collaboration",
+    "official_description": "Framework for orchestrating role-playing, autonomous AI agents",
+    "features": [
+      "تعاون متعدد الوكلاء",
+      "أدوار مخصصة",
+      "55K+ نجمة GitHub",
+      "Python",
+      "إطار عمل مفتوح",
+      "سحابة وخادم محلي"
+    ],
+    "features_en": [
+      "Multi-agent collaboration",
+      "Custom roles",
+      "55K+ GitHub stars",
+      "Python",
+      "Open framework",
+      "Cloud & self-hosted"
+    ],
+    "pricing": "Free (Open Source) + Cloud plans",
+    "pricing_type": "free",
+    "has_free_trial": true,
+    "free_trial_details": "Open source, free forever",
+    "url": "https://crewai.com",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "إطار عمل",
+      "متعدد الوكلاء",
+      "مفتوح المصدر"
+    ],
+    "tags_en": [
+      "framework",
+      "multi-agent",
+      "open source"
+    ],
+    "featured": true,
+    "open_source": true,
+    "added_date": "2026-07-14",
+    "best_for": "بناء أنظمة وكلاء متعددة تعاونية",
+    "best_for_en": "Building collaborative multi-agent systems"
+  },
+  {
+    "id": "langgraph-framework",
+    "name": "LangGraph",
+    "name_ar": "لانغ غراف",
+    "category": "framework",
+    "category_ar": "إطار عمل",
+    "description": "إطار عمل مفتوح المصدر لبناء تدفقات عمل ذكاء اصطناعي معقدة وذات حالة، الأفضل للمطورين المتقدمين الذين يحتاجون تحكماً دقيقاً",
+    "description_en": "Open-source framework for building complex stateful AI workflows, best for advanced developers needing precise control",
+    "official_description": "Build stateful, multi-actor applications with LLMs",
+    "features": [
+      "تدفقات عمل ذات حالة",
+      "تحكم دقيق",
+      "Python/JS",
+      "LangChain تكامل",
+      "إنتاج جاهز",
+      "رسوم بيانية"
+    ],
+    "features_en": [
+      "Stateful workflows",
+      "Precise control",
+      "Python/JS",
+      "LangChain integration",
+      "Production-ready",
+      "Graph-based"
+    ],
+    "pricing": "Free (Open Source)",
+    "pricing_type": "free",
+    "has_free_trial": true,
+    "free_trial_details": "Open source, free forever",
+    "url": "https://langchain-ai.github.io/langgraph/",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "إطار عمل",
+      "تدفقات عمل",
+      "مفتوح المصدر"
+    ],
+    "tags_en": [
+      "framework",
+      "workflows",
+      "open source"
+    ],
+    "featured": false,
+    "open_source": true,
+    "added_date": "2026-07-14",
+    "best_for": "تدفقات عمل ذكاء اصطناعي معقدة وذات حالة",
+    "best_for_en": "Complex stateful AI workflows"
+  },
+  {
+    "id": "autogpt-agent",
+    "name": "AutoGPT",
+    "name_ar": "أوتو جي بي تي",
+    "category": "framework",
+    "category_ar": "إطار عمل",
+    "description": "أول وكيل ذكاء اصطناعي مستقل مفتوح المصدر، يُنفذ مهام طويلة المدى بشكل مستقل مع ذاكرة وأدوات",
+    "description_en": "The first open-source autonomous AI agent, executes long-running tasks independently with memory and tools",
+    "official_description": "Open-source autonomous AI agent",
+    "features": [
+      "مهام طويلة المدى",
+      "ذاكرة مستمرة",
+      "أدوات متعددة",
+      "مفتوح المصدر",
+      "قابل للتخصيص",
+      "مجتمع كبير"
+    ],
+    "features_en": [
+      "Long-running tasks",
+      "Persistent memory",
+      "Multiple tools",
+      "Open source",
+      "Customizable",
+      "Large community"
+    ],
+    "pricing": "Free (Open Source)",
+    "pricing_type": "free",
+    "has_free_trial": true,
+    "free_trial_details": "Open source, free forever",
+    "url": "https://agpt.co",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "وكيل مستقل",
+      "مفتوح المصدر",
+      "مهام طويلة"
+    ],
+    "tags_en": [
+      "autonomous agent",
+      "open source",
+      "long tasks"
+    ],
+    "featured": false,
+    "open_source": true,
+    "added_date": "2026-07-14",
+    "best_for": "تنفيذ مهام مستقلة طويلة المدى",
+    "best_for_en": "Long-running autonomous task execution"
+  },
+  {
+    "id": "dify-platform",
+    "name": "Dify",
+    "name_ar": "ديفاي",
+    "category": "no-code",
+    "category_ar": "بدون كود",
+    "description": "منصة مفتوحة المصدر لبناء تطبيقات ووكلاء ذكاء اصطناعي بدون كود مع RAG وسير عمل مرئي، مثالية للمبتدئين",
+    "description_en": "Open-source platform for building AI apps and agents with no-code RAG and visual workflows, ideal for beginners",
+    "official_description": "The innovation engine for generative AI applications",
+    "features": [
+      "بدون كود",
+      "RAG مدمج",
+      "سير عمل مرئي",
+      "مفتوح المصدر",
+      "نماذج متعددة",
+      "نشر سهل"
+    ],
+    "features_en": [
+      "No-code",
+      "Built-in RAG",
+      "Visual workflows",
+      "Open source",
+      "Multiple models",
+      "Easy deployment"
+    ],
+    "pricing": "Free (Open Source) + Cloud plans",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "Free tier + open source",
+    "url": "https://dify.ai",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "بدون كود",
+      "RAG",
+      "مفتوح المصدر"
+    ],
+    "tags_en": [
+      "no-code",
+      "RAG",
+      "open source"
+    ],
+    "featured": true,
+    "open_source": true,
+    "added_date": "2026-07-14",
+    "best_for": "بناء تطبيقات ذكاء اصطناعي بدون كود",
+    "best_for_en": "Building AI applications with no code"
+  },
+  {
+    "id": "nous-hermes",
+    "name": "Nous Hermes",
+    "name_ar": "نوس هيرميس",
+    "category": "framework",
+    "category_ar": "إطار عمل",
+    "description": "وكيل ذكاء اصطناعي مفتوح المصدر من Nous Research بتقييم $1.5 مليار، يتميز بقدرات وكيلية متقدمة وذاكرة طويلة المدى",
+    "description_en": "Open-source AI agent from Nous Research valued at $1.5B, featuring advanced agentic capabilities and long-term memory",
+    "official_description": "Open-source agent by Nous Research",
+    "features": [
+      "مفتوح المصدر",
+      "ذاكرة طويلة المدى",
+      "قدرات وكيلية",
+      "$1.5B تقييم",
+      "نماذج متنوعة",
+      "مجتمع نشط"
+    ],
+    "features_en": [
+      "Open source",
+      "Long-term memory",
+      "Agentic capabilities",
+      "$1.5B valuation",
+      "Multiple models",
+      "Active community"
+    ],
+    "pricing": "Free (Open Source)",
+    "pricing_type": "free",
+    "has_free_trial": true,
+    "free_trial_details": "Open source, free forever",
+    "url": "https://nousresearch.com",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "مفتوح المصدر",
+      "وكيل",
+      "ذاكرة"
+    ],
+    "tags_en": [
+      "open source",
+      "agent",
+      "memory"
+    ],
+    "featured": true,
+    "open_source": true,
+    "added_date": "2026-07-14",
+    "best_for": "بناء وكلاء مفتوحة المصدر متقدمة",
+    "best_for_en": "Building advanced open-source agents"
+  },
+  {
+    "id": "exa-agent",
+    "name": "Exa Agent",
+    "name_ar": "إكسا إيجنت",
+    "category": "research",
+    "category_ar": "بحث",
+    "description": "واجهة API واحدة لقدرات بحث الويب المتقدمة باستخدام نماذج لغوية متطورة مع أدوات بحث Exa الرائدة",
+    "description_en": "Single API for frontier web research capabilities using top language models with Exa's state-of-the-art search tools",
+    "official_description": "Frontier web research capabilities at a fraction of the cost",
+    "features": [
+      "بحث عميق",
+      "بناء قوائم",
+      "إثراء البيانات",
+      "وكلاء فرعيون",
+      "API واحد",
+      "نماذج متعددة"
+    ],
+    "features_en": [
+      "Deep research",
+      "List building",
+      "Entity enrichment",
+      "Sub-agents",
+      "Single API",
+      "Multiple models"
+    ],
+    "pricing": "API-based pricing",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "Free tier with limited credits",
+    "url": "https://exa.ai",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "بحث ويب",
+      "API",
+      "إثراء بيانات"
+    ],
+    "tags_en": [
+      "web research",
+      "API",
+      "data enrichment"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "بحث ويب متقدم وإثراء البيانات",
+    "best_for_en": "Advanced web research and data enrichment"
+  },
+  {
+    "id": "evermind-raven",
+    "name": "EverMind Raven",
+    "name_ar": "إيفرمايند ريفن",
+    "category": "general-assistant",
+    "category_ar": "مساعد عام",
+    "description": "وكيل ذكاء اصطناعي ذاتي التطور مبني على EverOS مع 100,000 مهارة مُقيّمة وذاكرة طويلة المدى متقدمة",
+    "description_en": "Self-evolving AI agent harness built on EverOS with 100,000 evaluated skills and advanced long-term memory infrastructure",
+    "official_description": "The self-improving agent harness defining L3-level digital life",
+    "features": [
+      "تحسين ذاتي",
+      "100K مهارة",
+      "ذاكرة طويلة المدى",
+      "EverOS",
+      "تطور مستمر",
+      "شخصية متكيفة"
+    ],
+    "features_en": [
+      "Self-improvement",
+      "100K skills",
+      "Long-term memory",
+      "EverOS",
+      "Continuous evolution",
+      "Adaptive personality"
+    ],
+    "pricing": "Subscription-based",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "Free tier available",
+    "url": "https://evermind.sh",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "ذاتي التطور",
+      "ذاكرة",
+      "مهارات"
+    ],
+    "tags_en": [
+      "self-evolving",
+      "memory",
+      "skills"
+    ],
+    "featured": true,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "وكيل ذكي ذاتي التطور مع ذاكرة دائمة",
+    "best_for_en": "Self-evolving intelligent agent with persistent memory"
+  },
+  {
+    "id": "maven-agi",
+    "name": "Maven AGI",
+    "name_ar": "مافن AGI",
+    "category": "customer-support",
+    "category_ar": "دعم العملاء",
+    "description": "وكيل دعم العملاء بالذكاء الاصطناعي مع قدرات حل متقدمة وتكامل عميق مع أنظمة المؤسسات",
+    "description_en": "AI customer support agent with advanced resolution capabilities and deep enterprise system integration",
+    "official_description": "AI-first customer support platform",
+    "features": [
+      "حل متقدم",
+      "تكامل مؤسسي",
+      "تحليلات",
+      "تصعيد ذكي",
+      "قاعدة معرفة",
+      "متعدد القنوات"
+    ],
+    "features_en": [
+      "Advanced resolution",
+      "Enterprise integration",
+      "Analytics",
+      "Smart escalation",
+      "Knowledge base",
+      "Multi-channel"
+    ],
+    "pricing": "Enterprise pricing",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "Demo available",
+    "url": "https://www.mavenagi.com",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "دعم العملاء",
+      "مؤسسات",
+      "حل ذكي"
+    ],
+    "tags_en": [
+      "customer support",
+      "enterprise",
+      "smart resolution"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "دعم العملاء الذكي للمؤسسات",
+    "best_for_en": "Smart enterprise customer support"
+  },
+  {
+    "id": "regie-ai",
+    "name": "Regie AI",
+    "name_ar": "ريجي AI",
+    "category": "sales-marketing",
+    "category_ar": "مبيعات وتسويق",
+    "description": "منصة وكلاء مبيعات ذكاء اصطناعي تعزز فرق المبيعات البشرية مع أدوات بحث وكتابة محتوى مخصص",
+    "description_en": "AI sales agent platform that augments human sales teams with prospecting and personalized content tools",
+    "official_description": "AI-powered sales engagement platform",
+    "features": [
+      "تعزيز فرق المبيعات",
+      "كتابة محتوى مخصص",
+      "بحث عن العملاء",
+      "تحليلات",
+      "تكامل CRM",
+      "قوالب ذكية"
+    ],
+    "features_en": [
+      "Sales team augmentation",
+      "Personalized content",
+      "Prospecting",
+      "Analytics",
+      "CRM integration",
+      "Smart templates"
+    ],
+    "pricing": "Subscription-based",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "Demo available",
+    "url": "https://www.regie.ai",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "مبيعات",
+      "محتوى مخصص",
+      "تعزيز"
+    ],
+    "tags_en": [
+      "sales",
+      "personalized content",
+      "augmentation"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "تعزيز فرق المبيعات بالذكاء الاصطناعي",
+    "best_for_en": "Augmenting sales teams with AI"
+  },
+  {
+    "id": "taskade-genesis",
+    "name": "Taskade Genesis",
+    "name_ar": "تاسكيد جينيسيس",
+    "category": "productivity",
+    "category_ar": "إنتاجية",
+    "description": "منصة إنتاجية مع وكلاء ذكاء اصطناعي متعددين مدمجين في مساحة العمل، ذاكرة مشتركة وتعاون بين الوكلاء",
+    "description_en": "Productivity platform with multiple AI agents built into the workspace, shared memory and agent collaboration",
+    "official_description": "Workspace-native multi-agent AI platform",
+    "features": [
+      "وكلاء متعددون",
+      "ذاكرة مشتركة",
+      "مساحة عمل مدمجة",
+      "تعاون",
+      "قوالب",
+      "أتمتة المهام"
+    ],
+    "features_en": [
+      "Multiple agents",
+      "Shared memory",
+      "Built-in workspace",
+      "Collaboration",
+      "Templates",
+      "Task automation"
+    ],
+    "pricing": "Free tier + paid plans",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "Free tier available",
+    "url": "https://taskade.com",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "إنتاجية",
+      "متعدد الوكلاء",
+      "مساحة عمل"
+    ],
+    "tags_en": [
+      "productivity",
+      "multi-agent",
+      "workspace"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "إنتاجية الفرق مع وكلاء ذكاء اصطناعي مدمجين",
+    "best_for_en": "Team productivity with built-in AI agents"
+  },
+  {
+    "id": "elevenlabs-agents",
+    "name": "ElevenLabs Voice Agents",
+    "name_ar": "إليفن لابز وكلاء الصوت",
+    "category": "creative",
+    "category_ar": "إبداعي",
+    "description": "منصة وكلاء صوت ذكاء اصطناعي من ElevenLabs مع أعلى جودة أصوات اصطناعية وتسعير مُجمّع تنافسي",
+    "description_en": "ElevenLabs voice AI agent platform with highest quality synthetic voices and competitive bundled pricing",
+    "official_description": "Build conversational AI voice agents",
+    "features": [
+      "أعلى جودة صوت",
+      "أصوات مخصصة",
+      "استنساخ الصوت",
+      "محادثات طبيعية",
+      "تكاملات",
+      "API قوي"
+    ],
+    "features_en": [
+      "Highest voice quality",
+      "Custom voices",
+      "Voice cloning",
+      "Natural conversations",
+      "Integrations",
+      "Powerful API"
+    ],
+    "pricing": "$0.08-0.15/min bundled",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "Free tier with limited minutes",
+    "url": "https://elevenlabs.io",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "صوت",
+      "استنساخ",
+      "وكلاء محادثة"
+    ],
+    "tags_en": [
+      "voice",
+      "cloning",
+      "conversational agents"
+    ],
+    "featured": true,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "وكلاء صوت بأعلى جودة أصوات اصطناعية",
+    "best_for_en": "Voice agents with highest quality synthetic voices"
+  },
+  {
+    "id": "nexus-agents",
+    "name": "Nexus",
+    "name_ar": "نيكسوس",
+    "category": "automation",
+    "category_ar": "أتمتة",
+    "description": "منصة وكلاء ذكاء اصطناعي مستقلة للمؤسسات مع مهندسين متخصصين ونشر مباشر",
+    "description_en": "Autonomous agent platform for enterprises with forward-deployed engineers and direct deployment",
+    "official_description": "Autonomous agent platform + Forward Deployed Engineers",
+    "features": [
+      "وكلاء مستقلون",
+      "مهندسون متخصصون",
+      "نشر مؤسسي",
+      "تخصيص عميق",
+      "أمان متقدم",
+      "دعم مباشر"
+    ],
+    "features_en": [
+      "Autonomous agents",
+      "Forward-deployed engineers",
+      "Enterprise deployment",
+      "Deep customization",
+      "Advanced security",
+      "Direct support"
+    ],
+    "pricing": "Enterprise pricing",
+    "pricing_type": "enterprise",
+    "has_free_trial": true,
+    "free_trial_details": "Pilot available",
+    "url": "https://agent.nexus",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "مؤسسات",
+      "وكلاء مستقلون",
+      "نشر"
+    ],
+    "tags_en": [
+      "enterprise",
+      "autonomous agents",
+      "deployment"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "نشر وكلاء ذكاء اصطناعي مستقلين للمؤسسات",
+    "best_for_en": "Deploying autonomous AI agents for enterprises"
+  },
+  {
+    "id": "frigade-skills",
+    "name": "Frigade Skills",
+    "name_ar": "فريغيد سكيلز",
+    "category": "no-code",
+    "category_ar": "بدون كود",
+    "description": "يضع مساعد ذكاء اصطناعي داخل منتجك يمكنه تنفيذ إجراءات للمستخدمين بدون كود، المستخدم يطلب والمساعد ينفذ",
+    "description_en": "Puts an AI assistant inside your product that takes actions for users with no code - user asks, assistant executes",
+    "official_description": "AI assistant that takes action inside your product, no code required",
+    "features": [
+      "بدون كود",
+      "إجراءات داخل المنتج",
+      "لغة طبيعية",
+      "تكامل مباشر",
+      "تخصيص",
+      "تحليلات"
+    ],
+    "features_en": [
+      "No code",
+      "In-product actions",
+      "Natural language",
+      "Direct integration",
+      "Customization",
+      "Analytics"
+    ],
+    "pricing": "Subscription-based",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "Free tier available",
+    "url": "https://frigade.com",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "بدون كود",
+      "مساعد منتج",
+      "إجراءات"
+    ],
+    "tags_en": [
+      "no-code",
+      "product assistant",
+      "actions"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "إضافة مساعد ذكي داخل منتجك بدون كود",
+    "best_for_en": "Adding a smart assistant inside your product with no code"
+  },
+  {
+    "id": "gpt-5-6-sol",
+    "name": "GPT-5.6 Sol",
+    "name_ar": "جي بي تي 5.6 سول",
+    "category": "general-assistant",
+    "category_ar": "مساعد عام",
+    "description": "أذكى نموذج من OpenAI لعام 2026، يحقق أداءً رائداً في البرمجة والعمل المعرفي والأمن السيبراني والعلوم مع كفاءة أعلى لكل دولار",
+    "description_en": "OpenAI's smartest 2026 model achieving state-of-the-art in coding, knowledge work, cybersecurity, and science with better performance per dollar",
+    "official_description": "Frontier intelligence that scales with your ambition",
+    "features": [
+      "أذكى نموذج",
+      "Sol/Terra/Luna",
+      "برمجة متقدمة",
+      "بحث علمي",
+      "أمن سيبراني",
+      "كفاءة عالية"
+    ],
+    "features_en": [
+      "Smartest model",
+      "Sol/Terra/Luna",
+      "Advanced coding",
+      "Scientific research",
+      "Cybersecurity",
+      "High efficiency"
+    ],
+    "pricing": "Via ChatGPT Plus/Pro/Enterprise",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "Limited free access via ChatGPT",
+    "url": "https://openai.com/index/gpt-5-6",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "نموذج لغوي",
+      "OpenAI",
+      "ذكاء حدودي"
+    ],
+    "tags_en": [
+      "language model",
+      "OpenAI",
+      "frontier intelligence"
+    ],
+    "featured": true,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "المهام المعرفية والبرمجية الأكثر تعقيداً",
+    "best_for_en": "Most complex knowledge and coding tasks"
+  },
+  {
+    "id": "cursor-agent",
+    "name": "Cursor Agent",
+    "name_ar": "كيرسور إيجنت",
+    "category": "coding",
+    "category_ar": "برمجة",
+    "description": "وكيل برمجة مدمج في بيئة تطوير Cursor IDE، يُكمل الأكواد ويصلح الأخطاء وينفذ مهام معقدة داخل المحرر مباشرة",
+    "description_en": "Coding agent built into Cursor IDE that completes code, fixes bugs, and executes complex tasks directly in the editor",
+    "official_description": "AI-first code editor with built-in agent",
+    "features": [
+      "IDE مدمج",
+      "إكمال ذكي",
+      "إصلاح الأخطاء",
+      "Chat مدمج",
+      "نماذج متعددة",
+      "فهم المشروع"
+    ],
+    "features_en": [
+      "Built-in IDE",
+      "Smart completion",
+      "Bug fixing",
+      "Built-in chat",
+      "Multiple models",
+      "Project understanding"
+    ],
+    "pricing": "$20/mo Pro",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "Free tier with limited features",
+    "url": "https://cursor.com",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "IDE",
+      "برمجة",
+      "إكمال الأكواد"
+    ],
+    "tags_en": [
+      "IDE",
+      "coding",
+      "code completion"
+    ],
+    "featured": true,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "البرمجة اليومية مع وكيل ذكي مدمج في المحرر",
+    "best_for_en": "Daily coding with smart agent built into editor"
+  },
+  {
+    "id": "clay-sales",
+    "name": "Clay",
+    "name_ar": "كلاي",
+    "category": "sales-marketing",
+    "category_ar": "مبيعات وتسويق",
+    "description": "منصة إثراء بيانات المبيعات وأتمتة البحث عن العملاء المحتملين مع وكلاء ذكاء اصطناعي لتعزيز فرق المبيعات",
+    "description_en": "Sales data enrichment and prospect research automation platform with AI agents to augment sales teams",
+    "official_description": "Data enrichment & sales automation platform",
+    "features": [
+      "إثراء البيانات",
+      "بحث عن العملاء",
+      "أتمتة",
+      "تكاملات CRM",
+      "AI مدمج",
+      "قوالب حملات"
+    ],
+    "features_en": [
+      "Data enrichment",
+      "Prospect research",
+      "Automation",
+      "CRM integrations",
+      "Built-in AI",
+      "Campaign templates"
+    ],
+    "pricing": "From $149/mo",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "Free trial available",
+    "url": "https://www.clay.com",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "مبيعات",
+      "إثراء بيانات",
+      "أتمتة"
+    ],
+    "tags_en": [
+      "sales",
+      "data enrichment",
+      "automation"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "إثراء بيانات المبيعات وأتمتة البحث",
+    "best_for_en": "Sales data enrichment and research automation"
+  },
+  {
+    "id": "concho-ai",
+    "name": "Concho AI",
+    "name_ar": "كونشو AI",
+    "category": "coding",
+    "category_ar": "برمجة",
+    "description": "وكيل ذكاء اصطناعي لفهم قواعد الأكواد وتحليل الشيفرة المصدرية مع قدرات بحث متقدمة في المستودعات",
+    "description_en": "AI agent for codebase intelligence and source code analysis with advanced repository search capabilities",
+    "official_description": "Codebase intelligence AI agent",
+    "features": [
+      "فهم الأكواد",
+      "بحث في المستودعات",
+      "تحليل الشيفرة",
+      "خرائط الأكواد",
+      "توثيق تلقائي",
+      "تكامل Git"
+    ],
+    "features_en": [
+      "Code understanding",
+      "Repository search",
+      "Source analysis",
+      "Code maps",
+      "Auto documentation",
+      "Git integration"
+    ],
+    "pricing": "Free tier + paid plans",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "Free tier available",
+    "url": "https://concho.ai",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "أكواد",
+      "تحليل",
+      "مستودعات"
+    ],
+    "tags_en": [
+      "code",
+      "analysis",
+      "repositories"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "فهم وتحليل قواعد الأكواد الكبيرة",
+    "best_for_en": "Understanding and analyzing large codebases"
+  },
+  {
+    "id": "slack-ai-native",
+    "name": "Slack AI",
+    "name_ar": "سلاك AI",
+    "category": "productivity",
+    "category_ar": "إنتاجية",
+    "description": "ذكاء اصطناعي مدمج في Slack للبحث في تاريخ المحادثات وتلخيص القنوات والموضوعات والإجابة عن الأسئلة",
+    "description_en": "Built-in Slack AI for searching conversation history, summarizing channels and threads, and answering questions",
+    "official_description": "AI built into Slack for search and summarization",
+    "features": [
+      "بحث ذكي",
+      "تلخيص القنوات",
+      "تلخيص المواضيع",
+      "إجابات فورية",
+      "مدمج أصلياً",
+      "خصوصية"
+    ],
+    "features_en": [
+      "Smart search",
+      "Channel summaries",
+      "Thread summaries",
+      "Instant answers",
+      "Natively built-in",
+      "Privacy"
+    ],
+    "pricing": "Add-on to Slack Business+/Enterprise",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "Trial available",
+    "url": "https://slack.com/features/ai",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "Slack",
+      "بحث",
+      "تلخيص"
+    ],
+    "tags_en": [
+      "Slack",
+      "search",
+      "summarization"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "البحث والتلخيص في محادثات Slack",
+    "best_for_en": "Searching and summarizing Slack conversations"
+  },
+  {
+    "id": "agentforce-salesforce",
+    "name": "Agentforce",
+    "name_ar": "إيجنت فورس",
+    "category": "sales-marketing",
+    "category_ar": "مبيعات وتسويق",
+    "description": "منصة وكلاء ذكاء اصطناعي من Salesforce مع وكلاء مدمجين في Slack للمبيعات ودعم العملاء والتسويق",
+    "description_en": "Salesforce AI agent platform with Slack-integrated agents for sales, customer support, and marketing",
+    "official_description": "Salesforce AI agents for every business function",
+    "features": [
+      "تكامل Salesforce",
+      "وكلاء Slack",
+      "مبيعات",
+      "دعم العملاء",
+      "تسويق",
+      "قوالب جاهزة"
+    ],
+    "features_en": [
+      "Salesforce integration",
+      "Slack agents",
+      "Sales",
+      "Customer support",
+      "Marketing",
+      "Ready templates"
+    ],
+    "pricing": "$2/conversation",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "1000 free conversations",
+    "url": "https://www.salesforce.com/agentforce",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "Salesforce",
+      "CRM",
+      "وكلاء"
+    ],
+    "tags_en": [
+      "Salesforce",
+      "CRM",
+      "agents"
+    ],
+    "featured": true,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "أتمتة المبيعات والدعم مع Salesforce",
+    "best_for_en": "Sales and support automation with Salesforce"
+  },
+  {
+    "id": "microsoft-copilot-agents",
+    "name": "Microsoft Copilot Agents",
+    "name_ar": "مايكروسوفت كوبايلوت إيجنتس",
+    "category": "productivity",
+    "category_ar": "إنتاجية",
+    "description": "وكلاء ذكاء اصطناعي مدمجة في Microsoft 365 وTeams لأتمتة العمل المكتبي والتعاوني",
+    "description_en": "AI agents built into Microsoft 365 and Teams for automating office and collaborative work",
+    "official_description": "AI agents in Microsoft 365 and Teams",
+    "features": [
+      "تكامل Office 365",
+      "وكلاء Teams",
+      "أتمتة المستندات",
+      "تحليل البيانات",
+      "بريد ذكي",
+      "اجتماعات"
+    ],
+    "features_en": [
+      "Office 365 integration",
+      "Teams agents",
+      "Document automation",
+      "Data analysis",
+      "Smart email",
+      "Meetings"
+    ],
+    "pricing": "$30/user/mo Copilot add-on",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "Free trial available",
+    "url": "https://www.microsoft.com/copilot",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "Microsoft",
+      "Office",
+      "Teams"
+    ],
+    "tags_en": [
+      "Microsoft",
+      "Office",
+      "Teams"
+    ],
+    "featured": true,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "أتمتة العمل المكتبي مع Microsoft 365",
+    "best_for_en": "Office work automation with Microsoft 365"
+  },
+  {
+    "id": "google-gemini-agent",
+    "name": "Gemini Agent",
+    "name_ar": "جيميناي إيجنت",
+    "category": "general-assistant",
+    "category_ar": "مساعد عام",
+    "description": "وكيل ذكاء اصطناعي من Google مدمج في Gemini مع قدرات تصفح الويب والتفاعل مع التطبيقات والبحث المتقدم",
+    "description_en": "Google's AI agent built into Gemini with web browsing, app interaction, and advanced search capabilities",
+    "official_description": "Google's AI agent experience in Gemini",
+    "features": [
+      "تصفح الويب",
+      "تفاعل مع التطبيقات",
+      "بحث متقدم",
+      "Gemini 3",
+      "تكامل Google",
+      "متعدد الوسائط"
+    ],
+    "features_en": [
+      "Web browsing",
+      "App interaction",
+      "Advanced search",
+      "Gemini 3",
+      "Google integration",
+      "Multimodal"
+    ],
+    "pricing": "Free / Google AI Pro/Ultra",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "Free tier available",
+    "url": "https://gemini.google.com",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "Google",
+      "Gemini",
+      "وكيل عام"
+    ],
+    "tags_en": [
+      "Google",
+      "Gemini",
+      "general agent"
+    ],
+    "featured": true,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "المهام العامة والبحث مع تكامل Google",
+    "best_for_en": "General tasks and search with Google integration"
+  },
+  {
+    "id": "coderabbit-agent",
+    "name": "CodeRabbit",
+    "name_ar": "كود رابيت",
+    "category": "coding",
+    "category_ar": "برمجة",
+    "description": "وكيل مراجعة الأكواد بالذكاء الاصطناعي يعمل في GitHub وSlack، متخصص في دورة تطوير البرمجيات SDLC",
+    "description_en": "AI code review agent working in GitHub and Slack, specialized in the SDLC lifecycle",
+    "official_description": "AI-first code review agent for GitHub and Slack",
+    "features": [
+      "مراجعة أكواد تلقائية",
+      "GitHub تكامل",
+      "Slack تكامل",
+      "SDLC",
+      "اقتراحات ذكية",
+      "أمان الأكواد"
+    ],
+    "features_en": [
+      "Auto code review",
+      "GitHub integration",
+      "Slack integration",
+      "SDLC",
+      "Smart suggestions",
+      "Code security"
+    ],
+    "pricing": "Free for open source + paid plans",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "Free for open source",
+    "url": "https://coderabbit.ai",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "مراجعة أكواد",
+      "GitHub",
+      "Slack"
+    ],
+    "tags_en": [
+      "code review",
+      "GitHub",
+      "Slack"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "مراجعة الأكواد التلقائية في GitHub",
+    "best_for_en": "Automated code review in GitHub"
+  },
+  {
+    "id": "gong-ai",
+    "name": "Gong AI",
+    "name_ar": "غونغ AI",
+    "category": "sales-marketing",
+    "category_ar": "مبيعات وتسويق",
+    "description": "منصة ذكاء المبيعات بالذكاء الاصطناعي تحلل المكالمات والاجتماعات وتقدم رؤى وتوقعات للصفقات",
+    "description_en": "AI sales intelligence platform that analyzes calls and meetings, providing deal insights and forecasts",
+    "official_description": "Revenue intelligence platform powered by AI",
+    "features": [
+      "تحليل المكالمات",
+      "رؤى الصفقات",
+      "توقعات الإيرادات",
+      "تسجيل تلقائي",
+      "تدريب المبيعات",
+      "تكامل CRM"
+    ],
+    "features_en": [
+      "Call analysis",
+      "Deal insights",
+      "Revenue forecasting",
+      "Auto recording",
+      "Sales coaching",
+      "CRM integration"
+    ],
+    "pricing": "Enterprise pricing",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "Demo available",
+    "url": "https://www.gong.io",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "مبيعات",
+      "تحليل مكالمات",
+      "إيرادات"
+    ],
+    "tags_en": [
+      "sales",
+      "call analysis",
+      "revenue"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "تحليل مكالمات المبيعات واستخلاص الرؤى",
+    "best_for_en": "Sales call analysis and insight extraction"
+  },
+  {
+    "id": "outreach-ai",
+    "name": "Outreach AI",
+    "name_ar": "أوتريتش AI",
+    "category": "sales-marketing",
+    "category_ar": "مبيعات وتسويق",
+    "description": "منصة التفاعل مع العملاء المحتملين بالذكاء الاصطناعي مع أتمتة تسلسلات البريد والمكالمات والتواصل",
+    "description_en": "AI sales engagement platform with automated email sequences, calls, and outreach automation",
+    "official_description": "AI-powered sales engagement platform",
+    "features": [
+      "تسلسلات بريد",
+      "أتمتة المكالمات",
+      "تحليلات",
+      "تكامل CRM",
+      "AI مدمج",
+      "تقارير"
+    ],
+    "features_en": [
+      "Email sequences",
+      "Call automation",
+      "Analytics",
+      "CRM integration",
+      "Built-in AI",
+      "Reports"
+    ],
+    "pricing": "Enterprise pricing",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "Demo available",
+    "url": "https://www.outreach.io",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "مبيعات",
+      "بريد",
+      "تفاعل"
+    ],
+    "tags_en": [
+      "sales",
+      "email",
+      "engagement"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": "أتمتة تسلسلات التواصل مع العملاء المحتملين",
+    "best_for_en": "Automating prospect outreach sequences"
   }
 ]
