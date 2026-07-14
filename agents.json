@@ -21534,5 +21534,691 @@
     ],
     "features_en": [],
     "best_for_en": []
+  },
+  {
+    "id": "ogment-ai",
+    "name": "Ogment",
+    "name_ar": "أوجمنت",
+    "category": "productivity",
+    "category_ar": "إنتاجية",
+    "description": "وكيل AI يعمل داخل Slack — يأتمت المهام المتكررة تلقائياً ويتصل بأكثر من 1000 أداة عبر OAuth",
+    "official_description": "Ogment is a Slack-native AI coworker that proactively identifies and automates repetitive workflows, connecting to 1,000+ tools via managed OAuth connectors.",
+    "features": [
+      "Proactive automation",
+      "1,000+ OAuth connectors",
+      "MCP platform",
+      "Slack threads & channels",
+      "Scheduled tasks",
+      "Image & document generation"
+    ],
+    "pricing": "Free + Freemium plans",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "Free tier available",
+    "url": "https://ogment.ai",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "Slack وكيل",
+      "أتمتة ذكية",
+      "MCP"
+    ],
+    "featured": true,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": [
+      "أتمتة المهام في Slack",
+      "ربط الأدوات تلقائياً"
+    ],
+    "description_en": "Slack-native AI coworker — proactively automates repetitive tasks and connects to 1,000+ tools via OAuth",
+    "tags_en": [
+      "Slack agent",
+      "smart automation",
+      "MCP"
+    ],
+    "features_en": [
+      "Proactive automation",
+      "1,000+ OAuth connectors",
+      "MCP platform",
+      "Slack threads & channels",
+      "Scheduled tasks",
+      "Image & document generation"
+    ],
+    "best_for_en": [
+      "Slack task automation",
+      "Tool integration"
+    ]
+  },
+  {
+    "id": "chatgpt-slack",
+    "name": "ChatGPT for Slack",
+    "name_ar": "شات جي بي تي (سلاك)",
+    "category": "general-assistant",
+    "category_ar": "مساعد عام",
+    "description": "تطبيق ChatGPT الرسمي في Slack — لخّص المحادثات، اكتب الردود، وابحث في رسائل Slack من داخل ChatGPT",
+    "official_description": "The ChatGPT app for Slack brings the power of ChatGPT into Slack. Summarize threads, draft content, search Slack messages, and use ChatGPT Agents directly in channels.",
+    "features": [
+      "Thread summaries",
+      "Content drafting",
+      "Slack search from ChatGPT",
+      "ChatGPT Agents in Slack",
+      "Action items extraction"
+    ],
+    "pricing": "Included with ChatGPT subscription",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "Free with ChatGPT account",
+    "url": "https://openai.com/chatgpt",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "Slack",
+      "ChatGPT",
+      "ملخصات"
+    ],
+    "featured": true,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": [
+      "تلخيص المحادثات",
+      "الكتابة السريعة في Slack"
+    ],
+    "description_en": "Official ChatGPT app in Slack — summarize threads, draft replies, and search Slack messages from ChatGPT",
+    "tags_en": [
+      "Slack",
+      "ChatGPT",
+      "summaries"
+    ],
+    "features_en": [
+      "Thread summaries",
+      "Content drafting",
+      "Slack search from ChatGPT",
+      "ChatGPT Agents in Slack",
+      "Action items extraction"
+    ],
+    "best_for_en": [
+      "Thread summarization",
+      "Quick writing in Slack"
+    ]
+  },
+  {
+    "id": "claude-slack",
+    "name": "Claude for Slack",
+    "name_ar": "كلود (سلاك)",
+    "category": "general-assistant",
+    "category_ar": "مساعد عام",
+    "description": "وكيل Claude من Anthropic داخل Slack — فكّر واكتب وبرمج مع Claude مباشرة في قنوات فريقك",
+    "official_description": "Anthropic's AI agent for any task — think, write, and code with Claude directly in your Slack workspace channels and DMs.",
+    "features": [
+      "Long-form writing",
+      "Code assistance",
+      "Analysis & reasoning",
+      "Channel integration",
+      "Thread context"
+    ],
+    "pricing": "Included with Claude subscription",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "Free with Claude account",
+    "url": "https://anthropic.com/claude",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "Slack",
+      "Claude",
+      "كتابة AI"
+    ],
+    "featured": true,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": [
+      "الكتابة الطويلة",
+      "التحليل والبرمجة"
+    ],
+    "description_en": "Anthropic's Claude agent in Slack — think, write, and code with Claude directly in your team channels",
+    "tags_en": [
+      "Slack",
+      "Claude",
+      "AI writing"
+    ],
+    "features_en": [
+      "Long-form writing",
+      "Code assistance",
+      "Analysis & reasoning",
+      "Channel integration",
+      "Thread context"
+    ],
+    "best_for_en": [
+      "Long-form writing",
+      "Analysis & coding"
+    ]
+  },
+  {
+    "id": "adapt-ai",
+    "name": "Adapt",
+    "name_ar": "أدابت",
+    "category": "productivity",
+    "category_ar": "إنتاجية",
+    "description": "وكيل AI متعدد اللاعبين في Slack — استعلم عن أي نظام، شغّل سير العمل، وابنِ تطبيقات من المحادثة",
+    "official_description": "Adapt is a multiplayer AI agent for Slack. Query any system, trigger workflows, get proactive alerts, build apps in chat, and schedule reports — all from Slack.",
+    "features": [
+      "Query any connected system",
+      "Build apps in chat",
+      "Proactive alerts",
+      "Scheduled reports",
+      "Full CRUD operations",
+      "Thread context memory"
+    ],
+    "pricing": "Free $100 credits + from $50/mo",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "$100 free credits + $100 Slack bonus",
+    "url": "https://adapt.com",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "Slack وكيل",
+      "بناء تطبيقات",
+      "أتمتة"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": [
+      "بناء تطبيقات من Slack",
+      "استعلامات الأنظمة"
+    ],
+    "description_en": "Multiplayer AI agent in Slack — query systems, trigger workflows, build apps from conversation",
+    "tags_en": [
+      "Slack agent",
+      "app building",
+      "automation"
+    ],
+    "features_en": [
+      "Query any connected system",
+      "Build apps in chat",
+      "Proactive alerts",
+      "Scheduled reports",
+      "Full CRUD operations",
+      "Thread context memory"
+    ],
+    "best_for_en": [
+      "Building apps from Slack",
+      "System queries"
+    ]
+  },
+  {
+    "id": "slack-ai",
+    "name": "Slack AI",
+    "name_ar": "سلاك AI",
+    "category": "productivity",
+    "category_ar": "إنتاجية",
+    "description": "ذكاء اصطناعي مدمج في Slack — بحث ذكي في الرسائل، ملخصات القنوات، وإجابات فورية من سجل المحادثات",
+    "official_description": "Slack AI is built directly into Slack, providing intelligent message search, channel summaries, and instant answers grounded in your Slack conversation history.",
+    "features": [
+      "Intelligent search",
+      "Channel summaries",
+      "Thread summaries",
+      "Conversation-grounded answers",
+      "Native Slack integration"
+    ],
+    "pricing": "Included with Business+ ($15/user/mo)",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "Available with Business+ trial",
+    "url": "https://slack.com/features/ai",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "Slack",
+      "بحث ذكي",
+      "ملخصات"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": [
+      "البحث في رسائل Slack",
+      "تلخيص القنوات"
+    ],
+    "description_en": "Built-in Slack AI — intelligent message search, channel summaries, and instant answers from conversation history",
+    "tags_en": [
+      "Slack",
+      "smart search",
+      "summaries"
+    ],
+    "features_en": [
+      "Intelligent search",
+      "Channel summaries",
+      "Thread summaries",
+      "Conversation-grounded answers",
+      "Native Slack integration"
+    ],
+    "best_for_en": [
+      "Slack message search",
+      "Channel summarization"
+    ]
+  },
+  {
+    "id": "coderabbit-slack",
+    "name": "CodeRabbit",
+    "name_ar": "كود رابيت",
+    "category": "coding",
+    "category_ar": "برمجة",
+    "description": "وكيل AI لمراجعة الكود في Slack — حقق في المشاكل، خطط للتنفيذ، وافتح Pull Requests مباشرة من المحادثة",
+    "official_description": "CodeRabbit Agent for Slack brings AI-powered code investigation, implementation planning, and PR creation directly into your Slack workspace conversations.",
+    "features": [
+      "AI code reviews",
+      "Investigate issues in Slack",
+      "Implementation plans",
+      "Open PRs from Slack",
+      "Linear & Figma context",
+      "Persistent knowledge"
+    ],
+    "pricing": "Free for OSS + $24/user/mo Pro",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "14-day Pro+ trial",
+    "url": "https://coderabbit.ai",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "Slack",
+      "مراجعة كود",
+      "Pull Request"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": [
+      "مراجعة الكود تلقائياً",
+      "إدارة PR من Slack"
+    ],
+    "description_en": "AI code review agent in Slack — investigate issues, plan implementations, and open PRs from conversation",
+    "tags_en": [
+      "Slack",
+      "code review",
+      "Pull Request"
+    ],
+    "features_en": [
+      "AI code reviews",
+      "Investigate issues in Slack",
+      "Implementation plans",
+      "Open PRs from Slack",
+      "Linear & Figma context",
+      "Persistent knowledge"
+    ],
+    "best_for_en": [
+      "Auto code review",
+      "PR management from Slack"
+    ]
+  },
+  {
+    "id": "glean-ai",
+    "name": "Glean",
+    "name_ar": "غلين",
+    "category": "productivity",
+    "category_ar": "إنتاجية",
+    "description": "محرك بحث AI للشركات في Slack — يبحث في كل أدوات الشركة ويجيب بمعلومات دقيقة ومصادر",
+    "official_description": "Glean is an enterprise AI search platform that connects to your company's entire data corpus, providing cited answers and intelligent search directly in Slack.",
+    "features": [
+      "Enterprise-wide search",
+      "Cited answers",
+      "Data analysis",
+      "Image understanding",
+      "App builder",
+      "Custom agents"
+    ],
+    "pricing": "~$50+/user/mo (Enterprise)",
+    "pricing_type": "enterprise",
+    "has_free_trial": true,
+    "free_trial_details": "Demo available",
+    "url": "https://glean.com",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "Slack",
+      "بحث مؤسسي",
+      "معرفة"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": [
+      "البحث في أنظمة الشركة",
+      "إدارة المعرفة المؤسسية"
+    ],
+    "description_en": "Enterprise AI search in Slack — searches across all company tools with cited answers",
+    "tags_en": [
+      "Slack",
+      "enterprise search",
+      "knowledge"
+    ],
+    "features_en": [
+      "Enterprise-wide search",
+      "Cited answers",
+      "Data analysis",
+      "Image understanding",
+      "App builder",
+      "Custom agents"
+    ],
+    "best_for_en": [
+      "Company-wide search",
+      "Enterprise knowledge management"
+    ]
+  },
+  {
+    "id": "moveworks-ai",
+    "name": "Moveworks",
+    "name_ar": "موف ووركس",
+    "category": "customer-support",
+    "category_ar": "دعم العملاء",
+    "description": "وكيل AI لأتمتة خدمات IT والموارد البشرية في Slack — يحل تذاكر الدعم ويجيب على أسئلة الموظفين تلقائياً",
+    "official_description": "Moveworks is an enterprise AI agent for IT and HR service automation in Slack, automatically resolving support tickets and employee questions.",
+    "features": [
+      "IT ticket resolution",
+      "HR service automation",
+      "Employee self-service",
+      "Knowledge base answers",
+      "Multi-language support"
+    ],
+    "pricing": "~$100-200/employee/year",
+    "pricing_type": "enterprise",
+    "has_free_trial": true,
+    "free_trial_details": "Demo available",
+    "url": "https://moveworks.com",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "Slack",
+      "IT دعم",
+      "موارد بشرية"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": [
+      "أتمتة دعم IT",
+      "خدمات الموارد البشرية"
+    ],
+    "description_en": "Enterprise AI agent for IT & HR service automation in Slack — auto-resolves tickets and employee questions",
+    "tags_en": [
+      "Slack",
+      "IT support",
+      "HR"
+    ],
+    "features_en": [
+      "IT ticket resolution",
+      "HR service automation",
+      "Employee self-service",
+      "Knowledge base answers",
+      "Multi-language support"
+    ],
+    "best_for_en": [
+      "IT support automation",
+      "HR services"
+    ]
+  },
+  {
+    "id": "aisera-ai",
+    "name": "Aisera",
+    "name_ar": "أيسيرا",
+    "category": "customer-support",
+    "category_ar": "دعم العملاء",
+    "description": "وكيل AI لمكتب خدمات IT في Slack — يحوّل التذاكر تلقائياً ويوفر دعماً ذاتياً للموظفين",
+    "official_description": "Aisera provides AI-powered IT service desk automation in Slack, deflecting tickets and enabling employee self-service with conversational AI.",
+    "features": [
+      "Ticket deflection",
+      "IT service desk AI",
+      "Conversational AI",
+      "Knowledge management",
+      "Workflow automation"
+    ],
+    "pricing": "Quote-based (Enterprise)",
+    "pricing_type": "enterprise",
+    "has_free_trial": true,
+    "free_trial_details": "Demo available",
+    "url": "https://aisera.com",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "Slack",
+      "IT خدمة",
+      "تذاكر AI"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": [
+      "مكتب خدمات IT",
+      "تحويل التذاكر"
+    ],
+    "description_en": "AI IT service desk agent in Slack — auto-deflects tickets and enables employee self-service",
+    "tags_en": [
+      "Slack",
+      "IT service",
+      "AI tickets"
+    ],
+    "features_en": [
+      "Ticket deflection",
+      "IT service desk AI",
+      "Conversational AI",
+      "Knowledge management",
+      "Workflow automation"
+    ],
+    "best_for_en": [
+      "IT service desk",
+      "Ticket deflection"
+    ]
+  },
+  {
+    "id": "agentforce-slack",
+    "name": "Agentforce (Salesforce)",
+    "name_ar": "إيجنت فورس (سيلزفورس)",
+    "category": "sales-marketing",
+    "category_ar": "مبيعات وتسويق",
+    "description": "وكلاء AI من Salesforce داخل Slack — أتمتة المبيعات والدعم مع قوالب جاهزة ونماذج مخصصة",
+    "official_description": "Agentforce by Salesforce brings AI agents into Slack for sales, service, and custom workflows with ready-made templates and conversational data context.",
+    "features": [
+      "Agent templates",
+      "Sales automation",
+      "Service automation",
+      "Custom agents",
+      "Enterprise search",
+      "CRM integration"
+    ],
+    "pricing": "$2/conversation (Agentforce)",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "1,000 free conversations",
+    "url": "https://slack.com/ai-agents",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "Slack",
+      "Salesforce",
+      "مبيعات AI"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": [
+      "أتمتة المبيعات",
+      "دعم العملاء"
+    ],
+    "description_en": "Salesforce AI agents in Slack — sales & service automation with templates and conversational data",
+    "tags_en": [
+      "Slack",
+      "Salesforce",
+      "AI sales"
+    ],
+    "features_en": [
+      "Agent templates",
+      "Sales automation",
+      "Service automation",
+      "Custom agents",
+      "Enterprise search",
+      "CRM integration"
+    ],
+    "best_for_en": [
+      "Sales automation",
+      "Customer support"
+    ]
+  },
+  {
+    "id": "perplexity-slack",
+    "name": "Perplexity Computer",
+    "name_ar": "بيربلكستي كمبيوتر",
+    "category": "productivity",
+    "category_ar": "إنتاجية",
+    "description": "عامل رقمي AI من Perplexity في Slack — يبحث في الإنترنت وينفذ المهام الرقمية نيابة عنك",
+    "official_description": "Perplexity Computer is an AI general-purpose digital worker in Slack that can browse the web, research topics, and complete digital tasks on your behalf.",
+    "features": [
+      "Web browsing",
+      "Research tasks",
+      "Digital task execution",
+      "Cited answers",
+      "Slack integration"
+    ],
+    "pricing": "Free + paid plans",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "Free plan available",
+    "url": "https://perplexity.ai",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "Slack",
+      "بحث AI",
+      "عامل رقمي"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": [
+      "البحث من Slack",
+      "المهام الرقمية"
+    ],
+    "description_en": "Perplexity's AI digital worker in Slack — browses the web and executes digital tasks for you",
+    "tags_en": [
+      "Slack",
+      "AI search",
+      "digital worker"
+    ],
+    "features_en": [
+      "Web browsing",
+      "Research tasks",
+      "Digital task execution",
+      "Cited answers",
+      "Slack integration"
+    ],
+    "best_for_en": [
+      "Research from Slack",
+      "Digital tasks"
+    ]
+  },
+  {
+    "id": "cursor-slack",
+    "name": "Cursor for Slack",
+    "name_ar": "كيرسور (سلاك)",
+    "category": "coding",
+    "category_ar": "برمجة",
+    "description": "شغّل وكلاء الكود من Cursor وأدرها مباشرة من Slack — برمجة غير متزامنة بدون مغادرة المحادثة",
+    "official_description": "Run and manage Cursor coding agents asynchronously from Slack — kick off coding tasks and get results without leaving your conversation.",
+    "features": [
+      "Async coding agents",
+      "Slack management",
+      "Code generation",
+      "PR creation",
+      "Team collaboration"
+    ],
+    "pricing": "Paid with free trial",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "Free trial available",
+    "url": "https://cursor.com",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "Slack",
+      "كود AI",
+      "وكيل برمجة"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": [
+      "البرمجة من Slack",
+      "إدارة مهام الكود"
+    ],
+    "description_en": "Run & manage Cursor coding agents from Slack — async coding without leaving your conversation",
+    "tags_en": [
+      "Slack",
+      "AI code",
+      "coding agent"
+    ],
+    "features_en": [
+      "Async coding agents",
+      "Slack management",
+      "Code generation",
+      "PR creation",
+      "Team collaboration"
+    ],
+    "best_for_en": [
+      "Coding from Slack",
+      "Code task management"
+    ]
+  },
+  {
+    "id": "notion-ai-slack",
+    "name": "Notion AI for Slack",
+    "name_ar": "نوشن AI  (سلاك)",
+    "category": "productivity",
+    "category_ar": "إنتاجية",
+    "description": "ربط Notion AI بـ Slack — ابحث في مستندات Notion واحصل على إجابات ذكية مباشرة من القنوات",
+    "official_description": "Connect Notion AI to Slack to search your Notion workspace and get intelligent answers directly in your Slack channels and threads.",
+    "features": [
+      "Notion workspace search",
+      "Smart answers from docs",
+      "Slack channel integration",
+      "Knowledge sync",
+      "Team Q&A"
+    ],
+    "pricing": "Included with Notion AI ($10/user/mo)",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "Notion AI trial available",
+    "url": "https://notion.so/product/ai",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "Slack",
+      "Notion",
+      "مستندات AI"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": [
+      "البحث في مستندات Notion",
+      "أسئلة الفريق"
+    ],
+    "description_en": "Notion AI connected to Slack — search Notion docs and get smart answers in your channels",
+    "tags_en": [
+      "Slack",
+      "Notion",
+      "AI docs"
+    ],
+    "features_en": [
+      "Notion workspace search",
+      "Smart answers from docs",
+      "Slack channel integration",
+      "Knowledge sync",
+      "Team Q&A"
+    ],
+    "best_for_en": [
+      "Notion doc search",
+      "Team Q&A"
+    ]
   }
 ]
