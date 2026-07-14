@@ -21012,5 +21012,527 @@
       "Enterprise automation",
       "Custom agent building"
     ]
+  },
+  {
+    "id": "notebook-lm",
+    "name": "NotebookLM",
+    "name_ar": "نوتبوك إل إم",
+    "category": "research",
+    "category_ar": "بحث",
+    "description": "أداة بحث AI من Google — حوّل مستنداتك لبودكاست صوتي أو ملخصات ذكية",
+    "official_description": "NotebookLM by Google is an AI research assistant that analyzes your documents and generates audio overviews, summaries, and Q&A.",
+    "features": [
+      "Audio Overview podcasts",
+      "Document analysis",
+      "Smart summaries",
+      "Source-grounded answers"
+    ],
+    "pricing": "Free",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://notebooklm.google.com",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "بحث",
+      "بودكاست AI",
+      "ملخصات"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": [
+      "تحليل المستندات",
+      "إنشاء بودكاست"
+    ],
+    "description_en": "Google's AI research tool — turn documents into podcasts or smart summaries",
+    "tags_en": [
+      "research",
+      "AI podcast",
+      "summaries"
+    ],
+    "features_en": [
+      "Audio Overview podcasts",
+      "Document analysis",
+      "Smart summaries",
+      "Source-grounded answers"
+    ],
+    "best_for_en": [
+      "Document analysis",
+      "Podcast creation"
+    ]
+  },
+  {
+    "id": "flux-ai",
+    "name": "FLUX",
+    "name_ar": "فلكس",
+    "category": "creative",
+    "category_ar": "إبداعي",
+    "description": "نموذج توليد صور مفتوح المصدر من Black Forest Labs — جودة تنافس Midjourney",
+    "official_description": "FLUX by Black Forest Labs is an open-source image generation model that rivals Midjourney in quality with fast generation times.",
+    "features": [
+      "High-quality images",
+      "Open source",
+      "Fast generation",
+      "API access"
+    ],
+    "pricing": "Free (open source) + API pricing",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://blackforestlabs.ai",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "صور AI",
+      "مفتوح المصدر",
+      "توليد"
+    ],
+    "featured": false,
+    "open_source": true,
+    "added_date": "2026-07-14",
+    "best_for": [
+      "توليد صور عالية الجودة",
+      "مشاريع مفتوحة المصدر"
+    ],
+    "description_en": "Open-source image model from Black Forest Labs — rivals Midjourney quality",
+    "tags_en": [
+      "AI images",
+      "open source",
+      "generation"
+    ],
+    "features_en": [
+      "High-quality images",
+      "Open source",
+      "Fast generation",
+      "API access"
+    ],
+    "best_for_en": [
+      "High-quality image generation",
+      "Open source projects"
+    ]
+  },
+  {
+    "id": "napkin-ai",
+    "name": "Napkin AI",
+    "name_ar": "نابكن",
+    "category": "productivity",
+    "category_ar": "إنتاجية",
+    "description": "أداة AI لتحويل النصوص لرسوم بيانية وإنفوجرافيك احترافي بضغطة زر",
+    "official_description": "Napkin AI transforms text into professional diagrams, infographics, and visual content automatically.",
+    "features": [
+      "Text-to-diagram",
+      "Infographic generation",
+      "Export options",
+      "Customizable styles"
+    ],
+    "pricing": "Free tier + $15/mo Pro",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "Free tier with basic features",
+    "url": "https://napkin.ai",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "إنفوجرافيك",
+      "رسوم بيانية",
+      "تصميم"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": [
+      "إنشاء إنفوجرافيك",
+      "تحويل النص لرسوم"
+    ],
+    "description_en": "AI tool to convert text into professional diagrams and infographics instantly",
+    "tags_en": [
+      "infographic",
+      "diagrams",
+      "design"
+    ],
+    "features_en": [
+      "Text-to-diagram",
+      "Infographic generation",
+      "Export options",
+      "Customizable styles"
+    ],
+    "best_for_en": [
+      "Infographic creation",
+      "Text-to-visuals"
+    ]
+  },
+  {
+    "id": "shopify-sidekick",
+    "name": "Shopify Sidekick",
+    "name_ar": "شوبيفاي سايدكيك",
+    "category": "sales-marketing",
+    "category_ar": "مبيعات وتسويق",
+    "description": "مساعد AI لمتاجر Shopify — يدير المنتجات والتسويق والتحليلات بالمحادثة",
+    "official_description": "Shopify Sidekick is an AI commerce assistant that helps store owners manage products, marketing, analytics, and store operations.",
+    "features": [
+      "Store management",
+      "Marketing automation",
+      "Analytics insights",
+      "Product descriptions"
+    ],
+    "pricing": "Included with Shopify plans",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "3-day free Shopify trial",
+    "url": "https://shopify.com/magic",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "تجارة إلكترونية",
+      "تسويق",
+      "AI"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": [
+      "إدارة المتاجر الإلكترونية",
+      "التسويق الذكي"
+    ],
+    "description_en": "AI assistant for Shopify stores — manages products, marketing & analytics via chat",
+    "tags_en": [
+      "e-commerce",
+      "marketing",
+      "AI"
+    ],
+    "features_en": [
+      "Store management",
+      "Marketing automation",
+      "Analytics insights",
+      "Product descriptions"
+    ],
+    "best_for_en": [
+      "E-commerce management",
+      "Smart marketing"
+    ]
+  },
+  {
+    "id": "arcads",
+    "name": "Arcads",
+    "name_ar": "آركادز",
+    "category": "sales-marketing",
+    "category_ar": "مبيعات وتسويق",
+    "description": "أداة AI لإنشاء إعلانات UGC بأفاتارات واقعية — حوّل النص لإعلان فيديو احترافي",
+    "official_description": "Arcads creates AI-generated UGC-style video ads with realistic AI actors from text scripts for marketing campaigns.",
+    "features": [
+      "AI video ads",
+      "300+ AI actors",
+      "Script-to-video",
+      "Batch creation"
+    ],
+    "pricing": "$100/mo Starter",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "3 free AI ads",
+    "url": "https://arcads.ai",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "إعلانات",
+      "UGC",
+      "تسويق AI"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": [
+      "إعلانات الفيديو",
+      "التسويق بالمحتوى"
+    ],
+    "description_en": "AI tool for UGC video ads with realistic avatars — text to professional video ad",
+    "tags_en": [
+      "ads",
+      "UGC",
+      "AI marketing"
+    ],
+    "features_en": [
+      "AI video ads",
+      "300+ AI actors",
+      "Script-to-video",
+      "Batch creation"
+    ],
+    "best_for_en": [
+      "Video ads",
+      "Content marketing"
+    ]
+  },
+  {
+    "id": "openscience",
+    "name": "openscience",
+    "name_ar": "openscience",
+    "category": "framework",
+    "category_ar": "إطار عمل",
+    "description": "The open-source AI workbench for scientific research",
+    "official_description": "The open-source AI workbench for scientific research",
+    "features": [],
+    "pricing": "Free (open source)",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://github.com/synthetic-sciences/openscience",
+    "affiliate_url": "",
+    "logo": "https://avatars.githubusercontent.com/u/220546587?v=4",
+    "tags": [
+      "agent",
+      "ai",
+      "ai-agent"
+    ],
+    "featured": false,
+    "open_source": true,
+    "added_date": "2026-07-14",
+    "best_for": [],
+    "description_en": "The open-source AI workbench for scientific research",
+    "tags_en": [
+      "agent",
+      "ai",
+      "ai-agent"
+    ],
+    "features_en": [],
+    "best_for_en": []
+  },
+  {
+    "id": "gzh-design-skill",
+    "name": "gzh-design-skill",
+    "name_ar": "gzh-design-skill",
+    "category": "framework",
+    "category_ar": "إطار عمل",
+    "description": "把 Markdown 一键排成可直接粘进公众号编辑器的精致 HTML —— 6 套精选主题 + 主题生成器 + 双关卡校验。An AI-agent skill that turns Markdown into paste-ready WeChat article HTML.",
+    "official_description": "把 Markdown 一键排成可直接粘进公众号编辑器的精致 HTML —— 6 套精选主题 + 主题生成器 + 双关卡校验。An AI-agent skill that turns Markdown into paste-ready WeChat article HTML.",
+    "features": [],
+    "pricing": "Free (open source)",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://github.com/isjiamu/gzh-design-skill",
+    "affiliate_url": "",
+    "logo": "https://avatars.githubusercontent.com/u/30619280?v=4",
+    "tags": [
+      "agent-skill",
+      "ai-agent",
+      "claude-code"
+    ],
+    "featured": false,
+    "open_source": true,
+    "added_date": "2026-07-14",
+    "best_for": [],
+    "description_en": "把 Markdown 一键排成可直接粘进公众号编辑器的精致 HTML —— 6 套精选主题 + 主题生成器 + 双关卡校验。An AI-agent skill that turns Markdown into paste-ready WeChat article HTML.",
+    "tags_en": [
+      "agent-skill",
+      "ai-agent",
+      "claude-code"
+    ],
+    "features_en": [],
+    "best_for_en": []
+  },
+  {
+    "id": "vibe-research",
+    "name": "Vibe-Research",
+    "name_ar": "Vibe-Research",
+    "category": "framework",
+    "category_ar": "إطار عمل",
+    "description": "Vibe-Research: Your Personal Trading Research Agent · A股/美股/港股 的个��投研 Agent：每日复盘、资讯雷达、个股数据、板块中心、我的持仓、研究记录。Vibe-Research 把数据和功能配齐，由你自己的 AI 驱动投资研究。",
+    "official_description": "Vibe-Research: Your Personal Trading Research Agent · A股/美股/港股 的个��投研 Agent：每日复盘、资讯雷达、个股数据、板块中心、我的持仓、研究记录。Vibe-Research 把数据和功能配齐，由你自己的 AI 驱动投资研究。",
+    "features": [],
+    "pricing": "Free (open source)",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://github.com/simonlin1212/Vibe-Research",
+    "affiliate_url": "",
+    "logo": "https://avatars.githubusercontent.com/u/166034225?v=4",
+    "tags": [
+      "a-stock",
+      "ai-agent",
+      "dashboard"
+    ],
+    "featured": false,
+    "open_source": true,
+    "added_date": "2026-07-14",
+    "best_for": [],
+    "description_en": "Vibe-Research: Your Personal Trading Research Agent · A股/美股/港股 的个��投研 Agent：每日复盘、资讯雷达、个股数据、板块中心、我的持仓、研究记录。Vibe-Research 把数据和功能配齐，由你自己的 AI 驱动投资研究。",
+    "tags_en": [
+      "a-stock",
+      "ai-agent",
+      "dashboard"
+    ],
+    "features_en": [],
+    "best_for_en": []
+  },
+  {
+    "id": "open-science",
+    "name": "open-science",
+    "name_ar": "open-science",
+    "category": "framework",
+    "category_ar": "إطار عمل",
+    "description": "Open Science Desktop — local-first, model-agnostic AI research workbench for macOS, Windows & Linux. Open-source Claude Science desktop alternative built on Tauri + MCP + agent skills.",
+    "official_description": "Open Science Desktop — local-first, model-agnostic AI research workbench for macOS, Windows & Linux. Open-source Claude Science desktop alternative built on Tauri + MCP + agent skills.",
+    "features": [],
+    "pricing": "Free (open source)",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://github.com/ai4s-research/open-science",
+    "affiliate_url": "",
+    "logo": "https://avatars.githubusercontent.com/u/297363890?v=4",
+    "tags": [
+      "ai-agent",
+      "ai-for-science",
+      "ai-scientist"
+    ],
+    "featured": false,
+    "open_source": true,
+    "added_date": "2026-07-14",
+    "best_for": [],
+    "description_en": "Open Science Desktop — local-first, model-agnostic AI research workbench for macOS, Windows & Linux. Open-source Claude Science desktop alternative built on Tauri + MCP + agent skills.",
+    "tags_en": [
+      "ai-agent",
+      "ai-for-science",
+      "ai-scientist"
+    ],
+    "features_en": [],
+    "best_for_en": []
+  },
+  {
+    "id": "motion-anything",
+    "name": "motion-anything",
+    "name_ar": "motion-anything",
+    "category": "framework",
+    "category_ar": "إطار عمل",
+    "description": "✨ The agentic motion layer — an open-source, chat-native motion engine. Describe the feeling; your AI ships the animation.",
+    "official_description": "✨ The agentic motion layer — an open-source, chat-native motion engine. Describe the feeling; your AI ships the animation.",
+    "features": [],
+    "pricing": "Free (open source)",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://github.com/nexu-io/motion-anything",
+    "affiliate_url": "",
+    "logo": "https://avatars.githubusercontent.com/u/263625318?v=4",
+    "tags": [
+      "ai-agent",
+      "animation",
+      "claude"
+    ],
+    "featured": false,
+    "open_source": true,
+    "added_date": "2026-07-14",
+    "best_for": [],
+    "description_en": "✨ The agentic motion layer — an open-source, chat-native motion engine. Describe the feeling; your AI ships the animation.",
+    "tags_en": [
+      "ai-agent",
+      "animation",
+      "claude"
+    ],
+    "features_en": [],
+    "best_for_en": []
+  },
+  {
+    "id": "waggle",
+    "name": "waggle",
+    "name_ar": "waggle",
+    "category": "framework",
+    "category_ar": "إطار عمل",
+    "description": "Attributed, resolvable artifact references for agent handoffs — a ~30-byte token instead of pasted context. MCP-native; the reference layer for the agent-harness world.",
+    "official_description": "Attributed, resolvable artifact references for agent handoffs — a ~30-byte token instead of pasted context. MCP-native; the reference layer for the agent-harness world.",
+    "features": [],
+    "pricing": "Free (open source)",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://github.com/modiqo/waggle",
+    "affiliate_url": "",
+    "logo": "https://avatars.githubusercontent.com/u/172510440?v=4",
+    "tags": [
+      "ai-agents",
+      "harness-engineering",
+      "llm-tools"
+    ],
+    "featured": false,
+    "open_source": true,
+    "added_date": "2026-07-14",
+    "best_for": [],
+    "description_en": "Attributed, resolvable artifact references for agent handoffs — a ~30-byte token instead of pasted context. MCP-native; the reference layer for the agent-harness world.",
+    "tags_en": [
+      "ai-agents",
+      "harness-engineering",
+      "llm-tools"
+    ],
+    "features_en": [],
+    "best_for_en": []
+  },
+  {
+    "id": "orkas-videostudio",
+    "name": "Orkas-VideoStudio",
+    "name_ar": "Orkas-VideoStudio",
+    "category": "framework",
+    "category_ar": "إطار عمل",
+    "description": "Turn your coding agent into a video studio: describe a video in plain language, and your agent writes the timeline and produces the file.",
+    "official_description": "Turn your coding agent into a video studio: describe a video in plain language, and your agent writes the timeline and produces the file.",
+    "features": [],
+    "pricing": "Free (open source)",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://github.com/Orkas-AI/Orkas-VideoStudio",
+    "affiliate_url": "",
+    "logo": "https://avatars.githubusercontent.com/u/217779447?v=4",
+    "tags": [
+      "ai-agents",
+      "ai-video",
+      "cli"
+    ],
+    "featured": false,
+    "open_source": true,
+    "added_date": "2026-07-14",
+    "best_for": [],
+    "description_en": "Turn your coding agent into a video studio: describe a video in plain language, and your agent writes the timeline and produces the file.",
+    "tags_en": [
+      "ai-agents",
+      "ai-video",
+      "cli"
+    ],
+    "features_en": [],
+    "best_for_en": []
+  },
+  {
+    "id": "vox-director",
+    "name": "vox-director",
+    "name_ar": "vox-director",
+    "category": "framework",
+    "category_ar": "إطار عمل",
+    "description": "Turn one topic into a finished Vox-style paper-collage explainer/ad video — automated end to end on Atlas Cloud + ffmpeg. An agent skill.",
+    "official_description": "Turn one topic into a finished Vox-style paper-collage explainer/ad video — automated end to end on Atlas Cloud + ffmpeg. An agent skill.",
+    "features": [],
+    "pricing": "Free (open source)",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://github.com/Alisa0808/vox-director",
+    "affiliate_url": "",
+    "logo": "https://avatars.githubusercontent.com/u/68321694?v=4",
+    "tags": [
+      "ai",
+      "ai-video",
+      "claude-code"
+    ],
+    "featured": false,
+    "open_source": true,
+    "added_date": "2026-07-14",
+    "best_for": [],
+    "description_en": "Turn one topic into a finished Vox-style paper-collage explainer/ad video — automated end to end on Atlas Cloud + ffmpeg. An agent skill.",
+    "tags_en": [
+      "ai",
+      "ai-video",
+      "claude-code"
+    ],
+    "features_en": [],
+    "best_for_en": []
   }
 ]
