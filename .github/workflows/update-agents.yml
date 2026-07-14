@@ -1,0 +1,30 @@
+name: Update AI Agents Directory
+
+on:
+  schedule:
+    - cron: '0 8 * * 1' # Every Monday 8 AM UTC
+  workflow_dispatch: # Manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Run setup & merge
+        run: node scripts/setup.js
+      
+      - name: Commit changes
+        run: |
+          git config user.name "AgentVault Bot"
+          git config user.email "bot@agentvault.dev"
+          git add -A
+          git diff --cached --quiet || git commit -m "🤖 Auto-update: enhance site & add new AI agents"
+          git push

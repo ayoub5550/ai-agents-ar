@@ -1,0 +1,85 @@
+/* === DARK MODE === */
+[data-theme="dark"]{
+  --bg:#0F172A;--bg-card:#1E293B;--bg-hover:#334155;
+  --bg-nav:rgba(15,23,42,.92);
+  --text:#F1F5F9;--text-2:#94A3B8;--text-3:#64748B;
+  --border:#334155;--border-hover:#475569;
+  --accent:#818CF8;--accent-light:#1E1B4B;--accent-dark:#6366F1;
+  --green-bg:#064E3B;--orange-bg:#78350F;--blue-bg:#1E3A5F;
+  --shadow-sm:0 1px 2px rgba(0,0,0,.2);
+  --shadow-md:0 4px 12px rgba(0,0,0,.3);
+  --shadow-lg:0 8px 30px rgba(0,0,0,.4);
+}
+[data-theme="dark"] img{filter:brightness(.92)}
+[data-theme="dark"] .promo-banner{background:#1E293B}
+[data-theme="dark"] input,[data-theme="dark"] select{background:var(--bg-card);color:var(--text);border-color:var(--border)}
+[data-theme="dark"] .hero{background:var(--bg)}
+[data-theme="dark"] .card{background:var(--bg-card)}
+
+/* Smooth theme transitions */
+body,nav,.card,.hero,footer,.newsletter,.promo-banner,.toolbar,input,select{
+  transition:background-color .3s ease,color .3s ease,border-color .3s ease,box-shadow .3s ease;
+}
+
+/* === THEME TOGGLE === */
+.theme-toggle{
+  background:var(--bg-card);border:1px solid var(--border);
+  border-radius:var(--r-sm,8px);padding:6px 12px;
+  cursor:pointer;font-size:18px;line-height:1;
+  transition:all .3s;display:flex;align-items:center;
+}
+.theme-toggle:hover{border-color:var(--accent);transform:scale(1.08)}
+
+/* === SORT CONTROLS === */
+.sort-controls{
+  display:flex;align-items:center;gap:8px;
+  margin:10px 0;flex-wrap:wrap;
+}
+.sort-select{
+  padding:7px 14px;border-radius:var(--r-sm,8px);
+  border:1px solid var(--border);background:var(--bg-card);
+  color:var(--text);font-size:13px;cursor:pointer;
+  transition:border-color .3s;
+}
+.sort-select:hover,.sort-select:focus{border-color:var(--accent);outline:none}
+
+/* === FAVORITES === */
+.fav-btn{
+  position:absolute;top:10px;right:10px;
+  background:none;border:none;font-size:20px;
+  cursor:pointer;opacity:.35;transition:all .3s;
+  z-index:2;line-height:1;padding:2px;
+}
+[dir="rtl"] .fav-btn{right:auto;left:10px}
+.fav-btn:hover,.fav-btn.active{opacity:1;transform:scale(1.2)}
+.fav-btn.active{color:#F59E0B}
+
+.fav-filter{
+  display:inline-flex;align-items:center;gap:4px;
+  padding:6px 14px;border-radius:20px;
+  border:1px solid var(--border);background:var(--bg-card);
+  color:var(--text-2);cursor:pointer;
+  font-size:13px;font-weight:500;transition:all .3s;
+}
+.fav-filter:hover{border-color:#F59E0B;color:#F59E0B}
+.fav-filter.active{background:#F59E0B;color:#fff;border-color:#F59E0B}
+
+/* === NEW BADGE === */
+.new-badge{
+  position:absolute;top:10px;left:10px;
+  background:linear-gradient(135deg,#10B981,#059669);
+  color:#fff;font-size:10px;font-weight:700;
+  padding:2px 8px;border-radius:20px;
+  text-transform:uppercase;letter-spacing:.5px;
+  animation:pulseNew 2s infinite;
+}
+[dir="rtl"] .new-badge{left:auto;right:50px}
+@keyframes pulseNew{
+  0%,100%{box-shadow:0 0 0 0 rgba(16,185,129,.4)}
+  50%{box-shadow:0 0 0 6px rgba(16,185,129,0)}
+}
+
+/* === CARD ANIMATIONS === */
+.card.fade-in{animation:cardIn .5s ease forwards}
+@keyframes cardIn{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+.card:hover{box-shadow:var(--shadow-lg) !important;transform:translateY(-2px)}
