@@ -30464,5 +30464,668 @@
     "added_date": "2026-07-14",
     "open_source": true,
     "featured": false
+  },
+  {
+    "id": "coze-ai",
+    "name": "Coze",
+    "name_ar": "كوز",
+    "category": "general-assistant",
+    "category_ar": "مساعد عام",
+    "description": "منصة بناء بوتات AI من ByteDance مع إضافات وسير عمل",
+    "description_en": "AI bot-building platform by ByteDance with plugins and workflows",
+    "features": [
+      "بناء بوتات",
+      "إضافات",
+      "سير عمل"
+    ],
+    "features_en": [
+      "Bot building",
+      "Plugins",
+      "Workflows"
+    ],
+    "pricing": "Free",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://www.coze.com",
+    "affiliate_url": "",
+    "logo": "https://www.coze.com/favicon.ico",
+    "tags": [
+      "بوتات",
+      "بناء"
+    ],
+    "tags_en": [
+      "bots",
+      "building"
+    ],
+    "best_for": "مطورين يريدون بناء بوتات AI بسهولة",
+    "best_for_en": "Developers wanting to build AI bots easily",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "opera-aria",
+    "name": "Opera Aria",
+    "name_ar": "أوبرا آريا",
+    "category": "general-assistant",
+    "category_ar": "مساعد عام",
+    "description": "مساعد AI مدمج في متصفح Opera مع وصول مباشر للإنترنت",
+    "description_en": "AI assistant built into Opera browser with direct internet access",
+    "features": [
+      "مدمج بالمتصفح",
+      "وصول إنترنت",
+      "ترجمة"
+    ],
+    "features_en": [
+      "Browser-built",
+      "Internet access",
+      "Translation"
+    ],
+    "pricing": "Free",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://www.opera.com/features/aria",
+    "affiliate_url": "",
+    "logo": "https://www.opera.com/favicon.ico",
+    "tags": [
+      "متصفح",
+      "مدمج"
+    ],
+    "tags_en": [
+      "browser",
+      "built-in"
+    ],
+    "best_for": "مستخدمي Opera يريدون AI مدمج",
+    "best_for_en": "Opera users wanting built-in AI",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "mistral-le-chat",
+    "name": "Mistral Le Chat",
+    "name_ar": "ميسترال لو شات",
+    "category": "general-assistant",
+    "category_ar": "مساعد عام",
+    "description": "مساعد AI من Mistral الفرنسية مع نماذج مفتوحة قوية",
+    "description_en": "AI assistant by French company Mistral with powerful open models",
+    "features": [
+      "نماذج قوية",
+      "أوروبي",
+      "سريع"
+    ],
+    "features_en": [
+      "Powerful models",
+      "European",
+      "Fast"
+    ],
+    "pricing": "Free / API pricing",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://chat.mistral.ai",
+    "affiliate_url": "",
+    "logo": "https://chat.mistral.ai/favicon.ico",
+    "tags": [
+      "نماذج مفتوحة",
+      "أوروبي"
+    ],
+    "tags_en": [
+      "open models",
+      "European"
+    ],
+    "best_for": "مستخدمين يفضلون نماذج AI أوروبية",
+    "best_for_en": "Users preferring European AI models",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "cohere-coral",
+    "name": "Cohere (Coral)",
+    "name_ar": "كوهير (كورال)",
+    "category": "general-assistant",
+    "category_ar": "مساعد عام",
+    "description": "منصة AI للمؤسسات مع قدرات RAG واسترجاع معلومات متقدمة",
+    "description_en": "Enterprise AI platform with advanced RAG and information retrieval capabilities",
+    "features": [
+      "RAG متقدم",
+      "بحث مؤسسي",
+      "API"
+    ],
+    "features_en": [
+      "Advanced RAG",
+      "Enterprise search",
+      "API"
+    ],
+    "pricing": "Free trial / Enterprise",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "Free trial",
+    "url": "https://cohere.com",
+    "affiliate_url": "",
+    "logo": "https://cohere.com/favicon.ico",
+    "tags": [
+      "RAG",
+      "مؤسسات"
+    ],
+    "tags_en": [
+      "RAG",
+      "enterprise"
+    ],
+    "best_for": "مؤسسات تحتاج AI مع استرجاع معلومات",
+    "best_for_en": "Enterprises needing AI with information retrieval",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "datalore",
+    "name": "Datalore",
+    "name_ar": "داتالور",
+    "category": "data-analytics",
+    "category_ar": "تحليل بيانات",
+    "description": "دفاتر Jupyter سحابية من JetBrains مع AI مساعد وتعاون",
+    "description_en": "Cloud Jupyter notebooks by JetBrains with AI assistant and collaboration",
+    "features": [
+      "Jupyter سحابي",
+      "AI مساعد",
+      "تعاون"
+    ],
+    "features_en": [
+      "Cloud Jupyter",
+      "AI assistant",
+      "Collaboration"
+    ],
+    "pricing": "Free / $19.90/mo Pro",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://datalore.jetbrains.com",
+    "affiliate_url": "",
+    "logo": "https://datalore.jetbrains.com/favicon.ico",
+    "tags": [
+      "Jupyter",
+      "JetBrains"
+    ],
+    "tags_en": [
+      "Jupyter",
+      "JetBrains"
+    ],
+    "best_for": "علماء بيانات يستخدمون JetBrains",
+    "best_for_en": "Data scientists using JetBrains",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "superagi",
+    "name": "SuperAGI",
+    "name_ar": "سوبر AGI",
+    "category": "framework",
+    "category_ar": "أطر عمل",
+    "description": "إطار مفتوح المصدر لبناء وإدارة وتشغيل وكلاء AI مستقلين",
+    "description_en": "Open-source framework for building, managing, and running autonomous AI agents",
+    "features": [
+      "وكلاء مستقلين",
+      "أدوات متعددة",
+      "واجهة رسومية"
+    ],
+    "features_en": [
+      "Autonomous agents",
+      "Multiple tools",
+      "GUI"
+    ],
+    "pricing": "Free",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://superagi.com",
+    "affiliate_url": "",
+    "logo": "https://superagi.com/favicon.ico",
+    "tags": [
+      "وكلاء",
+      "مفتوح المصدر"
+    ],
+    "tags_en": [
+      "agents",
+      "open source"
+    ],
+    "best_for": "مطورين يبنون وكلاء AI مستقلين",
+    "best_for_en": "Developers building autonomous AI agents",
+    "added_date": "2026-07-14",
+    "open_source": true,
+    "featured": false
+  },
+  {
+    "id": "agentgpt",
+    "name": "AgentGPT",
+    "name_ar": "إيجنت GPT",
+    "category": "framework",
+    "category_ar": "أطر عمل",
+    "description": "منصة ويب مفتوحة المصدر لتشغيل وكلاء AI مستقلين بدون كود",
+    "description_en": "Open-source web platform for running autonomous AI agents without code",
+    "features": [
+      "بدون كود",
+      "وكلاء مستقلين",
+      "متصفح"
+    ],
+    "features_en": [
+      "No-code",
+      "Autonomous agents",
+      "Browser-based"
+    ],
+    "pricing": "Free",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://agentgpt.reworkd.ai",
+    "affiliate_url": "",
+    "logo": "https://agentgpt.reworkd.ai/favicon.ico",
+    "tags": [
+      "وكلاء",
+      "بدون كود"
+    ],
+    "tags_en": [
+      "agents",
+      "no-code"
+    ],
+    "best_for": "مستخدمين يريدون تجربة وكلاء AI بدون برمجة",
+    "best_for_en": "Users wanting to try AI agents without coding",
+    "added_date": "2026-07-14",
+    "open_source": true,
+    "featured": false
+  },
+  {
+    "id": "mem0-ai",
+    "name": "Mem0",
+    "name_ar": "ميم زيرو",
+    "category": "framework",
+    "category_ar": "أطر عمل",
+    "description": "طبقة ذاكرة مفتوحة المصدر لتطبيقات AI لتذكر المحادثات والسياق",
+    "description_en": "Open-source memory layer for AI apps to remember conversations and context",
+    "features": [
+      "ذاكرة AI",
+      "تخصيص",
+      "API"
+    ],
+    "features_en": [
+      "AI memory",
+      "Personalization",
+      "API"
+    ],
+    "pricing": "Free OSS / Cloud",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://mem0.ai",
+    "affiliate_url": "",
+    "logo": "https://mem0.ai/favicon.ico",
+    "tags": [
+      "ذاكرة",
+      "مفتوح المصدر"
+    ],
+    "tags_en": [
+      "memory",
+      "open source"
+    ],
+    "best_for": "مطورين يبنون تطبيقات AI تحتاج ذاكرة",
+    "best_for_en": "Developers building AI apps needing memory",
+    "added_date": "2026-07-14",
+    "open_source": true,
+    "featured": false
+  },
+  {
+    "id": "krisp-ai",
+    "name": "Krisp",
+    "name_ar": "كريسب",
+    "category": "productivity",
+    "category_ar": "إنتاجية",
+    "description": "أداة AI لإلغاء الضوضاء وتسجيل الاجتماعات وتلخيصها",
+    "description_en": "AI tool for noise cancellation, meeting recording, and summarization",
+    "features": [
+      "إلغاء ضوضاء",
+      "تسجيل",
+      "تلخيص"
+    ],
+    "features_en": [
+      "Noise cancellation",
+      "Recording",
+      "Summarization"
+    ],
+    "pricing": "Free / $8/mo Pro",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://krisp.ai",
+    "affiliate_url": "",
+    "logo": "https://krisp.ai/favicon.ico",
+    "tags": [
+      "إلغاء ضوضاء",
+      "اجتماعات"
+    ],
+    "tags_en": [
+      "noise cancellation",
+      "meetings"
+    ],
+    "best_for": "عاملين عن بعد في بيئات صاخبة",
+    "best_for_en": "Remote workers in noisy environments",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "fathom-ai",
+    "name": "Fathom",
+    "name_ar": "فاذوم",
+    "category": "productivity",
+    "category_ar": "إنتاجية",
+    "description": "مساعد اجتماعات AI مجاني يُنشئ ملخصات وملاحظات من Zoom",
+    "description_en": "Free AI meeting assistant creating summaries and notes from Zoom calls",
+    "features": [
+      "مجاني",
+      "تلخيص",
+      "نقاط عمل"
+    ],
+    "features_en": [
+      "Free",
+      "Summarization",
+      "Action items"
+    ],
+    "pricing": "Free / $19/mo Premium",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://fathom.video",
+    "affiliate_url": "",
+    "logo": "https://fathom.video/favicon.ico",
+    "tags": [
+      "Zoom",
+      "مجاني"
+    ],
+    "tags_en": [
+      "Zoom",
+      "free"
+    ],
+    "best_for": "مستخدمي Zoom يريدون ملخصات مجانية",
+    "best_for_en": "Zoom users wanting free summaries",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "albato",
+    "name": "Albato",
+    "name_ar": "ألباتو",
+    "category": "automation",
+    "category_ar": "أتمتة",
+    "description": "منصة أتمتة بلا كود بديلة لـ Zapier بأسعار أقل",
+    "description_en": "No-code automation platform as an affordable Zapier alternative",
+    "features": [
+      "بلا كود",
+      "500+ تكامل",
+      "سعر منخفض"
+    ],
+    "features_en": [
+      "No-code",
+      "500+ integrations",
+      "Low price"
+    ],
+    "pricing": "Free / $15/mo Starter",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://albato.com",
+    "affiliate_url": "",
+    "logo": "https://albato.com/favicon.ico",
+    "tags": [
+      "أتمتة",
+      "بديل Zapier"
+    ],
+    "tags_en": [
+      "automation",
+      "Zapier alternative"
+    ],
+    "best_for": "شركات صغيرة تريد أتمتة بأقل تكلفة",
+    "best_for_en": "Small businesses wanting affordable automation",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "respell-ai",
+    "name": "Respell",
+    "name_ar": "ريسبل",
+    "category": "automation",
+    "category_ar": "أتمتة",
+    "description": "منصة بناء سير عمل AI بالسحب والإفلات بدون برمجة",
+    "description_en": "Drag-and-drop AI workflow builder without coding",
+    "features": [
+      "سحب وإفلات",
+      "وكلاء AI",
+      "بلا كود"
+    ],
+    "features_en": [
+      "Drag-and-drop",
+      "AI agents",
+      "No-code"
+    ],
+    "pricing": "Free / $49/mo Pro",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://www.respell.ai",
+    "affiliate_url": "",
+    "logo": "https://www.respell.ai/favicon.ico",
+    "tags": [
+      "سير عمل",
+      "بلا كود"
+    ],
+    "tags_en": [
+      "workflows",
+      "no-code"
+    ],
+    "best_for": "فرق تريد بناء سير عمل AI بسهولة",
+    "best_for_en": "Teams wanting to build AI workflows easily",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "taskade-ai",
+    "name": "Taskade",
+    "name_ar": "تاسكيد",
+    "category": "productivity",
+    "category_ar": "إنتاجية",
+    "description": "مساحة عمل تعاونية مع AI لإدارة المشاريع والمهام والملاحظات",
+    "description_en": "Collaborative workspace with AI for project management, tasks, and notes",
+    "features": [
+      "مشاريع",
+      "وكلاء AI",
+      "تعاون"
+    ],
+    "features_en": [
+      "Projects",
+      "AI agents",
+      "Collaboration"
+    ],
+    "pricing": "Free / $4/user/mo Pro",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://www.taskade.com",
+    "affiliate_url": "",
+    "logo": "https://www.taskade.com/favicon.ico",
+    "tags": [
+      "مشاريع",
+      "تعاون"
+    ],
+    "tags_en": [
+      "projects",
+      "collaboration"
+    ],
+    "best_for": "فرق صغيرة تريد أداة إنتاجية شاملة",
+    "best_for_en": "Small teams wanting an all-in-one productivity tool",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "reflect-ai",
+    "name": "Reflect",
+    "name_ar": "ريفلكت",
+    "category": "productivity",
+    "category_ar": "إنتاجية",
+    "description": "تطبيق ملاحظات مع AI يربط الأفكار ويحولها لمعرفة منظمة",
+    "description_en": "AI-powered note app connecting thoughts and turning them into organized knowledge",
+    "features": [
+      "ربط أفكار",
+      "AI",
+      "تشفير"
+    ],
+    "features_en": [
+      "Thought linking",
+      "AI",
+      "Encryption"
+    ],
+    "pricing": "$10/mo",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "14-day trial",
+    "url": "https://reflect.app",
+    "affiliate_url": "",
+    "logo": "https://reflect.app/favicon.ico",
+    "tags": [
+      "ملاحظات",
+      "تفكير"
+    ],
+    "tags_en": [
+      "notes",
+      "thinking"
+    ],
+    "best_for": "مفكرين يريدون ربط أفكارهم",
+    "best_for_en": "Thinkers wanting to connect their ideas",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "whisper-ai",
+    "name": "Whisper",
+    "name_ar": "ويسبر",
+    "category": "productivity",
+    "category_ar": "إنتاجية",
+    "description": "نموذج تحويل كلام لنص مفتوح المصدر من OpenAI بدقة عالية",
+    "description_en": "OpenAI open-source speech-to-text model with high accuracy in 99 languages",
+    "features": [
+      "تحويل كلام",
+      "99 لغة",
+      "مفتوح المصدر"
+    ],
+    "features_en": [
+      "Speech-to-text",
+      "99 languages",
+      "Open source"
+    ],
+    "pricing": "Free",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://github.com/openai/whisper",
+    "affiliate_url": "",
+    "logo": "https://github.com/favicon.ico",
+    "tags": [
+      "كلام لنص",
+      "مفتوح المصدر"
+    ],
+    "tags_en": [
+      "speech-to-text",
+      "open source"
+    ],
+    "best_for": "مطورين يحتاجون تحويل كلام لنص مجاني ودقيق",
+    "best_for_en": "Developers needing free accurate speech-to-text",
+    "added_date": "2026-07-14",
+    "open_source": true,
+    "featured": false
+  },
+  {
+    "id": "granola-ai",
+    "name": "Granola",
+    "name_ar": "جرانولا",
+    "category": "productivity",
+    "category_ar": "إنتاجية",
+    "description": "مدون ملاحظات اجتماعات AI يجمع بين ملاحظاتك والنسخ التلقائي",
+    "description_en": "AI meeting notepad combining your notes with automatic transcription",
+    "features": [
+      "ملاحظات + نسخ",
+      "خاص",
+      "قوالب"
+    ],
+    "features_en": [
+      "Notes + transcription",
+      "Private",
+      "Templates"
+    ],
+    "pricing": "Free / $10/mo Pro",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://www.granola.so",
+    "affiliate_url": "",
+    "logo": "https://www.granola.so/favicon.ico",
+    "tags": [
+      "ملاحظات",
+      "اجتماعات"
+    ],
+    "tags_en": [
+      "notes",
+      "meetings"
+    ],
+    "best_for": "محترفين يدونون ملاحظات أثناء الاجتماعات",
+    "best_for_en": "Professionals taking notes during meetings",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "magical-ai",
+    "name": "Magical",
+    "name_ar": "ماجيكال",
+    "category": "productivity",
+    "category_ar": "إنتاجية",
+    "description": "إضافة Chrome للكتابة السريعة والنماذج الجاهزة مع AI",
+    "description_en": "Chrome extension for fast typing with templates and AI auto-fill",
+    "features": [
+      "نماذج جاهزة",
+      "ملء تلقائي",
+      "إضافة Chrome"
+    ],
+    "features_en": [
+      "Templates",
+      "Auto-fill",
+      "Chrome extension"
+    ],
+    "pricing": "Free / $10/mo Pro",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://www.getmagical.com",
+    "affiliate_url": "",
+    "logo": "https://www.getmagical.com/favicon.ico",
+    "tags": [
+      "إنتاجية",
+      "Chrome"
+    ],
+    "tags_en": [
+      "productivity",
+      "Chrome"
+    ],
+    "best_for": "موظفين يكتبون نفس الرسائل كثيراً",
+    "best_for_en": "Employees typing the same messages often",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
   }
 ]
