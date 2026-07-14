@@ -34177,5 +34177,1019 @@
     "added_date": "2026-07-14",
     "open_source": false,
     "featured": false
+  },
+  {
+    "id": "deel-ai",
+    "name": "Deel",
+    "name_ar": "ديل",
+    "category": "automation",
+    "category_ar": "أتمتة",
+    "description": "منصة توظيف ورواتب عالمية مع AI لإدارة الموظفين في 150+ دولة",
+    "description_en": "Global hiring and payroll platform with AI for managing employees in 150+ countries",
+    "features": [
+      "رواتب عالمية",
+      "عقود",
+      "امتثال"
+    ],
+    "features_en": [
+      "Global payroll",
+      "Contracts",
+      "Compliance"
+    ],
+    "pricing": "Free / $49/mo Contractor",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://www.deel.com",
+    "affiliate_url": "",
+    "logo": "https://www.deel.com/favicon.ico",
+    "tags": [
+      "HR",
+      "رواتب عالمية"
+    ],
+    "tags_en": [
+      "HR",
+      "global payroll"
+    ],
+    "best_for": "شركات توظف عن بعد حول العالم",
+    "best_for_en": "Companies hiring remotely worldwide",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "rippling-ai",
+    "name": "Rippling",
+    "name_ar": "ريبلينج",
+    "category": "automation",
+    "category_ar": "أتمتة",
+    "description": "منصة HR شاملة مع AI تدير الرواتب والمزايا و IT في مكان واحد",
+    "description_en": "Comprehensive HR platform with AI managing payroll, benefits, and IT in one place",
+    "features": [
+      "HR + IT",
+      "رواتب",
+      "أتمتة"
+    ],
+    "features_en": [
+      "HR + IT",
+      "Payroll",
+      "Automation"
+    ],
+    "pricing": "$8/user/mo",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "Demo available",
+    "url": "https://www.rippling.com",
+    "affiliate_url": "",
+    "logo": "https://www.rippling.com/favicon.ico",
+    "tags": [
+      "HR",
+      "IT"
+    ],
+    "tags_en": [
+      "HR",
+      "IT"
+    ],
+    "best_for": "شركات متوسطة تريد HR + IT في منصة واحدة",
+    "best_for_en": "Mid-size companies wanting HR + IT in one platform",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "gusto-ai",
+    "name": "Gusto",
+    "name_ar": "جوستو",
+    "category": "automation",
+    "category_ar": "أتمتة",
+    "description": "منصة رواتب و HR للشركات الصغيرة مع أتمتة ضريبية AI",
+    "description_en": "Payroll and HR platform for small businesses with AI tax automation",
+    "features": [
+      "رواتب",
+      "ضرائب تلقائية",
+      "مزايا"
+    ],
+    "features_en": [
+      "Payroll",
+      "Auto-taxes",
+      "Benefits"
+    ],
+    "pricing": "$40/mo + $6/person",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "Free trial",
+    "url": "https://gusto.com",
+    "affiliate_url": "",
+    "logo": "https://gusto.com/favicon.ico",
+    "tags": [
+      "رواتب",
+      "شركات صغيرة"
+    ],
+    "tags_en": [
+      "payroll",
+      "small business"
+    ],
+    "best_for": "شركات صغيرة أمريكية تحتاج رواتب",
+    "best_for_en": "Small US businesses needing payroll",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "lever-hire",
+    "name": "Lever",
+    "name_ar": "ليفر",
+    "category": "automation",
+    "category_ar": "أتمتة",
+    "description": "نظام تتبع متقدمين (ATS) مع AI لتبسيط عملية التوظيف",
+    "description_en": "Applicant Tracking System (ATS) with AI for streamlining the hiring process",
+    "features": [
+      "ATS",
+      "AI فحص",
+      "تعاون"
+    ],
+    "features_en": [
+      "ATS",
+      "AI screening",
+      "Collaboration"
+    ],
+    "pricing": "Enterprise pricing",
+    "pricing_type": "enterprise",
+    "has_free_trial": true,
+    "free_trial_details": "Demo available",
+    "url": "https://www.lever.co",
+    "affiliate_url": "",
+    "logo": "https://www.lever.co/favicon.ico",
+    "tags": [
+      "توظيف",
+      "ATS"
+    ],
+    "tags_en": [
+      "hiring",
+      "ATS"
+    ],
+    "best_for": "فرق HR تحتاج نظام توظيف متقدم",
+    "best_for_en": "HR teams needing an advanced hiring system",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "shopify-magic",
+    "name": "Shopify Magic",
+    "name_ar": "شوبيفاي ماجيك",
+    "category": "no-code",
+    "category_ar": "بدون كود",
+    "description": "أدوات AI مدمجة في Shopify لكتابة وصف المنتجات وتحسين المتجر",
+    "description_en": "AI tools built into Shopify for writing product descriptions and optimizing stores",
+    "features": [
+      "وصف منتجات AI",
+      "صور خلفية",
+      "chatbot"
+    ],
+    "features_en": [
+      "AI product descriptions",
+      "Background images",
+      "Chatbot"
+    ],
+    "pricing": "Included with Shopify $29/mo",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "3-day free trial",
+    "url": "https://www.shopify.com/magic",
+    "affiliate_url": "",
+    "logo": "https://www.shopify.com/favicon.ico",
+    "tags": [
+      "تجارة إلكترونية",
+      "AI"
+    ],
+    "tags_en": [
+      "e-commerce",
+      "AI"
+    ],
+    "best_for": "أصحاب متاجر Shopify",
+    "best_for_en": "Shopify store owners",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "woocommerce-ai",
+    "name": "WooCommerce",
+    "name_ar": "ووكومرس",
+    "category": "no-code",
+    "category_ar": "بدون كود",
+    "description": "إضافة تجارة إلكترونية مفتوحة المصدر لـ WordPress مع إضافات AI",
+    "description_en": "Open-source e-commerce plugin for WordPress with AI extensions",
+    "features": [
+      "مفتوح المصدر",
+      "WordPress",
+      "إضافات AI"
+    ],
+    "features_en": [
+      "Open source",
+      "WordPress",
+      "AI plugins"
+    ],
+    "pricing": "Free (self-hosted)",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://woocommerce.com",
+    "affiliate_url": "",
+    "logo": "https://woocommerce.com/favicon.ico",
+    "tags": [
+      "تجارة إلكترونية",
+      "WordPress"
+    ],
+    "tags_en": [
+      "e-commerce",
+      "WordPress"
+    ],
+    "best_for": "أصحاب مواقع WordPress يريدون متجر",
+    "best_for_en": "WordPress site owners wanting a store",
+    "added_date": "2026-07-14",
+    "open_source": true,
+    "featured": false
+  },
+  {
+    "id": "bigcommerce-ai",
+    "name": "BigCommerce",
+    "name_ar": "بج كومرس",
+    "category": "no-code",
+    "category_ar": "بدون كود",
+    "description": "منصة تجارة إلكترونية للمؤسسات مع AI لتحسين المبيعات والكتالوج",
+    "description_en": "Enterprise e-commerce platform with AI for optimizing sales and catalog",
+    "features": [
+      "متاجر متقدمة",
+      "AI توصيات",
+      "متعدد القنوات"
+    ],
+    "features_en": [
+      "Advanced stores",
+      "AI recommendations",
+      "Multi-channel"
+    ],
+    "pricing": "$29/mo Standard",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "15-day free trial",
+    "url": "https://www.bigcommerce.com",
+    "affiliate_url": "",
+    "logo": "https://www.bigcommerce.com/favicon.ico",
+    "tags": [
+      "تجارة إلكترونية",
+      "مؤسسات"
+    ],
+    "tags_en": [
+      "e-commerce",
+      "enterprise"
+    ],
+    "best_for": "متاجر كبيرة تحتاج مرونة متقدمة",
+    "best_for_en": "Large stores needing advanced flexibility",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "languagetool",
+    "name": "LanguageTool",
+    "name_ar": "لانجوج تول",
+    "category": "productivity",
+    "category_ar": "إنتاجية",
+    "description": "مدقق لغوي AI يدعم 30+ لغة لتصحيح القواعد والأسلوب",
+    "description_en": "AI grammar checker supporting 30+ languages for correcting grammar and style",
+    "features": [
+      "30+ لغة",
+      "تصحيح قواعد",
+      "أسلوب"
+    ],
+    "features_en": [
+      "30+ languages",
+      "Grammar correction",
+      "Style"
+    ],
+    "pricing": "Free / $4.99/mo Premium",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://languagetool.org",
+    "affiliate_url": "",
+    "logo": "https://languagetool.org/favicon.ico",
+    "tags": [
+      "قواعد",
+      "متعدد لغات"
+    ],
+    "tags_en": [
+      "grammar",
+      "multilingual"
+    ],
+    "best_for": "كتاب يكتبون بلغات غير الإنجليزية",
+    "best_for_en": "Writers writing in non-English languages",
+    "added_date": "2026-07-14",
+    "open_source": true,
+    "featured": false
+  },
+  {
+    "id": "lokalise-ai",
+    "name": "Lokalise",
+    "name_ar": "لوكاليز",
+    "category": "productivity",
+    "category_ar": "إنتاجية",
+    "description": "منصة ترجمة وتعريب تطبيقات مع AI لتسريع الترجمة",
+    "description_en": "App translation and localization platform with AI for faster translation",
+    "features": [
+      "تعريب",
+      "AI ترجمة",
+      "تعاون"
+    ],
+    "features_en": [
+      "Localization",
+      "AI translation",
+      "Collaboration"
+    ],
+    "pricing": "Free trial / $120/mo Essential",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "14-day free trial",
+    "url": "https://lokalise.com",
+    "affiliate_url": "",
+    "logo": "https://lokalise.com/favicon.ico",
+    "tags": [
+      "تعريب",
+      "ترجمة"
+    ],
+    "tags_en": [
+      "localization",
+      "translation"
+    ],
+    "best_for": "فرق تطوير تعرّب تطبيقاتها",
+    "best_for_en": "Dev teams localizing their apps",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "phrase-ai",
+    "name": "Phrase",
+    "name_ar": "فريز",
+    "category": "productivity",
+    "category_ar": "إنتاجية",
+    "description": "منصة تعريب مؤسسية مع AI لإدارة الترجمات عبر الفرق",
+    "description_en": "Enterprise localization platform with AI for managing translations across teams",
+    "features": [
+      "TMS",
+      "AI ترجمة",
+      "أتمتة"
+    ],
+    "features_en": [
+      "TMS",
+      "AI translation",
+      "Automation"
+    ],
+    "pricing": "Enterprise pricing",
+    "pricing_type": "enterprise",
+    "has_free_trial": true,
+    "free_trial_details": "Free trial",
+    "url": "https://phrase.com",
+    "affiliate_url": "",
+    "logo": "https://phrase.com/favicon.ico",
+    "tags": [
+      "تعريب مؤسسي",
+      "TMS"
+    ],
+    "tags_en": [
+      "enterprise localization",
+      "TMS"
+    ],
+    "best_for": "مؤسسات كبيرة تدير ترجمات ضخمة",
+    "best_for_en": "Large enterprises managing massive translations",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "sanity-io",
+    "name": "Sanity",
+    "name_ar": "سانيتي",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "نظام إدارة محتوى headless مع AI مدمج لإنشاء وتحسين المحتوى",
+    "description_en": "Headless CMS with built-in AI for creating and optimizing content",
+    "features": [
+      "headless CMS",
+      "AI محتوى",
+      "API مرن"
+    ],
+    "features_en": [
+      "Headless CMS",
+      "AI content",
+      "Flexible API"
+    ],
+    "pricing": "Free / $15/user/mo Growth",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://www.sanity.io",
+    "affiliate_url": "",
+    "logo": "https://www.sanity.io/favicon.ico",
+    "tags": [
+      "CMS",
+      "headless"
+    ],
+    "tags_en": [
+      "CMS",
+      "headless"
+    ],
+    "best_for": "مطورين يبنون مواقع ديناميكية",
+    "best_for_en": "Developers building dynamic websites",
+    "added_date": "2026-07-14",
+    "open_source": true,
+    "featured": false
+  },
+  {
+    "id": "contentful-ai",
+    "name": "Contentful AI",
+    "name_ar": "كونتنتفول",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "منصة محتوى مؤسسية headless مع AI لتوليد وتحسين المحتوى",
+    "description_en": "Enterprise headless content platform with AI for generating and optimizing content",
+    "features": [
+      "headless",
+      "AI محتوى",
+      "مؤسسي"
+    ],
+    "features_en": [
+      "Headless",
+      "AI content",
+      "Enterprise"
+    ],
+    "pricing": "Free / $300/mo Medium",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://www.contentful.com",
+    "affiliate_url": "",
+    "logo": "https://www.contentful.com/favicon.ico",
+    "tags": [
+      "CMS",
+      "مؤسسي"
+    ],
+    "tags_en": [
+      "CMS",
+      "enterprise"
+    ],
+    "best_for": "مؤسسات تدير محتوى معقد",
+    "best_for_en": "Enterprises managing complex content",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "strapi-ai",
+    "name": "Strapi",
+    "name_ar": "سترابي",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "نظام إدارة محتوى headless مفتوح المصدر مع إضافات AI",
+    "description_en": "Open-source headless CMS with AI plugins for content management",
+    "features": [
+      "مفتوح المصدر",
+      "headless",
+      "إضافات"
+    ],
+    "features_en": [
+      "Open source",
+      "Headless",
+      "Plugins"
+    ],
+    "pricing": "Free OSS / Cloud from $29/mo",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://strapi.io",
+    "affiliate_url": "",
+    "logo": "https://strapi.io/favicon.ico",
+    "tags": [
+      "CMS مفتوح",
+      "Node.js"
+    ],
+    "tags_en": [
+      "open CMS",
+      "Node.js"
+    ],
+    "best_for": "مطورين يريدون CMS مفتوح المصدر",
+    "best_for_en": "Developers wanting an open-source CMS",
+    "added_date": "2026-07-14",
+    "open_source": true,
+    "featured": false
+  },
+  {
+    "id": "bubble-io",
+    "name": "Bubble.io",
+    "name_ar": "بابل",
+    "category": "no-code",
+    "category_ar": "بدون كود",
+    "description": "منصة بناء تطبيقات ويب كاملة بلا كود مع قاعدة بيانات وAPI",
+    "description_en": "Full web app builder without code with database and API capabilities",
+    "features": [
+      "تطبيقات كاملة",
+      "قاعدة بيانات",
+      "API"
+    ],
+    "features_en": [
+      "Full apps",
+      "Database",
+      "API"
+    ],
+    "pricing": "Free / $29/mo Starter",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://bubble.io",
+    "affiliate_url": "",
+    "logo": "https://bubble.io/favicon.ico",
+    "tags": [
+      "تطبيقات",
+      "بلا كود"
+    ],
+    "tags_en": [
+      "apps",
+      "no-code"
+    ],
+    "best_for": "رواد أعمال يبنون MVP بلا كود",
+    "best_for_en": "Entrepreneurs building MVP without code",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "glide-apps",
+    "name": "Glide",
+    "name_ar": "جلايد",
+    "category": "no-code",
+    "category_ar": "بدون كود",
+    "description": "منشئ تطبيقات بلا كود من جداول بيانات مع AI مدمج",
+    "description_en": "No-code app builder from spreadsheets with built-in AI",
+    "features": [
+      "من جداول",
+      "AI مدمج",
+      "موبايل"
+    ],
+    "features_en": [
+      "From sheets",
+      "Built-in AI",
+      "Mobile"
+    ],
+    "pricing": "Free / $25/mo Maker",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://www.glideapps.com",
+    "affiliate_url": "",
+    "logo": "https://www.glideapps.com/favicon.ico",
+    "tags": [
+      "تطبيقات",
+      "جداول"
+    ],
+    "tags_en": [
+      "apps",
+      "spreadsheets"
+    ],
+    "best_for": "فرق تريد تحويل جداول بيانات لتطبيقات",
+    "best_for_en": "Teams wanting to turn spreadsheets into apps",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "inworld-ai",
+    "name": "Inworld AI",
+    "name_ar": "إن وورلد",
+    "category": "creative",
+    "category_ar": "إبداع",
+    "description": "منصة إنشاء شخصيات AI تفاعلية للألعاب والتجارب الافتراضية",
+    "description_en": "Platform for creating interactive AI characters for games and virtual experiences",
+    "features": [
+      "شخصيات AI",
+      "ألعاب",
+      "عوالم افتراضية"
+    ],
+    "features_en": [
+      "AI characters",
+      "Games",
+      "Virtual worlds"
+    ],
+    "pricing": "Free / Pro available",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://inworld.ai",
+    "affiliate_url": "",
+    "logo": "https://inworld.ai/favicon.ico",
+    "tags": [
+      "ألعاب",
+      "شخصيات AI"
+    ],
+    "tags_en": [
+      "games",
+      "AI characters"
+    ],
+    "best_for": "مطوري ألعاب يريدون NPCs ذكية",
+    "best_for_en": "Game developers wanting smart NPCs",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "scenario-gg",
+    "name": "Scenario",
+    "name_ar": "سيناريو",
+    "category": "creative",
+    "category_ar": "إبداع",
+    "description": "أداة AI لتوليد أصول فنية للألعاب بأسلوب متسق",
+    "description_en": "AI tool for generating consistent game art assets",
+    "features": [
+      "أصول ألعاب",
+      "أسلوب متسق",
+      "توليد AI"
+    ],
+    "features_en": [
+      "Game assets",
+      "Consistent style",
+      "AI generation"
+    ],
+    "pricing": "Free / $28/mo Studio",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://www.scenario.com",
+    "affiliate_url": "",
+    "logo": "https://www.scenario.com/favicon.ico",
+    "tags": [
+      "أصول ألعاب",
+      "فن AI"
+    ],
+    "tags_en": [
+      "game assets",
+      "AI art"
+    ],
+    "best_for": "استوديوهات ألعاب تحتاج أصول فنية",
+    "best_for_en": "Game studios needing art assets",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "stability-ai",
+    "name": "Stable Diffusion (Stability AI)",
+    "name_ar": "ستيبل ديفيوجن",
+    "category": "creative",
+    "category_ar": "إبداع",
+    "description": "نموذج توليد صور AI مفتوح المصدر الأشهر مع مجتمع ضخم",
+    "description_en": "Most popular open-source AI image generation model with huge community",
+    "features": [
+      "مفتوح المصدر",
+      "مجتمع ضخم",
+      "محلي"
+    ],
+    "features_en": [
+      "Open source",
+      "Huge community",
+      "Local"
+    ],
+    "pricing": "Free OSS / API from $0.01",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://stability.ai",
+    "affiliate_url": "",
+    "logo": "https://stability.ai/favicon.ico",
+    "tags": [
+      "توليد صور",
+      "مفتوح المصدر"
+    ],
+    "tags_en": [
+      "image generation",
+      "open source"
+    ],
+    "best_for": "فنانين ومطورين يولدون صور محلياً",
+    "best_for_en": "Artists and developers generating images locally",
+    "added_date": "2026-07-14",
+    "open_source": true,
+    "featured": true
+  },
+  {
+    "id": "comfyui",
+    "name": "ComfyUI",
+    "name_ar": "كومفي يو آي",
+    "category": "creative",
+    "category_ar": "إبداع",
+    "description": "واجهة nodes مفتوحة المصدر لتشغيل Stable Diffusion مع تدفقات مخصصة",
+    "description_en": "Open-source node-based interface for running Stable Diffusion with custom workflows",
+    "features": [
+      "nodes",
+      "تدفقات مخصصة",
+      "مفتوح المصدر"
+    ],
+    "features_en": [
+      "Nodes",
+      "Custom workflows",
+      "Open source"
+    ],
+    "pricing": "Free",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://github.com/comfyanonymous/ComfyUI",
+    "affiliate_url": "",
+    "logo": "https://github.com/favicon.ico",
+    "tags": [
+      "Stable Diffusion",
+      "nodes"
+    ],
+    "tags_en": [
+      "Stable Diffusion",
+      "nodes"
+    ],
+    "best_for": "فنانين AI يريدون تحكم متقدم",
+    "best_for_en": "AI artists wanting advanced control",
+    "added_date": "2026-07-14",
+    "open_source": true,
+    "featured": false
+  },
+  {
+    "id": "civitai",
+    "name": "Civitai",
+    "name_ar": "سيفيت AI",
+    "category": "creative",
+    "category_ar": "إبداع",
+    "description": "أكبر مجتمع ومستودع لنماذج Stable Diffusion والأنماط المخصصة",
+    "description_en": "Largest community and repository for Stable Diffusion models and custom styles",
+    "features": [
+      "مستودع نماذج",
+      "مجتمع",
+      "أنماط"
+    ],
+    "features_en": [
+      "Model repository",
+      "Community",
+      "Styles"
+    ],
+    "pricing": "Free / $5/mo Supporter",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://civitai.com",
+    "affiliate_url": "",
+    "logo": "https://civitai.com/favicon.ico",
+    "tags": [
+      "نماذج SD",
+      "مجتمع"
+    ],
+    "tags_en": [
+      "SD models",
+      "community"
+    ],
+    "best_for": "فنانين AI يبحثون عن نماذج وأنماط جديدة",
+    "best_for_en": "AI artists looking for new models and styles",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "tavus-ai",
+    "name": "Tavus",
+    "name_ar": "تافوس",
+    "category": "creative",
+    "category_ar": "إبداع",
+    "description": "منصة فيديو AI مخصص تُنشئ فيديوهات شخصية بنسخة رقمية منك",
+    "description_en": "Personalized AI video platform creating personal videos with a digital twin of you",
+    "features": [
+      "نسخة رقمية",
+      "فيديو مخصص",
+      "API"
+    ],
+    "features_en": [
+      "Digital twin",
+      "Custom video",
+      "API"
+    ],
+    "pricing": "From $99/mo",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "Free demo",
+    "url": "https://www.tavus.io",
+    "affiliate_url": "",
+    "logo": "https://www.tavus.io/favicon.ico",
+    "tags": [
+      "فيديو AI",
+      "نسخ رقمية"
+    ],
+    "tags_en": [
+      "AI video",
+      "digital twins"
+    ],
+    "best_for": "فرق مبيعات تُرسل فيديوهات مخصصة",
+    "best_for_en": "Sales teams sending personalized videos",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "synthesia-ai",
+    "name": "Synthesia",
+    "name_ar": "سينثيسيا",
+    "category": "creative",
+    "category_ar": "إبداع",
+    "description": "منصة فيديو AI رائدة لإنشاء فيديوهات تدريبية بأفاتارات في 130+ لغة",
+    "description_en": "Leading AI video platform for creating training videos with avatars in 130+ languages",
+    "features": [
+      "130+ لغة",
+      "أفاتارات",
+      "تدريب"
+    ],
+    "features_en": [
+      "130+ languages",
+      "Avatars",
+      "Training"
+    ],
+    "pricing": "$22/mo Starter",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "Free demo",
+    "url": "https://www.synthesia.io",
+    "affiliate_url": "",
+    "logo": "https://www.synthesia.io/favicon.ico",
+    "tags": [
+      "فيديو تدريبي",
+      "أفاتار"
+    ],
+    "tags_en": [
+      "training video",
+      "avatar"
+    ],
+    "best_for": "شركات تحتاج فيديوهات تدريبية متعددة اللغات",
+    "best_for_en": "Companies needing multilingual training videos",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "tldraw",
+    "name": "tldraw",
+    "name_ar": "تي إل درو",
+    "category": "creative",
+    "category_ar": "إبداع",
+    "description": "سبورة رسم تعاونية مفتوحة المصدر مع AI يحول الرسومات لتصاميم",
+    "description_en": "Open-source collaborative whiteboard with AI converting sketches to designs",
+    "features": [
+      "رسم تعاوني",
+      "AI تصميم",
+      "مفتوح المصدر"
+    ],
+    "features_en": [
+      "Collaborative drawing",
+      "AI design",
+      "Open source"
+    ],
+    "pricing": "Free",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://www.tldraw.com",
+    "affiliate_url": "",
+    "logo": "https://www.tldraw.com/favicon.ico",
+    "tags": [
+      "رسم",
+      "سبورة"
+    ],
+    "tags_en": [
+      "drawing",
+      "whiteboard"
+    ],
+    "best_for": "فرق منتجات ترسم أفكارها التعاونية",
+    "best_for_en": "Product teams sketching collaborative ideas",
+    "added_date": "2026-07-14",
+    "open_source": true,
+    "featured": false
+  },
+  {
+    "id": "excalidraw",
+    "name": "Excalidraw",
+    "name_ar": "إكسكاليدرو",
+    "category": "creative",
+    "category_ar": "إبداع",
+    "description": "أداة رسم مخططات تعاونية مفتوحة المصدر بأسلوب يدوي جميل",
+    "description_en": "Open-source collaborative diagramming tool with beautiful hand-drawn style",
+    "features": [
+      "مخططات",
+      "تعاون",
+      "أسلوب يدوي"
+    ],
+    "features_en": [
+      "Diagrams",
+      "Collaboration",
+      "Hand-drawn style"
+    ],
+    "pricing": "Free / $7/user/mo Plus",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://excalidraw.com",
+    "affiliate_url": "",
+    "logo": "https://excalidraw.com/favicon.ico",
+    "tags": [
+      "مخططات",
+      "مفتوح المصدر"
+    ],
+    "tags_en": [
+      "diagrams",
+      "open source"
+    ],
+    "best_for": "مطورين يرسمون مخططات معمارية",
+    "best_for_en": "Developers drawing architecture diagrams",
+    "added_date": "2026-07-14",
+    "open_source": true,
+    "featured": false
+  },
+  {
+    "id": "miro-ai",
+    "name": "Miro AI",
+    "name_ar": "ميرو AI",
+    "category": "productivity",
+    "category_ar": "إنتاجية",
+    "description": "سبورة ذكية تعاونية مع AI لتوليد أفكار وتنظيم مشاريع",
+    "description_en": "Smart collaborative whiteboard with AI for idea generation and project organization",
+    "features": [
+      "سبورة ذكية",
+      "AI أفكار",
+      "تعاون"
+    ],
+    "features_en": [
+      "Smart whiteboard",
+      "AI ideas",
+      "Collaboration"
+    ],
+    "pricing": "Free / $8/user/mo Starter",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://miro.com",
+    "affiliate_url": "",
+    "logo": "https://miro.com/favicon.ico",
+    "tags": [
+      "سبورة",
+      "تعاون"
+    ],
+    "tags_en": [
+      "whiteboard",
+      "collaboration"
+    ],
+    "best_for": "فرق تحتاج سبورة تعاونية للعصف الذهني",
+    "best_for_en": "Teams needing a collaborative whiteboard for brainstorming",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
+  },
+  {
+    "id": "eraser-io",
+    "name": "Eraser",
+    "name_ar": "إريزر",
+    "category": "productivity",
+    "category_ar": "إنتاجية",
+    "description": "أداة توثيق تقني مع AI لرسم مخططات وخرائط معمارية من نص",
+    "description_en": "Technical documentation tool with AI for drawing diagrams and architecture maps from text",
+    "features": [
+      "مخططات من نص",
+      "توثيق تقني",
+      "AI"
+    ],
+    "features_en": [
+      "Text to diagrams",
+      "Technical docs",
+      "AI"
+    ],
+    "pricing": "Free / $10/user/mo Pro",
+    "pricing_type": "freemium",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://www.eraser.io",
+    "affiliate_url": "",
+    "logo": "https://www.eraser.io/favicon.ico",
+    "tags": [
+      "توثيق",
+      "مخططات"
+    ],
+    "tags_en": [
+      "documentation",
+      "diagrams"
+    ],
+    "best_for": "مهندسين يكتبون وثائق معمارية",
+    "best_for_en": "Engineers writing architecture documentation",
+    "added_date": "2026-07-14",
+    "open_source": false,
+    "featured": false
   }
 ]
