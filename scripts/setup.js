@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 /**
- * AgentVault Setup Script v4
+ * AgentVault Setup Script v5
  * 1. Merges ALL new-agents*.json files into agents.json
- * 2. Updates tool count in index.html
- * 3. Injects all CSS & JS references
- * Run: node scripts/setup.js
+ * 2. Updates TOTAL count in index.html (title, meta, hero stats)
+ * 3. Updates PER-CATEGORY counts on filter buttons
+ * 4. Injects enhancement, auth, and fixes CSS & JS
  */
 const fs = require('fs');
 const path = require('path');
@@ -35,7 +35,15 @@ if (totalAdded > 0) fs.writeFileSync(agentsPath, JSON.stringify(agents, null, 2)
 const count = agents.length;
 console.log('Total agents: ' + count + ' (+' + totalAdded + ' new)');
 
-// === 2. Update index.html ===
+// === 2. Count per category ===
+const catCounts = {};
+agents.forEach(a => {
+  const cat = a.category || 'other';
+  catCounts[cat] = (catCounts[cat] || 0) + 1;
+});
+console.log('Category breakdown:', JSON.stringify(catCounts));
+
+// === 3. Update index.html ===
 const idxPath = path.join(root, 'index.html');
 let html;
 try { html = fs.readFileSync(idxPath, 'utf-8'); }
@@ -43,7 +51,7 @@ catch (e) { console.error('Cannot read index.html'); process.exit(1); }
 
 const orig = html;
 
-// Update counts
+// 3a. Update total count in meta/title/hero-stats
 html = html.replace(/(AgentVault\s*[\u2014\u2013-]\s*)\d+\+?(\s*AI)/gi, '$1' + count + '+$2');
 html = html.replace(/(Compare\s+)\d+\+?(\s*AI)/gi, '$1' + count + '+$2');
 html = html.replace(/(directory\s*[\u2014\u2013-]\s*)\d+\+?(\s*AI)/gi, '$1' + count + '+$2');
@@ -52,25 +60,40 @@ html = html.replace(/(Discover\s*<span>)\d+\+?(<\/span>)/gi, '$1' + count + '+$2
 html = html.replace(/(<div class="hero-stat-num">)\d+\+?(<\/div>)/g, '$1' + count + '+$2');
 html = html.replace(/(hero_title:\s*'Discover\s*<span>)\d+\+?(<\/span>)/g, '$1' + count + '+$2');
 html = html.replace(/(hero_title:\s*'[^']*<span>)\+?\d+(<\/span>)/g, '$1+' + count + '$2');
-html = html.replace(/(<span class="filter-count">\s*)\d+(\s*<\/span>)/g, '$1' + count + '$2');
 
-// === 3. Inject all missing CSS/JS ===
-const cssFiles = ['enhancements.css', 'auth.css', 'fixes.css'];
-const jsFiles = ['enhancements.js', 'auth.js', 'fixes.js'];
+// 3b. Update PER-CATEGORY counts on filter buttons
+// Match: data-cat="X">...<span class="filter-count">NNN</span>
+html = html.replace(/data-cat="([^"]+)"([^>]*)>([\s\S]*?)<span class="filter-count">\s*\d+\s*<\/span>/g,
+  function(match, cat, attrs, inner) {
+    const c = cat === 'all' ? count : (catCounts[cat] || 0);
+    return 'data-cat="' + cat + '"' + attrs + '>' + inner + '<span class="filter-count">' + c + '</span>';
+  }
+);
 
-cssFiles.forEach(f => {
-  if (!html.includes(f))
-    html = html.replace('</head>', '  <link rel="stylesheet" href="' + f + '">\n</head>');
-});
+// === 4. Inject all enhancements if missing ===
+const injects = [
+  { file: 'enhancements.css', tag: 'link', where: '</head>' },
+  { file: 'auth.css', tag: 'link', where: '</head>' },
+  { file: 'fixes.css', tag: 'link', where: '</head>' },
+  { file: 'enhancements.js', tag: 'script', where: '</body>' },
+  { file: 'auth.js', tag: 'script', where: '</body>' },
+  { file: 'fixes.js', tag: 'script', where: '</body>' }
+];
 
-jsFiles.forEach(f => {
-  if (!html.includes(f))
-    html = html.replace('</body>', '  <script src="' + f + '" defer></script>\n</body>');
+injects.forEach(inj => {
+  if (!html.includes(inj.file)) {
+    if (inj.tag === 'link') {
+      html = html.replace(inj.where, `  <link rel="stylesheet" href="${inj.file}">\n${inj.where}`);
+    } else {
+      html = html.replace(inj.where, `  <script src="${inj.file}" defer><\/script>\n${inj.where}`);
+    }
+    console.log('Injected ' + inj.file);
+  }
 });
 
 if (html !== orig) {
   fs.writeFileSync(idxPath, html, 'utf-8');
-  console.log('index.html updated: count=' + count + '+, all scripts injected');
+  console.log('index.html updated: count=' + count + '+, per-category counts fixed');
 } else {
   console.log('index.html already up to date');
 }
