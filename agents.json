@@ -20762,5 +20762,255 @@
       "Multi-cloud"
     ],
     "best_for_en": "AI cloud security scanning"
+  },
+  {
+    "id": "v0-dev",
+    "name": "v0 by Vercel",
+    "name_ar": "في-زيرو",
+    "category": "coding",
+    "category_ar": "برمجة",
+    "description": "مولد واجهات AI من Vercel — يحول الوصف النصي لكود React/Next.js جاهز",
+    "official_description": "v0 by Vercel generates production-ready React and Next.js UI code from text descriptions and images.",
+    "features": [
+      "Text-to-UI generation",
+      "React/Next.js output",
+      "Image-to-code",
+      "Shadcn/Tailwind integration"
+    ],
+    "pricing": "Free tier + $20/mo Premium",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "10 free generations/month",
+    "url": "https://v0.dev",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "واجهات",
+      "React",
+      "تصميم"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": [
+      "تصميم واجهات ويب",
+      "مكونات React"
+    ],
+    "description_en": "Vercel's AI UI generator — converts descriptions to production React/Next.js code",
+    "tags_en": [
+      "UI generator",
+      "React",
+      "Next.js"
+    ],
+    "features_en": [
+      "Text-to-UI generation",
+      "React/Next.js output",
+      "Image-to-code",
+      "Shadcn/Tailwind integration"
+    ],
+    "best_for_en": [
+      "Web UI design",
+      "React components"
+    ]
+  },
+  {
+    "id": "suno-ai",
+    "name": "Suno",
+    "name_ar": "سونو",
+    "category": "creative",
+    "category_ar": "إبداعي",
+    "description": "أقوى أداة AI لتوليد الموسيقى — أنشئ أغاني كاملة بالنص",
+    "official_description": "Suno creates full songs with vocals, instruments, and lyrics from text prompts using advanced AI music generation.",
+    "features": [
+      "Full song generation",
+      "Custom lyrics",
+      "Multiple genres",
+      "High-quality audio"
+    ],
+    "pricing": "Free tier + $10/mo Pro",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "10 free songs/day",
+    "url": "https://suno.com",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "موسيقى",
+      "أغاني",
+      "صوت AI"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": [
+      "إنشاء الموسيقى",
+      "كتابة الأغاني"
+    ],
+    "description_en": "Top AI music generator — create full songs with vocals from text",
+    "tags_en": [
+      "music",
+      "songs",
+      "AI audio"
+    ],
+    "features_en": [
+      "Full song generation",
+      "Custom lyrics",
+      "Multiple genres",
+      "High-quality audio"
+    ],
+    "best_for_en": [
+      "Music creation",
+      "Songwriting"
+    ]
+  },
+  {
+    "id": "gamma-app",
+    "name": "Gamma",
+    "name_ar": "جاما",
+    "category": "productivity",
+    "category_ar": "إنتاجية",
+    "description": "أداة AI لإنشاء عروض تقديمية ومستندات وصفحات ويب احترافية من النص",
+    "official_description": "Gamma creates beautiful presentations, documents, and webpages from simple text prompts using AI.",
+    "features": [
+      "AI presentations",
+      "Document generation",
+      "Web pages",
+      "Custom themes"
+    ],
+    "pricing": "Free tier + $10/mo",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "400 free AI credits",
+    "url": "https://gamma.app",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "عروض تقديمية",
+      "مستندات",
+      "AI"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": [
+      "العروض التقديمية",
+      "المستندات السريعة"
+    ],
+    "description_en": "AI tool to create professional presentations, documents & web pages from text",
+    "tags_en": [
+      "presentations",
+      "documents",
+      "AI"
+    ],
+    "features_en": [
+      "AI presentations",
+      "Document generation",
+      "Web pages",
+      "Custom themes"
+    ],
+    "best_for_en": [
+      "Presentations",
+      "Quick documents"
+    ]
+  },
+  {
+    "id": "fireflies-ai",
+    "name": "Fireflies.ai",
+    "name_ar": "فايرفلايز",
+    "category": "productivity",
+    "category_ar": "إنتاجية",
+    "description": "أداة AI لتسجيل ونسخ وتلخيص الاجتماعات تلقائياً — تدعم Zoom وTeams وMeet",
+    "official_description": "Fireflies.ai automatically records, transcribes, and summarizes meetings across Zoom, Teams, Meet, and more.",
+    "features": [
+      "Auto transcription",
+      "Meeting summaries",
+      "Action items",
+      "CRM integration"
+    ],
+    "pricing": "Free tier + $18/mo Pro",
+    "pricing_type": "freemium",
+    "has_free_trial": true,
+    "free_trial_details": "Free tier with 800 min storage",
+    "url": "https://fireflies.ai",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "اجتماعات",
+      "نسخ صوتي",
+      "ملاحظات"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": [
+      "تسجيل الاجتماعات",
+      "تلخيص المكالمات"
+    ],
+    "description_en": "AI meeting recorder — auto-transcribe and summarize Zoom, Teams & Meet calls",
+    "tags_en": [
+      "meetings",
+      "transcription",
+      "notes"
+    ],
+    "features_en": [
+      "Auto transcription",
+      "Meeting summaries",
+      "Action items",
+      "CRM integration"
+    ],
+    "best_for_en": [
+      "Meeting recording",
+      "Call summarization"
+    ]
+  },
+  {
+    "id": "dust-ai",
+    "name": "Dust",
+    "name_ar": "داست",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "منصة لبناء ونشر وكلاء AI مخصصين للمؤسسات — تتصل بجميع أدوات الشركة",
+    "official_description": "Dust is a platform for building custom AI agents that connect to all your company tools and data for enterprise workflows.",
+    "features": [
+      "Custom AI agents",
+      "Enterprise connectors",
+      "Data integration",
+      "Team management"
+    ],
+    "pricing": "$29/user/mo",
+    "pricing_type": "paid",
+    "has_free_trial": true,
+    "free_trial_details": "14-day free trial",
+    "url": "https://dust.tt",
+    "affiliate_url": "",
+    "logo": "",
+    "tags": [
+      "وكلاء AI",
+      "مؤسسات",
+      "بنية تحتية"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-07-14",
+    "best_for": [
+      "أتمتة المؤسسات",
+      "بناء وكلاء مخصصين"
+    ],
+    "description_en": "Platform to build custom enterprise AI agents connected to all company tools",
+    "tags_en": [
+      "AI agents",
+      "enterprise",
+      "infrastructure"
+    ],
+    "features_en": [
+      "Custom AI agents",
+      "Enterprise connectors",
+      "Data integration",
+      "Team management"
+    ],
+    "best_for_en": [
+      "Enterprise automation",
+      "Custom agent building"
+    ]
   }
 ]

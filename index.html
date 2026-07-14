@@ -467,6 +467,7 @@
         .scroll-top:hover { background:var(--accent-dark); transform:scale(1.1); }
         [dir="rtl"] .scroll-top { right:auto; left:24px; }
     </style>
+  <link rel="stylesheet" href="enhancements.css">
 </head>
 <body>
     <!-- NAV -->
@@ -885,5 +886,6 @@ fetch('agents.json')
         document.getElementById('grid').innerHTML = '<div class="no-results"><p>Failed to load tools. Please refresh.</p></div>';
     });
 </script>
+  <script src="enhancements.js" defer></script>
 </body>
 </html>
