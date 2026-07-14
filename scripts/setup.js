@@ -1,74 +1,68 @@
 #!/usr/bin/env node
 /**
- * AgentVault Setup Script
- * 1. Injects enhancement CSS & JS references into index.html
- * 2. Merges new-agents.json into agents.json
+ * AgentVault Setup Script v2
+ * 1. Merges ALL new-agents*.json files into agents.json
+ * 2. Updates tool count in index.html (title, meta, hero, i18n, stats)
+ * 3. Injects enhancement CSS & JS references
  * Run: node scripts/setup.js
  */
 const fs = require('fs');
 const path = require('path');
-
 const root = path.join(__dirname, '..');
 
-// === 1. Inject enhancements into index.html ===
-const indexPath = path.join(root, 'index.html');
-let html;
-try {
-  html = fs.readFileSync(indexPath, 'utf-8');
-} catch (e) {
-  console.error('Could not read index.html:', e.message);
-  process.exit(1);
-}
-
-let changed = false;
-
-if (!html.includes('enhancements.css')) {
-  html = html.replace('</head>', '  <link rel="stylesheet" href="enhancements.css">\n</head>');
-  changed = true;
-  console.log('\u2705 Injected enhancements.css link into index.html');
-}
-
-if (!html.includes('enhancements.js')) {
-  html = html.replace('</body>', '  <script src="enhancements.js" defer></script>\n</body>');
-  changed = true;
-  console.log('\u2705 Injected enhancements.js script into index.html');
-}
-
-if (changed) {
-  fs.writeFileSync(indexPath, html, 'utf-8');
-  console.log('\u2705 index.html updated');
-} else {
-  console.log('\u2139\uFE0F Enhancements already present in index.html');
-}
-
-// === 2. Merge new agents ===
+// === 1. Merge all new-agents files ===
 const agentsPath = path.join(root, 'agents.json');
-const newAgentsPath = path.join(root, 'new-agents.json');
+let agents;
+try { agents = JSON.parse(fs.readFileSync(agentsPath, 'utf-8')); }
+catch (e) { console.error('Cannot read agents.json:', e.message); process.exit(1); }
 
-if (fs.existsSync(newAgentsPath)) {
+const ids = new Set(agents.map(a => a.id));
+let totalAdded = 0;
+const newFiles = fs.readdirSync(root).filter(f => /^new-agents.*\.json$/i.test(f)).sort();
+console.log('Agent files found:', newFiles.join(', ') || 'none');
+
+newFiles.forEach(file => {
   try {
-    const agents = JSON.parse(fs.readFileSync(agentsPath, 'utf-8'));
-    const newAgents = JSON.parse(fs.readFileSync(newAgentsPath, 'utf-8'));
-    const existingIds = new Set(agents.map(a => a.id));
-    let added = 0;
-    newAgents.forEach(a => {
-      if (!existingIds.has(a.id)) {
-        agents.push(a);
-        existingIds.add(a.id);
-        added++;
-      }
-    });
-    if (added > 0) {
-      fs.writeFileSync(agentsPath, JSON.stringify(agents, null, 2), 'utf-8');
-      console.log(`\u2705 Added ${added} new agents. Total: ${agents.length}`);
-    } else {
-      console.log('\u2139\uFE0F No new agents to add (all already exist)');
-    }
-  } catch (e) {
-    console.error('Error merging agents:', e.message);
-  }
-} else {
-  console.log('\u2139\uFE0F No new-agents.json found — skipping merge');
-}
+    const arr = JSON.parse(fs.readFileSync(path.join(root, file), 'utf-8'));
+    let n = 0;
+    arr.forEach(a => { if (!ids.has(a.id)) { agents.push(a); ids.add(a.id); n++; } });
+    totalAdded += n;
+    console.log('  ' + file + ': +' + n);
+  } catch (e) { console.error('  ' + file + ': ERROR ' + e.message); }
+});
 
-console.log('\n\u2705 Setup complete!');
+if (totalAdded > 0) fs.writeFileSync(agentsPath, JSON.stringify(agents, null, 2), 'utf-8');
+const count = agents.length;
+console.log('Total agents: ' + count + ' (+' + totalAdded + ' new)');
+
+// === 2. Update index.html count ===
+const idxPath = path.join(root, 'index.html');
+let html;
+try { html = fs.readFileSync(idxPath, 'utf-8'); }
+catch (e) { console.error('Cannot read index.html'); process.exit(1); }
+
+const orig = html;
+// Replace all static count references with actual count
+html = html.replace(/(AgentVault\s*[\u2014\u2013-]\s*)\d+\+?(\s*AI)/gi, '$1' + count + '+$2');
+html = html.replace(/(Compare\s+)\d+\+?(\s*AI)/gi, '$1' + count + '+$2');
+html = html.replace(/(directory\s*[\u2014\u2013-]\s*)\d+\+?(\s*AI)/gi, '$1' + count + '+$2');
+html = html.replace(/(contains\s+)\d+\+?(\s*AI)/gi, '$1' + count + '+$2');
+html = html.replace(/(Discover\s*<span>)\d+\+?(<\/span>)/gi, '$1' + count + '+$2');
+html = html.replace(/(<div class="hero-stat-num">)\d+\+?(<\/div>)/g, '$1' + count + '+$2');
+html = html.replace(/(hero_title:\s*'Discover\s*<span>)\d+\+?(<\/span>)/g, '$1' + count + '+$2');
+html = html.replace(/(hero_title:\s*'[^']*<span>)\+?\d+(<\/span>)/g, '$1+' + count + '$2');
+html = html.replace(/(<span class="filter-count">\s*)\d+(\s*<\/span>)/g, '$1' + count + '$2');
+
+// Inject enhancements if missing
+if (!html.includes('enhancements.css'))
+  html = html.replace('</head>', '  <link rel="stylesheet" href="enhancements.css">\n</head>');
+if (!html.includes('enhancements.js'))
+  html = html.replace('</body>', '  <script src="enhancements.js" defer></script>\n</body>');
+
+if (html !== orig) {
+  fs.writeFileSync(idxPath, html, 'utf-8');
+  console.log('index.html updated with count: ' + count + '+');
+} else {
+  console.log('index.html already up to date');
+}
+console.log('\nSetup complete!');
