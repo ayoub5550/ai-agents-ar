@@ -2,8 +2,8 @@ name: Update AI Agents Directory
 
 on:
   schedule:
-    - cron: '0 8 * * 1' # Every Monday 8 AM UTC
-  workflow_dispatch: # Manual trigger
+    - cron: '0 8 * * 1'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -18,10 +18,16 @@ jobs:
         with:
           node-version: '20'
       
-      - name: Inject enhancements into index.html
+      - name: Add curated agents
+        run: |
+          if [ -f scripts/add-final-agents.js ]; then
+            node scripts/add-final-agents.js
+          fi
+      
+      - name: Merge expansion files and update index.html
         run: node scripts/setup.js
       
-      - name: Discover & add new AI agents
+      - name: Discover new AI agents
         run: node scripts/discover-agents.js
       
       - name: Commit changes
