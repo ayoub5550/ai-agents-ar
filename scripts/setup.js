@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 /**
- * AgentVault Setup Script v6
+ * AgentVault Setup Script v7 — Fixed count update
  * 1. Merges ALL new-agents*.json files into agents.json
- * 2. Updates TOTAL count in index.html (title, meta, hero stats)
+ * 2. Updates TOTAL count everywhere in index.html (EN + AR + meta + i18n)
  * 3. Updates PER-CATEGORY counts on filter buttons
  * 4. Injects enhancement, auth, fixes, and ads CSS & JS
  */
@@ -33,6 +33,7 @@ newFiles.forEach(file => {
 
 if (totalAdded > 0) fs.writeFileSync(agentsPath, JSON.stringify(agents, null, 2), 'utf-8');
 const count = agents.length;
+const cp = count + '+';
 console.log('Total agents: ' + count + ' (+' + totalAdded + ' new)');
 
 // === 2. Count per category ===
@@ -51,15 +52,36 @@ catch (e) { console.error('Cannot read index.html'); process.exit(1); }
 
 const orig = html;
 
-// 3a. Update total count in meta/title/hero-stats
-html = html.replace(/(AgentVault\s*[\u2014\u2013-]\s*)\d+\+?(\s*AI)/gi, '$1' + count + '+$2');
-html = html.replace(/(Compare\s+)\d+\+?(\s*AI)/gi, '$1' + count + '+$2');
-html = html.replace(/(directory\s*[\u2014\u2013-]\s*)\d+\+?(\s*AI)/gi, '$1' + count + '+$2');
-html = html.replace(/(contains\s+)\d+\+?(\s*AI)/gi, '$1' + count + '+$2');
-html = html.replace(/(Discover\s*<span>)\d+\+?(<\/span>)/gi, '$1' + count + '+$2');
-html = html.replace(/(<div class="hero-stat-num">)\d+\+?(<\/div>)/g, '$1' + count + '+$2');
-html = html.replace(/(hero_title:\s*'Discover\s*<span>)\d+\+?(<\/span>)/g, '$1' + count + '+$2');
-html = html.replace(/(hero_title:\s*'[^']*<span>)\+?\d+(<\/span>)/g, '$1+' + count + '$2');
+// 3a. COMPREHENSIVE total count replacement
+// All <span>NNN+</span> patterns (hero title EN + AR, i18n strings)
+html = html.replace(/(<span>)\d{3,}\+?(<\/span>)/g, '$1' + cp + '$2');
+
+// Hero stat-num divs
+html = html.replace(/(<div class="hero-stat-num">)\d{3,}\+?(<\/div>)/g, '$1' + cp + '$2');
+
+// Stat-num spans
+html = html.replace(/(<span class="stat-num">)\d{3,}\+?(<\/span>)/g, '$1' + cp + '$2');
+
+// English: "AgentVault — NNN+ AI"
+html = html.replace(/(AgentVault\s*[\u2014\u2013\-]\s*)\d{3,}\+?(\s*AI)/gi, '$1' + cp + '$2');
+
+// English: "Compare/Discover/Browse NNN+ AI"
+html = html.replace(/((?:Compare|Discover|Browse|Explore)\s+)\d{3,}\+?(\s*AI)/gi, '$1' + cp + '$2');
+
+// English: "directory/contains NNN+ AI"
+html = html.replace(/((?:directory|contains?)\s*[\u2014\u2013\-]?\s*)\d{3,}\+?(\s*AI)/gi, '$1' + cp + '$2');
+
+// Arabic: "NNN+ أداة" in content, meta, FAQ schema
+html = html.replace(/\d{3,}\+?(\s*أداة)/g, cp + '$1');
+
+// Arabic: "أكثر من NNN+"
+html = html.replace(/(أكثر من\s*)\d{3,}\+?/g, '$1' + cp);
+
+// Arabic: "يضم NNN+ أداة"
+html = html.replace(/(يضم\s*)\d{3,}\+?(\s*أداة)/g, '$1' + cp + '$2');
+
+// i18n tools_count entries
+html = html.replace(/(tools_count:\s*['"])\d{3,}\+?(['"])/g, '$1' + cp + '$2');
 
 // 3b. Update PER-CATEGORY counts on filter buttons
 html = html.replace(/data-cat="([^"]+)"([^>]*)>([\s\S]*?)<span class="filter-count">\s*\d+\s*<\/span>/g,
@@ -100,7 +122,7 @@ if (!html.includes('adsbygoogle')) {
 
 if (html !== orig) {
   fs.writeFileSync(idxPath, html, 'utf-8');
-  console.log('index.html updated: count=' + count + '+, per-category counts, AdSense injected');
+  console.log('index.html updated: count=' + count + ', per-category counts updated');
 } else {
   console.log('index.html already up to date');
 }

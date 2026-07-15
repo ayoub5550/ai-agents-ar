@@ -22,9 +22,19 @@
     /* inject new agents into page if possible */
     if(window.agents&&Array.isArray(window.agents)){
       var wids=new Set(window.agents.map(function(a){return a.id}));
-      res[1].forEach(function(a){if(!wids.has(a.id)){window.agents.push(a)}});
+      allAgents.forEach(function(a){if(!wids.has(a.id)){window.agents.push(a);wids.add(a.id)}});
       if(typeof window.renderCards==="function")window.renderCards();
     }
+    /* --- Dynamic count update (fixes 800 display bug) --- */
+    var totalStr=allAgents.length+"+";
+    document.querySelectorAll(".hero-stat-num").forEach(function(el){el.textContent=totalStr});
+    document.querySelectorAll("h1 span, .hero-title span, .hero span").forEach(function(el){
+      if(/^\d{3,}\+?$/.test(el.textContent.trim()))el.textContent=totalStr;
+    });
+    if(document.title.match(/\d{3,}\+?/))document.title=document.title.replace(/\d{3,}\+?/,totalStr);
+    /* Update results counter */
+    var ri=document.querySelector(".results-info span, #resultsCount");
+    if(ri&&/^\d{3,}/.test(ri.textContent.trim()))ri.textContent=totalStr;
     init();
   });
 
