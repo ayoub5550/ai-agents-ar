@@ -45019,5 +45019,173 @@
     ],
     "features_en": [],
     "best_for_en": []
+  },
+  {
+    "id": "fablecut",
+    "name": "FableCut",
+    "name_ar": "FableCut",
+    "category": "framework",
+    "category_ar": "إطار عمل",
+    "description": "Zero-dependency browser video editor that AI agents can drive — JSON timeline, MCP + REST, live-reloading UI",
+    "official_description": "Zero-dependency browser video editor that AI agents can drive — JSON timeline, MCP + REST, live-reloading UI",
+    "features": [],
+    "pricing": "Free (open source)",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://github.com/ronak-create/FableCut",
+    "affiliate_url": "",
+    "logo": "https://avatars.githubusercontent.com/u/84374383?v=4",
+    "tags": [
+      "ai-agent",
+      "canvas",
+      "claude"
+    ],
+    "featured": false,
+    "open_source": true,
+    "added_date": "2026-07-20",
+    "best_for": [],
+    "description_en": "Zero-dependency browser video editor that AI agents can drive — JSON timeline, MCP + REST, live-reloading UI",
+    "tags_en": [
+      "ai-agent",
+      "canvas",
+      "claude"
+    ],
+    "features_en": [],
+    "best_for_en": []
+  },
+  {
+    "id": "moore-wechat-article-downloader",
+    "name": "moore-wechat-article-downloader",
+    "name_ar": "moore-wechat-article-downloader",
+    "category": "framework",
+    "category_ar": "إطار عمل",
+    "description": "本地优先的微信内容情报库：同步公众号文章，保存精选评论和互动数据，供 Codex/Claude Code 做内容研究。",
+    "official_description": "本地优先的微信内容情报库：同步公众号文章，保存精选评论和互动数据，供 Codex/Claude Code 做内容研究。",
+    "features": [],
+    "pricing": "Free (open source)",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://github.com/Moore-developers/moore-wechat-article-downloader",
+    "affiliate_url": "",
+    "logo": "https://avatars.githubusercontent.com/u/189973447?v=4",
+    "tags": [
+      "ai-agent",
+      "claude-code",
+      "codex-skill"
+    ],
+    "featured": false,
+    "open_source": true,
+    "added_date": "2026-07-20",
+    "best_for": [],
+    "description_en": "本地优先的微信内容情报库：同步公众号文章，保存精选评论和互动数据，供 Codex/Claude Code 做内容研究。",
+    "tags_en": [
+      "ai-agent",
+      "claude-code",
+      "codex-skill"
+    ],
+    "features_en": [],
+    "best_for_en": []
+  },
+  {
+    "id": "cyrene-agent",
+    "name": "Cyrene-Agent",
+    "name_ar": "Cyrene-Agent",
+    "category": "framework",
+    "category_ar": "إطار عمل",
+    "description": "Live2D 桌面Agent (Electron + TS) — Cyrene from Honkai: Star Rail. Chat, emotional interaction, personalized memory.",
+    "official_description": "Live2D 桌面Agent (Electron + TS) — Cyrene from Honkai: Star Rail. Chat, emotional interaction, personalized memory.",
+    "features": [],
+    "pricing": "Free (open source)",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://github.com/Playa-0v0/Cyrene-Agent",
+    "affiliate_url": "",
+    "logo": "https://avatars.githubusercontent.com/u/300061045?v=4",
+    "tags": [
+      "agent",
+      "ai-agent",
+      "cyrene"
+    ],
+    "featured": false,
+    "open_source": true,
+    "added_date": "2026-07-20",
+    "best_for": [],
+    "description_en": "Live2D 桌面Agent (Electron + TS) — Cyrene from Honkai: Star Rail. Chat, emotional interaction, personalized memory.",
+    "tags_en": [
+      "agent",
+      "ai-agent",
+      "cyrene"
+    ],
+    "features_en": [],
+    "best_for_en": []
+  },
+  {
+    "id": "rocketplaneio",
+    "name": "rocketplaneIO",
+    "name_ar": "rocketplaneIO",
+    "category": "framework",
+    "category_ar": "إطار عمل",
+    "description": "Self-hosted AI SRE for Kubernetes — zero-instrumentation eBPF observability plus a copilot that fixes issues through guardrailed, self-verifying actions. BYO-LLM, air-gapped capable.",
+    "official_description": "Self-hosted AI SRE for Kubernetes — zero-instrumentation eBPF observability plus a copilot that fixes issues through guardrailed, self-verifying actions. BYO-LLM, air-gapped capable.",
+    "features": [],
+    "pricing": "Free (open source)",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://github.com/olemeyer/rocketplaneIO",
+    "affiliate_url": "",
+    "logo": "https://avatars.githubusercontent.com/u/12031071?v=4",
+    "tags": [
+      "ai-agent",
+      "aiops",
+      "clickhouse"
+    ],
+    "featured": false,
+    "open_source": true,
+    "added_date": "2026-07-20",
+    "best_for": [],
+    "description_en": "Self-hosted AI SRE for Kubernetes — zero-instrumentation eBPF observability plus a copilot that fixes issues through guardrailed, self-verifying actions. BYO-LLM, air-gapped capable.",
+    "tags_en": [
+      "ai-agent",
+      "aiops",
+      "clickhouse"
+    ],
+    "features_en": [],
+    "best_for_en": []
+  },
+  {
+    "id": "conversation-steganography",
+    "name": "conversation-steganography",
+    "name_ar": "conversation-steganography",
+    "category": "framework",
+    "category_ar": "إطار عمل",
+    "description": "Use LLMs to hide messages inside normal looking conversations",
+    "official_description": "Use LLMs to hide messages inside normal looking conversations",
+    "features": [],
+    "pricing": "Free (open source)",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://github.com/nethical6/conversation-steganography",
+    "affiliate_url": "",
+    "logo": "https://avatars.githubusercontent.com/u/79095297?v=4",
+    "tags": [
+      "llm-tools",
+      "steganography"
+    ],
+    "featured": false,
+    "open_source": true,
+    "added_date": "2026-07-20",
+    "best_for": [],
+    "description_en": "Use LLMs to hide messages inside normal looking conversations",
+    "tags_en": [
+      "llm-tools",
+      "steganography"
+    ],
+    "features_en": [],
+    "best_for_en": []
   }
 ]
