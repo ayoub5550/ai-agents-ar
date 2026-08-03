@@ -45425,5 +45425,73 @@
     ],
     "features_en": [],
     "best_for_en": []
+  },
+  {
+    "id": "openclaude-improved",
+    "name": "openclaude-improved",
+    "name_ar": "openclaude-improved",
+    "category": "framework",
+    "category_ar": "إطار عمل",
+    "description": "runs anywhere. uses anything",
+    "official_description": "runs anywhere. uses anything",
+    "features": [],
+    "pricing": "Free (open source)",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://github.com/0xwilliamortiz/openclaude-improved",
+    "affiliate_url": "",
+    "logo": "https://avatars.githubusercontent.com/u/155918204?v=4",
+    "tags": [
+      "agentic-ai",
+      "ai",
+      "ai-agent"
+    ],
+    "featured": false,
+    "open_source": true,
+    "added_date": "2026-08-03",
+    "best_for": [],
+    "description_en": "runs anywhere. uses anything",
+    "tags_en": [
+      "agentic-ai",
+      "ai",
+      "ai-agent"
+    ],
+    "features_en": [],
+    "best_for_en": []
+  },
+  {
+    "id": "u-pool",
+    "name": "U-Pool",
+    "name_ar": "U-Pool",
+    "category": "framework",
+    "category_ar": "إطار عمل",
+    "description": "Desktop provider switcher for Claude Code and Codex. Keep every endpoint, API key, and model in one place, switch the active provider in one click, and probe latency before you start. Atomic writes and rolling backups keep your configs safe. Python + Next.js in a native OS webview.",
+    "official_description": "Desktop provider switcher for Claude Code and Codex. Keep every endpoint, API key, and model in one place, switch the active provider in one click, and probe latency before you start. Atomic writes and rolling backups keep your configs safe. Python + Next.js in a native OS webview.",
+    "features": [],
+    "pricing": "Free (open source)",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://github.com/U-C4N/U-Pool",
+    "affiliate_url": "",
+    "logo": "https://avatars.githubusercontent.com/u/78921017?v=4",
+    "tags": [
+      "ai-tools",
+      "api-key-management",
+      "claude-code"
+    ],
+    "featured": false,
+    "open_source": true,
+    "added_date": "2026-08-03",
+    "best_for": [],
+    "description_en": "Desktop provider switcher for Claude Code and Codex. Keep every endpoint, API key, and model in one place, switch the active provider in one click, and probe latency before you start. Atomic writes and rolling backups keep your configs safe. Python + Next.js in a native OS webview.",
+    "tags_en": [
+      "ai-tools",
+      "api-key-management",
+      "claude-code"
+    ],
+    "features_en": [],
+    "best_for_en": []
   }
 ]
