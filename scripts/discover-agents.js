@@ -15,6 +15,7 @@ const https = require('https');
 
 const root = path.join(__dirname, '..');
 const agentsPath = path.join(root, 'agents.json');
+const { normalizeUrl, normalizeName } = require('./normalize-url');
 
 function httpsGet(url) {
   return new Promise((resolve, reject) => {
@@ -120,6 +121,8 @@ async function main() {
   }
   
   const existingIds = new Set(agents.map(a => a.id));
+  const existingUrls = new Set(agents.map(a => normalizeUrl(a.url)).filter(Boolean));
+  const existingNames = new Set(agents.map(a => normalizeName(a.name)).filter(Boolean));
   console.log(`📊 Current directory: ${agents.length} agents\n`);
   
   // Source 1: Batch files
@@ -135,11 +138,16 @@ async function main() {
   let added = 0;
   
   for (const agent of allNew) {
-    if (agent.id && !existingIds.has(agent.id)) {
+    const u = normalizeUrl(agent.url);
+    const nm = normalizeName(agent.name);
+    if (agent.id && !existingIds.has(agent.id) &&
+        !(u && existingUrls.has(u)) && !(nm && existingNames.has(nm))) {
       // Validate required fields
       if (agent.name && agent.category && agent.description) {
         agents.push(agent);
         existingIds.add(agent.id);
+        if (u) existingUrls.add(u);
+        if (nm) existingNames.add(nm);
         added++;
         console.log(`  ✅ Added: ${agent.name} (${agent.category})`);
       }
@@ -147,27 +155,13 @@ async function main() {
   }
   
   if (added > 0) {
-    fs.writeFileSync(agentsPath, JSON.stringify(agents, null, 2), 'utf-8');
+    fs.writeFileSync(agentsPath, JSON.stringify(agents), 'utf-8');
     console.log(`\n🎉 Added ${added} new agents. Total: ${agents.length}`);
   } else {
     console.log('\nℹ️ No new agents to add');
   }
   
-  // Update count in index.html if needed
-  const indexPath = path.join(root, 'index.html');
-  try {
-    let html = fs.readFileSync(indexPath, 'utf-8');
-    const countRegex = /\d+\+?\s*AI\s*(Tools|tools|أداة)/g;
-    const newCount = agents.length + '+';
-    const updated = html.replace(/410\+/g, newCount);
-    if (updated !== html) {
-      fs.writeFileSync(indexPath, updated, 'utf-8');
-      console.log(`📝 Updated tool count in index.html to ${newCount}`);
-    }
-  } catch (e) {
-    console.warn('⚠️ Could not update index.html count:', e.message);
-  }
-  
+  // Counts in index.html are updated by scripts/setup.js (run after discovery)
   console.log('\n✅ Discovery complete!');
 }
 

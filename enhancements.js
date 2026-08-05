@@ -12,22 +12,16 @@
   var showFavsOnly=false;
 
   /* --- Load agent data --- */
-  Promise.all([
-    fetch("agents.json").then(function(r){return r.json()}).catch(function(){return []}),
-    fetch("new-agents.json").then(function(r){return r.json()}).catch(function(){return []})
-  ]).then(function(res){
-    allAgents=res[0];
-    var ids=new Set(allAgents.map(function(a){return a.id}));
-    res[1].forEach(function(a){if(!ids.has(a.id)){allAgents.push(a);ids.add(a.id)}});
-    /* inject new agents into page if possible */
-    if(window.agents&&Array.isArray(window.agents)){
-      var wids=new Set(window.agents.map(function(a){return a.id}));
-      allAgents.forEach(function(a){if(!wids.has(a.id)){window.agents.push(a);wids.add(a.id)}});
-      if(typeof window.renderCards==="function")window.renderCards();
-    }
+  /* new-agents*.json batches are merged into agents.json at build time (scripts/setup.js),
+     so a single fetch of the lite payload is enough. */
+  fetch("agents-lite.json").then(function(r){return r.json()}).catch(function(){return []})
+  .then(function(res){
+    allAgents=res;
     /* --- Dynamic count update (fixes 800 display bug) --- */
     var totalStr=allAgents.length+"+";
-    document.querySelectorAll(".hero-stat-num").forEach(function(el){el.textContent=totalStr});
+    document.querySelectorAll(".hero-stat-num").forEach(function(el){
+      if(/^\d{3,}\+?$/.test(el.textContent.trim()))el.textContent=totalStr;
+    });
     document.querySelectorAll("h1 span, .hero-title span, .hero span").forEach(function(el){
       if(/^\d{3,}\+?$/.test(el.textContent.trim()))el.textContent=totalStr;
     });

@@ -8,6 +8,7 @@
  */
 const fs = require('fs');
 const path = require('path');
+const { normalizeUrl, normalizeName } = require('./normalize-url');
 const root = path.join(__dirname, '..');
 
 // === 1. Merge all new-agents files ===
@@ -16,7 +17,10 @@ let agents;
 try { agents = JSON.parse(fs.readFileSync(agentsPath, 'utf-8')); }
 catch (e) { console.error('Cannot read agents.json:', e.message); process.exit(1); }
 
+// Dedupe by id AND by normalized URL/name so the same tool is never added twice
 const ids = new Set(agents.map(a => a.id));
+const urls = new Set(agents.map(a => normalizeUrl(a.url)).filter(Boolean));
+const names = new Set(agents.map(a => normalizeName(a.name)).filter(Boolean));
 let totalAdded = 0;
 const newFiles = fs.readdirSync(root).filter(f => /^new-agents.*\.json$/i.test(f)).sort();
 console.log('Agent files found:', newFiles.join(', ') || 'none');
@@ -25,13 +29,31 @@ newFiles.forEach(file => {
   try {
     const arr = JSON.parse(fs.readFileSync(path.join(root, file), 'utf-8'));
     let n = 0;
-    arr.forEach(a => { if (!ids.has(a.id)) { agents.push(a); ids.add(a.id); n++; } });
+    arr.forEach(a => {
+      const u = normalizeUrl(a.url);
+      const nm = normalizeName(a.name);
+      if (ids.has(a.id) || (u && urls.has(u)) || (nm && names.has(nm))) return;
+      agents.push(a); ids.add(a.id); if (u) urls.add(u); if (nm) names.add(nm); n++;
+    });
     totalAdded += n;
     console.log('  ' + file + ': +' + n);
   } catch (e) { console.error('  ' + file + ': ERROR ' + e.message); }
 });
 
-if (totalAdded > 0) fs.writeFileSync(agentsPath, JSON.stringify(agents, null, 2), 'utf-8');
+if (totalAdded > 0) fs.writeFileSync(agentsPath, JSON.stringify(agents), 'utf-8');
+
+// === 1b. Generate agents-lite.json (only the fields index.html needs) ===
+// Keeps the homepage payload small; agent.html still uses full agents.json.
+const LITE_FIELDS = ['id','name','name_ar','description','description_en','category','category_ar',
+  'tags','tags_en','pricing_type','featured','logo','url','affiliate_url',
+  'added_date','open_source','has_free_trial'];
+const lite = agents.map(a => {
+  const o = {};
+  LITE_FIELDS.forEach(k => { if (a[k] !== undefined && a[k] !== null && a[k] !== '') o[k] = a[k]; });
+  return o;
+});
+fs.writeFileSync(path.join(root, 'agents-lite.json'), JSON.stringify(lite), 'utf-8');
+console.log('agents-lite.json generated: ' + lite.length + ' agents');
 const count = agents.length;
 const cp = count + '+';
 console.log('Total agents: ' + count + ' (+' + totalAdded + ' new)');
