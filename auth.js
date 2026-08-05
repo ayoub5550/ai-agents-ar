@@ -322,26 +322,15 @@
     buildNewsSection();
     updateAuthUI();
 
-    // Load agents for news
-    Promise.all([
-      fetch('agents.json').then(function(r) { return r.json(); }).catch(function() { return []; }),
-      fetch('new-agents.json').then(function(r) { return r.json(); }).catch(function() { return []; })
-    ]).then(function(res) {
-      allAgents = res[0];
-      var ids = new Set(allAgents.map(function(a) { return a.id; }));
-      res[1].forEach(function(a) { if (!ids.has(a.id)) { allAgents.push(a); ids.add(a.id); } });
-      // Also try expansion files
-      var files = [];
-      for (var i = 1; i <= 8; i++) files.push('new-agents-expansion-' + i + '.json');
-      Promise.all(files.map(function(f) {
-        return fetch(f).then(function(r) { return r.ok ? r.json() : []; }).catch(function() { return []; });
-      })).then(function(batches) {
-        batches.forEach(function(b) {
-          b.forEach(function(a) { if (!ids.has(a.id)) { allAgents.push(a); ids.add(a.id); } });
-        });
+    // Load agents for news — batch files are already merged into agents.json
+    // at build time (scripts/setup.js), one lite fetch is enough.
+    fetch('agents-lite.json')
+      .then(function(r) { return r.json(); })
+      .catch(function() { return []; })
+      .then(function(res) {
+        allAgents = res;
         populateNews();
       });
-    });
   }
 
   if (document.readyState === 'loading') {

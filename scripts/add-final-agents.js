@@ -14,12 +14,16 @@ let agents;
 try { agents = JSON.parse(fs.readFileSync(agentsPath, 'utf-8')); }
 catch (e) { console.error('Cannot read agents.json:', e.message); process.exit(1); }
 
+const { normalizeUrl, normalizeName } = require('./normalize-url');
 const ids = new Set(agents.map(a => a.id));
+const urls = new Set(agents.map(a => normalizeUrl(a.url)).filter(Boolean));
+const names = new Set(agents.map(a => normalizeName(a.name)).filter(Boolean));
 let added = 0;
 
 for (const entry of data) {
   const [id, name, nameAr, cat, desc, pt, url, tags] = entry;
-  if (ids.has(id)) { console.log('  Skip: ' + id); continue; }
+  if (ids.has(id) || urls.has(normalizeUrl(url)) || names.has(normalizeName(name))) { console.log('  Skip: ' + id); continue; }
+  urls.add(normalizeUrl(url)); names.add(normalizeName(name));
   agents.push({
     id, name, name_ar: nameAr,
     category: cat, category_ar: catAr[cat] || cat,
@@ -45,6 +49,6 @@ for (const entry of data) {
 }
 
 if (added > 0) {
-  fs.writeFileSync(agentsPath, JSON.stringify(agents, null, 2), 'utf-8');
+  fs.writeFileSync(agentsPath, JSON.stringify(agents), 'utf-8');
 }
 console.log('Total added: ' + added + '. Directory: ' + agents.length + ' agents');
