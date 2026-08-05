@@ -59,8 +59,9 @@ body, .card, nav, .hero, .newsletter-section, footer, .filter-btn, .price-btn, #
   .nav-cta { gap: 4px !important; }
   .nav-cta a, .nav-cta button { padding: 6px 10px !important; font-size: 0.75rem !important; }
   .auth-btn { padding: 6px 10px !important; font-size: 0.75rem !important; }
+  .theme-toggle { padding: 4px 8px !important; font-size: 0.9rem !important; }
   /* Search */
-  #search, .search-bar input { font-size: 0.85rem !important; padding: 10px 14px !important; }
+  #search, .search-bar input { font-size: 0.85rem !important; padding: 10px 14px !important; padding-inline-start: 44px !important; }
   /* Filter pills - horizontal scroll */
   #catFilters, .filter-section {
     display: flex !important;
