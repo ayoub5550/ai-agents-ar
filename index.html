@@ -783,11 +783,11 @@ function renderCards() {
             <div class="card-tags">${tagsHtml}</div>
             <div class="card-bottom">
                 <div class="card-rating" onclick="openRating('${a.id}','${a.name.replace(/'/g,"\\'")}')">
-                    <span class="stars" id="stars-${a.id}">★★★★★</span>
-                    <span class="r-count" id="rc-${a.id}">(0)</span>
+                    <span class="stars" id="stars-${a.id}">☆☆☆☆☆</span>
+                    <span class="r-count" id="rc-${a.id}"></span>
                 </div>
                 <div class="card-btns">
-                    <a href="agent.html?id=${a.id}" class="btn-detail">${t.details}</a>
+                    <a href="tools/${a.id}.html" class="btn-detail">${t.details}</a>
                     <a href="${a.affiliate_url || a.url}" target="_blank" rel="noopener" class="btn-visit">${t.visit}</a>
                 </div>
             </div>
@@ -817,7 +817,7 @@ function updateStars(id) {
     const el = document.getElementById('stars-'+id);
     const rc = document.getElementById('rc-'+id);
     if (!el) return;
-    if (r.length === 0) { el.style.color = '#CBD5E1'; return; }
+    if (r.length === 0) { el.style.color = '#CBD5E1'; el.textContent = '☆☆☆☆☆'; if (rc) rc.textContent = lang==='ar' ? 'قيّم' : 'Rate'; return; }
     const avg = r.reduce((s,x) => s+x.r, 0) / r.length;
     const full = Math.round(avg);
     el.textContent = '★'.repeat(full) + '☆'.repeat(5-full);

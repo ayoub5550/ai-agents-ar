@@ -148,4 +148,7 @@ if (html !== orig) {
 } else {
   console.log('index.html already up to date');
 }
+// === 6. Regenerate static tool pages + sitemap ===
+try { require('./generate-tool-pages.js'); } catch (e) { console.error('tool page generation failed:', e.message); }
+
 console.log('\nSetup complete!');

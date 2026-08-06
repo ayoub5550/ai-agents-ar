@@ -95,8 +95,10 @@
     var lang=getLang();
     Array.from(grid.children).forEach(function(card,i){
       if(!card.getAttribute("data-agent-id")){
-        var a=card.querySelector('a[href*="agent.html"]');
-        if(a){var m=a.href.match(/[?&]id=([^&]+)/);if(m)card.setAttribute("data-agent-id",m[1])}
+        var did=card.getAttribute("data-id");
+        if(did){card.setAttribute("data-agent-id",did)}
+        else{var a=card.querySelector('a[href*="agent.html"]');
+        if(a){var m=a.href.match(/[?&]id=([^&]+)/);if(m)card.setAttribute("data-agent-id",m[1])}}
       }
       var id=card.getAttribute("data-agent-id");if(!id)return;
       card.style.position="relative";
