@@ -479,6 +479,9 @@
   <link rel="stylesheet" href="enhancements.css">
   <link rel="stylesheet" href="auth.css">
   <link rel="stylesheet" href="fixes.css">
+  <meta name="theme-color" content="#7C3AED">
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
 </head>
 <body>
     <!-- NAV -->
@@ -731,10 +734,19 @@ function toggleLang() {
     applyLang();
 }
 
+// ═══ Arabic-aware search normalization ═══
+function normalizeArabic(s) {
+    return s
+        .replace(/[\u064B-\u0652\u0640]/g, '')  // tashkeel + tatweel
+        .replace(/[\u0623\u0625\u0622]/g, '\u0627') // أ إ آ -> ا
+        .replace(/\u0629/g, '\u0647')              // ة -> ه
+        .replace(/\u0649/g, '\u064A');             // ى -> ي
+}
+
 // ═══ Render Cards ═══
 function renderCards() {
     const grid = document.getElementById('grid');
-    const q = document.getElementById('search').value.toLowerCase().trim();
+    const q = normalizeArabic(document.getElementById('search').value.toLowerCase().trim());
     const t = i18n[lang];
     
     let html = '';
@@ -752,7 +764,7 @@ function renderCards() {
         
         // Search filter
         if (q) {
-            const searchText = (a.name + ' ' + (a.name_ar||'') + ' ' + desc + ' ' + tags.join(' ')).toLowerCase();
+            const searchText = normalizeArabic((a.name + ' ' + (a.name_ar||'') + ' ' + desc + ' ' + tags.join(' ')).toLowerCase());
             if (!searchText.includes(q)) continue;
         }
         
@@ -902,5 +914,6 @@ fetch('agents-lite.json')
   <script src="auth.js" defer></script>
   <script src="fixes.js" defer></script>
   <script src="ads.js" defer></script>
+  <script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('sw.js').catch(function(){})})}</script>
 </body>
 </html>
