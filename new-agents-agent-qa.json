@@ -1,0 +1,50 @@
+[
+  {
+    "id": "agent-qa",
+    "name": "Agent QA",
+    "name_ar": "Agent QA",
+    "category": "infrastructure",
+    "category_ar": "بنية تحتية",
+    "description": "حزمة لضمان جودة وكلاء الذكاء الاصطناعي تنسّق خطط اختبار API وCLI والمتصفح والأجهزة المحمولة، وتحفظ أدلة الفيديو والشبكة.",
+    "official_description": "حزمة لضمان جودة وكلاء الذكاء الاصطناعي تنسّق خطط اختبار باللغة الطبيعية لواجهات API وCLI والمتصفح والأجهزة المحمولة، وتحفظ أدلة الفيديو والشبكة، وتوفر واجهتي CLI وMCP عبر stdio. الإصدار الحالي متاح المصدر بترخيص FSL-1.1-ALv2 ويتحول إلى Apache-2.0 بعد عامين من نشره؛ وقد يفرض مزودو النماذج والمتصفح والأجهزة رسوماً منفصلة.",
+    "features": [
+      "خطط اختبار API وCLI",
+      "اختبارات المتصفح والأجهزة المحمولة",
+      "أدلة فيديو وشبكة",
+      "واجهة CLI",
+      "خادم MCP عبر stdio"
+    ],
+    "pricing": "لا رسوم للأداة؛ قد تُطبق رسوم منفصلة من مزودي النماذج والمتصفح والأجهزة",
+    "pricing_type": "free",
+    "has_free_trial": false,
+    "free_trial_details": "",
+    "url": "https://github.com/vostride/agent-qa",
+    "affiliate_url": "",
+    "logo": "https://github.com/vostride.png",
+    "tags": [
+      "اختبار وكلاء الذكاء الاصطناعي",
+      "ضمان الجودة",
+      "MCP",
+      "أتمتة المتصفح"
+    ],
+    "featured": false,
+    "open_source": false,
+    "added_date": "2026-08-17",
+    "best_for": "فرق البرمجيات التي تتحقق من سلوك وكلاء الذكاء الاصطناعي من طرف إلى طرف",
+    "description_en": "QA toolkit for AI agents that coordinates natural-language API, CLI, browser, and mobile test plans, retains video and network evidence, and exposes CLI and MCP stdio interfaces.",
+    "tags_en": [
+      "AI agent testing",
+      "quality assurance",
+      "MCP",
+      "browser automation"
+    ],
+    "features_en": [
+      "API and CLI test plans",
+      "Browser and mobile testing",
+      "Video and network evidence",
+      "CLI interface",
+      "MCP over stdio"
+    ],
+    "best_for_en": "Software teams validating end-to-end AI-agent behavior"
+  }
+]
