@@ -5,16 +5,16 @@
     "name_ar": "Agent QA",
     "category": "infrastructure",
     "category_ar": "بنية تحتية",
-    "description": "حزمة لضمان جودة وكلاء الذكاء الاصطناعي تنسّق خطط اختبار API وCLI والمتصفح والأجهزة المحمولة، وتحفظ أدلة الفيديو والشبكة.",
-    "official_description": "حزمة لضمان جودة وكلاء الذكاء الاصطناعي تنسّق خطط اختبار باللغة الطبيعية لواجهات API وCLI والمتصفح والأجهزة المحمولة، وتحفظ أدلة الفيديو والشبكة، وتوفر واجهتي CLI وMCP عبر stdio. الإصدار الحالي متاح المصدر بترخيص FSL-1.1-ALv2 ويتحول إلى Apache-2.0 بعد عامين من نشره؛ وقد يفرض مزودو النماذج والمتصفح والأجهزة رسوماً منفصلة.",
+    "description": "أداة لضمان جودة تطبيقات الويب والأجهزة المحمولة باستخدام اختبارات باللغة الطبيعية، مع ذاكرة تشغيل وواجهات CLI ولوحة تحكم وMCP.",
+    "official_description": "أداة لاختبار تطبيقات الويب وAndroid وiOS باللغة الطبيعية، مع ذاكرة تشغيل تساعد في الاختبارات اللاحقة والتكيف مع تغييرات واجهة المستخدم. توفر واجهة CLI ولوحة تحكم وخادم MCP. الإصدار الحالي متاح المصدر بترخيص FSL-1.1-ALv2، ويتحول كل إصدار إلى Apache-2.0 بعد عامين من نشره؛ وقد يفرض مزودو النماذج والمتصفح والأجهزة رسوماً منفصلة.",
     "features": [
-      "خطط اختبار API وCLI",
-      "اختبارات المتصفح والأجهزة المحمولة",
-      "أدلة فيديو وشبكة",
-      "واجهة CLI",
-      "خادم MCP عبر stdio"
+      "اختبارات باللغة الطبيعية لتطبيقات الويب وAndroid وiOS",
+      "ذاكرة تشغيل دائمة",
+      "التكيف مع تغييرات واجهة المستخدم",
+      "واجهة CLI ولوحة تحكم",
+      "خادم MCP"
     ],
-    "pricing": "لا رسوم للأداة؛ قد تُطبق رسوم منفصلة من مزودي النماذج والمتصفح والأجهزة",
+    "pricing": "لا رسوم للأداة للاستخدامات المسموح بها بموجب ترخيص FSL؛ قد تُطبق رسوم منفصلة من مزودي النماذج والمتصفح والأجهزة",
     "pricing_type": "free",
     "has_free_trial": false,
     "free_trial_details": "",
@@ -22,7 +22,7 @@
     "affiliate_url": "",
     "logo": "https://github.com/vostride.png",
     "tags": [
-      "اختبار وكلاء الذكاء الاصطناعي",
+      "اختبار التطبيقات",
       "ضمان الجودة",
       "MCP",
       "أتمتة المتصفح"
@@ -30,21 +30,21 @@
     "featured": false,
     "open_source": false,
     "added_date": "2026-08-17",
-    "best_for": "فرق البرمجيات التي تتحقق من سلوك وكلاء الذكاء الاصطناعي من طرف إلى طرف",
-    "description_en": "QA toolkit for AI agents that coordinates natural-language API, CLI, browser, and mobile test plans, retains video and network evidence, and exposes CLI and MCP stdio interfaces.",
+    "best_for": "فرق البرمجيات التي تتحقق من تدفقات المستخدم وتكتشف الانحدارات في تطبيقات الويب والأجهزة المحمولة.",
+    "description_en": "Source-available tool for natural-language web, Android, and iOS application tests, with persistent execution memory, recovery from UI changes, and CLI, dashboard, and MCP interfaces.",
     "tags_en": [
-      "AI agent testing",
+      "application testing",
       "quality assurance",
       "MCP",
       "browser automation"
     ],
     "features_en": [
-      "API and CLI test plans",
-      "Browser and mobile testing",
-      "Video and network evidence",
-      "CLI interface",
-      "MCP over stdio"
+      "Natural-language web, Android, and iOS tests",
+      "Persistent execution memory",
+      "Recovery from UI changes",
+      "CLI and dashboard",
+      "MCP server"
     ],
-    "best_for_en": "Software teams validating end-to-end AI-agent behavior"
+    "best_for_en": "Software teams validating user flows and detecting web and mobile application regressions"
   }
 ]
